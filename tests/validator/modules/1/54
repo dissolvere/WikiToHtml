@@ -1,0 +1,618 @@
+Ćwiczenie 12.3
+
+
+
+{ Oblicz, dla jakiego wychylenia x
+
+energie kinetyczna i potencjalna są sobie równe?}
+
+{ Wynik zapisz poniżej.}
+
+{ Wskazówka: Dla poszukiwanego wychylenia
+
+x energia potencjalna jest równa energii kinetycznej jest więc
+
+zarazem równa połowie energii całkowitej.}
+
+{ x =}
+
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+
+
+Możesz prześledzić energię kinetyczną,
+
+potencjalną i całkowitą w ruchu drgającym.sf{ }korzystając z
+
+darmowego programu komputerowego „Drgania swobodne” dostępnego na
+
+stronie WWW autora.
+
+
+ Ćwiczenie 12.2 wahadlo fizyczne
+
+{ Spróbuj teraz samodzielnie obliczyć okres wahań
+
+cienkiej obręczy o masie m i promieniu R zwieszonej
+
+na gwoździu G, jak na rysunku. Wynik zapisz poniżej.}
+
+
+ 
+
+{
+
+{img fileId="
+178
+"}
+
+{ T =}
+
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+
+
+
+
+
+!#      Rozwiązania ćwiczeń z modułu III
+
+{
+
+Ćwiczenie 11.1}
+
+{
+
+Dane: v = 1.25 m/s. l = 5.55 km.
+
+d{OPENAGHMATHJAX()}_{zew}{OPENAGHMATHJAX} = 12 cm,
+
+d{OPENAGHMATHJAX()}_{wew}{OPENAGHMATHJAX} = 2.5 cm.}
+
+{
+
+Do obliczenia prędkości kątowej korzystamy ze wzoru (11.1) {OPENAGHMATHJAX()}{\omega
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=\frac{v}{R}}{OPENAGHMATHJAX}}
+
+{
+
+
+
+Podstawiając dane otrzymujemy: {{OPENAGHMATHJAX()}\omega{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{min}{OPENAGHMATHJAX} = 20.8 rad/s, {{OPENAGHMATHJAX}\omega{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{max}{OPENAGHMATHJAX} = 100 rad/s.}
+
+{
+
+Przyspieszenie kątowe (średnie) jest zgodnie z równaniem (11.3) dane
+
+zależnością}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\alpha =\frac{{\Delta \omega }}{t}=\frac{\omega_{{{max}}}-\omega _{{{min}}}}{t}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Czas t, w którym prędkość zmieniła się od minimalnej do
+
+maksymalnej obliczamy z zależności dla ruchu jednostajnego}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{t=\frac{l}{v}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Łącząc ostatnie dwa równania otrzymujemy {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} = 0.18
+
+rad/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. }
+
+{
+
+Ćwiczenie 11.2}
+
+{
+
+Dane: F{OPENAGHMATHJAX()}_{2 }{OPENAGHMATHJAX}= 5 N, R/r = 10}
+
+{
+
+Ponieważ prędkość kątowa jest stała więc dL/dt = 0 i
+
+wypadkowy moment sił jest równy zeru}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau _{{{wyp}}}=(\tau _{{1}}-\tau _{{2}})=0}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+czyli}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\tau _{{1}}=\tau _{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+skąd}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{rF}_{{1}}={RF}_{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Ostatecznie więc}
+
+{
+
+{OPENAGHMATHJAX()}{F_{{1}}=\frac{R}{r}F_{{2}}}{OPENAGHMATHJAX} = 50N
+
+{
+
+Ćwiczenie 11.3}
+
+{
+
+Dane: M, d, oś obrotu jest prostopadła do pręta i
+
+przechodzi przez jeden z jego końców tak jak na rysunku poniżej.}
+
+
+
+
+
+
+
+{ {img fileId="193"}
+
+{
+
+Moment bezwładności pręta względem osi przechodzącej przez środek pręta
+
+(zarazem jego środek masy) wynosi (patrz tabela 11.3)}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{I_{{{śr}{.}m{.}}}=\frac{1}{{12}}{Md}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Natomiast moment bezwładności względem osi obrotu przechodzącej przez
+
+koniec pręta obliczamy z twierdzenia Steinera}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{I=I_{{{śr}{.}m{.}}}+{Ma}^{{2}}=\frac{1}{{12}}{Md}^{{2}}+M\left(\frac{d}{2}\right)^{{2}}=\frac{1}{3}{Md}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Ćwiczenie 11.4}
+
+{
+
+Dane: m, R, h.}
+
+{
+
+Oba ciała (walec i kula) mają na wysokości h taką samą energię
+
+potencjalną równą E{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX} = mgh,
+
+która u podnóża równi zamienia się na energię kinetyczną ciała
+
+toczącego się. Jeżeli toczenie potraktujemy jako złożenie ruchu
+
+postępowego i obrotowego względem osi przechodzącej przez środka masy
+
+to zgodnie z zasadą zachowania energii}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{{mgh}=\frac{{mv}^{{2}}}{2}+\frac{{I\omega}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Ponieważ ciała toczą się bez poślizgu więc {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} =
+
+v/R (równanie 11.1). Podstawiając
+
+odpowiednie wartość momentu bezwładności
+
+{OPENAGHMATHJAX()}{I_{{{walca}}}=\frac{1}{2}{MR}^{{2}}}{OPENAGHMATHJAX}
+
+oraz
+
+{OPENAGHMATHJAX()}{I_{{{kuli}}}=\frac{2}{5}{MR}^{{2}}}{OPENAGHMATHJAX}
+
+możemy rozwiązując powyższe równanie obliczyć prędkości walca i kuli u
+
+dołu równi}
+
+
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{v_{{{walca}}}=\sqrt{\frac{4}{3}{gh}}}\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{{{kuli}}}=\sqrt{\frac{{10}}{7}{gh}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Różne wartości prędkości wynikają z różnych wartości momentu
+
+bezwładności, a co za tym idzie z różnych wartości energii ruchu
+
+obrotowego.}
+
+{
+
+Gdyby te ciała zsuwały się z równi to ich energia potencjalna
+
+zamieniałaby się na energię kinetyczną ruchu postępowego, a ponieważ
+
+ich masy są jednakowe więc i prędkości u dołu równi też byłyby
+
+jednakowe i równe}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\sqrt{2{gh}}}\end{equation}{OPENAGHMATHJAX}
+
+\clearpage{
+
+Ćwiczenie 12.2}
+
+{
+
+Dane: m, R}
+
+{
+
+Okres drgań obręczy obliczamy ze wzoru (12.17)}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{T=2\pi \sqrt{\frac{I}{{mgd}}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Odległość pomiędzy punktem zawieszenia (osią obrotu), a środkiem masy
+
+d = R. Natomiast moment bezwładności względem osi
+
+obrotu (przechodzącej przez punkt G) obliczamy z twierdzenia
+
+Steinera}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{I_{{G}}=I_{{{śr}{.}m{.}}}+{ma}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+gdzie moment bezwładności obręczy względem osi przechodzącej przez
+
+środek masy
+
+{OPENAGHMATHJAX()}{I_{{{śr}{.}m{.}}}={mR}^{{2}}}{OPENAGHMATHJAX},
+
+a odległość między osiami obrotu a = R. Podstawiając
+
+te wartości otrzymujemy}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{T=2\pi \sqrt{\frac{2R}{g}}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Ćwiczenie 12.3}
+
+{
+
+Dane: E{OPENAGHMATHJAX()}_{k}{OPENAGHMATHJAX} =
+
+E{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX}}
+
+{
+
+Dla poszukiwanego wychylenia x energia potencjalna jest równa
+
+energii kinetycznej jest więc zarazem równa połowie energii całkowitej}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E_{{p}}=\frac{1}{2}E}\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{{kx}^{{2}}}{2}=\frac{1}{2}\frac{{kA}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+{
+
+Skąd otrzymujemy}
+
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x=\frac{A\sqrt{2}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+\clearpage\setcounter{page}{1}\pagestyle{Convertvi}
+
+
+
+
+
+
+
+!#      Test III
+
+\liststyleWWviiiNumvii
+
+
+
+
+
+
+
+#{
+
+Na rysunku poniżej pokazano kulkę o masie m zawieszoną na końcu
+
+sznurka o długości L poruszającą się w płaszczyźnie poziomej,
+
+po okręgu ze stałą prędkością v. Gdy kulka zatacza
+
+okrąg, sznurek porusza się po powierzchni stożkowej i dlatego wahadło
+
+to nazywamy wahadłem stożkowym. Znajdź czas, w jakim kulka wykonuje
+
+jeden pełny obrót.}
+
+
+
+
+
+
+
+{ {img fileId="194"}
+
+\liststyleWWviiiNumvii
+
+\setcounter{saveenum}{\value{enumi}}
+
+\setcounter{enumi}{\value{saveenum}}
+
+
+
+
+
+
+
+#{
+
+Niewielkie ciało ześlizguje się bez tarcia z powierzchni półkuli o
+
+promieniu R. Na jakiej wysokości ciało oderwie się od niej?}
+
+
+
+
+
+
+
+#{
+
+Na końcach pręta o długości 0.4 m, zamocowane są małe kule o masie
+
+m = 0.2 kg każda. Oblicz moment bezwładności tego układu
+
+względem osi prostopadłej do pręta, przechodzącej przez: a) środek
+
+pręta, b) przez jego koniec. Masa pręta M = 0.4 kg.}
+
+
+
+
+
+
+
+#{
+
+Na obwodzie jednorodnego krążka o masie M = 1 kg i promieniu
+
+R = 10 cm nawinięta jest lekka nitka. Do końca nitki
+
+przymocowane jest ciało o masie m = 0.5 kg. Znajdź
+
+przyspieszenie kątowe krążka, i przyspieszenie styczne ciała o masie
+
+m. Jakie jest naprężenie nitki? Krążek obraca się bez tarcia.}
+
+
+
+
+
+
+
+{ {img fileId="195"}
+
+\liststyleWWviiiNumvii
+
+\setcounter{saveenum}{\value{enumi}}
+
+\setcounter{enumi}{\value{saveenum}}
+
+
+
+
+
+
+
+#{
+
+Mamy do dyspozycji sprężynę, którą można rozciągnąć o 2cm przykładając
+
+do niej siłę 8 N. Sprężynę zamocowano poziomo i do jej końca
+
+przyczepiono ciało o masie 1 kg. Następnie rozciągnięto ją o 4 cm od
+
+położenia równowagi i puszczono. Ponieważ ciało ślizga się po
+
+powierzchni bez tarcia zatem wykonuje ruch harmoniczny prosty. Oblicz
+
+(a) współczynnik sprężystości sprężyny (b) siłę z jaką działa sprężyna
+
+na ciało zaraz po jego puszczeniu? (c) okres drgań, (d) amplitudę
+
+ruchu, (e) maksymalna prędkość drgającego ciała, (f) maksymalne
+
+przyspieszenie ciała?}
+
+
+
+
+
+
+
+#{
+
+Ciało znajduje się na poziomej powierzchni, która porusza się poziomo
+
+prostym ruchem harmonicznym z częstotliwością dwóch drgań na sekundę.
+
+Współczynnik tarcia statycznego między ciałem a tą powierzchnią wynosi
+
+1. Jak duża może być amplituda tego ruchu, aby ciało nie ślizgało się
+
+po powierzchni?}
+
+
+
+
+
+
+
+#{
+
+W jakiej odległości od środka należy zamocować jednorodny pręt o
+
+długości l = 1 m, aby pręt tworzył wahadło fizyczne o
+
+najmniejszym okresie?}
+
+
+
+
+
+
+
+#{
+
+Oblicz jaki jest współczynnik tłumienia {OPENAGHMATHJAX()}{\beta{OPENAGHMATHJAX}} ruchu
+
+harmonicznego jeżeli jego amplituda maleje dwukrotnie w czasie
+
+t = 1 min. Ile razy zmalała w tym czasie energia drgań?}
+
+
+===============================================================================================
+
+FALE
+
+
+Ćwiczenie 13.1
+
+{ Teraz samodzielnie spróbuj przeanalizować
+następujące równanie fali poprzecznej}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{y={20}\sin({\pi x}-2t)}\end{equation}{OPENAGHMATHJAX}
+{ gdzie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} są wyrażone w
+centymetrach, a {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} w sekundach. Porównaj to równanie z ogólnym
+równaniem (13.8) dla harmonicznej fali poprzecznej i wyznac
+znastępujące wielkości: długość fali {OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX}, częstość
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, okres {OPENAGHMATHJAX()}T{OPENAGHMATHJAX}, prędkość rozchodzenia się fali (w
+kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}), maksymalną prędkość i maksymalne przyspieszenie
+cząstek ośrodka w ich ruchu drgającym (w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}). Wyniki
+zapisz poniżej.}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+
+doppler
+Ćwiczenie 13.3
+
+Typowym przykładem efektu Dopplera jest zmiana częstotliwości dźwięku klaksonu samochodu przejeżdżającego koło nas.
+Słyszymy, że klakson ma wyższy ton gdy samochód zbliża się do nas, a
+niższy gdy się oddala. Załóżmy, że podczas mijania nas przez samochód
+rejestrujemy obniżenie częstotliwości klaksonu o 15\informacji sprawdź czy samochód nie przekroczył dozwolonej, poza
+obszarem zabudowanym, prędkości 90 km/h. Prędkość dźwięku przyjmij
+równą 340 m/s.}
+{ Wynik zapisz poniżej.}
+{ {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+Ćwiczenie 13.2
+
+{ Innym przykładem jest piszczałka organowa
+zamknięta, w której źródłem dźwięku jest drgające powietrze. Jeżeli na
+krawędź otwartego końca piszczałki skierujemy strumień powietrza to
+można w niej wytworzyć falę stojącą. Na otwartym końcu piszczałki
+powstaje strzałka, a na jej końcu zamkniętym węzeł. Spróbuj wykreślić,
+drganie podstawowe i trzy pierwsze drgania harmoniczne jakie powstają w
+piszczałce zamkniętej. Przyjmując, że długość piszczałki wynosi
+L, oblicz długości tych fal. Jaki ogólny związek opisuje
+długości fal stojących w piszczałce zamkniętej? Zapisz wzór poniżej.}
+{ {OPENAGHMATHJAX()}{\lambda{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.

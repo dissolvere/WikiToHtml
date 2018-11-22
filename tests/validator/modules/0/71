@@ -1,0 +1,20 @@
+ 
+
+Jeszcze przed sformułowaniem przez Newtona prawa powszechnego ciążenia, Johannes Kepler zauważył, że ruch planet stosuje się do trzech prostych praw, które zgadzały się z wynikami pomiarowymi pozycji planet z bardzo dużą dokładnością.
+
+{OPENAGHLAW( name="Pierwsze prawo Keplera")}Każda planeta krąży po orbicie eliptycznej, ze Słońcem w jednym z ognisk tej elipsy. {OPENAGHLAW}
+
+{OPENAGHLAW( name=" Drugie prawo Keplera (prawo równych pól)")}Linia łącząca Słońce i planetę zakreśla równe pola w równych odstępach czasu. {OPENAGHLAW}
+
+{OPENAGHLAW( name="Trzecie prawo Keplera")} Sześciany półosi wielkich orbit dowolnych dwóch planet mają się do siebie jak kwadraty ich okresów obiegu (półoś wielka jest połową najdłuższej cięciwy elipsy). {OPENAGHLAW}
+
+Z drugiego prawa Keplera (zilustrowanego na rysunku 6.2) wynika, że planety (lub naturalne satelity) powinny poruszać się szybko w pobliżu Słońca (gdy wektor {OPENAGHMATHJAX()}R(t){OPENAGHMATHJAX} jest najkrótszy) i coraz wolniej w miarę oddalania się od Słońca (gdy wektor {OPENAGHMATHJAX()}R(t){OPENAGHMATHJAX} rośnie). Dobrym przykładem jest kometa Halleya, która obiega Słońce w ciągu 76 lat, z czego tylko 1 rok spędza w pobliżu Słońca (jest wtedy niewidoczna z Ziemi).
+
+Newton pokazał, że prawa Keplera można wyprowadzić z zasad dynamiki. Pokazał na przykład, że tylko wtedy, gdy siła jest odwrotnie proporcjonalna do kwadratu odległości to spełnione są pierwsze i trzecie prawo Keplera.
+
+{img fileId="
+357
+"}
+Rys. 6.2. Wektor {OPENAGHMATHJAX()}R(t){OPENAGHMATHJAX} zakreśla równe pola w równych odstępach czasu
+
+O związku między zasadami dynamiki Newtona, a prawami Keplera możesz przeczytać w ((Prawa Keplera a zasady dynamiki Newtona)).

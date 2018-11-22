@@ -1,0 +1,54 @@
+ Przejdziemy teraz do opisu ruchu płynu czyli zajmiemy się dynamiką płynów. Znane są dwa podejścia do opisu ruchu płynu. Możemy albo zająć się opisem ruchu poszczególnych cząsteczek płynu albo opisywać gęstość płynu i jego prędkość w każdym punkcie przestrzeni w funkcji czasu. Oznacza to, że koncentrujemy się na wybranym punkcie przestrzeni, w którym definiujemy funkcje {{OPENAGHMATHJAX()}\rho(x,y,z,t){OPENAGHMATHJAX} oraz
+{OPENAGHMATHJAX()}v(x,y,z,t){OPENAGHMATHJAX}.
+
+Na wstępie poznamy ogólne pojęcia charakteryzujące przepływ:
+\liststyleWWviiiNumv
+*{
+Przepływ może być __ustalony__ (laminarny) lub __nieustalony__.
+Ruch płynu jest ustalony, gdy prędkość płynu v w dowolnie wybranym punkcie jest stała w czasie tzn. każda cząsteczka przechodząca przez dany punkt zachowuje się tak samo. Warunki takie osiąga się przy niskich prędkościach przepływu;}
+*{
+Przepływ może być __wirowy__ lub __bezwirowy__. Przepływ jest bezwirowy, gdy w żadnym punkcie cząsteczka nie ma wypadkowej prędkości kątowej;}
+*{
+Przepływ może być __ściśliwy__ lub __nieściśliwy__. Przepływ jest nieściśliwy gdy gęstość płynu jest stała. Zazwyczaj przepływ cieczy jest nieściśliwy. Również przepływ gazu może być w pewnych warunkach nieściśliwy. Przykładem może tu być ruch powietrza względem skrzydeł samolotu podczas lotu z prędkością mniejszą od prędkości dźwięku.}
+*{
+Przepływ może być __lepki__ lub __nielepki__. Lepkość w ruchu płynów jest odpowiednikiem tarcia w ruchu ciał stałych. Charakteryzuje opór płynów przeciw płynięciu pod działaniem sił zewnętrznych. Lepkość jest istotną cechą wielu produktów na przykład smarów.}
+
+W naszych rozważaniach ograniczymy się do przepływów ustalonych, bezwirowych, nieściśliwych i nielepkich.
+
+W przepływie ustalonym {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} jest stała w czasie w danym punkcie. Oznacza to, że każda cząstka przechodząca przez dowolny punkt ma taką samą prędkość np. {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX}. Tak samo jest w kolejnym punkcie gdzie każda cząstka ma prędkość {OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX}. Dotyczy to wszystkich punktów. Oznacza to, że wystarczy prześledzić tor jednej cząstki, a będziemy znali tor każdej cząstki przechodzącej przez dany punkt. Tor tej cząstki nazywamy __linią prądu__ (rysunek poniżej). Linia prądu jest
+równoległa do prędkości płynu. Żadne linie prądu nie mogą się przecinać bo istniałaby niejednoznaczność w wyborze drogi przez cząstkę (przepływ nie byłby ustalony).
+{img fileId="378" } 
+Rys. 14.5. Linie prądu
+
+Jeżeli wybierzemy pewną skończoną liczbę linii prądu to taką wiązkę nazywamy __strugą prądu__. Brzegi składają się z linii prądu a ponieważ linie prądu są równoległe do prędkości więc płyn nie przepływa przez brzegi strugi. Płyn wchodzący jednym końcem strugi musi opuścić ją drugim tak jak w rurce. Na rysunku poniżej prędkość cząstek w punkcie {OPENAGHMATHJAX()}P_{1}{OPENAGHMATHJAX} wynosi {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX}, a pole przekroju strugi {OPENAGHMATHJAX()}S_{1}{OPENAGHMATHJAX}. W punkcie {OPENAGHMATHJAX()}P_{2}{OPENAGHMATHJAX} mamy
+odpowiednio prędkość {OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX} i pole przekroju {OPENAGHMATHJAX()}S_{2}{OPENAGHMATHJAX}.
+{img fileId="387" } 
+Rys. 14.6. Struga prądu.
+
+W czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} cząstka płynu przebywa odległość równą {OPENAGHMATHJAX()}v\Delta t{OPENAGHMATHJAX}. Masa płynu przechodzącego przez {OPENAGHMATHJAX()}S_{1}{OPENAGHMATHJAX} w czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} wynosi
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{{\Delta m}_{{1}}={\rho S}_{{1}}v_{{1}}{\Delta t}}
+\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}S_{1}v_{1}\Delta t{OPENAGHMATHJAX} stanowi objętość elementu płynu. Analogicznie masa płynu przepływającego przez powierzchnię {OPENAGHMATHJAX()}S_{2}{OPENAGHMATHJAX} w czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} jest równa
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{{\Delta m}_{{2}}={\rho S}_{{2}}v_{{2}}{\Delta t}}
+\end{equation}{OPENAGHMATHJAX}
+
+Ponieważ płyn jest nieściśliwy więc jego gęstość jest taka sama w punkcie {OPENAGHMATHJAX()}P_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}P_{2}{OPENAGHMATHJAX}. Ponadto między tymi punktami płyn nie może opuścić strugi więc strumienie mas przepływające przez obie powierzchnie muszą być sobie równe. Zatem
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{S_{{1}}v_{{1}}=S_{{2}}v_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+
+lub
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{{Sv}={const}{.}}
+\end{equation}{OPENAGHMATHJAX}
+
+Otrzymany związek nosi nazwę __równania ciągłości__. Wynika zniego, że
+
+Prawo, zasada, twierdzenie
+
+Prędkość płynu nieściśliwego przy ustalonym przepływie jest odwrotnie proporcjonalna do pola przekroju strugi.
+
+Linie prądu muszą się zagęszczać w węższej części, a rozrzedzać w szerszej. To znaczy, rzadko rozmieszczone linie oznaczają obszary niskiej prędkości, linie rozmieszczone gęsto obszary wysokiej prędkości.

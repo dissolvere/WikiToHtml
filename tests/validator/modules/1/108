@@ -1,0 +1,59 @@
+
+
+Ponownie rozpatrzmy układ {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} punktów materialnych. Jeżeli układ jest odosobniony, to znaczy nie działają siły zewnętrzne to zgodnie z równaniem (9.14)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{d{\bf P}}}{\mathit{dt}}=0\;\;\;\text{lub}\;\;\;{\bf P}=\text{const}\text{.}}\end{equation}{OPENAGHMATHJAX}
+[9.15]
+
+Ten warunek wyraża zasadę zachowania pędu.
+
+{OPENAGHLAW( name="Zasada zachowania pędu")}
+Jeżeli wypadkowa sił zewnętrznych działających na układ jest równa zeru, to całkowity wektor pędu układu pozostaje stały.
+{OPENAGHLAW}
+
+Zobaczymy teraz jak ta zasada stosuje się do wybranej sytuacji.
+
+{OPENAGHEXAMPLE( name="Dwa ciała połączone sprężyną")}
+
+Rozważmy dwa ciała o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} połączone nieważką sprężyną umieszczone na doskonale gładkim stole (rysunku poniżej). Odciągamy od siebie te ciała na pewną odległość, a następnie puszczamy swobodnie.
+
+{img fileId="452"} 
+Rys. 9.3. Układ dwóch mas połączonych sprężyną
+
+
+Spróbujmy opisać ruch tych ciał.
+
+Jeżeli pod pojęciem układ rozumiemy obie masy i sprężynę to na ten układ nie działa żadna siła zewnętrzna (układ odosobniony), działają tylko siły pomiędzy elementami układu. Oznacza to, że możemy do tego układu stosować zasadę zachowania pędu. Przed zwolnieniem ciał pęd układu (w odniesieniu do stołu) był równy zeru. Pęd zostaje zachowany więc pozostaje taki sam po zwolnieniu obu ciał. Chociaż poszczególne ciała poruszają się i ich pędy są różne od zera to pęd układu może być równy zeru. Pęd układu będący wielkością wektorową jest sumą ujemnego pędu ciała {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} (porusza się w kierunku {OPENAGHMATHJAX()}-x{OPENAGHMATHJAX}) i dodatniego pędu ciała {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} (porusza się w kierunku +{OPENAGHMATHJAX()}x{OPENAGHMATHJAX}). Pęd nieważkiej sprężyny jest równy zeru. Z zasady zachowania pędu wynika, że pęd początkowy układu jest równy pędowi w dowolnej chwili co możemy zapisać w postaci równania
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{0=m_{1}{\bf v}_1+m_2{\bf v}_2}\end{equation}{OPENAGHMATHJAX}
+[9.16]
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m_{{2}}{\bf v}_{{2}}=-m_{{1}}{\bf v}_{{1}}}\end{equation}{OPENAGHMATHJAX}
+[9.17]
+
+Przykładowo gdy {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} = 1 kg i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} = 2 kg to {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} jest dwukrotnie większa od {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} i ma przeciwny zwrot.
+
+{OPENAGHEXAMPLE}
+
+{openaghexercise name="Rozpad promieniotwórczy" body="
+Spróbuj teraz zastosować te samą zasadę do opisu rozpadu promieniotwórczego. Spoczywające jądro uranu emituje, z prędkością {OPENAGHMATHJAX()}10^{7}{OPENAGHMATHJAX} m/s, cząstkę {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} (jądro atomu helu ). Oblicz prędkość odrzutu powstałego w tym rozpadzie jądra toru. Stosunek masy cząstki {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} do masy jądra toru wynosi {OPENAGHMATHJAX()}M_\alpha /M_{Th}= 4/234 {OPENAGHMATHJAX}. Wynik zapiszponiżej.
+
+Wskazówka: Skorzystaj z równania (9.16)} {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{Th.}{OPENAGHMATHJAX}=
+" solution="
+Dane:{OPENAGHMATHJAX()}M_\alpha /M_{Th}= 4/234 {OPENAGHMATHJAX} (w jednostkach masyatomowej), {OPENAGHMATHJAX()}v= 10^{7}{OPENAGHMATHJAX} m/s.
+
+Ze względu na nieobecność sił zewnętrznych pęd układu, który przedrozpadem był równy zeru po rozpadzie pozostaje niezmieniony: pędpoczątkowy = pęd końcowy:
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{0=M_\text{Th}{\bf v}_\text{Th}+M_\alpha{\bf v}_\alpha}\end{equation}{OPENAGHMATHJAX}
+
+Skąd {OPENAGHMATHJAX()}v_{Th}=-2.4·10^{5}{OPENAGHMATHJAX} m/s
+"}
+
+Analogicznie posługując się zasadą zachowania pędu można wytłumaczyć zjawisko odrzutu występujące przy strzelaniu z broni palnej. Zjawiskoodrzutu ma jednak ważne praktyczne znaczenie. Zostało wykorzystane wsilnikach odrzutowych i rakietowych, w których wyrzucane spaliny nadająsamolotowi (rakiecie) przeciwnie skierowany pęd. Zjawisko to jednakróżni się od opisanych powyżej, bo w przeciwieństwie do układów gdziemasa elementów składowych pozostawała stała masa wyrzucanych spalin imasa rakiety zmieniają się.
+
+Przykład zastosowania zasad zachowania pędu dlaukładu o zmiennej masie (rakieta) możesz poznać w ((Układy o zmiennej masie)).
+
+Wiemy już, że jeżeli wypadkowa sił zewnętrznych działających na układjest równa zeru to spełniona jest zasada zachowania pędu. W takimukładzie mogą jednak działać siły wewnętrzne, na przykład siływystępujące przy zderzeniach między cząsteczkami gazu. I właśniedlatego możemy skorzystać z zasady zachowania pędu do opisu zderzeń.

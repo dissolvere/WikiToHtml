@@ -1,0 +1,11 @@
+ 
+*Praca {OPENAGHMATHJAX()}{\bf W}{OPENAGHMATHJAX} wykonana przez {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} jest iloczynem skalarnym siły {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} i wektora przesunięcia {OPENAGHMATHJAX()}{\bf s}{OPENAGHMATHJAX}. Praca wykonana przez siłę stałą  {OPENAGHMATHJAX()}W={\bf F}\cdot {\bf s}=Fs{\cos}\alpha{OPENAGHMATHJAX}, a przez siłę zmienną{OPENAGHMATHJAX()}{W=\int {{\bf F}\cdot d{\bf s}}}{OPENAGHMATHJAX}.
+* Energia kinetyczna jest definiowana jako {OPENAGHMATHJAX()}{E_{{k}}=\frac{1}{2}mv^{{2}}}{OPENAGHMATHJAX}.
+*Moc jest szybkością wykonywania pracy {OPENAGHMATHJAX()}{P=\frac{\mathit{dW}}{\mathit{dt}}}{OPENAGHMATHJAX}.
+*Jeżeli siła {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} jest siłą zachowawczą to zmiana energii potencjalnej jest równa  {OPENAGHMATHJAX()}{\mathit{\Delta E}_{{p}}=-W=-\overset{{B}}{\underset{{A}}{\int }}{{\bf F}}\cdot \mathit{d{\bf s}}}{OPENAGHMATHJAX}. Dla sił zachowawczych ta całka nie zależy od drogi od {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}, na której wykonujemy pracę, a tylko odpołożenia punktów {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}.
+*Zasada zachowania energii mechanicznej mówi, że dla ciała podlegającegodziałaniu siły zachowawczej, suma energii kinetycznej i potencjalnejjest stała. 
+*Jeżeli działają siły niezachowawcze to zamieniają one energięmechaniczną na energię wewnętrzną.
+*Grawitacyjna energia potencjalna wynosi {OPENAGHMATHJAX()}{E_{{p}}(r)=-G\frac{\text{Mm}}{r}}{OPENAGHMATHJAX}
+*Potencjał pola grawitacyjnego definiujemy jako {OPENAGHMATHJAX()}{V(r)=\frac{E_{{p}}(r)}{m}=-G\frac{M}{r}}{OPENAGHMATHJAX}
+*Zasada zachowania pędu w układzie odosobnionym mówi, że jeżeli wypadkowa sił zewnętrznych działających na układ jest równa zeru, to całkowity wektor pędu układu pozostaje stały. {OPENAGHMATHJAX()}{{\bf F}_{{\text{wyp}}}=\frac{\mathit{d{\bf P}}}{\mathit{dt}}=0\;\;\;\Rightarrow \;\;\;{\bf P}=\text{const}\text{.}}{OPENAGHMATHJAX}
+*W zderzeniu sprężystym całkowita energia kinetyczna jest takasama po zderzeniu jak przed zderzeniem podczas gdy w zderzeniuniesprężystym ciała tracą część energii kinetycznej. Kiedy dwaciała po zderzeniu łączą się mówimy, że zderzenie jestcałkowicie niesprężyste.

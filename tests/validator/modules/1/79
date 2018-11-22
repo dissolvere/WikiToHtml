@@ -1,0 +1,120 @@
+!# Granice funkcji{ANAME()}sec:cir-gr{ANAME}
+!!Definicje
+ 
+
+{OPENAGHDEFINITION( name="Punkt skupienia zbioru")}
+Niech {OPENAGHMATHJAX()}E\subset \mathbb{C}{OPENAGHMATHJAX}. Punkt {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} nazywamy punktem skupienia zbioru {OPENAGHMATHJAX()}E{OPENAGHMATHJAX} jeżeli w każdym otoczeniu {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} istnieje punkt {OPENAGHMATHJAX()}x\not =x_0, x\in E{OPENAGHMATHJAX}
+{OPENAGHDEFINITION}
+ 
+
+{OPENAGHDEFINITION( name="Granicy według Cauchy`ego")}
+Niech {OPENAGHMATHJAX()}E\subset \mathbb{C}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}a{OPENAGHMATHJAX} -punkt skupienia zbioru {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\lim_{x\to a}{f(x)}=g:\iff \forall_{\epsilon >0} \exists_{\delta >0} \forall_{x\in E}\ 0<|x-a|<\delta \Rightarrow \left|f(x)-g\right|<\epsilon{OPENAGHMATHJAX}
+
+{OPENAGHDEFINITION}{OPENAGHDEFINITION( name="Granicy według Heinego")}
+Niech {OPENAGHMATHJAX()}E\subset \mathbb{C}{OPENAGHMATHJAX} i a -punkt skupienia zbioru {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\lim_{x\to a}{f(x)}=g:\iff \forall_{\{x_n\},x_n\in E, x_n\not =a \atop \lim_{n\to \infty}{x_n}=a}\ \lim_{n\to \infty}{f(x_n)}=g{OPENAGHMATHJAX}
+{OPENAGHDEFINITION}
+ 
+
+ 
+
+!# Ciągłość funkcji
+W tym rozdziale przedstawimy ważne pojęcie, jakim jest ciągłość funkcji i podamy podstawowe własności funkcji ciągłych.
+
+Na początku, wprowadźmy definicję ciągłości funkcji w punkcie.
+
+{OPENAGHDEFINITION()}Funkcję określoną w zbiorze \(E\subset \mathbb{R} \) nazywamy ciągłą w punkcie \(a \in E\),  jeżeli\[\forall_{\varepsilon>0}\exists_{\delta>0} \forall_{x \in E}\ |x-a|<\delta \Rightarrow |f(x)-f(a)|<\varepsilon.\]{OPENAGHDEFINITION}
+Prawdziwa jest następująca uwaga:
+
+{OPENAGHANNOTATION()}1. Jeżeli \(a\) jest punktem izolowanym zbioru \(E\), to funkcja \(f\) jest ciągła w \(a\). <br \>2. Jeżeli \(a\) jest punktem skupienia zbioru \(E\), to \(f\) jest ciągła w \(a\) wtedy, i tylko wtedy gdy \( \lim_{x \to a}{f(x)}=f(a)\).{OPENAGHANNOTATION}
+ 
+
+Naturalnym uogólnieniem pojęcia ciągłości w punkcie jest ciągłości funkcji na zbiorze.
+
+{OPENAGHDEFINITION()}Mówimy, że funkcja \(f\) jest ciągła w zbiorze \(E\), jeżeli jest ciągła w każdym punkcie zbioru \(E\).{OPENAGHDEFINITION}
+ 
+
+Poniższe twierdzenie pokazuje, że wykonanie prostych działań na funkcjach ciągłych nie powoduje utraty tej własności. {ANAME()}tw:suma_ciaglych{ANAME} 
+
+{openaghtheorem thesis="Suma, różnica, iloczyn i iloraz (poza zerami mianownika) funkcji ciągłych jest funkcją ciągłą." proof="Dowód wynika z własności granic funkcji."}
+ 
+
+Oprócz badania ciągłości funkcji w punkcie, możemy też rozpatrywać bardziej szczególny przypadek ciągłości jednostronnej.
+
+{OPENAGHDEFINITION()}Funkcję \(f\) nazywamy prawostronnie ciągłą w punkcie \(a\), gdy {OPENAGHMATHJAX(type="block")} \lim_{x\to a^+}{f(x)}=f(a). {OPENAGHMATHJAX}Analogicznie, mówimy że \(f\) jest lewostronnie ciągła w punkcie \(a\), jeżeli{OPENAGHMATHJAX(type="block")}\lim_{x\to a^-}{f(x)}=f(a).{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+ 
+
+{OPENAGHANNOTATION()}Funkcja \(f\) jest ciągła w przedziale \( [[ a,b ] \) jeżeli jest ciągła w przedziale \( (a,b) \) oraz prawostronnie ciągła w punkcie \(a\) i lewostronnie ciągła w \(b\).{OPENAGHANNOTATION} 
+
+!!!Ciągłość funkcji elementarnych
+Wykażemy teraz ciągłość pewnych funkcji elementarnych.
+
+1. Funkcje \(\sin x\), \( \cos x\) są ciągłe na zbiorze \( \mathbb{R} \). 
+
+ Zauważmy, że zachodzi wzór:
+
+\( \sin (x+h) = \sin x \cos h  + \cos x \sin h \).
+
+Korzystając z tego faktu, policzmy następującą granicę:
+
+\( \lim \limits_{h \to 0} ( \sin (x+h)-\sin x ) = \lim \limits_{h \to 0} (  (\cos h -1)\sin x + \cos x \sin h) = 0+0=0 \).
+
+Oznacza to, że funkcja \( \sin x \) jest ciągła w każdym punkcie \( x \in \mathbb{R} \).
+
+Analogicznie dowodzimy ciągłości funkcji \( \cos x \), na podstawie zależności
+
+\( \cos (x+h)= \cos x \cos h - \sin x \sin h \).
+
+2. Funkcje \emph{tg} \(x \) i \( \ctg x \) są funkcjami ciągłymi na osi rzeczywistej poza zerami mianownika.
+
+Powyższy fakt wynika natychmiast z podpunktu 1. oraz twierdzenia ((Ciągłość i różniczkowalność funkcji|#tw:suma_ciaglych|1.))
+
+3. Funkcja \( a^x \) jest ciągła dla \( x \in \mathbb{R}, \ a \gt 0 \)
+
+Dla dowolnego, ustalonego \( x \), policzmy następującą granicę:
+
+\( \lim \limits_{h \to 0} (a^{x+h}-a^x) = \lim \limits_{h \to 0} a^x(a^h-1)=a^x \cdot 0 = 0 \)
+
+Oznacza to, że funkcja wykładnicza jest ciągła w każdym punkcie swojej dziedziny.
+
+!!!Klasyfikacja nieciągłości
+W przypadku funkcji, które nie są ciągłe, wprowadza się pewne rozróżnienie typów nieciągłości.
+
+{OPENAGHDEFINITION()}Mówimy, że funkcja \(f\) ma w punkcie \(a\) nieciągłość: <br \>1. pierwszego rodzaju, jeżeli istnieją skończone granice jednostronne w punkcie \(a\), ale nie są one sobie równe lub są równe, ale nie są równe wartości funkcji w punkcie \(a\) <br \>2. drugiego rodzaju, jeżeli nie istnieje skończona granica lewo- lub prawostronna funkcji w punkcie \(a\).{OPENAGHDEFINITION}
+!!!Ciągłość i nieciągłość funkcji monotonicznej
+Podamy teraz twierdzenia dotyczące wpływu monotoniczności funkcji na jej ciągłość.
+
+{openaghtheorem thesis="Funkcja rosnąca (malejąca) w podzbiorze \(I \subset \mathbb{R} \) może mieć tylko punkty nieciągłości pierwszego rodzaju." proof="Niech \( f \) będzie rosnąca w \( I \) i niech \( a \in I \). Na podstawie twierdzenia (?) wiemy, że istnieją skończone granice: \[[\lim \limits_{x \to a^-} f(x)=A,\] \[[\lim \limits_{x \to a^+} f(x)=B\] Ponieważ funkcja \(f \) jest rosnąca, zachodzi nierówność \(A \leq B \). %%% Zauważmy, że jeżeli \( A \lt B \), to \(a \) jest punktem nieciągłości pierwszego rodzaju. Jeżeli zaś \(A=B\), to funkcja \(f\) jest ciągła w \(a \)."}
+ 
+
+{openaghtheorem thesis="Jeżeli funkcja \(f\) jest monotoniczna w przedziale \([[a,b]\) i \(f([[a,b])=[[c,d]\), to funkcja \( f\) jest ciągła w \([[a,b]\)." proof="Dowód przeprowadzimy metodą niewprost.Przypuśćmy, że funkcja \(f\) jest nieciągła w punkcie \(x_0 \in [[a,b]\) i rosnąca w \([[a, b]\) (dowód dla funkcji malejącej przeprowadza się analogicznie). Na mocy twierdzenia 5.2.1 wiemy, że istnieją granice \(\lim_{x\to x_0^-}{f(x)}=A \lt B=\lim_{x\to x_0^+}{f(x)}\). Wówczas jednak, któryś z punktów \(\frac{A+B}{2},\ \frac{A+2B}{3}\) nie należy do przedziału \([[c,d]\), co jest sprzeczne z założeniem, że \(f([[a,b])=[[c,d]\)."}
+ 
+
+!!!Złożenia funkcji ciągłych
+Podamy teraz ważne twierdzenie, które pokaże, jak własność ciągłości zachowuje się przy składaniu funkcji.
+( daasdas \( f(x_0) \lt 0 \) )
+
+{openaghtheorem thesis="Niech \(f\) będzie funkcją określoną w zbiorze \(I\), a \(g\) funkcją określoną w zbiorze \(E\), gdzie \(f(I)\subset E\). Jeżeli \(f\) jest ciągła w punkcie \(x_0\in I\), a \(g\) jest ciągła w punkcie \(y_0=f(x_0)\), to funkcja \(h=g\circ f\) jest ciągła w punkcie \(x_0\)." proof="Niech \(h=g \circ f \). Korzystając z definicji ciągłości w punkcie, dostajemy, że: %%%\(f\) ciągła w \(x_0 \iff \forall_{\varepsilon>0}\exists_{\delta>0}\ |x-x_0|<\delta \Rightarrow |f(x)-f(x_0)|<\varepsilon\) %%%\(g\) ciągła w \(y_0 \iff \forall_{\sigma>0}\exists_{\varepsilon>0}\ |y-y_0|<\varepsilon \Rightarrow |g(y)-g(y_0)|<\sigma\)%%%Stąd otrzymujemy, że %%%\( \forall_{\sigma>0}\exists_{\delta>0}\ |x-x_0|<\delta \Rightarrow |g[[f(x)]-g[[f(x_0)]|=|h(x)-h(x_0)|<\sigma \), %%%a zatem funkcja \(h \) jest ciągła w punkcie \(x_0\)."}
+!!!Własności funkcji ciągłych
+W tej części, wskażemy i udowodnimy kilka pożytecznych własności, jakie posiadają funkcje ciągłe.
+We wszystkich poniższych twierdzeniach, będziemy rozważać funkcję \(f: (a, b) \rightarrow \mathbb{R} \).
+
+!!!!Twierdzenie 5:
+!!!!!!TEZA:
+Jeżeli \(f\) jest ciągła w \( x_0\in (a,b) \) i \( f(x_0) \gt 0 \) (analogicznie gdy \(f(x_0) \lt 0 \) ), to istnieje taka \( \delta >0\), że \( f(x)>0 \), dla \(x \in (x_0-\delta, x_0+\delta) \).
+
+!!!!!!DOWÓD:
+Z definicji ciągłości funkcji w punkcie, dostajemy:
+\(f\) ciągła w \(x_0 \iff \forall_{\varepsilon>0} \exists_{\delta>0}\ |x-x_0|<\delta\Rightarrow |f(x)-f(x_0)|<\varepsilon\).
+Stąd otrzymujemy, że
+\( f ( x_0 )-\varepsilon \lt f(x) \lt f(x_0)+\varepsilon\)
+Weźmy teraz \(\varepsilon=\frac{f(x_0) }{22}\). Wtedy, dla \( x \in (x_0-\delta ( \varepsilon); x_0+\delta ( \varepsilon) ) \) zachodzi \( 0 \lt \frac{21f(x_0) }{22} \lt f(x) \)
+
+Następne twierdzenie podaje jedną z kluczowych własności funkcji ciągłych na przedziale domkniętym, która mówi o przyjmowaniu przez nie wartości pośrednich z tego przedziału.
+
+{openaghtheorem name="Bolzano-Cauchy'ego" thesis=" Niech funkcja \(f\) będzie ciągła w przedziale \([[a,b] \) i niech \( f(a) \lt f(b) \) (analogicznie gdy \( f(a) \gt f(b) \) ). %%%Wtedy, dla każdego \(C\) takiego, że \( f(a) \lt C \lt f(b) \) istnieje \(c\) takie, że \( f(c)=C\)." proof="Rozważmy na początek przypadek, gdy \(f(a) \cdot f(b) \lt 0\).%%%Oznaczmy \(c=\sup_{x\in [[a,b]} \{f(x) \lt 0\} \). %%%Jeżeli \(f(c) \gt 0\), to na mocy twierdzenia (?) istnieje \( \delta\) taka, że  \(f(x) \gt 0\) dla \( x \in (c-\delta;c+\delta) \). Jest to sprzeczne z definicją kresu górnego.%%% Zatem \( f(c) \leq 0\).%%%Podobnie można pokazać, że \( f(c) \geq 0\), więc ostatecznie \(f(c)=0\).%%%Niech teraz \( f(a)\) i \(f(b)\) będą dowolne. Dla dowolnego \(C\) zdefiniujmy funkcję%%% \( \phi(x)=f(x)-C\).%%% Wtedy spełniony jest warunek \(\phi(a) \cdot \phi(b) \lt 0\), a stąd istnieje takie \(c\), że \(\phi(c)=0\), czyli \(f(c)=C\)."}
+Kolejne twierdzenie, mówi nam o ograniczoności funkcji ciągłej w przedziale ograniczonym.
+
+{openaghtheorem thesis="Funkcja ciągła w przedziale domkniętym i ograniczonym jest w nim ograniczona." proof="Dowód przeprowadzimy metodą nie wprost.%%%Załóżmy, że funkcja \(f\) jest nieograniczona.%%%Wtedy istnieje taki ciąg \( \{x_n\}\), że \(|f(x_n)| \gt n\).%%%Jednak równocześnie, ciąg \( \{x_n\}\) jest ograniczony, a stąd na mocy twierdzenia 3.2.5 istnieje taki podciąg \(\{x_{n_k}\}\), że jest on zbieżny do pewnego \(x_0\). Wówczas \(f(x_{n_k}) \to f(x_0) \) przy \(k \to \infty \), co jest sprzeczne z faktem, że \( |f(x_{n_k})| \gt n_k \)."}{openaghtheorem thesis="Funkcja ciągła w przedziale domkniętym i ograniczonym przyjmuje wartość największą w co najmniej jednym punkcie i wartość najmniejszą w co najmniej jednym punkcie tego przedziału." proof="Niech \(M=\sup\{f(x), x\in [[a,b]\}\).%%%Pokażemy, że istnieje ciąg argumentów takich, że ciąg odpowiadających im wartości zmierza do \(M\).%%%Niech \( \{\varepsilon_n\}\) będzie ciągiem zbieżnym do \( 0 \). Z definicji kresu otrzymujemy, że %%%\(\forall_{n\in \mathbb{N}}\ f(x_n)\leq M\) oraz%%% \(\forall_{\varepsilon_n}\exists_{x_{\varepsilon_n}}\ f(x_{\varepsilon_n})>M-\varepsilon_n\).%%% Zmierzając z \(n\) do nieskończoności otrzymujemy, że%%% \(M\geq \lim_{n\to \infty}{f(x_{\varepsilon_n})}\geq M\).%%% Stąd oraz z ciągłości funkcji \(f\) dostajemy, że istnieje takie \(x_0\), że \(f(x_0)=M\)."}
+ 

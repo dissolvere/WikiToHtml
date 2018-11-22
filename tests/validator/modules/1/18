@@ -1,0 +1,2205 @@
+!# Kinetyczna teoria gazów i termodynamika I
+Termodynamika zajmuje się właściwościami cieplnymi
+układów makroskopowych, zaniedbując w odróżnieniu od mechaniki
+statystycznej mikroskopową budowę ciał tworzących układ. Gdybyśmy
+chcieli ściśle określić stan fizyczny układu zawierającego ogromną
+liczbę cząsteczek, na przykład porcji gazu, to musielibyśmy znać stan
+każdej cząsteczki oddzielnie to znaczy musielibyśmy podać położenie
+każdej cząsteczki, jej prędkość oraz siły nań działające. Takie
+obliczenia ze względu na dużą liczbę cząsteczek są niemożliwe. Okazuje
+się jednak, że posługując się metodami statystycznymi (rachunkiem
+prawdopodobieństwa) możemy znaleźć związki między wielkościami
+mikroskopowymi (dotyczącymi poszczególnych cząsteczek), a wielkościami
+makroskopowymi opisującymi cały układ. Chcąc opisać gaz jako całość
+możemy więc badać jedynie wielkości makroskopowe takie jak ciśnienie,
+temperatura czy objętość bez wdawania się w zachowanie poszczególnych
+cząsteczek.
+!!!#Ciśnienie gazu doskonałego
+Rozpocznijmy nasze rozważania od definicji {gazu
+doskonałego}. Zrobimy to podając następujące założenia dotyczące
+cząsteczek gazów:
+Definicja
+ 
+
+Cząsteczki gazu doskonałego traktujemy
+jako punkty materialne (objętość cząsteczek gazu jest o wiele mniejsza
+niż objętość zajmowana przez gaz i dlatego z dobrym przybliżeniem
+przyjmujemy, że ich objętość jest równa zeru). W gazie doskonałym
+zderzenia z innymi cząsteczkami oraz ze ściankami naczynia są sprężyste
+i dlatego całkowita energia cząsteczek jest równa ich energii
+kinetycznej; energia potencjalna jest stale równa zeru (nie ma
+przyciągania ani odpychania pomiędzy cząsteczkami).
+
+{
+Wyprowadzimy teraz prawo gazów doskonałych. Cząsteczki gazu
+będziemy traktować jako {OPENAGHMATHJAX()}N{OPENAGHMATHJAX} małych, twardych kulek, każda o
+masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} zamkniętych w sześciennym pudełku o objętości
+{OPENAGHMATHJAX()}V{OPENAGHMATHJAX}. Kulki są twarde to znaczy będą zderzały się sprężyście ze
+ściankami naczynia, a to oznacza, że ich energia kinetyczna będzie
+stała. Na początek rozważmy jedną cząsteczkę, która zderza się ze
+ścianką naczynia (rysunek 15.1).}
+{
+
+{img fileId="411
+"}
+{
+Rys. 15.1. Cząsteczka gazu odbija się sprężyście od ścianki naczynia
+{
+Siła jaką cząsteczka wywiera na ściankę w czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX}
+wynosi zgodnie z drugą zasadą dynamiki Newtona}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{F_{{1}}=\frac{\mathit{\Delta p}_{{x}}}{\mathit{\Delta t}}}
+\end{equation}{OPENAGHMATHJAX}
+[15.1]
+{
+Zmiana składowej {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} pędu cząsteczki spowodowana zderzeniem
+wynosi}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{\Delta
+p}_{{x}}=\mathit{mv}_{{x}}-(-\mathit{mv}_{{x}})=2\mathit{mv}_{{x}}}
+\end{equation}{OPENAGHMATHJAX}
+[15.2]
+
+{
+Cząsteczka po odbiciu dociera do ścianki przeciwnej i powraca. Jeżeli po
+drodze nie zderza się z innymi cząsteczkami to czas pomiędzy kolejnymi
+zderzeniami z wybraną ścianką jest równy czasowi przelotu przez cały
+sześcian i z powrotem}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{\Delta t}=\frac{2L}{v_{{x}}}}
+\end{equation}{OPENAGHMATHJAX}
+[15.3]
+
+{
+gdzie {OPENAGHMATHJAX()}L{OPENAGHMATHJAX} jest odległością między ściankami. Stąd siła wywierana
+na ściankę (przez jedną cząsteczkę) wynosi}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{F_{{1}}=\frac{(2\mathit{mv}_{{x}})}{\frac{2L}{v_{{x}}}}=\frac{\mathit{mv}_{{x}}^{{2}}}{L}}
+\end{equation}{OPENAGHMATHJAX}
+[15.4]
+
+{
+Dla {OPENAGHMATHJAX()}N{OPENAGHMATHJAX} cząstek całkowita siła wynosi}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{F=N\frac{m\overline{{v_{{x}}^{{2}}}}}{L}}
+\end{equation}{OPENAGHMATHJAX}
+[15.5]
+
+{
+gdzie {OPENAGHMATHJAX()}{\overline{{v_{{x}}^{{2}}}}}{OPENAGHMATHJAX} jest to {OPENAGHMATHJAX()}{v_{{x}}^{{2}}}{OPENAGHMATHJAX}
+uśrednione po wszystkich cząsteczkach. Dzieląc obie strony równania
+przez pole powierzchni ścianki S = L{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}
+otrzymujemy ciśnienie}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{p=N\frac{m\overline{{v_{{x}}^{{2}}}}}{\text{SL}}=N\frac{m\overline{{v_{{x}}^{{2}}}}}{V}}
+\end{equation}{OPENAGHMATHJAX}
+[15.6]
+
+{
+lub zależność}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\text{pV}=\text{Nm}\overline{{v_{{x}}^{{2}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[15.7]
+
+{
+Jak widać iloczyn {OPENAGHMATHJAX()}pV{OPENAGHMATHJAX} jest stały tak długo jak długo jest stała
+energia kinetyczna cząstek.}
+{
+Prędkość średnią kwadratową cząsteczki możemy zapisać jako}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overline{{v^{{2}}}}=\overline{{v_{{x}}^{{2}}}}+\overline{{v_{{y}}^{{2}}}}+\overline{{v_{{z}}^{{2}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[15.8]
+
+{
+Zauważmy ponadto, że cząsteczki gazu wykonują ruch chaotyczny więc
+poruszają się we wszystkich kierunkach, a żaden nie jest wyróżniony.
+Dlatego zachodzi równość}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overline{{v_{{x}}^{{2}}}}=\overline{{v_{{y}}^{{2}}}}=\overline{{v_{{z}}^{{2}}}}}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overline{{v^{{2}}}}=3\overline{{v_{{x}}^{{2}}}}\;\;\;\text{[EF02?][EF02?][EF02?]}\text{czyli}\;\;\;\text{[EF02?][EF02?][EF02?]}\overline{{v_{{x}}^{{2}}}}=\frac{\overline{{v^{{2}}}}}{3}}
+\end{equation}{OPENAGHMATHJAX}
+[15.9]
+
+{
+Podstawiamy to wyrażenie do równania (15.7) i otrzymujemy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\text{pV}=\mathit{Nm}\frac{\overline{{v^{{2}}}}}{3}}
+\end{equation}{OPENAGHMATHJAX}
+[15.10]
+
+{
+Ponieważ iloczyn {OPENAGHMATHJAX()}Nm{OPENAGHMATHJAX} jest równy masie gazu {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}, to
+korzystając z wyrażenia na gęstość {{OPENAGHMATHJAX()}\rho
+{OPENAGHMATHJAX()}} = {OPENAGHMATHJAX}M}/V{OPENAGHMATHJAX} można przepisać powyższe równanie w postaci
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{p=\rho \frac{\overline{{v^{{2}}}}}{3}}
+\end{equation}{OPENAGHMATHJAX}
+[15.11]
+
+{
+Z równania (15.11) możemy wyznaczyć tzw. {prędkością średnią
+kwadratową}, która jest pierwiastkiem kwadratowym z
+{OPENAGHMATHJAX()}{\overset{{\text{___}}}{{v^{{2}}}}}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{v_{{\text{śr}\text{.}\text{kw}\text{.}}}=\sqrt{\overline{{v^{{2}}}}}=\sqrt{\frac{3p}{\rho
+}}}
+\end{equation}{OPENAGHMATHJAX}
+[15.12]
+
+{
+Powyższe równania (15.11) i (15.12) są przykładem związku o jakim
+mówiliśmy we wstępie. Opisują one relację pomiędzy wielkością
+makroskopową jaką jest ciśnienie gazu i kwadratem prędkości cząstek
+gazu to jest wielkością mikroskopową.}
+Ćwiczenie 15.1
+
+{ Prędkość średnia kwadratowa jest pewnego
+rodzaju miarą przeciętnej prędkości cząsteczek. Spróbuj obliczyć jej
+wartość dla powietrza w temperaturze 0° C przy ciśnieniu 1 atm. Gęstość
+powietrza w tych warunkach wynosi 1.3 kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}. Porównaj
+ten wynik z prędkością rozchodzenia się fal dźwiękowych w powietrzu
+równą 340 m/s. Czy obliczona prędkość jest tego samego rzędu
+wielkości?}
+{ Wyniki zapisz poniżej.}
+{
+v{OPENAGHMATHJAX()}_{śr.kw.}{OPENAGHMATHJAX} = }
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+\clearpage!!!#Temperatura, równanie stanu gazu doskonałego
+!!!!#Zerowa zasada termodynamiki
+{
+Potocznie temperaturę rozumiemy jako miarę ciepłoty układu. Za
+pomocą dotyku, możemy np. stwierdzić, które z dwóch ciał jest
+cieplejsze. Mówimy o nim, że ma wyższą temperaturę. Możemy również
+stwierdzić, że gdy dwa ciała o różnych temperaturach zetkniemy ze sobą
+(i odizolujemy od innych) to po dostatecznie długim czasie ich
+temperatury wyrównają się. Mówimy wtedy, że te ciała są w równowadze
+termicznej ze sobą. Formułujemy teraz postulat nazywany {zerowa
+zasadą termodynamiki}.}
+Prawo, zasada, twierdzenie
+
+Jeżeli ciała 1 i 3 są w równowadze
+termicznej, a także ciała 2 i 3 są w równowadze termicznej to ciała 1 i
+2 są w tej samej równowadze termicznej.
+
+{
+Jako kryterium równowagi cieplnej między ciałami wprowadzamy pojęcie
+temperatury Umawiamy się, że układom fizycznym, które mogą być
+jednocześnie ze sobą w stanie równowagi cieplnej, przypisujemy tę samą
+temperaturę.}
+!!!!#Kinetyczna interpretacja temperatury
+Teraz gdy zapoznaliśmy się z pojęciem temperatury poznamy jej
+definicję na gruncie teorii kinetycznej, czyli przy podejściu
+mikroskopowym.
+Definicja
+
+Temperaturę bezwzględną definiujmy jako
+wielkość wprost proporcjonalną do średniej energii kinetycznej
+cząsteczek.
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{T=\left(\frac{2}{3k}\right)\frac{m\overline{{v^{{2}}}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[15.13]
+
+{
+Czynnik (2/3k) jest współczynnikiem proporcjonalności. Wartość
+stałej k, zwanej stałą Boltzmana, wynosi
+k = 1.38·10{OPENAGHMATHJAX()}^{{}{OPENAGHMATHJAX}-23} J/K. Z tej definicji
+wynika, że średnie energie kinetyczne ruchu postępowego (na cząsteczkę)
+dla dwu kontaktujących się gazów są równe.}
+!!!!#Równanie stanu gazu doskonałego
+{
+Jeżeli obliczymy {OPENAGHMATHJAX()}{\overset{{\text{___}}}{{v^{{2}}}}}{OPENAGHMATHJAX} z
+zależności (15.13) i podstawimy do równania (15.10) to otrzymamy
+równanie stanu gazu doskonałego w postaci}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{pV}=\mathit{NkT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.14]
+
+{
+Ponieważ przy opisie własności gazów wygodnie jest posługiwać się liczbą
+moli n to równanie stanu gazu często przedstawia się w
+postaci }
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{pV}=\text{nR}T}
+\end{equation}{OPENAGHMATHJAX}
+[15.15]
+
+{
+gdzie stała R = 8.314·J/mol K jest uniwersalną stałą gazową
+związaną ze stałą Boltzmana i liczbą Avogadra
+N{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX}
+relacją
+R = kN{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX}.
+Stała Avogadra
+N{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX} = 6.023·10{OPENAGHMATHJAX()}^{23}{OPENAGHMATHJAX}
+1/mol, określa liczbę cząsteczek w jednym molu. Przypomnijmy, że mol
+jest ilością materii układu zawierającego liczbę cząsteczek równą
+liczbie atomów zawartych w 0.012 kg węgla {OPENAGHMATHJAX()}^{12}{OPENAGHMATHJAX}C (równą
+N{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX}).
+}
+{
+Równanie stanu gazu doskonałego zostało sformułowane w XIX w. przez
+Clapeyrona na podstawie trzech praw empirycznych odkrytych wcześniej
+przez innych badaczy:}
+\liststyleWWviiiNumiii
+*{
+Prawo Boyle{\textquotesingle}a-Mariotte{\textquotesingle}a stwierdza, że
+w stałej temperaturze iloczyn ciśnienia i objętości danej masy gazu
+jest stały pV = const.;}
+\liststyleWWviiiNumv
+*{
+Prawo Charlesa mówi, że przy stałej objętości gazu stosunek ciśnienia
+i temperatury danej masy gazu jest stały p/T =
+const.;}
+*{
+Prawo Gay-Lussaca stwierdza, że dla stałego ciśnienia stosunek objętości
+do temperatury danej masy gazu jest stały V/T =
+const.}
+Ćwiczenie 15.2
+
+{ Spróbuj przedstawić graficznie te trzy
+zależności wykreślając je w różnych układach współrzędnych
+zamieszczonych poniżej.}
+{ {img fileId="Wybierz obrazek z galerii"}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+{
+Clapeyron podsumował te wyniki podając zależność}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{\mathit{pV}}{T}=\text{const}\text{.}}
+\end{equation}{OPENAGHMATHJAX}
+[15.16]
+
+{
+zgodną z równaniem stanu gazu doskonałego (15.15).}
+!!!!#Pomiar temperatury, skale temperatur
+{
+Żeby wyznaczyć temperaturę na podstawie definicji (15.13)
+musielibyśmy wyznaczyć energię kinetyczną cząsteczek gazu co jest
+bardzo trudne. Ale możemy się posłużyć równaniem stanu gazu doskonałego
+(15.15). Łatwo bowiem jest zmierzyć iloczyn pV na przykład dla
+gazu pod stałym ciśnieniem lub przy stałej objętości. Termometr gazowy
+służył przez wiele lat jako wzorzec temperatury. Za jego pomocą
+określono doświadczalnie punkty odniesienia, takie jak na przykład
+punkt wrzenia wody, dla praktycznych pomiarów temperatur. W praktyce w
+powszechnym użyciu jest skala Celsjusza. W tej skali
+temperatura równowagi wody i lodu wynosi 0° C, a temperatura równowagi
+wody i pary wodnej wynosi 100° C. Natomiast w fizyce stosujemy
+bezwzględną termodynamiczną skalę temperatur nazywaną
+skalą Kelvina.}
+Jednostki
+
+Jednostką temperatury bezwzględnej jest
+kelwin (K). Ponieważ w obu skalach Kelvina i Celsjusza różnica
+pomiędzy temperaturą zamarzania i wrzenia wody wynosi 100 stopni więc
+wielkość stopnia jest taka sama w obu skalach.
+
+{
+Między temperaturą w skali Celsjusza t{OPENAGHMATHJAX()}_{C}{OPENAGHMATHJAX} a
+temperaturą w skali bezwzględnej T zachodzi związek}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{t_{{C}}=T-\text{273}\text{.}\text{15}}
+\end{equation}{OPENAGHMATHJAX}
+[15.17]
+
+!!!#Ekwipartycja energii
+{
+Wiemy już na podstawie równania (15.13), że w równowadze
+termodynamicznej średnie energie kinetyczne ruchu postępowego
+wszystkich cząsteczek są równe. Powstaje pytanie czy cząsteczka może
+gromadzić energię w innej postaci niż energia ruchu postępowego?}
+{
+Odpowiedź jest twierdząca: jeżeli tylko cząsteczka nie ma kształtu kulki
+(cząsteczka jednoatomowa), a ma pewną strukturę wewnętrzną to może
+wirować i drgać. Przykładowo, dwuatomowa cząsteczka w kształcie hantli
+(rysunek 15.2) będzie się obracać po zderzeniu z inną cząsteczką.}
+{ {img fileId="412"}
+{
+Rys. 15.2. Dwuatomowa cząstka w kształcie hantli o dwóch rotacyjnych
+stopniach swobody
+{
+Na podstawie mechaniki statystycznej można pokazać, że gdy liczba
+punktów materialnych jest bardzo duża i obowiązuje mechanika
+Newtonowska to:}
+Prawo, zasada, twierdzenie
+Dostępna energia rozkłada się w równych
+porcjach na wszystkie niezależne sposoby, w jakie cząsteczka może ją
+absorbować.
+
+{
+Twierdzenie to nosi nazwę zasady ekwipartycji energii.}
+{
+Każdy z tych sposobów absorpcji energii nazywa się {stopniem
+swobody }i jest równy liczbie niezależnych współrzędnych potrzebnych do
+określenie położenia ciała w przestrzeni. Możemy więc zasadę
+ekwipartycji energii wyrazić innymi słowami:}
+Prawo, zasada, twierdzenie
+
+Średnia energia kinetyczna na każdy
+stopień swobody jest taka sama dla wszystkich cząsteczek.
+{
+Na podstawie równania (15.13) średnia energia kinetyczna ruchu
+postępowego cząsteczki wynosi}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{1}{2}m\overline{{v^{{2}}}}=\frac{3}{2}\text{kT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.18]
+
+{
+Odpowiada to trzem stopniom swobody ponieważ potrzebujemy trzech
+współrzędnych (x, y, z) do określenia
+położenia środka masy cząsteczki. Stąd średnia energia przypadająca na
+jeden stopień swobody wynosi
+{OPENAGHMATHJAX()}{\frac{1}{2}\text{kT}}{OPENAGHMATHJAX} na cząsteczkę.}
+{
+Dla cząsteczek obracających się potrzeba dodatkowych współrzędnych do
+opisania ich obrotu więc mamy dodatkowe stopnie swobody. O ile
+dla N cząsteczek nie obracających się całkowita energia
+wewnętrzna U jest energią kinetyczną ruchu postępowego}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{U=\frac{3}{2}\text{NkT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.19]
+
+{
+to dla cząstek wieloatomowych, które mogą obracać się swobodnie we
+wszystkich trzech kierunkach (wokół osi x, y,
+z)}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{U=E_{{k,\text{post}\text{.}}}+E_{{k,\text{obr}\text{.}}}=\frac{3}{2}\text{NkT}+\frac{3}{2}\text{NkT}=3\text{NkT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.20]
+
+{
+Natomiast dla cząstki dwuatomowej (hantli pokazanej na rysunku 15.2))}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{U=E_{{k,\text{post}\text{.}}}+E_{{k,\text{obr}\text{.}}}=\frac{3}{2}\text{NkT}+\frac{2}{2}\text{NkT}=\frac{5}{2}\text{NkT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.21]
+
+{
+W tym przypadku mamy tylko dwa rotacyjne stopnie swobody bo moment
+bezwładności względem osi hantli (oś x) jest znikomo mały.}
+{
+Zwróćmy uwagę, że mówimy tu o energii
+{\textquotedbl}ukrytej{\textquotedbl} (wewnętrznej) cząstek, a nie o
+energii makroskopowej (związanej z przemieszczaniem masy). O energii
+wewnętrznej mówiliśmy przy zasadzie zachowania energii (energia
+indywidualnych cząstek nie zawarta w energii kinetycznej czy
+potencjalnej ciała jako całości). Energię wewnętrzną oznacza się
+zazwyczaj przez U i takie oznaczenie będziemy dalej stosować.}
+!!!#Pierwsza zasada termodynamiki
+{
+W mechanice rozważaliśmy zmiany energii mechanicznej układu
+będące wynikiem pracy wykonanej przez siły zewnętrzne. W przemianach
+termodynamicznych możliwy jest inny (nie mechaniczny) sposób
+przekazywania energii. Gdy dwa układy o różnych temperaturach zetkniemy
+ze sobą to ciepło Q przepływa z ciała cieplejszego do
+chłodniejszego.}
+{
+Zgodnie z zasadą zachowania energii}
+Prawo, zasada, twierdzenie
+
+{Ciepło pobrane przez układ jest równe
+wzrostowi energii wewnętrznej układu plus pracy wykonanej przez układ
+nad otoczeniem zewnętrznym}.
+
+{
+czyli}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{Q=\mathit{\Delta U}+W} \\ {\mathit{\Delta
+U}=Q-W} \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[15.22]
+
+{
+To jest sformułowanie pierwszej zasady termodynamiki. W tym
+zapisie mamy rozdzieloną energię ciała na część makroskopową (energię
+mechaniczną) i mikroskopową (energię wewnętrzną). Zasada ta działa
+również w {\textquotedbl}drugą stronę{\textquotedbl} to znaczy, gdy nad
+układem zostanie wykonana praca to układ może oddawać ciepło. To
+równanie często piszemy w postać różniczkowej}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{dU}=\mathit{dQ}-\mathit{dW}}
+\end{equation}{OPENAGHMATHJAX}
+[15.23]
+
+{
+Widzimy, że zmiana energii wewnętrznej związana jest z ciepłem
+pobieranym (dQ{\textgreater}0) lub oddawanym
+(dQ{\textless}0) przez układ oraz z pracą wykonaną przez układ
+(dW{\textgreater}0) lub nad układem (dW{\textless}0).
+}
+{
+Rozpatrzymy teraz gaz działający siłą F na tłok o
+powierzchni S, jak na rysunku 15.3}
+{ {img fileId="410"}
+{
+Rys. 15.3. Gaz wykonuje pracę przesuwając tłok na odcinku dx
+{
+Praca wykonana przez gaz wynosi}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{dW}=\mathit{Fdx}=\frac{F}{S}\mathit{Sdx}=\mathit{pdV}}
+\end{equation}{OPENAGHMATHJAX}
+[15.24]
+
+{
+i wtedy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{dU}=\mathit{dQ}-\mathit{pdV}}
+\end{equation}{OPENAGHMATHJAX}
+[15.25]
+
+{
+Pamiętamy, że w mechanice praca sił zachowawczych wykonana nad punktem
+materialnym poruszającym się między dwoma punktami zależała tylko od
+tych punktów, a nie od łączącej je drogi. W termodynamice stwierdzamy,
+że}
+Prawo, zasada, twierdzenie
+
+Zmiana energii wewnętrznej układu, przy
+przejściu pomiędzy dwoma stanami, zależy wyłącznie od tego jaki jest
+stan początkowy i końcowy przejścia.
+
+{
+Oznacza to, że chociaż dQ i dW z osobna zależą od
+drogi przejścia to dU ma określoną wartość niezależną od
+sposobu przejścia układu do stanu końcowego. Taką wielkość fizyczną
+(funkcję tego typu), która charakteryzuje stan układu, i której
+wartości nie zależą od sposobu w jaki układ został do danego stanu
+doprowadzony nazywamy funkcją stanu.}
+Ćwiczenie 15.3
+
+{ Teraz korzystając z pierwszej zasady
+termodynamiki określ jaki znak mają zmiana energii wewnętrznej {OPENAGHMATHJAX()}\Delta
+{OPENAGHMATHJAX}U oraz praca W dla cyklu przemian
+1\ding{213}2\ding{213}3\ding{213}4\ding{213}1 pokazanych na rysunku
+poniżej (wykres p(V)). Wyniki zapisz w zamieszczonej
+tabeli. Zauważ, że obliczanie pracy W = p{OPENAGHMATHJAX()}\Delta {OPENAGHMATHJAX}V
+sprowadza się do obliczenia pola pod wykresem p(V).}
+{ {img fileId="402"}
+|||m{0.70875984in}|m{0.7156598in}|}
+Przemiana |
+\multicolumn{2}{m{1.5031599in}|}{
+znak (+/0/{OPENAGHMATHJAX()}-{OPENAGHMATHJAX})}
+|
+W |
+{OPENAGHMATHJAX()}\Delta {OPENAGHMATHJAX}U
+1\ding{213}2 |
+|
+2\ding{213}3 |
+|
+3\ding{213}4 |
+|
+4\ding{213}1 |
+|
+1\ding{213}2\ding{213}3\ding{213}4\ding{213}1 |
+|
+||
+{ Przyjmując wartości
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = V{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX} = 1
+dm{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}, V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} =
+V{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX} = 2 dm{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX},
+p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 1 atm. oraz
+p{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX} = 1.01 atm.
+Oblicz pracę wykonaną w cyklu zamkniętym
+1\ding{213}2\ding{213}3\ding{213}4\ding{213}1.}
+{ W = }
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Ciepło właściwe
+Definicja
+
+Ciepło właściwe substancji definiujemy
+jako dQ/dT czyli ilość ciepła, którą trzeba dostarczyć do jednostki
+masy, żeby spowodować jednostkową zmianę jej temperatury.
+{
+Gdy masę wyrażamy w kilogramach to mówimy o {cieple właściwym
+wagowym}, a gdy wyrażamy ją w molach to mamy do czynienia z
+molowym ciepłem właściwym.}
+!!!!#Ciepło właściwe przy stałej objętości
+{
+Ciepło właściwe jednego mola gazu utrzymywanego w stałej
+objętości oznaczamy c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX}.
+Ponieważ dV = 0 więc zgodnie z pierwszą zasadą termodynamiki
+dU = dQ, a stąd}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{c_{{V}}=\frac{\mathit{dQ}}{\mathit{dT}}=\frac{\mathit{dU}}{\mathit{dT}}}
+\end{equation}{OPENAGHMATHJAX}
+[15.26]
+
+{
+Dla gazu jednoatomowego (dla jednego mola) mamy na podstawie równania
+(15.19)
+{OPENAGHMATHJAX()}{U=\frac{3}{2}N_{{\mathit{Av}}}\text{kT}=\frac{3}{2}\text{RT}}{OPENAGHMATHJAX}.
+Zatem}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{c_{{V}}=\frac{3}{2}R}
+\end{equation}{OPENAGHMATHJAX}
+[15.27]
+
+{
+Dla jednego mola gazu dwuatomowego na podstawie równania (15.21)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{c_{{V}}=\frac{5}{2}R}
+\end{equation}{OPENAGHMATHJAX}
+[15.28]
+
+{
+a dla jednego mola cząsteczek wieloatomowych z równania (15.20)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{c_{{V}}=3R}
+\end{equation}{OPENAGHMATHJAX}
+[15.29]
+
+{
+Jak wynika z powyższych obliczeń mechanika klasyczna przewiduje ciepło
+właściwe niezależne od temperatury. Tymczasem badania pokazują, że jest
+to prawdziwe tylko dla gazów jednoatomowych. Dla pozostałych
+c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX} rośnie z temperaturą.}
+{
+Przykład takiej zależności jest pokazany na rysunku 15.4 gdzie
+przedstawiono ciepło właściwe
+c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX} dla wodoru (cząsteczka
+dwuatomowa H{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}) w funkcji temperatury (w skali
+logarytmicznej). }
+{ {img fileId="413"}
+{
+Rys. 15.4. Zależność molowego ciepła właściwego wodoru od temperatury
+{
+Zauważmy, że w temperaturach niższych od 100 K,
+{OPENAGHMATHJAX()}{c_{{V}}=\frac{3}{2}R}{OPENAGHMATHJAX} co wskazuje, że w tak niskich temperaturach
+cząsteczka porusza się tylko ruchem postępowym i nie wiruje. Rotacja
+staje się możliwa dopiero w temperaturach powyżej 100 K; i dopiero
+wtedy {OPENAGHMATHJAX()}{c_{{V}}=\frac{5}{2}R}{OPENAGHMATHJAX}. Ale w temperaturach powyżej 2000 K
+ciepło właściwe c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX} rośnie do wartości
+{OPENAGHMATHJAX()}{c_{{V}}=\frac{7}{2}R}{OPENAGHMATHJAX} co oznacza, że przybyły jeszcze dwa stopnie
+swobody. Ten wynik doświadczalny wiążemy z drganiami atomów w
+cząsteczkach. W tak wysokich temperaturach cząsteczka przestaje się
+zachowywać jak ciało sztywne i zderzenia między cząsteczkami powodują,
+że dwa atomy wodoru (w cząsteczce) będą drgały. }
+{
+Wytłumaczenie tych zjawisk nie jest możliwe na gruncie mechaniki
+klasycznej. Dopiero mechanika kwantowa daje wyjaśnienie tych zmian
+ciepła właściwego. Na jej gruncie można pokazać, że do wzbudzenia
+rotacji potrzeba pewnej minimalnej energii. Podobnie jest dla ruchu
+drgającego, który może być wywołany dopiero dla dostatecznie wysokiej
+energii.}
+Więcej o rotacyjnych i wibracyjnych stopniach
+swobody cząsteczki wodoru możesz dowiedzieć się w Dodatku 1,
+na końcu modułu V.
+
+{
+Zatem w wysokich temperaturach oprócz energii kinetycznej ruchu
+postępowego i obrotowego istnieje jeszcze energia kinetyczna i
+potencjalna drgań. Wobec tego średnia energia wewnętrzna na cząsteczkę
+wodoru wynosi}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{U=E_{{k\text{.}\text{post}\text{.}}}+E_{{k\text{.}\text{obr}\text{.}}}+E_{{k\text{.}\text{drg}\text{.}}}+E_{{\text{pot}\text{.}\text{drg}\text{.}}}=\frac{3}{2}\text{kT}+\frac{2}{2}\text{kT}+\frac{1}{2}\text{kT}+\frac{1}{2}\text{kT}=\frac{7}{2}\text{kT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.30]
+
+{
+a dla 1 mola}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{U=\frac{7}{2}\text{RT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.31]
+
+{
+Stąd otrzymujemy molowe ciepło właściwe przy stałej objętości}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{c_{{V}}=\frac{7}{2}R}
+\end{equation}{OPENAGHMATHJAX}
+[15.32]
+
+!!!!#Ciepło właściwe przy stałym ciśnieniu
+{
+Zgodnie z pierwszą zasadą termodynamiki}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{dQ}=\mathit{dU}+\mathit{pdV}}
+\end{equation}{OPENAGHMATHJAX}
+[15.33]
+
+{
+a na podstawie równania (15.26) {OPENAGHMATHJAX()}{\mathit{dU}=c_{{V}}\mathit{dT}}{OPENAGHMATHJAX}
+więc}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{dQ}=c_{{v}}\mathit{dT}+\mathit{pdV}}
+\end{equation}{OPENAGHMATHJAX}
+[15.34]
+
+{
+Z równania stanu gazu doskonałego (15.15) wynika, że dla jednego mola
+gazu {OPENAGHMATHJAX()}{\mathit{pdV}=\mathit{RdT}}{OPENAGHMATHJAX} więc}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{dQ}=c_{{v}}\mathit{dT}+\mathit{RdT}}
+\end{equation}{OPENAGHMATHJAX}
+[15.35]
+
+{
+Dzieląc stronami przez dT otrzymujemy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{\mathit{dQ}}{\mathit{dT}}=c_{{v}}+R}
+\end{equation}{OPENAGHMATHJAX}
+[15.36]
+
+{
+a to z definicji jest równe ciepłu właściwemu przy stałym ciśnieniu
+c{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX}, więc}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{c_{{p}}=c_{{v}}+R}
+\end{equation}{OPENAGHMATHJAX}
+[15.37]
+
+{
+Widzimy, że ciepło właściwe przy stałym ciśnieniu jest większe od ciepła
+właściwego przy stałej objętości
+c{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX} {\textgreater} c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX}.
+Dzieje się tak dlatego, że w przemianie izobarycznej trzeba dostarczać
+ciepła nie tylko na zmianę energii wewnętrznej, związaną ze zmianą
+temperatury, ale i na wykonanie pracy związanej ze zmianą objętości
+podczas gdy w przemianie izochorycznej praca jest równa zeru.}
+\clearpage
+Ćwiczenie 15.4
+
+{ Korzystając z powyższej zależności (15.37) i
+pamiętając, że średnia energia przypadająca na jeden stopień swobody
+wynosi {OPENAGHMATHJAX()}{\frac{1}{2}\text{RT}}{OPENAGHMATHJAX} dla jednego mola,
+spróbuj uzupełnić poniższą tabelę i wpisać teoretyczne wartości
+molowego ciepła właściwego różnych rodzajów gazów doskonałych.}
+|||m{0.70875984in}|m{0.70875984in}|m{0.7156598in}|}
+Typ gazu |
+c{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX} |
+\selectlanguage{english}
+c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX} |
+\selectlanguage{english}
+c{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX}/c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX}
+Jednoatomowy |
+|
+|
+Dwuatomowy + rotacja |
+|
+|
+Dwuatomowy + rotacja + drgania |
+|
+|
+Wieloatomowy + rotacja |
+|
+|
+Wieloatomowy + rotacja + drgania |
+|
+|
+||
+!!!#Rozprężanie izotermiczne i adiabatyczne
+{
+Rozprężanie się gazu zamkniętego w cylindrze z ruchomym
+tłokiem zostało szeroko wykorzystane w konstrukcji silników.
+Rozpatrzymy teraz dwa zwykle występujące procesy to jest rozprężanie
+izotermiczne i rozprężanie adiabatyczne.}
+!!!!#Rozprężanie izotermiczne
+{
+Przy rozprężaniu izotermicznym trzeba utrzymywać stałą
+temperaturę ścian cylindra; więc tłok musi poruszać się wolno, żeby gaz
+mógł pozostawać w równowadze termicznej ze ściankami cylindra. Ponieważ
+T = const., więc dU = 0. Stąd, na podstawie pierwszej
+zasady termodynamiki, otrzymujemy warunek
+{OPENAGHMATHJAX()}{\mathit{dQ}=\mathit{dW}=\mathit{pdV}}{OPENAGHMATHJAX}, a dalej}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{\Delta Q}=\mathit{\Delta
+W}=\overset{V_{{2}}}{\underset{{V_{{1}}}}{\int
+}}{\mathit{pdV}}{=\overset{V_{{2}}}{\underset{V_{{1}}}{\int
+}}{\left(\frac{\text{NkT}}{V}\right)\mathit{dV}}}{=\text{NkT}\overset{V_{{2}}}{\underset{V_{{1}}}{\int
+}}{\frac{\mathit{dV}}{V}}}{=\text{NkT}\text{ln}\left(\frac{V_{2}}{{V_{1}}}\right)}}
+\end{equation}{OPENAGHMATHJAX}
+[15.38]
+
+{
+gdzie, na podstawie równania stanu gazu doskonałego, podstawiono
+{OPENAGHMATHJAX()}{p=\frac{\text{NkT}}{V}}{OPENAGHMATHJAX}.}
+!!!!#Rozprężanie adiabatyczne
+{
+Często w silnikach nie są spełnione warunki rozprężania
+izotermicznego bo tłok porusza się bardzo szybko i nie ma dość czasu na
+przepływ ciepła pomiędzy gazem a ścianami cylindra. Taką przemianę
+zachodzącą bez wymiany ciepła z otoczeniem nazywamy {przemianą
+adiabatyczną}. Oznacza to, że dQ = 0 i pierwsza zasada
+termodynamiki przyjmuje postać {OPENAGHMATHJAX()}{\mathit{dU}+\mathit{pdV}=0}{OPENAGHMATHJAX}.
+Równanie to można przekształcić do postaci }
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{pV}^{{\kappa }}=\text{const}\text{.}}
+\end{equation}{OPENAGHMATHJAX}
+[15.39]
+
+{
+gdzie {OPENAGHMATHJAX()}{\kappa =c_{{p}}/c_{{v}}}{OPENAGHMATHJAX}. Równanie to nosi nazwę równania
+Poissona dla przemiany adiabatycznej.}
+Z wyprowadzeniem równania Poissona dla przemiany
+adiabatycznej możesz zapoznać się w Dodatku 2, na końcu modułu
+V.
+
+{
+Z tego równania i równania stanu gazu doskonałego wynika, że w
+przemianie adiabatycznej zmieniają się wszystkie parametry stanu gazu:
+p, V i T.}
+Ćwiczenie 15.5
+
+{ Adiabatyczne rozprężanie wykorzystuje się w
+chłodnictwie (chłodziarka sprężarkowa), a przede wszystkim w silniku
+spalinowym. Korzystając z naszych obliczeń spróbuj teraz rozwiązać
+następujące zadanie. Silnik benzynowy ma stopień sprężania 9 tzn.
+stosunek objętości końcowej do początkowej gazu w cylindrze wynosi
+V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}/V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 9. Oblicz
+jaki jest stosunek temperatury gazów wydechowych do temperatury
+spalania? Przy doborze wartości {OPENAGHMATHJAX()}\kappa {OPENAGHMATHJAX} uwzględnij, że
+powietrze jest w przeważającej mierze mieszaniną gazów dwuatomowych.}
+{ Wskazówka: Skorzystaj z równania Poissona
+(15.39) i z równania stanu gazu doskonałego.}
+{
+T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}/T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+\clearpage\setcounter{page}{1}\pagestyle{Convertii}
+!#Kinetyczna teoria gazów i termodynamika II
+!!!#Średnia droga swobodna
+{
+Nasze dotychczasowe rozważania dotyczyły gazu doskonałego.
+Takie uniwersalne podejście jest wygodne, ale musimy mieć świadomość,
+że daje tylko przybliżony opis rzeczywistych gazów. Teraz spróbujemy
+omówić niektóre istotne właściwości gazu rzeczywistego. Zwróćmy na
+przykład uwagę na to, że gdyby cząsteczki były punktowe to nie
+zderzałyby się w ogóle ze sobą. Tak więc w opisie zderzeń musimy
+uwzględnić skończone wymiary cząsteczek. Będziemy teraz traktować
+cząsteczki jako kuleczki o średnicy d. Oznacza to, że
+zderzenie pomiędzy cząsteczkami będzie miało miejsce gdy odległość
+między ich środkami będzie mniejsza niż d. Inaczej mówiąc
+cząsteczka zachowuje się jak tarcza o efektywnej powierzchni}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\sigma =\mathit{\pi d}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.1]
+
+{
+Ta powierzchnia nosi nazwę całkowitego przekroju czynnego.}
+{
+W czasie t cząsteczka poruszająca się z prędkością v
+przemiata objętość walca równą vts. Jeżeli
+n jest liczbą cząsteczek w jednostce objętości to na swej
+drodze (w tym walcu) nasza cząstka napotka
+n{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} innych cząsteczek}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{n_{{z}}=v\text{t\(\sigma \)}n}
+\end{equation}{OPENAGHMATHJAX}
+[16.2]
+
+{
+Tym samym otrzymaliśmy liczbę zderzeń, których doznaje cząsteczka w
+czasie t. Widać, że zależy ona od rozmiarów cząsteczek i od
+ich liczby w jednostce objętości. Wprowadzimy teraz pojęcie
+średniej drogi swobodnej {OPENAGHMATHJAX()}{\overline{{\lambda }}}{OPENAGHMATHJAX}.}
+Definicja
+
+Średnią drogę swobodną definiujemy jako
+średnią odległość przemywaną przez cząsteczkę pomiędzy kolejnymi
+zderzeniami.
+
+{ {img fileId="407"}
+{
+Rys. 16.1. Przykładowa droga, po której porusza się cząsteczka gazu
+zderzająca się z innymi cząsteczkami; wszystkie pozostałe cząsteczki
+poruszają się w taki sposób
+{
+Średnia droga swobodna jest równa całkowitej odległości
+przebywanej przez cząstkę podzielonej przez liczbę zderzeń (rysunek
+16.1).}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overline{{\lambda }}=\frac{\mathit{vt}}{\mathit{vt\sigma
+n}}=\frac{1}{\mathit{\sigma n}}=\frac{1}{\mathit{\pi d}^{{2}}n}}
+\end{equation}{OPENAGHMATHJAX}
+[16.3]
+
+{
+Równanie (16.3) wyprowadziliśmy przy założeniu, że cząstka zderza się z
+innymi nieruchomymi cząsteczkami. W rzeczywistości cząsteczki uderzają
+w inne też poruszające się cząsteczki. Rzeczywista częstość zderzeń
+jest więc większa, a średnia droga swobodna mniejsza}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overline{{\lambda }}=\frac{1}{\sqrt{2}\mathit{\pi d}^{{2}}n}}
+\end{equation}{OPENAGHMATHJAX}
+[16.4]
+
+{
+Ta różnica we wzorach wynika z tego, że w poprzednim równaniu (16.3)
+występujące tam dwie prędkości są różne: prędkość w liczniku to
+prędkość średnia cząsteczek {OPENAGHMATHJAX()}{\overline{{v}}}{OPENAGHMATHJAX} względem
+naczynia, a prędkość w mianowniku to średnia prędkość względna
+w stosunku do innych cząsteczek. Można się przekonać
+jakościowo, że te prędkości są różne. Na przykład, gdy cząstki biegną
+naprzeciw siebie to mają względną prędkość równą {OPENAGHMATHJAX()}{2\overline{{v}}}{OPENAGHMATHJAX},
+gdy pod kątem prostym to równą {OPENAGHMATHJAX()}{\overline{{v}}\sqrt{2}}{OPENAGHMATHJAX}, a gdy w tę
+samą stronę to względna prędkość jest równa zeru. Uwzględniając
+rzeczywisty rozkład prędkości otrzymujemy
+{OPENAGHMATHJAX()}{v_{{\text{wzgl}\text{.}}}=\overline{{v}}\sqrt{2}}{OPENAGHMATHJAX}.}
+Przykład
+
+{
+Spróbujmy teraz oszacować jaka jest typowa średnia droga swobodna i jak
+często cząstki zderzają się ze sobą. W tym celu rozpatrzmy cząstki
+powietrza w temperaturze 300 K (27 °C) i pod ciśnieniem 1 atm.
+Przyjmijmy średnicę cząsteczek równą
+d = 2·10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{8}{OPENAGHMATHJAX} cm. W tych
+warunkach jeden mol powietrza zajmuje około 22.4 dm{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX},
+a ponieważ w molu znajduje się
+N{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX} = 6.023·10{OPENAGHMATHJAX()}^{23}{OPENAGHMATHJAX}
+cząsteczek to ich koncentracja wynosi
+n = 2.7·10{OPENAGHMATHJAX()}^{19}{OPENAGHMATHJAX}/cm{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}.
+Korzystając z równania (16.4) otrzymujemy średnią drogę swobodną równą
+{OPENAGHMATHJAX()}{\overline{{\lambda }}}{OPENAGHMATHJAX}=
+2.1·10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{5}{OPENAGHMATHJAX} cm, co stanowi około
+tysiąca średnic cząsteczkowych (1000d). Częstość zderzeń
+obliczamy dzieląc średnią prędkość cząsteczek przez średnią drogę
+swobodną}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{f=\frac{\overline{{v}}}{\lambda }}
+\end{equation}{OPENAGHMATHJAX}
+[16.5]
+
+{
+Do naszych celów posłużymy się wartością prędkości średniej kwadratowej
+(v{OPENAGHMATHJAX()}_{śr. kw.}{OPENAGHMATHJAX}{ =
+}483 m/s) obliczonej w ćwiczeniu w ćwiczeniu 15.1. Odpowiednia częstość
+zderzeń wynosi f = 2.3·10{OPENAGHMATHJAX()}^{9}{OPENAGHMATHJAX} 1/s. Średnio
+każda cząstka zderza się w ciągu sekundy ponad 2 miliardy razy! Właśnie
+dzięki tak dużej liczbie zderzeń ogólny rozkład prędkości nie zmienia
+się.}
+!!!#Rozkład Maxwella prędkości cząsteczek
+{
+W przykładzie, w poprzednim rozdziale posługiwaliśmy się
+pojęciem prędkości średniej cząsteczek gazu. Jednak każdy gaz ma
+charakterystyczny rozkład prędkości, który zależy od temperatury.
+Cząstki nie mogą mieć takich samych prędkości bo przecież ich prędkości
+zmieniają się w wyniku zderzeń. Clerk Maxwell podał prawo rozkładu
+prędkości cząsteczek, które dla gazu zawierającego N
+cząsteczek ma postać}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{N(v)=4\mathit{\pi N}\left(\frac{m}{2\pi
+\text{kT}}\right)^{{\frac{3}{2}}}v^{{2}}e^{{-{\frac{\mathit{mv}^{{2}}}{2\text{kT}}}\;}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.6]
+
+{
+Funkcja N(v) określa prawdopodobieństwo, że w
+temperaturze T, dN spośród wszystkich N
+cząsteczek ma prędkości zawarte w przedziale od v do
+v + d v; k jest stałą
+Boltzmana, a m masą cząsteczki. Całkowitą liczbę cząsteczek
+można zatem obliczyć dodając (tj. całkując) liczby cząstek dla
+poszczególnych różniczkowych przedziałów prędkości
+dv}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{N=\overset{\infty }{\underset{{0}}{\int }}{N(v)\mathit{dv}}{\;}}
+\end{equation}{OPENAGHMATHJAX}
+[16.7]
+
+{
+Na rysunku 16.2 pokazany jest rozkład Maxwella prędkości dla dwóch
+różnych temperatur; gdzie zaznaczono prędkość średnią, prędkość średnią
+kwadratową i prędkość najbardziej prawdopodobną.}
+{ {img fileId="406"}
+{
+Rys. 16.2. Rozkład prędkości dla temperatur 70 K i 300 K. Pionowymi,
+liniami zaznaczono prędkości: (a) najbardziej prawdopodobną; (b)
+średnią; (c) średnią kwadratową.
+{
+Zauważmy, że krzywa rozkładu nie jest symetryczna, bo dolny limit
+(najmniejsza prędkość) równy jest zeru, podczas gdy górny
+nieskończoności. Ze wzrostem temperatury rośnie prędkość średnia
+kwadratowa. Obszar prędkości jest teraz większy. Ponieważ liczba
+cząstek (pole pod krzywą) jest stała więc rozkład się
+{\textquotedbl}rozpłaszcza{\textquotedbl}. Wzrost, wraz z temperaturą,
+liczby cząstek o prędkościach większych od danej tłumaczy wiele zjawisk
+takich jak np. wzrost szybkości reakcji chemicznych towarzyszących
+zwiększeniu temperatury. Ponadto rozkład prędkości zależy od masy
+cząsteczek. Im mniejsza masa tym więcej szybkich cząsteczek (w danej
+temperaturze). Dlatego na przykład wodór łatwiej ucieka z górnych
+warstw atmosfery niż tlen czy azot.}
+Możesz prześledzić zależność rozkładu prędkości
+cząstek gazu od temperatury fal w zależności korzystając z darmowego
+programu komputerowego „Rozkład Maxwella prędkości cząsteczek”
+dostępnego na stronie WWW autora.
+
+!!!#Równanie stanu Van der Waalsa
+{
+Przypomnijmy, że równanie stanu gazu doskonałego
+{OPENAGHMATHJAX()}{\text{pV}=\text{nRT}}{OPENAGHMATHJAX} dobrze
+opisuje gazy rzeczywiste ale przy małych gęstościach. Przy większych
+gęstościach nie można pominąć faktu, że cząstki zajmują część objętości
+dostępnej dla gazu oraz że działają na siebie siłami przyciągania lub
+odpychania w zależności od odległości między nimi.}
+{
+Van der Waals zmodyfikował równanie stanu gazu doskonałego, tak aby
+uwzględnić te czynniki.}
+{
+Jeżeli cząstki posiadają skończoną objętość to rzeczywista objętość
+dostępna dla cząstek jest mniejsza od objętości naczynia.
+{\textquotedbl}Objętość swobodna{\textquotedbl} jest mniejsza od
+objętości naczynia o {\textquotedbl}objętość własną{\textquotedbl}
+cząsteczek b. Jeżeli oznaczymy przez v
+objętość przypadającą na jeden mol
+v = V/n to otrzymamy zmodyfikowane
+równanie stanu gazu}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{p(v-b)=\text{RT}}
+\end{equation}{OPENAGHMATHJAX}
+[16.8]
+
+{
+Można również prosto uwzględnić efekt sił międzycząsteczkowych. W
+dowolnym miejscu w naczyniu siła przyciągania pomiędzy n
+cząsteczkami (na jednostkę objętości) z sąsiednimi n
+cząsteczkami (na jednostkę objętości) jest proporcjonalna do
+n{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} czyli proporcjonalna do
+1/v{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. Siła przyciągająca wywołuje
+dodatkowe ciśnienie. Stąd otrzymujemy równanie Van der Waalsa}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\left(p+\frac{a}{v^{{2}}}\right)\text{[EF02?]}(v-b)=\text{RT}}
+\end{equation}{OPENAGHMATHJAX}
+[16.9]
+
+{
+Stałe a i b, różne dla różnych gazów, wyznaczamy
+doświadczalnie.}
+{
+Na rysunku 16.3 porównano zachowanie się gazu doskonałego (a) z gazem
+Van der Waalsa (b). Skala obu rysunków jest jednakowa.}
+{
+Izotermy gazu doskonałego są hiperbolami danymi równaniem pV =
+const. Natomiast dla gazu Van der Waalsa ciśnienie zmienia się zgodnie
+z zależnością}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{p=\frac{\text{RT}}{(v-b)}-\frac{a}{v^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.10]
+
+{
+Widzimy, że dla wysokich temperatur izotermy gazu Van der Waalsa
+zbliżają się do izoterm dla gazu idealnego. }
+{
+Natomiast poniżej pewnej temperatury, tak zwanej {temperatury
+krytycznej}, obserwujemy charakterystyczne minima i maksima w
+zależności p(v).}
+{ {img fileId="404"}
+{
+Rys. 16.3. Porównanie izoterm gazu doskonałego (a) z izotermami gazu Van
+der Waalsa (b)
+{
+Temperatura krytyczna jest ważnym parametrem charakteryzującym dany gaz.
+Poniżej temperatury krytycznej gaz rzeczywisty może ulec
+skropleniu, a powyżej niej może występować wyłącznie w
+stanie gazowym.}
+{
+Temperatury krytyczne większości gazów są niskie i dlatego nie jest
+łatwo je skroplić. Na przykład temperatura krytyczna dwutlenku węgla
+wynosi 304 K, ale wodoru już 33 K, a helu 5.3 K. Pionierami badań nad
+uzyskiwaniem niskich temperatur byli Karol Olszewski i Zygmunt
+Wróblewski, którzy w 1883 roku jako pierwsi dokonali skroplenia
+powietrza (azot, tlen). }
+{
+Chociaż, równanie Van der Waalsa daje dobry opis jakościowy to bywa
+czasami zawodne przy opisie ilościowym. Jednak nie jest znana prosta
+formuła, która stosowałaby się do różnych gazów w różnych warunkach.}
+!!!#Procesy odwracalne i nieodwracalne, cykl Carnota
+!!!!#Procesy odwracalne i nieodwracalne
+{
+Rozpatrzmy dwa przypadki izotermicznego sprężania gazu. W
+pierwszym, tłok przesuwamy bardzo szybko i czekamy aż ustali się
+równowaga z otoczeniem. W czasie takiego procesu ciśnienie i
+temperatura gazu nie są dobrze określone bo nie są jednakowe w całej
+objętości.}
+{
+W drugim tłok przesuwamy bardzo powoli tak, że ciśnienie i temperatura
+gazu są w każdej chwili dobrze określone. Ponieważ zmiana jest
+niewielka to gaz szybko osiąga nowy stan równowagi. Możemy złożyć cały
+proces z ciągu takich małych przesunięć tłoka i wtedy podczas całego
+procesu gaz jest bardzo blisko równowagi. Jeżeli będziemy zmniejszać
+nasze zmiany to w granicy dojdziemy do procesu idealnego, w którym
+wszystkie stany pośrednie (pomiędzy początkowym i końcowym) są stanami
+równowagi.}
+{
+Pierwszy proces nazywamy procesem nieodwracalnym, a proces
+drugi procesem odwracalnym.}
+Definicja
+
+Proces nazywamy odwracalnym gdy za
+pomocą bardzo małej (różniczkowej) zmiany otoczenia można wywołać
+proces odwrotny do niego tzn. przebiegający po tej samej drodze w
+przeciwnym kierunku.
+
+!!!!#Cykl Carnota
+{
+Przykładem cyklu odwracalnego jest cykl Carnota. Jest to
+bardzo ważny cykl odwracalny ponieważ {wyznacza granicę naszych
+możliwości zamiany ciepła na pracę}. Cykl Carnota, pokazany na rysunku
+16.4 przebiega czterostopniowo: }
+\liststyleWWviiiNumxxii
+#{
+Gaz znajduje się w stanie równowagi p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. Cylinder
+stawiamy na zbiorniku ciepła (T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}) i pozwalamy,
+żeby gaz rozprężył się izotermicznie do stanu
+p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}, V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX},
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. W tym procesie gaz pobiera ciepło
+Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i jego kosztem wykonuje pracę podnosząc
+tłok.}
+#{
+Cylinder stawiamy na izolującej podstawce i pozwalamy na dalsze
+rozprężanie (adiabatyczne) gazu do stanu p{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Gaz wykonuje
+pracę przy podnosząc tłok kosztem własnej energii i jego temperatura
+spada do T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.}
+#{
+Cylinder stawiamy na zimniejszym zbiorniku (T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX})
+i sprężamy gaz izotermicznie do stanu p{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Pracę
+wykonuje siła zewnętrzna pchająca tłok, a z gazu do zbiornika
+przechodzi ciepło Q{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.}
+#{
+Cylinder stawiamy na izolującej podstawce i sprężamy adiabatycznie do
+stanu początkowego p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. Siły
+zewnętrzne wykonują pracę i temperatura gazu podnosi się do
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}.}
+{ {img fileId="408"}
+{
+Rys. 16.4. Cykl Carnota
+{
+Praca wykonywana przez gaz lub siłę zewnętrzną jest równa każdorazowo
+polu pod wykresem p(V) odpowiadającym danej
+przemianie (rysunek-animacja 16.4) . Stąd wypadkowa praca W
+wykonana przez układ w czasie pełnego cyklu jest opisana przez
+powierzchnię zawartą wewnątrz zamkniętej krzywej opisującej cały cykl.
+}
+{
+Wypadkowa ilość ciepła pobrana przez układ podczas jednego cyklu wynosi
+Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} - Q{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Natomiast
+wypadkowa zmiana energii wewnętrznej wynosi zero bo stan końcowy
+pokrywa się z początkowym, więc na podstawie pierwszej zasady
+termodynamiki otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{W=Q_{{1}}-Q_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.11]
+
+{
+Schematycznie jest to przedstawione na rysunku 16.5. poniżej.}
+{ {img fileId="409"}
+{
+Rys. 16.5. Część pobranego ciepła Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} jest w
+silniku zamieniana na pracę W,
+
+a część oddawana jako ciepło Q{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.
+{
+Widzimy, że pewna ilość ciepła została zamieniona na pracę. Możemy
+powtarzać ten cykl uzyskując potrzebną ilość pracy. Takie urządzenie
+nazywamy silnikiem cieplnym. Sprawność {OPENAGHMATHJAX()}\eta {OPENAGHMATHJAX}
+silnika cieplnego definiujemy jako}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\eta =\frac{W}{Q_{{1}}}=\frac{Q_{{1}}-Q_{{2}}}{Q_{{1}}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.12]
+
+{
+Korzystając z równania stanu gazu doskonałego i z pierwszej zasady
+termodynamiki można pokazać, że sprawność silnika Carnota (dla gazu
+doskonałego) wynosi}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\eta =\frac{W}{Q_{{1}}}=\frac{T_{{1}}-T_{{2}}}{T_{{1}}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.13]
+
+Więcej o obliczaniu sprawność silnika Carnota
+możesz dowiedzieć się w Dodatku 3, na końcu modułu V.
+
+{
+Cykl Carnota można prowadzić w kierunku przeciwnym i wtedy urządzenie
+działa jako maszyna chłodząca.}
+Ćwiczenie 16.1
+
+{ Spróbuj teraz, korzystając z powyższego wzoru
+obliczyć maksymalną sprawność maszyny parowej, która pobiera z kotła
+parę o temperaturze 227 °C, a oddaje do otoczenia parę o temperaturze
+127 °C. Porównaj tę sprawność ze sprawnością zwykłego silnika
+samochodowego (około 25\podniesienie temperatury pary w kotle? Wyniki zapisz poniżej.}
+{ {OPENAGHMATHJAX()}{\eta{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{.}{OPENAGHMATHJAX} = }
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Entropia i druga zasada termodynamiki
+{
+Zwróćmy jeszcze raz uwagę na to, że w trakcie pracy (cyklu)
+silnika cieplnego część pobieranego ciepła była oddawana do zbiornika o
+niższej temperaturze i w konsekwencji ta ilość ciepła nie była
+zamieniana na pracę. Powstaje pytanie, czy można skonstruować
+urządzenie, które pobierałoby ciepło i w całości zamieniałoby je na
+pracę? Moglibyśmy wtedy wykorzystać ogromne (z naszego punktu widzenia
+nieskończone) ilości ciepła zgromadzone w oceanach, które byłyby stale
+uzupełniane poprzez promieniowanie słoneczne. }
+{
+Negatywna, niestety, odpowiedź na to pytanie jest zawarta w
+drugiej zasadzie termodynamiki. Poniżej podane zostały
+równoważne sformułowania tej zasady:}
+Prawo, zasada, twierdzenie
+
+Niemożliwa jest przemiana, której
+jedynym wynikiem byłaby zamiana na pracę ciepła pobranego ze źródła
+mającego wszędzie jednakową temperaturę.
+
+{
+Oznacza to, że nie możemy zbudować doskonałego silnika cieplnego, bo nie
+możemy wytwarzać pracy pobierając jedynie ciepło z jednego zbiornika
+bez oddawania pewnej ilości ciepła do zbiornika zimniejszego.}
+Prawo, zasada, twierdzenie
+
+Żadna cyklicznie pracująca maszyna nie
+może bez zmian w otoczeniu przenosić w sposób ciągły ciepła z jednego
+ciała do drugiego o wyższej temperaturze.
+
+{
+Wiemy, z doświadczenia, że ciepło przepływa od ciała cieplejszego do
+ciała zimniejszego. Żeby zmienić ten kierunek musi zostać wykonana
+praca przez czynnik zewnętrzny. Nie można więc zbudować
+doskonałej maszyny chłodzącej, która bez dodatkowych efektów
+(wydatkowania pracy z zewnątrz) przenosiłaby w sposób ciągły ciepło z
+ciała zimniejszego do cieplejszego.}
+Prawo, zasada, twierdzenie
+
+Żadna cykliczna maszyna cieplna
+pracująca pomiędzy temperaturami T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} nie może mieć sprawności większej niż
+(T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX} T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX})/T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}.
+
+{
+Oznacza to, że żadna maszyna cieplna nie może mieć sprawności
+większej od sprawności silnika Carnota.}
+Więcej o sprawność silników cieplnych możesz
+przeczytać w Dodatku 4, na końcu modułu V.
+!!!!#Termodynamiczna skala temperatur
+{
+Przypomnijmy, że sprawność silnika Carnota jest równa {OPENAGHMATHJAX()}{\eta
+=\frac{W}{Q_{{1}}}=\frac{Q_{{1}}-Q_{{2}}}{Q_{{1}}}=\frac{T_{{1}}-T_{{2}}}{T_{{1}}}}{OPENAGHMATHJAX}.
+Wynika stąd, że}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{T_{{1}}}{T_{{2}}}=\frac{Q_{{1}}}{Q_{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.14]
+
+{
+Możemy więc wyznaczyć stosunek temperatur dowolnych zbiorników ciepła
+mierząc ilość ciepła przenoszoną podczas jednego cyklu Carnota. Wzór
+(16.14) stanowi definicję tak zwanej {termodynamicznej skali
+temperatur}.}
+!!!!#Entropia
+{
+Zerowa zasada termodynamiki wiąże się z pojęciem
+temperatury. Pierwsza zasada termodynamiki wiąże się z
+pojęciem energii wewnętrznej. }
+{
+Natomiast drugą zasadę termodynamiki wiążemy z pojęciem
+entropii.}
+Prawo, zasada, twierdzenie
+
+Druga zasada termodynamiki mówi, że w
+układzie zamkniętym entropia S nie może maleć to znaczy
+dS {OPENAGHMATHJAX()}{\geq}{OPENAGHMATHJAX} 0.
+
+{
+Entropia S jest termodynamiczna funkcją stanu, zależy tylko od
+początkowego i końcowego stanu układu, a nie od drogi przejścia
+pomiędzy tymi stanami. Entropia jest funkcją określoną dla stanu
+równowagi, taką że dla procesu odwracalnego}
+{
+Definicja}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dS}=\frac{\mathit{dQ}}{T}}
+\end{equation}{OPENAGHMATHJAX}
+[16.15]
+
+{
+lub}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{S=\int {\frac{\mathit{dQ}}{T}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.16]
+
+{
+gdzie dQ jest ciepłem dostarczanym do układu w procesie
+odwracalnym.}
+{
+Z tego punktu widzenia szczególnie interesujące są procesy adiabatyczne
+nie związane z przepływem ciepła pomiędzy układem i otoczeniem. W
+procesie adiabatycznym dQ = 0, więc dla procesu odwracalnego
+dS = 0 na podstawie równania (16.15). Oznacza to, że}
+Prawo, zasada, twierdzenie
+
+Entropia układu izolowanego
+adiabatycznie, w którym zachodzą procesy odwracalne, jest stała.
+Jednocześnie można pokazać, że dla procesu adiabatycznego
+nieodwracalnego, entropia układu rośnie.
+
+{
+Można uogólnić zasadę wzrostu entropii na układy nie izolowane
+adiabatycznie to znaczy takie, które wymieniają ciepło z otoczeniem.
+Traktujemy wtedy nasz układ i otoczenie razem jako jeden
+{\textquotedbl}większy{\textquotedbl} układ ponownie izolowany
+adiabatycznie. Wtedy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dS}+\mathit{dS}_{{o}}\ge 0}
+\end{equation}{OPENAGHMATHJAX}
+[16.17]
+
+{
+gdzie dS{OPENAGHMATHJAX()}_{o}{OPENAGHMATHJAX} jest zmianą entropii otoczenia.
+Zmienia się więc entropia naszego układu i otoczenia. Jeżeli proces
+jest odwracalny to podczas przenoszenia ciepła dQ z otoczenia
+do naszego układu entropia otoczenia maleje o dQ/T, a
+entropia układu rośnie o tę samą wartość dQ/T, więc
+całkowita zmiana entropii jest równa zeru. }
+{
+Zatem posługując się entropią (zgodnie z drugą zasadą termodynamiki)
+możemy stwierdzić czy dany proces może {zachodzić w
+przyrodzie}.}
+Przykład
+
+{
+Przykładem może być zmiana entropii w gazie doskonałym podczas
+odwracalnego izotermicznego rozprężania gazu od objętości
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} do objętości V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.
+Na podstawie pierwszej zasady termodynamiki możemy napisać}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dU}=\mathit{dQ}-\mathit{pdV}}
+\end{equation}{OPENAGHMATHJAX}
+[16.18]
+
+{
+a ponieważ dla przemiany izotermicznej dU = 0 więc}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dQ}=\mathit{pdV}}
+\end{equation}{OPENAGHMATHJAX}
+[16.19]
+
+{
+Możemy teraz obliczyć entropię na podstawie równania (16.15)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dS}=\frac{\mathit{dQ}}{T}=\frac{\mathit{pdV}}{T}}
+\end{equation}{OPENAGHMATHJAX}
+[16.20]
+
+{
+Z równania stanu gazu doskonałego
+{OPENAGHMATHJAX()}{\text{pV}=\text{nRT}}{OPENAGHMATHJAX}
+obliczamy T i podstawiając do powyższego wzoru otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dS}=\text{nR}\frac{\mathit{dV}}{V}}
+\end{equation}{OPENAGHMATHJAX}
+[16.21]
+
+{
+a stąd}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{\Delta
+S}=S_{{2}}-S_{{1}}=\overset{V_{{2}}}{\underset{{V_{{1}}}}{\int
+}}{\text{nR}\frac{\mathit{dV}}{V}}{=\text{nR}\text{ln}\frac{V_{2}}{{V_{1}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.22]
+
+{
+Ponieważ gaz się rozpręża to
+V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} {\textgreater} V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}
+więc również
+S{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} {\textgreater} S{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX},
+czyli entropia rośnie. Aby móc zrealizować ten proces nasz układ musi
+być w kontakcie ze zbiornikiem o temperaturze T, który
+dostarcza ciepło i tym samym zapewnia stałą temperaturę rozprężającego
+się gazu. Entropia tego zbiornika maleje tak, że suma entropii układu i
+zbiornika nie zmienia się co jest charakterystyczne dla procesu
+odwracalnego.}
+Posługując się pojęciem entropii można również
+pokazać, że ciepło przepływa z ciała gorącego do zimnego, a nie
+odwrotnie. Więcej na ten temat przeczytasz w Dodatku 5, na
+końcu modułu V.
+
+!!!!#Entropia a nieuporządkowanie
+{
+Entropię układu można opisać na gruncie mechaniki
+statystycznej. W takim podejściu entropia jest {miarą
+nieuporządkowania }układu cząstek. Zgodnie z drugą zasadą termodynamiki
+dla procesów zachodzących w przyrodzie entropia układu (wraz
+z otoczeniem) rośnie to znaczy, że rośnie również nieuporządkowanie
+(układu wraz z otoczeniem). Oznacza to, że im większy jest stan
+nieporządku (położeń i prędkości cząstek) w układzie tym większe jest
+prawdopodobieństwo, że układ będzie w tym stanie.}
+{
+Z definicji entropia układu jest równa}
+{
+Definicja}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{S=k\text{ln}\omega }
+\end{equation}{OPENAGHMATHJAX}
+\raggedleft (16.23
+
+{
+gdzie, k jest stałą Boltzmana, a {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}
+prawdopodobieństwem, że układ znajdzie się w danym stanie (w
+odniesieniu do wszystkich pozostałych stanów).}
+{
+Pokażmy teraz, że to sformułowanie jest równoważne definicji
+termodynamicznej entropii. W tym celu rozpatrzmy swobodne rozprężanie
+gazu od objętości V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} do objętości końcowej
+V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.}
+{
+Względne prawdopodobieństwo znalezienia jednej cząstki w objętości
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} w porównaniu do V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+jest równe}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\left(\frac{\omega _{{1}}}{\omega
+_{{2}}}\right)_{{1}}=\frac{V_{{1}}}{V_{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.24]
+
+{
+a dla N cząstek}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\left(\frac{\omega _{{1}}}{\omega
+_{{2}}}\right)_{{N}}=\left(\frac{V_{{1}}}{V_{{2}}}\right)^{{N}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.25]
+
+{
+Obliczamy teraz zmianę entropii układu}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{\Delta S}=S_{{2}}-S_{{1}}=k\text{ln}\omega
+_{{2}}-k\text{ln}\omega _{{1}}=k\text{ln}\left(\frac{\omega
+_{{2}}}{\omega _{{1}}}\right)}
+\end{equation}{OPENAGHMATHJAX}
+[16.26]
+
+{
+Podstawiając zależność (16.25) otrzymujemy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{\Delta
+S}=\text{Nk}\text{ln}\left(\frac{V_{{2}}}{V_{{1}}}\right)}
+\end{equation}{OPENAGHMATHJAX}
+[16.27]
+
+{
+Równanie to można, dzieląc je i mnożąc przez T, przekształcić
+do postaci}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{\Delta
+S}=\frac{\text{NkT}\text{ln}\left(\frac{V_{{2}}}{V_{{1}}}\right)}{T}}
+\end{equation}{OPENAGHMATHJAX}
+[16.28]
+
+{
+gdzie wyrażenie w liczniku jest równe ilości ciepła dostarczonego do
+układu, aby ten przeszedł do stanu końcowego w sposób odwracalny
+rozprężając się izotermiczne (punkt 15.6). }
+{
+Ostatecznie więc}
+{OPENAGHMATHJAX()}{\mathit{\Delta
+S}=\frac{\mathit{\Delta Q}}{T}}{OPENAGHMATHJAX}  lub 
+{OPENAGHMATHJAX()}{\mathit{dS}=\frac{\mathit{dQ}}{T}}{OPENAGHMATHJAX}
+[16.29]
+
+{
+gdzie dQ jest ciepłem dostarczanym do układu w procesie
+odwracalnym. }
+{
+Podsumowując, w ujęciu termodynamicznym stan równowagi odpowiada stanowi
+o największej entropii, a w ujęciu statystycznym jest stanem
+najbardziej prawdopodobnym.}
+!!!#Stany równowagi, zjawiska transportu
+!!!!#Stany równowagi
+{
+W dotychczasowych naszych rozważaniach posługiwaliśmy się
+pojęciem stanu równowagi układu, czyli stanu, w którym żaden z
+parametrów potrzebnych do makroskopowego opisu układu {nie
+zależy od czasu}. Zajmowaliśmy się procesami, które zaczynały się
+jednym stanem równowagi, a kończyły innym stanem równowagi. }
+{
+Dla układu jednorodnego (przykładowo gazu) w stanie równowagi do jego
+opisu wystarcza znajomość dwu podstawowych parametrów stanu na przykład
+ciśnienia i objętości. Opis komplikuje się gdy mamy układ niejednorodny
+na przykład ciecz w równowadze z parą. Dla danej temperatury stan
+równowagi tego układu jest możliwy przy różnych objętościach układu (od
+objętości zależy ilość fazy ciekłej i gazowej). Natomiast temperatura i
+ciśnienie przestają być niezależne. W każdej temperaturze równowaga
+jest możliwa tylko przy określonym ciśnieniu (pary nasyconej). Przy
+wyższym istnieje tylko ciecz, przy niższym para. Podobnie ciecz i ciało
+stałe mogą istnieć w równowadze tylko w temperaturze topnienia, która
+jest funkcją ciśnienia. Wreszcie ciało stałe współistnieje w równowadze
+z parą nasyconą, której ciśnienie jest funkcją temperatury. Krzywe
+równowagi pokazane na rysunku 16.6.}
+{ {img fileId="405"}
+{
+Rys. 16.6. Krzywe równowagi dla układu niejednorodnego.
+
+Obszar I - ciało stałe, obszar II - ciecz, obszar III - gaz
+{
+Literą a oznaczona jest krzywa równowagi ciało stałe - ciecz
+(związek temperatury topnienia z ciśnieniem). Krzywa
+a{\textquotesingle} przedstawia tę zależność dla kilku
+nietypowych substancji, które przy topnieniu zmniejszają objętość na
+przykład dla lodu. Krzywa b + b{\textquotesingle}
+pokazuje zależność ciśnienia pary nasyconej od temperatury.
+Odcinek b{\textquotesingle} to krzywa równowagi ciało
+stałe - para, a odcinek b to krzywa równowagi ciecz - para.
+Krzywa równowagi ciecz - para kończy się w punkcie krytycznym
+K. Dla temperatury wyższej od temperatury punktu krytycznego
+K zanika różnica pomiędzy fazą ciekłą i gazową. Dlatego
+warunkiem skroplenia gazu jest ochłodzenie go poniżej jego temperatury
+krytycznej. Punkt P, w którym łączą się krzywe nazywamy
+punktem potrójnym. W tym punkcie mogą znajdować się w równowadze
+wszystkie trzy stany skupienia. Dla wody odpowiada to ciśnieniu
+p = 610.6 Pa i T = 273.16 K (0.01 °C). Punkt potrójny
+wody posłużył do definicji jednostki temperatury - kelwina.}
+!!!!#Zjawiska transportu
+{
+Znajomość dochodzenie układów do stanów równowagi jest równie
+ważna jak znajomość ich własności w stanach równowagi, a {każdy
+układ pozostawiony samemu sobie przez dostatecznie długi czas dochodzi
+do stanu równowagi.}}
+{
+Teraz zapoznamy się z bardzo uproszczonym opisem zjawisk,
+które zachodzą gdy układy dążą do stanów równowagi. W zjawiskach tych
+mamy zawsze do czynienia z przenoszeniem (transportem) materii,
+energii, pędu lub ładunku elektrycznego. Wszystkie te zjawiska
+transportu opisujemy w pierwszym przybliżeniu za pomocą {takiego
+samego równania różniczkowego}, które przedstawia propagację
+(rozprzestrzenianie się) pewnej wielkości fizycznej {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}
+mającą na celu osiągnięcie równowagi}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{j=-K\frac{\mathit{d\varphi }}{\mathit{dx}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.30]
+
+{
+W tym równaniu j jest gęstością strumienia (gęstość prądu)
+wielkości fizycznej {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}, a K jest stałą
+charakteryzującą daną sytuację fizyczną. Stałą K wiążemy z
+właściwościami mikroskopowymi rozpatrywanego układu statystycznego.
+Jest to tak zwany współczynnik transportu.}
+{
+Omówimy teraz krótko wybrane zjawiska transportu.}
+{
+Dyfuzja w gazie czyli przenoszenie cząstek w kierunku
+obszarów o mniejszej koncentracji n (dążenie do wyrównania
+koncentracji). Równanie (16.30) nosi teraz nazwę {równania
+dyfuzji} i ma postać}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{j_{{D}}=-D\frac{\mathit{dn}}{\mathit{dx}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.31]
+
+{
+gdzie j{OPENAGHMATHJAX()}_{D}{OPENAGHMATHJAX} jest gęstością strumienia
+cząstek, dn/dx jest różnicą stężeń występującą na
+odległości dx, a D współczynnikiem dyfuzji. Równanie
+to znane jest pod nazwą prawa Ficka. Ponieważ dyfuzja jest
+przenoszeniem cząstek (z miejsc o większym stężeniu do miejsc o
+mniejszym stężeniu) więc mamy do czynienia z {transportem
+masy}.}
+{
+Przewodnictwo cieplne czyli transport energii wskutek
+ruchu cząstek w kierunku obszaru o niższej T (dążenie do
+wyrównania temperatury). Równanie transportu ciepła ma postać}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{j_{{Q}}=-\kappa \frac{\mathit{dT}}{\mathit{dx}}}
+\end{equation}{OPENAGHMATHJAX}
+[16.32]
+
+{
+gdzie j{OPENAGHMATHJAX()}_{Q}{OPENAGHMATHJAX} jest gęstością strumienia
+ciepła, dT/dx jest różnicą temperatur w warstwie
+ciała o grubości dx, a {OPENAGHMATHJAX()}\kappa {OPENAGHMATHJAX} jest współczynnikiem
+przewodnictwa cieplnego. Równanie to znane jest pod nazwą {prawa
+Fouriera}.}
+{
+Przewodnictwo elektryczne czyli przenoszenie ładunku
+elektrycznego w wyniku ruchu elektronów (dążenie do wyrównania
+potencjałów elektrycznych). Równanie, zwane prawem Ohma, ma
+postać}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{j=-\sigma \frac{\mathit{dV}}{\mathit{dx}}=-{\frac{1}{\rho
+}}\frac{\mathit{dV}}{\mathit{dx}}=-{\frac{1}{\rho }}E}
+\end{equation}{OPENAGHMATHJAX}
+[16.33]
+
+{
+gdzie dV/dx jest różnicą potencjałów (napięciem)
+pomiędzy punktami przewodnika odległymi o dx, {{OPENAGHMATHJAX()}\sigma
+{OPENAGHMATHJAX()}} przewodnością elektryczną, {OPENAGHMATHJAX}\rho {OPENAGHMATHJAX} opornością właściwą, a
+E natężeniem pola elektrycznego.}
+{
+Uwaga: wszystkie współczynniki transportu zależą od temperatury.}
+{
+Ten rozdział kończy moduł piąty; możesz teraz przejść do podsumowania i
+zadań testowych.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertiii}
+{\sffamily
+Podsumowanie}
+\liststyleWWviiiNumii
+*{
+Ciśnienie gazu doskonałego złożonego z N cząsteczek o masie
+m jest dane zależnością
+{OPENAGHMATHJAX()}{\text{pV}=\mathit{Nm}\frac{\overline{{v^{{2}}}}}{3}}{OPENAGHMATHJAX},
+gdzie V jest objętością naczynia z gazem.}
+\liststyleWWviiiNumxiv
+*{
+Temperaturę bezwzględną definiujmy jako wielkość wprost proporcjonalną
+do średniej energii kinetycznej cząsteczek
+{OPENAGHMATHJAX()}{T=\left(\frac{2}{3k}\right)\frac{m\overline{{v^{{2}}}}}{2}}{OPENAGHMATHJAX}; stała
+Boltzmana k = 1.38·10{OPENAGHMATHJAX()}^{{}{OPENAGHMATHJAX}-23} J/K.}
+\liststyleWWviiiNumix
+*{
+Równanie stanu gazu doskonałego można zapisać w postaci
+{OPENAGHMATHJAX()}{\mathit{pV}=\mathit{NkT}}{OPENAGHMATHJAX} lub
+{OPENAGHMATHJAX()}{\mathit{pV}=\text{nR}T}{OPENAGHMATHJAX}, gdzie n jest
+liczbą moli, a R = 8.314·J/mol K uniwersalną stałą gazową.}
+\liststyleWWviiiNumxvii
+*{
+Z zasady ekwipartycji energii wynika, że dostępna energia rozkłada się w
+równych porcjach na wszystkie niezależne sposoby, w jakie cząsteczka
+może ją absorbować, co jest równoważne stwierdzeniu, że średnia energia
+kinetyczna na każdy stopień swobody jest taka sama dla wszystkich
+cząsteczek.}
+\liststyleWWviiiNumxvi
+*{
+Pierwsza zasada termodynamiki mówi, że ciepło pobrane przez układ jest
+równe wzrostowi energii wewnętrznej układu plus pracy wykonanej przez
+układ nad otoczeniem zewnętrznym {OPENAGHMATHJAX()}{Q=\mathit{\Delta U}+W}{OPENAGHMATHJAX}. Dla gazu
+działającego na tłok {OPENAGHMATHJAX()}{\mathit{dW}=\mathit{pdV}}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumvi
+*{
+Ciepło właściwe jednego mola gazu obliczamy jako
+{OPENAGHMATHJAX()}{c=\frac{\mathit{dQ}}{\mathit{dT}}}{OPENAGHMATHJAX}. Dla jednego mola gazu ciepło
+właściwe przy stałej objętości wynosi {OPENAGHMATHJAX()}{c_{{V}}=\frac{3}{2}R}{OPENAGHMATHJAX}, a dla
+cząsteczki dwuatomowej {OPENAGHMATHJAX()}{c_{{V}}=\frac{5}{2}R}{OPENAGHMATHJAX}.
+c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX} jest związane z ciepłem
+właściwym przy stałym ciśnieniu
+c{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX} relacją
+{OPENAGHMATHJAX()}{c_{{p}}=c_{{v}}+R}{OPENAGHMATHJAX}.}
+*{
+Przy rozprężaniu izotermicznym ciepło pobrane przez gaz wynosi
+{OPENAGHMATHJAX()}{\mathit{\Delta
+Q}=\text{NkT}\text{ln}\left(\frac{V_{{2}}}{V_{{1}}}\right)}{OPENAGHMATHJAX}}
+\liststyleWWviiiNumxx
+*{
+Gdy gaz rozpręża się adiabatycznie (bez wymiany ciepła z otoczeniem) to
+pV\textsuperscript{
+}{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}{\kappa{OPENAGHMATHJAX}}} = const., gdzie
+{OPENAGHMATHJAX()}{\kappa{OPENAGHMATHJAX}} = c{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX}/c{OPENAGHMATHJAX()}_{v}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumiv
+*{
+Rozkładu prędkości cząsteczek w gazie (rozkład Maxwella) ma postać
+{OPENAGHMATHJAX()}{N(v)=4\mathit{\pi N}\left(\frac{m}{2\pi
+\text{kT}}\right)^{{\frac{3}{2}}}v^{{2}}e^{{-{\frac{\mathit{mv}^{{2}}}{2\text{kT}}}\;}}}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumxi
+*{
+Silnik Carnota pracujący między dwoma zbiornikami ciepła o temperaturach
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} ma sprawność
+{OPENAGHMATHJAX()}{h=\frac{W}{Q_{{1}}}=\frac{Q_{{1}}-Q_{{2}}}{Q_{{1}}}=\frac{T_{{1}}-T_{{2}}}{T_{{1}}}}{OPENAGHMATHJAX},
+gdzie Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} jest ciepłem pobranym ze zbiornika,
+a Q{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} ciepłem oddanym do zbiornika o
+temperaturze T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumxviii
+*{
+Jedno z równoważnych sformułowań drugiej zasady termodynamiki mówi, że
+żadna cykliczna maszyna cieplna pracująca pomiędzy temperaturami
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} nie może mieć
+sprawności większej niż
+(T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} \nobreakdash- T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX})/T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}.
+Oznacza to, że żadna maszyna cieplna nie może mieć sprawności większej
+od sprawności silnika Carnota.}
+*{
+Druga zasada termodynamiki wiąże się z pojęciem entropii. Wynika z niej,
+że w układzie zamkniętym entropia nie może maleć.}
+\liststyleWWviiiNumvii
+*{
+Zjawiska transportu opisujemy w pierwszym przybliżeniu za pomocą takiego
+samego równania różniczkowego, {OPENAGHMATHJAX()}{j=-K\frac{\mathit{d\varphi
+}}{\mathit{dx}}}{OPENAGHMATHJAX} które przedstawia propagację (rozprzestrzenianie się)
+pewnej wielkości fizycznej {OPENAGHMATHJAX()}{\varphi{OPENAGHMATHJAX}} mającą na celu
+osiągnięcie równowagi}
+\clearpage\setcounter{page}{1}\pagestyle{Convertiv}
+!#Materiały dodatkowe do Modułu V
+\liststyleWWviiiNumxix
+#{\sffamily
+Rotacyjne i wibracyjne stopnie swobody cząsteczki wodoru }
+{
+Na gruncie mechaniki kwantowej można pokazać, że moment pędu
+obracającej się cząsteczki jest skwantowany i jego wartość wynosi co
+najmniej {OPENAGHMATHJAX()}{L=h/2\pi }{OPENAGHMATHJAX}, gdzie h jest stałą Plancka. Wartość
+L{OPENAGHMATHJAX()}_{min}{OPENAGHMATHJAX} =
+10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{34}{OPENAGHMATHJAX} kg m{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}
+s{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{1}{OPENAGHMATHJAX}. Energia kinetyczna ruchu
+obrotowego jest dana wyrażeniem
+{OPENAGHMATHJAX()}{E_{{\text{obr}\text{.}}}=\mathit{I\omega
+}^{{2}}/2=L^{{2}}/(2I)}{OPENAGHMATHJAX}, gdzie I jest momentem bezwładności.}
+{
+Dla cząsteczki\textsf{ }H{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} m =
+1.67·10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{27}{OPENAGHMATHJAX} kg, a R
+{OPENAGHMATHJAX()}{\approx}{OPENAGHMATHJAX} 5·10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{11}{OPENAGHMATHJAX} m, więc
+I = 2mR{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}{\approx}{OPENAGHMATHJAX} 8.3·10{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}48 kg
+m{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}.}
+{
+Ponieważ na jeden stopień swobody przypada energia kT/2 więc}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{\text{kT}}{2}=\frac{L^{{2}}}{2I}}
+\end{equation}{OPENAGHMATHJAX}
+[V.1.1]
+
+{
+skąd}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{T=\frac{L^{{2}}}{\text{kI}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.1.2]
+
+{
+Stąd dla {OPENAGHMATHJAX()}{L_{{\boldsubformula{\text{min}}\text{.}}}=h/2\pi }{OPENAGHMATHJAX}
+otrzymujemy T{OPENAGHMATHJAX()}_{min}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}{\approx}{OPENAGHMATHJAX} 90 K.}
+{
+Podobnie jest dla ruchu drgającego, który także jest
+skwantowany i minimalna energia drgań
+{OPENAGHMATHJAX()}{E_{{\text{drg}\text{.}}}=\text{hf}}{OPENAGHMATHJAX},
+gdzie f jest częstotliwością drgań. Dla cząsteczek typowe
+częstotliwości drgań są rzędu 10{OPENAGHMATHJAX()}^{14}{OPENAGHMATHJAX} Hz (zakres
+podczerwieni i widzialny) i dla takiej częstotliwości otrzymujemy
+energię drgań {OPENAGHMATHJAX()}{\approx}{OPENAGHMATHJAX} 6·10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{20}{OPENAGHMATHJAX}
+J co odpowiada temperaturze około 4000 K.}
+\liststyleWWviiiNumxix
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Równanie Poissona dla przemiany adiabatycznej}
+{
+W przemianie adiabatycznej nie zachodzi wymiana ciepła z
+otoczeniem\textcolor{blue{ }}. Oznacza to, że dQ = 0
+i pierwsza zasada termodynamiki przyjmuje postać
+{OPENAGHMATHJAX()}{\mathit{dU}+\mathit{pdV}=0}{OPENAGHMATHJAX}. Równanie to możemy przepisać w postaci}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{c_{{v}}\mathit{dT}+\mathit{pdV}=0}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.1]
+
+{
+Różniczkując równanie stanu gazu doskonałego (15.15) otrzymujemy (dla
+jednego mola gazu)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{pdV}+\mathit{Vdp}=\mathit{RdT}}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.2]
+
+{
+Łącząc oba powyższe równania (eliminując dT) otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{c_{{v}}\left(\frac{\mathit{pdV}}{R}+\frac{\mathit{Vdp}}{R}\right)+\mathit{pdV}=0}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.3]
+
+{
+lub}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\left(\frac{c_{{v}}+R}{R}\right)\mathit{pdV}+\frac{c_{{v}}V}{R}\mathit{dp}=0}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.4]
+
+{
+Podstawiając {OPENAGHMATHJAX()}{c_{{p}}=c_{{v}}+R}{OPENAGHMATHJAX} otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\kappa \frac{\mathit{dV}}{V}+\frac{\mathit{dp}}{p}=0}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.5]
+
+{
+gdzie {OPENAGHMATHJAX()}{\kappa =c_{{p}}/c_{{v}}}{OPENAGHMATHJAX}. Możemy teraz scałkować to równanie}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\kappa \int {\frac{\mathit{dV}}{V}+\int {\frac{\mathit{dp}}{p}=0}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.6]
+
+{
+Skąd}
+{OPENAGHMATHJAX()}{\kappa
+\text{ln}V+\text{ln}p=\text{const}\text{.}}{OPENAGHMATHJAX} (stała całkowania)
+[V.2.7]
+
+{
+Zapisując inaczej otrzymany wynik}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\text{ln}(\mathit{pV}^{{\kappa }})=\text{const}\text{.}}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.8]
+
+{
+lub}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{pV}^{{\kappa }}=\text{const}\text{.}}
+\end{equation}{OPENAGHMATHJAX}
+[V.2.9]
+
+\liststyleWWviiiNumxix
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Sprawność silnika Carnota }
+{
+Cykl Carnota, przebiega czterostopniowo: }
+\liststyleWWviiiNumviii
+##
+##{
+Gaz znajduje się w stanie równowagi p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. Cylinder
+stawiamy na zbiorniku ciepła (T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}) i pozwalamy,
+żeby gaz rozprężył się izotermicznie do stanu
+p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}, V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX},
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. W tym procesie gaz pobiera ciepło
+Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i jego kosztem wykonuje pracę podnosząc
+tłok. }
+##{
+Cylinder stawiamy na izolującej podstawce i pozwalamy na dalsze
+rozprężanie (adiabatyczne) gazu do stanu p{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Gaz wykonuje
+pracę podnosząc tłok kosztem własnej energii i jego temperatura spada
+do T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. }
+##{
+Cylinder stawiamy na zimniejszym zbiorniku (T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX})
+i sprężamy gaz izotermicznie do stanu p{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Pracę
+wykonuje siła zewnętrzna pchająca tłok, a z gazu do zbiornika
+przechodzi ciepło Q{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. }
+##{
+Cylinder stawiamy na izolującej podstawce i sprężamy adiabatycznie do
+stanu początkowego p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX},
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. Siły
+zewnętrzne wykonują pracę i temperatura gazu podnosi się do
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}.}
+{
+Podczas przemiany (I) gaz pobiera ciepło Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+jego kosztem wykonuje W{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{Q_{{1}}=W_{{1}}=\text{nRT}_{{1}}\text{ln}\frac{V_{{2}}}{V_{{1}}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.1]
+
+{
+Analogicznie podczas przemiany (III) siła zewnętrzna wykonuje pracę
+W{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}, a z gazu do zbiornika przechodzi ciepło
+Q{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{Q_{{2}}=W_{{2}}=\text{nRT}_{{2}}\text{ln}\frac{V_{{3}}}{V_{{4}}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.2]
+
+{
+Dzieląc te równania stronami otrzymujemy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{Q_{{1}}}{Q_{{2}}}=\frac{T_{{1}}\text{ln}\frac{V_{{2}}}{V_{{1}}}}{T_{{2}}\text{ln}\frac{V_{{3}}}{V_{{4}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.3]
+
+{
+Z równania stanu gazu doskonałego (15.15) dla przemian izotermicznych
+(I) i (III) wynika, że}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{p_{{1}}V_{{1}}=p_{{2}}V_{{2}}}
+\\ p_{{3}}V_{{3}}=p_{{4}}V_{{4}} \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.4]
+
+{
+Natomiast dla przemian adiabatycznych (II) i (IV) z równania Poissona
+(15.39) wynika, że}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{p_{{2}}V_{{2}}^{{\kappa }}=p_{{3}}V_{{3}}^{{\kappa
+}}} \\ p_{{4}}V_{{4}}^{{\kappa }}=p_{{1}}V_{{1}}^{{\kappa
+}} \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.5]
+
+{
+Z powyższych czterech równań wynika, że}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\left(V_{{2}}V_{{4}}\right)^{{\kappa
+-1}}=\left(V_{{1}}V_{{3}}\right)^{{\kappa -1}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.6]
+
+{
+skąd}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{V_{{2}}}{V_{{1}}}=\frac{V_{{3}}}{V_{{4}}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.7]
+
+{
+Podstawiając to wyrażenie do równania (V.3.3) otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{Q_{{1}}}{Q_{{2}}}=\frac{T_{{1}}}{T_{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.8]
+
+{
+i możemy teraz zapisać sprawność silnika Carnota (dla gazu doskonałego)
+jako}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\eta =\frac{Q_{{1}}-Q_{{2}}}{Q_{{1}}}=\frac{T_{{1}}-T_{{2}}}{T_{{1}}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.3.9]
+
+\liststyleWWviiiNumxix
+#{\sffamily
+Sprawność silników cieplnych }
+{
+Rozpatrzmy następujący schemat (pokazany na rysunku poniżej),
+w którym silnik o sprawności hipotetycznie większej
+od silnika Carnota napędza taki silnik Carnota pracujący jako chłodnica
+między tymi samymi zbiornikami ciepła. }
+{ {img fileId="400"}
+{
+Silnik o hipotetycznej sprawności {OPENAGHMATHJAX()}\eta {OPENAGHMATHJAX} napędza silnik
+Carnota o sprawności {OPENAGHMATHJAX()}\eta {OPENAGHMATHJAX}{\textquotesingle} {\textless}
+{OPENAGHMATHJAX()}\eta {OPENAGHMATHJAX}
+{
+Silnik o sprawności {OPENAGHMATHJAX()}\eta {OPENAGHMATHJAX} pobiera ze źródła o temperaturze
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} ciepło Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+zamienia ją na energię mechaniczną W równą}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{W=\mathit{\eta Q}_{{1}}}
+\end{equation}{OPENAGHMATHJAX}
+[V.4.1]
+
+{
+Jeżeli układ napędowy tej maszyny jest połączony z układem napędowym
+silnika Carnota to energia W zostanie zużyta na napędzanie
+chłodni Carnota. W wyniku tego do źródła ciepła zostanie dostarczone
+ciepło Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}{\textquotesingle} równe}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{Q_{{1}}=\frac{W}{\eta }}
+\end{equation}{OPENAGHMATHJAX}
+[V.4.2]
+
+{
+Ponieważ założyliśmy, że sprawność silnika jest większa od sprawności
+silnika Carnota {OPENAGHMATHJAX()}\eta {OPENAGHMATHJAX} {\textgreater} {{OPENAGHMATHJAX()}\eta
+{OPENAGHMATHJAX}}{\textquotesingle} to ciepło dostarczone do źródła ciepła jest
+większe niż ciepło pobrane
+Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}{\textquotesingle} {\textgreater} Q{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}
+co oznacza, że w końcowym efekcie ciepło jest przenoszone z chłodnicy
+do źródła ciepła. Wnioskujemy więc, że jeśli istniałby silnik o
+sprawności większej od sprawności silnika Carnota to naruszona
+zostałaby druga zasada termodynamiki w sformułowaniu: {żadna
+cyklicznie pracująca maszyna nie może bez zmian w otoczeniu przenosić w
+sposób ciągły ciepła z jednego ciała do drugiego o wyższej
+temperaturze}.}
+\liststyleWWviiiNumxix
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#\clearpage{\sffamily
+Przepływ ciepła }
+{
+Rozważmy dwa identyczne ciała o temperaturach
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}, które
+kontaktujemy ze sobą termicznie. Po chwili, temperatury ciał wynoszą
+odpowiednio
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX} dT{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} oraz
+T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} + dT{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} w wyniku
+przepływu następujących ilości ciepła}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{\mathit{dQ}_{{1}}=\text{mc}_{{w}}\mathit{dT}_{{1}}}
+\\ \mathit{dQ}_{{2}}=\text{mc}_{{w}}\mathit{dT}_{{2}}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[V.5.1]
+
+{
+gdzie, m jest masą każdego z ciał, a
+c{OPENAGHMATHJAX()}_{w}{OPENAGHMATHJAX} ciepłem właściwym. Ponieważ ilość
+ciepła pobranego jest równa ilości ciepła oddanego
+dQ{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}-{OPENAGHMATHJAX} dQ{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} więc
+również zmiany temperatur są równe dT{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}
+= {OPENAGHMATHJAX()}-{OPENAGHMATHJAX} dT{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = dT}
+{
+Obliczamy teraz zmiany entropii każdego z ciał}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{\mathit{dS}_{{1}}=\frac{\mathit{dQ}_{{1}}}{T_{{1}}}=\frac{\text{mc}_{{w}}\mathit{dT}_{{1}}}{T_{{1}}}}
+\\ \mathit{dS}_{{2}}=\frac{\mathit{dQ}_{{2}}}{T_{{2}}}=\frac{\text{mc}_{{w}}\mathit{dT}_{{2}}}{T_{{2}}}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[V.5.2]
+
+{
+Wypadkowa zmiana entropii wynosi więc}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\mathit{dS}=\frac{\text{mc}_{{w}}\mathit{dT}}{T_{{1}}}\left(\frac{1}{T_{{2}}}-\frac{1}{T_{{1}}}\right)}
+\end{equation}{OPENAGHMATHJAX}
+[V.5.3]
+
+{
+a zmiana temperatury}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dT}=\frac{T_{{1}}T_{{2}}}{\text{mc}_{{w}}}\left(\frac{\mathit{dS}}{T_{{1}}-T_{{2}}}\right)}
+\end{equation}{OPENAGHMATHJAX}
+[V.5.4]
+
+{
+Ponieważ, zgodnie z drugą zasadą termodynamiki zmiana entropii układu
+jest dodatnia dS {\textgreater} 0 więc gdy
+T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} {\textgreater} T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+to zmiana temperatury dT też jest dodatnia, a to oznacza że
+ciepło przepływa od ciała o temperaturze T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} do
+ciała o temperaturze T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertv}
+!#Rozwiązania ćwiczeń z modułu V
+{
+Ćwiczenie 15.1}
+{
+Dane: ciśnienie p = 1 atm. \foreignlanguage{ngerman}{= 101325
+Pa, }{OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX}\foreignlanguage{ngerman}{{
+}}\foreignlanguage{ngerman}{=
+1.3kg/m}\foreignlanguage{ngerman}{{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}}\foreignlanguage{ngerman}{
+}}
+{
+Prędkość średnią kwadratową obliczamy ze wzoru (15.12)
+{OPENAGHMATHJAX()}{v_{{\text{śr}\text{.}\text{kw}\text{.}}}=\sqrt{\overline{{v^{{2}}}}}=\sqrt{\frac{3p}{\rho
+}}}{OPENAGHMATHJAX}}
+{
+Po podstawieniu danych otrzymujemy
+v{OPENAGHMATHJAX()}_{śr. kw.}{OPENAGHMATHJAX} = 483 m/s
+}
+{
+Ćwiczenie 15.2}
+{
+Dane: Prawo Boyle{\textquotesingle}a-Mariotte{\textquotesingle}a
+T = const.; Prawo Charlesa V = const.; Prawo
+Gay-Lussaca p = const.}
+{img fileId="414"}
+{
+Ćwiczenie 15.3}
+{
+Dane: V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = V{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX} = 1
+dm{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}, V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} =
+V{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX} = 2 dm{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX},
+p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 1 atm. oraz
+p{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX} = 1.01 atm.}
+{ {img fileId="401"}
+{
+Na odcinku 1\ding{213}2 gaz rozpręża się pod stałym ciśnieniem
+p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} od objętości V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} do
+objętości V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} wykonując pracę
+W{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}\Delta {OPENAGHMATHJAX}V = 101 J.
+Zgodnie z równaniem stanu gazu doskonałego
+{OPENAGHMATHJAX()}{\mathit{pV}=\text{nR}T}{OPENAGHMATHJAX} temperatura gazu rośnie i
+rośnie jego energia wewnętrzna.}
+{
+Na odcinku 2\ding{213}3 objętość gazu jest stała i w związku z tym praca
+jest równa zeru. Ciśnienie gazu rośnie od p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+do p{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX} więc temperatura gazu rośnie i rośnie
+jego energia wewnętrzna.}
+{
+Na odcinku 3\ding{213}4 gaz jest sprężany pod stałym ciśnieniem
+p{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX} od objętości V{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX} do
+objętości V{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX} więc praca wykonana nad układem
+W{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}\Delta {OPENAGHMATHJAX}V = 102 J.
+Temperatura gazu maleje i maleje jego energia wewnętrzna. }
+{
+Na odcinku 4\ding{213}1 objętość gazu jest stała i w związku z tym praca
+jest równa zeru. Ciśnienie gazu maleje od p{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX}
+do p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} więc temperatura gazu maleje i maleje
+jego energia wewnętrzna.}
+Przemiana
+\multicolumn{2}{m{1.5031599in}|}{ znak
+(+/0/{OPENAGHMATHJAX()}-{OPENAGHMATHJAX})}
+
+W
+{OPENAGHMATHJAX()}\Delta
+{OPENAGHMATHJAX}U
+
+1\ding{213}2
+\color{black} +
+\color{black} +
+
+2\ding{213}3
+\color{black} 0
+\color{black} +
+
+3\ding{213}4
+\color{black} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+\color{black} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+
+4\ding{213}1
+\color{black} 0
+\color{black} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+
+1\ding{213}2\ding{213}3\ding{213}4\ding{213}1
+\color{black} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+\color{black} 0
+
+{
+Praca wypadkowa w całym cyklu jest równa różnicy
+W{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} \textcolor{black}{{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}}\textcolor{black}{ }W{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+i liczbowo odpowiada polu zawartemu pomiędzy liniami na wykresie
+p(V) (pole prostokąta). Ponieważ energia wewnętrzna
+jest funkcją stanu więc jej zmiana na drodze zamkniętej jest równa
+zeru. }
+{
+Ćwiczenie 15.5}
+{
+Dane: przemiana adiabatyczna,
+V{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}/V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 9}
+{
+Dla przemiany adiabatycznej {OPENAGHMATHJAX()}{\mathit{pV}^{{\kappa
+}}=\text{const}\text{.}}{OPENAGHMATHJAX()} więc {OPENAGHMATHJAX}{p_{{1}}V_{{1}}^{{\kappa
+}}=p_{{2}}V_{{2}}^{{\kappa }}}{OPENAGHMATHJAX}.}
+{
+Podstawiając na podstawie równania stanu gazu doskonałego
+{OPENAGHMATHJAX()}{p=\frac{\text{NkT}}{V}}{OPENAGHMATHJAX} otrzymujemy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{T_{{1}}V_{{1}}^{{\kappa -1}}=T_{{2}}V_{{2}}^{{\kappa -1}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+skąd}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{T_{{1}}}{T_{{2}}}=\left(\frac{V_{{2}}}{V_{{1}}}\right)^{{\kappa
+-1}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Dla cząstek dwuatomowych {OPENAGHMATHJAX()}{c_{{V}}=\frac{5}{2}R}{OPENAGHMATHJAX}, a
+{OPENAGHMATHJAX()}{c_{{p}}=c_{{v}}+R=\frac{7}{2}R}{OPENAGHMATHJAX}, więc {OPENAGHMATHJAX()}{\kappa
+=\frac{c_{{p}}}{c_{{v}}}=\frac{7}{5}}{OPENAGHMATHJAX}.}
+{
+Podstawiając dane otrzymujemy
+{OPENAGHMATHJAX()}{\frac{T_{{2}}}{T_{{1}}}=0\text{.}\text{42}}{OPENAGHMATHJAX}.}
+{
+Ćwiczenie 16.1}
+{
+Dane: t{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 227 °C, t{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+= 127 °C. }
+{
+Maksymalną sprawność (to jest sprawność dla cyklu Carnota) obliczamy z
+wyrażenia}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\eta =\frac{T_{{1}}-T_{{2}}}{T_{{1}}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+gdzie temperatury T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} są temperaturami mierzonymi w skali
+bezwzględnej. Podstawiając T{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 500 K i
+T{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 400 K otrzymujemy {OPENAGHMATHJAX()}\eta {OPENAGHMATHJAX} = 0.2
+(20\\clearpage\setcounter{page}{1}\pagestyle{Convertvi}
+!#Test V
+\liststyleWWviiiNumxv
+#{
+W komorze laboratoryjnej osiągnięto próżnię
+10{OPENAGHMATHJAX()}^{\nobreakdash-8}{OPENAGHMATHJAX} Pa. Jaka ilość cząsteczek znajduje
+się w 1cm{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX} takiej komory w temperaturze 20 ºC?}
+#{
+Na rysunku poniżej pokazano cykl przemian gazu doskonałego w układzie
+współrzędnych p - V. Narysuj ten sam cykl we współrzędnych
+p - T.}
+{ {img fileId="403"}
+\liststyleWWviiiNumxv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{
+Jak zmieni się średnia wartość energii kinetycznej jednego mola argonu
+(gaz jednoatomowy) jeżeli dostarczymy mu Q = 3000 J ciepła w
+warunkach stałej objętości.}
+#{
+Jakie jest ciepło właściwe na gram a) helu (masa atomowa 4, gaz
+jednoatomowy), b) wodoru (masa atomowa 1, gaz dwuatomowy), c) tlenu
+(masa atomowa 16, gaz dwuatomowy) jeżeli gazy te utrzymujemy w stałej
+objętości?}
+#{
+Jeden mol tlenu (gaz dwuatomowy) został ogrzany od temperatury 300 K do
+400 K przy stałym ciśnieniu. Jaką ilość ciepła dostarczono do układu,
+jaka jest zmiana jego energii wewnętrznej i jaka praca została
+wykonana?}
+#{
+Jeden mol powietrza pod ciśnieniem
+p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 10{OPENAGHMATHJAX()}^{5}{OPENAGHMATHJAX} Pa i o objętości
+V{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 22.4 l, został sprężony do połowy
+objętości początkowej a) izotermicznie, b) izobarycznie. Porównaj pracę
+wykonaną w obu przypadkach.}
+#{
+Silnik Carnota pracuje ze sprawnością
+{OPENAGHMATHJAX()}{\eta{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 40\temperaturę grzejnika, aby sprawność wzrosła
+do{OPENAGHMATHJAX()}{\eta{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 50\stała i wynosi 300 K.}
+#{
+Oblicz zmianę entropii 1 g lodu o temperaturze 0 {\textdegree}C, który
+topi się w sposób odwracalny przechodząc w wodę o tej samej
+temperaturze. Ciepło topnienia wynosi 3.3·10{OPENAGHMATHJAX()}^{5}{OPENAGHMATHJAX} J/kg.}
+
+
+

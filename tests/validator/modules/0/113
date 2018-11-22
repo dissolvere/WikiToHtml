@@ -1,0 +1,36 @@
+ 
+
+Rozpatrzmy układ, o stałej masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}, złożony z {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} punktów materialnych o masach  {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX},. ..., {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} oraz prędkościach {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, ....., {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX}. Energia kinetyczna tego układu mierzona względem środka masy jest dana wyrażeniem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{{\sum}_{i=1}^n{m_iv_{{i}}^{{2}}}}{2}=\frac{{\sum_{i=1}^n}{m_{{i}}({\bf v}_{{\text{śr}\text{.}m\text{.}}}+{\bf v}_{{i\text{.}\text{wzg}}})({\bf v}_{{\text{śr}\text{.}m\text{.}}}+{\bf v}_{{i\text{.}\text{wzg}}})}}{2}}\end{equation}{OPENAGHMATHJAX}
+[II.1.1]
+
+gdzie {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.}{OPENAGHMATHJAX} jest prędkością środka masy, a {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{i,wzg}{OPENAGHMATHJAX} jest prędkością {OPENAGHMATHJAX()}i{OPENAGHMATHJAX}-tego punktu mierzoną w układzie środka masy. Wykonując mnożenie skalarne otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{\sum_{i=1}^n{m_{{i}}}}{2}{v}_{{\text{śr}\text{.}m\text{.}}}^{{2}}+{\bf v}_{{\text{śr}\text{.}m\text{.}}}{\sum_{i=1}^n}{m_{{i}}{\bf v}_{{i\text{.}\text{wzg}}}}+\frac{\sum_{i=1}^n{m_{{i}}{ v}_{{i\text{.}\text{wzg}}}^{{2}}}}{2}}\end{equation}{OPENAGHMATHJAX}
+[II.1.2]
+
+Zgodnie z równaniem (9.6)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\overset{{n}}{\underset{{i=1}}{\sum}}{m_{{i}}{\bf v}_{{i\text{.}\text{wzg}}}}=\mathit{M{\bf v}}_{{\text{śr}\text{.}m\text{.}\text{wzg}}}}\end{equation}{OPENAGHMATHJAX}
+
+a ponieważ prędkość środka masy mierzona względem środka masy jest równa zeru {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.,wzg}= 0{OPENAGHMATHJAX} 
+więc drugi wyraz w równaniu (II.1.2) znika. Ostatecznie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{\mathit{Mv}_{{\text{śr}\text{.}m\text{.}}}^{{2}}}{2}+E_{{k}}'}\end{equation}{OPENAGHMATHJAX}
+[II.1.3]
+
+gdzie {OPENAGHMATHJAX()}E_k'{OPENAGHMATHJAX} jest energią kinetyczną mierzoną w układzie środka masy. Zastosowanie tego równania zilustrujemy obliczając energię kinetyczną obręczy o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} toczącej się po płaszczyźnie tak, że środek obręczy ma prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} (rysunek poniżej)
+
+{img fileId="449"}
+Ponieważ w układzie środka masy ciało sztywne może mieć tylko energię obrotową (rotacyjną ) więc równanie (3) przyjmuje postać {OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{\mathit{mv}^{{2}}}{2}+\frac{\mathit{mv}_{{\text{obrot}\text{.}\text{wzg}}}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+[II.1.4]
+ 
+gdzie {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{{\text{obrot}\text{.}\text{wzg}}}{OPENAGHMATHJAX} to prędkość obręczy w układzie środka masy. Ponieważ obserwator w układzie środka masy widzi obręcz obracającą się z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} więc {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{{\text{obrot}\text{.}\text{wzg}}}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}. 
+
+Stąd
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{\mathit{mv}^{{2}}}{2}+\frac{\mathit{mv}^{{2}}}{2}=\mathit{mv}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+[II.1.5]
+
+Zauważmy, że obręcz ma energię dwa razy większą od ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} poruszającego się z tą samą prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} (ale nie obracającego się). 

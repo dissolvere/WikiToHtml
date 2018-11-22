@@ -1,0 +1,92 @@
+ 
+
+{img src="
+img/icons/picture.png
+"}{img src="http://epodreczniki.open.agh.edu.pl/img/icons/openagh/wikiplugin_openaghexercise.png"}
+~hc~                 end tiki_plugin                 ~/hc~
+ 
+
+ 
+
+{OPENAGHEXERCISE( body="
+Sprawdź, czy funkcja
+\begin{eqnarray}
+f(x)=
+\begin{cases}
+\frac{2x+1}{x+2} & x 
+eq -2,\\
+2 & x=-2
+\end{cases}
+\end{eqnarray}
+jest injekcją, surjekcją, bijekcją. Jeśli to możliwe, znależć \( f^{-1} \).
+" solution="
+\begin{itemize}
+ \item czy \( f \) jest injekcją?
+
+Zajmiemy się najpierw restrykcją \(g\) funkcji \( f \) do zbioru \(\mathbb{R}\setminus{\{-2\}}\). Załóżmy, że istnieją dwa punkty \( x_1\) i \(x_2 \) takie, że \( g(x_1)=g(x_2) \).
+ Wówczas \( \frac{2x_1+1}{x_1+2}=\frac{2x_2+1}{x_2+2} \), z czego po pomnożeniu obustronnie przez \( (x_1+2)(x_2+2) \) i po prostych przekształceniach dostajemy \( x_1=x_2 \).
+ Zatem funkcja \( g \) jest injekcją. Czy istnieje \( x \in \mathbb{R}\setminus{\{-2\}}\) takie, że \( g(x)=2 \)? Jeżeli tak, to \( \frac{2x_2+1}{x_2+2} =2 \), co prowadzi do sprzeczności \( 2x+1=2x+4 \), więc \( f \) jest injekcją.
+
+ \item czy \(f \) jest surjekcją?
+
+ Weźmy \( y 
+eq 2\). Czy istnieje \( x \in \mathbb{R} \), taka, że \( f(x)=y \)? Jeżeli tak, to \( x\) i \(y\) spełniają równanie \( \frac{2x+1}{x+2}=y \). Zatem \( x=\frac{1-2y}{y-2}\).
+ Stąd dla \( y 
+eq 2\) istnieje \(x\) takie, że \( f(x)=y \). Dla \( y=2 \), \(x=-2\). Funkcja \(f\) jest surjekcją.
+ \item czy \(f\) jest bijekcją?
+
+ Ponieważ funkcja \(f\) jest injekcją i surjekcją, więc z definicji jest bijekcją. Funkcja odwrotna do \(f\) dana jest wzorem
+
+\begin{eqnarray}
+f^{-1}(x)=
+\begin{cases}
+\frac{1-2x}{x-2} & x 
+eq 2,\\
+-2 & x=2
+\end{cases}.
+\end{eqnarray}
+ \end{itemize}
+")}
+Zadanie 1:
+
+Treść zadania:
+
+Sprawdź, czy funkcja
+\begin{eqnarray}
+f(x)=
+\begin{cases}
+\frac{2x+1}{x+2} & x
+eq -2,\\
+2 & x=-2
+\end{cases}
+\end{eqnarray}
+
+ROZWIĄZANIE:
+
+Zajmiemy się najpierw restrykcją \(g\) funkcji \( f \) do zbioru \mathbb{R}\setminus{\{-2\}}\). Załóżmy, że istnieją dwa punkty \( x_1\) i \(x_2 \) takie, że \( g(x_1)=g(x_2) \).
+Wówczas \( \frac{2x_1+1}{x_1+2}=\frac{2x_2+1}{x_2+2} \), z czego po pomnożeniu obustronnie przez \( (x_1+2)(x_2+2) \) i po prostych przekształceniach dostajemy \( x_1=x_2 \).
+Zatem funkcja \( g \) jest injekcją. Czy istnieje \( x \in \mathbb{R}\setminus{\(-2\)}\) takie, że \( g(x)=2 \)? Jeżeli tak, to \( \frac{2x_2+1}{x_2+2} =2 \), co prowadzi do sprzeczności \( 2x+1=2x+4 \), więc \( f \) jest injekcją.
+
+\item czy \(f \) jest surjekcją?
+
+Weźmy \( y eq 2\). Czy istnieje \( x \in \mathbb{R} \), taka, że \( f(x)=y \)? Jeżeli tak, to \( x\) i \(y\) spełniają równanie \( \frac{2x+1}{x+2}=y \). Zatem \( x=\frac{1-2y}{y-2}\).
+Stąd dla \( y eq 2\) istnieje \(x\) takie, że \( f(x)=y \). Dla \( y=2 \), \(x=-2\). Funkcja \(f\) jest surjekcją.
+\item czy \(f\) jest bijekcją?
+
+Ponieważ funkcja \(f\) jest injekcją i surjekcją, więc z definicji jest bijekcją. Funkcja odwrotna do \(f\) dana jest wzorem
+
+
+\begin{eqnarray}
+f^{-1}(x)=
+\begin{cases}
+\frac{1-2x}{x-2} & x eq 2,\\
+-2 & x=2
+\end{cases}.
+\end{eqnarray}
+
+
+\end{itemize}{OPENAGHEXERCISE}{openaghexercise body="Sprawdź, czy funkcja \( f \colon \mathbb{R}^4 i (a,b,c,d) \rightarrow (a+b, c+d) \in \mathbb{R}^2 \) jest injekcją."}{openaghexercise body="Znajdź funkcję odwrotną do \( f \), jeśli\(f \colon (x, y) i \mathbb{R}^2 \rightarrow (x+2y, -3x+6) \in \mathbb{R}^2.\)"}{openaghexercise body="Sprawdź, czy funkcja \( f \colon x i \mathbb{R} \rightarrow 2^x - 2^{-x} \in \mathbb{R}^2 \) jest injekcją."}
+ 
+
+{openaghexercise body="Niech dana będzie funkcja \( f \colon \mathbb{R}^2 i (x,y) \rightarrow (x-2y, x+y+4) \in \mathbb{R}^2 \). Wykaż, że funkcja \( f \) jest bijekcją oraz podaj przepis funkcji odwrotnej \( f^{-1} \)."}{openaghexercise body="Niech dana będzie funkcja \( f \colon \mathbb{R}^2 i (x,y) \rightarrow (|x|,|y|,x-y) \in \mathbb{R}^3.\) Zbadaj, czy \( f \) jest injekcją oraz czy \(f\) jest surjekcją."}
+ 

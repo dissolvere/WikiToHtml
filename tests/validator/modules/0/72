@@ -1,0 +1,43 @@
+ 
+
+{OPENAGHDEFINITION(name="Ciężar")}Ciężar definiujemy jako siłę ciężkości działającą na ciało.{OPENAGHDEFINITION}
+
+
+
+W pobliżu powierzchni Ziemi ciężar jest więc siłą z jaką Ziemia przyciąga ciało i dla ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} jest równy {OPENAGHMATHJAX()}mg{OPENAGHMATHJAX}. Na Księżycu ciężar jest mniejszy w porównaniu z ciężarem na Ziemi okołosześć razy. Ciężaru nie należy więc mylić z masą ciała.
+
+Gdy spróbujemy wprawić w ruch ciało popychając je to wymaga to pewnego wysiłku nawet gdy ruch odbywa się po idealnie gładkiej poziomej powierzchni. Wysiłek jest tym większy im ciało ma większą masę. Wynika to bezpośrednio z drugiej zasady dynamiki Newtona {OPENAGHMATHJAX()}F=ma{OPENAGHMATHJAX} . Masę {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} występującą w tym wzorze nazywamy masą bezwładną.
+
+Z kolei rozpatrzmy sytuację gdy utrzymujemy klocek uniesiony w górę w stanie spoczynku. Bezwładność nie odgrywa tu żadnej roli bo ciało nie przyspiesza, jest w spoczynku. Ale przecież musimy używać siły, o wartości równej przyciąganiu grawitacyjnemu między ciałem i Ziemią, żeby ciało nie spadło. Odgrywa tu rolę ta właściwość ciała, która powoduje że jest ono przyciąganie przez inne obiekty takie jak Ziemia i siłą
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{F=G\frac{m'M_{{Z}}}{R_{{Z}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[6.9]
+
+
+Występującą w tym wzorze masę {OPENAGHMATHJAX()}m'{OPENAGHMATHJAX} nazywamy masą grawitacyjną.
+
+
+Powstaje pytanie czy masa bezwładna {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i masa grawitacyjna {OPENAGHMATHJAX()}m'{OPENAGHMATHJAX} ciała są sobie równe?
+
+Żeby znaleźć odpowiedź na to pytanie rozpatrzmy sytuację, w której masa bezwładna {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} spadając swobodnie w pobliżu powierzchni Ziemi uzyskuje przyspieszenie {OPENAGHMATHJAX()}a_1{OPENAGHMATHJAX} . Wtedy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m_{{1}}a_{{1}}=G\frac{m'_{{1}}M_{{Z}}}{R_{{Z}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[6.10]
+
+
+Jeżeli natomiast inna masa {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX} uzyskuje przyspieszenie {OPENAGHMATHJAX()}a_2{OPENAGHMATHJAX} to
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m_{{2}}a_{{2}}=G\frac{m'_{{2}}M_{{Z}}}{R_{{Z}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[6.10]
+
+Dzieląc równania (6.10a) i (6.10b) przez siebie otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{m_{{1}}a_{{1}}}{m_{{2}}a_{{2}}}=\frac{m'_{{1}}}{m'_{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[6.11]
+
+Ponieważ doświadczalnie stwierdzono, że wszystkie ciała spadają (w próżni) w pobliżu Ziemi z tym samym przyspieszeniem {OPENAGHMATHJAX()}a_1=a_2=g{OPENAGHMATHJAX} to stosunek mas bezwładnych jest równy stosunkowi mas grawitacyjnych. Aktualnie jesteśmy w stanie stwierdzić, że {OPENAGHMATHJAX()}a_1=a_2{OPENAGHMATHJAX} z dokładnością do {OPENAGHMATHJAX()}10^{-10}{OPENAGHMATHJAX}.
+
+
+{OPENAGHDEFINITION(name="Zasada równoważności")}Te wyniki wskazują, że masa bezwładna jest równa masie grawitacyjnej. To stwierdzenie nazywa się zasadą równoważności.{OPENAGHDEFINITION}
+
+Konsekwencją jest to, że nie można rozróżnić między przyspieszeniem układu, a przyspieszeniem grawitacyjnym. Ta zasada jest punktem wyjścia ogólnej teorii względności Einsteina.

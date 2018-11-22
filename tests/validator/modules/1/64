@@ -1,0 +1,23 @@
+
+
+Prześledźmy przykład, w którym zmieniają się i wartość i kierunek prędkości. Całkowite przyspieszenie w ruchu krzywoliniowym jest sumą przyspieszenia stycznego {OPENAGHMATHJAX()}a_{s}{OPENAGHMATHJAX} i prostopadłego do niego przyspieszenia normalnego {OPENAGHMATHJAX()}a_{n}{OPENAGHMATHJAX}.
+
+Ponownie rozpatrzymy rzut ukośny. W tym ruchu przyspieszenie grawitacyjne {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} jest odpowiedzialne zarówno za zmianę wartości prędkości i jej kierunku tak jak przedstawiono na rysunku poniżej.
+
+{ {img fileId="355"}
+Rys. 3.6. Przyspieszenie całkowite {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}, styczne {OPENAGHMATHJAX()}a_{s}{OPENAGHMATHJAX} i dośrodkowe {OPENAGHMATHJAX()}a_{n}{OPENAGHMATHJAX} w rzucie ukośnym.
+
+{openaghexercise name="Wektor przyspieszenia" body="Spróbuj pokazać, że tak jest w każdym punkcie toru i dodatkowo narysuj wektory przyspieszenia całkowitego, stycznego i dośrodkowego w innym dowolnym punkcie toru na rysunku 3.6." solution=""}
+
+Możesz prześledzić jak w rzucie ukośnym zmienia się przyspieszenie i jego składowe: {OPENAGHMATHJAX()}a_{n}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{ }{OPENAGHMATHJAX}(składowa normalna do toru, odpowiedzialna za zmianę kierunku prędkości) oraz {OPENAGHMATHJAX()}a_{s}{OPENAGHMATHJAX} (składowa styczna związana ze zmianą wartości prędkości) korzystając z darmowego programukomputerowego „Rzut ukośny” dostępnego na stronie WWW autora.
+
+Teraz obliczymy obie składowe przyspieszenia. Przyspieszenie styczne obliczamy na podstawie zależności {OPENAGHMATHJAX()}{a_{{s}}=\mathit{dv}/{\mathit{dt}}}{OPENAGHMATHJAX} (obliczamy zmianę wartości prędkości) i wyrażenia na prędkość w rzucie ukośnym {OPENAGHMATHJAX()}{v=\sqrt{v_{{0}}^{{2}}-2v_{{0}}gt\sin\theta+g^{{2}}t^{{2}}}}{OPENAGHMATHJAX} (równanie (3.8))
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{s}}=\frac{gt-v_{{0}}\sin\theta}{\sqrt{v_{{0}}^{{2}}-2v_{{0}}gt\sin\theta+g^{{2}}t^{{2}}}}g}\end{equation}{OPENAGHMATHJAX}
+[3.17]
+
+Natomiast przyspieszenie normalne możemy obliczyć korzystając z zależności {OPENAGHMATHJAX()}{a_{{r}}=\sqrt{g^{{2}}-a_{{s}}^{{2}}}}{OPENAGHMATHJAX} (rysunek 3.6)
+
+Można oczywiście skorzystać z równania (3.14) {OPENAGHMATHJAX()}{a=v^{{2}}/{R}}{OPENAGHMATHJAX}, ale trzeba umieć obliczyć promień krzywizny {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} w każdym punkcie toru.
+
+Więcej o przyspieszeniu stycznym i normalnym (w ruch przyspieszony po okręgu) możesz przeczytać w Dodatku 2, na końcu modułu I ??????????.

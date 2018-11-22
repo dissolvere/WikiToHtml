@@ -1,0 +1,60 @@
+{OPENAGHANNOTATION( name="(o dziedzinie naturalnej)")}
+Ścisłe zdefiniowanie funkcji wymaga dokładnego określenia trzech rzeczy: podania dwóch zbiorów (wyjściowego {OPENAGHMATHJAX()}X{OPENAGHMATHJAX} i końcowego {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX}) podania jej przepisu tzn. jaki sposób ta funkcja przekształca elementy zbioru {OPENAGHMATHJAX()}X{OPENAGHMATHJAX} w elementy {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX}. Jeżeli zbiory {OPENAGHMATHJAX()}X{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX} nie są z góry zadane (z czym często spotykamy się w zadaniach sformułowanych tak: dana jest funkcja {OPENAGHMATHJAX()}y=f(x){OPENAGHMATHJAX} lub {OPENAGHMATHJAX()}f:\to f(x){OPENAGHMATHJAX}) i funkcja podana jest tylko za pomocą pewnego wzoru (przepisu), to wówczas przyjmujemy, że dziedziną funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest zbiór tych wszystkich liczb rzeczywistych {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, dla których wyrażenie {OPENAGHMATHJAX()}f(x){OPENAGHMATHJAX} ma sens liczbowy. Taki zbiór nazywamy __dziedziną naturalną funkcji__. Jako zbiór końcowy {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX} przyjmujemy wówczas zbiór wszystkich liczb rzeczywistych.{OPENAGHANNOTATION}
+ 
+
+{OPENAGHEXAMPLE( name="(wyznaczanie dziedziny naturalnej funkcji)")}
+Wyznaczymy dziedziny naturalne funkcji danych wzorami:
+a) {OPENAGHMATHJAX()}y=\log_3(-x^2+5x+6){OPENAGHMATHJAX}
+b) {OPENAGHMATHJAX()}y=\arcsin{2x\over {1+x^2}}{OPENAGHMATHJAX}
+c) {OPENAGHMATHJAX()}y=\arccos{1\over{2-x}}{OPENAGHMATHJAX}{OPENAGHEXAMPLE}
+ 
+
+
+__Rozwiązanie__
+__ad a.__
+Logarytmy możemy obliczać jedynie tylko z liczb dodatnich. Musimy, więc wyznaczyć wszystkie te liczby, dla których wyrażenie logarytmowane jest większe od zera. Rozwiązując nierówność {OPENAGHMATHJAX()}-x^2+5x+6>0{OPENAGHMATHJAX}wykorzystamy np. wzory Viete’a
+
+Wzory Viete’a
+
+Pierwiastki {OPENAGHMATHJAX()}x_1,x_2{OPENAGHMATHJAX} trójmianu kwadratowego {OPENAGHMATHJAX()}ax^2+bx+c{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}(a\neq 0,~\Delta \le 0){OPENAGHMATHJAX}spełniają warunki
+
+{OPENAGHMATHJAX()}x_1+x_2={-b\over a},\quad x_1\cdot x_2={a\over a}.{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX()}x_1+x_2={-b\over a}={-5\over -1}=5{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX()}x_1\cdot x_2={c\over a}={6\over -1}=-6{OPENAGHMATHJAX}
+
+Mamy, więc {OPENAGHMATHJAX()}x_1=-1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x_2=6{OPENAGHMATHJAX}. Rozwiązanie nierówności znajdujemy na osi liczbowej pamiętając, aby wykres wielomianu (funkcji kwadratowej) zacząć rysować „od dołu”. Ramiona paraboli skierowane są w dół, gdyż {OPENAGHMATHJAX()}a=-1<0{OPENAGHMATHJAX}
+
+
+{img type="fileId" fileId="137"}
+
+Rys. F13.
+Otrzymujemy więc, że {OPENAGHMATHJAX()}x\in [-1,6]{OPENAGHMATHJAX}.
+__Odpowiedź__
+Dziedziną naturalną funkcji {OPENAGHMATHJAX()}y=\log_3(-x^2+5x+6){OPENAGHMATHJAX} jest przedział domknięty {OPENAGHMATHJAX()}[-1,6]{OPENAGHMATHJAX}.
+__ad b. __
+Aby znaleźć dziedzinę funkcji {OPENAGHMATHJAX()}y=\arcsin{2x\over{1+x^2}}{OPENAGHMATHJAX}, musimy rozpatrzyć dwa warunki. Po pierwsze: mianownik {OPENAGHMATHJAX()}1+x^2{OPENAGHMATHJAX} musi być różny od zera (tu jest to spełnione w sposób oczywisty) i po drugie: wyrażenie {OPENAGHMATHJAX()} {2x\over {1+x^2}}{OPENAGHMATHJAX} musi należeć do dziedziny funkcji arkus sinus, czyli muszą być spełnione dwie nierówności:
+
+{OPENAGHMATHJAX()}{2x\over {1+x^2}}\ge -1\quad \textrm{oraz}\quad {2x\over {1+x^2}}\le 1,{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}{{1+2x+x^2}\over {1+x^2}}\ge 0\quad \textrm{oraz}\quad {{2x-1-x^2}\over {1+x^2}}\le 0,{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}{{(1+x)^2}\over {1+x^2}}\ge 0\quad \textrm{oraz}\quad {{-(x^2-2x+1)}\over {1+x^2}}\le 0,{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}x\in \mathbb R\quad \textrm{oraz}\quad {{-(x-1)^2\over {1+x^2}}}\le 0,{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}\qquad\qquad \textrm{oraz}\quad x\in\mathbb R{OPENAGHMATHJAX}
+
+__Odpowiedź __Dziedziną naturalną badanej funkcji jest cały zbiór liczb rzeczywistych.__ad c __Dla funkcji {OPENAGHMATHJAX()}y=\arccos {1\over {2-x}}{OPENAGHMATHJAX} podobnie jak w przypadku __b__. rozważamy dwa warunki: mianownik {OPENAGHMATHJAX()}2-x{OPENAGHMATHJAX} musi być różny od zera oraz wyrażenie {OPENAGHMATHJAX()}{1\over {2-x}}{OPENAGHMATHJAX} musi należeć do dziedziny funkcji arkus kosinus, którą jest przedział {OPENAGHMATHJAX()}[-1,1]{OPENAGHMATHJAX}. Mamy więc, że: {OPENAGHMATHJAX()}2-x\neq 0{OPENAGHMATHJAX} czyli {OPENAGHMATHJAX()}x\neq 2{OPENAGHMATHJAX}oraz{OPENAGHMATHJAX()}-1\le{1\over{2-x}}\le 1{OPENAGHMATHJAX}.Tę nierówność podwójną możemy rozwiązać klasycznie, sprowadzając do wspólnego mianownika jak w przypadku b. , ale możemy też wykorzystać własność wartości bezwzględnej.{OPENAGHMATHJAX()}\Vert{1\over{2-x}}\vert\le 1{OPENAGHMATHJAX}
+,
+
+{OPENAGHMATHJAX()}\vert 2-x\vert\ge 1{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}\vert -(x-2)\vert\ge 1{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}\vert x-2\vert\ge 1{OPENAGHMATHJAX}.
+Korzystając z interpretacji geometrycznej wartości bezwzględnej wiemy, że {OPENAGHMATHJAX()}\vert x-x_0\vert {OPENAGHMATHJAX} jest równa odległości {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} od {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} na osi liczbowej. Poszukujemy takich {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, których odległość od liczby {OPENAGHMATHJAX()}x_0=2{OPENAGHMATHJAX} jest większa lub równa od jedynki. Przedstawiając tę sytuację na osi liczbowej otrzymujemy rozwiązanie
+
+
+{img type="fileId" fileId="138"}
+
+Rys. F14.
+{OPENAGHMATHJAX()}x\in (-\infty,1]\cup [3,+\infty){OPENAGHMATHJAX}.
+Uwzględniając warunek {OPENAGHMATHJAX()}x\neq 2{OPENAGHMATHJAX} otrzymujemy odpowiedź.
+__Odpowiedź __
+Dziedziną funkcji {OPENAGHMATHJAX()}y=\arccos{1\over {2-x}}{OPENAGHMATHJAX} jest suma przedziałów {OPENAGHMATHJAX()}(-\infty,1]\cup[3,\infty){OPENAGHMATHJAX}.

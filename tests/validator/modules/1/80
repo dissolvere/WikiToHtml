@@ -1,0 +1,43 @@
+W tym rozdziale przeanalizujemy kilka twierdzeń dotyczących rachunku różniczkowego. Pierwsze z nich brzmi następująco:
+
+{openaghtheorem name="Fermata" assumptions="
+Niech funkcja \( f \) będzie określona w przedziale \( (a,b) \) i niech \( f \) osiąga ekstremum w punkcie \( x_0 \in (a,b) \).
+" thesis="
+Jeżeli funkcja \( f\) jest różniczkowalna w punkcie \( x_0 \), to \( f'(x_0)=0 \).
+" proof="
+Przeprowadźmy dowód dla przypadku maksimum (dla minimum jest analogiczny). %%% Zauważmy, że dla \( x \lt x_0 \) \( f(x) \lt f(x_0) \), a stąd \( f'(x_0)= \lim \limits_{x \to x_0^+} \frac{f(x_0)-f(x)}{x_0-x} \geq 0 \). Natomiast dla \( x \gt x_0 \) \( f(x) \lt f(x_0) \), a stąd \( f'(x_0)= \lim \limits_{x \to x_0^-} \frac{f(x)-f(x_0)}{x-x_0} \leq 0 \). %%% Z tych dwóch nierówności i faktu, że \( f'(x_0) \) istnieje wnioskujemy, że \( f'(x_0)=0 \).
+"}
+ 
+
+{openaghtheorem name="Cauchy'ego" thesis="Jeżeli funkcje \( f \) i \( g \) są ciągłe w przedziale \( [[a,b] \) i różniczkowalne w przedziale \( (a,b) \), to istnieje punkt \( \xi \in (a,b) \) taki, że \( [[f(b)-f(a)]g'( \xi )=[[g(b)-g(a)]f'( \xi) \)." proof="Zdefiniujmy funkcję \( h(x)=[[f(b)-f(a)]g(x)-[[g(a)-g(b)]f(x) \). %%% Zauważmy, że wystarczy pokazać, iż \( \exists_{ \xi \in (a,b) } h'( \xi )=0 \). %%%Przeprowadźmy dowód przez wyczerpanie możliwości: %%% - gdy funkcje \( f \), \( g \) są stałe, każdy punkt z przedziału \( (a,b) \) spełnia tezę twierdzenia, %%% - gdy jedna z funkcji nie jest stała, to bso możemy założyć, że \( f \) jest niestała. %%% Zauważmy, że z określenia funkcji \( h \) mamy, że jest ciągła oraz zachodzi \( h(a)=h(b) \). Stąd i z twierdzenia (?!) 7.1.1 Fermata oraz 5.2.4 otrzymujemy, iż\( f \) osiąga ekstremum dla pewnego \( \xi \in (a,b) \), a to pociąga, że \( h \) osiąga ekstremum, czyli \( h'( \xi )=0 \)."}
+ 
+
+{openaghtheorem name="Lagrange'a" assumptions="Niech funkcja \( f \) będzie ciągła w przedziale \( [[a,b] \) i różniczkowalna w przedziale \( (a,b) \)." thesis="Wówczas istnieje taki punkt \( \xi \in (a,b) \), że \( \frac{f(b)-f(a)}{b-a} = f'( \xi ) \)." proof="Niech \( g(x)=x \). Wtedy z twierdzenia Cauchy'ego otrzymujemy \[[ \exists_{ \xi \in (a,b) }  [[f(b)-f(a)]g'( \xi )=[[g(b)-g(a)]f'( \xi ) \Leftrightarrow [[f(b)-f(a)]=[[b-a]f'( \xi ) \Leftrightarrow f'( \xi )= \frac{f(b)-f(a)}{b-a}. \]"}
+ 
+
+{openaghtheorem name="Rolle'a" assumptions="Niech funkcja \( f \) będzie ciągła w przedziale \( [[a,b] \) i różniczkowalna w przedziale \( (a,b) \) oraz niech \( f(a)=f(b) \)." thesis="Wówczas istnieje taki punkt \( \xi \in (a,b) \), że \( f'( \xi ) =0 \)." proof="Z twierdzenia Lagrange'a i z założeń otrzymujemy \[[ \exists_{ \xi \in (a,b)} f'( \xi )= \frac{f(b)-f(a)}{b-a} = \frac{f(b)-f(b)}{b-a} =0 . \]"}
+Następnie zastanówmy się jaki związek z monotonicznością funkcji ma znak jej pochodnej:
+
+{openaghtheorem assumptions="Niech \( f \) będzie funkcją różniczkowalną w przedziale \( (a,b) \)." thesis="Wtedy: %%%(1) jeżeli \( f'(x) \gt 0 \), to funkcja jest rosnąca w tym przedziale, %%%(2) jeżeli \( f'(x) \lt 0 \), to funkcja jest malejąca w tym przedziale, %%%(3) jeżeli \( f'(x) = 0 \), to funkcja jest stała w tym przedziale." proof="Niech \( x_1 \lt x_2 \). Wówczas z twierdzenia Lagrange'a zastosowanego do przedziału \( [[x_1,x_2] \) otrzymujemy, że \( f'(x)= \frac{f(x_2)-f(x_1)}{x_2-x_1}\Leftrightarrow f(x_1)-f(x_2)=f'(x)(x_1-x_2) \), a stąd widzimy, że funkcja \( f \) rośnie dla \( f'(x) \gt 0 \), maleje dla \( f'(x) \lt 0 \) oraz jest stała dla\( f'(x) = 0 \)."}
+ 
+
+{openaghtheorem name="Darboux" thesis="Jeżeli funkcja \( f \) ma skończoną pochodną w przedziale \( [[a,b] \) i \( f'(a) \lt f'(b) \) (analogicznie gdy \( f'(b) \lt f'(a) \) ), to dla każdej liczby \( c \) takiej, że \( f'(a) \lt c \lt f'(b) \), to istnieje punkt \( \xi \in (a,b) \) taki, że \( f'( \xi )=c \). " proof="Wykażemy na początek, że jeżeli funkcja ma pochodne różnych znaków na końcach przedziału, to wewnątrz tego przedziału musi przyjmować ekstremum. %%%Funkcja \( f \) jest różniczkowalna w \( [[a,b] \), zatem jest też ciągła w \( [[a,b] \). Na podstawie twierdzenia 5.2.4 mamy, że istnieje punkt \( \xi \in (a,b) \) taki, że funkcja osiąga w nim ekstremum. Jednak z definicji pochodnej otrzymujemy, że \( f'(a) \lt 0 \Rightarrow \forall_{ \varepsilon \gt 0} \exists_{ \delta \gt 0} \frac{f(x)-f(a)}{x-a} \lt f'(a)+ \varepsilon \lt 0 \), dla \( \varepsilon \lt f'(x) \), czyli w przedziale \( (a, a+ \delta) \) zachodzi \( f(x) \lt f(a) \). Analogicznie możemy pokazać, że \( f(x) \lt f(b) \) w pewnym przedziale \( (b- \delta, b) \). Stąd wnioskujemy, że funkcja osiąga ekstremum (w tym przypadku minimum) gdzieś wewnątrz przedziału, czyli na mocy twierdzenia Fermata \( \exists_{ \xi \in (a,b)} f'( \xi )=0 \). %%%Niech teraz \( f'(a) \lt f'(b) \) będą dowolne. Dla dowolnego \( c \), \( f'(a) \lt c \lt f'(b) \) zdefiniujmy funkcję \( \phi (x)=f(x)-cx \). Wtedy zachodzi, że \( \phi (a) \phi (b) \lt 0 \), czyli \( \exists_{ \xi \in (a,b)} \phi ( \xi )=0 \Rightarrow f'( \xi )=c\)."}
+Teraz czas na twierdzenie, które jest bardzo przydatne, gdy podczas liczenia granicy pojawiają się symbole nieoznaczone.
+
+{openaghtheorem name="Reguła de L'Hospitala" assumptions="Niech f,g będą funkcjami różniczkowalnymi w przedziale \( (a,b) \) i \( a \lt x_0 \lt b \) oraz niech \( \lim \limits_{x \to x_0} f(x)= \lim \limits_{x \to x_0} g(x)=0 \) lub \( \lim \limits_{x \to x_0} f(x)= \lim \limits_{x \to x_0} g(x)= \infty \)." thesis="Wtedy, jeżeli \( \lim \limits_{x \to x_0} \frac{f'(x)}{g'(x)} =k , g(x), g'(x) =\mathrel{\llap{/\,}} 0 \), to \( \lim \limits_{x \to x_0} \frac{f(x)}{g(x)} =k \)." proof="Rozważmy na początek przypadek symbolu \( \frac{0}{0} \). %%%Z twierdzenia Cauchy'ego zastosowanego do przedziału \( [[x, x_0] \) otrzymujemy, że istnieje takie \(\xi\), że \( \frac{f(x)-f(x_0)}{g(x)-g(x-0)}= \frac{f'(\xi)}{g'(\xi)} \), gdzie \( x_0 \lt \xi \lt x \). Funkcja jest ciągła na przedziale \( (a,b) \), stąd możemy podstawić \( f(x_0)=g(x_0)=0 \). Otrzymujemy wtedy, że \( \lim \limits_{x \to x_0} \frac{f(x)}{g(x)}= \lim \limits_{\xi \to x} \frac{f'(\xi)}{g'(\xi)}= \frac{f'(x_0)}{g'(x_0)} \). %%%Podobnie, gdy \(x \rightarrow \infty \). %%%Niech \( F(x)=f( \frac{1}{x}), G(x)=g( \frac{1}{x}) \). Wtedy \( \lim \limits_{x \to \infty} \frac{f(x)}{g(x)}=\lim \limits_{x \to 0^+} \frac{F(x)}{G(x)} \) oraz \( \lim \limits_{x \to 0^+} \frac{F'(x)}{G'(x)}= \lim \limits_{x \to 0^+} \frac{f'( \frac{1}{x})( \frac{-1}{x^2})}{g'( \frac{1}{x})( \frac{-1}{x^2})}= \lim \limits_{x \to \infty} \frac{f'(x)}{g'(x)} \). Stąd \( \lim \limits_{x \to \infty} \frac{f(x)}{g(x)}=\lim \limits_{x \to \infty} \frac{f'(x)}{g'(x)} \). %%%Analogicznie w \( - \infty \).%%%Dowód w przypadku \( \frac{ \infty}{ \infty} \) pomijamy."}
+ 
+
+{openaghtheorem name="Wzór Taylora" assumptions="Niech funkcja \(f\) ma w przedziale \( [[x_0,x] \) \(n-1\) ciągłych pochodnych i w przedziale \( (x_0, x_0+h) \) istnieje pochodna \( f^{(n)} \)." thesis="W przedziale \( (x_0, x_0+h) \) istnieje punkt \( \xi =x_0+ \theta h , 0 \lt \theta \lt 1 \) taki, że \[[ f(x)=f(x_0)+f'(x_0)h+ \frac{1}{2} f''(x_0)h^2 + \cdots + \frac{1}{(n-1)!} f^{(n-1)}(x_0)h^{n-1} +R_n \], gdzie \( R_n= \frac{1}{n!} f^(n)( \xi)h^n \). %%%\( R_n \) jest resztą w postaci Lagrange'a, a w przypadku, gdy \( x_0=0\), wzór na rozwinięcie funkci w szereg nazywa się wzorem MacLaurina." proof="Zdefiniujmy wielomian \( P(x)= \sum_{k=0}^n f^{(k)}(x_0) \frac{(x-x_0)^k}{k!} \) oraz liczbę \( M \) za pomocą równości \( f(x)=P(x)+M(x-x_0)^n \). Pokażemy, że \( M= \frac{f^{(n)}( \xi )}{n!} \) gdyż wtedy będzie zachodzić, że \( f(x)=P(x)+ \frac{(x-x_0)^n}{n!}f^{(n)}( \xi) \) co jest żądaną równością. By to pokazać zdefiniujmy funkcję \( g(x)=f(x)-P(x)-m(x-x_0)^n \). Zauważmy, iż \( g(x)=g(x_0)=0 \). Zatem na mocy twierdzenia Rolle'a mamy \( \exists_{x_1 \in (x_0,x)} g'(x_1)=0 \), jednak wciąż zachodzi \( g'(x_0)=0 \), czyli \( \exists_{x_2 \in (x_0,x_1)} g''(x_2)=0 \). Powtarzając to rozumowanie jeszcze \(n-2 \) razy otrzymujemy, że \( \exists_{\xi \in (x_0,x_{n-1}) \subset (x_0,x)} g^{(n)}( \xi)=0 \). Stąd \( 0=g^{(n)}( \xi)=f^{(n)}( \xi)-0-Mn! \Rightarrow M= \frac{f^{(n)}( \xi)}{n!} \)."}
+ 
+
+ 
+
+{openaghtheorem name="Wzór Taylora z resztą Peano" assumptions="Niech funkcja \( f\) jest \( (n-1) \)-krotnie różniczkowalna w przedziale \( [[a,b] \) i istnieje pochodna \( f^{(n)}(a) \)." thesis="Wówczas zachodzi \[ f(b)=f(a)+ \sum_{k=1}^{n-1} \frac{f^{(k)}(a)(b-a)^k}{k!} +o((b-a)^n). \] %%%
+Bez dowodu."}
+ 
+
+ 
+
+ 
+
+ 

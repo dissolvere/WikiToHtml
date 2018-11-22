@@ -1,0 +1,42 @@
+W module tym uzupełnimy wiadomości z ((Kinematyka ruchu obrotowego|kinematyki ruchu obrotowego)) wyprowadzając równania na przyspieszenie w tymże ruchu.
+
+Współrzędne {OPENAGHMATHJAX()}x, y{OPENAGHMATHJAX} punktu poruszającego się po okręgu można wyrazić za pomocą promienia {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} (o stałej wartości) oraz kąta (rysunek poniżej).
+
+{img type="
+fileId
+" fileId="
+186
+"}
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}\begin{matrix}{x(t)=R\cos\varphi (t)}\\ {y(t)=R\sin\varphi (t)} \end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Przy czym związek między drogą liniową s, a drogą kątową {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}, jest dany z miary łukowej kąta {OPENAGHMATHJAX()}\varphi = s/R {OPENAGHMATHJAX}.
+
+Różniczkując powyższe równania możemy obliczyć zgodnie ze wzorami (3.1), składowe prędkości
+
+{OPENAGHMATHJAX()}\begin{equation}\begin{matrix}{v_{{x}}=-R\frac{{d\varphi}}{{dt}}\sin\varphi =-{R\omega }\sin\varphi}  \\v_{{y}}=R\frac{{d\varphi}}{{dt}}\cos\varphi ={R\omega }\cos\varphi\end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+gdzie wprowadzono prędkość kątową {OPENAGHMATHJAX()}\omega =d\varphi/dt.{OPENAGHMATHJAX}
+
+Różniczkując z kolei uzyskane równania otrzymamy zgodnie ze wzorami (3.1) składowe przyspieszenia
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{a_{{x}}=-R\frac{{d\omega}}{{dt}}{sin}\varphi -{R\omega}\frac{{d\varphi }}{{dt}}{cos}\varphi=-{R\alpha }{sin}\varphi -{R\omega}^{{2}}{cos}\varphi } \\ a_{{y}}=R\frac{{d\omega}}{{dt}}{cos}\varphi -{R\omega}\frac{{d\varphi }}{{dt}}{sin}\varphi={R\alpha }{cos}\varphi -{R\omega}^{{2}}{sin}\varphi \end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{a_{{x}}=\frac{\alpha }{\omega }v_{{x}}-{x\omega}^{{2}}} \\ a_{{y}}=\frac{\alpha }{\omega}v_{{y}}-{y\omega }^{{2}} \end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+gdzie wprowadzono przyspieszenie kątowe {OPENAGHMATHJAX()}\alpha = d \omega /dt{OPENAGHMATHJAX}.
+
+Na podstawie powyższych zależności możemy obliczyć wektor całkowitego przyspieszenia
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a=\frac{\alpha }{\omega }v-{R\omega }^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+Wektor przyspieszenia całkowitego a jest sumą dwóch wektorów: przyspieszenia stycznego a{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX} (równoległego do wektora prędkości v)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{s}}=\frac{\alpha }{\omega }v}\end{equation}{OPENAGHMATHJAX}
+
+i przyspieszenia normalnego a{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} (przeciwnego do wektora R czyli skierowanego do środka okręgu)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{n}}=-{R\omega }^{{2}}}\end{equation}{OPENAGHMATHJAX}

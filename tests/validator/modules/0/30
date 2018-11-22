@@ -1,0 +1,31 @@
+ 
+
+{OPENAGHDEFINITION( name="(sumy, różnicy, iloczynu i ilorazu funkcji)")}
+Niech będą dane dwie funkcje {OPENAGHMATHJAX()}f:X\to \mathbb R{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}g:X\to\mathbb R{OPENAGHMATHJAX}
+__Sumą funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}  i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}__ nazywamy funkcję {OPENAGHMATHJAX()}(f+g):X\to\mathbb R{OPENAGHMATHJAX} taką, że {OPENAGHMATHJAX()}(f+g)(x)=f(x)+g(x){OPENAGHMATHJAX}, dla każdego {OPENAGHMATHJAX()}x\in X{OPENAGHMATHJAX}.
+__Różnicą funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}  i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}__ nazywamy funkcję {OPENAGHMATHJAX()}(f-g):X\to\mathbb R{OPENAGHMATHJAX} taką, że {OPENAGHMATHJAX()}(f-g)(x)=f(x)-g(x){OPENAGHMATHJAX}, dla każdego {OPENAGHMATHJAX()}x\in X{OPENAGHMATHJAX}.
+__Iloczynem funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}  i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}__ nazywamy funkcję {OPENAGHMATHJAX()}f\cdot g):X\to\mathbb R{OPENAGHMATHJAX} taką, że {OPENAGHMATHJAX()}(f\cdot g)(x)=f(x)\cdot g(x){OPENAGHMATHJAX}, dla każdego {OPENAGHMATHJAX()}x\in X{OPENAGHMATHJAX}.
+Jeżeli ponadto {OPENAGHMATHJAX()}g(x)\neq 0{OPENAGHMATHJAX} dla każdego {OPENAGHMATHJAX()}x\in X{OPENAGHMATHJAX} to __ilorazem funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}  i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}__ nazywamy funkcję {OPENAGHMATHJAX()}{f\over g}:X\to\mathbb R{OPENAGHMATHJAX} taką, że {OPENAGHMATHJAX()}{f\over g}(x)={{f(x)}\over {g(x)}}{OPENAGHMATHJAX} dla każdego {OPENAGHMATHJAX()}x\in X{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+ 
+
+{OPENAGHDEFINITION( name="(funkcji malejącej)")}
+__Funkcja__ {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest __malejąca na zbiorze {OPENAGHMATHJAX()}A\subset D_f{OPENAGHMATHJAX}__, jeśli dla każdych dwóch elementów {OPENAGHMATHJAX()}x_1,x_2\in A{OPENAGHMATHJAX} stąd, że {OPENAGHMATHJAX()}x_1<x_2{OPENAGHMATHJAX} wynika, że {OPENAGHMATHJAX()}f(x_1)>f(x_2){OPENAGHMATHJAX}{OPENAGHDEFINITION}
+ 
+
+{img type="fileId" fileId="153"}
+
+
+Rys. F32. Przykład funkcji malejącej.
+
+{OPENAGHDEFINITION( name="(funkcji słabo malejącej)")}
+__Funkcja__ {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest __słabo malejąca (nierosnąca) na zbiorze {OPENAGHMATHJAX()}A\subset D_f{OPENAGHMATHJAX}__, jeśli dla każdych dwóch elementów {OPENAGHMATHJAX()}x_1,x_2\in A{OPENAGHMATHJAX} stąd, że {OPENAGHMATHJAX()}x_1<x_2{OPENAGHMATHJAX} wynika, że {OPENAGHMATHJAX()}f(x_1)\ge f(x_2){OPENAGHMATHJAX}{OPENAGHDEFINITION}
+
+{img type="fileId" fileId="154"}
+
+Rys. F33. Przykład funkcji słabo malejącej.
+
+Jeżeli ponadto {OPENAGHMATHJAX()}g(x)\neq 0{OPENAGHMATHJAX} dla każdego {OPENAGHMATHJAX()}x\in X{OPENAGHMATHJAX} to __ilorazem funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}  i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}__ nazywamy funkcję {OPENAGHMATHJAX()}{f\over g}:X\to\mathbb R{OPENAGHMATHJAX} taką, że {OPENAGHMATHJAX()}{f\over g}(x)={{f(x)}\over {g(x)}}{OPENAGHMATHJAX} dla każdego {OPENAGHMATHJAX()}x\in X{OPENAGHMATHJAX}
+
+
+{openaghtheorem name="działania arytmetyczne na funkcjach a własności funkcji" assumptions="" thesis="Suma funkcji ograniczonych jest funkcja ograniczoną.Iloczyn funkcji ograniczonych jest funkcja ograniczoną.Suma funkcji rosnących jest funkcja rosnącą.Iloczyn nieujemnych funkcji rosnących jest funkcja rosnącą.Suma funkcji malejących jest funkcja malejącą.Iloczyn nieujemnych funkcji malejących jest funkcja malejącą.Suma funkcji słabo rosnących jest funkcja słabo rosnącą.Iloczyn nieujemnych funkcji słabo rosnących jest funkcja słabo rosnącą.Suma funkcji słabo malejących jest funkcja słabo malejącą.Iloczyn nieujemnych funkcji słabo malejących jest funkcja słabo malejącą.  "}
+ 

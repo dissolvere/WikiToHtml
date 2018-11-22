@@ -1,0 +1,171 @@
+ 
+Poniżej znajduje się wyjaśnienie jak reprezentowane są w kodzie źródłowym poszczególne elementy strony generowane przez edytor:
+
+!!!!Tekst pogrubiony
+~np~__tekst__~/np~
+
+!!!!Nagłówki
+~np~!H1~/np~
+~np~!!H2~/np~
+~np~!!!H3~/np~
+~np~!!!!H4  ~/np~
+
+!!!!Tekst wyśrodkowany
+~np~::tekst::~/np~
+
+!!!!Lista numerowana
+~np~#Jeden~/np~
+~np~#Dwa~/np~
+~np~#Trzy~/np~
+
+!!!!Wypunktowanie
+~np~*Jeden~/np~
+~np~*Dwa~/np~
+~np~*Trzy~/np~
+
+!!!!Kotwica
+~np~{ANAME()}nazwa{ANAME}~/np~
+
+*nazwa - nazwa kotwicy
+ 
+
+!!!!Link do innego modułu
+~np~((Nazwa modulu|#sekcja|Widoczny tekst))~/np~
+
+*Nazwa modulu - nazwa modulu, do ktorego chcemy sie odwolac
+*sekcja - nazwa docelowego nagłowka w module, do którego się odwołujemy (opcjonalnie)
+*Widoczny tekst - tekst, który będzie widoczny jako link
+ 
+
+!!!!Link zewnętrzny
+~np~[http://adresurl.com]~/np~
+
+!!!!Blok kodu
+~np~{CODE( caption="Naglowek" colors="kolor")}KODKODKODKOD{CODE}  ~/np~
+
+*Naglowek - tekst, który będzie widoczny ponad blokiem jako nagłówek
+*kolor - nazwa języka, w którym napisany jest nasz kod (opcjonalnie)
+*KOD - właściwy kod
+ 
+
+!!!!Tabela
+~np~||NAGŁÓWEK CELL1|CELL3 CELL2|CELL4||  ~/np~
+
+*komórki rozdzielone są znakami '|' (wielokrotne '|' to szersza komórka)
+*wiersze oddzielone są ENTERAMI !!!!Obrazek  {img fileId="NUMER" thumb="y"}
+*NUMER - numer obrazka z galerii
+*thumb="y" - opcjonalnie, jeśli chcemy tylko miniaturkę obrazka
+ 
+
+!!!!Film Vimeo
+~np~{vimeo url="adres" alt="tekst alternatywny" imageId="numer" width="" height=""}~/np~
+
+*adres - pełny URL filmu na Vimeo
+*tekst alternatywny - tekst, który wyświetli się w wyniku problemów z filmem
+*szer - szerokość w pikselach
+*wys - wysokość w pikselach
+*numer - numer obrazka zastępczego z galerii
+ 
+
+!!!!Film Youtube
+~np~{youtube movie="adres" alt="tekst alternatywny" width="" height=""}  ~/np~
+
+*adres - pełny URL filmu na Youtube
+*tekst alternatywny - tekst, który wyświetli się w wyniku problemów z filmem
+*szer - szerokość w pikselach
+*wys - wysokość w pikselach
+*numer - numer obrazka zastępczego z galerii
+ 
+
+!!!!Materiał wideo lub audio  
+~np~{mediaplayer file="numer" width="szerokosc" height="wysokosc"} ~/np~
+
+*numer - numer pliku z galerii
+*szer - szerokość w pikselach
+*wys - wysokość w pikselach
+ 
+
+!!!!Animacja w HTML5
+~np~{openaghanimation fileId="numer"}  ~/np~
+
+*numer - numer animacji z galerii
+ 
+
+!!!!Załącznik
+~np~{file type="gallery" fileId=""}  ~/np~
+
+*type="gallery" - póki co pozycja obowiązkowa
+*NUMER - numer pliku w galerii
+ 
+
+!!!!Kod MathJax
+~np~{OPENAGHMATHJAX()}Formuła mathjax{OPENAGHMATHJAX} ~/np~ 
+
+*Formuła mathjax - formuła zgodna z dokumentacją MathJax, która wyświetli się w kodzie strony
+ 
+
+!!!!Lemat
+~np~{OPENAGHLEMMA( name="nazwa")}treść{OPENAGHLEMMA}~/np~
+
+!!!!Definicja
+~np~{OPENAGHDEFINITION( name="nazwa")}tresc{OPENAGHDEFINITION}~/np~
+
+!!!!Przykład
+~np~{OPENAGHEXAMPLE( name="nazwa")}tresc{OPENAGHEXAMPLE}~/np~
+
+!!!!Prawo
+~np~{OPENAGHLAW( name="nazwa")}tresc{OPENAGHLAW}~/np~
+
+!!!!Zasada
+~np~{OPENAGHRULE( name="nazwa")}tresc{OPENAGHRULE}~/np~
+
+!!!!Wniosek
+~np~{OPENAGHCONCLUSION( name="nazwa")}tresc{OPENAGHCONCLUSION}~/np~
+
+!!!!Podsumowanie
+~np~{OPENAGHSUMMARY( name="nazwa")}tresc{OPENAGHSUMMARY}~/np~
+
+!!!!Wyprowadzenie
+~np~{OPENAGHDERIVATION( name="nazwa")}tresc{OPENAGHDERIVATION}~/np~
+
+!!!!Informacja dodatkowa
+~np~{OPENAGHINFORMATION( name="nazwa")}tresc{OPENAGHINFORMATION}~/np~
+
+!!!!Uwaga
+~np~{OPENAGHANNOTATION( name="nazwa")}tresc{OPENAGHANNOTATION}~/np~
+
+!!!!Pozycja bibliografii
+~np~{openaghquotation author="autor" title="tytul" publisher="wydawca" location="miejsce" year="rok" access="data_odczytu" url="adresURL"}~/np~
+
+*adresURL to pełny adres URL, który stanowi link do publikacji
+ 
+
+!!!!Bibliografia
+~np~{openaghquotations headline="Nazwa nagłówka"}  ~/np~
+
+*Nazwa nagłówka - nagłówek, który pojawi się ponad pozycjami bibliografii
+ 
+
+!!!!Przypis
+~np~{openaghnote note="treść na dole strony"}~/np~
+
+*treść na dole strony - to, co będzie widoczne w liście przypisów
+ 
+
+!!!!Lista przypisów
+~np~{openaghnotes headline="Nazwa nagłówka"}  ~/np~
+
+*Nazwa nagłówka - nagłówek, który pojawi się ponad przypisami
+ 
+
+!!!!Twierdzenie
+~np~{openaghtheorem name="nazwa" assumptions="ZAŁOŻENIA" thesis="TEZA" proof="DOWÓD"}  ~/np~
+
+*ZAŁOŻENIA, TEZA i DOWÓD mogą być wieloliniowe
+ 
+
+!!!!Zadanie:
+~np~{openaghexercise name="nazwa" solution="rozwiązanie" content="treść"}~/np~
+
+*treść i rozwiązanie mogą być wieloliniowe
+ 

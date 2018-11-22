@@ -1,0 +1,57 @@
+Ruch falowy jest bardzo rozpowszechniony w przyrodzie. Na co dzień doświadczamy obecności fal dźwiękowych i fal świetlnych. Powszechnie też wykorzystujemy fale elektromagnetyczne do przekazywania informacji za pomocą radia, telewizji czy przenośnych telefonów.
+
+Fale dźwiękowe czy też fale jakie obserwujemy na powierzchni wody posiadają jednak inną naturę niż fale elektromagnetyczne. Światło będące przykładem fali elektromagnetycznej rozchodzi się nie tylko w ośrodkach materialnych ale również w próżni. Przykładem jest docierające do nas światło słoneczne. Natomiast do rozchodzenia się fal dźwiękowych niezbędny jest ośrodek materialny.
+
+W tym module rozpoczniemy poznawanie właściwości fal powstających w ośrodkach sprężystych (takich jak fale dźwiękowe), które nazywamy __falami mechanicznymi__.
+
+!!!# Fale mechaniczne
+
+Jeżeli wychylimy jakiś fragment ośrodka sprężystego z jego położenia równowagi to w następstwie będzie on wykonywał drgania wokół tego położenia. Te drgania, dzięki właściwościom sprężystym ośrodka, są przekazywane na kolejne części ośrodka, które zaczynają drgać. W ten sposób zaburzenie przechodzi przez cały ośrodek.
+
+{OPENAGHDEFINITION( name="Ruch falowy")}Ruchem falowym nazywamy rozchodzenie się zaburzenia w ośrodku.{OPENAGHDEFINITION}
+
+Zwróćmy uwagę, że sam ośrodek nie przesuwa się, a jedynie jego elementy wykonują drgania. Dobrym przykładem są tu fale na powierzchni wody: przedmioty pływające na powierzchni wody wykonują ruch drgający w rytm fal natomiast same fale rozchodzą się ruchem jednostajnym.
+
+Fala dobiegając do danego punktu ośrodka wprawia go w ruch drgający przekazując mu energię, która jest dostarczana przez źródło drgań. Energia fal to energia kinetyczna i potencjalna cząstek ośrodka. Za pomocą fal można przekazywać energię na duże odległości przy czym cechą charakterystyczną jest to, że fale przenoszą energię poprzez ośrodek dzięki przesuwaniu się zaburzenia w ośrodku, a nie dzięki ruchowi postępowemu samego ośrodka. Jak wynika z powyższego, do rozchodzenia się fal mechanicznych potrzebny jest ośrodek. To właściwości sprężyste ośrodka decydują o prędkości rozchodzenia się fali.
+
+!!!!# Rodzaje fal
+
+Ze względu na kierunek drgań cząstek ośrodka względem kierunku rozchodzenia się fale dzielimy na __fale podłużne__ i __fale poprzeczne__.
+
+Fala jest podłużna gdy kierunek drgań cząstek ośrodka jest równoległy do kierunku rozchodzenia się fali i zarazem kierunku transportu energii (rysunek poniżej). Przykładem są tu fale dźwiękowe w powietrzu czy też drgania naprzemiennie ściskanej i rozciąganej sprężyny.
+
+{img fileId="
+369
+"}
+Rys. 13.1. Fala podłużna
+
+Fala jest poprzeczna gdy kierunek drgań cząstek ośrodka jest prostopadły do kierunku rozchodzenia się fali i zarazem kierunku transportu energii (rysunek poniżej). Przykładem mogą tu być drgania naprężonego sznura, którego końcem poruszamy cyklicznie w górę i w dół.
+
+{img fileId="370"}
+Rys. 13.2. Fala poprzeczna
+
+Możemy również dokonać podziału ze względu na rodzaj zaburzenia. Ważnymi przykładami są __impuls falowy__ i __fala harmoniczna__.
+
+Impuls falowy powstaje gdy źródłem jest jednorazowe zaburzenie w ośrodku: na przykład gdy wrzucimy kamień do wody lub gdy jednorazowo odchylimy koniec napiętej liny (rysunek poniżej).
+
+{img fileId="379"}
+Rys. 13.3. Impuls falowy
+
+Fala harmoniczna powstaje gdy źródło wykonuje drgania harmoniczne: na przykład gdy cyklicznie wychylamy koniec napiętej liny (rysunek poniżej).
+
+{img fileId="373"}
+Rys. 13.4. Fala harmoniczna
+
+Wprowadzimy teraz pojęcia __czoła fali__ i __promienia fali__. Jeżeli w przestrzeni rozchodzi się fala to możemy w każdej chwili utworzyć powierzchnię łączącą punkty, do których w tej właśnie chwili dotarła ta fala. Przesuwanie się tej powierzchni obrazuje rozchodzenie się fali. Właśnie taką powierzchnię nazywamy czołem fali (lub powierzchnią falową), a każdą linię prostą, prostopadłą do czoła fali, wskazującą kierunek ruchu fali nazywamy promieniem fali.
+
+Ze względu na kształt powierzchni falowej możemy wyróżnić __fale płaskie__ i __fale kuliste__.
+
+W przypadku fal płaskich zaburzenie rozchodzi się w jednym kierunku, a powierzchnie falowe są płaszczyznami prostopadłymi do kierunku ruchu fali tak jak na rysunku poniżej.
+
+{img fileId="375"}
+Rys. 13.5. Powierzchnie falowe (płaszczyzny) i promienie fali płaskiej
+
+Dla fal kulistych zaburzenie rozchodzi się ze źródła we wszystkich kierunkach, a powierzchnie falowe są sferami jak na rysunku poniżej.
+
+{img fileId="397"}
+Rys. 13.6. Fala kulista rozchodząca się ze źródła Z; wycinki powłok sferycznych przedstawiają powierzchnie falowe

@@ -1,0 +1,164 @@
+!!Profil Koordynatora
+
+{maketoc title="Spis treści"}
+
+!!!Panel „Moduły”
+Jeżeli chcesz wejść do panelu należy zalogować się do systemu a następnie kliknąć przycisk „Panel Koordynatora”. W panelu koordynator widzi wszystkie moduły stworzone przez niego. Każdy moduł posiada status prezentujący postęp prac.
+
+::{img src="tiki-download_file.php?fileId=13&display" height="80%" width="80%"}::
+:: ::
+ 
+
+!!!Krok 1. Tworzenie zespołu pracującego nad modułem
+Po wejściu na panel Koordynatora, kliknij przycisk "Zespół". W panelu wyświetlani są wszyscy użytkownicy systemu, którzy mogą pełnić role autorów, recenzentów oraz edytorów. Jedna osoba może pełnić kilka ról. Jako koordynator nie możesz cofnąć raz nadanych uprawnień.
+
+Aby nadać rolę w systemie, przy wybranej osobie kliknij Mianuj autorem/recenzentem/edytorem.
+
+Aby dodać osobę do swojego zespołu pracującego nad modułem, kliknij zielony plus przy nazwisku. Będziesz mógł przypisywać te osoby do modułu (patrz krok 2).
+
+Aby usnąć osobę ze swojego zespołu pracującego nad modułem, kliknij czerwony krzyżyk przy nazwisku.
+
+::{img src="tiki-download_file.php?fileId=53&display" height="80%" width="80%"}::
+ 
+
+!!!Krok 2. Tworzenie nowego modułu
+Aby stworzyć nowy moduł, przejdź do panelu „Moduły” i kliknij „Nowy moduł”, następnie wpisz nazwę modułu i przypisz moduł do drzewa kategorii. Na końcu kliknij „Zapisz”.
+
+::{img src="tiki-download_file.php?fileId=31&display" height="80%" width="80%"}::
+ 
+
+::{img src="tiki-download_file.php?fileId=32&display" height="80%" width="80%"}::
+ 
+
+::{img src="tiki-download_file.php?fileId=29&display" height="80%" width="80%"}::
+ 
+
+!!!!Usuwanie modułu
+Jeżeli chcesz usunąć moduł, kliknij ikonkę kosza lub zaznacz pole wyboru i kliknij ikonkę kosza.
+
+::{img src="tiki-download_file.php?fileId=19&display" height="80%" width="80%"}::
+ 
+
+!!!Krok 3. Przypisanie autora/recenzenta/edytora do modułu
+Aby przypisać zespół osób, którzy będą pracować nad konkretnym modułem, należy wybrać z list rozwijalnych przy nazwie modułu użytkowników i kliknąć przycisk „Zapisz”.
+
+Do modułu można przypisać tylko po jednym użytkowniku z danej grupy (autor/recenzent/edytor).
+
+::{img src="tiki-download_file.php?fileId=15&display" height="80%" width="80%"}::
+ 
+
+::{img src="tiki-download_file.php?fileId=16&display" height="80%" width="80%"}::
+!!!Krok 4. Przekazanie modułu autorowi
+Aby uruchomić pracę nad modułem nie wystarczy przypisać zespołu do modułu. Konieczne jest przekazanie moduł autorowi.
+
+::{img src="tiki-download_file.php?fileId=18&display" height="80%" width="80%"}::
+
+W tym czasie autor pracuje nad treścią modułu. Wypełnia także opis modułu i tagi. W momencie kiedy wyśle moduł do recenzji, moduł zmieni status na "Zgłoszony do recenzji" i koordynator będzie mógł przekazać moduł do recenzenta.
+
+__Informacja o modyfikacji modułu__
+Pogrubiony tytuł modułu informuje o zmianie statusu modułu od ostatniego logowania. O modyfikacji treści modułu koordynator nie jest informowany.
+!!!Krok 5. Podgląd modułu, zmiana tagów, opisu modułu i przypisania do kategorii
+Przed wysłaniem modułu do recenzenta koordynator powinien zobaczyć treść modułu.
+
+::{img src="tiki-download_file.php?fileId=20&display" height="80%" width="80%"}::
+Na tym etapie rola Koordynatora powinna skupić się tylko na ewentualnej poprawie tagów oraz opisu przed wysłaniem do recenzji. Wpisywanie tagów i opisu należy do autora. Koordynator zobowiązany jest sprawdzić poprawność przypisania do drzewa kategorii przed wysłaniem do recenzji. Moduł może należeć do kilku kategorii. Aby sprawdzić tagi, opis i przypisanie do drzewa kategorii, należy kliknąć ikonkę etykietki.
+
+::{img src="tiki-download_file.php?fileId=30&display" height="80%" width="80%"}::
+ 
+
+::{img src="tiki-download_file.php?fileId=14&display" height="80%" width="80%"}::
+
+
+{OPENAGHANNOTATION( name="Zmiana nazwy modułu")}Koordynator na tym etapie może zmienić nazwę modułu. W tym celu należy w podglądzie modułu kliknąć przycisk "Zmień nazwę”, wpisać nową nazwę, kliknąć „Zmień nazwę”.{OPENAGHANNOTATION}
+
+
+ 
+
+::{img src="tiki-download_file.php?fileId=34&display" height="80%" width="80%"}::
+ 
+!!!Krok 6. Przekazanie modułu do recenzenta
+Kolejnym etapem powstawania modułu jest recenzja. Aby wysłać moduł do recenzji, należy kliknąć w przycisk "Przekaż recenzentowi".
+
+W przypadku warunkowej akceptacji moduł ponownie trafia do autora w celu wprowadzenia poprawek, po czym autor przekazuje go ponownie bezpośrednio do recenzenta.
+
+::{img src="tiki-download_file.php?fileId=21&display" height="80%" width="80%"}::
+:: ::
+::{DIV( type="p" align="left")}W przypadku akceptacji modułu przez recenzenta trafia on od razu do edytora. Koordynator nie musi przekazywać modułu do edytora. Widzi jednak każdą zmianę statusu modułu (nazwa modułu jest pogrubiona, i w kolumnie status wyświetla się aktualny stan modułu). Po korekcie edytorskiej moduł trafia do autora, który sprawdza poprawność korekt wprowadzonych przez edytora.{DIV}{DIV( type="p" align="left")}Następnie moduł jest przekazywany do ostatecznej akceptacji koordynatora. W przypadku kiedy koordynator uzna, że moduł wymaga jednak poprawek kieruje go ponownie do autora. W przeciwnym wypadku jest publikowany, a praca nad modułem kończy się. Jeżeli koordynator może zmienić status modułu, w panelu „Moduły” wyświetlane są dostępne akcje.{DIV}{DIV( type="p" align="left")}::{img src="tiki-download_file.php?fileId=23&display" height="80%" width="80%"}::{DIV}{DIV( type="p" align="left")} {DIV}::
+ 
+
+!!Panel „E-podręczniki”
+Aby wejść do panelu "E-podręczniki" należy kliknąć przycisk „E-podręczniki”. W panelu wyświetlane są wszystkie e-podręczniki stworzone przez koordynatora.
+
+::{img src="tiki-download_file.php?fileId=37&display" height="80%" width="80%"}::
+ 
+
+!!!Krok 1. Tworzenie e-podręcznika
+Aby stworzyć ścieżkę należy kliknąć „Nowy e-podręczniki”, następnie wybrać kategorie, wydział (w przypadku podręcznika ogólnego wybrać opcje „Podręcznik ogólny”), kierunek, semestr, wkleić link do syllabusa, podać tytuł podręcznika. Aby zapisać e-podręcznik kliknij „Zapisz”. Zostaniesz przekierowany do strony edycji ścieżki.
+
+::{img src="tiki-download_file.php?fileId=39&display" height="80%" width="80%"}::
+!!!Krok 2. Dodawanie treści do e-podręcznika
+!!!!Dodawanie pojedynczego modułu
+Aby dodać moduł należy kliknąć + przy konkretnym module w drzewie kategorii w lewym pasku. Następnie wybierz miejsce w strukturze podręcznika przez kliknięcie pola wyboru.
+
+::{img src="tiki-download_file.php?fileId=43&display" height="80%" width="80%"}::
+ 
+!!!!Dodawanie kategorii jako rozdziału e-podręcznika
+Aby dodać rozdział z kategorii należy kliknąć + przy konkretnej kategorii w drzewie w lewym pasku. Następnie wybierz miejsce w podręczniku przez kliknięcie pola wyboru. Kategoria zostanie dodana jako rozdział wraz z modułami.
+
+::{img src="tiki-download_file.php?fileId=45&display" height="80%" width="80%"}::
+ 
+
+!!!!Dodawanie kategorii jako pustego rozdziału (bez modułów)
+Należy kliknąć R przy konkretnej kategorii w drzewie na lewym pasku i wybrać miejsce w podręczniku przez kliknięcie pola wyboru.
+
+::{img src="tiki-download_file.php?fileId=55&display" height="80%" width="80%"}::
+ 
+
+!!!!Tworzenie nowego rozdziału
+Aby stworzyć rozdział należy wpisać tytuł rozdziału w polu „Tytuł rozdziału”, kliknąć „Dodaj rozdział”. Następnie wybierz miejsce w strukturze podręcznika przez kliknięcie pola wyboru.
+
+::{img src="tiki-download_file.php?fileId=44&display" height="80%" width="80%"}::
+ 
+
+!!!Krok 3. Edycja struktury e-podręcznika
+!!!!Tryb edycji e-podręcznika
+Aby edytować e-podręcznik, należy kliknąć ikonę edycji (ikona długopisu). Koordynator może zmienić kategorie, wydział, kierunek, semestr, tytuł, link do syllabusa korzystając z formularza oraz kolejność modułów w strukturze.
+
+ 
+!!!!Zmiana nazwy rozdziału
+Aby zmienić nazwę rozdziału kliknij „Zmień nazwę”. zmienić nazwę rozdziału w polu "Tytuł rozdziału". Aby zapisać zmiany kliknij „Zmień Tytuł”.
+
+::{img src="tiki-download_file.php?fileId=46&display" height="80%" width="80%"}::
+ 
+
+!!!!Zmiana kolejności rozdziału/modułu
+Wybierz z listy rozwijalnej przy rozdziale/module nową pozycję.
+
+::{img src="tiki-download_file.php?fileId=49&display" height="80%" width="80%"}::
+ 
+
+!!!!Przenoszenie rozdziału/modułu między rozdziałami
+Wybierz z listy rozwijalnej przy rozdziale/module rozdział do którego zostanie przeniesiony rozdział/moduł. Nie zawsze są dostępne wszystkie rozdziały z powodu ograniczenie struktury drzewa (tytuł/rozdział/rodziału/moduł).
+
+::{img src="tiki-download_file.php?fileId=50&display" height="80%" width="80%"}::
+ 
+
+!!!!Usuwanie rozdziału/modułu
+Jeśli chcesz usunąć rozdział/moduł kliknij czerwony X. W przypadku rodziału zostaną usunięte podrozdziały i moduły.
+
+::{img src="tiki-download_file.php?fileId=51&display" height="80%" width="80%"}::
+ 
+
+!!!Krok 4. Publikowanie e-podręcznika
+Aby opublikować podręcznik należy kliknąć przycisk "Publikuj", jest on dostępny tylko gdy podręcznik zawiera moduły i wszystkie modułu zostały ukończone.
+
+::{img src="tiki-download_file.php?fileId=42&display" height="80%" width="80%"}::
+ 
+
+::{img src="tiki-download_file.php?fileId=52&display" height="80%" width="80%"}::
+ 
+
+!!!!Usuwanie e-podręcznika
+Aby usunąć e-podręcznik, należy kliknąć ikonkę kosza.
+
+::{img src="tiki-download_file.php?fileId=40&display" height="80%" width="80%"}::

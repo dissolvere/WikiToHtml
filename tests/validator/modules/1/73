@@ -1,0 +1,37 @@
+ 
+Na przykładzie sił grawitacyjnych omówimy ważne w fizyce pojęcie pola. Nasze rozważania rozpoczynamy od umieszczenia masy {OPENAGHMATHJAX()}M{OPENAGHMATHJAX} w początku układu. W punkcie przestrzeni opisanym wektorem {OPENAGHMATHJAX()}{\bf r}{OPENAGHMATHJAX} znajduje się inna masa {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}. Wektor {OPENAGHMATHJAX()}{\bf r}{OPENAGHMATHJAX} opisuje położenie masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} względem masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} więc siłę oddziaływania grawitacyjnego między tymi masami (równanie (6.2)) możemy zapisać w postaci wektorowej 
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{F=-G\frac{Mm}{r^{{2}}}\frac{{\bf r}}{r}=-G\frac{Mn}{r^{{3}}}{\bf r}}\end{equation}{OPENAGHMATHJAX}
+[6.12]
+��� 
+gdzie znak minus wynika z faktu, że wektor {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} jest zwrócony przeciwnie do wektora {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}. Zwróćmy uwagę, że siłę tę możemy potraktować jako iloczyn masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i wektora {OPENAGHMATHJAX()}\bf \gamma (r){OPENAGHMATHJAX} przy czym 
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf  \gamma(r)}=\frac{{\bf F}}{m}=-G\frac{M}{r^{{3}}}{\bf r}}\end{equation}{OPENAGHMATHJAX}
+ 
+[6.13]
+
+{OPENAGHDEFINITION(name="Natężenie pola grawitacyjnego")}Wektor {OPENAGHMATHJAX()}\gamma (r){OPENAGHMATHJAX} dany równaniem (6.13) nazywamy natężeniem pola grawitacyjnego.{OPENAGHDEFINITION}
+
+
+Zwróćmy uwagę na to, że jeżeli w punkcie {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} umieścilibyśmy dowolną masę np. {OPENAGHMATHJAX()}m'{OPENAGHMATHJAX} to zawsze możemy zapisać siłę jako iloczyn masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i tego samego wektora {OPENAGHMATHJAX()}\bf \gamma (r){OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{F=m\gamma (r)}\end{equation}{OPENAGHMATHJAX}
+[6.14]
+
+Widzimy, że wektor {OPENAGHMATHJAX()}\gamma {OPENAGHMATHJAX}({OPENAGHMATHJAX()}R{OPENAGHMATHJAX}) nie zależy od obiektu na który działa siła (masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}) ale zależy od źródła siły (masa {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}) i charakteryzuje przestrzeń otaczającą źródło (wektor {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}). Oznacza to, że masa {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} 
+
+stwarza w punkcie {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} takie warunki, że umieszczona w nim masa {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} odczuje działanie siły. Inaczej mówiąc masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} przypisujemy obszar wpływu (działania), czyli pole. Na rysunku poniżej jest pokazany wektor {OPENAGHMATHJAX()}\gamma {OPENAGHMATHJAX}({OPENAGHMATHJAX()}R{OPENAGHMATHJAX}) w wybranych punktach wokół masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}.
+
+{ {img fileId="
+Wybierz obrazek z galerii
+"}
+{
+Rys. 6.3. "Mapa" natężenia pola grawitacyjnego wokół masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}
+
+Zwróćmy uwagę, że rozdzieliliśmy siłę na dwie części. Stwierdzamy, że jedna masa wytwarza pole, a następnie to {pole działa na drugą masę}. Taki opis pozwala uniezależnić się od obiektu (masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}) wprowadzanego do pola.
+
+Z pojęcia pola korzysta się nie tylko w związku z grawitacją. Jest ono bardzo użyteczne również przy opisie zjawisk elektrycznych i magnetycznych. Źródłami i obiektami działania pola elektrycznego są ładunki w spoczynku, a pola magnetycznego ładunki w ruchu. Właściwości pól wytwarzanych przez ładunki elektryczne omówimy w dalszych rozdziałach.
+
+Chociaż pole jest pojęciem abstrakcyjnym jest bardzo użyteczne i znacznie upraszcza opis wielu zjawisk. Na przykład gdy mamy do czynienia z wieloma masami, możemy najpierw obliczyć w punkcie {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} pole pochodzące od tych mas, a dopiero potem siłę działającą na masę umieszczoną w tym punkcie.
+
+Z polem sił wiąże się nie tylko przestrzenny rozkład wektora natężenia pola, ale również przestrzenny rozkład energii. Właśnie zagadnieniom dotyczącym pracy i energii są poświecone następne rozdziały.

@@ -1,0 +1,71 @@
+!!Profil Autora
+
+{maketoc title="Spis treści"}
+
+!!!Panel „Moje moduły”
+Jeżeli chcesz wejść do panelu należy zalogować się do systemu a następnie kliknąć przycisk a następnie kliknąć przycisk „Panel Autora”. W panelu autor widzi wszystkie moduły przypisane do niego. Każdy moduł posiada status prezentujący postęp prac.
+
+::{img src="tiki-download_file.php?fileId=22&display" height="80%" width="80%"}::
+:: ::
+!!!Krok 1. Rozpoczęcie pracy
+Aby zacząć pracę nad modułami przydzielonymi przez koordynator, należy kliknąć przy nazwie modułu na "Rozpocznij pracę". Moduł ma stratus "Oczekujący na rozpoczęcie pracy". Status ten widoczny jest także u koordynatora. Po rozpoczęciu pracy, status zmieni się na "W trakcie pisania". Zmianę to będzie widział także koordynator. 
+
+::{img src="tiki-download_file.php?fileId=48&display" height="80%" width="80%"}::
+
+!!!Krok 2. Podgląd i edycja modułu
+Jeżeli chcesz zobaczyć treść modułu, należy kliknąć nazwę modułu.
+
+::{img src="tiki-download_file.php?fileId=26&display" height="80%" width="80%"}::
+Autor może pracować wyłącznie nad modułami, do których został przypisany przez koordynatora. Aby edytować moduł, wejdź do podglądu modułu i przejdź do zakładki „Edytuj stronę”. Za pomocą edytora możesz pracować nad modułem. Aby zapisać zmiany, kliknij „Zapisz”.
+
+::{img src="tiki-download_file.php?fileId=24&display" height="80%" width="80%"}::
+ 
+!!!Krok 3. Zmiana tagów i opisu modułu
+Aby edytować tagi i opis modułu, kliknij ikonę etykiety. Edytuj tagi oraz opis, kliknij „Zapisz” aby zapisać zmiany.
+
+::{img src="tiki-download_file.php?fileId=28&display" height="80%" width="80%"}::
+ 
+
+!!!Krok 4. Zgłoszenie modułu do recenzji 
+Kiedy moduł jest gotowy, autor może wysłać go do recenzenta poprzez kliknięcie "Zgłoś do recenzji". Moduł otrzymuje status "Zgłoszony do recenzji".
+
+Koordynator otrzymuje informację, że autor zakończył pracę. Na tym etapie koordynator sprawdza tagi, opis i ew. zmienia nazwę i przypisanie modułu do kategorii. Następnie przekazuje moduł recenzentowi, a moduł otrzymuje status "W recenzji". 
+
+::{img src="tiki-download_file.php?fileId=27&display" height="80%" width="80%"}::
+!!!!Recenzja negatywna
+W przypadku negatywnej oceny recenzenta, moduł trafia ponownie do autora, który musi wprowadzić poprawki.
+
+Autor może zapoznać się z treścią recenzji, który dostępny jest pod treścią modułu.
+
+::{img src="tiki-download_file.php?fileId=25&display" height="80%" width="80%"}::
+
+Następnie przekazuje moduł ponownie do recenzji. Koordynator jest informowany o zmianach statusu modułu.
+
+::{img src="tiki-download_file.php?fileId=47&display" height="80%" width="80%"}::
+
+!!!!Recenzja pozytywna
+W przypadku recenzji pozytywnej, moduł jest przekazywany przez recenzenta bezpośrednio do edytora, który dokonuje korekty na tekście.
+ 
+
+!!!Krok 5. Sprawdzenie modułu po korekcie edytorskiej (szczotka)
+Edytor po wprowadzeniu korekty modułu, przekazuje moduł do autora. Moduł otrzymuje status "Szczotka". Autor ma zablokowaną możliwość edycji treści modułu.
+
+Jeśli autor oceni, że moduł nie wymaga poprawek po zmianach edytora, przekazuje moduł do publikacji (Przekaż do publikacji).
+
+::{img src="tiki-download_file.php?fileId=44&display" height="80%" width="80%"}::
+
+!!!!Komentowanie szczotki 
+Jeśli autor uzna, że moduł wymaga poprawek, nanosi komentarze na szczotce. Aby to zrobić, wchodzi do modułu, następnie zaznacza myszką fragment tekstu jaki chce skomentować. Pojawi się żółty przycisk "Dodaj komentarz". Po jego naciśnięciu otworzy się okno gdzie można wpisać komentarz.
+
+Wszystkie komentarze zapisywane są pod treścią modułu. Aby je rozwinąć należy kliknąć na przycisk "Komentarze".
+
+{OPENAGHANNOTATION( name="Działanie komentarza")}Po dodaniu komentarza cały paragraf zaznacza się na kolor szary. {OPENAGHANNOTATION} 
+
+ 
+
+::{img src="tiki-download_file.php?fileId=38&display" height="80%" width="80%"}::
+
+~~ ,#FFFFFF:Komentowanie szczotki przez autora i nanoszenie poprawek przez edytora~~~~ ,#FFFFFF: jest możliwe tylko raz. ~~
+
+!!!Krok 6. Zakończenie pracy 
+~~ ,#FFFFFF:Po wprowadzeniu korekty przez edytora moduł jest przekazywany do publikacji i koordynator może ~~zdecydować czy zakończyć pracę nad modułem i opublikować go ostatecznie, czy przekazać moduł ponownie do autora. Wtedy cały proces zaczyna się od nowa (od kroku 1). 

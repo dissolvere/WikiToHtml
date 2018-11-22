@@ -1,0 +1,42 @@
+Dotychczas przedmioty traktowaliśmy jak punkty materialne, tzn. obdarzone masą cząstki bezwymiarowe (o zerowej objętości) co wystarczało w przypadku ruchu postępowego ciał bo ruch jednego punktu odzwierciedlał ruch całego ciała. Jednak rzeczywiste ciała są układami ogromnej liczby atomów, a ich ruch może być bardzo skomplikowany. Ciało może wirować lub drgać, w trakcie ruchu cząstki mogą zmieniać swoje wzajemne położenie. Przykład takiego ruchu jest przedstawiony na rysunku poniżej.
+
+{img fileId="435
+"}
+Rys. 9.1. Ciało wykonuje skomplikowany ruch obrotowy za wyjątkiem jednego punktu, który porusza się po linii prostej
+
+Zauważmy, że istnieje w tym układzie jeden punkt, który porusza się po linii prostej ze stałą prędkością. Żaden inny punkt nie porusza się w ten sposób. Ten punkt to środek masy. Sposób wyznaczania środka masy zilustrujemy następującym przykładem.
+
+
+
+{OPENAGHEXAMPLE( name="Położenie środka masy")}
+
+Rozważamy układ dwóch różnych mas {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} pokazanych na rysunku 9.2.
+ {img fileId="448"} 
+
+Rys. 9.2. Środek masy układu dwóch mas {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}
+
+Położenie środka masy tego układu definiujemy jako
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}x_{{1}}+m_{{2}}x_{{2}}}{m_{{1}}+m_{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[9.1]
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\overset{{\text{__}}}{{x}}=x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}}{m_{{1}}+m_{{2}}}x_{{1}}+\frac{m_{{2}}}{m_{{1}}+m_{{2}}}x_{{2}}}\end{equation}{OPENAGHMATHJAX}
+[9.2]
+{OPENAGHEXAMPLE}
+
+Widzimy, że położenie środka masy układu punktów materialnych wyznaczamy jak średnią ważoną, przy czym masa tych punktów jest czynnikiem ważącym przy tworzeniu średniej. Przez analogię dla układu {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} cząstek (punktów materialnych) współrzędna {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} środka masy jest dana zależnością
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}x_{{1}}+m_{{2}}x_{{2}}+\text{.}\text{.}\text{.}\text{.}\text{.}+m_{{n}}x_{{n}}}{m_{{1}}+m_{{2}}+\text{.}\text{.}\text{.}\text{.}\text{.}+m_{{n}}}=\frac{\sum_{i=1}^n m_ix_i}{\sum_{i=1}^n m_i}}\end{equation}{OPENAGHMATHJAX}
+[9.3]
+
+gdzie suma mas {OPENAGHMATHJAX()}m_i{OPENAGHMATHJAX} poszczególnych punktów układu jest całkowitą masą {OPENAGHMATHJAX()}M{OPENAGHMATHJAX} układu. Postępując w ten sam sposób możemy wyznaczyć pozostałe współrzędne {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}, z. W wyniku otrzymujemy trzy równania skalarne (analogiczne do 9.3), które możemy zastąpić jednym równaniem wektorowym
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{r_{{\text{śr}\text{.}m\text{.}}}=\frac{1}{M}\overset{{n}}{\underset{{i=1}}{\sum}}{m_{{i}}r_{{i}}}}\end{equation}{OPENAGHMATHJAX}
+[9.4]
+
+Zauważmy, że środek masy układu punktów materialnych zależy tylko od mas tych punktów i od wzajemnego ich rozmieszczenia, a nie zależy od wyboru układu odniesienia. Dla ciał o regularnym kształcie środek masy pokrywa się ze środkiem geometrycznym.
+
+{openaghexercise name="Środek masy" body=" Znajdź środek masy układu trzech cząstek o masach {OPENAGHMATHJAX()}m_1= 1{OPENAGHMATHJAX} kg, {OPENAGHMATHJAX()}m_2= 2{OPENAGHMATHJAX} kg i {OPENAGHMATHJAX()}m_3= 3{OPENAGHMATHJAX}  kg, umieszczonych w wierzchołkach równobocznego trójkąta o boku  {OPENAGHMATHJAX()}a = 1{OPENAGHMATHJAX}  m. Wynik zapisz poniżej. Wskazówka: Wybierz układu odniesienia, a następnie oblicz współrzędne {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} środka masy zgodnie z równaniem (9.3){OPENAGHMATHJAX()}x{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.}={OPENAGHMATHJAX} {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.}={OPENAGHMATHJAX} " solution="Dane: {OPENAGHMATHJAX()}m_1= 1{OPENAGHMATHJAX}  kg, {OPENAGHMATHJAX()}m_2=2{OPENAGHMATHJAX} kg i {OPENAGHMATHJAX()}m_3=3{OPENAGHMATHJAX} kg, {OPENAGHMATHJAX()}a = 1{OPENAGHMATHJAX} m.Ponieważ wynik nie zależy od wyboru układu odniesienia to możemy przyjąć dowolny układ odniesienia w szczególności taki jak na rysunku poniżej. {img fileId="446"}Współrzędne {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} położenia mas {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_3{OPENAGHMATHJAX} wynoszą odpowiednio{OPENAGHMATHJAX( type="block")}\begin{equation}{(0,0);\;(a,0);\;\left(\frac{a}{2},\frac{a\sqrt{3}}{2}\right)}\end{equation}{OPENAGHMATHJAX}Współrzędne środka masy obliczamy zgodnie z równaniem (9.3){OPENAGHMATHJAX( type="block")}\begin{equation}{x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}x_{{1}}+m_{{2}}x_{{2}}+m_{{3}}x_{{3}}}{m_{{1}}+m_{{2}}+m_{{3}}}=\frac{7}{\text{12}}m}\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{y_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}y_{{1}}+m_{{2}}y_{{2}}+m_{{3}}y_{{3}}}{m_{{1}}+m_{{2}}+m_{{3}}}=\frac{\sqrt{3}}{4}m}\end{equation}{OPENAGHMATHJAX}Zwróćmy uwagę, że położenie środka masy nie pokrywa się ze środkiem geometrycznym."}

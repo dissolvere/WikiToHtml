@@ -1,0 +1,30 @@
+W module tym pokazujemy jak wyprowadzić równania na amplitudę i fazę w ruchu harmonicznym wymuszonym, dyskutowanym w module ((Drgania wymuszone i rezonans|Drgania wymuszone i rezonans)).
+
+Poszukujemy rozwiązania równania różniczkowego
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{d^{{2}}x}{{dt}^{{2}}}+\frac{1}{\tau}\frac{{dx}}{{dt}}+\omega _{{0}}^{{2}}x=\alpha_{{0}}\sin{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+w postaci
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x(t)=A\sin({\omega t}+\varphi )}\end{equation}{OPENAGHMATHJAX}
+
+W tym celu obliczamy odpowiednie pochodne funkcji (III.5.2) {OPENAGHMATHJAX()}{\frac{{dx}}{{dt}}={A\omega}\cos({\omega t}+\varphi )}{OPENAGHMATHJAX},{OPENAGHMATHJAX()}{\frac{d^{{2}}x}{d^{{2}}t}=-{A\omega}^{{2}}\sin({\omega t}+\varphi )}{OPENAGHMATHJAX} i podstawiamy do równania (III.5.1), które przyjmuje postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\left(\omega _{{0}}^{{2}}-\omega^{{2}}\right)A\sin({\omega t}+\varphi )+\frac{\omega}{\tau }A\cos({\omega t}+\varphi )=\alpha_{{0}}\sin{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+Równanie to przekształcamy korzystając ze związków}
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{\sin({\omega t}+\varphi)=\sin{\omega t}\cos\varphi+\cos{\omega t}\sin\varphi }\\ {\cos({\omega t}+\varphi )=\cos{\omega t}\cos\varphi -\sin{\omega t}\sin\varphi} \end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Otrzymujemy równanie
+
+{OPENAGHMATHJAX()}\begin{equation}\begin{matrix}{\left[\left(\omega _{{0}}^{{2}}-\omega^{{2}}\right)\cos\varphi -\frac{\omega }{\tau }\sin\varphi\right]A\sin{\omega t}+\left[\left(\omega_{{0}}^{{2}}-\omega ^{{2}}\right)\sin\varphi -\frac{\omega }{\tau}\cos\varphi \right]A\cos{\omega t}=}\alpha _{{0}}\sin{\omega t}\end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Powyższa równość może być spełniona tylko, gdy czynniki stojące przy funkcji {OPENAGHMATHJAX()}\sin\omega t {OPENAGHMATHJAX} i {OPENAGHMATHJAX()}\cos\omega t{OPENAGHMATHJAX} po obu stronach równania będą sobie równe. Ten warunek oznacza, że czynnik przy {OPENAGHMATHJAX()}\cos\omega t{OPENAGHMATHJAX} ma być równy zeru co można zapisać jako
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\sin\varphi }{\cos\varphi}={tg}\varphi =\frac{\omega /\tau }{\omega_{{0}}^{{2}}-\omega ^{{2}}}=\frac{2{{\beta\omega }}}{\omega _{{0}}^{{2}}-\omega ^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+Z tego warunku znamy już {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. Teraz wyznaczamy amplitudę porównując czynniki przy funkcji sin{OPENAGHMATHJAX()}\omega t{OPENAGHMATHJAX} (w równaniu III.5.5) i podstawiając odpowiednie wyrażenia za
+{OPENAGHMATHJAX()}\cos\varphi {OPENAGHMATHJAX} i {OPENAGHMATHJAX()}\sin\varphi {OPENAGHMATHJAX}.
+Otrzymujemy wyrażenie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{A=\frac{\alpha _{{0}}}{[(\omega _{{0}}^{{2}}-\omega^{{2}})^{{2}}+(\omega /\tau )^{{2}}]^{{1/2}}}=\frac{\alpha_{{0}}}{[(\omega _{{0}}^{{2}}-\omega ^{{2}})^{{2}}+4\beta ^{{2}}\omega^{{2}}]^{{1/2}}}}\end{equation}{OPENAGHMATHJAX}

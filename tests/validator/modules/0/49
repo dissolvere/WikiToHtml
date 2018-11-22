@@ -1,0 +1,19 @@
+Energią potencjalną sprężyny obliczyliśmy w rozdziale 7.2 przy okazji dyskusji o pracy wykonywanej przez siły zmienne. Pokazaliśmy wtedy, że energia potencjalna sprężyny rozciągniętej o {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}=\frac{{kx}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+Jeżeli sprężyna zostanie rozciągnięta tak aby masa {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} znalazła się w chwili {OPENAGHMATHJAX()}t = 0{OPENAGHMATHJAX} w położeniu {OPENAGHMATHJAX()}x = A{OPENAGHMATHJAX}, to energia potencjalna układu
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}=\frac{{kA}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+jest zarazem energią całkowitą (energia kinetyczna {OPENAGHMATHJAX()}E_{k}=0 {OPENAGHMATHJAX}). Jeżeli puścimy sprężynę to jej energia potencjalna będzie zamieniać się w energię kinetyczną masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}. Przy założeniu, że nie ma tarcia ani innych sił oporu, zgodnie z zasadą zachowania energii suma energii kinetycznej i potencjalnej musi się równać energii całkowitej w dowolnej chwili ruchu
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}+E_{{p}}=\frac{{mv}^{{2}}}{2}+\frac{{kx}^{{2}}}{2}=\frac{{kA}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+Korzystając z wyrażeń (12.2) i (12.4) na {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} i {OPENAGHMATHJAX()}v(t){OPENAGHMATHJAX} oraz pamiętając, że {OPENAGHMATHJAX()}m\omega^{2}= k {OPENAGHMATHJAX} otrzymujemy
+{OPENAGHMATHJAX(type="block")}\begin{equation}{\frac{{kA}^{{2}}\sin^{{2}}{\omega t}}{2}+\frac{{kA}^{{2}}\cos^{{2}}{\omega t}}{2}=\frac{{kA}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+{OPENAGHEXAMPLE()}Spróbujmy teraz obliczyć jaki jest stosunek energii potencjalnej do energii kinetycznej ciała wykonującego drgania harmoniczne, gdy znajduje się ono w połowie drogi między położeniem początkowym, a położeniem równowagi.Dla danego wychylenia ciała {OPENAGHMATHJAX()}x = A/2{OPENAGHMATHJAX} możemy korzystając ze wzoru (12.19) wyliczyć energię potencjalną{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}=\frac{{kx}^{{2}}}{2}=\frac{{kA}^{{2}}}{8}}\end{equation}{OPENAGHMATHJAX}Ponieważ energia całkowita {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{E=\frac{{kA}^{{2}}}{2}=E_{{k}}+E_{{p}}}\end{equation}{OPENAGHMATHJAX}więc podstawiając obliczoną wartość energii potencjalnej (12.23) otrzymujemy energię kinetyczną{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{3{kA}^{{2}}}{8}}\end{equation}{OPENAGHMATHJAX}Stąd{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{E_{{p}}}{E_{{k}}}=\frac{1}{3}}\end{equation}{OPENAGHMATHJAX}Widać, że dla {OPENAGHMATHJAX()}x = A/2{OPENAGHMATHJAX} energia kinetyczna jest trzykrotnie większa od potencjalnej.{OPENAGHEXAMPLE}
+ 
+
+ 

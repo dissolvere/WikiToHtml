@@ -1,0 +1,42 @@
+Znajomość zagadnień związanych z szeroko rozumianym pojęciem energii jest konieczna dla wszelkich rozważań zarówno technologicznych, ekonomicznych, ekologicznych jak i społecznych. Żeby się o tym przekonać wystarczy sprawdzić jak istotną pozycją w budżecie domowym stanowią wydatki związane z zapotrzebowaniem na energię (zakupy żywności, opłaty za prąd, gaz, ogrzewanie czy paliwo do samochodu).
+
+Z energią związana jest najważniejsza chyba zasada całej fizyki - zasada zachowania energii. Nakłada ona sztywne granice na przetwarzanie energii i jej wykorzystanie. Do zasady tej będziemy się odwoływali wielokrotnie w kolejnych rozdziałach dotyczących różnych zagadnień fizyki. W mechanice zasada zachowania energii pozwala obliczać w bardzo prosty sposób ruch ciał, stanowi alternatywę do stosowania zasad dynamiki Newtona.
+
+!!!# Praca wykonana przez siłę stałą
+
+W najprostszym przypadku, punkt materialny przemieszcza się pod wpływem stałej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}. Traktując przesunięcie {OPENAGHMATHJAX()}s{OPENAGHMATHJAX} jako wektor o długości równej drodze jaką przebywa ten punkt i kierunku zgodnym z kierunkiem ruchu, możemy zdefiniować pracę {OPENAGHMATHJAX()}W{OPENAGHMATHJAX}.
+
+{OPENAGHDEFINITION( name="Praca")}
+Praca {OPENAGHMATHJAX()}W{OPENAGHMATHJAX} wykonana przez stałą siłę {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} jest iloczynem skalarnym tej siły {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} i wektora przesunięcia {OPENAGHMATHJAX()}{\bf s}{OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{W={\bf F}\cdot {\bf s}=Fs{\cos}\alpha }
+\end{equation}{OPENAGHMATHJAX}
+[7.1]
+{OPENAGHDEFINITION}
+
+
+gdzie {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} jest kątem między kierunkami siły i przesunięcia. Zwróćmy uwagę, że kąt {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} może być różny od zera bo stała siła nie musi mieć kierunku zgodnego z kierunkiem ruchu punktu materialnego. Dzieje się tak gdy działają jeszcze inne siły (np. ciężar, tarcie). Ale nawet gdy działała tylko jedna siła to i tak ciało nie musi poruszać się w kierunku jej działania np. siła grawitacji w rzucie ukośnym. Rozpatrzmy teraz następujący przykład.
+
+
+{OPENAGHEXAMPLE( name="Sanki")}Ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} ( na przykład sanki) jest ciągnięte po poziomej powierzchni stałą siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (rysunek poniżej), a sznurek, za który ciągniemy tworzy kąt {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} z poziomem.  {img fileId="430"} Rys. 7.1.  Ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} ciągnięte po poziomej powierzchni stałą siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} tworzącą kąt {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} z poziomemPraca jaką wykonał człowiek ciągnący to ciało na drodze {OPENAGHMATHJAX()}s{OPENAGHMATHJAX} jest zgodnie z równaniem (7.1) równa {OPENAGHMATHJAX()}Fs\cos\alpha {OPENAGHMATHJAX} . Zauważmy, że pracę wykonuje tylko składowa {OPENAGHMATHJAX()}F_s={OPENAGHMATHJAX}{OPENAGHMATHJAX()}F\cos\alpha {OPENAGHMATHJAX} styczna do przesunięcia {OPENAGHMATHJAX()}s{OPENAGHMATHJAX}. Natomiast składowa pionowa {OPENAGHMATHJAX()}F\sin\alpha {OPENAGHMATHJAX} działa w górę zmniejszając nacisk ciała na powierzchnię. {OPENAGHEXAMPLE}
+
+Ze wzoru (7.1) wynika, że praca może przyjmować zarówno wartości dodatnie gdy {OPENAGHMATHJAX()}\alpha < 90°{OPENAGHMATHJAX} , jak i ujemne gdy {OPENAGHMATHJAX()}\alpha > 90° {OPENAGHMATHJAX} . W omawianym przykładzie, poza siłą ciągnącą ciało, działa jeszcze siła tarcia kinetycznego {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} (rysunek 7.1) przeciwstawiająca się ruchowi ({OPENAGHMATHJAX()} \alpha= 180° {OPENAGHMATHJAX}). Praca wykonana przez siłę tarcia jest ujemna {OPENAGHMATHJAX()}W={\bf T}\cdot {\bf s}=Ts\cos 180° = -Ts{OPENAGHMATHJAX}. W szczególności praca może być równa zeru, gdy kierunek siły jest prostopadły do kierunku przesunięcia ({OPENAGHMATHJAX()}\alpha = 90°{OPENAGHMATHJAX} ,{OPENAGHMATHJAX()} \cos 90°= 0{OPENAGHMATHJAX} ). Przykładem może być siła dośrodkowa. Przyspieszenie dośrodkowe jest prostopadłe do toru więc siła dośrodkowa nie wykonuje pracy.
+
+Rozpatrzmy jeszcze raz powyższy przykład ale w sytuacji gdy człowiek ciągnący ciało porusza się ze stałą prędkością. Z pierwszej zasady dynamiki wynika, że wtedy {OPENAGHMATHJAX()}{\bf F}_{wyp}= 0{OPENAGHMATHJAX} . W kierunku poziomym {OPENAGHMATHJAX()}F_{wyp}=F\cos\alpha-T=0{OPENAGHMATHJAX} , zatem "dodatnia" praca wykonana przez człowieka jest równa co do wartości bezwzględnej "ujemnej" pracy wykonanej przez siłę tarcia.
+
+Z podobna sytuacją mamy do czynienia przy podnoszeniu w górę (ze stałą prędkością) ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} na wysokość h (rysunek 7.2 ).
+
+Zauważmy, że w trakcie podnoszenia ciała człowiek działa siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} równą ciężarowi ale przeciwnie skierowaną, więc "dodatnia" praca {OPENAGHMATHJAX()}W = mgh{OPENAGHMATHJAX} wykonana na drodze {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} przez siłę {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (człowieka) jest równa co do wartości "ujemnej" pracy wykonanej przez siłę ciężkości.
+
+{img fileId="431"} 
+Rys. 7.2.  Podnoszenie ciężaru na wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}
+
+{openaghexercise name="Podnoszenie książki" body="
+ Teraz gdy znasz już definicję pracy spróbuj samodzielnie odpowiedzieć na proste pytania związane z następującym ćwiczeniem:
+
+Wyobraź sobie, że podnosisz książkę na półkę, tak jak pokazano to na rysunku obok. W pierwszym kroku podnosisz książkę z położenia (1) i umieszczasz ją na półce (położenie 2). Następnie przenosisz książkę poziomo ze stałą prędkością na inne miejsce na półce (położenie 3). Jaki znak ma praca wykonana przezciebie na odcinku 1-2 i 1-3, a jaki znak ma praca wykonana przez siłę ciężkości? Tarcie i wszelkie opory pomijamy.{img fileId="432"}" solution=" "}
+
+
+Wzór (7.1) pozwala obliczyć pracę dla siły stałej; do obliczeń "podstawiamy" za {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} konkretną jej wartość. Teraz poznamy jak obliczyć pracę gdy siła zmienia się, przyjmuje różne wartości.

@@ -1,0 +1,55 @@
+ 
+
+ 
+
+{OPENAGHDEFINITION()}Rozważmy przedział  \( I \).  zawarty w zbiorze liczb rzeczywistych (  \( I\subset \mathbf{R} \)  ). Funkcję rzeczywistą mającą pochodną w każdym punkcie przedziału  \( I \)    nazywamy __ funkcją pierwotną __ funkcji  \( f \)   w przedziale  \( I \) , jeżeli w każdym punkcie  \( x\in I \)  
+zachodzi  \( F{\prime} (x) = f(x) \)   (tj. gdy w każdym punkcie z przedziału  \( I \)  pochodna funkcji  \( F \)  równa się wartości funkcji  \( f \) ).{OPENAGHDEFINITION}
+ 
+
+{OPENAGHEXAMPLE()}Rozważmy wielomian {OPENAGHMATHJAX()}\( f(x)=x^3-3x^2 \) {OPENAGHMATHJAX}. Wówczas wielomian określony wzorem  {OPENAGHMATHJAX()} \( F(x)= \frac14 x^4-x^3 +2014\) {OPENAGHMATHJAX} jest funkcją pierwotną funkcji {OPENAGHMATHJAX()}\( f \) {OPENAGHMATHJAX} na przedziale  {OPENAGHMATHJAX()}\( (-\infty, \infty) \) {OPENAGHMATHJAX}. Istnieją też inne funkcje pierwotne funkcji {OPENAGHMATHJAX()} \( f \) {OPENAGHMATHJAX}, np.: 
+
+{OPENAGHMATHJAX()}\( F_1(x)= \frac14 x^4-x^3 +2 \){OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}\( F_2(x)= \frac14 x^4-x^3 -2^{10} \){OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}\( F_3(x)= \frac14 x^4-x^3 \){OPENAGHMATHJAX}, ...
+{OPENAGHEXAMPLE}
+   
+
+{OPENAGHANNOTATION()}Z powyższego przykładu wiemy, że funkcja pierwotna nie jest wyznaczona jednoznacznie.{OPENAGHANNOTATION}  
+
+ 
+
+{openaghtheorem assumptions="Jeżeli funkcja rzeczywista \(f\) ma w przedziale \( I \) funkcję pierwotną \(F \) ," thesis="to dla dowolnej liczby rzeczywistej \( c\) funkcja \( G(x)=F(x)+c\) jest funkcją pierwotną funkcji \( f\) w przedziale \(I \). "}
+ 
+
+ {OPENAGHDEFINITION()}Jeżeli istnieje \( F \)  funkcja pierwotna funkcji \(f\) w przedziale \(I \), to zbiór wszystkich funkcji postaci \(F(x)+c \) , gdzie \(c\) jest dowolną liczbą rzeczywistą nazywamy całką nieoznaczoną funkcji \( f\) w przedziale \(I\) i oznaczamy \(\int f(x) dx \).{OPENAGHDEFINITION}  
+
+
+
+ 
+
+
+ {OPENAGHEXAMPLE()}\( \int \sin x\, dx= \int \left(-\cos x + c\right)^{\prime} \,dx=-\cos x + c\) .{OPENAGHEXAMPLE}  
+
+ 
+
+ 
+
+{OPENAGHEXERCISE( content="Obliczyć: ~np~\[ \int \frac{3x^2+x+2}{x^3-1}dx\, . \]" solution="Jest to całka wymierna, której stopień licznika jest mniejszy od stopnia mianownika. Rozkładamy wyrażenie na ułamki proste. W pierwszej kolejności zapisujemy mianownik w postaci iloczynowej korzystając ze wzoru skróconego mnożenia: \[ x^3-1=(x-1)(x^2+x+1) \, . \] Zatem  \[ \frac{3x^2+x+2}{x^3-1}=\frac{A}{x-1}+\frac{Bx+C}{x^2+x+1}=\frac{Ax^2+Ax+A}{(x-1)(x^2+x+1)}+\frac{Bx^2-Bx+Cx-C}{(x-1)(x^2+x+1)}= \frac{(A+B)x^2+(A-B+C)x+A-C}{x^3-1}\, . \] Porównując współczynniki wielomianów w liczniku otrzymujemy układ równań:  \[ \left\{ \begin{array}{rcl} A+B&=&3\\ A-B+C&=&1\\ A-C=&=&2 \end{array}\right.  \, . \] Z pierwszego równania wyznaczamy \( B=3-A\) , z trzeciego mamy \( C=A-2\)  i wstawiamy do drugiego otrzymując równanie: \[ \begin{array}{rcl} A-(3-A)+A-2&=&1\\ 3A&=&6\\ A&=&2 \end{array}\, . \] Zatem \[ B=1, \qquad \qquad C=0\, . \] ")}\( \int \frac{3x 2+x+2}{x 3-1} \){OPENAGHEXERCISE}
+  
+
+
+{OPENAGHMATHJAX()}\( \beta \){OPENAGHMATHJAX}  
+
+ 
+
+{OPENAGHMATHJAX()}\( \int \frac{3x^2+x+2}{x^3-1}
+\){OPENAGHMATHJAX}
+  
+
+ 
+
+ 
+
+ 
+
+ 

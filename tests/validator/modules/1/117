@@ -1,0 +1,25 @@
+{openaghexercise body="
+Korzystając z definicji Heinego granicy funkcji, wyznaczyć granicę {OPENAGHMATHJAX()}\lim_{x \to 1} \frac{x^3-1}{x-1}{OPENAGHMATHJAX}. Sprawdzić otrzymany wynik przy pomocy definicji Cauchy'ego.
+" solution="
+Na początku, zauważmy, że \( \frac{x^3-1}{x-1}=x^2+x+1 \).
+Aby wyznaczyć granicę na podstawie definicji Heinego, weźmy dowolny ciąg \(\{x_n\}_{n \in \mathbb{N}} \) taki, że \( \lim_{n \to \infty} x_n =1 \). Wówczas, korzystając z własności granic ciągów dostajemy \( \lim_{n \to \infty} (x_n^2+x_n+1)=3 \), a zatem \( \lim_{x \to 1} \frac{x^3-1}{x-1}=3 \) . 
+Sprawdzenie powyższego wyniku na podstawie definicji Cauchy'ego granicy jest równoznaczne sprawdzeniu, czy zachodzi warunek:
+\( \forall_{\varepsilon >0} \exists_{\delta>0} (|x-1|<\delta \Rightarrow |\frac{x^3-1}{x-1}-3|<\varepsilon ) \).
+Ustalmy więc dowolne \( \varepsilon>0 \). 
+Zauważmy, że ponieważ \(\frac{x^3-1}{x-1}-3=x^2+x+1-3=(x-1)(x+2) \), warunek po prawej stronie implikacji można zapiać jako \[ |x-1| \cdot |x+2| < \varepsilon. \] Zastanówmy się więc, jak dobrać \( \delta>0 \), aby z nierówności \( |x-1|<\delta \) wynikała nierówność \( |x-1| \cdot |x+2| < \varepsilon \). 
+Jak łatwo obliczyć, warunek \( |x-1|<\delta \) implikuje \( |x+2|<3+\delta \), a w konsekwencji \[ |x-1| \cdot |x+2| < \delta (3+ \delta). \] Biorąc więc dowolne \( \delta>0 \) spełniające nierówność \( \delta (3+ \delta) <\varepsilon \), warunek z definicji Cauchy'ego będzie prawdziwy. Oczywiście, ponieważ \( \varepsilon >0 \), takie \( \delta \) zawsze istnieje.
+
+"}
+ 
+ 
+
+ 
+
+{openaghexercise body="Pokazać, że nie istnieje granica \(\lim_{x \to 2} \cos(\frac{\pi}{x^2-4x+4}). \)" solution="Aby wykazać nie istnienie powyższej granicy, wskażemy dwa ciągi \( \{x_n\} \) i \(\{y_n\} \) takie, że \(\lim_{n \to \infty} x_n = \lim_{n \to \infty} y_n = 2, \) ale \( \lim_{n \to \infty} \cos(\frac{\pi}{x_n^2-4x_n+4}) e \lim_{n \to \infty} \cos(\frac{\pi}{y_n^2-4y_n+4}) \) Niech ciąg \( \{x_n\} \) będzie zadany wzorem \(x_n=\frac{1}{\sqrt{2n}}+2.\) Wówczas \(\lim_{n \to \infty} x_n =2 \) oraz zachodzi następująca równość: \[[\frac{1}{x_n^2-4x_n+4}=2n.\] Oznacza to, że \[[ \cos(\frac{\pi}{x_n^2-4x_n+4}) =cos(2 \pi n)=1\] dla dowolnego \(n \in \mathbb{N} \), czyli \[[\lim_{n \to \infty} \cos(\frac{\pi}{x_n^2-4x_n+4})=1.\]Z drugiej strony, biorąc ciąg \(y_n=\sqrt{\frac{1}{2n+1}}+2,\) otrzymujemy równość \[[\frac{1}{y_n^2-4y_n+4}=2n+1,\] a w konsekwencji \[[\cos(\frac{\pi}{y_n^2-4y_n+4})=\cos((2n+1) \pi)=-1 \]  \[[\lim_{n \to \infty} \cos(\frac{\pi}{y_n^2-4y_n+4})=-1.\]"}
+ 
+
+{openaghexercise body="Zbadać granice: lewo- i prawostronną w punkcie \(x_0=0\) funkcji \(f(x)=e^{\frac{1}{x}} \). " solution="Obliczymy najpierw granicę lewostronną. Zauważmy, że zbiegając z \( x \to 0 \) po wartościach ujemnych, w granicy \( \lim_{x \to 0^{-}} \frac{1}{x} \) dostajemy \( - \infty \). Korzystając z własności granic funkcji,  \[[ \lim_{x \to 0^-} e^{\frac{1}{x}} = e^{\lim_{x \to 0^-} \frac{1}{x}} = 0 \]Z drugiej strony, granica prawostronna w \( 0 \) wyrażenia \( \frac{1}{x} \) wynosi \( + \infty \), ponieważ dążymy do wartości \( 0 \) po liczbach dodatnich. Oznacza to, że \[[ \lim_{x \to 0^+} e^{\frac{1}{x}} = e^{\lim_{x \to 0^+} \frac{1}{x}}=+ \infty \]"}
+ 
+
+{openaghexercise body="Obliczyć granicę \( \lim_{x \to \infty} \frac{3x^2 \sin(\frac{1}{x})}{x+5} \). " solution="Aby obliczyć powyższą granicę, dokonajmy podstawienia \( y:=\frac{1}{x} \). Wówczas \( y \to 0 \) gdy \(x \to \infty\) i granica przyjmuje postać: \[[ \lim_{y \to 0} \frac{3 (\frac{1}{y})^2 \sin(y)}{\frac{1}{y}+5}= \lim_{y \to 0} \frac{3 \sin y}{y+5y^2}= \lim_{y \to 0} \frac{3 y}{y+5y^2} \cdot \frac{\sin y}{y}=\lim_{y \to 0} \frac{3}{1+5y} \cdot \frac{\sin y}{y} \] Na mocy twierdzenia (?), wiemy, że \( \lim_{y \to 0} \frac{\sin y}{y}=1 \), a zatem \[[\lim_{y \to 0} \frac{3}{1+5y} \cdot \frac{\sin y}{y}=3 \cdot 1 = 3\]"}
+ 

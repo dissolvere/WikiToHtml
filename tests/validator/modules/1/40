@@ -1,0 +1,18 @@
+Dla układu n cząstek możemy zsumować momenty sił działające na poszczególne punkty materialne
+
+{OPENAGHMATHJAX( type="block
+")}\underset{{i}}{\sum }{{\bf \unicode[Times]{x3C4}}_{{i}}=\frac{d}{{dt}}\left(\overset{{n}}{\underset{{i=1}}{\sum}}{{\bf L}_{{i}}}\right)}=\frac{{d{\bf L}}}{{dt}}{OPENAGHMATHJAX}
+
+gdzie __L__ oznacza teraz całkowity moment pędu układu.
+Zauważmy, że jeśli {OPENAGHMATHJAX()}\underset{i}{\sum }{\bf \unicode[Times]{x3C4}}_i = 0{OPENAGHMATHJAX} to {OPENAGHMATHJAX( type="
+inline
+")}\frac{d{\bf L}}{dt} = 0{OPENAGHMATHJAX}, zatem __L= const__. Zależność ta wyraża zasadę zachowania momentu pędu:
+
+{OPENAGHRULE( name="Zasada zachowania momentu pędu")}Jeżeli na układ nie działa zewnętrzny moment siły (lub wypadkowy moment sił zewnętrznych jest równy zeru) to całkowity moment pędu układu pozostaje stały.{OPENAGHRULE} 
+
+{OPENAGHEXAMPLE( name="Rower")}Rozpatrzmy teraz następujący przykład. Rower jedzie ze stałą prędkością gdy siła działająca pomiędzy nawierzchnią i kołem \( F_2 \)    = 5 N. Z jaką siłą  \( F_1 \)   łańcuch ciągnie zębatkę jeżeli stosunek R/r = 10?{img fileId="65" thumb="y" rel="box[g]"}Zauważmy, że prędkość kątowa jest stała więc  {OPENAGHMATHJAX()}\frac{dL}{dt} = 0{OPENAGHMATHJAX} i wypadkowy moment sił jest równy zeru:  {OPENAGHMATHJAX()}\tau_{\text{wyp}} = \tau_1 - \tau_2 = 0{OPENAGHMATHJAX}   czyli  {OPENAGHMATHJAX()}\tau_1 = \tau_2{OPENAGHMATHJAX} , stąd  \( rF_1 = RF_2 \)  i ostatecznie \( F_1 = \frac{R}{r}F_2 = 50 N \){OPENAGHEXAMPLE}
+
+Zasadę zachowania momentu pędu ilustruja poniższe filmy:
+
+{youtube movie="4S63WHzx49I" alt="Film obrazujący zasadę zachowania momentu pędu" imageId="35"}{youtube movie="_Euq4xY9mJE" alt="Film obrazuje zasadę zachowania momentu pędu" imageId="168"}
+ 

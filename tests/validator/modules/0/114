@@ -1,0 +1,50 @@
+ 
+
+Rozpatrzymy układ, który stanowi rakieta wyrzucająca ze swej dyszy gorący gaz z dużą prędkością, zmniejszając w ten sposób swoją masę i zwiększając prędkość (rysunek poniżej).
+ {img fileId="438"}
+Napęd odrzutowy rakiety
+
+Spaliny opuszczają silnik rakiety ze stałą prędkością {OPENAGHMATHJAX()}{\bf v}_{s}{OPENAGHMATHJAX} względem Ziemi. Prędkość chwilowa rakiety względem Ziemi jest równa {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX}, zatem prędkość spalin względem rakiety {OPENAGHMATHJAX()}v_{wzg}{OPENAGHMATHJAX} jest dana zależnością
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf v}_{{\text{wzg}}}={\bf v}_{{s}}-{\bf v}}\end{equation}{OPENAGHMATHJAX}
+[II.2.1]
+
+Jeżeli w przedziale czasu d{OPENAGHMATHJAX()}t{OPENAGHMATHJAX} z rakiety wyrzucona zostaje masa d{OPENAGHMATHJAX()}m_s{OPENAGHMATHJAX} z prędkością {OPENAGHMATHJAX()}v_{s}{OPENAGHMATHJAX} to masa rakiety maleje o d{OPENAGHMATHJAX()}m{OPENAGHMATHJAX}, a jej prędkość rośnie o d{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}, przy czym
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{dm}_{{s}}}{\mathit{dt}}=-{\frac{\mathit{dm}}{\mathit{dt}}}}\end{equation}{OPENAGHMATHJAX}
+[II.2.2]
+
+Znak minus wynika stąd, że masa rakiety maleje. Obliczamy teraz zmianę pędu {OPENAGHMATHJAX()}P{OPENAGHMATHJAX} układu w czasie d{OPENAGHMATHJAX()}t{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{d{\bf P}}}{\mathit{dt}}=\frac{\mathit{d{\bf p}}_{{\text{rakiety}}}}{\mathit{dt}}+\frac{\mathit{d{\bf p}}_{{\text{spalin}}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+[II.2.3]
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{d{\bf P}}}{\mathit{dt}}=\frac{d(\mathit{m{\bf v}})}{\mathit{dt}}+{\bf v}_{{s}}\frac{\mathit{dm}_{{s}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+[II.2.4]
+
+skąd ostatecznie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{d{\bf P}}}{\mathit{dt}}=m\frac{\mathit{d{\bf v}}}{\mathit{dt}}+{\bf v}\frac{\mathit{dm}}{\mathit{dt}}+{\bf v}_{{s}}\frac{\mathit{dm}_{{s}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+[II.2.5]
+
+Równanie to uwzględnia fakt, że w przypadku rakiety zmienia się zarówno jej masa jak i prędkość podczas gdy spaliny są wyrzucane ze stałą prędkością. 
+
+Zmiana pędu układu jest zgodnie z drugą zasadą dynamiki Newtona równa sile zewnętrznej działającej na układ. Uwzględniając zależności (II.2.1) i (II.2.2) możemy przekształcić równanie (II.2.5) do postaci
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}_{{\text{zew}}}=\frac{\mathit{d{\bf P}}}{\mathit{dt}}=m\frac{\mathit{d{\bf v}}}{\mathit{dt}}+{\bf v}_{{\text{wzg}}}\frac{\mathit{dm}_{{s}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+[II.2.6]
+
+Ostatni wyraz w równaniu (II.2.6) może być interpretowany jako siła wywierana na układ przez substancję (spaliny), która z niego wylatuje. W przypadku rakiety (samolotu) nosi ona nazwę siły ciągu.
+
+{OPENAGHEXAMPLE(name="Samolot odrzutowy")}
+
+Samolot odrzutowy leci z prędkością 250 m/s i z taką prędkością jest wciągane do jego silnika powietrze. W każdej sekundzie silnik samolotu spala mieszankę paliwową składającą się z 75 kg powietrza i 3 kg paliwa, a prędkość wyrzucania spalin wynosi 500 m/s. 
+
+Siłę ciągu obliczamy zgodnie ze wzorem (II.2.6) przy czym prędkość względna jest równa różnicy prędkości wyrzucania spalin i wciągania powietrza {OPENAGHMATHJAX()}v_{wzg}{OPENAGHMATHJAX} = 250 m/s, a masa spalin wyrzucanych w jednostce czasu wynosi 78 kg/s. Stąd otrzymujemy siłę ciągu równą 1.95·10{OPENAGHMATHJAX()}^{4}{OPENAGHMATHJAX} N.
+{OPENAGHEXAMPLE}
+
+
+Jeżeli ruch rakiety odbywa się w przestrzeni kosmicznej to siły zewnętrzne {OPENAGHMATHJAX()}{\bf F}_{zew}{OPENAGHMATHJAX} są do zaniedbania i wtedy zmiana pędu rakiety jest równa sile ciągu (jest spełniona zasada zachowania pędu). Natomiast gdy ruch odbywa się w pobliżu Ziemi (np. tuż po starcie) to wówczas {OPENAGHMATHJAX()}{\bf F}_{zew}{OPENAGHMATHJAX} reprezentuje ciężar rakiety i siłę oporu atmosfery i trzeba ją uwzględnić. Konstruktorzy rakiet starają się uzyskać jak największą siłę ciągu aby przezwyciężyć {OPENAGHMATHJAX()}{\bf F}_{zew}{OPENAGHMATHJAX}. Na przykład rakieta Saturn 5, o masie ponad 3000 ton, wytwarzała przy starcie siłę ciągu 40 MN.
+

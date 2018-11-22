@@ -1,0 +1,52 @@
+{OPENAGHANNOTATION( name="")}
+Od tego momentu będziemy się zajmować się funkcjami rzeczywistymi zmiennej rzeczywistej, czyli zgodnie z definicją 2 (z modułu "Pojęcie funkcji. Dziedzina i przeciwdziedzina") takimi, dla których zbiory {OPENAGHMATHJAX()}X{OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX} są podzbiorami zbioru liczb rzeczywistych.{OPENAGHANNOTATION}
+ 
+
+{OPENAGHDEFINITION( name="Wykres funkcji")}
+
+Wykres funkcji {OPENAGHMATHJAX()}f:X \to Y{OPENAGHMATHJAX} jest to zbiór par uporządkowanych
+
+{OPENAGHMATHJAX()}\{(x,y):x\in X, y\in Y, y=f(x)\}{OPENAGHMATHJAX} {OPENAGHDEFINITION}{img type="fileId" fileId="115"}
+
+{OPENAGHANNOTATION( name="")}
+Na płaszczyźnie kartezjańskiej z przyjętym układem współrzędnych {OPENAGHMATHJAX()}x0y{OPENAGHMATHJAX} dziedzina funkcji leży na osi {OPENAGHMATHJAX()}0x{OPENAGHMATHJAX}. Jest ona rzutem prostokątnym wykresu na tę oś. Podobnie, rzutując wykres na oś {OPENAGHMATHJAX()}0y{OPENAGHMATHJAX} otrzymujemy zbiór wartości funkcji.{OPENAGHANNOTATION}
+{OPENAGHANNOTATION( name="")}Własność prawostronnej jednoznaczności geometrycznie oznacza, że każda prosta równoległa do osi {OPENAGHMATHJAX()}0 { \vec  {y}}{OPENAGHMATHJAX} (prosta „pionowa” o równaniu {OPENAGHMATHJAX()}x=\textrm{const}{OPENAGHMATHJAX}, gdzie {OPENAGHMATHJAX()}const{OPENAGHMATHJAX} jest skrótem od słowa constans, stała) może przeciąć wykres funkcji, co najwyżej w jednym punkcie. Daje to nam łatwe kryterium rozstrzygające, czy dany zbiór przedstawiony w układzie współrzędnych jest wykresem pewnej funkcji.{OPENAGHANNOTATION}
+
+{OPENAGHEXAMPLE( name="")}Stwierdzimy, które z naszkicowanych zbiorów są wykresami funkcji zmiennej {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}.
+
+{img type="fileId" fileId="116"}
+ 
+
+__Rozwiązanie__
+Zbiory {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}C{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}D{OPENAGHMATHJAX} nie przedstawiają wykresów funkcji, gdyż znajdziemy takie proste pionowe, które mają z nimi więcej niż po jednym punkcie wspólnym. W przypadku {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}C{OPENAGHMATHJAX} są to dwa punkty, a w przypadku {OPENAGHMATHJAX()}D{OPENAGHMATHJAX} aż nieskończenie wiele.
+
+{img type="fileId" fileId="117"}
+ 
+Pozostałe wykresy: {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} są wykresami pewnych funkcji zmiennej {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}.
+{OPENAGHEXAMPLE}
+
+{openaghexercise name="" body="Korzystając z podanych wykresów, wyznacz dziedziny oraz zbiory wartości następujących funkcji. 
+{img type="fileId" fileId="118"}"  solution="Rzutując wykres funkcji {OPENAGHMATHJAX()}f_1{OPENAGHMATHJAX} na oś {OPENAGHMATHJAX()}0 { \vec  {x}}{OPENAGHMATHJAX} otrzymujemy jej dziedzinę utworzoną tu z jedynie czterech liczb naturalnych. Mamy, więc {OPENAGHMATHJAX()}D_{f_1}=\{2,3,5,7\}{OPENAGHMATHJAX}.
+
+Zbiór wartości {OPENAGHMATHJAX()}\{1,2,4,7\}{OPENAGHMATHJAX} odczytujemy po zrzutowaniu wykresu na oś {OPENAGHMATHJAX()}0 { \vec  {y}}{OPENAGHMATHJAX}.
+
+Podobnie postępując określamy dziedziny pozostałych funkcji. I tak, {OPENAGHMATHJAX()}D_{f_2}{OPENAGHMATHJAX} jest przedziałem obustronnie otwartym __{OPENAGHMATHJAX()}(0,+\infty){OPENAGHMATHJAX}__, a jej zbiór wartości {OPENAGHMATHJAX()}R_{f_2}{OPENAGHMATHJAX} jest to cały zbiór liczb rzeczywistych {OPENAGHMATHJAX()}\mathbb R{OPENAGHMATHJAX}. 
+
+{OPENAGHMATHJAX()}D_{f_3}{OPENAGHMATHJAX} jest przedziałem lewostronnie otwartym __{OPENAGHMATHJAX()}(-1,2]{OPENAGHMATHJAX}__, a jej zbiór wartości {OPENAGHMATHJAX()}R_{f_3}{OPENAGHMATHJAX}jest sumą dwóch przedziałów __{OPENAGHMATHJAX()}[-2,-1){OPENAGHMATHJAX}__ oraz {OPENAGHMATHJAX()}[1,2]{OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX()}D_{f_4}{OPENAGHMATHJAX} jest sumą przedziałów __{OPENAGHMATHJAX()}(-\infty,5){OPENAGHMATHJAX}__ oraz __{OPENAGHMATHJAX()}(6,+\infty){OPENAGHMATHJAX}__, a przeciwdziedziną {OPENAGHMATHJAX()}f_4{OPENAGHMATHJAX} jest cały zbiór liczb rzeczywistych {OPENAGHMATHJAX()}\mathbb R{OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX()}D_{f_5}{OPENAGHMATHJAX}jest zbiorem liczb rzeczywistych {OPENAGHMATHJAX()}\mathbb R{OPENAGHMATHJAX}, a {OPENAGHMATHJAX()}R_{f_5}{OPENAGHMATHJAX} jest sumą przedziału otwartego __{OPENAGHMATHJAX()}(-\infty, 2){OPENAGHMATHJAX}__ i zbioru jednoelementowego {OPENAGHMATHJAX()}\{3\}{OPENAGHMATHJAX}." anchor="Tu wpisz etykietę"}
+
+
+{openaghexercise name="" body="Student uprawiający jogging naszkicował wykres funkcji przedstawiającej jak zmieniała się jego odległość od akademika podczas pewnego treningu. {img type="fileId" fileId="119"} Odpowiedzmy na poniższe pytania:
+
+#Po ilu minutach rozgrzewki student zaczął biec zdecydowanie szybciej i jak długo utrzymywał to większe tempo?
+#Kiedy zaczął zawracać?
+#Gdzie był po 45 minutach treningu?
+#Kiedy i na jak długo zatrzymał się?" solution="Analizując wykres łatwo możemy stwierdzić, że po 20 minutach student przyśpieszył, po pół godzinie (dalej utrzymując to większe tempo) zawrócił, by po 45 minutach znaleźć się przy akademiku. Drugą, krótszą pętlę trasy biegł znacznie wolniej. Po godzinie od początku treningu zatrzymał się na 10 minut, a następnie wrócił do akademika w równym) wolniejszym tempie." anchor="Tu wpisz etykietę"}
+
+
+{OPENAGHANNOTATION( name="")}Ten elementarny przykład uświadamia nam jak wiele różnorodnych informacji związanych ze zjawiskami opisywanymi przez funkcję możemy odczytać z jej wykresu. Dlatego tez należy zapoznać się z wykresami pewnych typowych funkcji elementarnych i zapamiętać ich kształt. {OPENAGHANNOTATION}
+ 
+  

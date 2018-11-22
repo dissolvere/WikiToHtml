@@ -1,0 +1,84 @@
+ 
+
+{OPENAGHDEFINITION( name=" (suriekcja, czyli funkcja „na”)")}
+Mówimy, że {OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX} jest __suriekcją__, (czyli __funkcją „na”__) wtedy i tylko wtedy, gdy jej zbiór wartości jest równy zbiorowi końcowemu {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX}.
+Zapisujemy wówczas __{OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX}__  co odczytujemy: __funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} prowadzi ze zbioru {OPENAGHMATHJAX()}X {OPENAGHMATHJAX}na zbiór {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX}__.{OPENAGHDEFINITION}
+ 
+
+{OPENAGHANNOTATION( name="")}
+Wiemy, że geometrycznie zbiór wartości funkcji jest rzutem prostopadłym wykresu na oś {OPENAGHMATHJAX()}0\vec y{OPENAGHMATHJAX} (uwaga F6). Stąd {OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX} jest suriekcją, gdy rzut jej wykresu na oś {OPENAGHMATHJAX()}0\vec y{OPENAGHMATHJAX} pokrywa się ze zbiorem {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX}.{OPENAGHANNOTATION}
+ 
+
+{img type="fileId" fileId="145"}
+
+Rys. F15 {OPENAGHMATHJAX()}f_1{OPENAGHMATHJAX} suriekcja {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX}
+
+
+{img type="fileId" fileId="146"}
+
+Rys. F16 {OPENAGHMATHJAX()}f_2:X\to Y{OPENAGHMATHJAX} nie jest suriekcją
+
+{OPENAGHEXAMPLE( name="")}
+Niech {OPENAGHMATHJAX()}X=R{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}Y=(-\infty,3]{OPENAGHMATHJAX}. Zbadamy, czy {OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}f(x)=2-\vert x\vert{OPENAGHMATHJAX} jest suriekcją.{OPENAGHEXAMPLE}
+
+__Rozwiązanie__
+Szkicujemy wykres {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}.
+
+
+{img type="fileId" fileId="147"}
+
+Rys. F17
+
+Z wykresu odczytujemy, że zbiór wartości funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} (rzut jej wykresu na oś {OPENAGHMATHJAX()}0\vec y{OPENAGHMATHJAX}) to przedział {OPENAGHMATHJAX()}(-\infty,2]{OPENAGHMATHJAX}, który jest silnie zawarty w zbiorze {OPENAGHMATHJAX()}(-\infty,3]{OPENAGHMATHJAX}, zatem {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} nie jest suriekcją.
+
+{OPENAGHEXAMPLE( name="")}
+Niech {OPENAGHMATHJAX()}X=R{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}Y=(0,\infty){OPENAGHMATHJAX}. Zbadamy czy {OPENAGHMATHJAX()}f:X\toY{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}f(x)=3^{x+5}{OPENAGHMATHJAX} jest suriekcją{OPENAGHEXAMPLE}
+.
+
+__Rozwiązanie__
+Wykres funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} powstaje poprzez przesunięcie „w poziomie” o wektor {OPENAGHMATHJAX()}\vec v=[5,0]{OPENAGHMATHJAX} wykresu funkcji wykładniczej {OPENAGHMATHJAX()}x\to 3^x{OPENAGHMATHJAX}, więc rzuty prostopadłe na oś {OPENAGHMATHJAX()}0\vec y{OPENAGHMATHJAX} obu wykresów są identyczne. Obie funkcje mają te same zbiory wartości. Wiedząc, że zbiór wartości funkcji wykładniczej {OPENAGHMATHJAX()}x\to 3^x{OPENAGHMATHJAX} jest przedziałem {OPENAGHMATHJAX()}(0,\infty){OPENAGHMATHJAX} równym całemu zbiorowi {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX} i na tej podstawie wnioskujemy, że {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest suriekcją.
+
+__Spostrzeżenie. F1__
+Własność suriektywności zależy od tego, jaki zbiór przyjmiemy za zbiór końcowy {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX}. Gdybyśmy w przykładzie F8 jako {OPENAGHMATHJAX()}Y{OPENAGHMATHJAX} wzięli przedział {OPENAGHMATHJAX()}[2,\infty){OPENAGHMATHJAX} funkcja byłaby suriekcją. W szczególności: __każda funkcja może być traktowana jako suriekcja na swój zbiór wartości__.
+
+{OPENAGHDEFINITION( name="(funkcja różnowartościowa, iniekcja)")}
+Mówimy, że {OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX} jest __iniekcją__ (__funkcją różnowartościową__) wtedy i tylko wtedy, gdy dla każdych elementów {OPENAGHMATHJAX()}x_1,x_2\in X{OPENAGHMATHJAX} stąd, że {OPENAGHMATHJAX()}x_1\neq x_2{OPENAGHMATHJAX} wynika, że {OPENAGHMATHJAX()}f(x_1)\neq f(x_2){OPENAGHMATHJAX}
+Interpretacja geometryczna różnowartościowości.{OPENAGHDEFINITION}
+Funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest różnowartościowa gdy dowolna prosta pozioma o równaniu {OPENAGHMATHJAX()}y=\textrm{const}{OPENAGHMATHJAX} przecina wykres {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w co najwyżej jednym punkcie.
+
+
+
+{img type="fileId" fileId="148"}
+
+Rys. F18 Funkcje różnowartościowe. Każda prosta pozioma y=const przecina wykres w co najwyżej jednym punkcie
+
+
+{img type="fileId" fileId="149"}
+
+Rys. F19. Funkcje nieróżnowartościowe. Istnieją proste poziome przecinające wykres w kilku punktach
+
+{OPENAGHEXAMPLE( name="")}Funkcje logarytmiczna, wykładnicza, funkcja potęgowa postaci {OPENAGHMATHJAX()}y=x^n{OPENAGHMATHJAX} dla {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} nieparzystych, są różnowartościowe. Nie są różnowartościowe funkcje trygonometryczne i funkcje potęgowe postaci {OPENAGHMATHJAX()}y=X^n{OPENAGHMATHJAX} dla {OPENAGHMATHJAX()}n{OPENAGHMATHJAX}-nieparzystych.{OPENAGHEXAMPLE}
+
+{openaghtheorem name="(warunek równoważny różnowartościowości)" thesis="Funkcja {OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX} jest funkcją różnowartościowa wtedy i tylko wtedy, gdy dla każdych dwóch elementów {OPENAGHMATHJAX()}x_1,x_2\in X{OPENAGHMATHJAX} zachodzi warunek: stąd, że {OPENAGHMATHJAX()}f(x_1)=f(x_2){OPENAGHMATHJAX} wynika, że {OPENAGHMATHJAX()}x_1=x_2{OPENAGHMATHJAX}."}
+ 
+
+{OPENAGHDEFINITION( name="(funkcji różnowartościowej na zbiorze)")}Mówimy, że __funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}__ jest __różnowartościowa na zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} zawartym w dziedzinie__ wtedy i tylko wtedy, gdy jej restrykcja do zbioru {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} jest funkcja różnowartościową.{OPENAGHDEFINITION}
+
+
+{img type="fileId" fileId="150"}
+
+Rys. F20. Funkcja nieróżnowartościowa, która jest różnowartościowa na zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}.
+
+{OPENAGHEXAMPLE( name="")}Pokażemy, że funkcja {OPENAGHMATHJAX()}y=3^{2x+5}{OPENAGHMATHJAX}  jest różnowartościowa.{OPENAGHEXAMPLE}
+__Rozwiązanie__
+Skorzystamy z twierdzenia 1. Dziedziną naturalną danej funkcji jest zbiór liczb rzeczywistych. Obierzmy dwie takie liczby {OPENAGHMATHJAX()}x_1,x_2\in\mathbb R{OPENAGHMATHJAX} i załóżmy, że {OPENAGHMATHJAX()}f(x_1)=f(x_2){OPENAGHMATHJAX}. Należy pokazać, że {OPENAGHMATHJAX()}x_1=x_2{OPENAGHMATHJAX} .
+Mamy {OPENAGHMATHJAX()}f(x_1)=3^{2x_1+5}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}f(x_2)=3^{2x_2+5}{OPENAGHMATHJAX}.
+Założona równość {OPENAGHMATHJAX()}f(x_1)=f(x_2){OPENAGHMATHJAX} przybiera tu postać {OPENAGHMATHJAX()}3^{2x_1+5}=3^{2x_2+5}{OPENAGHMATHJAX}.
+Logarytmując obie strony (przy podstawie 3) otrzymujemy {OPENAGHMATHJAX()}\log_33^{2x_1+5}=\log_33^{2x_2+5}{OPENAGHMATHJAX}.
+Korzystając z własności logarytmu {OPENAGHMATHJAX()}\log_aa^x=x{OPENAGHMATHJAX} dla {OPENAGHMATHJAX()}a>0{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}a\neq 1{OPENAGHMATHJAX} otrzymujemy
+{OPENAGHMATHJAX()}2x_1+5=2x_2+5{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}2x_1=2x_2{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}x_1=x_2{OPENAGHMATHJAX}.
+
+{OPENAGHDEFINITION( name="(bijekcja)")}Funkcję {OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX}nazywamy bijekcją wtedy i tylko wtedy, gdy jest funkcją różnowartościową oraz „na”, czyli jest zarówno  iniekcją jak i suriekcją jednocześnie.{OPENAGHDEFINITION}{OPENAGHDEFINITION( name="(równość funkcji)")}Mówimy, że __funkcje {OPENAGHMATHJAX()}f {OPENAGHMATHJAX}i {OPENAGHMATHJAX()}g {OPENAGHMATHJAX} są równe__ wtedy i tylko wtedy, gdy maja te same dziedziny oraz dla każdego punktu wspólnej dziedziny mają te same wartości. Możemy to zapisać{OPENAGHMATHJAX()}f=g\Leftrightarrow D_f=D_g{OPENAGHMATHJAX} i dla każdego {OPENAGHMATHJAX()}x\in D_f=D_g{OPENAGHMATHJAX} mamy {OPENAGHMATHJAX()}f(x)=g(x).{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+ 

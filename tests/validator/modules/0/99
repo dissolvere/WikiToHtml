@@ -1,0 +1,53 @@
+
+Rozpatrzmy jeszcze raz ruch ciała pod wpływem stałej, niezrównoważonej siły {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} i obliczmy pracę jaką wykonuje ona na drodze {OPENAGHMATHJAX()}{\bf s}{OPENAGHMATHJAX}. Stałość siły oznacza, że ruch odbywa się ze stałym przyspieszeniem {OPENAGHMATHJAX()}a{OPENAGHMATHJAX}. Zakładamy ponadto, że kierunek siły {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} i przyspieszenia {OPENAGHMATHJAX()}{\bf a}{OPENAGHMATHJAX} pokrywa się z kierunkiem przesunięcia {OPENAGHMATHJAX()}{\bf s}{OPENAGHMATHJAX}. Dla ruchu jednostajnie przyspieszonego możemy napisać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{s=v_{{0}}t+\frac{at^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+[7.6]
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=v_{{0}}+at \Rightarrow a=\frac{v-v_{{0}}}{t}}\end{equation}{OPENAGHMATHJAX}
+[7.7]
+
+co w połączeniu daje
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{s=\frac{v+v_{{0}}}{2}t}\end{equation}{OPENAGHMATHJAX}
+[7.8]
+
+
+Wykonana praca jest równa
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W={\bf F}\cdot {\bf s}=m{\bf a}\;\cdot {\bf s}=m\;\left(\frac{{\bf v}-{\bf v}_{{0}}}{t}\right)\cdot\left(\frac{{\bf v}+{\bf v}_{{0}}}{2}\right)\;t=\frac{\mathit{mv}^{{2}}}{2}-\frac{\mathit{mv}_{{0}}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+[7.9]
+
+{OPENAGHDEFINITION(name="Energia kinetyczna")}Połowę iloczynu masy ciała i kwadratu prędkości nazywamy energią kinetyczną {OPENAGHMATHJAX()}E_{k}{OPENAGHMATHJAX} ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{1}{2}\mathit{mv}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+[7.10]
+{OPENAGHDEFINITION}
+
+
+Na podstawie wzorów (7.8) i (7.9) widzimy, że 
+
+{OPENAGHLAW(name="Zmiana energi kinetycznej")}Praca wykonana przez siłę {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} działającą na ciało o masie m jest równa zmianie energii kinetycznej tego ciała.
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W=E_{{k}}-E_{{\mathit{k0}}}}\end{equation}{OPENAGHMATHJAX}
+[7.11]
+{OPENAGHLAW}
+
+To jest twierdzenie o pracy i energii.
+
+Z tego twierdzenia wynika, że jednostki pracy i energii są takie same.
+
+
+{OPENAGHDEFINITION(name="Jednostki")}
+Jednostką pracy i energii jest w układzie SI dżul (J); 1J = 1N·m. W fizyce atomowej powszechnie używa się jednostki elektronowolt (eV) 1eV {OPENAGHMATHJAX()}=1.6·10^{-19}{OPENAGHMATHJAX}  J.
+{OPENAGHDEFINITION}
+
+
+Spróbuj teraz wykonać proste ćwiczenie.
+
+{openaghexercise name="Energia kinetyczna" body="
+Porównaj energię kinetyczną sprintera o masie 80 kg biegnącego z prędkością 10 m/s z energią kinetyczną pocisku o masie 5 g wylatującego z karabinu z prędkością 800 m/s. Skorzystaj ze wzoru (7.10). Wynik obliczeń zapisz poniżej. Pamiętaj o odpowiednich jednostkach.
+
+ {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{sprintera}={OPENAGHMATHJAX}  
+ {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{pocisku}={OPENAGHMATHJAX}  " }
+

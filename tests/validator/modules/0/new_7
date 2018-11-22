@@ -1,0 +1,55 @@
+Dotychczas zajmowaliśmy się wyłącznie opisem ruch (za pomocą wektorów {OPENAGHMATHJAX()}{\bf r}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX}, oraz {OPENAGHMATHJAX()}{\bf a}{OPENAGHMATHJAX}). Były to rozważania geometryczne. Teraz omówimy przyczyny ruchu, zajmiemy się dynamiką. Nasze rozważania ograniczymy do przypadku ciał poruszających się z małymi (w porównaniu z prędkością światła {OPENAGHMATHJAX()}c{OPENAGHMATHJAX}) prędkościami tzn. zajmujemy się mechaniką klasyczną.
+
+Żeby móc przewidzieć jaki będzie ruch ciała wywołany siłą na nie działającą trzeba wiedzieć jakiego rodzaju jest to siła i skąd się bierze. Dlatego rozpoczniemy nasze rozważania od poznania podstawowych oddziaływań oraz od zdefiniowania masy, pędu i wprowadzenia pojęcia siły {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX}. Następnie poszukamy praw rządzących oddziaływaniami, a w dalszych częściach zajmiemy się poszczególnymi oddziaływaniami występującymi w przyrodzie.
+
+Według naszej dotychczasowejj wiedzy istnieją tylko cztery podstawowe oddziaływania (siły), z których wynikają wszystkie siły i oddziaływania zaobserwowane we Wszechświecie:
+
+*Oddziaływanie grawitacyjne - siła grawitacyjna działa na wszystkie masy (jest siłą powszechną) i pochodzi od mas; ma długi zasięg i najmniejsze względne natężenie
+*Oddziaływanie elektromagnetyczne - siła elektromagnetyczna działa na ładunki i prądy i jej źródłem są ładunki i prądy; ma długi zasięg. Siły międzyatomowe mają charakter elektromagnetyczny ponieważ atomy zawierają naładowane elektrony i protony, a oddziaływania elektromagnetyczne ma wielokrotnie większe natężenie od grawitacyjnego. Większość sił z jakimi spotykamy się na co dzień np. tarcie, siła sprężystości jest wynikiem oddziaływania atomów, są to więc siły elektromagnetyczne
+*Oddziaływanie jądrowe (silne) - siła utrzymująca w całości jądra atomowe pomimo odpychania między protonami (ładunki dodatnie), ma bardzo krótki zasięg i największe względne natężenie
+*Oddziaływanie słabe - temu oddziaływaniu podlegają wszystkie cząstki elementarne, w szczególności oddziaływanie to odpowiada za rozpady cząstek elementarnych.
+
+W tabeli poniżej zestawione są cztery oddziaływania podstawowe.
+
+$$$openaghTableAttributeS$$$anchor="tab:Podst_dyn:1"&caption="Oddziaływania podstawowe. "$$$openaghTableAttributeE$$$
+||Oddziaływanie|Źródło oddziaływania|Względne natężenie|Zasięg
+Grawitacyjne|Masa|{OPENAGHMATHJAX()}10^{-38}{OPENAGHMATHJAX}|Długi
+Elektromagnetyczne|Ładunek elektryczny|{OPENAGHMATHJAX()}10^{-2}{OPENAGHMATHJAX}|Długi
+Jądrowe|min. protony, neutrony|{OPENAGHMATHJAX()}1{OPENAGHMATHJAX}|Krótki (około {OPENAGHMATHJAX()}10^{-15}{OPENAGHMATHJAX}m)
+Słabe|cząstki elementarne|{OPENAGHMATHJAX()}10^{-15}{OPENAGHMATHJAX}|Krótki (około{OPENAGHMATHJAX()}10^{-18}{OPENAGHMATHJAX}m)||
+
+
+
+Nasze rozważania rozpoczynamy od przypisania ciałom masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}. Chcemy w ten sposób opisać fakt, że różne ciała wykonane z tego samego materiału, w tym samym otoczeniu uzyskują pod działaniem tej samej siły różne przyspieszenia (np. pchamy z jednakową siłą dwa rożne pojazdy "lekki" i "ciężki" i uzyskują one różne {OPENAGHMATHJAX()}{\bf a}{OPENAGHMATHJAX}).
+
+Zaproponowana poniżej metoda postępowania jest jednym z równoważnych sposobów definiowania masy. Opiera się ona na porównaniu nieznanej masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} z wzorcem masy {OPENAGHMATHJAX()}m_0=1{OPENAGHMATHJAX} kg. Pomiędzy masami umieszczamy ściśniętą sprężynę i następnie zwalniamy ją. Masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_0{OPENAGHMATHJAX}, które początkowo spoczywały polecą odrzucone w przeciwnych kierunkach odpowiednio z prędkościami {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}v_0{OPENAGHMATHJAX} (((Automatycznie|#fig:Podst_dyn:1))).
+
+{img type="fileId" fileId="352" anchor="fig:Podst_dyn:1" imalign="center"}
+
+Nieznaną masę {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} definiujemy jako
+{OPENAGHDEFINITION( name="Masa")}
+{OPENAGHMATHJAX( type="block" anchor="eq:Podst_dyn:1")}\begin{equation}{m=m_{{0}}\frac{v_{{0}}}{v}}\end{equation}{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+ {OPENAGHDEFINITION( name="Pęd")}Pęd ciała definiujemy jako iloczyn jegomasy i prędkości (wektorowej){OPENAGHMATHJAX( type="block" anchor="eq:Podst_dyn:2")}\begin{equation}{{\bf p}=\mathit{m{\bf v}}}\end{equation}{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+ {OPENAGHDEFINITION( name="Siła")}Jeżeli na ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} działa siła {OPENAGHMATHJAX()}\bf F{OPENAGHMATHJAX}, to definiujemy ją jako zmianę w czasie pędu tego ciała. {OPENAGHMATHJAX( type="block" anchor="eq:Podst_dyn:3")}\begin{equation}{{\bf F}=\frac{\mathit{d{\bf p}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+
+Podstawiając wyrażenie ((Automatycznie|#eq:Podst_dyn:2)) i wykonując różniczkowanie otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}=\frac{d(m{\bf v})}{dt}=\frac{dm}{dt}{\bf v}+m\frac{d{\bf v}}{dt}}\end{equation}{OPENAGHMATHJAX}
+
+a dla ciała o stałej masie {OPENAGHMATHJAX()}m= const{OPENAGHMATHJAX} .
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}=m\frac{\mathit{d{\bf v}}}{\mathit{dt}}=\mathit{m{\bf a}}}\end{equation}{OPENAGHMATHJAX}
+
+Wprowadziliśmy w ten sposób pojęcie siły {OPENAGHMATHJAX()} \bf F {OPENAGHMATHJAX}. Teraz podamy metodę obliczania sił działających na ciała; poznamy prawa rządzące oddziaływaniami.
+
+Na zakończenie tej części zapoznajmy się z jednostkami siły i masy.
+
+{OPENAGHDEFINITION( name="Jednostki")}Jednostką masy w układzie SI jest kilogram (kg), natomiast jednostką siły jest niuton (N); 1N = 1kg·m/s{OPENAGHMATHJAX()}{^2}{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+ 
+{openaghsimulation fileId="1095"}
+
+{openaghsimulation fileId="1091"}
+
+{openaghsimulation fileId="1093"}
+
+

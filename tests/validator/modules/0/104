@@ -1,0 +1,148 @@
+Pokazaliśmy, że gdy na ciało działa tylko siła zachowawcza to dla dowolnej drogi z {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{W=\mathit{\Delta E}_{{k}}=E_{{kB}}-E_{{kA}}}\end{equation}{OPENAGHMATHJAX}
+[8.24]
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{W=-\mathit{\Delta E}_{{p}}=-(E_{{pB}}-E_{{pA}})}\end{equation}{OPENAGHMATHJAX}
+[8.25]
+
+skąd wynika, że
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{-(E_{{pB}}-E_{{pA}})=E_{{kB}}-E_{{kA}}}\end{equation}{OPENAGHMATHJAX}
+[8.26]
+
+lub
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E_{{kA}}+E_{{pA}}=E_{{kB}}+E_{{pB}}}\end{equation}{OPENAGHMATHJAX}
+[8.27]
+
+Równanie (8.27) wyraża zasadę zachowania energii mechanicznej.
+
+{OPENAGHLAW( name="Zasada zachowania energii mechanicznej")}Zasada zachowania energii mechanicznej mówi, że dla ciała podlegającego działaniu siły zachowawczej, suma energii kinetycznej i potencjalnej jest stała.{OPENAGHLAW}
+
+Podaliśmy zasadę zachowania energii mechanicznej dla pojedynczego ciała, ale ta zasada jest bardziej ogólna i obowiązuje dla wszystkich odosobnionych układów ciał. Układy odosobnione to takie, na które nie działają siły zewnętrzne (spoza układu). W takich układach suma energii kinetycznych i potencjalnych wszystkich ciał pozostaje stała bez względu na oddziaływania w nich zachodzące.
+
+Przykład
+
+Skoczek na linie "bungee" skacze z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i osiąga najniższy punkt {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} tak jak na rysunku obok. Skoczek korzysta z liny o długości l, która rozciąga się sprężyście ( {OPENAGHMATHJAX()}F =-kx{OPENAGHMATHJAX}), aż do zerwania, co następuje gdy lina wydłuży się o {OPENAGHMATHJAX()}x=50\%{OPENAGHMATHJAX} w stosunku do długości początkowej. Ile razy wytrzymałość liny na zerwanie musi być większa niż ciężar skoczka,żeby lina nie urwała się?
+
+{img fileId="429"}
+W punkcie {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} grawitacyjna energia potencjalna skoczka liczona względem powierzchni Ziemi wynosi{OPENAGHMATHJAX()}mgh{OPENAGHMATHJAX} (masę liny pomijamy) natomiast energia potencjalnasprężystości liny równa się zeru bo lina nie jest rozciągnięta.Całkowita energia mechaniczna układu w punkcie {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} wynosi więc {OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E_{{A}}=mgh}\end{equation}{OPENAGHMATHJAX}
+
+Natomiast energia całkowita układu w punkcie {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} {OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E_{{B}}=mg(h-l-x)+\frac{kx^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+jest sumą grawitacyjnej energii potencjalnej skoczka i energii potencjalnej sprężystości rozciągniętej liny równanie (8.14).
+
+Ponieważ siły grawitacji i sprężystości są siłami zachowawczymi więc energia mechaniczna jest zachowana. Uwzględniając, że energia kinetyczna skoczka w punktach {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} jest równa zeru otrzymujemy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{mgh=mg(h-l-x)+\frac{kx^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+lub
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\frac{kx^{{2}}}{2}-mgl-mgx=0}\end{equation}{OPENAGHMATHJAX}
+
+Wstawiając do tego równania maksymalne możliwe wydłużenie liny {OPENAGHMATHJAX()} x=0.5{OPENAGHMATHJAX}   możemy obliczyć graniczny współczynnik {OPENAGHMATHJAX()}k{OPENAGHMATHJAX} liny
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{k=\frac{\text{12}mg}{l}}\end{equation}{OPENAGHMATHJAX}
+
+skąd otrzymujemy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{F=kx=\frac{\text{12}mg}{l}\frac{l}{2}=6mg}\end{equation}{OPENAGHMATHJAX}
+
+Wytrzymałość liny na zerwanie musi być co najmniej 6 razy większa niż ciężar skoczka.
+
+Teraz spróbujemy odpowiedzieć na pytanie czy energia jest zachowana w przypadku gdy w układzie działa siła niezachowawcza. Jeżeli oprócz siły zachowawczej {OPENAGHMATHJAX()}F_z{OPENAGHMATHJAX} działa jeszcze siła niezachowawcza {OPENAGHMATHJAX()}F_{nz}{OPENAGHMATHJAX} (np. tarcie) to z twierdzenia o pracy i energii otrzymujemy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{W_{{z}}+W_{{nz}}=\mathit{\Delta E}_{{k}}}\end{equation}{OPENAGHMATHJAX}
+[8.28]
+
+a ponieważ {OPENAGHMATHJAX()}{W_{{z}}=-\mathit{\Delta E}_{{p}}}{OPENAGHMATHJAX} to
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{W_{{nz}}=\mathit{\Delta E}_{{k}}+\mathit{\Delta E}_{{p}}}\end{equation}{OPENAGHMATHJAX}
+[8.29]
+
+Widzimy, że siła tarcia zmienia energię mechaniczną układu (zmniejsza ją bo tarcie jest siłą rozpraszającą). Pozostaje wyjaśnić co stało się ze "straconą" energią mechaniczną. Okazuje się, że zostaje ona przekształcona na energię wewnętrzną {OPENAGHMATHJAX()}U{OPENAGHMATHJAX}, która objawia się wzrostem temperatury ciała i otoczenia. Zmiana energii wewnętrznej {OPENAGHMATHJAX()}\Delta U{OPENAGHMATHJAX} jest równa rozproszonej energii mechanicznej
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\mathit{\Delta E}_{{k}}+\mathit{\Delta E}_{{p}}+\mathit{\Delta U}=0}\end{equation}{OPENAGHMATHJAX}
+[8.30]
+
+Z równania (8.30) wynika, że
+
+{OPENAGHLAW( name="Zasada zachowania energii")}Energia całkowita, tj. suma energii kinetycznej, energii potencjalnej i energii wewnętrznej w układzie odosobnionym nie zmienia się. Mamy więc zasadę zachowania energii całkowitej. Inaczej mówiąc energia może być przekształcana z jednej formy w inną, ale nie może być wytwarzana ani niszczona; energia całkowita jest wielkością stałą.{OPENAGHLAW}
+
+Na zakończenie uwzględnijmy jeszcze dodatkowo siłę {OPENAGHMATHJAX()}F_{zew}{OPENAGHMATHJAX} wywieraną na układ przez czynnik zewnętrzny. Jeżeli działa taka siła to równanie (8.28) przyjmuje postać
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{W_{{\text{zew}}}+W_{{z}}+W_{{nz}}=\mathit{\Delta E}_{{k}}}\end{equation}{OPENAGHMATHJAX}
+[8.31]
+
+i w konsekwencji otrzymujemy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{W_{{\text{zew}}}=\mathit{\Delta E}_{{k}}+\mathit{\Delta E}_{{p}}+\mathit{\Delta U}}\end{equation}{OPENAGHMATHJAX}
+[8.32]
+
+Praca wykonana przez czynnik zewnętrzny równa jest sumie zmian energii kinetycznej, potencjalnej i energii wewnętrznej układu. W ten sposób uwzględniliśmy już całą energię.
+
+Zasada zachowania energii należy do najbardziej podstawowych praw fizyki. Wszystkie nasze doświadczenia pokazują, że jest to prawo bezwzględnie obowiązujące; nie znamy wyjątków od tego prawa.
+
+{openaghexercise name="Odbicia piłki" body="
+
+Piłkę puszczono swobodnie z pewnej wysokości {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} nad podłożem. Podczas odbicia piłka traci 1/3 swojej energii mechanicznej, która zamienia się na energię wewnętrzną. Oblicz na jaką wysokość wzniesie się piłka po 4-tym odbiciu i ile energii mechanicznej zamieniło się w energię wewnętrzną? Wynik zapisz poniżej.
+
+Wskazówka: Skorzystaj z zasady zachowania energii całkowitej.
+
+{OPENAGHMATHJAX()}h{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{4}={OPENAGHMATHJAX}
+
+" solution="
+
+Dane: {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}, strata energii mechanicznej przy odbiciu od podłoża {OPENAGHMATHJAX()}s=1/3{OPENAGHMATHJAX}
+
+Piłka puszczona z wysokości {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} nad podłożem posiada energię potencjalną {OPENAGHMATHJAX()}E_p={OPENAGHMATHJAX}{OPENAGHMATHJAX()}mgh{OPENAGHMATHJAX} (względem podłoża). W trakcie spadania energia potencjalna zamienia się całkowicie w energię kinetyczną. W chwili odbicia {OPENAGHMATHJAX()}s=1/3{OPENAGHMATHJAX}  z energii kinetycznej jest zamieniana na energię wewnętrzną, więc po odbiciu energia kinetyczna (mechaniczna) jest równa {OPENAGHMATHJAX()} q = 1-s=2/3{OPENAGHMATHJAX} energii przed odbiciem.
+
+Oznacza to, że energia potencjalna jaką uzyska ciało przy wznoszeniu będzie równa {OPENAGHMATHJAX()}2/3{OPENAGHMATHJAX} energii początkowej, a tym samym ciało po odbiciu wzniesie się na 2/3 wysokości początkowej. Możemy więc napisać ogólne wyrażenie na wysokość po {OPENAGHMATHJAX()}n{OPENAGHMATHJAX}-tym odbiciu od podłoża
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{h_{{n}}=qh_{{n-1}}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}n=1, 2, 3,....{OPENAGHMATHJAX} Zgodnie z tym oznaczeniem {OPENAGHMATHJAX()}h_0=h{OPENAGHMATHJAX} jest początkową wysokością z jakiej spada ciało. Widzimy, że kolejne wysokości tworzą ciąg geometryczny. Stąd
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{h_{{4}}=hq^{{4}}=h\left(\frac{2}{3}\right)^{{4}}=\frac{\text{16}}{\text{81}}h}\end{equation}{OPENAGHMATHJAX}
+
+Analogicznie energia mechaniczna zamieniona na energię wewnętrzną (podczas 4-ech odbić) wynosi
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\mathit{\Delta E}=mgh-mgh_{{4}}=\frac{\text{65}}{\text{81}}mgh}\end{equation}{OPENAGHMATHJAX}
+"}
+
+Jak widzieliśmy na przykładzie omawianym w ćwiczeniu powyżej, w zderzeniach nie musi być zachowana energia mechaniczna. Okazuje się jednak, że w zderzeniach spełniona jest też inna zasada zachowania; zasada zachowania pędu. ((Zasada zachowania pędu))

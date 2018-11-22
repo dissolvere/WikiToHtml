@@ -1,0 +1,53 @@
+!Maksima i minima
+{OPENAGHDEFINITION()}
+Mówimy, że funkcja \(f\) określona w przedziale \(\mathbb{E}~\subset~\mathbb{R}\) ma maksimum{openaghnote note="Analogicznie określamy minimum"} lokalne w punkcie \(x_{0}~\in~\mathbb{E}\), jeżeli \(\exists_{\delta>0} f(x_0)\ge f(x), x\in(x_0-\delta,x_0+\delta)\)
+Maksimum właściwe (silne), jeżeli \(\forall_{x\in\mathbb{E}} f(x_0)>f(x)\){OPENAGHDEFINITION}{openaghtheorem name="Warunek konieczny istnienia ekstremum" thesis="Jeżeli funkcja \(f\) różniczkowalna w punkcie \(x_0\) ma w tym punkcie ekstremum, to \(f'(x_0)=0\)" proof="Patrz dowód Twierdzenia Fermata."}{openaghtheorem assumptions="Niech funkcja \(f\) będzie ciągła w przedziale \((a,b)\) i różniczkowalna w \((a,x_0)\cup(x_0,b)\)." thesis="Jeżeli pochodna \(f'\) zmienia znak przy przejściu przez punkt \(x_0\), to funkcja \(f\) ma w tym punkcie ekstremum lokalne.Jeżeli \(f\) zmienia znak z "}
+ 
+
+!Inne warunki wystarczające dla istnienia ekstremum
+{openaghtheorem assumptions="Niech funkcja \(f\) ma w pewnym otoczeniu punktu \(x_0\) pochodne ciągłe do drugiego rzędu oraz niech \(f'(x_0)=0\) i \(f''(x_0)\neq 0\)." thesis="Wtedy funkcja \(f\) ma w punkcie \(x_0\):(1) maksimum, gdy \(f''(x_0)<0\)(2) minimum, gdy \(f''(x_0)>0\)." proof="Stosując wzór Taylora otrzymujemy:\(f(x)=f(x_0) + f'(x_0)(x-x_0)+\frac{1}{2}f''(\xi)(x-x_0)^2\), gdzie \(\xi\) leży między punktami \(x\) i \(x_0\).Stąd: \(f(x)-f(x_0)=\frac{1}{2}f' '(\xi)(x-x_0)^2\). Z założeń otrzymujemy, że \(f' '\) jest ciągła w pewnym otoczeniu punktu \(x_0\), zatem dla tego otoczenia zachowuje ona znak \(f' '(x_0)\).Stąd dla pewnego otoczenia punktu \(x_0\):\(f (x) < f (x_0)\), gdy \(f' ' (\xi) < 0\) oraz \(f (x) > f (x_0)\), gdy \(f' '(\xi)>0\)."}{openaghtheorem assumptions="Niech \(f \in C^n (U (x_0,\delta) ) \) i \(f^{(k)} (x_0) = 0,~k=1,2,\dots,n-1\) oraz niech \(f^{(n)} (x_0) = 0\)." thesis="Wtedy funkcja \(f\) ma w punkcie \(x_0\):(1) maksimum, gdy \(f^{(n)}(x_0)<0\)(2) minimum, gdy \(f^{(n)}(x_0)>0\)o ile \(n\) jest liczbą parzystą." proof="Z założenia otrzymujemy, że \(f^{(k)} (x_0)=0,~k=1,2,\dots,n-1\).Stosując wzór Taylora otrzymujemy, że \(f(x)-f(x_0)=\frac{(x-x_0)^n}{n!} f^{(n)} (\xi)\).Dla 2 \(\mid n\) podobnie jak w dowodzie twierdzenia wcześniejszego mamy ekstremum, natomiast dla 2 \(\mid n~R_n\) zmienia znak i funkcja nie osiąga ekstremum."}
+ 
+
+!Wypukłość i punkty przegięcia
+{OPENAGHDEFINITION()}
+Niech funkcja \(f\) będzie określona w przedziale \(\mathbb{E} \subset \mathbb{R}\).
+Mówimy, że funkcja \(f\) jest:
+Wypukła{openaghnote note="Analogicznie wklęsła"} w przedziale \(\mathbb{E}\), jeżeli: \(\forall_{x_1,x_2 \in \mathbb{E}} \forall_{t\in(0,1)}~tf(x_1)+(1-t)f(x_2) \ge f(tx_1+(1-t)x_2)\)
+Silnie wypukła w przedziale \(\mathbb{E}\), jeżeli: \(\forall_{x_1,x_2 \in \mathbb{E}} \forall_{t\in(0,1)}~tf(x_1)+(1-t)f(x_2) > f(tx_1+(1-t)x_2)\){OPENAGHDEFINITION}{OPENAGHDEFINITION()}Zbiór \(\mathbb{E} \subset \mathbb{R}^2\) nazywamy wypukłym, jeżeli odcinek łączący dwa dowolne punkty tego zbioru zawiera się w tym zbiorze.{OPENAGHDEFINITION}{openaghtheorem thesis="Funkcja \(f\) wypukła (wklęsła) w przedziale \((a,b)\) jest w nim ciągła." proof="Zauważmy, że jeżeli funkcja \(f\) jest wypukła, to jej ilorazy różnicowe są rosnące, czyli:\( \forall_{a < c < c'~~d' < d < b} \forall_{x , y \in < c , d > } \frac{f(c')-f(c)}{c'-c} \le \frac{f(x)-f(y)}{x-y} \le \frac{f(d')-f(d)}{d'-d}\).Stąd:\(f(y)+\frac{f(c')-f(c)}{c'-c}(x-y) \le f(x) \le \frac{f(d')-f(d)}{d'-d}(x-y)\). Przechodząc do granicy przy \(x\to y\) otrzymujemy \(lim_{x\to y}f(x)=f(y)\), co dowodzi ciągłości funkcji.{openaghnote note=\\"Zauważmy, że skoro ilorazy różnicowe funkcji \(f\) wypukłej są rosnące, a zatem także ograniczone, to funkcja \(f\) wypukła spełnia warunek Lipschitza, zatem jest ciągła.\\"}"}{openaghtheorem assumptions="Niech funkcja \(f\) będzie różniczkowalna w przedziale \((a,b)\)." thesis="Wtedy funkcja \(f\) jest wypukła (wklęsła) w \((a,b) \Longleftrightarrow f'\) rosnąca (malejąca) w \((a,b)\)." proof="Zauważmy, że jeżeli funkcja \(f\) jest wypukła w przedziale \(< a , b >\), to zachodzi \((*)\) \(\forall_{a < x_1 < x < x_2 < b} \frac{f(x)-f(x_1)}{x-x_1} \le \frac{f(x_2)-f(x)}{x_2-x}\)\(\Rightarrow\)Niech \( x_1 < x < x_2 \). Wtedy na podstawie \((*)\) mamy: \(\frac{f(x)-f(x_1)}{x-x_1} \le \frac{f(x_2)-f(x)}{x_2-x}\)Stąd przechodząc do odpowiednich granic uzyskujemy \(f'(x_1) < f'(x_2)\)\(\Leftarrow\)Niech \(f'\) rosnąca. Przeprowadzimy ciąg równoważności:\(f\) - wypukła \(\Longleftrightarrow \forall_{a < x_1 < x < x_2 < b} f'(\xi) = \frac{f(x)-f(x_1)}{x-x_1} \le \frac{f(x_2)-f(x)}{x_2-x} = f'(\eta)\), gdzie \( x_1 < \xi < x < \eta < x_2 \Longleftrightarrow f'(\xi) < f'(\eta) \), co jest nierównością prawdziwą."}{OPENAGHDEFINITION()}
+Niech \(f \in \mathbb{C}(\mathbb{E}\subset\mathbb{R})\)
+Mówimy, że funkcja \(f\) ma punkt przegięcia w punkcie \(x_0 \in \mathbb{E}\), jeżeli przy przejściu przez ten punkt funkcja zmienia rodzaj silnej wypukłości.{OPENAGHDEFINITION}{openaghtheorem assumptions="Niech \( f \in \mathbb{C}( ( a , b ) ) \) i \(f' \in \mathbb{C}( ( a , x_0 ) \cup ( x_0 , b ) ) \) i \( x_0 \in ( a , b ) \). " thesis="(1) Jeżeli funkcja \(f\) ma punkt przegięcia w punkcie \(x_0\) i istnieje \(f' '(x_0)\), to \(f' '(x_0)=0\)(2) Jeżeli \(f' '\) zmienia znak przy przejściu przez punkt \(x_0\), to punkt ten jest punktem przegięcia funkcji \(f\)." proof="Wynika wprost z twierdzeń 1, 2 i 6."}
+
+{OPENAGHCONCLUSION()}Jeżeli funkcja \(f\) jest wypukła w przedziale \( ( a , b ) \) i różniczkowalna w \(x_0 \in ( a , b ) \), to \(f(x) \ge f(x_0) + f'(x_0)(x-x_0)\){OPENAGHCONCLUSION} 
+
+{OPENAGHCONCLUSION()}Jeżeli \(f \in \mathbb{C}^2 ( ( a , b ) ) \), to:(1) \(f\) wypukła \(\Longleftrightarrow f' '(x) \ge 0\) w \( (a,b)\)(2) \(f\) silnie wypukła \(\Longleftrightarrow f' '(x) > 0\) w \( (a,b)\){OPENAGHCONCLUSION}
+ 
+
+{OPENAGHCONCLUSION()}\(f\) wypukła \(\Longleftrightarrow f'\) rosnąca \(\Longleftrightarrow f' ' \le 0\)\(f\) silnie wypukła \(\Longleftrightarrow f'\) silnie rosnąca \(\Longleftrightarrow f' ' > 0\){OPENAGHCONCLUSION}
+
+{OPENAGHANNOTATION()}Analogicznie wnioskujemy dla funkcji wklęsłej.{OPENAGHANNOTATION} 
+
+ 
+
+!Badanie funkcji określonej wzorem
+#Wyznaczamy:
+**Dziedzinę,
+**Punkty nieciągłości,
+**Przedziały ciągłości,
+**Granice na końcach przedziałów określoności,
+**Różniczkowalność.
+#Sprawdzamy, czy funkcja jest:
+**Parzysta,
+**Nieparzysta,
+**Okresowa.
+#Wyznaczamy punkty, w których \(f(x)=0\), a także przedziały, gdzie \(f(x) > 0\) oraz \(f(x) < 0\).
+#Wyznaczamy:
+**Przedziały monotoniczności,
+**Ekstrema,
+**Wartości, jakie funkcja osiąga w ekstremach.
+#Wyznaczamy:
+**Przedziały wypukłości,
+**Punkty przegięcia,
+**Wartości, jakie funkcja osiąga w punktach przegięcia.
+#Wyznaczamy asymptoty.
+#Szkicujemy wykres badanej funkcji.
+ 

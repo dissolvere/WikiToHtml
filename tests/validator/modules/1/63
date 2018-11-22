@@ -1,0 +1,43 @@
+ 
+
+Rozważać będziemy ciało poruszające się ze stałą prędkością po okręgu o promieniu {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} pokazane na rysunku poniżej. Punkt materialny poruszający się jednostajnie po okręgu znajduje się w punkcie {OPENAGHMATHJAX()}P{OPENAGHMATHJAX} w chwili {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}, a w punkcie {OPENAGHMATHJAX()}P'{OPENAGHMATHJAX} w chwili {OPENAGHMATHJAX()}t+\Delta t{OPENAGHMATHJAX}. Wektory prędkości {OPENAGHMATHJAX()}{\bf v},{\bf v}'{OPENAGHMATHJAX} mają jednakowe długości, ale różnią się kierunkiem; pamiętajmy, że wektor prędkości jest zawsze styczny do toru. Chcąc znaleźć przyspieszenie musimy wyznaczyć różnicę prędkości {OPENAGHMATHJAX()}{\bf v } {OPENAGHMATHJAX} i {OPENAGHMATHJAX()} {\bf v }'{OPENAGHMATHJAX}.
+{img fileId="
+368
+"}
+Rys. 3.4. Ruch jednostajny po okręgu
+
+W tym celu przerysowujemy wektor {OPENAGHMATHJAX()}{\bf v'}{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}P{OPENAGHMATHJAX} i wyznaczamy różnicę {OPENAGHMATHJAX()}\Delta {\bf v} {OPENAGHMATHJAX}. Zauważmy, że kąt pomiędzy wektorami {OPENAGHMATHJAX()}{\bf v } {OPENAGHMATHJAX} i {OPENAGHMATHJAX()} {\bf v }'{OPENAGHMATHJAX} jest równy kątowi {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} więc korzystając z podobieństwa trójkątów możemy zapisać równość
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{\Delta v}}{v}=\frac{l}{r}}\end{equation}{OPENAGHMATHJAX}
+[3.12]
+
+gdzie l jest długością odcinka {OPENAGHMATHJAX()}PP'{OPENAGHMATHJAX}, a dla małych wartości {OPENAGHMATHJAX()}l{OPENAGHMATHJAX} długością łuku {OPENAGHMATHJAX()}PP'{OPENAGHMATHJAX}.
+Ponieważ {OPENAGHMATHJAX()}l = v \Delta t {OPENAGHMATHJAX} więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{\Delta v}=\frac{v^{{2}}\mathit{\Delta t}}{r}}\end{equation}{OPENAGHMATHJAX}
+[3.13]
+
+Znając już {OPENAGHMATHJAX()}\Delta v{OPENAGHMATHJAX} możemy obliczyć przyspieszenie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{n}}=a_{{r}}=\frac{\mathit{\Delta v}}{\mathit{\Delta t}}=\frac{v^{{2}}}{r}}\end{equation}{OPENAGHMATHJAX}
+[3.14]
+
+Jak widać na rysunku 3.4, wektor {OPENAGHMATHJAX()}\Delta {\bf v} {OPENAGHMATHJAX} jest prostopadły do toru to znaczy pokrywa się z kierunkiem promienia i jest zwrócony do środka okręgu. Oznacza to, że i wektor przyspieszenia ma taki sam kierunek i zwrot (rysunek-animacja 3.5). W ruchu po okręgu przyspieszenie to nazywamy {przyspieszeniem dośrodkowym} (jest zwrócone do środka okręgu), a dla ruchu po dowolnej krzywej przyspieszeniem normalnym {OPENAGHMATHJAX()}a_{n}{OPENAGHMATHJAX} (jest prostopadłe do toru) lub radialnym {OPENAGHMATHJAX()}a_{r}{OPENAGHMATHJAX} (jest skierowane wzdłuż promienia).
+
+Przyspieszenie normalne jest związane ze zmianą kierunku prędkości, a przyspieszenie styczne za zmianę jej wartości.
+
+ {img fileId="350"}
+Rys. 3.5. Prędkość i przyspieszenie w ruch jednostajny po okręgu
+
+Przyspieszenie dośrodkowe często wyraża się poprzez okres {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} czyli czas, w którym punkt materialny wykonuje pełen obieg okręgu. Ponieważ
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\frac{2\mathit{\pi R}}{T}}\end{equation}{OPENAGHMATHJAX}
+[3.15]
+
+więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{r}}=\frac{4\pi ^{{2}}R}{T^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[3.16]
+
+{openaghexercise name="Przyspieszenie normalne" body=" Korzystając z powyższego wyrażenia spróbuj obliczyć jakiego przyspieszenia, wynikającego z obrotu Ziemi, doznaje ciało będące na równiku? Załóż, że Ziemia jest kulą o promieniu R{OPENAGHMATHJAX()}_{Z}= 6370{OPENAGHMATHJAX}  km. Jak duże jest to przyspieszenie w porównaniu do przyspieszenia grawitacyjnego {OPENAGHMATHJAX()}g = 9.81{OPENAGHMATHJAX} m/s{OPENAGHMATHJAX()}^{2 }{OPENAGHMATHJAX}? {OPENAGHMATHJAX()}a_{n}{OPENAGHMATHJAX} = " solution="Dane:{OPENAGHMATHJAX()}R_{Z}= 6370{OPENAGHMATHJAX}  km,{OPENAGHMATHJAX()}g= 9.81{OPENAGHMATHJAX} m/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} ,{OPENAGHMATHJAX()}T= 24{OPENAGHMATHJAX}  h {OPENAGHMATHJAX()}= 8.64·10^{4}{OPENAGHMATHJAX} s Podstawiając te dane do równania (3.16){OPENAGHMATHJAX()}{a_{{n}}=\frac{4\pi^{{2}}R}{T^{{2}}}}{OPENAGHMATHJAX}otrzymujemy a{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} = 0.0034 m/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} co stanowi 0.35 {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}."}
+

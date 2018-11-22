@@ -1,0 +1,71 @@
+Siłę wzajemnego oddziaływania dwóch naładowanych punktów materialnych (ładunków punktowych) znajdujących się w odległości {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} od siebie w próżni opisuje prawo Coulomba.
+
+{OPENAGHLAW( name="Prawo Coulomba")}
+Każde dwa ładunki punktowe {OPENAGHMATHJAX()}q_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}q_{2}{OPENAGHMATHJAX} oddziaływają wzajemnie siłą wprost proporcjonalną do iloczynu tych ładunków, a odwrotnie proporcjonalną do kwadratu odległości między nimi.
+
+{OPENAGHMATHJAX(type="block" anchor="r17.1")}\begin{equation}{F=k\frac{q_{{1}}q_{{2}}}{r^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie stała {OPENAGHMATHJAX()}k=1/4\pi \varepsilon_0{OPENAGHMATHJAX}. Współczynnik {OPENAGHMATHJAX()}\varepsilon_{0} = 8.854·10^{-12}{OPENAGHMATHJAX}C{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/(Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}) nosi nazwę przenikalności elektrycznej próżni. {OPENAGHLAW}
+
+Oddziaływanie ładunków zależy od ośrodka, w jakim znajdują się ładunki. Fakt ten uwzględniamy, wprowadzając stałą materiałową {OPENAGHMATHJAX()}\varepsilon_{r}{OPENAGHMATHJAX}, zwaną względną przenikalnością elektryczną ośrodka tak, że prawo Coulomba przyjmuje postać
+
+{OPENAGHMATHJAX(type="block")}F=\frac{1}{4\pi \varepsilon_0\varepsilon_r}\frac{q_1q_2}{r^2}{OPENAGHMATHJAX}
+
+
+Wartości {OPENAGHMATHJAX()}\varepsilon_{r}{OPENAGHMATHJAX} dla wybranych substancji zestawiono w ((Automatycznie|#tab_1_przenikalnosc|Tabeli 1)).
+
+$$$openaghTableAttributeS$$$anchor="tab_1_przenikalnosc"&caption="Względne przenikalności elektryczne"$$$openaghTableAttributeE$$$
+||ośrodek|{OPENAGHMATHJAX()}\varepsilon_{r}{OPENAGHMATHJAX}
+próżnia|1
+powietrze|1.0006
+parafina|2
+szkło|10
+woda|81||
+
+{openaghexercise name="Stosunek sił elektrostatycznej i grawitacyjnej" body="
+Korzystając z prawa Coulomba, oblicz siłę przyciągania elektrostatycznego pomiędzy elektronem i protonem w atomie wodoru. Przyjmij {OPENAGHMATHJAX()}r = 5·10^{-11} m{OPENAGHMATHJAX} m. Porównaj tę siłę z siłą przyciągania grawitacyjnego między tymi cząstkami. Masa protonu {OPENAGHMATHJAX()}m_p = 1.67·10^{-27}{OPENAGHMATHJAX} kg, a masa elektronu {OPENAGHMATHJAX()}m_{e} = 9.11·10^{-31}{OPENAGHMATHJAX} kg. Stała grawitacyjna {OPENAGHMATHJAX()}G = 6.7·10^{-11}{OPENAGHMATHJAX} Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/kg{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}.
+{OPENAGHMATHJAX()}F_{E}{OPENAGHMATHJAX} =
+
+{OPENAGHMATHJAX()}F_{E}{OPENAGHMATHJAX}/{OPENAGHMATHJAX()}F_{G}{OPENAGHMATHJAX} =
+" solution="
+Dane:
+{OPENAGHMATHJAX()}r= 5·10^{11}{OPENAGHMATHJAX} m,
+{OPENAGHMATHJAX()}m_p = 1.67·10^{27}{OPENAGHMATHJAX} kg,
+{OPENAGHMATHJAX()}m_e = 9.11·10^{31}{OPENAGHMATHJAX} kg,
+{OPENAGHMATHJAX()}G = 6.7·10 ^{11}{OPENAGHMATHJAX}Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/kg{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}, 
+{OPENAGHMATHJAX()}k=1/4\pi \varepsilon_0=8.988·10^{9}{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}e = 1.6·10 ^{19}{OPENAGHMATHJAX} C. 
+
+Siła przyciągania elektrostatycznego pomiędzy elektronem i protonem w atomie wodoru wynosi:
+{OPENAGHMATHJAX(type="block")}{F=k\frac{e^{{2}}}{r^{{2}}}=9\text{.}2\cdot \text{10}^{{-8}}N}{OPENAGHMATHJAX}
+
+a stosunek sił przyciągania grawitacyjnego do elektrostatycznego dla protonu i elektronu w atomie wodoru:
+{OPENAGHMATHJAX(type="block")}{\frac{F_{{E}}}{F_{{G}}}=k\frac{e^{{2}}}{r^{{2}}}\frac{1}{G}\frac{r^{{2}}}{m_{{p}}m_{{e}}}\simeq2\cdot \text{10}^{{\text{39}}}}{OPENAGHMATHJAX}
+
+Siła grawitacyjna jest w tym przypadku całkowicie do zaniedbania. 
+"}
+ 
+
+{openaghexercise name="Zagadka" body="
+Jeżeli rozwiązałeś powyższy przykład, to postaraj się rozwiązać następujący problem. Cała materia składa się z elektronów, protonów i obojętnych elektrycznie neutronów. Jeżeli oddziaływania elektrostatyczne pomiędzy naładowanymi cząstkami (elektronami, protonami) są tyle razy większe od oddziaływań grawitacyjnych, to dlaczego obserwujemy słabą siłę grawitacyjną działająca pomiędzy dużymi ciałami, np. Ziemią i spadającym kamieniem, a nie siłę elektrostatyczną?
+" solution="Ponieważ planety są elektrostatycznie obojętne, czyli posiadają praktycznie taką samą liczbę ładunków ujemnych (elektronów) co dodatnich (protonów)."}
+ 
+
+{OPENAGHLAW( name="Zasada superpozycji")}Gdy mamy do czynienia z kilkoma naładowanymi ciałami, siłę wypadkową, analogicznie jak w przypadku siły grawitacyjnej, obliczamy, dodając wektorowo, poszczególne siły dwuciałowe.{OPENAGHLAW}
+
+{OPENAGHEXAMPLE(name="Dipol")}Dipol elektryczny składa się z dwóch ładunków {OPENAGHMATHJAX()}+Q{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}-Q{OPENAGHMATHJAX} oddalonych od siebie o {OPENAGHMATHJAX()}l{OPENAGHMATHJAX}. Obliczmy siłę, jaka jest wywierana na dodatni ładunek {OPENAGHMATHJAX()}q{OPENAGHMATHJAX} umieszczony na symetralnej dipola, tak jak pokazano na ((Automatycznie|#dipol_elekt)). 
+
+{img type="fileId" fileId="470" anchor="dipol_elekt" imalign="center"}
+
+Z podobieństwa trójkątów wynika, że
+
+{OPENAGHMATHJAX(type="block")}{\frac{F}{F_{{1}}}=\frac{l}{r}}{OPENAGHMATHJAX}
+
+Korzystając z prawa Coulomba, otrzymujemy
+
+{OPENAGHMATHJAX(type="block" anchor="r17.4")}{F=\frac{l}{r}F_{{1}}=\frac{l}{r}\left(k\frac{Qq}{r^{{2}}}\right)=qk\frac{Ql}{r^{{3}}}=qk\frac{p}{r^{{3}}}}{OPENAGHMATHJAX}
+
+gdzie{OPENAGHMATHJAX()}p=Ql{OPENAGHMATHJAX} jest momentem dipolowym.
+
+{OPENAGHEXAMPLE}
+ 

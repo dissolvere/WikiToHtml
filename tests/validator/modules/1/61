@@ -1,0 +1,43 @@
+
+
+Ruch w dwóch wymiarach będziemy opisywać w układzie współrzędnych {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} . Na przykład {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} - wysokość, {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} - odległość w kierunku poziomym. Pokażemy, że taki ruch można traktować jak dwa niezależne ruchy jednowymiarowe. 
+
+!!!!# Przemieszczenie, prędkość i przyspieszenie
+
+Położenie punktu w chwili {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} przedstawia wektor {OPENAGHMATHJAX()}{\bf r}(t){OPENAGHMATHJAX} ; prędkość wektor {OPENAGHMATHJAX()}{\bf v}(t){OPENAGHMATHJAX} , przyspieszenie wektor {OPENAGHMATHJAX()}{\bf a}(t){OPENAGHMATHJAX} . Wektory{OPENAGHMATHJAX()}{\bf r}(t), {\bf v}(t), {\bf a}(t){OPENAGHMATHJAX} są wzajemnie zależne od siebie i dadzą się przedstawić za pomocą wersorów {OPENAGHMATHJAX()}{\bf i} \text{ oraz } {\bf j}{OPENAGHMATHJAX} czyli wektorów jednostkowej długości zorientowanych odpowiednio wzdłuż osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX( type="
+block
+")}
+\begin{equation}{{\bf r}={\bf i}\;x+{\bf j}\;y }\end{equation}
+{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf v}=\frac{\mathit{d{\bf r}}}{\mathit{dt}}={\bf i}\;\frac{\mathit{dx}}{\mathit{dt}}+{\bf j}\;\frac{\mathit{dy}}{\mathit{dt}}={\bf i}\;v_{{x}}+{\bf j}\;v_{{y}}}\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf a}=\frac{\mathit{dv}}{\mathit{dt}}={\bf i}\;\frac{\mathit{dv}_{{x}}}{\mathit{dt}}+{\bf j}\;\frac{\mathit{dv}_{{y}}}{\mathit{dt}}={\bf i}\;a_{{x}}+{\bf j}\;a_{{y}}}\end{equation}{OPENAGHMATHJAX}
+[3.1]
+
+
+Położenie punktu określić można podając wektor{OPENAGHMATHJAX()}{\bf r}{OPENAGHMATHJAX} lub, dla wybranego układu odniesienia, poprzez podanie współrzędnych tego wektora np. {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}. Oczywiście wektor r i jego współrzędne zmieniają się z czasem więc trzeba podać zależności czasowe {OPENAGHMATHJAX()}{\bf r}(t){OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX}, {OPENAGHMATHJAX()}y(t){OPENAGHMATHJAX} tak jak na rysunku poniżej.
+
+
+
+{img type="fileId" fileId="359"}
+Rys. 3.1 Zmiany wektora położenia z czasem
+
+
+Warto w tym miejscu również zapamiętać, że wektor prędkości jest zawsze styczny do toru poruszającego się punktu}. Punkty, przez które przechodzi poruszający się punkt tworzą krzywą, którą nazywamy torem ruchu.
+
+Jako przykład rozpatrzmy ruchu jednostajnie zmienny na płaszczyźnie. Ponieważ ruch odbywa się ze stałym przyspieszeniem tzn. nie zmieniają się ani kierunek ani wartość przyspieszenia to nie zmieniają się też składowe przyspieszenia. Spróbujmy najpierw napisać równania wektorowe dla tego ruchu. Mają one następującą postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf a}=\text{const}\text{.}}\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf v}={\bf v_{{0}}}+\mathit{{\bf a}t}}\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf r}={\bf r_{{0}}}+{\bf v_{{0}}}t+\frac{\mathit{{\bf a}t}^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+[3.2]
+
+Przypuśćmy, że chcemy znaleźć położenie ciała (wektor {OPENAGHMATHJAX()}\bf r{OPENAGHMATHJAX}) po czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}. W tym celu, jak widać z równań (3.2) trzeba wyznaczyć (znaleźć wartość, kierunek i zwrot) i dodać do siebie geometrycznie trzy wektory: {OPENAGHMATHJAX()}{\bf r_{0}}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}{\bf v_{0}}{OPENAGHMATHJAX}t oraz {OPENAGHMATHJAX()}{1/2\bf a}t^{2}{OPENAGHMATHJAX}. Zadanie możemy jednak znacznie uprościć korzystając z tego, że równania wektorowe (3.2) są równoważne równaniom w postaci skalarnej (zestawionym w tabeli3.1 poniżej) i zamiast dodawania geometrycznego wektorów możemy poprostu dodawać liczby. Znalezienie wektora r prowadza się teraz do znalezienia jego składowych.
+
+Tabela 3.1 Ruch jednostajnie zmienny na płaszczyźnie
+
+||Równania skalarne opisujące ruch wzdłuż osi  {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}|Równania skalarne opisujące ruch wzdłuż osi {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{a_{{x}}=\text{const}\text{.}}\\ v_{{x}}=v_{{\mathit{x0}}}+a_{{x}}t\\ x=x_{{0}}+v_{{\mathit{x0}}}t+\frac{a_{{x}}t^{{2}}}{2}\end{matrix}\end{equation}{OPENAGHMATHJAX}|{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{a_{{y}}=\text{const}\text{.}}\\v_{{y}}=v_{{\mathit{y0}}}+a_{{y}}t\\y=y_{{0}}+v_{{\mathit{y0}}}t+\frac{a_{{y}}t^{{2}}}{2}\end{matrix} \end{equation}{OPENAGHMATHJAX}||
+
+Przykładem na którym prześledzimy ruch krzywoliniowy ze stałym przyspieszeniem jest rzut ukośny.

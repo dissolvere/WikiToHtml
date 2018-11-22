@@ -1,0 +1,61 @@
+Ruch, który powtarza się w regularnych odstępach czasu, nazywamy ruchem okresowym. Przemieszczenie cząstki w ruchu periodycznym można zawsze wyrazić za pomocą funkcji sinus lub cosinus (tzw. funkcji harmonicznych). Ruch drgający jest powszechną formą ruchu obserwowaną w życiu codziennym i dlatego jest ważnym przedmiotem fizyki.
+
+{OPENAGHDEFINITION()}Siłą harmoniczną (sprężystości) nazywamy siłę działającą na ciało proporcjonalną do przesunięcia tego ciała od początku układu i skierowaną ku początkowi układu.{OPENAGHDEFINITION}
+Dla przesunięcia wzdłuż osi x, siła sprężystości jest dana równaniem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{F = - kx}\end{equation}{OPENAGHMATHJAX}
+
+{img type="fileId" fileId="174"}
+
+Rys. 12.1. Prosty oscylator harmoniczny
+
+Jeżeli sprężyna zostanie rozciągnięta tak, aby masa m znalazła się w chwili t = 0 w położeniu x = A, a następnie zostanie zwolniona, to położenie masy w funkcji czasu może być dane równaniem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x(t)=A\cos(\omega t)}\end{equation}{OPENAGHMATHJAX}
+
+Funkcja x(t) opisuje zarazem wychylenie ciała z położenia równowagi.
+
+Sprawdźmy teraz czy to równanie dobrze opisuje ruch harmoniczny. Zgodnie z drugą zasadą dynamiki Newtona
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{ma}=-{kx}}\end{equation}{OPENAGHMATHJAX}
+
+Żeby obliczyć przyspieszenie a obliczamy (zgodnie z równaniami 3.1) odpowiednie pochodne wyrażenia (12.2)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v(t)=\frac{{dx}}{{dt}}=-{A\omega}\sin{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+oraz
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a(t)=\frac{{dv}}{{dt}}=\frac{d^{{2}}x}{d^{{2}}t}=-{A\omega}^{{2}}\cos{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+Teraz wyrażenia (12.2) i (12.5) podstawiamy do równania opisującego ruch oscylatora (12.3) i otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\omega ^{{2}}=\frac{k}{m}}\end{equation}{OPENAGHMATHJAX}
+
+Widzimy, że zaproponowane równanie (12.2) jest rozwiązaniem równania ruchu oscylatora harmonicznego (12.3) przy warunku, że {OPENAGHMATHJAX()}{\omega = \sqrt{k/m}}{OPENAGHMATHJAX}.
+
+Zwróćmy uwagę, że funkcja {OPENAGHMATHJAX()}{x(t)=A\sin{\omega t}}{OPENAGHMATHJAX} jest również rozwiązaniem równania ale przy innych warunku początkowym bo gdy t = 0 to położenie masy x = 0, a nie jak przyjęliśmy x = A.
+
+Ogólne rozwiązanie równania ruchu oscylatora harmonicznego (12.3) ma postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x(t)=A\sin({\omega t}+\varphi )}\end{equation}{OPENAGHMATHJAX}
+
+Stała A (opisująca maksymalne wychylenie) jest amplitudą ruchu, wyrażenie {OPENAGHMATHJAX()}\omega t + \varphi  {OPENAGHMATHJAX} nazywamy fazą drgań, a {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} fazą początkową (stałą fazową). Stałe A i {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} są wyznaczone przez warunki początkowe. Na przykład dla {OPENAGHMATHJAX()}\varphi = \pi/2 {OPENAGHMATHJAX} otrzymujemy rozwiązanie (12.2).
+
+Równania (12.2), (12.4) i (12.5) opisują kolejno położenie, prędkość i przyspieszenie w funkcji czasu. Zależności te są pokazane na poniższym rysunku.
+
+{img type="fileId" fileId="175" height="200px" width="200px" max="200"}
+
+Rys. 12.2. Wykres zależności x(t), v(t), a(t) dla prostego ruchu harmonicznego
+
+Zwróćmy uwagę, że wychylenie z położenia równowagi x(t) oraz przyspieszenie a(t) (a tym samym siła) osiągają równocześnie maksymalne wartości, przy czym zwroty wektorów x(t) i a(t) są przeciwne (równanie (12.3)) i stąd przeciwne znaki. Natomiast prędkość v(t) jest przesunięta w fazie (względem położenia) o {OPENAGHMATHJAX()}\pi/2 {OPENAGHMATHJAX} co odzwierciedla fakt, że prędkość osiąga maksimum przy przechodzeniu oscylującej masy przez położenie równowagi, a jest zerowa przy maksymalnym wychyleniu gdy ciało zawraca.
+
+Odpowiednie maksymalne wartości położenia, prędkości i przyspieszenia wynoszą
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{x_{{\text{max}}}=A}\\ v_{{\text{max}}}={A\omega }\\ a_{{\text{max}}}={A\omega }^{{2}}\end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Wartości funkcji sinus i cosinus powtarzają się gdy kąt zmienia się o {OPENAGHMATHJAX()}2\pi {OPENAGHMATHJAX}. Oznacza to, że funkcje x(t), v(t) i a(t) przyjmują taką samą wartość po czasie {OPENAGHMATHJAX()}t = 2\pi/\omega {OPENAGHMATHJAX}. Ten czas jest więc okresem ruchu T. Uwzględniając zależność (12.6) otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{T=\frac{2\pi }{\omega }=2\pi \sqrt{\frac{m}{k}}}\end{equation}{OPENAGHMATHJAX}
+
+
+Zwróćmy uwagę, że okres drgań harmonicznych {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} __jest niezależny od amplitudy drgań A__. Ta właściwość drgań harmonicznych została wykorzystana w konstrukcji zegara wahadłowego.

@@ -1,0 +1,49 @@
+ Jak już wspominaliśmy fale przenoszą dostarczoną ze źródła energię poprzez ośrodek dzięki przesuwaniu się zaburzenia w ośrodku. Na przykład wprawiając koniec struny w drgania poprzeczne (rysunek poniżej) źródło wykonuje pracę, która objawia się w postaci energii kinetycznej i potencjalnej punktów struny (ośrodka).
+{img fileId="374" } 
+
+Rys. 13.8. Koniec struny wprawiony w drgania siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}
+Siła {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} jaka działa na koniec struny porusza struną w górę i w dół wprawiając jej koniec w drgania w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}. 
+
+Do wyznaczenia szybkości przenoszenia energii przez falę posłużymy się wyrażeniem na moc
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P=F_{{y}}v_{{y}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Jak widać z rysunku prędkość poprzeczna jest równa {OPENAGHMATHJAX()}{v_{{y}}=\partial y/\partial t}{OPENAGHMATHJAX}, a składowa siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} wynosi {OPENAGHMATHJAX()}F_{y} = F\sin\theta {OPENAGHMATHJAX}.
+Podstawiając otrzymujemy 
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P=F\frac{\partial y}{\partial t}\sin\theta }
+\end{equation}{OPENAGHMATHJAX}
+
+Dla małych kątów {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} możemy przyjąć  {OPENAGHMATHJAX()}{\sin\theta = -\partial y/\partial x}{OPENAGHMATHJAX} (znak minus wynika z ujemnego nachylenia struny). Stąd
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P=-F\frac{\partial y}{\partial t}\frac{\partial y}{\partial x}}
+\end{equation}{OPENAGHMATHJAX}
+
+Obliczamy teraz pochodne równania fali harmonicznej {OPENAGHMATHJAX()}{y=A\sin({kx}-{\omega t})}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\partial y}{\partial t}=-{A\omega
+}\cos({kx}-{\omega t})}
+\end{equation}{OPENAGHMATHJAX}
+
+oraz
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\partial y}{\partial
+x}={Ak}\cos({kx}-{\omega
+t})}
+\end{equation}{OPENAGHMATHJAX}
+
+i podstawiamy do wyrażenia na moc 
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P={FA}^{{2}}{k\omega
+}\cos^{{2}}({kx}-{\omega t})}
+\end{equation}{OPENAGHMATHJAX}
+
+Korzystając z zależności (13.7) oraz (13.16) otrzymujemy ostatecznie
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P=4\pi ^{{2}}A^{{2}}f^{{2}}{\mu
+v}\cos^{{2}}({kx}-{\omega t})}
+\end{equation}{OPENAGHMATHJAX}
+
+Zauważmy, że moc czyli szybkość przepływu energii oscyluje w czasie. Widzimy ponadto, że szybkość przepływu energii jest proporcjonalna do kwadratu amplitudy i kwadratu częstotliwości. Ta zależność jest prawdziwa dla wszystkich typów fal.

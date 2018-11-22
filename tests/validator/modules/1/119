@@ -1,0 +1,184 @@
+!Statyka i dynamika płynów
+
+Powszechnie przyjęty jest podział materii na ciała stałe i płyny. Pod pojęciem substancji, która może płynąć rozumiemy zarówno ciecze jak i gazy. Płyny, w odróżnieniu od ciał sztywnych, mających określony rozmiar i kształt, łatwo zmieniają swój kształt, a w przypadku gazów przyjmują objętość równą objętości naczynia.
+Mówimy, że płyny nie mają sprężystości kształtu, a mają sprężystość objętości. Dlatego rozwiązanie zagadnień zmechaniki płynów wymaga posługiwania się nowymi pojęciami takimi jak __ciśnienie__ i __gęstość__.
+
+!!!# Ciśnienie i gęstość
+
+Różnica w działaniu siły powierzchniowej na płyn i na ciało stałe jest związana z tym, że w cieczy siły występują tylko przy zmianie objętości, a nie jak w ciałach stałych przy ich deformacji (zmianie kształtu). W związku z tym w cieczy siła powierzchniowa, zwana __siłą parcia__, musi być zawsze prostopadła do powierzchni płynu podczas gdy w ciele stałym może mieć dowolny kierunek. Spoczywający płyn nie może równoważyć sił stycznych (warstwy płynu ślizgałyby się po
+sobie) i dlatego może zmieniać kształt i płynąć. W związku z tym będziemy opisywać siłę działającą na płyn za pomocą ciśnienia p zdefiniowanego następująco:
+Definicja
+
+Ciśnienie definiujemy jako stosunek siły parcia działającej na jednostkę powierzchni do wielkości tej powierzchni.
+
+
+Ciśnienie jest wywierane zarówno na ścianki naczynia jak i na dowolne przekroje płynów zawsze prostopadle do tych ścianek i przekrojów.
+
+Jednostki
+
+Ciśnienie jest wielkością skalarną. Jednostką ciśnienia w układzie SI jest pascal (Pa); 1 Pa = 1 N/m{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. Inne stosowane jednostki to bar (1 bar = {OPENAGHMATHJAX()}10^{5}{OPENAGHMATHJAX} Pa), atmosfera (1 atm = 101325 Pa), milimetr słupka rtęci (760 mm Hg = 1atm).
+
+Rozważmy teraz zamkniętą powierzchnię zawierającą płyn
+(rysunek 14.1). Dowolny element powierzchni dS jest
+reprezentowany przez wektor powierzchni dS.}
+{img type="fileId" fileId="371" noDrawIcon="n"}
+{
+Rys. 14.1. Element powierzchni dS reprezentowany przez wektor
+powierzchni dS
+Definicja
+
+Długość wektora S jest równa
+polu powierzchni S, jego kierunek jest prostopadły do powierzchni, a
+zwrot na zewnątrz powierzchni.
+
+{
+Siła F wywierana przez płyn na ten element powierzchni
+wynosi}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{F={pS}}
+\end{equation}{OPENAGHMATHJAX}
+
+{
+Ponieważ F i S mają ten sam kierunek
+więc ciśnienie p można zapisać}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{p=\frac{F}{S}}
+\end{equation}{OPENAGHMATHJAX}
+[14.2]
+
+{
+Do opisu płynów stosujemy również pojęcie gęstości {OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX}
+wyrażonej jako}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\rho =\frac{m}{V}}
+\end{equation}{OPENAGHMATHJAX}
+[14.3]
+
+{
+Gęstość płynów zależy od wielu czynników takich jak temperatura, czy
+ciśnienie.}
+{
+W tablicy 14.1 przedstawiony jest zakres gęstości spotykanych
+w przyrodzie.}
+{
+Tabela 14.1. Gęstości wybranych obiektów
+
+||Materiał|{OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX} [kg/m<span contenteditable=|{img src="img/icons/openagh/wikiplugin_openaghmathjax.png"} \( ^{3} \) ]
+
+~hc~   end tiki_plugin   ~/hc~
+ 
+przestrzeń międzygwiezdna|{OPENAGHMATHJAX()}10^{-18} - 10^{-21}{OPENAGHMATHJAX}
+najlepsza próżnia laboratoryjna|10^{-17}{OPENAGHMATHJAX}
+powietrze (1 atm 0°C)|1.3
+powietrze (50 atm 0°C)|6.5
+Ziemia: wartość średnia|{OPENAGHMATHJAX()}5.52·10^{3}{OPENAGHMATHJAX}
+Ziemia: rdzeń|{OPENAGHMATHJAX()}9.5·10^{3}{OPENAGHMATHJAX}
+Ziemia: skorupa|{OPENAGHMATHJAX()}2.8·10^{3}{OPENAGHMATHJAX}
+białe karły|{OPENAGHMATHJAX()}10^{8}{OPENAGHMATHJAX} - 10^{15}{OPENAGHMATHJAX}
+jądro uranu|{OPENAGHMATHJAX()}10^{17}{OPENAGHMATHJAX}||
+ 
+
+!!!# Ciśnienie wewnątrz nieruchomego płynu
+{
+Równanie (14.2) opisuje ciśnienie wywierane przez płyn na
+powierzchnię, która go ogranicza. Możemy także mówić o ciśnieniu
+wewnętrznym płynu. W tym celu rozpatrzmy element płynu w kształcie
+cienkiego dysku znajdującego się na głębokości h pod
+powierzchnią płynu pokazany na rysunku 14.2. Grubość dysku wynosi
+dh, a powierzchnia podstawy wynosi S. Masa takiego
+elementu wynosi {OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX}Sdh a jego ciężar
+{OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX}gSdh. Pamiętajmy, że siły działające
+na element są w każdym punkcie prostopadłe do powierzchni. Siły poziome
+wywołane jedynie przez ciśnienie płynu równoważą się. Siły pionowe są
+wywoływane nie tylko przez ciśnienie płynu ale też przez jego ciężar.
+Ponieważ płyn jest nieruchomy więc wypadkowa siła działająca na element
+płynu jest równa zeru. }
+{ {img fileId="376"}
+{
+Rys. 14.2. Siły działające na element cieczy znajdujący się na
+głębokości h
+{
+Zachowanie równowagi w kierunku pionowym wymaga aby}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{(p+{dp})S={pS}+\rho{gS}{dh}}\end{equation}{OPENAGHMATHJAX}
+[14.4]
+
+{
+a stąd}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{dp}={\rhogdh}\;\;{czyli}\;\;\frac{{dp}}{{dh}}={\rhog}}\end{equation}{OPENAGHMATHJAX}
+[14.5]
+
+{
+Powyższe równanie pokazuje, że ciśnienie zmienia się z głębokością
+płynu. Powodem jest ciężar warstwy płynu leżącej pomiędzy punktami, dla
+których mierzymy różnicę ciśnień. Wielkość {OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX}g nazywamy
+
+ciężarem właściwym płynu. Dla cieczy zazwyczaj {
+
+{OPENAGHMATHJAX()}\rho{OPENAGHMATHJAX}
+} jest stałe (ciecze są praktycznie nieściśliwe) więc możemy obliczyć
+
+ciśnienie cieczy na głębokości h całkując równanie (14.5)}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{p=p_{{0}}+{\rho gh}}\end{equation}{OPENAGHMATHJAX}
+[14.6]
+
+{
+gdzie p{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} jest ciśnieniem na powierzchni cieczy
+(h = 0). Zazwyczaj jest to ciśnienie atmosferyczne. Równanie
+(14.6) nie tylko pokazuje, że ciśnienie rośnie wraz z głębokością ale
+też, że jest jednakowe dla punktów o tej samej głębokości, a nie zależy
+od kształtu naczynia (paradoks hydrostatyczny).}
+{
+Założenie o stałej gęstości {OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX} nie jest jednak prawdziwe
+dla gazów gdy mamy do czynienia ze znaczną zmianą wysokości (np. gdy
+wznosimy się w atmosferze). Ciśnienie zmienia się wtedy znacznie i
+zmienia się też {OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX}.}
+
+!!!!# Pomiar ciśnienia (barometr)
+{
+E. Torricelli skonstruował w 1643 r. barometr rtęciowy.
+Barometr Torricellego składa się z rurki wypełnionej rtęcią
+
+({
+
+{OPENAGHMATHJAX()}\rho{OPENAGHMATHJAX}
+}{OPENAGHMATHJAX()}_{Hg}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}13.6·10^{3}{OPENAGHMATHJAX}
+
+kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}), którą odwracamy nad naczyniem z rtęcią tak
+jak na rysunku 14.3.}
+{
+Zgodnie z naszymi uprzednimi rozważaniami}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{p_{{A}}={\rho gh}}\end{equation}{OPENAGHMATHJAX}
+[14.7]
+
+{
+podczas gdy}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{p_{{B}}=p_{{{atm}{.}}}}\end{equation}{OPENAGHMATHJAX}
+[14.8]
+
+{ {img fileId="391"}
+{\selectlanguage{english}
+Rys. 14.3. Barometr Torricellego
+{
+Ciśnienia w punktach A i B są jednakowe bo punkty te
+są na jednakowej wysokości więc}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\rho{gh}=p_{{{atm}{.}}}}\end{equation}{OPENAGHMATHJAX}
+[14.9]
+
+{
+skąd}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{h=\frac{p_{{{atm}{.}}}}{{\rho g}}}\end{equation}{OPENAGHMATHJAX}
+[14.10]
+
+{
+Mierząc więc wysokość słupa rtęci mierzymy wielkość ciśnienia
+atmosferycznego.}

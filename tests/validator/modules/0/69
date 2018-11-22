@@ -1,0 +1,45 @@
+Rozważania dotyczące grawitacji rozpoczniemy od prostegoprzykładu.
+
+{OPENAGHEXAMPLE( name="Stosunek przyspieszeń")}
+
+Obliczmy stosunek przyspieszenia dośrodkowego Księżyca w kierunku Ziemi do przyspieszenia grawitacyjnego przy powierzchni Ziemi. Przyspieszenie dośrodkowe w ruchu jednostajnym po okręgu możemy obliczyć na podstawie równania (3.16)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{K}=\frac{4\pi ^{{2}}R_{{K}}}{T^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}R_K{OPENAGHMATHJAX} = 3.86·10{OPENAGHMATHJAX()}^{5}{OPENAGHMATHJAX} km jest odległością od Ziemi do Księżyca. Okres obiegu Księżyca wokół Ziemi wynosi {OPENAGHMATHJAX()}T = 27.3{OPENAGHMATHJAX} dnia. Otrzymujemy więc {OPENAGHMATHJAX()}a_K =2.73·10^{3}{OPENAGHMATHJAX} m/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. Natomiast w pobliżu powierzchni Ziemi przyspieszenie wynosi {OPENAGHMATHJAX()}9.8{OPENAGHMATHJAX} m/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. Stosunek tych przyspieszeń
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}{\frac{a_{{K}}}{g}=\frac{1}{\text{3590}}\simeq\left(\frac{1}{\text{60}}\right)^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+Ponieważ promień Ziemi wynosi {OPENAGHMATHJAX()}R_Z=6300{OPENAGHMATHJAX} km to zauważmy, że w granicach błędu
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}{\frac{a_{{K}}}{g}=\frac{R_{{Z}}^{{2}}}{R_{{K}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}[6.1]
+
+{OPENAGHEXAMPLE}
+
+Newton wykonał takie obliczenia i wyciągnął wniosek, że siłaprzyciągania między dwoma masami (między ich środkami) maleje odwrotnieproporcjonalnie do kwadratu odległości między nimi. Ponadto zauważył,że skoro istnieje siła przyciągania pomiędzy dowolnym ciałem i Ziemią,to musi istnieć siła przyciągania między każdymi dwoma masami{OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX}. Na tej podstawie i w oparciu o liczne obserwacje astronomiczne dokonane przez jego poprzedników min. Kopernika, Galileusza, Keplera, Newton sformułował w 1687 r prawo powszechnego ciążenia.
+
+{OPENAGHLAW( name="Prawo powszechnego ciążenia")}Każde dwa ciała o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} przyciągają się wzajemnie siłą grawitacji wprost proporcjonalną do iloczynu mas, a odwrotnie proporcjonalną do kwadratu odległości między nimi.{OPENAGHMATHJAX( type="block")}\begin{equation}{F=G\frac{m_{{1}}m_{{2}}}{r^{{2}}}}\end{equation}{OPENAGHMATHJAX}[6.2]{OPENAGHLAW}
+
+To jest prawo powszechne, ponieważ stosuje się do wszystkich sił grawitacyjnych; np. wyjaśnia spadanie ciał na Ziemię, ale też tłumaczy ruch planet.
+
+Wartość współczynnika proporcjonalności {OPENAGHMATHJAX()}G{OPENAGHMATHJAX}, nazywanego stałą grawitacji, Newton oszacował stosując równanie (6.2) do siły działającej między Ziemią, a ciałem o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}. Zgodnie z drugą zasadą dynamiki
+
+{OPENAGHMATHJAX(type="block")}G\frac{M_{{Z}}m}{R_{{Z}}^{{2}}}=\mathit{mg}{OPENAGHMATHJAX}
+
+skąd
+
+{OPENAGHMATHJAX(type="block")}G=\frac{gR_{{Z}}^{{2}}}{M_{{Z}}}{OPENAGHMATHJAX}
+[6.3]
+
+gdzie {OPENAGHMATHJAX()}R_Z{OPENAGHMATHJAX} jest promieniem Ziemi. Masę Ziemi {OPENAGHMATHJAX()}m_Z{OPENAGHMATHJAX} Newton obliczył zakładając średnią gęstość Ziemi równą {OPENAGHMATHJAX()}\rho_Z = 5·10^{3}{OPENAGHMATHJAX} kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX} (dla porównania gęstość żelaza, głównego składnika masy Ziemi, wynosi{OPENAGHMATHJAX()}\rho_{Fe}= 7.9·10^{3}{OPENAGHMATHJAX}·kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}, a gęstość krzemu, podstawowego składnika skorupy ziemskiej, wynosi {OPENAGHMATHJAX()}\rho_{Si}= 2.8·10^{3}{OPENAGHMATHJAX} kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}). Uwzględniając {OPENAGHMATHJAX()}R_Z =6.37·10^{6}{OPENAGHMATHJAX} m.
+
+Newton otrzymał wartość {OPENAGHMATHJAX()}G =7.35·10^{-11}{OPENAGHMATHJAX}Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/kg{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} co jest wartością tylko o {OPENAGHMATHJAX()}10 \%{OPENAGHMATHJAX} większą niż ogólnie dzisiaj przyjmowana wartość{OPENAGHMATHJAX()} 6.67·10^{11}{OPENAGHMATHJAX}Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/kg{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. Wartość stałej {OPENAGHMATHJAX()}G{OPENAGHMATHJAX}obliczonej przez Newtona jest obarczona błędem wynikającym z przyjętej średniej wartości gęstości Ziemi.
+
+
+Żeby wyznaczyć stałą {OPENAGHMATHJAX()}G{OPENAGHMATHJAX} w laboratorium niezależnie odmasy Ziemi i tym samym uniknąć błędu związanego z szacowaniem gęstości Ziemi trzeba by zmierzyć siłę oddziaływania dwóch mas{OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX} umieszczonychw odległości {OPENAGHMATHJAX()}R{OPENAGHMATHJAX}. Wówczas
+
+{OPENAGHMATHJAX(type="block")}G=\frac{Fr^{{2}}}{m_{{1}}m_{{2}}}{OPENAGHMATHJAX}
+
+Zauważmy jednak, że przykładowo dla mas każda po 1 kg oddalonych odsiebie o 10 cm siła {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}  ma wartość {OPENAGHMATHJAX()}F=6.67·10^{-9}{OPENAGHMATHJAX} N i jest za mała by jądokładnie zmierzyć standardowymi metodami.
+
+Problem pomiaru tak małej siły rozwiązał Cavendish.

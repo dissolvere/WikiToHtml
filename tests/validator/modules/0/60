@@ -1,0 +1,125 @@
+ 
+
+!!!# Wstęp
+
+Dział Fizyki zajmujący się opisem ruchu ciał nazywamy kinematyką.
+
+{OPENAGHDEFINITION( name="Pojęcie ruchu")}Pod pojęciem ruchu rozumiemy zmiany wzajemnego położenia jednych ciał względem drugich wraz z upływem czasu.{OPENAGHDEFINITION}
+
+Położenie określamy względem układu odniesienia tzn. wybranego ciała lub układu ciał. Zwróćmy uwagę na to, że ruch tego samego ciała widziany z różnych układów odniesienia może być różny. W szczególności można wybrać taki układ odniesienia, w którym ciało nie porusza się. Oznacza to, że ruch jest pojęciem względnym. Ponadto, w naszych rozważaniach będziemy posługiwać się pojęciem punktu materialnego.
+
+{OPENAGHDEFINITION( name="Punkt materialny")}Punkty materialne to obiekty obdarzone masą, których rozmiary (objętość) możemy zaniedbać.{OPENAGHDEFINITION}
+
+Rzeczywiste ciała mają zawsze skończoną objętość, ale dopóki rozpatrujemy ich ruch postępowy (ciała nie obracają się, ani nie wykonują drgań) to z dobrym przybliżeniem możemy je traktować jako punkty materialne. To przybliżenie może być z powodzeniem stosowane do opisu ruchu obiektów o różnej wielkości, zarówno "małych" cząsteczek, jak i "dużych" planet.
+
+!!!# Prędkość
+ 
+
+{OPENAGHDEFINITION( name="Prędkość")}Prędkość definiujemy jako zmianę położenia ciała w jednostce czasu.{OPENAGHDEFINITION}
+ 
+
+!!!!# Prędkość stała
+
+Jeżeli wskazania prędkościomierza samochodu nie zmieniają się to oznacza, że samochód porusza się ze stałą prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}, i jeżeli w pewnej chwili {OPENAGHMATHJAX()}t_{0}{OPENAGHMATHJAX} znajdował się w położeniu {OPENAGHMATHJAX()}x_{0}{OPENAGHMATHJAX} to po czasie {OPENAGHMATHJAX()}t_{}{OPENAGHMATHJAX} znajdzie się w położeniu {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x-x_{{0}}=v(t-t_{{0}})}\end{equation}{OPENAGHMATHJAX}
+
+skąd
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\frac{x-x_{{0}}}{t-t_{{0}}}}\end{equation}{OPENAGHMATHJAX}
+[2.1]
+
+
+Zależność między położeniem {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i czasem {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} pokazana jest na rysunku poniżej dla dwóch ciał (np. pojazdów). Jak wynika ze wzoru (2.1) nachylenie wykresu {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} przedstawia prędkość danego ciała. Różne nachylenia wykresów {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} odpowiadają więc różnym prędkościom. Prędkość {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX} (wektor) może być dodatnia albo ujemna; jej znak wskazuje kierunek ruchu. Wektor {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX} dodatni - ruch w kierunku rosnących {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, ujemny to ruch w kierunku malejących{OPENAGHMATHJAX()}x{OPENAGHMATHJAX}.
+
+{img fileId="419"}
+Rys. 2.1. Zależność położenia od czasu dla ciała poruszającego się ze stałą prędkością
+
+ 
+
+{openaghexercise name="Tu wpisz nazwe" body="Odczytaj z wykresu i zanotuj w tabeli poniżej położenia początkowe {OPENAGHMATHJAX()}x_{0}{OPENAGHMATHJAX} obu ciał oraz ich prędkości.||ciało|{OPENAGHMATHJAX()}x_{0}[\text{m}]{OPENAGHMATHJAX}|{OPENAGHMATHJAX()}v_{}[\text{m/s}]{OPENAGHMATHJAX} 1| |  2| | ||" solution="||ciało|{OPENAGHMATHJAX()}x_{0}[\text{m}]{OPENAGHMATHJAX}|{OPENAGHMATHJAX()}v_{}[\text{m/s}]{OPENAGHMATHJAX}  1|-1 |1.5   2| 0|0.67 ||"}
+ 
+!!!!# Prędkość chwilowa
+
+Gdy samochód przyspiesza lub hamuje to wskazania prędkościomierza zmieniają się i nie możemy mówić o jednej stałej prędkości. Prędkość zmienia się i w każdej chwili jest inna. Nie można wtedy stosować wzoru (2.1) chyba, że ograniczymy się do bardzo małych wartości {OPENAGHMATHJAX()}x - x_{0}{OPENAGHMATHJAX} ({OPENAGHMATHJAX()}\Delta x {OPENAGHMATHJAX}) czyli również bardzo małego przedziału czasu {OPENAGHMATHJAX()}\Delta t = t - t_{0} {OPENAGHMATHJAX} (chwili). Prędkość chwilową w punkcie x otrzymamy gdy {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} dąży do zera.
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\underset{{\mathit{\Delta t}\rightarrow0}}{{\text{lim}}}\frac{\mathit{\Delta x}}{\mathit{\Delta t}}}\end{equation}{OPENAGHMATHJAX} [2.2]
+
+Tak definiuje się pierwszą pochodną więc
+
+{OPENAGHDEFINITION( name="Prędkość chwilowa")}
+Prędkość chwilowa jest pochodną drogi względem czasu.
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf v}=\frac{d\;{\bf x}}{d\;t}}\end{equation}{OPENAGHMATHJAX}
+[2.3]
+{OPENAGHDEFINITION}
+
+Nachylenie krzywej {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} ponownie przedstawia prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} , a znajdujemy je (zgodnie z definicją pochodnej) jako nachylenie stycznej do wykresu {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} , w danym punkcie tj. dla danej chwili {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} (rysunek poniżej).
+
+{img fileId="420"}
+Rys. 2.2. Nachylenie krzywej x(t) jest prędkością chwilową
+
+!!!!# Prędkość średnia
+
+Często określenie zależności{OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} nie jest możliwe, np. przy oszacowaniu czasu dojazdu do wybranej miejscowości nie jesteśmy w stanie przewidzieć wszystkich parametrów podróży wpływających na prędkość takich jak natężenie ruchu, konieczność ograniczenia prędkości w terenie zabudowanym itp. Posługujemy się wtedy pojęciem prędkości średniej. Prędkość średnia ciała w przedziale czasu {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} jest zdefiniowana jako
+
+{OPENAGHDEFINITION( name="Prędkość średnią")}{OPENAGHMATHJAX( type="block")}\begin{equation}{\overline{{v}}=\frac{x-x_{{0}}}{t}}\end{equation}{OPENAGHMATHJAX}[2.4]gdzie {OPENAGHMATHJAX()}x - x_{0}{OPENAGHMATHJAX} jest odległością przebytą w czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}{OPENAGHDEFINITION}
+
+{openaghexercise name="Prędkość średnia samochodu" body="Oblicz prędkość średnią samochodu, który przejeżdża odcinek {OPENAGHMATHJAX()}x_{1}= 20{OPENAGHMATHJAX} km z prędkością {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX} = 40 km/h, a potem, przez następne {OPENAGHMATHJAX()}x_{2}= 20{OPENAGHMATHJAX} km, jedzie z prędkością {OPENAGHMATHJAX()}v_{2}= 80{OPENAGHMATHJAX} km/h. Wykonaj obliczenia i zapisz wynik poniżej. Wskazówka: Oblicz całkowitą drogę przejechaną przez samochód i całkowity czas jazdy samochodu i skorzystaj z równania (2.4)." solution="Całkowita droga przejechana przez samochód: {OPENAGHMATHJAX()}x_{1}{OPENAGHMATHJAX}+ {OPENAGHMATHJAX()}x_{2 }{OPENAGHMATHJAX}= 20 km + 20 km = 40 km Całkowity czas jazdy samochodu : {OPENAGHMATHJAX()}t_{1}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}=x_{1}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}/v_{1}{OPENAGHMATHJAX} = (20km)/(40 km/h) = 0.5 h{OPENAGHMATHJAX()}t_{2}=x_2/v_2{OPENAGHMATHJAX} = (20km)/(80 km/h) = 0.25 h.{OPENAGHMATHJAX()}t = t_{1}+t_2{OPENAGHMATHJAX}  = 0.75 h. Prędkość średnia (równanie 2.4): (40 km)/(0.75 h) = 53.33 km/h Otrzymany wynik: 53.33 km/h jest różny od średniej arytmetycznej z prędkości {OPENAGHMATHJAX()}v_{1 }{OPENAGHMATHJAX}i {OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX}, która wynosi 60 km/h. Powodem jest to, że poszczególne wartości wchodzą w skład średniej matematycznej z różnymi czynnikami wagowymi. W naszym przykładzie obliczamy średnią względem czasu, więc skoro przedziały czasu, w których samochód jedzie z prędkościami {OPENAGHMATHJAX()}v_{1 }{OPENAGHMATHJAX}i {OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX} są różne to i udziały tych prędkości w średniej są też różne.  O średniej ważonej możesz przeczytać w XXXXXXXXXXXXXXX."}
+
+Wartość średnia daje praktyczne wyniki. Zilustrujmy to jeszcze jednym ćwiczeniem.
+
+{openaghexercise name="Droga hamowania" body="Obliczmy drogę hamowania samochodu, który jedzie z prędkością 20 m/s (72 km/h). Czas hamowania wynosi 5 sekund, a prędkość samochodu maleje jednostajnie (stała siła hamowania). Spróbuj wykonać samodzielnie obliczenia korzystając z równania (2.4). Wykonaj obliczenia i zapisz wynik poniżej. Wskazówka: Oblicz prędkość średnią, i następnie ze wzoru (2.4) drogę hamowania.  Droga hamowania:" solution="Prędkość średnia wynosi 10 m/s. Korzystając z równania (2.4):  {OPENAGHMATHJAX()}x-x_0{OPENAGHMATHJAX} = 10 m/s · 5 s = 50 m.To najkrótsza droga hamowania."}
+
+!!!# Przyspieszenie
+ 
+{OPENAGHDEFINITION( name="Przyspieszenie")}Przyspieszeniem nazywamy tempo zmian prędkości.{OPENAGHDEFINITION}
+ 
+!!!!# Przyspieszenie jednostajne
+
+Jeżeli ciało przyspiesza lub hamuje i jego prędkość zmienia się jednostajnie z czasem to przyspieszenie {OPENAGHMATHJAX()}\bf a{OPENAGHMATHJAX} tego ciała jest stałe
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a=\frac{{\bf v}-{\bf v}_{{0}}}{t}}\end{equation}{OPENAGHMATHJAX}
+[2.5]
+
+
+Gdy prędkość rośnie ({OPENAGHMATHJAX()}a > 0{OPENAGHMATHJAX} to ruch nazywamy jednostajnie przyspieszonym, a gdy prędkość maleje ({OPENAGHMATHJAX()}a < 0{OPENAGHMATHJAX}) to ruch określamy jako jednostajnie opóźniony.
+
+!!!!# Przyspieszenie chwilowe
+
+Jeżeli przyspieszenie nie jest stałe, zmienia się z czasem, musimy wtedy ograniczyć się do pomiaru zmian prędkości {OPENAGHMATHJAX()}\Delta v{OPENAGHMATHJAX} w bardzo krótkim czasie {OPENAGHMATHJAX()}\Delta t {OPENAGHMATHJAX} (podobnie jak dla prędkości chwilowej). Wówczas przyspieszenie chwilowe definiujemy jako pierwszą pochodną v względem {OPENAGHMATHJAX()} t {OPENAGHMATHJAX}.
+
+{OPENAGHDEFINITION( name="Przyspieszenie")}{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf a}=\frac{\mathit{d{\bf v}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}[2.6]{OPENAGHDEFINITION}
+
+!!!!# Ruch jednostajnie zmienny
+
+Z ruchem jednostajnie zmiennym spotykamy się na co dzień, np. gdy obserwujemy swobodny spadek ciał w pobliżu powierzchni Ziemi.Jeżeli możemy zaniedbać opór powietrza (w porównaniu z ciężarem ciała) to każde ciało upuszczone swobodnie porusza się ruchem jednostajnie przyspieszonym z przyspieszeniem równym {OPENAGHMATHJAX()}9.81{OPENAGHMATHJAX} m/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}.
+
+Wyrażenie na prędkość ciała poruszającego się ze stałym przyspieszeniem możemy otrzymać wprost ze wzoru (2.5)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=v_{{0}}+at}\end{equation}{OPENAGHMATHJAX}
+[2.7]
+
+Natomiast do policzenia położenia korzystamy ze wzoru (2.5) na prędkość średnią przekształconego do postaci
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x=x_{{0}}+\overline{{v}}t}\end{equation}{OPENAGHMATHJAX}
+[2.8]
+
+Ponieważ w ruchu jednostajnie przyspieszonym prędkość rośnie jednostajnie od {OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} więc prędkość średnia wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\overline{{v}}=\frac{\left(v_{{0}}+v\right)}{2}}\end{equation}{OPENAGHMATHJAX}
+[2.9]
+
+Łącząc powyższe trzy równania otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x=x_{{0}}+v_{{0}}t+\frac{at^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+[2.10]
+
+Jako podsumowanie, pokazane jest graficzne przedstawienie ruchu prostoliniowego jednostajnego i jednostajnie zmiennego w postaci wykresów {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX}, {OPENAGHMATHJAX()}v(t){OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}a(t){OPENAGHMATHJAX}.
+
+{img fileId="421"}
+Rys. 2.3. Graficzna prezentacja ruchu prostoliniowego jednostajnego (wiersz górny) i jednostajnie zmiennego (wiersz dolny)
+
+Rozważając ruch po linii prostej możemy operować liczbami, a nie wektorami bo mamy do czynienia z wektorami równoległymi. Jednak trzeba sobie przy opisie zjawisk (rozwiązywaniu zadań) uświadamiać, że w równaniach ruchu mamy do czynienia z wektorami. Prześledzimy to wykonując następujące ćwiczenie:
+
+{openaghexercise name="Rzut w góre" body=" Dwa identyczne ciała rzucono pionowo do góry z prędkością początkową {OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX} w odstępie czasu {OPENAGHMATHJAX()}\Delta t {OPENAGHMATHJAX} jedno po drugim. Na jakiej wysokości spotkają się te ciała? Wskazówka: Do opisu położenia ciała (np. wysokość na jakiej się znajduje w danej chwili) posłuż się równaniem (2.10). Zauważ, że w rzucie pionowym ciało przebywa na tej samej wysokości dwa razy w dwóch różnych chwilach (pierwszy raz przy wznoszeniu, drugi przy opadaniu) więc trójmian kwadratowy (2.10) ma dwa rozwiązania {OPENAGHMATHJAX()}t_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}t_{2}{OPENAGHMATHJAX}. Z treści zadania wynika, że  {OPENAGHMATHJAX()}t_{1}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}{OPENAGHMATHJAX()}t_{2}{OPENAGHMATHJAX} ={OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX}. Z tego warunku otrzymasz rozwiązanie. Zapisz je poniżej.{OPENAGHMATHJAX()}h={OPENAGHMATHJAX} " solution="Dane: {OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX},{OPENAGHMATHJAX()}g{OPENAGHMATHJAX} - przyspieszenie ziemskie.Korzystając z równania (2.10) otrzymujemy:{OPENAGHMATHJAX()}{y=v_{{0}}t-\frac{gt^{{2}}}{2}}{OPENAGHMATHJAX}Wektor położenia {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} (opisujący wysokość ponad poziom{OPENAGHMATHJAX()}y=0{OPENAGHMATHJAX}) jest w dowolnej chwili sumą dwóch wektorów {OPENAGHMATHJAX()}v_{0}t{OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}gt^{2}/2{OPENAGHMATHJAX} . Powyższe równanie opisuje więc zarówno ruch ciał w górę jak i w dół. Oczywiście opis matematyczny musi odzwierciedlać sytuację fizyczną. W rzucie pionowym ciało przebywa na tej samej wysokości ({OPENAGHMATHJAX()}y=h{OPENAGHMATHJAX}) dwa razy w dwóch różnych chwilach (pierwszy raz przy wznoszeniu, drugi przy opadaniu). Trójmian kwadratowy{OPENAGHMATHJAX( type="block")}\begin{equation}{h-v_{{0}}t+\frac{gt^{{2}}}{2}=0}\end{equation}{OPENAGHMATHJAX}ma dwa rozwiązania {OPENAGHMATHJAX()}t_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}t_{2}{OPENAGHMATHJAX}. Z treści zadania wynika, że  {OPENAGHMATHJAX()}t_{1}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}{OPENAGHMATHJAX()}t_{2}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX}. Z tego warunku otrzymujemy rozwiązanie:{OPENAGHMATHJAX( type="block")}\begin{equation}{h=\frac{v_{{0}}^{{2}}}{2g}-\frac{(\mathit{\Delta t})^{{2}}g}{8}}\end{equation}{OPENAGHMATHJAX}"}
+
+Pamiętanie o tym, że liczymy na wektorach jest bardzo istotne przy rozpatrywaniu ruchu w dwóch lub trzech wymiarach na przykład w ruchu na płaszczyźnie.

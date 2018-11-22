@@ -1,0 +1,90 @@
+Gdy dwa ciała są dociskane do siebie to występują między nimi siły kontaktowe. Źródłem tych sił jest odpychanie pomiędzy atomami. Przy dostatecznie małej odległości występuje przekrywanie chmur elektronowych i ich odpychanie rosnące wraz z malejącą odległością. Jest to siła elektromagnetyczna. Żeby prześledzić ten problem rozważmy następujący przykład.
+
+{OPENAGHEXAMPLE( name="Dwa klocki")}
+Dwa klocki o masach {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX} umieszczono na gładkiej powierzchni. Do klocka {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} przyłożono siłę {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (tak jak na rysunku poniżej).
+
+ 
+
+{img type="fileId
+" fileId="362
+"}
+Rys. 5.1. Dwie masy pchane siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}
+
+Wprawdzie siła {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX} jest przyłożona do klocka o masie {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} ale nadaje przyspieszenie {OPENAGHMATHJAX()}a{OPENAGHMATHJAX} obu klockom więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}=(m_{{1}}+m_{{2}}){\bf a}}\end{equation}{OPENAGHMATHJAX}
+[5.1]
+
+Siła kontaktowa {OPENAGHMATHJAX()}{\bf F}_k{OPENAGHMATHJAX} z jaką klocek o masie {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} działa na klocek o masie {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX} nadaje przyspieszenie klockowi {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX}. Ponieważ klocek{OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX} porusza się z przyspieszeniem {OPENAGHMATHJAX()}{\bf a}{OPENAGHMATHJAX}, więc siła kontaktowa wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}_{{k}}=m_{{2}}{\bf a}}\end{equation}{OPENAGHMATHJAX}
+[5.2]
+
+Oczywiście, zgodnie z trzecią zasadą dynamiki Newtona klocek o masie {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX} działa na klocek o masie {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} siłą reakcji {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}{OPENAGHMATHJAX()}{\bf F}_k{OPENAGHMATHJAX}.
+{OPENAGHEXAMPLE}
+
+Siły kontaktowe, o których mówiliśmy są normalne (prostopadłe) do powierzchni. Istnieje jednak składowa siły kontaktowej leżąca w płaszczyźnie powierzchni. Jeżeli ciało pchniemy wzdłuż stołu to po pewnym czasie ciało to zatrzyma się. Z drugiej zasady dynamiki wiemy, że jeżeli ciało porusza się z przyspieszeniem (opóźnieniem) to musi na nie działać siła. Tę siłę, która przeciwstawia się ruchowi nazywamy siłą tarcia.
+
+Siła tarcia zawsze działa stycznie do powierzchni zetknięcia ciał i może istnieć nawet wówczas, gdy powierzchnie są nieruchome względem siebie. Żeby się o tym przekonać wystarczy wykonać proste ćwiczenie. Połóżmy na stole jakiś obiekt np. książkę i spróbujmy wprawić ją w ruch stopniowo zwiększając przykładaną siłę. Początkowo gdy siła jest "mała" obiekt nie porusza się. Oznacza to, że naszej sile {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} przeciwstawia się siła tarcia {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} równa co do wartości lecz przeciwnie do niej skierowana. Zwiększamy dalej siłę {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} , aż książka zacznie się poruszać. Zauważmy, że im gładsza powierzchnia tym szybciej to nastąpi. Siłę tarcia działającą między nieruchomymi powierzchniami nazywamy tarciem statycznym. Maksymalna siła tarcia statycznego {OPENAGHMATHJAX()}T_s{OPENAGHMATHJAX} jest równa tej krytycznej sile, którą musieliśmy przyłożyć, żeby ruszyć ciało z miejsca. Dla suchych powierzchni {OPENAGHMATHJAX()}T_s{OPENAGHMATHJAX} spełnia dwa prawa empiryczne.
+
+{OPENAGHLAW( name="Tarcie statyczne")}{OPENAGHMATHJAX()}T_s{OPENAGHMATHJAX} jest w przybliżeniu niezależna od wielkości pola powierzchni styku ciał; {OPENAGHMATHJAX()}T_s{OPENAGHMATHJAX} jest proporcjonalna do siły z jaką jedna powierzchnia naciska na drugą{OPENAGHLAW}
+
+
+Stosunek maksymalnej siły{OPENAGHMATHJAX()}{T}_s{OPENAGHMATHJAX} do siły nacisku {OPENAGHMATHJAX()}F_N{OPENAGHMATHJAX} nazywamy współczynnikiem tarcia statycznego {OPENAGHMATHJAX()}\mu_s{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mu _{{s}}=\frac{T_{{s}}}{F_{{N}}}}\end{equation}{OPENAGHMATHJAX}
+[5.3]
+
+Zwróćmy uwagę, że we wzorze (5.3) występują tylko wartości bezwzględne sił (a nie wektorowe) bo te siły są do siebie prostopadłe.
+
+{openaghexercise name="Ciało na równi pochyłej" body=" Ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} spoczywa na równi pochyłej, której kąt nachylenia {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} stopniowo zwiększamy. Oblicz przy jakim granicznym kącie nachylenia ciało zacznie się zsuwać jeżeli współczynnik tarcia statycznego klocka o równię wynosi {OPENAGHMATHJAX()}\mu_s{OPENAGHMATHJAX}? Wynik zapisz poniżej.Wskazówka: Skorzystaj z warunków, że siła reakcji {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} równoważy składową ciężaru prostopadłą do powierzchni równi (nacisk), a siła tarcia {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} równoważy składową ciężaru równoległą do równi.{OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{gr}={OPENAGHMATHJAX}  " solution="Dane; {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}\mu_s{OPENAGHMATHJAX}, przyspieszenie grawitacyjne {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}.Klocek spoczywa na równi bo oprócz siły grawitacji i reakcji podłoża działa na niego również siła tarcia statycznego (rysunek).{img fileId=" 415"}Siła reakcji {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} równoważy składową ciężaru prostopadłą do powierzchni równi (nacisk) {OPENAGHMATHJAX()}R = Q_{y}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}F_{N}{OPENAGHMATHJAX}, natomiast siła tarcia {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} równoważy składową równoległą do równi {OPENAGHMATHJAX()}T=Q_x{OPENAGHMATHJAX}. Przy granicznym (maksymalnym) kącie{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{mg\sin\theta_{{\text{gr}}}=\mu _{{s}}F_{{N}}}\\mg\sin\theta_{{\text{gr}}}=\mu _{{s}}Q_{{y}}\\mg\sin\theta_{{\text{gr}}}=\mu_{{s}}mg\cos\theta_{{\text{gr}}} \end{matrix} \end{equation}{OPENAGHMATHJAX}Skąd otrzymujemy wartość granicznego kąta {OPENAGHMATHJAX()}{ \tan \theta_{{\text{gr}}}=\mu _{{s}}}{OPENAGHMATHJAX}. Pomiar kąta{OPENAGHMATHJAX()}\theta_{gr}{OPENAGHMATHJAX} jest prostą metodądoświadczalną wyznaczenia współczynnika tarcia{OPENAGHMATHJAX()}\mu_s{OPENAGHMATHJAX}"}
+
+
+Wiemy już, że gdy działająca siła {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} jest większa od {OPENAGHMATHJAX()}T_s{OPENAGHMATHJAX} to ciało zostanie wprawione w ruch, ale nadal będzie istniała siła tarcia, tarcia kinetycznego {OPENAGHMATHJAX()}T_{k}{OPENAGHMATHJAX} przeciwstawiająca się ruchowi. Siła {OPENAGHMATHJAX()}T_{k}{OPENAGHMATHJAX} spełnia dodatkowo, oprócz dwóch wymienionych powyżej, trzecie empiryczne prawo
+
+{OPENAGHLAW( name="tarcie kinetyczne")}{OPENAGHMATHJAX()}T_{k}{OPENAGHMATHJAX} nie zależy od prędkości względnej poruszania się powierzchni.{OPENAGHLAW}
+
+Istnieje, analogiczny do {OPENAGHMATHJAX()}\mu_s{OPENAGHMATHJAX}, odpowiedni współczynnik tarcia kinetycznego {OPENAGHMATHJAX()}\mu_k{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mu _{{k}}=\frac{T_{{k}}}{F_{{N}}}}\end{equation}{OPENAGHMATHJAX}
+[5.4]
+
+Dla większości materiałów {OPENAGHMATHJAX()}\mu_k{OPENAGHMATHJAX}jest nieco mniejszy od {OPENAGHMATHJAX()}\mu_s{OPENAGHMATHJAX}.
+
+
+Tarcie jest bardzo złożonym zjawiskiem i wyjaśnienie go wymaga znajomości oddziaływań atomów na powierzchni. Dlatego ograniczmy się do zauważenia, że tarcie odgrywa bardzo istotną rolę w życiu codziennym. Na przykład w samochodzie na pokonanie siły tarcia zużywa się około {OPENAGHMATHJAX()}20\%{OPENAGHMATHJAX} dlatego staramy się je zmniejszać. Z drugiej strony wiemy, że bez tarcia nie moglibyśmy chodzić, jeździć samochodami, czy też pisać ołówkiem.
+
+{openaghexercise name="Układ trzech ciał" body="
+Rozważ układ trzech ciał o masach {OPENAGHMATHJAX()}3m{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}2m{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} połączonych nieważkimi nitkami (taki sam jak w przykładzie pokazującym zastosowanie zasad dynamiki Newtona w punkcie 4.2). Układ jest ciągnięty zewnętrzną siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}. Mędzy ciałami a powierzchnią działa siła tarcia. Dany jest współczynnik tarcia kinetycznego {OPENAGHMATHJAX()}\mu_k{OPENAGHMATHJAX}. Znajdźprzyspieszenie układu i naprężenia nici. Pamiętaj o zrobieniu odpowiedniego rysunku i zaznaczeniu wszystkich działających sił.
+
+Wskazówka: Przyspieszenie układu i siły naciągu nitek oblicz stosując drugą zasadę dynamiki Newtona do każdego ciała indywidualnie.
+
+{OPENAGHMATHJAX()}a={OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}n_{1}={OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}n_{2}={OPENAGHMATHJAX}" solution="
+Dane: {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} , {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX}={OPENAGHMATHJAX()}m{OPENAGHMATHJAX},{OPENAGHMATHJAX()}m_{2}=2m{OPENAGHMATHJAX},{OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{3}=3m{OPENAGHMATHJAX}{openaghmathjax},{OPENAGHMATHJAX()}\mu_k{OPENAGHMATHJAX}, przyspieszenie grawitacyjne{OPENAGHMATHJAX()}g{OPENAGHMATHJAX}
+
+Wykonujemy rysunek i zaznaczamy siły działające w układzie
+
+{img fileId="364"}
+
+Zapisujemy drugą zasadę dynamiki Newtona do każdego ciała osobno
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{3ma=F-N_{{1}}-T_{{3}}}\\2ma=N_{{1}}-N_{{2}}-T_{{2}}\\ma=N_{{2}}-T_{{1}}\end{matrix} \end{equation}{OPENAGHMATHJAX}
+
+Następnie, korzystając z tego, że
+
+\begin{matrix}{T_{{1}}=\mu_{{k}}mg}\\
+T_{{2}}=\mu_{{k}}2mg\\
+T_{{3}}=\mu_{{k}}3mg \end{matrix}
+
+przepisujemy równania dynamiki w postaci
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{3ma=F-N_{{1}}-\mu_{{k}}3mg}\\2ma=N_{{1}}-N_{{2}}-\mu_{{k}}2mg\\ma=N_{{2}}-\mu_{{k}}mg \end{matrix} \end{equation}{OPENAGHMATHJAX}
+Rozwiązując ten układ równań otrzymujemy poszukiwane wielkości
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{a=\frac{F-\mu_{{k}}6mg}{6m}=\frac{F}{6m}-\mu_{{k}}g} \\N_{{1}}=\frac{F}{2} \ \ \ \ \ \ N_{{2}}=\frac{F}{6}\end{matrix} \end{equation}{OPENAGHMATHJAX}
+"}
+
+
+W przykładach pokazujących zastosowanie zasad dynamiki Newtona opisywaliśmy ruch ciał z punktu widzenia inercjalnych układów odniesienia to znaczy takich, w których ciało nie poddane działaniu sił pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym. Teraz zajmiemy się układami nieinercjalnymi i występującymi w nich siłami bezwładności.
+
+
+
+

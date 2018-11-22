@@ -1,0 +1,108 @@
+!!Pojęcie pochodnej funkcji, styczna
+__Wprowadzenie__
+ 
+
+Chcemy poznać prędkość obiektu, który porusza się z zmienną prędkością. Mamy informację, jaką drogę przebył w każdym czasie między chwilą {openaghmathjax} i {OPENAGHMATHJAX()}T{OPENAGHMATHJAX}. Obiekt przez pewien czas przyśpieszał, poruszał się ze stałą prędkością, zwalniał, zatrzymał się,... Jeżeli policzymy iloraz drogi przebytej przez czas {OPENAGHMATHJAX()}T{OPENAGHMATHJAX}, to otrzymamy prędkość średnią, która słabo opisuje, jak poruszał się obiekt. Oczywiście możemy podzielić czas na mniejsze przedziały czasowe. Tu dostajemy więcej informacji i im mniejsze przedziały czasowe tym więcej mamy informacji. Ideałem była prędkość w danej chwili, czyli przy długości przedziału czasu dążącym do zera. I właśnie prędkość w danej chwili możemy uzyskać jako pochodną funkcji drogi w zależności od czasu. Analogicznie możemy policzyć jak zmienia się inna wielkość w zależności od zmiany czasu i nie tylko, ponieważ pochodna opisuje jak zmienia się wartość funkcji w stosunku do zmiany jej argumentu.
+Zanim zdefiniujemy pochodną funkcji, przypomnijmy definicję otoczenia punktu.
+
+{OPENAGHDEFINITION( name="Otoczenie punktu")}Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX}.__0toczeniem punktu {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} o promieniu {OPENAGHMATHJAX()}\varepsilon>0{OPENAGHMATHJAX}__ nazywamy przedział {OPENAGHMATHJAX()}(x_0-\varepsilon,x_0+\varepsilon){OPENAGHMATHJAX} i oznaczamy {OPENAGHMATHJAX()}O(x_0,\varepsilon){OPENAGHMATHJAX}.__0toczeniem lewostronnym punktu {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} o promieniu {OPENAGHMATHJAX()}\varepsilon>0{OPENAGHMATHJAX}__ nazywamy przedział {OPENAGHMATHJAX()}(x_0-\varepsilon,x_0\rangle{OPENAGHMATHJAX} i oznaczamy {OPENAGHMATHJAX()}O(x_0^-,\varepsilon){OPENAGHMATHJAX}.__0toczeniem lewostronnym punktu {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} o promieniu {OPENAGHMATHJAX()}\varepsilon>0{OPENAGHMATHJAX}__ nazywamy przedział {OPENAGHMATHJAX()}\langle x_0, x_0+\varepsilon){OPENAGHMATHJAX} i oznaczamy {OPENAGHMATHJAX()}O(x_0^+,\varepsilon){OPENAGHMATHJAX}.Gdy promień otoczenia nie jest istotny (czyli może być dowolną liczbą dodatnią), powyższe otoczenia oznaczamy odpowiednio {OPENAGHMATHJAX()}O(x_0){OPENAGHMATHJAX}, {OPENAGHMATHJAX()}O(x_0^-){OPENAGHMATHJAX}, {OPENAGHMATHJAX()}O(x_0^+){OPENAGHMATHJAX}.{OPENAGHDEFINITION}{OPENAGHANNOTATION()}Często powyższą granicę zapisuje się w postaci:{OPENAGHMATHJAX(type="block")}\lim\limits_{h\to 0}\frac{f(x_0+h)-f(x_0)}{h},{OPENAGHMATHJAX}gdzie {OPENAGHMATHJAX()}h=x-x_0{OPENAGHMATHJAX}, czyli {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} oznacza przyrost argumentu. Ta postać jest wygodna przy obliczaniu pochodnej wprost z definicji.{OPENAGHANNOTATION}
+Zatem pochodna to iloraz zmiany wartości funkcji w stosunku do zmiany argumentu, gdy zmiana argumentu dąży do zera. __Pochodna to granica__ pewnej funkcji. Przyjrzyjmy się paru przykładom obliczania pochodnej.
+
+ 
+
+{OPENAGHEXAMPLE()}Korzystając z definicji obliczmy pochodną funkcji {OPENAGHMATHJAX()}f(x)=x^2{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x_0=2{OPENAGHMATHJAX} oraz w dowolnym punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}.Pochodna funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x_0=2{OPENAGHMATHJAX}:{OPENAGHMATHJAX(type="block")}f(2)=\lim\limits_{h\to 0}\frac{f(2+h)-f(2)}{h}=\lim\limits_{h\to 0}\frac{(2+h)^2-2^2}{h}=\lim\limits_{h\to 0}\frac{4+4h+h^2-4}{h}={OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}=\lim\limits_{h\to 0}\frac{h(4+h)}{h}=\lim\limits_{h\to 0}(4+h)=4.{OPENAGHMATHJAX}Przejdźmy teraz do obliczenia pochodnej funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w dowolnym punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}:{OPENAGHMATHJAX(type="block")}f(x_0)=\lim\limits_{h\to 0}\frac{f(x_0+h)-f(x_0)}{h}=\lim\limits_{h\to 0}\frac{(x_0+h)^2-x_0^2}{h}={OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}=\lim\limits_{h\to 0}\frac{x_0^2+2x_0h+h^2-x_0^2}{h}=\lim\limits_{h\to 0}\frac{h(2x_0+h)}{h}={OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}=\lim\limits_{h\to 0}(2x_0+h)=2x_0.{OPENAGHMATHJAX}{OPENAGHEXAMPLE}{OPENAGHEXAMPLE()}Obliczmy pochodną funkcji {OPENAGHMATHJAX()}k(x)=|x-3|{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x_0=3{OPENAGHMATHJAX}.{OPENAGHMATHJAX(type="block")}k(3)=\lim\limits_{h\to 0}\frac{k(3+h)-k(3)}{h}=\lim\limits_{h\to 0}\frac{|3+h-3|-|3-3|}{h}=\lim\limits_{h\to 0}\frac{|h|}{h}{OPENAGHMATHJAX}Zauważmy, że ta granica nie istnieje, ponieważ{OPENAGHMATHJAX(type="block")}\lim\limits_{h\to 0^{-}}\frac{|h|}{h}=\lim\limits_{h\to 0^{-}}\frac{-h}{h}=-1{OPENAGHMATHJAX}oraz{OPENAGHMATHJAX(type="block")}\lim\limits_{h\to 0^{+}}\frac{|h|}{h}=\lim\limits_{h\to 0^{+}}\frac{h}{h}=1.{OPENAGHMATHJAX}Skoro powyższa granica nie istnieje, to również pochodna funkcji {OPENAGHMATHJAX()}k{OPENAGHMATHJAX} nie istnieje w punkcie {OPENAGHMATHJAX()}x_0=3{OPENAGHMATHJAX}.{OPENAGHEXAMPLE}
+
+ 
+
+ 
+
+{OPENAGHANNOTATION()}Postępując w analogiczny sposób możemy wyznaczyć pochodne wszystkich funkcji posiadających pochodną w zadanym punkcie. Jednak często będziemy wyznaczali pochodną funkcji korzystając z twierdzeń o pochodnych i wcześniej obliczonych pochodnych wybranych funkcji, w szczególności podstawowych funkcji elementarnych.Dowolną funkcję elementarną możemy otrzymać przez skończoną liczbę działań algebraicznych i operacji złożenia funkcji. Zatem znając twierdzenia o pochodnej działań algebraicznych na funkcjach i pochodnej funkcji złożonej (patrz moduł: Obliczanie pochodnej) oraz poniższe wzory, możemy obliczyć pochodną dowolnej funkcji elementarnej posiadającej pochodną. {OPENAGHANNOTATION}{OPENAGHANNOTATION()}Analizując definicję stycznej możemy zauważyć, że styczna do wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w {OPENAGHMATHJAX()} x_0{OPENAGHMATHJAX} jest geometrycznym odpowiednikiem pochodnej funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w {OPENAGHMATHJAX()} x_0{OPENAGHMATHJAX}.{OPENAGHANNOTATION}
+{img fileId="76" width="15em"}
+{ANAME()}fig1:pojecie_poch-ID1{ANAME}
+
+{OPENAGHANNOTATION()}Geometrycznie styczna jest prostą, która w sąsiedztwie punktu styczności najlepiej przybliża wykres funkcji. Nie zawsze jest prawdą stwierdzenie, że styczna do wykresu to prosta, która ma jeden punkt wspólny z wykresem funkcji. Może się zdarzyć, że prosta mająca dokładnie jeden punkt wspólny z wykresem nie jest styczną do tego wykresu, jak również że styczna ma więcej niż tylko jeden punkt wspólny z wykresem.{OPENAGHANNOTATION}
+Zobaczmy poniżej przykłady prostych nie będących stycznymi do wykresu funkcji, a mających tylko jeden punkt wspólny z wykresem.
+{img fileId="77" width="15em"}
+{ANAME()}fig2:pojecie_poch-ID2{ANAME}
+Również może zaistnieć sytuacja, gdy styczna do wykresu funkcji w {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} przecina wykres również w innych punktach:
+{img fileId="78" width="15em"}
+{ANAME()}fig3:def_poch-ID3{ANAME}
+
+{OPENAGHANNOTATION()}Nie w każdym punkcie ciągłości funkcji istnieje styczna do wykresu tej funkcji. Zauważmy, że w punktach, w których nie istnieje styczna do wykresu funkcji, nie istnieje również pochodna tej funkcji. Przykładem jest funkcja {OPENAGHMATHJAX()}k(x)=|x-3|{OPENAGHMATHJAX}, która w punkcie {OPENAGHMATHJAX()}x_0=3{OPENAGHMATHJAX} nie posiada ani pochodnej, ani stycznej.{img fileId="79" width="15em"}{ANAME()}fig4:def_poch-ID4{ANAME}{OPENAGHANNOTATION}
+Podajmy teraz związek stycznej z pochodną funkcji czyli wzór na styczną do wykresu funkcji.
+
+ 
+
+ 
+
+{openaghtheorem name="Równanie stycznej" assumptions="" thesis="Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX} oraz funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} będzie określona na otoczeniu {OPENAGHMATHJAX()}O(x_0){OPENAGHMATHJAX} i posiada pochodną w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}.Równanie stycznej do wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} ma postać{OPENAGHMATHJAX(type="block")}≤REAL_LT≥br≤REAL_GT≥y=f(x_0)(x-x_0)+f(x_0).≤REAL_LT≥br≤REAL_GT≥{OPENAGHMATHJAX}{ANAME()}fig4:def_poch-ID4{ANAME}"}
+ 
+
+{OPENAGHEXAMPLE()}Zastosujmy powyższe twierdzenie i wskażmy równanie stycznej do wykresu funkcji {OPENAGHMATHJAX()}f(x)=\sqrt[3]{x}{OPENAGHMATHJAX} dla argumentu {OPENAGHMATHJAX()}x=8{OPENAGHMATHJAX}.Pochodna funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} to{OPENAGHMATHJAX(type="block")}f(x)=\frac{1}{3\sqrt[3]{x^2}} \text{ dla } x\neq 0,{OPENAGHMATHJAX}{ANAME()}fig4:def_poch-ID4{ANAME}zatem{OPENAGHMATHJAX(type="block")}f(8)=\frac{1}{3\sqrt[3]{8^2}}=\frac{1}{12}\text{, a } f(8)=\sqrt[3]{8}=2.{OPENAGHMATHJAX}{ANAME()}fig4:def_poch-ID4{ANAME}Stąd{OPENAGHMATHJAX(type="block")}y=\frac{1}{12}(x-8)+2{OPENAGHMATHJAX}{ANAME()}fig4:def_poch-ID4{ANAME}czyli{OPENAGHMATHJAX(type="block")}y=\frac{1}{12}x+\frac{4}{3}.{OPENAGHMATHJAX}{ANAME()}fig4:def_poch-ID4{ANAME}{img fileId="80" width="15em"}{ANAME()}fig5:def_poch-ID5{ANAME}{OPENAGHEXAMPLE}
+Znając własności współczynnika kierunkowego prostej {OPENAGHMATHJAX()}y=ax+b{OPENAGHMATHJAX}, możemy sformułować następujące twierdzenie.
+
+ 
+
+ 
+
+{openaghtheorem name="Kąt nachylenia stycznej do dodatniej części osi Ox" assumptions="" thesis="Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX} oraz funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} będzie określona na otoczeniu {OPENAGHMATHJAX()}O(x_0){OPENAGHMATHJAX} i posiada pochodną w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}. Niech {OPENAGHMATHJAX()}\alpha{OPENAGHMATHJAX} oznacza miarę kąta między dodatnią częścią osi Ox i styczną do wykresu funkcji f w punkcie {OPENAGHMATHJAX()} (x_0, f(x_0)){OPENAGHMATHJAX}. Wtedy{OPENAGHMATHJAX(type="block")}≤REAL_LT≥br≤REAL_GT≥\tg\alpha=f(x_0).≤REAL_LT≥br≤REAL_GT≥{OPENAGHMATHJAX}{ANAME()}fig5:def_poch-ID5{ANAME}"}
+
+Jednym z zastosowań stycznej, a tym samym pochodnej funkcji, jest określenie kąta między krzywymi przecinającymi się.
+
+ 
+
+ 
+
+{OPENAGHDEFINITION( name="Kąt między krzywymi")}Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX} oraz funkcje {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} będą określone na otoczeniu {OPENAGHMATHJAX()}O(x_0){OPENAGHMATHJAX} i posiadają pochodne w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}.Niech wykresy funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} mają punkt wspólny {OPENAGHMATHJAX()}(x_0,y_0){OPENAGHMATHJAX}.__Kątem przecięcia wykresów funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}__ nazywamy kąt ostry lub prosty między stycznymi do wykresów tych funkcji w punkcie przecięcia {OPENAGHMATHJAX()}(x_0,y_0){OPENAGHMATHJAX}.{OPENAGHDEFINITION}
+
+Oprócz granicy (obustronnej) funkcji , którą jest pochodna, rozważamy również granice jednostronne. Zatem i w przypadku pochodnej, definiujemy pochodne jednostronne funkcji w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}.
+
+{OPENAGHDEFINITION( name="Pochodna jednostronna funkcji w punkcie")}Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX} oraz funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} będzie określona na otoczeniu {OPENAGHMATHJAX()}O(x_0^-){OPENAGHMATHJAX}.__Pochodną lewostronną (właściwą) funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}__ nazywamy granicę właściwą{OPENAGHMATHJAX(type="block")}f_-(x_0)=\lim\limits_{x\to x_0^-}\frac{f(x)-f(x_0)}{x-x_0}=\lim\limits_{h\to 0^-}\frac{f(x_0+h)-f(x_0)}{h}.{OPENAGHMATHJAX}{ANAME()}fig5:def_poch-ID5{ANAME}Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX} oraz funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} będzie określona na otoczeniu {OPENAGHMATHJAX()}O(x_0^+){OPENAGHMATHJAX}.__Pochodną prawostronną (właściwą) funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}__ nazywamy granicę właściwą{OPENAGHMATHJAX(type="block")}f_+(x_0)=\lim\limits_{x\to x_0^+}\frac{f(x)-f(x_0)}{x-x_0}=\lim\limits_{h\to 0^+}\frac{f(x_0+h)-f(x_0)}{h}.{OPENAGHMATHJAX}{ANAME()}fig5:def_poch-ID5{ANAME}{OPENAGHDEFINITION}
+Wykorzystując zdefiniowane pojęcia sformułujmy warunek konieczny i wystarczający istnienia pochodnej funkcji w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}.
+
+ 
+
+ 
+
+{openaghtheorem name="Istnienie pochodnej" assumptions="" thesis="Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX} oraz funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} będzie określona na otoczeniu {OPENAGHMATHJAX()}O(x_0){OPENAGHMATHJAX}.Funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma pochodną w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} wtedy i tylko wtedy, gdy {OPENAGHMATHJAX()}f_-(x_0)=f_+(x_0){OPENAGHMATHJAX}.Jeżeli pochodne jednostronne w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} są równe, to ich wspólna wartość jest równa pochodnej (obustronnej) w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}."}
+Sformułujmy dwa twierdzenia opisujące własności funkcji różniczkowalnych.
+
+ 
+
+ 
+
+{openaghtheorem name="Ciągłość funkcji różniczkowalnej" assumptions="" thesis="Jeżeli funkcja ma pochodną właściwą w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}, to jest ciągła w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}."}
+ 
+
+{OPENAGHANNOTATION()}Implikacja w przeciwnym kierunku nie jest prawdziwa. O czym świadczy wcześniejszy przykład funkcji ciągłej {OPENAGHMATHJAX()}f(x)=|x-3|{OPENAGHMATHJAX}, która nie posiada pochodnej w {OPENAGHMATHJAX()}x=3{OPENAGHMATHJAX}. Zatem zbiór funkcji różniczkowalnych jest podzbiorem funkcji ciągłych i jest to podzbiór właściwy.{OPENAGHANNOTATION}
+
+ 
+
+ 
+
+{openaghtheorem name="Pochodna funkcji elementarnej" assumptions="" thesis="Jeżeli pochodna funkcji elementarnej istnieje, to jest ona funkcją elementarną."}
+ 
+
+{OPENAGHANNOTATION()}To twierdzenie mówi, że pochodną funkcji elementarnej możemy zapisać wzorem. Jest to istotna wiadomość. Jak się przekonamy nie jest to własność oczywista - np. całka nieoznaczona (będąca operacją odwrotną do pochodnej) nie ma tej własności.{OPENAGHANNOTATION}
+Jeżeli mówimy o pochodnej funkcji myślimy o pochodnej właściwej funkcji, ale możemy również zdefiniować rzadziej rozważaną pochodną niewłaściwą.
+
+ 
+
+ 
+
+{OPENAGHDEFINITION( name="Pochodna niewłaściwa")}Niech {OPENAGHMATHJAX()}x_0\in \mathbb{R}{OPENAGHMATHJAX} oraz funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} będzie określona i ciągła na otoczeniu {OPENAGHMATHJAX()}O(x_0){OPENAGHMATHJAX}.__Funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} pochodną niewłaściwą__ , gdy{OPENAGHMATHJAX(type="block")}\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=-\infty\text{ lub }\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=+\infty.{OPENAGHMATHJAX}{ANAME()}fig5:def_poch-ID5{ANAME}Fakt, że funkcja ma w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} pochodną niewłaściwą zapisujemy:{OPENAGHMATHJAX(type="block")}f(x_0)=-\infty\text{ lub } f(x_0)=+\infty.{OPENAGHMATHJAX}{ANAME()}fig5:def_poch-ID5{ANAME}{OPENAGHDEFINITION}{OPENAGHMATHJAX( type="block")}f(x_0)=\lim\limits_{h\to 0}\frac{f(x_0+h)-f(x_0)}{h}.{OPENAGHMATHJAX}
+{ANAME()}fig5:def_poch-ID5{ANAME}
+
+Rozważamy również pochodne jednostronne funkcji, a także pochodną funkcji na przedziale. Interpretacją geometryczną pochodnej funkcji jest styczna do wykresu tej funkcji czyli prosta najlepiej przybliżająca wykres funkcji w otoczeniu danego punktu.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

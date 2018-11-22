@@ -1,0 +1,33 @@
+ Znajomość zagadnień związanych z szeroko rozumianym pojęciem energii jest konieczna dla wszelkich rozważań zarówno technologicznych, ekonomicznych, ekologicznych jak i społecznych. Żeby się o tym przekonać wystarczy sprawdzić jak istotną pozycją w budżecie domowym stanowią wydatki związane z zapotrzebowaniem na energię (zakupy żywności, opłaty za prąd, gaz, ogrzewanie czy paliwo do samochodu).
+
+     Z energią związana jest najważniejsza chyba zasada całej fizyki - zasada zachowania energii. Nakłada ona sztywne granice na przetwarzanie energii i jej wykorzystanie. Do zasady tej będziemy się odwoływali wielokrotnie w kolejnych rozdziałach dotyczących różnych zagadnień fizyki. W mechanice zasada zachowania energii pozwala obliczać w bardzo prosty sposób ruch ciał, stanowi alternatywę do stosowania zasad dynamiki Newtona.
+
+!Praca wykonana przez siłę stałą
+     W najprostszym przypadku, punkt materialny przemieszcza się pod wpływem ''stałej siły ''__''F''__. Traktując przesunięcie __''s''__ jako wektor o długości równej drodze jaką przebywa ten punkt i kierunku zgodnym z kierunkiem ruchu, możemy zdefiniować pracę ''W''.
+
+{OPENAGHDEFINITION()}Praca W wykonana przez stałą siłę F jest iloczynem skalarnym tej siły F i wektora przesunięcia ''__''s''__''.
+{OPENAGHMATHJAX()}\(W={\bf  F} \cdot{\bf s} = F s \cos\alpha\){OPENAGHMATHJAX}{OPENAGHDEFINITION}
+   
+
+{OPENAGHEXAMPLE()}Ciało o masie m (na przykład sanki) jest ciągnięte po poziomej powierzchni stałą siłą F (rysunek poniżej), a sznurek, za który ciągniemy tworzy kąt α z poziomem{OPENAGHEXAMPLE}  
+
+ 
+
+{img fileId="63" thumb="y" rel="box[g]" height="50%" desc="Ciało o masie m ciągnięte po poziomej powierzchni stałą siłą F tworzącą kąt α z poziomem"}
+  
+
+ 
+
+Praca jaką wykonał człowiek ciągnący to ciało na drodze ''s'' jest zgodnie z równaniem (7.1) równa ''Fs''cos''α'' . Zauważmy, że pracę wykonuje tylko składowa ''F{SUB()}s{SUB}'' = ''F''cos''α ''styczna do przesunięcia ''s''. Natomiast składowa pionowa ''F''sin''α'' działa w górę zmniejszając nacisk ciała na powierzchnię.
+
+     Ze wzoru (7.1) wynika, że praca może przyjmować zarówno wartości dodatnie gdy ''α'' < 90°, jak i ujemne gdy  ''α'' > 90°. W omawianym przykładzie, poza siłą ciągnącą ciało, działa jeszcze siła tarcia kinetycznego ''T'' (rysunek 7.1) przeciwstawiająca się ruchowi (''α'' = 180°). Praca wykonana przez siłę tarcia jest ujemna ''W'' = __''T·s''__ = ''Ts ''cos180° = -''Ts''. W szczególności praca może być równa zeru, gdy kierunek siły jest prostopadły do kierunku przesunięcia (''α'' = 90°, cos90° = 0). Przykładem może być siła dośrodkowa. Przyspieszenie dośrodkowe jest prostopadłe do toru więc siła dośrodkowa nie wykonuje pracy.
+
+     Rozpatrzmy jeszcze raz powyższy przykład ale w sytuacji gdy człowiek ciągnący ciało porusza się ze stałą prędkością. Z pierwszej zasady dynamiki wynika, że wtedy __''F''__''{SUB()}wyp{SUB}'' = 0. W kierunku poziomym ''F{SUB()}wyp{SUB}'' = ''F''cos''α'' − ''T'' = 0, zatem "dodatnia" praca wykonana przez człowieka jest równa co do wartości bezwzględnej "ujemnej" pracy wykonanej przez siłę tarcia.
+
+     Rozpatrzmy jeszcze raz powyższy przykład ale w sytuacji gdy człowiek ciągnący ciało porusza się ze stałą prędkością. Z pierwszej zasady dynamiki wynika, że wtedy __''F''__''{SUB()}wyp{SUB}'' = 0. W kierunku poziomym ''F{SUB()}wyp{SUB}'' = ''F''cos''α'' − ''T'' = 0, zatem "dodatnia" praca wykonana przez człowieka jest równa co do wartości bezwzględnej "ujemnej" pracy wykonanej przez siłę tarcia.
+
+Z podobna sytuacją mamy do czynienia przy podnoszeniu w górę (ze stałą prędkością) ciała o masie ''m'' na wysokość ''h ''(rysunek 7.2 obok).
+
+Zauważmy, że w trakcie podnoszenia ciała człowiek działa siłą ''F'' równą ciężarowi ale przeciwnie skierowaną, więc "dodatnia" praca ''W = mgh'' wykonana na drodze ''h'' przez siłę ''F'' (człowieka) jest równa co do wartości "ujemnej" pracy wykonanej przez siłę ciężkości. 
+
+ 

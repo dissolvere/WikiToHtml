@@ -1,0 +1,80 @@
+W wielu przypadkach funkcja, którą badamy, „nieznacznie” różni się od pewnej funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} o znanym wykresie. Wówczas możemy narysować jej wykres, stosując odpowiednie przekształcenie znanego wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}.
+
+{OPENAGHANNOTATION( name="(o przekształcaniu wykresów funkcji)")}
+
+Zakładamy, że znamy wykres {OPENAGHMATHJAX()}f:x\to f(x){OPENAGHMATHJAX}, {OPENAGHMATHJAX()}f: \mathbb R\supset D_f\to\mathbb R{OPENAGHMATHJAX}.
+
+Aby otrzymać wykres funkcji {OPENAGHMATHJAX()}g:x\to f(x)+a, a\in\mathbb R{OPENAGHMATHJAX} dokonujemy __translacji__ wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} o wektor {OPENAGHMATHJAX()}{\vec {v}}= \[ 0,a \]{OPENAGHMATHJAX}.
+
+Wykres funkcji {OPENAGHMATHJAX()}h: x\to f(x+a), a\in\mathbb R{OPENAGHMATHJAX} otrzymujemy poprzez __translację__ wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} o wektor {OPENAGHMATHJAX()}{\vec {v}}= \[ -a,0 \]{OPENAGHMATHJAX}.
+
+Funkcję {OPENAGHMATHJAX()}k:x\to \vert f(x)\vert{OPENAGHMATHJAX} rysujemy odbijając symetrycznie względem osi {OPENAGHMATHJAX()}0{\vec {x}}{OPENAGHMATHJAX} część wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} leżącą pod tą osią i pozostawiając resztę wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} bez zmian.
+
+Natomiast wykres funkcji {OPENAGHMATHJAX()}l:x\to f(\vert x\vert ){OPENAGHMATHJAX} powstanie poprzez „zignorowanie” części wykresu leżącej po lewej stronie osi {OPENAGHMATHJAX()}0{\vec {y}}{OPENAGHMATHJAX}  i umieszczenie tam odbitej symetrycznie względem tej osi części wykresu dla {OPENAGHMATHJAX()}x\le 0{OPENAGHMATHJAX} (o ile wyjściowa funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} była określona dla {OPENAGHMATHJAX()}x\le 0{OPENAGHMATHJAX}).
+
+Wykres funkcji {OPENAGHMATHJAX()}m:x\to -f(x){OPENAGHMATHJAX} powstaje poprzez __odbicie symetryczne wykresu funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} względem osi {OPENAGHMATHJAX()}0x{OPENAGHMATHJAX}__.{OPENAGHANNOTATION}
+ 
+
+{OPENAGHEXAMPLE( name="(dotyczący przekształcania wykresów funkcji)")}Naszkicujemy wykresy następujących funkcji:a) {OPENAGHMATHJAX()}f:\mathbb R\ni x\to 2^{x+3}{OPENAGHMATHJAX},b) {OPENAGHMATHJAX()}g:\mathbb R\ni\to\left({1\over 3}\right)^{x-1}+2{OPENAGHMATHJAX},c) {OPENAGHMATHJAX()}h:\mathbb R^+\ni x\to 1-\vert\log_3(x)\vert {OPENAGHMATHJAX}.{OPENAGHEXAMPLE}
+
+
+
+__Rozwiązanie__
+
+a) Rysujemy znany wykres funkcji wykładniczej {OPENAGHMATHJAX()}x\to 2^x{OPENAGHMATHJAX} o podstawie 2 (większej od 1), zaznaczając na nim przynajmniej dwa jego punkty charakterystyczne, a mianowicie {OPENAGHMATHJAX()}P_1=(0,1), P_2=(1,2){OPENAGHMATHJAX}.
+
+{img type="fileId" fileId="120"}
+ 
+
+Rys. F8a
+
+Następnie przesuwamy ten wykres „w poziomie do tyłu” o wektor {OPENAGHMATHJAX()} {\vec v}=[-3,0]{OPENAGHMATHJAX} otrzymując wykres {OPENAGHMATHJAX()}f {OPENAGHMATHJAX} (naszkicowany na czerwono).
+
+{img type="fileId" fileId="121"}
+ 
+
+Rys. F8b
+
+b) Aby naszkicować wykres {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}, wychodzimy od znanego wykresu funkcji wykładniczej {OPENAGHMATHJAX()}x\to\left({1\over 3}\right)^x{OPENAGHMATHJAX} o podstawie ułamkowej z przedziału {OPENAGHMATHJAX()}(0,1){OPENAGHMATHJAX}, na którym również zaznaczamy przynajmniej dwa jego punkty charakterystyczne.
+
+{img type="fileId" fileId="122"}
+ 
+
+Rys. F9a
+
+W następnym kroku przesuwamy ten wykres „w poziomie do przodu” o wektor {OPENAGHMATHJAX()}\vec {v}=[1,0]{OPENAGHMATHJAX} otrzymując wykres funkcji {OPENAGHMATHJAX()}x\to\left({1\over 3}\right)^{x-1}{OPENAGHMATHJAX} (naszkicowany na zielono) i na koniec dokonujemy translacji pomocniczego wykresu (zielonego) otrzymując wykres funkcji {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} (czerwony).
+
+{img type="fileId" fileId="123"}
+ 
+
+Rys. F9b
+
+Zauważmy, że wykres funkcji {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} mogliśmy otrzymać szybciej przesuwając wykres pomocniczy od razu o wektor {OPENAGHMATHJAX()}{\vec u}={\vec v}+{\vec w}{OPENAGHMATHJAX} czyli {OPENAGHMATHJAX()}{\vec u}=[1,2]{OPENAGHMATHJAX}.
+
+c) Aby naszkicować wykres funkcji {OPENAGHMATHJAX()}h:\mathbb R^+\ni x\to 1-\vert\log_3(x)\vert{OPENAGHMATHJAX}, szkicujemy znany wykres funkcji logarytmicznej o podstawie 3 (większej od 1) zaznaczając jego punkty charakterystyczne.
+
+{img type="fileId" fileId="131"}
+ 
+
+Rys. F10a
+
+Tę część wykresu {OPENAGHMATHJAX()}x\to \log_3x{OPENAGHMATHJAX}, gdzie funkcja przyjmuje wartości ujemne („leżącą pod osią {OPENAGHMATHJAX()}0{\vec x}{OPENAGHMATHJAX}”) przekształcamy poprzez symetrię względem {OPENAGHMATHJAX()}0{\vec x}{OPENAGHMATHJAX} a resztę pozostawiamy bez zmian, otrzymując wykres funkcji {OPENAGHMATHJAX()}x\to\vert\log_3x\vert{OPENAGHMATHJAX}.
+
+{img type="fileId" fileId="132"}
+ 
+
+Rys. F10b
+
+Aby otrzymać wykres {OPENAGHMATHJAX()}x\to-\vert\log_3x\vert{OPENAGHMATHJAX}
+, przekształcamy przez symetrię osiowa względem {OPENAGHMATHJAX()}0{\vec x}{OPENAGHMATHJAX} wykres {OPENAGHMATHJAX()}x\to\vert\log_3x\vert{OPENAGHMATHJAX}.
+
+{img type="fileId" fileId="133"}
+ 
+
+Rys. F10c
+
+Na koniec przesuwamy całość o wektor {OPENAGHMATHJAX()}{\vec w}=[0,1]{OPENAGHMATHJAX} otrzymując wykres funkcji {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}.
+
+{img type="fileId" fileId="134"}
+
+Rys. F10d

@@ -1,0 +1,34 @@
+ 
+Rozważmy układ punktów materialnych o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}m_3{OPENAGHMATHJAX} ..., {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} i o stałej całkowitej masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}. Na podstawie równania (9.4) możemy napisać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{M{\bf r}}_{{\text{śr}\text{.}m\text{.}}}={\sum_{i=1}^n}{m_i{\bf r}_i}}\end{equation}{OPENAGHMATHJAX}
+[9.5]
+
+Różniczkując (względem czasu) powyższe równanie otrzymujemy zgodnie z równaniami (3.1)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{M\frac{\mathit{d{\bf r}}_{{\text{śr}\text{.}m\text{.}}}}{\mathit{dt}}=\overset{{n}}{\underset{{i=1}}{\sum}}{m_{{i}}\frac{\mathit{d{\bf r}}_{{i}}}{\mathit{dt}}}}\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{M{\bf v}}_{{\text{śr}\text{.}m\text{.}}}=\overset{{n}}{\underset{{i=1}}{\sum}}{m_{{i}}{\bf v}_{{i}}}}\end{equation}{OPENAGHMATHJAX}
+[9.6]
+
+a po ponownym różniczkowaniu
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{M\frac{\mathit{d{\bf v}}_{{\text{śr}\text{.}m\text{.}}}}{\mathit{dt}}=\overset{{n}}{\underset{{i=1}}{\sum}}{m_{{i}}\frac{\mathit{d{\bf v}}_{{i}}}{\mathit{dt}}}}\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{M{\bf a}}_{{\text{śr}\text{.}m\text{.}}}=\overset{{n}}{\underset{{i=1}}{\sum}}{m_{{i}}{\bf a}_{{i}}}}\end{equation}{OPENAGHMATHJAX}
+[9.7]
+
+
+To ostatnie równanie możemy zapisać w postaci
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{M{\bf a}}_{{\text{śr}\text{.}m\text{.}}}=\overset{{n}}{\underset{{i=1}}{\sum}}{{\bf F}_{{i}}}}\end{equation}{OPENAGHMATHJAX}
+[9.8]
+
+Suma (wektorowa) wszystkich sił działających na poszczególne punkty materialne układu jest równa wypadkowej sile zewnętrznej więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{M{\bf a}}_{{\text{śr}\text{.}m\text{.}}}={\bf F}_{{\text{zew}}}}\end{equation}{OPENAGHMATHJAX}
+[9.9]
+
+Z równania (9.9) wynika, że
+
+{OPENAGHLAW( name="Ruch środka masy")}Środek masy układu punktów materialnych porusza się w taki sposób, jakby cała masa układu była skupiona w środku masy i jakby wszystkie siły zewnętrzne nań działały.{OPENAGHLAW}
+
+Z twierdzenia o ruchu środka masy wynika, że nawet ciała materialne będące układami złożonymi z dużej liczby punktów materialnych możemy w pewnych sytuacjach traktować jako pojedynczy punkt materialny. Tym punktem jest środek masy. To twierdzenie obowiązuje dla każdego układu punktów materialnych. W szczególności układ może być ciałem o budowie ciągłej (np. ciało stałe). Wtedy przy obliczeniach środka masy sumowanie występujące w równaniach (9.3), (9.4) zastępujemy całkowaniem. Układ może też być zbiorem cząstek, w którym występują wszystkie rodzaje ruchu wewnętrznego. Pojęcie środka masy jest bardzo użyteczne np. do obliczania energii kineycznej.
+
+Bardziej zaawansowany przykład wykorzystania pojęcia środka masy (do obliczania energii kinetycznej) możesz poznać w ((Energia kinetyczna w układzie środka masy))

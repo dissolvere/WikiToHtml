@@ -1,0 +1,48 @@
+!!!!# Doświadczenie Cavendisha
+
+W swoim pomiarze Cavendish wykorzystał fakt, że siła potrzebnado skręcenia długiego, cienkiego włókna kwarcowego jest bardzo mała. Natakim włóknie zawiesił pręt z dwiema małymi kulkami ołowianymi ({OPENAGHMATHJAX()}m{OPENAGHMATHJAX}) na końcach (rysunek 6.1). Następnie w pobliżu każdej zkulek umieścił większą kulę ołowianą ({OPENAGHMATHJAX()}M{OPENAGHMATHJAX}) i zmierzyłprecyzyjnie kąt {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} o jaki obrócił się pręt.
+
+Pomiar wykonany metodą Cavendisha dał wartość {OPENAGHMATHJAX()}G=6.67·10^{-11}{OPENAGHMATHJAX} Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/kg{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}.
+
+
+Znając już wartość stałej {OPENAGHMATHJAX()}G{OPENAGHMATHJAX}, Cavendish wyznaczył masę Ziemi {OPENAGHMATHJAX()}M_Z{OPENAGHMATHJAX} z równania
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{M_{{Z}}=\frac{gR_{{Z}}^{{2}}}{G}}\end{equation}{OPENAGHMATHJAX}
+[6.4]
+
+ {img fileId="354"}
+Rys. 6.1. Doświadczenie Cavendisha
+
+Cavendish wyznaczył też masę Słońca i masy planet, tych których satelity zostały zaobserwowane.
+
+{OPENAGHEXAMPLE( name="Ruch planet wokół słońca")}
+
+Rozpatrzmy ruch planety o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} krążącej w odległości {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} wokół Słońca o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}. Wtedy siła przyciągania grawitacyjnego wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{F=G\frac{Mm}{R^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[6.5]
+
+a ponieważ przyspieszenie w ruchu po okręgu jest dane wyrażeniem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a=\frac{4\pi ^{{2}}R}{T}}\end{equation}{OPENAGHMATHJAX}
+[6.6]
+
+to równanie (6.5) przyjmuje postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{G\frac{Mm}{R^{{2}}}=m\left(\frac{4\pi^{{2}}R}{T^{{2}}}\right)}\end{equation}{OPENAGHMATHJAX}
+[6.7]
+
+skąd otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{M=\frac{4\pi ^{{2}}R^{{3}}}{GT^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[6.8]
+
+{OPENAGHEXAMPLE}
+ 
+
+{openaghexercise name="Okres obiegu Apollo" body="Oblicz jaki był okres obiegu Księżyca przez moduł statku Apollo? Dane są: promień Księżyca {OPENAGHMATHJAX()}R_K = 1740{OPENAGHMATHJAX} km, jego masa {OPENAGHMATHJAX()}m_K= 7.35·10^{22}{OPENAGHMATHJAX} kg oraz stała {OPENAGHMATHJAX()}G = 6.67·10^{-11}{OPENAGHMATHJAX}Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/kg{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. Wynik zapisz poniżej.Wskazówka: Skorzystaj z równania (6.7).{OPENAGHMATHJAX()}T={OPENAGHMATHJAX}" solution="Dane: {OPENAGHMATHJAX()}R_K= 1740 {OPENAGHMATHJAX} km,{OPENAGHMATHJAX()}m_K= 7.35·10^{22}{OPENAGHMATHJAX} kg,{OPENAGHMATHJAX()}G = 6.67·10^{–11}{OPENAGHMATHJAX}Nm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}/kg{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}Do obliczenia okresu obiegu Księżyca przez statek Apollo korzystamy zrównania (6.7), które przyjmuje postać{OPENAGHMATHJAX( type="block")}\begin{equation}{G\frac{M_{{K}}m}{R^{{2}}}=m\left(\frac{4\pi ^{{2}}R}{T^{{2}}}\right)}\end{equation}{OPENAGHMATHJAX}gdzie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}mjest masą pojazdu kosmicznego. Po przekształceniach otrzymujemy{OPENAGHMATHJAX( type="block")}\begin{equation}{T=2\pi \sqrt{\frac{R^{{3}}}{GM_{{K}}}}}\end{equation}{OPENAGHMATHJAX}a po podstawieniu danych {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} {OPENAGHMATHJAX()}_{K}= 6.5·10^{3}{OPENAGHMATHJAX} s czyli 108 minut."}
+
+ 
+
+{openaghexercise name="Masa słońca" body="Na podstawie wzoru (6.8) oblicz masę Słońca przyjmując odległość Ziemia - Słońce równą {OPENAGHMATHJAX()}R=1.5\times 10^8{OPENAGHMATHJAX} km, oraz okres obiegu {OPENAGHMATHJAX()}T=1{OPENAGHMATHJAX} rok. Porównaj ten wynik z masą Ziemi obliczoną na podstawie równania (6.4). Ile razy masa Słońca jest większa od masy Ziemi? Wynik zapisz poniżej.{OPENAGHMATHJAX()}m_s=m_Z=M_{S }{OPENAGHMATHJAX}/{OPENAGHMATHJAX()}M_Z{OPENAGHMATHJAX}=" solution="Dane: {OPENAGHMATHJAX()}R= 1.5·10^{8}{OPENAGHMATHJAX} km {OPENAGHMATHJAX()} = 1.5·10^{11}{OPENAGHMATHJAX} m, {OPENAGHMATHJAX()}T= 1{OPENAGHMATHJAX}  rok {OPENAGHMATHJAX()}= 3.154·10^{7}{OPENAGHMATHJAX} s. Masę Słońca obliczamy z zależności (6.8) {OPENAGHMATHJAX()}M_S=\frac{4\pi^2R^3}{GT^2}{OPENAGHMATHJAX}Otrzymujemy {OPENAGHMATHJAX()}m_s=2·10^{30 }{OPENAGHMATHJAX}kg.Natomiast masę Ziemi obliczmy ze wzoru (6.4) {OPENAGHMATHJAX()}{M_{{Z}}=\frac{gR_{{Z}}^{{2}}}{G}}{OPENAGHMATHJAX}Otrzymujemy {OPENAGHMATHJAX()}m_Z=5.97·10^{24 }{OPENAGHMATHJAX}kg oraz {OPENAGHMATHJAX()}m_s{OPENAGHMATHJAX} / {OPENAGHMATHJAX()}m_Z= 3.3·10^{5}{OPENAGHMATHJAX}."}
+ 

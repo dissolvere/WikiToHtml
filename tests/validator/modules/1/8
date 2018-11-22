@@ -1,0 +1,56 @@
+{img fileId="
+81
+" thumb="y" rel="
+box[g]
+"}
+ 
+
+{img fileId="126" thumb="y" rel="box[g]"}
+ 
+
+{openaghtheorem thesis="Każda funkcja ciągła jest całkowalna"}{img type="fileId" fileId="128"}
+ 
+
+{OPENAGHDEFINITION()}
+Niech funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} będzie określona na otoczeniu punktu {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} 
+Pochodną funkcji nazywamy{OPENAGHDEFINITION}
+
+
+{OPENAGHMATHJAX( type="
+inline
+")}\frac{x-3y}{34-x^2}=x\cdot \arcsin\frac{x}{y}{OPENAGHMATHJAX} 
+
+{OPENAGHMATHJAX( type="
+inline
+")}x^3-y^3=\sqrt{x-3}{OPENAGHMATHJAX} 
+
+cos tamammama
+
+{OPENAGHMATHJAX( type="block")}x^3{OPENAGHMATHJAX} 
+{OPENAGHMATHJAX( type="block")}x^3{OPENAGHMATHJAX} \( x^3-y^3=\sqrt{x-3} \)  
+
+
+\( x^3-y^3=\sqrt{x-3} \)  
+
+ Twierdzenie,
+Definicja
+
+Zakładam, że:
+
+1. funkcja f ma pochodną ciągłą
+
+2. funkcja g jest ciągła
+
+to
+
+pole powierzchni wyraża się wzorem
+
+{img fileId="129" thumb="y" rel="box[g]"}
+ 
+
+ 
+
+deeee
+
+{img fileId="130" thumb="y" rel="box[g]"}
+ale szajs

@@ -1,0 +1,46 @@
+
+
+Dotychczas zajmowaliśmy się zderzeniami cząstek w przestrzeni jednowymiarowej. Teraz rozpatrzymy najprostszy przypadek wielowymiarowy; zajmiemy się zderzeniami sprężystymi na płaszczyźnie. Zaczniemy od analizy zderzenia sprężystego ukośnego kuli o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i prędkości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} ze ścianą. Naszym celem jest znalezienie prędkości kuli po zderzeniu.
+
+Ruch kuli opisujemy w układzie współrzędnych {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} związanym ze ścianą, oś {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} pokazuje kierunek prostopadły do ściany, y {}- kierunek równoległy, a początek układu umieszczamy na powierzchni ściany w punkcie zderzenia. W tak wybranym układzie współrzędnych rozkładamy na składowe wektor prędkości{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} (rysunek 10.3)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{v_{{x}}=v\cos\alpha }\\v_{{y}}=v\sin\alpha  \end{matrix} \end{equation}{OPENAGHMATHJAX}
+[10.8] 
+
+Na przykładzie rzutu ukośnego (punkt 3.2) pokazaliśmy, że taki ruch na płaszczyźnie można traktować jak dwa niezależne ruchy jednowymiarowe. Ruch kuli w kierunku y odbywa się równolegle do ściany więc składowa {OPENAGHMATHJAX()}v_{y}{OPENAGHMATHJAX} nie ulega zmianie przy odbiciu. Natomiast składowa prostopadła do powierzchni ściany, po zderzeniu zmienia znak na przeciwny, kula odbija się od ściany jak w przykładzie (b) w poprzednim rozdziale. Stąd prędkość kuli po zderzeniu (odbiciu się od ściany)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{u=\sqrt{v_{{x}}^{{2}}+v_{{y}}^{{2}}}=\sqrt{(-v\cos\alpha)^{{2}}+(v\sin\alpha )^{{2}}}=v}\end{equation}{OPENAGHMATHJAX}
+[10.8]
+
+Prędkość po odbiciu od ściany jest taka sama jak przed odbiciem, a kąt odbicia jest równy kątowi padania (rysunek poniżej).
+
+{img fileId="443"}
+Rys. 10.3.  Sprężyste zderzenie kuli ze ścianą
+
+Teraz rozpatrzymy ukośne, sprężyste zderzenie kuli bilardowej poruszającej się z prędkością {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX} z drugą identyczną spoczywająca kulą. Takie zagranie stosuje się, żeby skierować wybraną kulę pod pewnym kątem w bok. Dzieje się tak, gdy środek kuli spoczywającej nie leży na linii wzdłuż, której porusza się pierwsza kula. Takie zderzenie jest pokazane na rysunku poniżej.
+
+{img fileId="428"}
+Rys. 10.4.  Zderzenia kul bilardowych
+
+
+Zgodnie z zasadą zachowania pędu i zasadą zachowania energii
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m{\bf v}_{{1}}=m{\bf u}_{{1}}+m{\bf u}_{{2}}}\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}{\frac{mv_{{1}}^{{2}}}{2}=\frac{mu_{{1}}^{{2}}}{2}+\frac{mu_{{2}}^{{2}}}{2}}{OPENAGHMATHJAX}
+[10.10]
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf v}_{{1}}={\bf u}_{{1}}+{\bf u}_{{2}}}\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{{1}}^{{2}}=u_{{1}}^{{2}}+u_{{2}}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+[10.11]
+
+Z równań tych wynika, że wektory {OPENAGHMATHJAX()}{\bf v}_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}{\bf u}_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}{\bf u}_{2}{OPENAGHMATHJAX} tworzą boki trójkąta prostokątnego (twierdzenie Pitagorasa) tak jak na rysunku 10.5.
+
+{img fileId="437"}
+Rys. 10.5. Prędkości kul przed i po zderzeniu
+
+Oznacza to, że dla dowolnego kąta {OPENAGHMATHJAX()}\alpha (0,\pi/2 ){OPENAGHMATHJAX} po zderzeniu kule będą zawsze poruszały się względem siebie pod kątem prostym. Wartość kąta {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} zależy natomiast od tak zwanego parametru zderzenia czyli odległości między pierwotnym kierunkiem ruchu kuli pierwszej, a środkiem kuli spoczywającej. 
+
+Możesz prześledzić wynik sprężystego zderzenia dwu kul w zależności od 'prędkości względnej kul i stosunku ich mas oraz parametru zderzenia, korzystając z programu komputerowego „Zderzenia sprężyste w dwóch wymiarach”, dostępnego na stronie WWW autora.
+
+

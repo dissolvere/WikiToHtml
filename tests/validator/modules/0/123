@@ -1,0 +1,10 @@
+ W odróżnieniu od __statycznej siły nośnej__, którą jest siła wyporu działającą zgodnie z prawem Archimedesa na przykład na balon czy statek, __dynamiczna siła nośna__ wywołana jest ruchem ciał w płynie, na przykład na skrzydła samolotu czy śmigła helikoptera. Na rysunku poniżej pokazane są schematycznie linie prądu i ruch cząstek powietrza wokół skrzydła samolotu.
+{img fileId="394" } 
+Rys. 14.10. Linie prądu wokół skrzydła samolotu
+
+Samolot wybieramy jako układ odniesienia i rozpatrujemy ruch powietrza względem skrzydła.
+
+Analizując linie prądu zauważymy, że ze względu na ustawienie skrzydła (tak zwany kąt natarcia) linie prądu nad skrzydłem są rozmieszczone gęściej niż pod skrzydłem co oznacza, że prędkość {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX} powietrza ponad skrzydłem jest większa niż prędkość {OPENAGHMATHJAX()}v_{2 }{OPENAGHMATHJAX} pod skrzydłem. Prowadzi to do wniosku, zgodnie z prawem Bernoulliego, że ciśnienie nad skrzydłem jest mniejsze od ciśnienia pod skrzydłem i że otrzymujemy wypadkową siłę nośną {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} skierowaną ku górze. Wniosek ten wynika wprost z trzeciej zasady dynamiki Newtona. Wektor prędkości {OPENAGHMATHJAX()}v_{a}{OPENAGHMATHJAX} powietrza zbliżającego się do skrzydła jest poziomy podczas gdy powietrze za skrzydłem jest skierowane na ukos w dół (prędkość {OPENAGHMATHJAX()}v_{b}{OPENAGHMATHJAX} ma składową pionową). Oznacza to, że skrzydło pchnęło powietrze w dół więc w reakcji powietrze pchnęło skrzydło do góry.
+
+W naszych rozważaniach pominęliśmy siłę oporu powietrza tak zwaną siłę oporu czołowego. W warunkach rzeczywistych siła nośna jest wypadkową przedstawionej powyżej siły parcia wynikającej zasymetrycznej budowy skrzydła i siły oporu czołowego. Przy konstrukcji skrzydeł jak i śmigieł staramy się zminimalizować opór czołowy. Ta sama siła oporu czołowego wpływa znacząco na zużycie paliwa w samochodach. Dlatego tak wielką wagę konstruktorzy przywiązują do optymalizacji kształtu nadwozia samochodów.
+

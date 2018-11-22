@@ -1,0 +1,124 @@
+W ruchu harmonicznym tłumionym amplituda, a co za tym idzie i energia drgań maleje z czasem do zera. Jeżeli chcemy podtrzymać drgania to musimy działać odpowiednią siłą zewnętrzną {OPENAGHMATHJAX()}F(t){OPENAGHMATHJAX} przyłożoną do oscylatora. Siłę taką nazywamy __siłą wymuszającą__. W przypadku drgań harmonicznych zewnętrzna siła wymuszająca jest siłą okresowo zmienną postaci
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{F(t)=F_{{0}}\sin{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+Zwróćmy uwagę na to, że siła wymuszająca działa przez cały czas i nie należy jej mylić z krótkotrwałymi impulsami takimi jakie na przykład stosujemy gdy chcemy podtrzymać wahania huśtawki popychając raz na jakiś czas.
+
+Jeżeli uwzględnimy siłę wymuszającą to zgodnie z drugą zasadą dynamiki
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{{ma}=-{kx}-\gamma\frac{{dx}}{{dt}}+F(t)}\end{equation}{OPENAGHMATHJAX}
+
+lub korzystając z równań (3.1)
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{m\frac{d^{{2}}x}{{dt}^{{2}}}=-{kx}-\gamma\frac{{dx}}{{dt}}+F(t)}\end{equation}{OPENAGHMATHJAX}
+
+Po podstawieniu wyrażenia na siłę wymuszającą (12.34) i wprowadzeniu nowych stałych
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau =\frac{m}{\gamma }\;,\;\;\omega_{{0}}^{{2}}=\frac{k}{m}\;\;\text{oraz}\;\;\alpha_{{0}}=\frac{F_{{0}}}{m}}\end{equation}{OPENAGHMATHJAX}
+
+otrzymujemy równanie analogiczne do równania (12.30) dla ruchu tłumionego
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\frac{d^{{2}}x}{{dt}^{{2}}}+\frac{1}{\tau}\frac{{dx}}{{dt}}+\omega _{{0}}^{{2}}x=\alpha_{{0}}\sin{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+Ponownie {OPENAGHMATHJAX()}\omega_{0}{OPENAGHMATHJAX} jest częstością własną układu, to jest częstością drgań swobodnych gdy nie działa siła zewnętrzna i nie ma tarcia ani innych sił oporu, a {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} stałą czasową związaną ze współczynnikiem tłumienia {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX} relacją
+
+{OPENAGHMATHJAX()}{\beta =1/2\tau }{OPENAGHMATHJAX}.
+
+Zauważmy ponadto, że układ jest zasilany z częstością {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} różną od częstości własnej {OPENAGHMATHJAX()}\omega_{0}{OPENAGHMATHJAX}. W takiej sytuacji
+
+{OPENAGHCONCLUSION()}Drgania (wymuszone) odbywają się z częstością siły zewnętrznej, a nie z częstością własną.{OPENAGHCONCLUSION} 
+
+W równaniu (12.38) mamy dwie wielkości okresowo zmienne: położenie {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} oraz siłę wymuszającą {OPENAGHMATHJAX()}F(t){OPENAGHMATHJAX}. W najogólniejszym przypadku suma (złożenie) dwóch funkcji okresowych daje w wyniku też funkcję okresową, jak pokazuje poniższy rysunek.
+
+{img fileId="181"}
+
+Rys. 12.7. Złożenie dwóch funkcji okresowych
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{A_{{1}}\cos{\omega t}+A_{{2}}\sin{\omega t}=A\sin({\omega t}+\varphi )}\end{equation}{OPENAGHMATHJAX}
+
+Szukamy więc rozwiązania równania (12.38) w postaci
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{x(t)=A\sin({\omega t}+\varphi )}\end{equation}{OPENAGHMATHJAX}
+
+Jak widać z porównania równań (12.34) i powyższego równania (12.40) przesunięcie fazowe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} mówi nam o jaki kąt maksimum przemieszczenia wyprzedza maksimum siły (czyli o ile są przesunięte względem siebie funkcje sinus opisujące wychylenie (12.40) i siłę (12.34)).
+
+Żeby znaleźć rozwiązanie musimy wyznaczyć amplitudę {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} oraz przesunięcie fazowe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. W tym celu obliczamy odpowiednie pochodne funkcji (12.40) i podstawiamy do równania (12.38).
+
+Więcej o wyznaczeniu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} możesz przeczytać w Dodatku 5, na końcu modułu III.
+
+W wyniku otrzymujemy warunek na przesunięcie fazowe
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\frac{\sin\varphi }{\cos\varphi}={tg}\varphi =\frac{\omega /\tau }{\omega_{{0}}^{{2}}-\omega ^{{2}}}=\frac{2\beta\omega }{\omega _{{0}}^{{2}}-\omega ^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+i wyznaczamy amplitudę
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{A=\frac{\alpha _{{0}}}{[(\omega _{{0}}^{{2}}-\omega^{{2}})^{{2}}+(\omega /\tau )^{{2}}]^{{1/2}}}=\frac{\alpha_{{0}}}{[(\omega _{{0}}^{{2}}-\omega ^{{2}})^{{2}}+4\beta ^{{2}}\omega^{{2}}]^{{1/2}}}}\end{equation}{OPENAGHMATHJAX}
+
+Łącząc powyższe wzory otrzymujemy rozwiązanie
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{x(t)=\frac{\alpha _{{0}}}{[(\omega _{{0}}^{{2}}-\omega^{{2}})^{{2}}+4\beta ^{{2}}\omega^{{2}}]^{{1/2}}}\;\sin\left({\omega t}+{ar}{ctg}\frac{2{{\beta\omega}}}{\omega _{{0}}^{{2}}-\omega ^{{2}}}\right)}\end{equation}{OPENAGHMATHJAX}
+
+Równanie wygląda skomplikowanie ale pamiętajmy, że jest to rozwiązanie postaci {OPENAGHMATHJAX()}{x(t)=A\sin({\omega t}+\varphi )}{OPENAGHMATHJAX}.
+
+!!!!#   Rezonans
+
+Zauważmy, że chociaż drgania odbywają się z częstością {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} siły wymuszającej to amplituda i faza zależą od relacji pomiędzy częstością wymuszającą {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, a częstością własną {{OPENAGHMATHJAX()}\omega_0{OPENAGHMATHJAX}}. W szczególności gdy siła wymuszająca osiągnie odpowiednią częstotliwość, to amplituda drgań może wzrosnąć gwałtownie nawet przy niewielkiej wartości siły wymuszającej. To zjawisko nazywamy __rezonansem__.
+
+Wykres przedstawiający rezonansowy wzrost amplitudy drgań w funkcji częstości siły wymuszającej pokazany jest na rysunku poniżej, dla różnych wartości współczynnika tłumienia {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX}.
+
+{img type="fileId" fileId="182" width="200px"}
+
+Rys. 12.8. Krzywe rezonansu dla różnych wartości współczynnika tłumienia {OPENAGHMATHJAX()}\beta \; (\beta_0 < \beta_1 < \beta_{2} < \beta_{3} < \beta_{4}) {OPENAGHMATHJAX}
+
+Liniami przerywanymi zaznaczono częstości rezonansowe to jest wartości częstości siły wymuszającej, dla której amplituda drgań jest maksymalna. Odpowiadająca jej amplituda nazywana jest __amplitudą rezonansową__.
+
+Częstość rezonansową {OPENAGHMATHJAX()}\omega_{r}{OPENAGHMATHJAX} i amplitudę rezonansową {OPENAGHMATHJAX()}A_{r}{OPENAGHMATHJAX} możemy obliczyć z warunku na maksimum amplitudy drgań danej wzorem (12.42).
+
+Funkcja {OPENAGHMATHJAX()}A(\omega) {OPENAGHMATHJAX} osiąga maksimum dla częstości rezonansowej {OPENAGHMATHJAX()}\omega_{r}{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{\omega _{{r}}=\sqrt{\omega _{{0}}^{{2}}-2\beta ^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+Podstawiając tę wartość do wzoru na amplitudę otrzymujemy wyrażenie na amplitudę rezonansową {OPENAGHMATHJAX()}A_{r}{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{A_{{r}}=\frac{\alpha _{{0}}}{2\beta \sqrt{\omega _{{0}}^{{2}}-\beta^{{2}}}}}\end{equation}{OPENAGHMATHJAX}
+
+Widzimy, że dla drgań swobodnych, nietłumionych {OPENAGHMATHJAX()}\beta \rightarrow 0 {OPENAGHMATHJAX} częstość rezonansowa {{OPENAGHMATHJAX}\omega_{r}{OPENAGHMATHJAX} jest równa częstości drgań swobodnych {OPENAGHMATHJAX()}\omega_{0}{OPENAGHMATHJAX}, a amplituda rezonansowa {OPENAGHMATHJAX()}A_{r} \rightarrow \infty{OPENAGHMATHJAX}. W miarę wzrostu tłumienia wartość amplitudy rezonansowej {OPENAGHMATHJAX()}A_{r}{OPENAGHMATHJAX} maleje, a częstość rezonansowa przesuwa się w stronę częstości mniejszych od {{OPENAGHMATHJAX()}\omega_{0}{OPENAGHMATHJAX}. Dla bardzo dużego tłumienia rezonans nie występuje, maksymalna amplituda występuje dla częstości bliskiej zeru.
+
+Dla drgań swobodnych, dla których {OPENAGHMATHJAX()}\omega_{r} = \omega_0{OPENAGHMATHJAX} przesunięcie fazowe pomiędzy siłą, a wychyleniem, dane równaniem (12.41) jest równe {OPENAGHMATHJAX()}\varphi = \pi/2 {OPENAGHMATHJAX}. Oznacza to, że siła wymuszająca nie jest zgodna w fazie z wychyleniem. Zauważmy jednak, że moc pochłaniana przez oscylator zasilany siłą wymuszającą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} zależy od prędkości
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{P = Fv}\end{equation}{OPENAGHMATHJAX}
+
+Warunek uzyskania rezonansu odpowiada maksimum mocy pochłanianej przez oscylator. Trzeba więc, zgodnie z powyższym wzorem, żeby to prędkość (a nie wychylenie) była zgodna w fazie z siłą, a to oznacza, że siła musi wyprzedzać wychylenie o {OPENAGHMATHJAX()}\pi/2 {OPENAGHMATHJAX}.
+
+Więcej o mocy absorbowanej przez oscylator możesz przeczytać w Dodatku 6, na końcu modułu III.
+
+Na poniższym filmie przedstawiono przykład wystąpienia rezonansu w układzie wahadeł.
+
+{youtube movie="tCZ9_RfuGmw" alt="Film obrazujący rezonans w układzie wahadeł" imageId="168"}
+
+
+Skutki rezonansu mogą być zarówno pozytywne jak i negatywne. Z jednej strony staramy się wyeliminować przenoszenie drgań na przykład z silnika na elementy nadwozia w samochodzie, a z drugiej strony działanie odbiorników radiowych i telewizyjnych jest możliwe dzięki wykorzystaniu rezonansu elektrycznego. Dostrajając odbiornik do częstości nadajnika spełniamy właśnie warunek rezonansu. Zjawisko rezonansu jest bardzo rozpowszechnione w przyrodzie.
+
+Słynnym negatywnym skutkiem wystąpienia rezonansu jest zawalenie się mostu Tacoma w USA w 1940 roku. Film przedstawiający tę katastrofę budowlaną można znaleźć m.in [http://www.youtube.com/results?search_query=tacoma bridge|w serwisie youtube]

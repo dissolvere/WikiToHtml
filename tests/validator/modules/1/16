@@ -1,0 +1,2276 @@
+!#Praca i energia
+Znajomość zagadnień związanych z szeroko rozumianym pojęciem
+energii jest konieczna dla wszelkich rozważań zarówno technologicznych,
+ekonomicznych, ekologicznych jak i społecznych. Żeby się o tym
+przekonać wystarczy sprawdzić jak istotną pozycją w budżecie domowym
+stanowią wydatki związane z zapotrzebowaniem na energię (zakupy
+żywności, opłaty za prąd, gaz, ogrzewanie czy paliwo do samochodu).
+{
+Z energią związana jest najważniejsza chyba zasada całej
+fizyki - zasada zachowania energii. Nakłada ona sztywne granice na
+przetwarzanie energii i jej wykorzystanie. Do zasady tej będziemy się
+odwoływali wielokrotnie w kolejnych rozdziałach dotyczących różnych
+zagadnień fizyki. W mechanice zasada zachowania energii pozwala
+obliczać w bardzo prosty sposób ruch ciał, stanowi alternatywę do
+stosowania zasad dynamiki Newtona.}
+!!!#Praca wykonana przez siłę stałą
+{
+W najprostszym przypadku, punkt materialny przemieszcza się
+pod wpływem stałej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}. Traktując
+przesunięcie {OPENAGHMATHJAX()}s{OPENAGHMATHJAX} jako wektor o długości równej drodze
+jaką przebywa ten punkt i kierunku zgodnym z kierunkiem ruchu, możemy
+zdefiniować pracę {OPENAGHMATHJAX()}W{OPENAGHMATHJAX}. }
+Definicja
+
+Praca W wykonana przez stałą siłę
+{OPENAGHMATHJAX()}F{OPENAGHMATHJAX} jest iloczynem skalarnym tej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} i wektora
+przesunięcia {OPENAGHMATHJAX()}s{OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=F\cdot s=Fs\({\cos}\)\alpha }
+\end{equation}{OPENAGHMATHJAX}
+[7.1]
+
+{
+gdzie {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} jest kątem między kierunkami siły i
+przesunięcia. Zwróćmy uwagę, że kąt {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} może być różny
+od zera bo stała siła nie musi mieć kierunku zgodnego z kierunkiem
+ruchu punktu materialnego. Dzieje się tak gdy działają jeszcze inne
+siły (np. ciężar, tarcie). Ale nawet gdy działała tylko jedna siła to
+i tak ciało nie musi poruszać się w kierunku jej działania np. siła
+grawitacji w rzucie ukośnym. Rozpatrzmy teraz następujący przykład.}
+Przykład
+
+{
+Ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} ( na przykład sanki) jest ciągnięte po poziomej
+powierzchni stałą siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (rysunek poniżej), a sznurek, za
+który ciągniemy tworzy kąt {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} z poziomem. }
+{  {img fileId="430" } }
+{
+Rys. 7.1.  Ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} ciągnięte po poziomej powierzchni
+stałą siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}
+}
+{
+tworzącą kąt {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} z poziomem
+}
+{
+Praca jaką wykonał człowiek ciągnący to ciało na drodze {OPENAGHMATHJAX()}s{OPENAGHMATHJAX} jest
+zgodnie z równaniem (7.1) równa {OPENAGHMATHJAX()}Fs{OPENAGHMATHJAX}cos{OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} .
+Zauważmy, że pracę wykonuje tylko składowa
+{OPENAGHMATHJAX()}F_s={OPENAGHMATHJAX}{OPENAGHMATHJAX()}F{OPENAGHMATHJAX}cos{{OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX}
+}styczna do przesunięcia {OPENAGHMATHJAX()}s{OPENAGHMATHJAX}. Natomiast składowa pionowa
+{OPENAGHMATHJAX()}F{OPENAGHMATHJAX}sin{OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} działa w górę zmniejszając nacisk ciała
+na powierzchnię.}
+{
+Ze wzoru (7.1) wynika, że praca może przyjmować zarówno
+wartości dodatnie gdy {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} {\textless} 90°, jak i ujemne
+gdy  {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} {\textgreater} 90°. W omawianym przykładzie,
+poza siłą ciągnącą ciało, działa jeszcze siła tarcia kinetycznego
+{OPENAGHMATHJAX()}T{OPENAGHMATHJAX} (rysunek 7.1) przeciwstawiająca się ruchowi ({{OPENAGHMATHJAX()}\alpha
+{OPENAGHMATHJAX()}} = 180°). Praca wykonana przez siłę tarcia jest ujemna {OPENAGHMATHJAX}W{OPENAGHMATHJAX} =
+{OPENAGHMATHJAX()}T\cdot s{OPENAGHMATHJAX}  = {OPENAGHMATHJAX()}Ts{OPENAGHMATHJAX} cos180° = -{OPENAGHMATHJAX()}Ts{OPENAGHMATHJAX}.
+W szczególności praca może być równa zeru, gdy kierunek siły jest
+prostopadły do kierunku przesunięcia ({OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} = 90°, cos90°
+= 0). Przykładem może być siła dośrodkowa. Przyspieszenie dośrodkowe
+jest prostopadłe do toru więc siła dośrodkowa nie wykonuje pracy.}
+{
+Rozpatrzmy jeszcze raz powyższy przykład ale w sytuacji gdy
+człowiek ciągnący ciało porusza się ze stałą prędkością. Z pierwszej
+zasady dynamiki wynika, że wtedy
+{OPENAGHMATHJAX()}F_{wyp}{OPENAGHMATHJAX} = 0. W kierunku
+poziomym
+{OPENAGHMATHJAX()}F_{wyp}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}cos{{OPENAGHMATHJAX()}\alpha
+{OPENAGHMATHJAX()}} {OPENAGHMATHJAX}- T{OPENAGHMATHJAX} = 0, zatem "dodatnia"
+praca wykonana przez człowieka jest równa co do wartości bezwzględnej
+"ujemnej" pracy wykonanej przez siłę
+tarcia.}
+{ Z podobna sytuacją mamy do czynienia przy
+podnoszeniu w górę (ze stałą prędkością) ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} na
+wysokość h (rysunek 7.2 obok).}
+Zauważmy, że w trakcie podnoszenia ciała
+człowiek działa siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} równą ciężarowi ale przeciwnie
+skierowaną, więc "dodatnia" praca {W
+= mgh} wykonana na drodze {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} przez siłę {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (człowieka)
+jest równa co do wartości "ujemnej" pracy
+wykonanej przez siłę ciężkości.  
+{  {img fileId="431" } }
+Rys. 7.2.  Podnoszenie
+ciężaru na wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}
+
+{ Ćwiczenie
+7.1}
+
+{ Teraz gdy znasz
+już definicję pracy spróbuj samodzielnie odpowiedzieć na proste pytania
+związane z następującym ćwiczeniem:}
+
+Wyobraź sobie, że podnosisz książkę na półkę,
+tak jak pokazano to na rysunku obok. W pierwszym kroku podnosisz
+książkę z położenia (1) i umieszczasz ją na półce (położenie 2).
+Następnie przenosisz książkę poziomo ze stałą prędkością na inne
+miejsce na półce (położenie 3). Jaki znak ma praca wykonana przez
+ciebie na odcinku 1-2 i 1-3, a jaki znak ma praca wykonana przez siłę
+ciężkości? Tarcie i wszelkie opory pomijamy. 
+{img fileId="432" } 
+
+{
+Wzór (7.1) pozwala obliczyć pracę dla siły stałej; do obliczeń
+"podstawiamy" za {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} konkretną jej
+wartość. Teraz poznamy jak obliczyć pracę gdy siła zmienia się,
+przyjmuje różne wartości.}
+!!!#Praca wykonana przez siłę zmienną
+{Praca wykonana przez siłę
+zmienną}
+{
+Rozważmy teraz siłę będącą funkcją położenia{
+F}{OPENAGHMATHJAX()}(x){OPENAGHMATHJAX}, której kierunek jest zgodny z osią {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Szukamy
+pracy jaką wykona ta siła przy przesuwaniu ciała od położenia
+{OPENAGHMATHJAX()}x_1{OPENAGHMATHJAX} do położenia {OPENAGHMATHJAX()}x_2{OPENAGHMATHJAX}.
+Jak już mówiliśmy wzór {OPENAGHMATHJAX()}W={OPENAGHMATHJAX}{OPENAGHMATHJAX()}F\cdot s{OPENAGHMATHJAX}  pozwala
+obliczyć pracę dla stałej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} . Natomiast gdy wartość siły
+zmienia się, na przykład tak jak na rysunkach 7.3 (linia ciągła) trzeba
+stosować inny algorytm.}
+{  {img fileId="450" } }
+{
+Rys. 7.3a.  Zmienna siła {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} przybliżona ciągiem
+stałych wartości {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX}
+}
+{
+Zacznijmy od zastosowania przybliżenia. Dzielimy całkowite
+przemieszczenie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} na {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} jednakowych odcinków {OPENAGHMATHJAX()}\Delta
+x{OPENAGHMATHJAX()} tak jak na rysunku. Wewnątrz takiego przedziału {OPENAGHMATHJAX}\Delta {OPENAGHMATHJAX}x
+przyjmujemy (i to jest to przybliżenie), że siła jest stała i możemy
+już teraz skorzystać ze wzoru (7.1) do obliczenia pracy w dowolnym
+przedziale {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{\Delta W}_{{i}}=F_{{i}}\mathit{\Delta x}_{{i}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.2]
+
+{
+gdzie {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX} jest wartością siły na
+{OPENAGHMATHJAX()}i{OPENAGHMATHJAX} {}-tym odcinku {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX}. Następnie sumujemy prace
+wykonane na poszczególnych odcinkach otrzymując całkowitą pracę }
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=\overset{{n}}{\underset{{i=1}}{\sum }}{F_{{i}}\mathit{\Delta x}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.3]
+
+{
+Zwróćmy uwagę, że od strony czysto formalnej {liczenie pracy jest
+równoważne liczeniu sumy powierzchni} kolejnych prostokątów o podstawie
+{OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX} i wysokości {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX}.}
+{
+Możemy "poprawić" nasze
+przybliżenie. W tym celu, w kolejnym kroku  dzielimy przedział
+({OPENAGHMATHJAX()}x_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x_2{OPENAGHMATHJAX}) na więcej
+(mniejszych) odcinków {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX}, tak jak pokazano na rysunku
+7.3b. Widać, że nowe przybliżenie jest lepsze. Wartości sił
+{OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX} dla poszczególnych przedziałów są
+znacznie bliższe rzeczywistej funkcji {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX}, a co za
+tym idzie obliczona (wzór 7.3) wartość pracy całkowitej jest bliższa
+wartości rzeczywistej (pola powierzchni prostokątów bardziej pokrywają
+się z polem pod krzywą).}
+\clearpage{  {img fileId="439" } }
+{
+Rys. 7.3b.  Zmienna siła {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} przybliżona ciągiem
+stałych wartości {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX}
+}
+{
+Widać, że rozwiązaniem problemu jest przejście (w granicy) {OPENAGHMATHJAX()}\Delta
+{OPENAGHMATHJAX}x \ding{213} 0.Stosujemy tę samą procedurę obliczając całkowitą pracę}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=\underset{{\mathit{\Delta x}\rightarrow
+0}}{{{\text{lim}}}}\overset{\infty }{\underset{i=1}{\sum
+}}{F_{{i}}\mathit{\Delta
+x}_{{i}}=\overset{x_{{2}}}{\underset{{x_{{1}}}}{\int
+}}{F(x)\mathit{dx}}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.4]
+
+{
+Tak w matematyce definiujemy całkę. Całkowanie funkcji
+{OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} w zadanych granicach odpowiada liczeniu
+pola powierzchni pod krzywą {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} w zadanym
+przedziale (patrz rysunek 7.3c). Ta procedura odpowiada też z definicji
+liczeniu wartości średniej  
+{OPENAGHMATHJAX()}{W=\overset{{\text{__}}}{{F}}(x_{{2}}-x_{{1}})}{OPENAGHMATHJAX} co zgadza się z
+intuicyjnym podejściem.}
+{  {img fileId="434" } }
+{
+Rys. 7.3c.  Pole powierzchni pod krzywą {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} równe
+liczbowo pracy wykonanej przez siłę na odcinku
+{OPENAGHMATHJAX()}x_1{OPENAGHMATHJAX} –
+{OPENAGHMATHJAX()}x_2{OPENAGHMATHJAX}
+}
+Możesz prześledzić jak dzielenie przedziału
+({OPENAGHMATHJAX()}x_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x_2{OPENAGHMATHJAX}) na więcej
+(mniejszych) odcinków {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX} wpływa na dokładność obliczeń
+pracy wykonanej przez zmienną siłę {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX}. korzystając
+z darmowego programu komputerowego „Praca wykonana przez siłę zmienną”
+dostępnego na stronie WWW autora.
+
+{
+Żeby obliczyć pracę wykonaną przez zmienną siłę trzeba albo
+umieć obliczyć całkę (ewentualnie poszukać rozwiązania w
+tablicach) lub umieć obliczyć pole powierzchni pod krzywą co w
+szczególnych przypadkach nie jest trudne.}
+Przykład
+
+{
+Rozważmy sprężynę zamocowaną jednym końcem i rozciąganą siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}
+tak, że jej drugi koniec przemieszcza się o {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Siła wywierana
+przez sprężynę {OPENAGHMATHJAX()}F_s{OPENAGHMATHJAX} =
+- {OPENAGHMATHJAX()}k{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\bf x{OPENAGHMATHJAX}  jest siłą przywracającą równowagę. Aby
+rozciągnąć sprężynę musimy zatem przyłożyć siłę równą co do wartości
+lecz przeciwnie skierowaną tzn. {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} =
+{OPENAGHMATHJAX()}k{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\bf x{OPENAGHMATHJAX}. }
+{  {img fileId="436" } }
+{
+Rys. 7.4. Rozciąganie sprężyny siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}
+}
+{
+Znamy już postać funkcji {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} i możemy teraz
+korzystając z równania (7.4) obliczyć pracę wykonaną przy rozciąganiu
+sprężyny}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=\overset{{x}}{\underset{{0}}{\int
+}}{F(x)\mathit{dx}=\overset{{x}}{\underset{{0}}{\int
+}}{(kx)\mathit{dx}=\frac{kx^{{2}}}{2}|_{{0}}^{{x}}=\frac{kx^{{2}}}{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.5]
+
+Ćwiczenie 7.2
+
+{ Sprawdź, czy uzyskana wartość jest poprawna. W
+tym celu oblicz bezpośrednio pole pod wykresem funkcji
+{OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX}. Wynik obliczeń zapisz poniżej i porównaj z
+wynikiem całkowania.}
+{ S =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+\clearpage!!!#Energia kinetyczna
+{
+Rozpatrzmy jeszcze raz ruch ciała pod wpływem stałej,
+niezrównoważonej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} i obliczmy pracę jaką
+wykonuje ona na drodze {OPENAGHMATHJAX()}s{OPENAGHMATHJAX}. Stałość siły oznacza, że
+ruch odbywa się ze stałym przyspieszeniem {OPENAGHMATHJAX()}a{OPENAGHMATHJAX}.
+Zakładamy ponadto, że kierunek siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} i
+przyspieszenia {OPENAGHMATHJAX()}a{OPENAGHMATHJAX} pokrywa się z kierunkiem
+przesunięcia {OPENAGHMATHJAX()}s{OPENAGHMATHJAX}. Dla ruchu jednostajnie
+przyspieszonego możemy napisać}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{s=v_{{0}}t+\frac{\text{at}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[7.6]
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v=v_{{0}}+\text{at}\text{[EF02?][EF02?][EF02?][EF02?]}\;\Rightarrow
+\text{[EF02?][EF02?]}\;\text{[EF02?]}a=\frac{v-v_{{0}}}{t}}
+\end{equation}{OPENAGHMATHJAX}
+[7.7]
+
+{
+co w połączeniu daje}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{s=\frac{v+v_{{0}}}{2}t}
+\end{equation}{OPENAGHMATHJAX}
+[7.8]
+
+{
+Wykonana praca jest równa}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=F\cdot s=ma\;\cdot
+s=m\;\left(\frac{v-v_{{0}}}{t}\right)\;\text{[EF02?]}\left(\frac{v+v_{{0}}}{2}\right)\text{[EF02?]}\;t=\frac{\mathit{mv}^{{2}}}{2}-\frac{\mathit{mv}_{{0}}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[7.9]
+
+Definicja
+
+Połowę iloczynu masy ciała i kwadratu
+prędkości nazywamy energią kinetyczną E{OPENAGHMATHJAX()}_{k}{OPENAGHMATHJAX} ciała o masie
+m.
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=\frac{1}{2}\mathit{mv}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.10]
+
+{
+Na podstawie wzorów (7.8) i (7.9) widzimy, że}
+Prawo, zasada, twierdzenie
+
+Praca wykonana przez siłę F działającą
+na ciało o masie m jest równa zmianie energii kinetycznej tego ciała.
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=E_{{k}}-E_{{\mathit{k0}}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.11]
+
+{
+To jest twierdzenie o pracy i energii.}
+{
+Z tego twierdzenia wynika, że jednostki pracy i energii są takie same.}
+Jednostki
+
+Jednostką pracy i energii jest w układzie SI
+dżul (J); 1J = 1N·m. W fizyce atomowej powszechnie używa się
+jednostki elektronowolt (eV) 1eV =
+1.6·10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{19}{OPENAGHMATHJAX} J.
+
+{
+Spróbuj teraz wykonać proste ćwiczenie.}
+Ćwiczenie 7.3
+
+{ Porównaj energię kinetyczną sprintera o masie 
+80 kg biegnącego z prędkością 10 m/s z energią kinetyczną pocisku o
+masie 5 g wylatującego z karabinu z prędkością 800 m/s. Skorzystaj ze
+wzoru (7.10). Wynik obliczeń zapisz poniżej. Pamiętaj o odpowiednich
+jednostkach.}
+{ {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{sprintera}{OPENAGHMATHJAX} = }
+{ {OPENAGHMATHJAX()}E{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{pocisku}{OPENAGHMATHJAX} = }
+!!!#Moc 
+{
+Z punktu widzenia zastosowań praktycznych często istotnym jest
+nie to ile energii można uzyskać ze źródła ale to jak szybko można ją
+uzyskać (zamienić w użyteczną postać). Na przykład, ważnym parametrem
+samochodu, istotnym przy wyprzedzaniu, jest to jak szybko samochód
+przyspiesza tzn. jak szybko silnik wykonuje pracę związaną
+z rozpędzaniem samochodu. Inny przykład to, dwa dźwigi, które podnoszą
+jednakowe masy na jednakową wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} ale w różnym czasie.
+Tak jak zostało to już pokazane na wcześniejszym przykładzie, każdy z
+dźwigów wykonuje taką samą pracę równą {OPENAGHMATHJAX()}mgh{OPENAGHMATHJAX}. Jednak jeden z
+dźwigów wykonuje tę pracę w czasie krótszym niż drugi. Mówimy, że ten
+dźwig ma większą moc.}
+Definicja
+
+Moc definiujemy jako ilość wykonanej
+pracy (lub przekazanej energii) do czasu w jakim została ona
+wykonana.
+
+{
+Jeżeli praca W została wykonana w czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} to
+średnia moc jest dana wzorem}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\overset{{\text{__}}}{{P}}=\frac{W}{t}}
+\end{equation}{OPENAGHMATHJAX}
+[7.12]
+
+{
+Dla stałej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} wzór ten przyjmuje postać}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\overset{{\text{__}}}{{P}}=\frac{Fs}{t}=F\overline{{v}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.13]
+
+{
+Dla czasu {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} \ding{213} 0 mówimy o mocy chwilowej}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P=\frac{\mathit{dW}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[7.14]
+
+{
+Moc chwilową obliczamy jako pochodną pracy względem czasu.}
+Jednostki
+
+Jednostką mocy w układzie SI jest wat
+(W); 1 W = 1 J/ s. Dla celów praktycznych powszechnie stosowaną
+jednostką mocy jest kilowat (kW), a jednostką energii (iloczyn
+mocy i czasu) jest kilowatogodzina (kWh).
+
+Ćwiczenie 7.4
+
+{ Teraz gdy znasz już definicję mocy średniej i
+odpowiednie jednostki spróbuj ocenić średnią moc zużywaną przez
+urządzenia elektryczne w twoim mieszkaniu. W tym celu odczytaj stan
+licznika energii elektrycznej, a następnie powtórz odczyt po 24
+godzinach. Jaką wielkość rejestruje licznik i w jakich jednostkach? Na
+podstawie tych pomiarów oblicz moc średnią. Wynik zapisz poniżej.}
+{ {OPENAGHMATHJAX()}P{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{średnia}{OPENAGHMATHJAX} = }
+\clearpage\setcounter{page}{1}\pagestyle{Convertii}
+!#Zasada zachowania energii 
+!!!#Siły zachowawcze i niezachowawcze
+{
+W poprzednim rozdziale pokazaliśmy, że praca wykonana przez
+siłę wypadkową działającą na punkt materialny (ciało) wzdłuż pewnej
+drogi, jest równa zmianie energii kinetycznej
+{OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX} tego punktu materialnego}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=\mathit{\Delta E}_{{k}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.1]
+
+{
+Skorzystamy z tego związku, dla rozróżnienia {sił zachowawczych i
+niezachowawczych}. W tym celu rozpatrzmy ciało rzucone pionowo
+do góry, któremu nadano prędkość początkową
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}, a tym samym energię kinetyczną 
+{OPENAGHMATHJAX()}{E_{{k}}=\mathit{mv}_{{0}}^{{2}}/2}{OPENAGHMATHJAX}. Podczas wznoszenia się ciała
+siła grawitacji działa przeciwnie do kierunku ruchu więc prędkość
+ciała, a także i jego energia kinetyczna maleją aż do zatrzymania
+ciała. Następnie ciało porusza się w przeciwnym kierunku pod wpływem
+siły grawitacji, która teraz jest zgodna z kierunkiem ruchu. Przy
+zaniedbywalnym oporze powietrza, prędkość i energia kinetyczna rosną aż
+do wartości jaką ciało miało początkowo. Ciało rzucone do góry, wraca z
+tą samą prędkością i energią kinetyczną. Widzimy, że po
+przebyciu zamkniętej drogi (cyklu) energia kinetyczna ciała nie
+zmieniła się, więc na podstawie równania (8.1) oznacza to, że
+{praca wykonana przez siłę grawitacji podczas pełnego cyklu jest
+równa zeru}.  Praca wykonana przez siłę grawitacji podczas wznoszenia
+się ciała jest ujemna bo siła jest skierowana przeciwnie do
+przemieszczenia (kąt pomiędzy przemieszczeniem i siłą wynosi 180°;
+cos180° = {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}1). Gdy ciało spada siła i przemieszczenie są jednakowo
+skierowane, praca jest dodatnia, tak że całkowita praca jest równa
+zeru.}
+Definicja
+
+Siła jest zachowawcza, jeżeli praca
+wykonana przez tę siłę nad punktem materialnym, który porusza się po
+dowolnej drodze zamkniętej jest równa zeru.
+
+{
+Siła grawitacji jest siłą zachowawczą. Wszystkie siły, które działają w
+ten sposób, np. siła sprężysta wywierana przez idealną sprężynę,
+nazywamy siłami zachowawczymi.}
+{
+Jeżeli jednak, opór powietrza nie jest do zaniedbania, to
+ciało rzucone pionowo w górę powraca do położenia początkowego i ma
+inną energię kinetyczną niż na początku ponieważ siła oporu
+przeciwstawia się ruchowi bez względu na to, w którym kierunku porusza
+się ciało (nie tak jak siła grawitacji). Praca wykonywana przez siłę
+oporu jest ujemna dla każdej części cyklu zarówno przy wznoszeniu jak i
+opadaniu ciała więc podczas tego cyklu {została wykonana praca
+różna od zera}.}
+Definicja
+
+Siła jest niezachowawcza jeżeli praca
+wykonana przez tę siłę nad punktem materialnym, który porusza się po
+dowolnej drodze zamkniętej nie jest równa zeru.
+
+{
+Siła oporu powietrza jest siłą niezachowawczą. Wszystkie siły, które
+działają w ten sposób, np. siła tarcia, nazywamy siłami
+niezachowawczymi.}
+{
+Różnicę między siłami niezachowawczymi i zachowawczymi możemy
+zobrazować jeszcze inaczej. W tym celu rozpatrzmy pracę wykonaną przez
+siłę grawitacji podczas ruchu ciała z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punktu
+{OPENAGHMATHJAX()}B{OPENAGHMATHJAX} po dwóch różnych drogach tak jak pokazano na rysunku
+poniżej.}
+{  {img fileId="441" } }
+{
+Rys. 8.2. Ciało przesuwane z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punktu {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} w
+polu grawitacyjnym
+
+po dwóch różnych drogach
+}
+{
+Z naszych poprzednich rozważań wiemy, że praca wykonana przez
+siłę grawitacji podczas ruchu ciała w górę jest ujemna bo siła jest
+skierowana przeciwnie do przemieszczenia (kąt pomiędzy przemieszczeniem
+i siłą wynosi 180°; cos180° = {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}1). Gdy ciało przemieszcza się w dół
+to siła grawitacji i przemieszczenie są jednakowo skierowane, praca
+jest dodatnia. Natomiast przy przemieszczaniu w bok, siła grawitacji
+nie wykonuje żadnej pracy bo jest prostopadła do przemieszczenia
+(cos90° = 0). Widzimy, że przesunięcia w górę znoszą się z
+przemieszczeniami w dół, tak że wypadkowe przemieszczenie w pionie
+wynosi {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} i w konsekwencji wypadkowa praca wykonana przez siłę
+grawitacji wynosi {OPENAGHMATHJAX()}W = mgh{OPENAGHMATHJAX} bez względu na wybór drogi. Praca w
+polu grawitacyjnym {nie zależy od wyboru drogi łączącej dwa
+punkty ale od ich wzajemnego położenia}.}
+{
+Możemy uogólnić nasze rozważania na dowolną siłę zachowawczą.
+Jeszcze raz rozpatrzmy ruch ciała z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punkt
+{OPENAGHMATHJAX()}B{OPENAGHMATHJAX} po jednej drodze (1) oraz powrót z {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}
+po innej drodze (2) (rysunek 8.3a).}
+{  {img fileId="453" } }
+{
+Rys. 8.3.  Ciało przemieszcza się z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punktu
+{OPENAGHMATHJAX()}B{OPENAGHMATHJAX}  i z powrotem
+}
+{
+Ponieważ siła działająca na ciało jest zachowawcza to dla drogi
+zamkniętej z {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} i z powrotem praca jest równa
+zeru}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{\mathit{A1B}}}+W_{{\mathit{B2A}}}=0}
+\end{equation}{OPENAGHMATHJAX}
+[8.2]
+
+{
+Lub zapisując to inaczej}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{\mathit{A1B}}}=-W_{{\mathit{B2A}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.3]
+
+{
+Jeżeli teraz odwrócimy kierunek ruchu i przejdziemy z {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do
+{OPENAGHMATHJAX()}B{OPENAGHMATHJAX} po drodze (2) (rysunek 8.3b) to ponieważ zmieniamy tylko
+kierunek ruchu to otrzymujemy pracę tę samą, co do wartości ale
+różniącą się znakiem}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{\mathit{A2B}}}=-W_{{\mathit{B2A}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.4]
+
+{
+Porównując dwa ostatnie równania otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{\mathit{A1B}}}=W_{{\mathit{A2B}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.5]
+
+{
+Widać z tego, że praca wykonana przez siłę zachowawczą przy
+przemieszczaniu ciała od {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} jest taka sama dla
+obu dróg. Drogi (1) i (2) mogą mieć dowolny kształt o ile tylko łączą
+te same punkty {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}.}
+Definicja
+
+Siłę nazywamy zachowawczą jeżeli praca
+wykonana przez nią nad punktem materialnym poruszającym się między
+dwoma punktami zależy tylko od tych punktów, a nie od łączącej je
+drogi. Siłę nazywamy niezachowawczą jeżeli praca wykonana przez nią nad
+punktem materialnym poruszającym się między dwoma punktami zależy od
+drogi łączącej te punkty.
+
+{
+Przedstawione definicje siły zachowawczej są równoważne. }
+{
+Teraz kiedy znasz już definicję sił zachowawczych spróbuj wykonać
+poniższe ćwiczenie}
+Ćwiczenie 8.1
+
+{ Ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} zsuwa się z równi
+pochyłej w kierunku nieważkiej sprężyny (rysunek poniżej). Ruch odbywa
+się bez tarcia. Ciało dociera do sprężyny i w wyniku działania siły
+sprężystej zostaje zatrzymane. Następnie, pod wpływem rozprężającej się
+sprężyny, ciało porusza się w przeciwnym kierunku.}
+{ Spróbuj teraz odpowiedzieć na następujące
+pytania (odpowiedzi zapisz poniżej):}
+{ a) Jakie siły działają na ciało w trakcie jego
+ruchu?}
+{ b) Czy są to siły zachowawcze?)}
+{ Jak zmieniłaby się sytuacja, gdyby występowało
+tarcie pomiędzy ciałem a poziomą płaszczyzną?}
+{ Zauważ, że ciał odepchnięte przez sprężynę
+powraca do swojego stanu początkowego.}
+{  {img fileId="447" } }
+!!!#Energia potencjalna 
+{
+Gdy rozpatrywaliśmy (w poprzednim rozdziale) ruch ciała pod
+wpływem siły grawitacji lub siły sprężystości widzieliśmy, że energia
+kinetyczna poruszającego się ciała zmieniała się (malała i rosła)
+podczas ruchu, tak że w cyklu zamkniętym powracała do początkowej
+wartości. W tej sytuacji, gdy działają siły zachowawcze, do opisania
+tych zmian celowe jest wprowadzenie pojęcia {energii
+potencjalnej E}{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX}. Mówimy, że zmianie energii
+kinetycznej ciała o wartość {OPENAGHMATHJAX()}\Delta
+E_k{OPENAGHMATHJAX} towarzyszy zmiana energii
+potencjalnej {OPENAGHMATHJAX()}\Delta E_p{OPENAGHMATHJAX} tego ciała
+równa co do wartości ale przeciwnego znaku, tak że suma tych zmian jest
+równa zeru}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{\Delta E}_{{k}}+\mathit{\Delta E}_{{p}}=0}
+\end{equation}{OPENAGHMATHJAX}
+[8.6]
+
+{
+Każda zmiana energii kinetycznej ciała
+{OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX} jest równoważona przez zmianę
+energii potencjalnej {OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}, tak że ich
+suma pozostaje przez cały czas stała}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}+E_{{p}}=\text{const}\text{.}}
+\end{equation}{OPENAGHMATHJAX}
+[8.7]
+
+{
+Energię potencjalną można traktować jako energię nagromadzoną, która
+może być w przyszłości całkowicie odzyskana i zamieniona na inną
+użyteczną formę energii. Oznacza to, że nie możemy wiązać energii
+potencjalnej z siłą niezachowawczą. Energię potencjalną często nazywa
+się energią stanu. Mówimy, że jeżeli energia układu zmieniła
+się to zmienił się stan układu.}
+{
+Z twierdzenia o pracy i energii (7.10) wynika, że}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=\mathit{\Delta E}_{{k}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.8]
+
+{
+więc zgodnie z wprowadzonym pojęciem energii potencjalnej, dla
+zachowawczej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}, zachodzi związek}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=\mathit{\Delta E}_{{k}}=-\mathit{\Delta E}_{{p}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.9]
+
+{
+Korzystając z ogólnego wzoru na pracę (7.4) otrzymujemy ogólną
+zależność}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{\Delta E}_{{p}}=-W=-\overset{r}{\underset{{r_{{0}}}}{\int
+}}{F(r)\mathit{dr}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.10]
+
+{
+Możemy również zapisać zależność odwrotną między siłą i energią
+potencjalną}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F(r)=-{\frac{\mathit{dE}_{{p}}(r)}{\mathit{dr}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.11]
+
+{
+Zauważmy, że na podstawie równania (8.10) potrafimy obliczyć zmianę
+energii potencjalnej {OPENAGHMATHJAX()}\Delta E_p{OPENAGHMATHJAX}, a nie samą
+energię potencjalną {OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}. Ponieważ
+{OPENAGHMATHJAX()}\Delta E_p{OPENAGHMATHJAX} =
+{OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}({OPENAGHMATHJAX()}r{OPENAGHMATHJAX}) {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}({OPENAGHMATHJAX()}r_0{OPENAGHMATHJAX}), to
+żeby znaleźć {OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}({OPENAGHMATHJAX()}r{OPENAGHMATHJAX}) trzeba
+nie tylko znać siłę ale jeszcze wartość
+{OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}({OPENAGHMATHJAX()}r_0{OPENAGHMATHJAX}) }
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{p}}(r)=\mathit{\Delta
+E}_{{p}}+E_{{p}}(r_{{0}})=-\overset{r}{\underset{{r_{{0}}}}{\int
+}}{F(r)\mathit{dr}}{+E_{p}}{(r_{0}}{)\;}}
+\end{equation}{OPENAGHMATHJAX}
+[8.12]
+
+{
+Punkt {OPENAGHMATHJAX()}r_0{OPENAGHMATHJAX} nazywamy punktem odniesienia i
+zazwyczaj wybieramy go tak, żeby energia potencjalna w tym punkcie
+odniesienia
+{OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}({OPENAGHMATHJAX()}r_0{OPENAGHMATHJAX}) była
+równa zeru. Jako punkt odniesienia {OPENAGHMATHJAX()}r_0{OPENAGHMATHJAX} często
+wybiera się położenie, w którym siła działająca na ciało jest równa
+zeru. Trzeba jednak podkreślić, że wybór punktu odniesienia jest sprawą
+czysto umowną.}
+Przykład
+
+{
+Spróbujmy teraz obliczyć energię potencjalną na przykład w rzucie
+pionowym do góry, w pobliżu powierzchni Ziemi. W tym celu przyjmujemy,
+że ruch odbywa się wzdłuż osi {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}, przy czym kierunek osi
+y w górę przyjmujemy jako dodatni. W konsekwencji siła
+grawitacji {OPENAGHMATHJAX()}F(y)={OPENAGHMATHJAX}{OPENAGHMATHJAX()}-{OPENAGHMATHJAX} mg
+bo jest skierowana w ujemnym kierunku osi {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}. Wybieramy teraz
+punkt odniesienia np. na powierzchni Ziemi
+{OPENAGHMATHJAX()}y_0{OPENAGHMATHJAX} = 0 i przyjmujemy
+{OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}(0) = 0. Energię potencjalną w
+położeniu {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} tj. na wysokości {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} ponad poziomem
+odniesienia obliczamy z równania (8.12). Obliczenie jest tym prostsze,
+że siła grawitacji {OPENAGHMATHJAX()}F(y){OPENAGHMATHJAX} jest stała więc nie musimy
+obliczać całki ale do obliczenia pracy stosujemy wzór (7.1)
+W = Fs.}
+{
+Otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{p}}(y)=-(-mgy)+E_{{p}}(y_{{0}})=mgy}
+\end{equation}{OPENAGHMATHJAX}
+[8.13]
+
+{
+Energia potencjalna związana z siłą grawitacyjną wynosi {OPENAGHMATHJAX()}mgy{OPENAGHMATHJAX},
+gdzie {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} jest wysokością ponad punktem (poziomem) odniesienia i
+jest równa pracy jaką trzeba wykonać przy podnoszeniu ciała na tę
+wysokość (przykład z rozdziału 7.1). Energia potencjalna przedstawia tu
+formę nagromadzonej w wyniku wykonanej pracy energii, która może być
+całkowicie odzyskana i zamieniona na energię kinetyczną, podczas spadku
+ciała z danej wysokości. }
+{
+W analogiczny sposób obliczymy teraz energię potencjalną
+idealnej nieważkiej sprężyny. Gdy sprężyna jest rozciągnięta na
+odległość {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} od położenia równowagi to siła sprężystości wynosi
+F = - kx. Jako punkt odniesienia przyjmujemy tym razem
+{OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} = 0. Odpowiada to położeniu równowagi,
+w którym sprężyna jest nierozciągnięta i siła sprężystości jest równa
+zeru. Energię potencjalną ponownie obliczamy z równania (8.12) przy
+czym korzystamy z podanego  wyrażenia (7.5) na pracę wykonaną przy
+rozciąganiu sprężyny}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{p}}(x)=-\overset{x}{\underset{{x_{{0}}}}{\int
+}}{(-kx)\mathit{dx}}{+E_{p}}{(x_{0}}{)=\frac{1}{2}kx^{2}}{\;}}
+\end{equation}{OPENAGHMATHJAX}
+[8.14]
+
+{
+Spróbuj teraz, korzystając z definicji energii potencjalnej, wykonać
+następujące ćwiczenie}
+{
+Ćwiczenie 8.2}
+
+Dwa klocki o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}
+i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} są połączone cienką linką przerzuconą
+przez nieważki bloczek tak jak na rysunku obok. W układzie występuje
+tarcie pomiędzy masą {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i stołem. Układ
+pozostający początkowo w spoczynku zostaje puszczony i masa
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} opada na podłogę. 
+{img fileId="442" } 
+
+{{ Określ, w
+chwili gdy klocek {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} dociera do
+podłogi, jaki znak (+/-) ma:}
+{ 1) energia potencjalna klocka
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} względem podłogi,}
+{ 2) energia potencjalna klocka
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} względem stołu,}
+{ 3) praca wykonana przez siłę grawitacji,}
+{ 4) praca wykonana przez siłę tarcia,}
+{ 5) zmiana energii potencjalnej układu,}
+{ 6) zmiana energii kinetycznej klocka
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX},}
+{ 7) zmiana energii kinetycznej klocka
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}.}
+{ Spróbuj też odpowiedzieć na następujące
+pytania:}
+{ 1) Czy zmiana energii kinetycznej klocka
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} jest większa, równa, czy mniejsza od zmiany
+energii kinetycznej klocka {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} ?}
+{ 2) Czy zmiana całkowitej energii kinetycznej
+układu jest co do bezwzględnej wartości większa, równa, czy mniejsza od
+zmiany energii potencjalnej układu?}
+Rozwiązanie możesz sprawdzić na końcu modułu.}
+
+!!!!#Energia potencjalna i potencjał pola grawitacyjnego 
+{
+W przykładzie powyżej obliczyliśmy energię potencjalną 
+związaną z siłą grawitacyjną w pobliżu powierzchni Ziemi, gdzie
+przyjmowaliśmy, że siła grawitacji jest stała. Teraz zajmiemy się
+zagadnieniem bardziej ogólnym i znajdziemy energię potencjalną masy
+{OPENAGHMATHJAX()}m{OPENAGHMATHJAX} znajdującej się w dowolnym punkcie nad powierzchnią Ziemi
+odległym o {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} od środka Ziemi.}
+{
+Gdy obliczaliśmy grawitacyjną energię potencjalną w pobliżu
+powierzchni Ziemi (przykład powyżej) właśnie powierzchnię Ziemi
+przyjmowaliśmy jako punkt odniesienia o zerowej energii potencjalnej.
+Natomiast dla ogólnych obliczeń punkt odniesienia wybiera się w
+nieskończoności. Temu położeniu ({OPENAGHMATHJAX()}r{OPENAGHMATHJAX} \ding{213} {OPENAGHMATHJAX()}{\infty}{OPENAGHMATHJAX})
+przypisujemy zerową energię potencjalną. Zwróćmy uwagę, że stan zerowej
+energii jest również stanem zerowej siły.}
+{
+Przypomnijmy, że dla sił zachowawczych zmianę energii
+potencjalnej ciała przy przejściu z położenia (lub ogólniej ze stanu)
+{OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} możemy zapisać jako}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{\Delta
+E}_{{p}}=E_{{\text{pB}}}-E_{{\text{pA}}}=-W_{{\text{AB}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.15]
+
+{
+Siła grawitacji jest siłą zachowawczą więc dla tak wybranego punktu
+odniesienia}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{p}}(r)-E_{{p}}(\infty )=-W_{{\infty r}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.16]
+
+{
+Praca wykonywaną przez siłę grawitacji przy przenoszeniu masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}
+z nieskończoności do punktu odległego o {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} od środka Ziemi
+wynosi}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+\begin{matrix}{E_{{p}}(r)-E_{{p}}(\infty )=-W_{{\infty
+r}}=-\overset{{r}}{\underset{{\infty }}{\int
+}}{\mathit{Fdr}}=-\overset{{r}}{\underset{{\infty }}{\int
+}}{\left(-G\frac{\text{Mm}}{r^{{2}}}\right)\mathit{dr}}=}\\	-G\frac{\text{Mm}}{r}|_{{\infty
+}}^{{r}}=-G\frac{\text{Mm}}{r}\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[8.17]
+
+{
+Znak minus wynika stąd, że kierunek działania siły grawitacji jest
+przeciwny do kierunku wektora {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}. Ponieważ energia potencjalna
+ma wartość równą zeru w nieskończoności (punkt odniesienia) więc
+grawitacyjna energia potencjalna w odległości {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} od środka
+Ziemi (od środka dowolnej masy {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}) wynosi}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{p}}(r)=-G\frac{\text{Mm}}{r}}
+\end{equation}{OPENAGHMATHJAX}
+[8.18]
+
+{
+Energia potencjalna ma wartość równą zeru w nieskończoności (punkt
+odniesienia) i maleje w miarę zmniejszania się {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}. Oznacza to,
+że siła jest przyciągająca. Wzór ten jest prawdziwy bez względu na
+wybór drogi po jakiej punkt porusza się z nieskończoności do {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}
+bo siła grawitacji jest siłą zachowawczą.}
+{
+Widzimy, że z polem siły grawitacji wiąże się
+przestrzenny rozkład energii E({OPENAGHMATHJAX()}r{OPENAGHMATHJAX}) dany równaniem
+(8.17).}
+{
+Omawiając w punkcie (6.4) pole grawitacyjne przedstawialiśmy siłę
+działającą na umieszczony w tym polu obiekt jako iloczyn natężenia pola
+i masy tego obiektu. Stwierdziliśmy, że jedna masa wytwarza pole, a
+następnie to pole działa na drugą masę. Inaczej mówiąc rozdzieliliśmy
+siłę na dwie części i w ten sposób uniezależniliśmy nasz opis od masy
+obiektu wprowadzanego do pola. Podobnie możemy postąpić z energią
+potencjalną. Zauważmy, że zgodnie z wyrażeniem (8.17) możemy ją
+przedstawić jako iloczyn masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i pewnej funkcji
+V({OPENAGHMATHJAX()}r{OPENAGHMATHJAX})}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{p}}(r)=\text{mV}(r)}
+\end{equation}{OPENAGHMATHJAX}
+[8.19]
+
+Definicja
+
+Funkcję V(r) nazywamy potencjałem pola
+grawitacyjnego i definiujemy jako stosunek grawitacyjnej energii
+potencjalnej masy m do wartości tej masy.
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{V(r)=\frac{E_{{p}}(r)}{m}=-G\frac{M}{r}}
+\end{equation}{OPENAGHMATHJAX}
+[8.20]
+
+{
+Jak już wspominaliśmy z pojęcia pola korzysta się nie tylko w związku z
+grawitacją. Przy opisie zjawisk elektrycznych również będziemy się
+posługiwali pojęciem pola (elektrycznego), jego natężenia i
+potencjału.}
+Ćwiczenie 8.3
+
+{ Skorzystaj teraz z wyrażenia na grawitacyjną
+energię potencjalną, żeby znaleźć prędkość jaką należy nadać obiektowi
+przy powierzchni Ziemi, aby wzniósł się on na wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} nad
+powierzchnię Ziemi. Dane są masa Ziemi
+{OPENAGHMATHJAX()}M_z{OPENAGHMATHJAX} i jej promień
+R{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} oraz stała grawitacyjna {OPENAGHMATHJAX()}G{OPENAGHMATHJAX}. Wynik
+zapisz poniżej.}
+{ Wskazówka: Dla siły zachowawczej suma energii
+kinetycznej {OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX} i energii potencjalnej
+{OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX} ciała pozostaje przez cały czas
+stała (wzór 8.7).}
+{ v = }
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+{
+Jeżeli obiektowi nadamy na powierzchni Ziemi odpowiednio dużą
+prędkość początkową to zacznie on okrążać Ziemię i nie spadnie na jej
+powierzchnię. Tę graniczną prędkość nazywamy {pierwszą
+prędkością kosmiczną}. Jest to najmniejsza prędkość jaką musi mieć
+punkt materialny swobodnie krążący po orbicie wokół Ziemi. Na tak
+poruszający się obiekt działają dwie siły; siła grawitacji i siła
+odśrodkowa. Siły te mają przeciwne zwroty i dla stabilnej orbity
+równoważą się}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\mathit{mv}^{{2}}}{R}=G\frac{M_{{Z}}m}{R^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.21]
+
+{
+skąd obliczamy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{I}}=\sqrt{G\frac{M_{{Z}}}{R}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.22]
+
+{
+Jeżeli na powierzchni Ziemi dostarczymy ciału jeszcze większej
+energii kinetycznej to wtedy może ono bezpowrotnie uciec z Ziemi w
+przestrzeń kosmiczną. Prędkość początkową (tzw. prędkość ucieczki),
+przy której ciało ucieknie z powierzchni Ziemi do nieskończoności
+znajdujemy analogicznie jak w ćwiczeniu 8.3 wstawiając
+{OPENAGHMATHJAX()}h{OPENAGHMATHJAX} \ding{213} {OPENAGHMATHJAX()}{\infty}{OPENAGHMATHJAX}. Prędkość ta nosi nazwę
+drugiej prędkości kosmicznej i wynosi}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{\boldsubformula{\text{II}}}}=\sqrt{2G\frac{M_{{Z}}}{R_{{Z}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.23]
+
+{
+Zauważmy, że w trakcie oddalania się ciała do nieskończoności
+(R \ding{213} {OPENAGHMATHJAX()}{\infty}{OPENAGHMATHJAX}) jego energia potencjalna rośnie do
+zera (jest ujemna) kosztem energii kinetycznej, która maleje do zera
+(jest dodatnia).}
+{
+W naszych obliczeniach pominęliśmy inne siły,  takie jak siły
+grawitacyjne wywierane przez Księżyc czy Słońce. }
+!!!#Zasada zachowania energii 
+{
+Pokazaliśmy, że gdy na ciało działa tylko siła zachowawcza to
+dla dowolnej drogi z {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=\mathit{\Delta
+E}_{{k}}=E_{{\text{kB}}}-E_{{\text{kA}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.24]
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=-\mathit{\Delta
+E}_{{p}}=-(E_{{\text{pB}}}-E_{{\text{pA}}})}
+\end{equation}{OPENAGHMATHJAX}
+[8.25]
+
+{
+skąd wynika, że}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{-(E_{{\text{pB}}}-E_{{\text{pA}}})=E_{{\text{kB}}}-E_{{\text{kA}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.26]
+
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{\text{kA}}}+E_{{\text{pA}}}=E_{{\text{kB}}}+E_{{\text{pB}}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.27]
+
+{
+Równanie (8.27) wyraża zasadę zachowania energii mechanicznej.}
+Prawo, zasada, twierdzenie
+
+Zasada zachowania energii mechanicznej
+mówi, że dla ciała podlegającego działaniu siły zachowawczej, suma
+energii kinetycznej i potencjalnej jest stała.
+
+{
+Podaliśmy zasadę zachowania energii mechanicznej dla pojedynczego ciała,
+ale ta zasada jest bardziej ogólna i obowiązuje dla wszystkich
+odosobnionych układów ciał. Układy odosobnione to takie, na
+które nie działają siły zewnętrzne (spoza układu). W takich układach
+suma energii kinetycznych i potencjalnych wszystkich ciał pozostaje
+stała bez względu na oddziaływania w nich zachodzące.}
+{
+Przykład}
+
+{ Skoczek na linie
+"bungee" skacze z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i
+osiąga najniższy punkt {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} tak jak na rysunku obok. Skoczek
+korzysta z liny o długości l, która rozciąga się sprężyście
+(F = {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}kx), aż do zerwania, co następuje gdy lina
+wydłuży się o {OPENAGHMATHJAX()}x={OPENAGHMATHJAX}50{OPENAGHMATHJAX()}\razy wytrzymałość liny na zerwanie musi być większa niż ciężar skoczka,
+żeby lina nie urwała się?}
+W punkcie {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} grawitacyjna energia
+potencjalna skoczka liczona względem powierzchni Ziemi wynosi
+{OPENAGHMATHJAX()}mgh{OPENAGHMATHJAX} (masę liny pomijamy) natomiast energia potencjalna
+sprężystości liny równa się zeru bo lina nie jest rozciągnięta.
+Całkowita energia mechaniczna układu w punkcie {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} wynosi więc 
+\raggedleft  {img fileId="429" } 
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{A}}=mgh}
+\end{equation}{OPENAGHMATHJAX}
+{
+Natomiast energia całkowita układu w punkcie {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} }
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{B}}=mg(h-l-x)+\frac{kx^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+{
+jest sumą grawitacyjnej energii potencjalnej skoczka i energii
+potencjalnej sprężystości rozciągniętej liny równanie (8.14).}
+{
+Ponieważ siły grawitacji i sprężystości są siłami zachowawczymi więc
+energia mechaniczna jest zachowana. Uwzględniając, że energia
+kinetyczna skoczka w punktach {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} jest równa zeru
+otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{mgh=mg(h-l-x)+\frac{kx^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{kx^{{2}}}{2}-\text{mgl}-\text{mgx}=0}
+\end{equation}{OPENAGHMATHJAX}
+{
+Wstawiając do tego równania maksymalne możliwe wydłużenie liny {x
+= }0.5l możemy obliczyć graniczny współczynnik {OPENAGHMATHJAX()}k{OPENAGHMATHJAX}
+liny}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{k=\frac{\text{12}mg}{l}}
+\end{equation}{OPENAGHMATHJAX}
+{
+skąd otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F=kx=\frac{\text{12}mg}{l}\frac{l}{2}=6mg}
+\end{equation}{OPENAGHMATHJAX}
+{
+Wytrzymałość liny na zerwanie musi być co najmniej 6 razy większa niż
+ciężar skoczka.}
+{
+Teraz spróbujemy odpowiedzieć na pytanie czy energia jest
+zachowana w przypadku gdy w układzie działa siła niezachowawcza. Jeżeli
+oprócz siły zachowawczej {OPENAGHMATHJAX()}F_z{OPENAGHMATHJAX} działa
+jeszcze siła niezachowawcza {OPENAGHMATHJAX()}F_{nz}{OPENAGHMATHJAX} (np.
+tarcie) to z twierdzenia o pracy i energii otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{z}}+W_{{\text{nz}}}=\mathit{\Delta E}_{{k}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.28]
+
+{
+a ponieważ  {OPENAGHMATHJAX()}{W_{{z}}=-\mathit{\Delta E}_{{p}}}{OPENAGHMATHJAX} to}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{\text{nz}}}=\mathit{\Delta
+E}_{{k}}+\mathit{\Delta E}_{{p}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.29]
+
+{
+Widzimy, że siła tarcia zmienia energię mechaniczną układu (zmniejsza ją
+bo tarcie jest siłą rozpraszającą). Pozostaje wyjaśnić co stało się ze
+"straconą" energią mechaniczną. Okazuje
+się, że zostaje ona przekształcona na energię wewnętrzną U,
+która objawia się wzrostem temperatury ciała i otoczenia. Zmiana
+energii wewnętrznej {OPENAGHMATHJAX()}\Delta U{OPENAGHMATHJAX} jest równa rozproszonej energii
+mechanicznej}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{\Delta E}_{{k}}+\mathit{\Delta E}_{{p}}+\mathit{\Delta U}=0}
+\end{equation}{OPENAGHMATHJAX}
+[8.30]
+
+{
+Z równania (8.30) wynika, że}
+Prawo, zasada, twierdzenie
+
+Energia całkowita, tj. suma energii
+kinetycznej, energii potencjalnej i energii wewnętrznej w układzie
+odosobnionym nie zmienia się. Mamy więc zasadę zachowania energii
+całkowitej. Inaczej mówiąc energia może być przekształcana z jednej
+formy w inną, ale nie może być wytwarzana ani niszczona; energia
+całkowita jest wielkością stałą.
+
+{
+Na zakończenie uwzględnijmy jeszcze dodatkowo siłę
+{OPENAGHMATHJAX()}F{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{zew}{OPENAGHMATHJAX} wywieraną na układ przez czynnik
+zewnętrzny. Jeżeli działa taka siła to równanie (8.28) przyjmuje
+postać}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{\text{zew}}}+W_{{z}}+W_{{\text{nz}}}=\mathit{\Delta
+E}_{{k}}}
+\end{equation}{OPENAGHMATHJAX}
+[8.31]
+
+{
+i w konsekwencji otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W_{{\text{zew}}}=\mathit{\Delta
+E}_{{k}}+\mathit{\Delta E}_{{p}}+\mathit{\Delta U}}
+\end{equation}{OPENAGHMATHJAX}
+[8.32]
+
+{
+Praca wykonana przez czynnik zewnętrzny równa jest sumie zmian energii
+kinetycznej, potencjalnej i energii wewnętrznej układu. W ten sposób
+uwzględniliśmy już całą energię. }
+{
+Zasada zachowania energii należy do najbardziej podstawowych
+praw fizyki. Wszystkie nasze doświadczenia pokazują, że jest to prawo
+bezwzględnie obowiązujące; nie znamy wyjątków od tego prawa.}
+Ćwiczenie 8.4
+
+{ Piłkę puszczono swobodnie z pewnej wysokości
+{OPENAGHMATHJAX()}h{OPENAGHMATHJAX} nad podłożem. Podczas odbicia piłka traci 1/3 swojej energii
+mechanicznej, która zamienia się na energię wewnętrzną. Oblicz na jaką
+wysokość wzniesie się piłka po 4-tym odbiciu i ile energii mechanicznej
+zamieniło się w energię wewnętrzną? Wynik zapisz poniżej.}
+{ Wskazówka: Skorzystaj z zasady zachowania
+energii całkowitej.}
+{ {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX} =
+}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+{
+Jak widzieliśmy na przykładzie omawianym w ćwiczeniu powyżej, w
+zderzeniach nie musi być zachowana energia mechaniczna. Okazuje się
+jednak, że w zderzeniach spełniona jest inna zasada zachowania;
+zasada zachowania pędu.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertiii}
+!#Zasada zachowania pędu 
+!!!#Środek masy
+{
+Dotychczas przedmioty traktowaliśmy jak punkty materialne,
+tzn. obdarzone masą cząstki bezwymiarowe (o zerowej objętości) co
+wystarczało w przypadku ruchu postępowego ciał bo ruch jednego punktu
+odzwierciedlał ruch całego ciała. Jednak rzeczywiste ciała są układami
+ogromnej liczby atomów, a ich ruch może być bardzo skomplikowany. Ciało
+może wirować lub drgać, w trakcie ruchu cząstki mogą zmieniać swoje
+wzajemne położenie. Przykład takiego ruchu jest przedstawiony na
+rysunku poniżej.}
+{  {img fileId="435" } }
+{
+Rys. 9.1. Ciało wykonuje skomplikowany ruch obrotowy za wyjątkiem
+jednego punktu,
+
+który porusza się po linii prostej
+}
+{
+Zauważmy, że istnieje w tym układzie jeden punkt, który porusza się po
+linii prostej ze stałą prędkością. Żaden inny punkt nie porusza się w
+ten sposób. Ten punkt to środek masy. Sposób wyznaczania
+środka masy zilustrujemy następującym przykładem.}
+Przykład
+
+{
+Rozważamy układ dwóch różnych mas {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} pokazanych na rysunku 9.2.}
+{  {img fileId="448" } }
+{
+Rys. 9.2. Środek masy układu dwóch mas {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}
+}
+{
+Położenie środka masy tego układu definiujemy jako}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}x_{{1}}+m_{{2}}x_{{2}}}{m_{{1}}+m_{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.1]
+
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\overset{{\text{__}}}{{x}}=x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}}{m_{{1}}+m_{{2}}}x_{{1}}+\frac{m_{{2}}}{m_{{1}}+m_{{2}}}x_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.2]
+
+{
+Widzimy, że położenie środka masy układu punktów materialnych wyznaczamy
+jak średnią ważoną, przy czym masa tych punktów jest czynnikiem ważącym
+przy tworzeniu średniej. Przez analogię dla układu {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} cząstek
+(punktów materialnych) współrzędna {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} środka masy jest dana
+zależnością}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}x_{{1}}+m_{{2}}x_{{2}}+\text{.}\text{.}\text{.}\text{.}\text{.}+m_{{n}}x_{{n}}}{m_{{1}}+m_{{2}}+\text{.}\text{.}\text{.}\text{.}\text{.}+m_{{n}}}=\frac{\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}x_{{i}}}}{\overset{{n}}{\underset{{i=1}}{\sum }}{m_{{i}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.3]
+
+{
+gdzie suma mas {OPENAGHMATHJAX()}m_i{OPENAGHMATHJAX} poszczególnych punktów
+układu jest całkowitą masą {OPENAGHMATHJAX()}M{OPENAGHMATHJAX} układu. Postępując w ten sam
+sposób możemy wyznaczyć pozostałe współrzędne {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}, z. W
+wyniku otrzymujemy trzy równania skalarne (analogiczne do 9.3), które
+możemy zastąpić jednym równaniem wektorowym}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{r_{{\text{śr}\text{.}m\text{.}}}=\frac{1}{M}\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}r_{{i}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.4]
+
+{
+Zauważmy, że środek masy układu punktów materialnych zależy
+tylko od mas tych punktów i od wzajemnego ich rozmieszczenia, a nie
+zależy od wyboru układu odniesienia. Dla ciał o regularnym kształcie
+środek masy pokrywa się ze środkiem geometrycznym.}
+Ćwiczenie 9.1
+
+{ Znajdź środek masy układu trzech cząstek o
+masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} = 1 kg,
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} = 2 kg i
+{OPENAGHMATHJAX()}m_3{OPENAGHMATHJAX} = 3 kg, umieszczonych w wierzchołkach
+równobocznego trójkąta o boku a = 1 m. Wynik zapisz poniżej.
+Wskazówka: Wybierz układu odniesienia, a następnie oblicz współrzędne
+{OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} środka masy zgodnie z równaniem (9.3)}
+{ {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.}{OPENAGHMATHJAX} =}
+{ {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.}{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+{
+Przedyskutujmy teraz fizyczne znaczenie środka masy.}
+!!!#Ruch środka masy 
+{
+Rozważmy układ punktów materialnych o masach
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}m_3{OPENAGHMATHJAX} ..., {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX}
+i o stałej całkowitej masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}. Na podstawie równania (9.4)
+możemy napisać}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{Mr}_{{\text{śr}\text{.}m\text{.}}}=\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}r_{{i}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.5]
+
+{
+Różniczkując (względem czasu) powyższe równanie otrzymujemy zgodnie z
+równaniami (3.1)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{M\frac{\mathit{dr}_{{\text{śr}\text{.}m\text{.}}}}{\mathit{dt}}=\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}\frac{\mathit{dr}_{{i}}}{\mathit{dt}}}}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{Mv}_{{\text{śr}\text{.}m\text{.}}}=\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}v_{{i}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.6]
+
+{
+a po ponownym różniczkowaniu}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{M\frac{\mathit{dv}_{{\text{śr}\text{.}m\text{.}}}}{\mathit{dt}}=\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}\frac{\mathit{dv}_{{i}}}{\mathit{dt}}}}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{Ma}_{{\text{śr}\text{.}m\text{.}}}=\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}a_{{i}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.7]
+
+{
+To ostatnie równanie możemy zapisać w postaci}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{Ma}_{{\text{śr}\text{.}m\text{.}}}=\overset{{n}}{\underset{{i=1}}{\sum
+}}{F_{{i}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.8]
+
+{
+Suma (wektorowa) wszystkich sił działających na poszczególne punkty
+materialne układu jest równa wypadkowej sile zewnętrznej więc}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{Ma}_{{\text{śr}\text{.}m\text{.}}}=F_{{\text{zew}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.9]
+
+{
+Z równania (9.9) wynika, że}
+Prawo, zasada, twierdzenie
+
+Środek masy układu punktów materialnych
+porusza się w taki sposób, jakby cała masa układu była skupiona w
+środku masy i jakby wszystkie siły zewnętrzne nań działały.
+
+{
+Z twierdzenia o ruchu środka masy wynika, że nawet ciała materialne
+będące układami złożonymi z dużej liczby punktów materialnych możemy w
+pewnych sytuacjach traktować jako pojedynczy punkt materialny. Tym
+punktem jest środek masy. To twierdzenie obowiązuje dla każdego układu
+punktów materialnych. W szczególności układ może być ciałem o budowie
+ciągłej (np. ciało stałe). Wtedy przy obliczeniach środka masy
+sumowanie występujące w równaniach (9.3), (9.4) zastępujemy
+całkowaniem. Układ może też być zbiorem cząstek, w którym występują
+wszystkie rodzaje ruchu wewnętrznego. Pojęcie środka masy jest bardzo
+użyteczne np. }
+Bardziej zaawansowany przykład wykorzystania
+pojęcia środka masy (do obliczania energii kinetycznej) możesz poznać
+w Dodatku 1, na końcu modułu II.
+
+!!!#Pęd układu punktów materialnych 
+{Pęd układu punktów
+materialnych }
+{
+Zdefiniowaliśmy pęd punktu materialnego jako iloczyn jego masy
+{OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i jego prędkości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}. Poznaliśmy
+też, drugą zasadę dynamiki Newtona w postaci}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F=\frac{\mathit{dp}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.10]
+
+{
+Jeżeli jednak zamiast pojedynczego punktu mamy do czynienia z układem, o
+stałej masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}, złożonym z {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} punktów materialnych o
+masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, ......,
+{OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} oraz prędkościach
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, ...,
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX}  to układ jako
+całość będzie miał całkowity pęd {OPENAGHMATHJAX()}P{OPENAGHMATHJAX} będący sumą
+wektorową pędów poszczególnych punktów}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P=\overset{{n}}{\underset{{i=1}}{\sum }}{p_{{i}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.11]
+
+{
+Porównując tę zależność z równaniem (9.6) otrzymujemy zależność}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{P=\mathit{Mv}_{{\text{śr}\text{.}m\text{.}}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.12]
+
+Prawo, zasada, twierdzenie
+
+Całkowity pęd układu punktów
+materialnych jest równy iloczynowi całkowitej masy układu i prędkości
+jego środka masy.
+
+{
+Zgodnie z równaniem (9.7)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F_{{\text{zew}}}=\mathit{Ma}_{{\text{śr}\text{.}m\text{.}}}=M\frac{\mathit{dv}_{{\text{śr}\text{.}m\text{.}}}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.13]
+
+{
+więc druga zasada dynamiki Newtona dla układu punktów materialnych
+przyjmuje postać}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F_{{\text{zew}}}=\frac{\mathit{dP}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.14]
+
+{
+Ponownie widzimy, że nawet ciała materialne będące układami złożonymi z
+dużej liczby punktów materialnych możemy w pewnych sytuacjach traktować
+jako pojedynczy punkt materialny. Tym punktem jest środek masy.}
+{
+Z równania (9.14) wynika, że gdy wypadkowa siła zewnętrzna
+równa jest zeru {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{zew}{OPENAGHMATHJAX} = 0, to dla
+układu o stałej masie, środek masy pozostaje w spoczynku lub
+porusza się ruchem jednostajnym prostoliniowym, przy czym poszczególne
+punkty układu mogą poruszać się po różnych torach.}
+{
+To stwierdzenie wprowadza nas w zasadę zachowania pędu.}
+\clearpage!!!#Zasada zachowania pędu 
+{
+Ponownie rozpatrzmy układ {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} punktów materialnych.
+Jeżeli układ jest odosobniony, to znaczy nie działają siły zewnętrzne
+to zgodnie z równaniem (9.14)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\mathit{dP}}{\mathit{dt}}=0\;\;\;\text{lub}\;\;\;P=\text{const}\text{.}}
+\end{equation}{OPENAGHMATHJAX}
+[9.15]
+
+{
+Ten warunek wyraża zasadę zachowania pędu.}
+Prawo, zasada, twierdzenie
+
+Jeżeli wypadkowa sił zewnętrznych
+działających na układ jest równa zeru, to całkowity wektor pędu układu
+pozostaje stały.
+
+{
+Zobaczymy teraz jak ta zasada stosuje się do wybranej sytuacji.}
+Przykład
+
+{
+Rozważmy dwa ciała o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} połączone nieważką sprężyną umieszczone na
+doskonale gładkim stole (rysunku poniżej). Odciągamy od siebie te ciała
+na pewną odległość, a następnie puszczamy swobodnie.}
+{  {img fileId="452" } }
+{
+Rys. 9.3. Układ dwóch mas połączonych sprężyną
+}
+{
+Spróbujmy opisać ruch tych ciał.}
+{
+Jeżeli pod pojęciem układ rozumiemy obie masy i sprężynę to na ten układ
+nie działa żadna siła zewnętrzna (układ odosobniony), działają tylko
+siły pomiędzy elementami układu. Oznacza to, że możemy do tego układu
+stosować zasadę zachowania pędu. Przed zwolnieniem ciał pęd układu
+(w odniesieniu do stołu) był równy zeru. Pęd zostaje zachowany więc
+pozostaje taki sam po zwolnieniu obu ciał. Chociaż poszczególne ciała
+poruszają się i ich pędy są różne od zera to pęd układu może być równy
+zeru. Pęd układu będący wielkością wektorową jest sumą ujemnego pędu
+ciała {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} (porusza się w kierunku
+{OPENAGHMATHJAX()}-x{OPENAGHMATHJAX}) i dodatniego pędu ciała {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}
+(porusza się w kierunku +{OPENAGHMATHJAX()}x{OPENAGHMATHJAX}). Pęd nieważkiej sprężyny jest
+równy zeru. Z zasady zachowania pędu wynika, że pęd początkowy układu
+jest równy pędowi w dowolnej chwili co możemy zapisać w postaci
+równania}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{0=m_{{1}}v_{{1}}+m_{{2}}v_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.16]
+
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{m_{{2}}v_{{2}}=-m_{{1}}v_{{1}}}
+\end{equation}{OPENAGHMATHJAX}
+[9.17]
+
+{
+Przykładowo gdy {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} = 1 kg i
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} = 2 kg to
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} jest dwukrotnie większa od
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} i ma przeciwny zwrot.}
+Ćwiczenie 9.2
+
+{ Spróbuj teraz zastosować te samą zasadę do
+opisu rozpadu promieniotwórczego. Spoczywające jądro uranu emituje,
+z prędkością 10{OPENAGHMATHJAX()}^{7}{OPENAGHMATHJAX} m/s, cząstkę {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX}
+(jądro atomu helu ). Oblicz prędkość odrzutu powstałego w tym rozpadzie
+jądra toru. Stosunek masy cząstki {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} do masy jądra toru
+wynosi {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}{{OPENAGHMATHJAX()}_{{OPENAGHMATHJAX}{OPENAGHMATHJAX}\alpha
+{OPENAGHMATHJAX()}}}/{OPENAGHMATHJAX}M{OPENAGHMATHJAX()}{OPENAGHMATHJAX()}_{Th}{OPENAGHMATHJAX} = 4/234. Wynik zapisz
+poniżej. }
+{ Wskazówka: Skorzystaj z równania (9.16)}
+{ {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{Th.}{OPENAGHMATHJAX}
+=}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+{
+Analogicznie posługując się zasadą zachowania pędu można wytłumaczyć
+zjawisko odrzutu występujące przy strzelaniu z broni palnej.  Zjawisko
+odrzutu ma jednak ważne praktyczne znaczenie. Zostało wykorzystane w
+silnikach odrzutowych i rakietowych, w których wyrzucane spaliny nadają
+samolotowi (rakiecie) przeciwnie skierowany pęd. Zjawisko to jednak
+różni się od opisanych powyżej, bo w przeciwieństwie do układów gdzie
+masa elementów składowych pozostawała stała masa wyrzucanych spalin i
+masa rakiety zmieniają się.}
+Przykład zastosowania zasad zachowania pędu dla
+układu o zmiennej masie (rakieta) możesz poznać w Dodatku 2,
+na końcu modułu II.
+
+{
+Wiemy już, że jeżeli wypadkowa sił zewnętrznych działających na układ
+jest równa zeru to spełniona jest zasada zachowania pędu. W takim
+układzie mogą jednak działać siły wewnętrzne, na przykład siły
+występujące przy zderzeniach między cząsteczkami gazu. I właśnie
+dlatego możemy skorzystać z zasady zachowania pędu do opisu zderzeń.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertiv}
+!#Zderzenia 
+{
+Termin zderzenia obejmuje w fizyce szeroką klasę zjawisk. Do
+tej kategorii zaliczamy na przykład zderzenia kul bilardowych czy
+uderzenia piłki o ścianę. W tych przypadkach zderzające się ciała
+stykają się bezpośrednio i w punkcie ich zetknięcia pojawia się bardzo
+duża siła kontaktowa. Jednak oddziaływujące ciała nie muszą się stykać
+ze sobą, a i tak możemy mówić o ich zderzeniu. Dotyczy to na przykład
+oddziaływania cząstek naładowanych za pośrednictwem pola elektrycznego:
+odpychanie elektrostatyczne wpływa na ruch "zderzających
+się" cząstek. Pod pojęcie zderzeń możemy podciągnąć
+również reakcje jądrowe. Przykładowo, proton w trakcie zderzenia z
+jądrem może wniknąć do niego. Możemy również rozszerzyć definicję
+zderzeń o rozpady cząstek. Cechą charakterystyczną tych wszystkich
+zjawisk jest występowanie sił impulsowych, to jest sił
+działających przez bardzo krótki czas.}
+!!!#Zderzenia w przestrzeni jednowymiarowej
+{
+Właśnie ze względu na krótki czas działania nie możemy na ogół
+zmierzyć sił działających podczas zderzenia. Wiemy jednak, że musi być
+spełniona zasada zachowania pędu (występują tylko siły wewnętrzne
+oddziaływania między zderzającymi się obiektami, a siły zewnętrzne są
+równe zeru), oraz zasada zachowania energii całkowitej. Wobec tego
+nawet nie znając szczegółów oddziaływania można, stosując te zasady,
+spróbować przewidzieć wynik zderzenia.}
+Definicja
+
+Gdy dwa ciała zderzają się to zderzenie
+może być sprężyste (elastyczne) lub niesprężyste (nieelastyczne) w
+zależności od tego czy energia kinetyczna jest zachowana podczas tego
+zderzenia czy też nie.
+
+{
+W zderzeniu sprężystym całkowita energia kinetyczna jest zachowana
+podczas gdy w zderzeniu niesprężystym ciała tracą część energii
+kinetycznej. Kiedy dwa ciała po zderzeniu łączą się mówimy, że
+zderzenie jest całkowicie niesprężyste.}
+Przykład
+
+{
+Jako przykład rozpatrzymy, zderzenie sprężyste dwóch gładkich nie
+wirujących kul o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}
+i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}. Przed zderzeniem kule poruszają się
+wzdłuż linii łączącej ich środki (zderzenie centralne)
+z prędkościami odpowiednio {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} na przykład tak jak na rysunku
+poniżej. Naszym celem jest znalezienie prędkości
+{OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX} tych kul po
+zderzeniu.}
+{  {img fileId="433" } }
+{
+Rys. 10.1.  Kule o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} przed (a) i po (b) zderzeniu
+}
+{
+Z zasady zachowania pędu dla układu obu kul otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{m_{{1}}v_{{1}}+m_{{2}}v_{{2}}=m_{{1}}u_{{1}}+m_{{2}}u_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[10.1]
+
+{
+Ponieważ zderzenie jest sprężyste to zgodnie z definicją energia
+kinetyczna jest zachowana w tym zderzeniu}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{m_{{1}}v_{{1}}^{{2}}}{2}+\frac{m_{{2}}v_{{2}}^{{2}}}{2}=\frac{m_{{1}}u_{{1}}^{{2}}}{2}+\frac{m_{{2}}u_{{2}}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[10.2]
+
+{
+Rozwiązujemy układ dwóch równań (10.1) i (10.2) z dwoma niewiadomymi
+{OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX} i otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{u_{{1}}=\left(\frac{m_{{1}}-m_{{2}}}{m_{{1}}+m_{{2}}}\right)\;\text{[EF02?]}v_{{1}}+\left(\frac{2m_{{2}}}{m_{{1}}+m_{{2}}}\right)\text{[EF02?]}\;v_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[10.3]
+
+{
+oraz}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{u_{{2}}=\left(\frac{2m_{{1}}}{m_{{1}}+m_{{2}}}\right)\text{[EF02?]}\;v_{{1}}+\left(\frac{m_{{2}}-m_{{1}}}{m_{{1}}+m_{{2}}}\right)\text{[EF02?]}\;v_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[10.4]
+
+{
+Rozpatrzmy teraz kilka przypadków. W każdym z nich, posługując się
+zależnościami (10.3) i (10.4) obliczymy prędkości ciał po zderzeniu
+{OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX}.}
+{
+a) Zderzenie dwóch identycznych ciał
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} = m.
+Rozwiązanie: {OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX} =
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX} =
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1.}{OPENAGHMATHJAX}}
+{
+Ciała wymieniają się prędkościami i zarazem pędami.}
+{
+Na przykład gdy podczas gry w bilard poruszająca się z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} kula zderza się centralnie z drugą identyczną ale
+nieruchomą kulą to sama zatrzymuje się, a spoczywająca dotychczas kula
+zaczyna poruszać się z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}.}
+{
+b) Lekka cząstka zderza się centralnie z ciężkim nieruchomym jądrem lub
+piłka uderza o ścianę;
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} {\textless}{\textless} {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} =0. Rozwiązanie:
+{OPENAGHMATHJAX()}u_1={OPENAGHMATHJAX}{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}u_2={OPENAGHMATHJAX}0. }
+{
+Piłka odbija się sprężyście od ściany więc prędkość zmienia znak (wektor
+zmienia zwrot), a ściana pozostaje nieruchoma.}
+{
+c) Sytuacja odwrotna, ciężka cząstka uderza w nieruchomą cząstkę lekką;
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} {\textgreater}{\textgreater}
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} oraz
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 0. Rozwiązanie:
+{OPENAGHMATHJAX()}u_1={OPENAGHMATHJAX}{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}u_2={OPENAGHMATHJAX}2{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}.}
+{
+Cząstka lekka uzyskuje prędkość dwukrotnie większą od cząstki ciężkiej,
+której prędkość (pęd) nie ulega zmianie.}
+{
+Powyższa analiza pokazuje na przykład jak dobierać materiał
+spowalniający neutrony w reaktorze. Neutrony muszą być spowalniane aby
+podtrzymać proces rozszczepienia. W tym celu zderza się je sprężyście z
+jądrami (spoczywającymi) spowalniacza. Gdyby w spowalniaczu były
+ciężkie jądra to neutrony zderzając się
+"odbijałyby" się nie tracąc nic z prędkości
+(przypadek b). Gdyby natomiast spowalniaczem były cząstki lekkie, np.
+elektrony, to neutrony poruszałyby się wśród nich praktycznie bez
+zmiany prędkości (przypadek c). Zatem trzeba wybrać moderator
+(spowalniacz) o masie jąder porównywalnej z masą neutronów (przypadek
+a).}
+Ćwiczenie 10.1
+
+{ Sprawdź, jaką część swej energii kinetycznej
+traci neutron o masie {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} w zderzeniu
+centralnym z będącym w spoczynku jądrem atomowym o masie
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} ? Obliczenia wykonaj dla jądra ołowiu
+{OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}206 {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, jądra
+węgla  i jądra wodoru {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} =
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}.}
+{ Wynik zapisz poniżej. Wskazówka: Skorzystaj z
+równania (10.3) uwzględniając, że {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+= 0.}
+{ dla ołowiu  {OPENAGHMATHJAX}{\frac{\mathit{\Delta
+E}_{{k}}}{E_{{k}}}}={OPENAGHMATHJAX()}}
+{ dla węgla  {OPENAGHMATHJAX}{\frac{\mathit{\Delta
+E}_{{k}}}{E_{{k}}}}={OPENAGHMATHJAX()}}
+{ dla wodoru  {OPENAGHMATHJAX}{\frac{\mathit{\Delta
+E}_{{k}}}{E_{{k}}}}={OPENAGHMATHJAX()}}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+{
+Rozważmy teraz przypadek zderzenia całkowicie niesprężystego.
+Przy zderzeniach niesprężystych energia kinetyczna nie jest zachowana.
+Energia będąca różnicą pomiędzy początkową i końcową energią kinetyczną
+przechodzi w inne formy energii na przykład w ciepło lub energię
+potencjalną związaną z deformacją ciała podczas zderzenia. Tak jest w
+przypadku wahadła balistycznego, które służy do pomiaru prędkości
+pocisków. Składa się ono z bloku drewnianego o masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX},
+wiszącego na dwóch sznurach. Pocisk o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}, mający prędkość
+poziomą {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}, wbija się w klocek i zatrzymuje w nim. Po
+zderzeniu wahadło tzn. klocek z tkwiącym w nim pociskiem wychyla się i
+podnosi na maksymalną wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} tak jak pokazano na rysunku
+poniżej.}
+{  {img fileId="445" } }
+{
+Rys. 10.2.  Wahadło balistyczne
+}
+{
+Pęd przed zderzeniem jest równy pędowi pocisku, bo klocek jest
+nieruchomy. Natomiast po zderzeniu klocek i pocisk poruszają się razem.
+Stosując zasadę zachowania pędu otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{mv}=(m+M)u}
+\end{equation}{OPENAGHMATHJAX}
+[10.5]
+
+{
+gdzie {OPENAGHMATHJAX()}u{OPENAGHMATHJAX} jest prędkością układu klocek - pocisk zaraz po
+zderzeniu. W zderzeniu, część energii kinetycznej pocisku jest tracona
+min. na ciepło i odkształcenie klocka, w który pocisk się wbija.
+Pozostała część energii kinetycznej zamienia się po zderzeniu
+w potencjalną energię grawitacji co możemy zapisać w postaci równania}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{1}{2}(m+M)u^{{2}}=(m+M)\text{gh}}
+\end{equation}{OPENAGHMATHJAX}
+[10.6]
+
+{
+Rozwiązując ostatnie dwa równania otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v=\frac{m+M}{m}\sqrt{2\text{gh}}}
+\end{equation}{OPENAGHMATHJAX}
+[10.7]
+
+{
+Wystarczy więc zmierzyć wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} oraz masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}M{OPENAGHMATHJAX} aby móc wyznaczyć prędkość pocisku {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}.}
+Ćwiczenie 10.2
+
+{ Sprawdź jaka część początkowej energii zostaje
+zachowana w tym zderzeniu. Przyjmij masę pocisku m = 5 g, a
+masę klocka {OPENAGHMATHJAX()}M={OPENAGHMATHJAX}2 kg. Wynik zapisz poniżej. }
+{ Wskazówka: Skorzystaj z równania (10.7) i
+oblicz iloraz}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\frac{1}{2}(m+M)u^{{2}}}{\frac{1}{2}\mathit{mv}^{{2}}}=}
+\end{equation}{OPENAGHMATHJAX}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Zderzenia na płaszczyźnie
+{
+Dotychczas zajmowaliśmy się zderzeniami cząstek w przestrzeni
+jednowymiarowej. Teraz rozpatrzymy najprostszy przypadek
+wielowymiarowy; zajmiemy się zderzeniami sprężystymi na płaszczyźnie.
+Zaczniemy od analizy zderzenia sprężystego ukośnego kuli o masie
+{OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i prędkości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} ze ścianą. Naszym celem jest
+znalezienie prędkości kuli po zderzeniu.}
+{
+Ruch kuli opisujemy w układzie współrzędnych {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}
+związanym ze ścianą, oś {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} pokazuje kierunek prostopadły do
+ściany, y {}- kierunek równoległy, a początek układu
+umieszczamy na powierzchni ściany w punkcie zderzenia. W tak wybranym
+układzie współrzędnych rozkładamy na składowe wektor prędkości
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} (rysunek 10.3)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+\begin{matrix}{v_{{x}}=v\({\cos}\)\alpha }
+\\	v_{{y}}=v\({\sin}\)\alpha  \end{matrix} 
+\end{equation}{OPENAGHMATHJAX}
+[10.8]
+
+{
+Na przykładzie rzutu ukośnego (punkt 3.2) pokazaliśmy, że taki ruch na
+płaszczyźnie można traktować jak dwa niezależne ruchy jednowymiarowe.
+Ruch kuli w kierunku y odbywa się równolegle do ściany więc
+składowa {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{y}{OPENAGHMATHJAX} nie ulega
+zmianie przy odbiciu. Natomiast składowa prostopadła do powierzchni
+ściany, po zderzeniu zmienia znak na przeciwny, kula odbija się od
+ściany jak w przykładzie (b) w poprzednim rozdziale. Stąd prędkość kuli
+po zderzeniu (odbiciu się od ściany)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{u=\sqrt{v_{{x}}^{{2}}+v_{{y}}^{{2}}}=\sqrt{(-v\({\cos}\)\alpha
+)^{{2}}+(v\({\sin}\)\alpha )^{{2}}}=v}
+\end{equation}{OPENAGHMATHJAX}
+[10.8]
+
+{
+Prędkość po odbiciu od ściany jest taka sama jak przed odbiciem, a kąt
+odbicia jest równy kątowi padania (rysunek poniżej).}
+{  {img fileId="443" } }
+{
+Rys. 10.3.  Sprężyste zderzenie kuli ze ścianą
+}
+{
+Teraz rozpatrzymy ukośne, sprężyste zderzenie kuli bilardowej
+poruszającej się z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} z
+drugą identyczną spoczywająca kulą. Takie zagranie stosuje się, żeby
+skierować wybraną kulę pod pewnym kątem w bok. Dzieje się tak, gdy
+środek kuli spoczywającej nie leży na linii wzdłuż, której porusza się
+pierwsza kula. Takie zderzenie jest pokazane na rysunku poniżej.}
+{  {img fileId="428" } }
+{
+Rys. 10.4.  Zderzenia kul bilardowych
+}
+{
+Zgodnie z zasadą zachowania pędu i zasadą zachowania energii}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{mv}_{{1}}=\mathit{mu}_{{1}}+\mathit{mu}_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}{\frac{\mathit{mv}_{{1}}^{{2}}}{2}=\frac{\text{mu}_{{1}}^{{2}}}{2}+\frac{\text{mu}_{{2}}^{{2}}}{2}}{OPENAGHMATHJAX}
+[10.10]
+
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{1}}=u_{{1}}+u_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{1}}^{{2}}=u_{{1}}^{{2}}+u_{{2}}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[10.11]
+
+{
+Z równań tych wynika, że wektory {OPENAGHMATHJAX()}v_1{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}u{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}u{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} tworzą boki trójkąta prostokątnego
+(twierdzenie Pitagorasa) tak jak na rysunku 10.5.}
+{  {img fileId="437" } }
+{
+Rys. 10.6. Prędkości kul przed i po zderzeniu
+}
+{
+Oznacza to, że dla dowolnego kąta {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} (0, {OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}/2) po
+zderzeniu kule będą zawsze poruszały się względem siebie pod kątem
+prostym. Wartość kąta {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} zależy natomiast od tak
+zwanego parametru zderzenia czyli odległości między pierwotnym
+kierunkiem ruchu kuli pierwszej, a środkiem kuli spoczywającej. }
+{
+Ten rozdział kończy drugi moduł; możesz teraz przejść do podsumowania i
+zadań testowych.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertv}
+{\sffamily
+Podsumowanie}
+\liststyleWWviiiNumxi
+*{
+Praca {OPENAGHMATHJAX()}W{OPENAGHMATHJAX} wykonana przez {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} jest iloczynem skalarnym siły
+{OPENAGHMATHJAX()}F{OPENAGHMATHJAX} i wektora przesunięcia {OPENAGHMATHJAX()}s{OPENAGHMATHJAX}. Praca
+wykonana przez siłę stałą  {OPENAGHMATHJAX}{W=F\cdot
+s=Fs{OPENAGHMATHJAX()}{\cos}{OPENAGHMATHJAX}\alpha }{OPENAGHMATHJAX()}, a przez siłę zmienną
+{OPENAGHMATHJAX()}{W=\int {F\cdot \mathit{ds}}}{OPENAGHMATHJAX}.}
+*{
+Energia kinetyczna jest definiowana jako 
+{OPENAGHMATHJAX()}{E_{{k}}=\frac{1}{2}\mathit{mv}^{{2}}}{OPENAGHMATHJAX}.}
+*{
+Moc jest szybkością wykonywania pracy 
+{OPENAGHMATHJAX()}{P=\frac{\mathit{dW}}{\mathit{dt}}}{OPENAGHMATHJAX}.}
+*{
+Jeżeli siła {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} jest siłą zachowawczą to zmiana energii
+potencjalnej jest równa  {OPENAGHMATHJAX}{\mathit{\Delta
+E}_{{p}}=-W=-\overset{{B}}{\underset{{A}}{\int }}{F}\cdot
+\mathit{ds}}{OPENAGHMATHJAX()}. Dla sił zachowawczych ta całka nie zależy od drogi od
+A do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}, na której wykonujemy pracę, a tylko od
+położenia punktów {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}.}
+*{
+Zasada zachowania energii mechanicznej mówi, że dla ciała podlegającego
+działaniu siły zachowawczej, suma energii kinetycznej i potencjalnej
+jest stała. }
+*{
+Jeżeli działają siły niezachowawcze to zamieniają one energię
+mechaniczną na energię wewnętrzną.}
+*{
+Grawitacyjna energia potencjalna wynosi 
+{OPENAGHMATHJAX()}{E_{{p}}(r)=-G\frac{\text{Mm}}{r}}{OPENAGHMATHJAX}}
+*{
+Potencjał pola grawitacyjnego definiujemy jako 
+{OPENAGHMATHJAX()}{V(r)=\frac{E_{{p}}(r)}{m}=-G\frac{M}{r}}{OPENAGHMATHJAX}}
+*{
+Zasada zachowania pędu w układzie odosobnionym mówi, że jeżeli wypadkowa
+sił zewnętrznych działających na układ jest równa zeru, to całkowity
+wektor pędu układu pozostaje stały. 
+{OPENAGHMATHJAX}{F_{{\text{wyp}}}=\frac{\mathit{dP}}{\mathit{dt}}=0\;\;\;\Rightarrow
+\;\;\;P=\text{const}\text{.}}{OPENAGHMATHJAX()}}
+*{
+W zderzeniu sprężystym całkowita energia kinetyczna jest taka
+sama po zderzeniu jak przed zderzeniem podczas gdy w zderzeniu
+niesprężystym ciała tracą część energii kinetycznej. Kiedy dwa
+ciała po zderzeniu łączą się mówimy, że zderzenie jest
+całkowicie niesprężyste.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertvi}
+!#Materiały dodatkowe do Modułu II
+\liststyleWWviiiNumxii
+#{\sffamily
+Energia kinetyczna w układzie środka masy }
+{
+Rozpatrzmy układ, o stałej masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}, złożony z
+{OPENAGHMATHJAX()}n{OPENAGHMATHJAX} punktów materialnych o masach
+
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX},. ..., {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX}
+oraz prędkościach {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, .....,
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX}. Energia
+kinetyczna tego układu mierzona względem środka masy jest dana
+wyrażeniem}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=\frac{\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}v_{{i}}^{{2}}}}{2}=\frac{\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}(v_{{\text{śr}\text{.}m\text{.}}}+v_{{i\text{.}\text{wzg}}})(v_{{\text{śr}\text{.}m\text{.}}}+v_{{i\text{.}\text{wzg}}})}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[II.1.1]
+
+{
+gdzie {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.}{OPENAGHMATHJAX} jest
+prędkością środka masy, a
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{i,wzg}{OPENAGHMATHJAX} jest prędkością
+{OPENAGHMATHJAX()}i{OPENAGHMATHJAX}{}-tego punktu mierzoną w układzie środka masy. Wykonując
+mnożenie skalarne otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=\frac{\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}}}{2}v_{{\text{śr}\text{.}m\text{.}}}^{{2}}+v_{{\text{śr}\text{.}m\text{.}}}\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}v_{{i\text{.}\text{wzg}}}}+\frac{\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}v_{{i\text{.}\text{wzg}}}^{{2}}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[II.1.2]
+
+{
+Zgodnie z równaniem (9.6)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\overset{{n}}{\underset{{i=1}}{\sum
+}}{m_{{i}}v_{{i\text{.}\text{wzg}}}}=\mathit{Mv}_{{\text{śr}\text{.}m\text{.}\text{wzg}}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+a ponieważ prędkość środka masy mierzona względem środka masy jest równa
+zeru {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{śr.m.,wzg}{OPENAGHMATHJAX} = 0
+więc drugi wyraz w równaniu (II.1.2) znika. Ostatecznie}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=\frac{\mathit{Mv}_{{\text{śr}\text{.}m\text{.}}}^{{2}}}{2}+E_{{k}}^{{}}}
+\end{equation}{OPENAGHMATHJAX}
+[II.1.3]
+
+{
+gdzie {OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX}{\textquotesingle} jest
+energią kinetyczną mierzoną w układzie środka masy. Zastosowanie tego
+równania zilustrujemy obliczając energię kinetyczną obręczy o
+masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} toczącej się po płaszczyźnie tak, że środek obręczy ma
+prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} (rysunek poniżej)}
+{  {img fileId="449" } }
+{
+Ponieważ w układzie środka masy ciało sztywne może mieć tylko energię
+obrotową (rotacyjną ) więc równanie (3) przyjmuje postać}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=\frac{\mathit{mv}^{{2}}}{2}+\frac{\mathit{mv}_{{\text{obrot}\text{.}\text{wzg}}}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[II.1.4]
+
+{
+gdzie {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{obrot,wzg}{OPENAGHMATHJAX} to
+prędkość obręczy w układzie środka masy. Ponieważ obserwator w układzie
+środka masy widzi obręcz obracającą się z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} więc
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{obrot,wzg}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}. }
+{
+Stąd}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=\frac{\mathit{mv}^{{2}}}{2}+\frac{\mathit{mv}^{{2}}}{2}=\mathit{mv}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[II.1.5]
+
+{
+Zauważmy, że obręcz ma energię dwa razy większą od ciała o masie
+{OPENAGHMATHJAX()}m{OPENAGHMATHJAX} poruszającego się z tą samą prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}
+(ale nie obracającego się).}
+\liststyleWWviiiNumxii
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Układy o zmiennej masie }
+{
+Rozpatrzymy układ, który stanowi rakieta wyrzucająca ze swej
+dyszy gorący gaz z dużą prędkością, zmniejszając w ten sposób swoją
+masę i zwiększając prędkość (rysunek poniżej).}
+{  {img fileId="438" } }
+{
+Napęd odrzutowy rakiety
+}
+{
+Spaliny opuszczają silnik rakiety ze stałą prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX} względem Ziemi.
+Prędkość chwilowa rakiety względem Ziemi jest równa
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}, zatem prędkość spalin względem rakiety
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{wzg}{OPENAGHMATHJAX} jest dana
+zależnością}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{\text{wzg}}}=v_{{s}}-v}
+\end{equation}{OPENAGHMATHJAX}
+[II.2.1]
+
+{
+Jeżeli w przedziale czasu d{OPENAGHMATHJAX()}t{OPENAGHMATHJAX} z rakiety wyrzucona zostaje masa
+d{OPENAGHMATHJAX()}m_s{OPENAGHMATHJAX} z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX} to masa rakiety maleje o
+d{OPENAGHMATHJAX()}m{OPENAGHMATHJAX}, a jej prędkość rośnie o d{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}, przy czym}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\mathit{dm}_{{s}}}{\mathit{dt}}=-{\frac{\mathit{dm}}{\mathit{dt}}}}
+\end{equation}{OPENAGHMATHJAX}
+[II.2.2]
+
+{
+Znak minus wynika stąd, że masa rakiety maleje. Obliczamy teraz zmianę
+pędu {OPENAGHMATHJAX()}P{OPENAGHMATHJAX} układu w czasie d{OPENAGHMATHJAX()}t{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\mathit{dP}}{\mathit{dt}}=\frac{\mathit{dp}_{{\text{rakiety}}}}{\mathit{dt}}+\frac{\mathit{dp}_{{\text{spalin}}}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[II.2.3]
+
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\mathit{dP}}{\mathit{dt}}=\frac{d(\mathit{mv})}{\mathit{dt}}+v_{{s}}\frac{\mathit{dm}_{{s}}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[II.2.4]
+
+{
+skąd ostatecznie}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\mathit{dP}}{\mathit{dt}}=m\frac{\mathit{dv}}{\mathit{dt}}+v\frac{\mathit{dm}}{\mathit{dt}}+v_{{s}}\frac{\mathit{dm}_{{s}}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[II.2.5]
+
+{
+Równanie to uwzględnia fakt, że w przypadku rakiety zmienia się zarówno
+jej masa jak i prędkość podczas gdy spaliny są wyrzucane ze stałą
+prędkością. }
+{
+Zmiana pędu układu jest zgodnie z drugą zasadą dynamiki Newtona równa
+sile zewnętrznej działającej na układ. Uwzględniając zależności
+(II.2.1) i (II.2.2) możemy przekształcić równanie (II.2.5) do postaci}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F_{{\text{zew}}}=\frac{\mathit{dP}}{\mathit{dt}}=m\frac{\mathit{dv}}{\mathit{dt}}+v_{{\text{wzg}}}\frac{\mathit{dm}_{{s}}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[II.2.6]
+
+{
+Ostatni wyraz w równaniu (II.2.6) może być interpretowany jako siła
+wywierana na układ przez substancję (spaliny), która z niego wylatuje.
+W przypadku rakiety (samolotu) nosi ona nazwę siły ciągu.}
+Przykład
+
+{
+Samolot odrzutowy leci z prędkością 250 m/s i z taką prędkością jest
+wciągane do jego silnika powietrze. W każdej sekundzie silnik samolotu
+spala mieszankę paliwową składającą się z 75 kg powietrza i 3 kg
+paliwa, a prędkość wyrzucania spalin wynosi 500 m/s. }
+{
+Siłę ciągu obliczamy zgodnie ze wzorem (II.2.6) przy czym prędkość
+względna jest równa różnicy prędkości wyrzucania spalin i wciągania
+powietrza {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{wzg}{OPENAGHMATHJAX} = 250 m/s, a masa
+spalin wyrzucanych w jednostce czasu wynosi 78 kg/s. Stąd otrzymujemy
+siłę ciągu równą 1.95·10{OPENAGHMATHJAX()}^{4}{OPENAGHMATHJAX} N.}
+{
+Jeżeli ruch rakiety odbywa się w przestrzeni kosmicznej to siły
+zewnętrzne {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{zew}{OPENAGHMATHJAX} są do
+zaniedbania i wtedy zmiana pędu rakiety jest równa sile ciągu (jest
+spełniona zasada zachowania pędu). Natomiast gdy ruch odbywa się w
+pobliżu Ziemi (np. tuż po starcie) to wówczas
+{OPENAGHMATHJAX()}F{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{zew}{OPENAGHMATHJAX} reprezentuje ciężar
+rakiety i siłę oporu atmosfery i trzeba ją uwzględnić. Konstruktorzy
+rakiet starają się uzyskać jak największą siłę ciągu aby przezwyciężyć
+{OPENAGHMATHJAX()}F{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{zew}{OPENAGHMATHJAX}. Na przykład rakieta
+Saturn 5, o masie ponad 3000 ton, wytwarzała przy starcie siłę ciągu 40
+MN.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertvii}
+!#Rozwiązania ćwiczeń z modułu II
+{
+Ćwiczenie 7.2}
+{
+Dane: {OPENAGHMATHJAX()}F(x)={OPENAGHMATHJAX}kx}
+{
+Wykres funkcji {OPENAGHMATHJAX()}F(x)={OPENAGHMATHJAX}kx jest pokazany na
+rysunku poniżej.}
+{  {img fileId="444" } }
+{
+Zależność siły sprężystości od rozciągnięcia {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} sprężyny
+}
+{
+Pole pod wykresem jest polem trójkąta o podstawie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i wysokości
+{OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} i wynosi}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+\begin{matrix}{S=W=\frac{1}{2}\text{xF}(x)}
+\\	{S=\frac{1}{2}kx^{{2}}}
+\end{matrix} 
+\end{equation}{OPENAGHMATHJAX}
+{
+Otrzymana wartość jest identyczna z tą daną równaniem (7.5). }
+{
+Na tym samym rysunku pokazany jest również wykres
+{OPENAGHMATHJAX()}F_s(x){OPENAGHMATHJAX}. Zwróć uwagę, że
+"dodatnia" praca wykonana przez siłę
+{OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (człowieka) jest równa co do wartości
+"ujemnej" pracy wykonanej przez sprężynę.}
+{
+Ćwiczenie 8.2}
+energia potencjalna klocka
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} względem podłogi 
++
+
+energia potencjalna klocka
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} względem stołu 
+{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+
+praca wykonana przez siłę grawitacji 
++
+
+praca wykonana przez siłę tarcia 
+{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+
+zmiana energii potencjalnej układu 
+{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+
+zmiana energii kinetycznej klocka
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} 
++
+
+zmiana energii kinetycznej klocka
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} 
++
+
+{
+1) Klocki (połączone nierozciągliwą nitką) poruszają się z takim samym
+przyspieszeniem, więc w każdej chwili posiadają taką samą prędkość
+v = {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX},
+stąd ich energie kinetyczne (w dowolnej chwili) są odpowiednio równe}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{\mathit{k1}}}=\frac{m_{{1}}v^{{2}}}{2},\;\;\;\;E_{{\mathit{k2}}}=\frac{m_{{2}}v^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Ponieważ, ich energie kinetyczne w chwili początkowej równe były zeru
+({OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} = 0) to zmiany energii
+kinetycznej są równe właśnie powyższym wartościom
+{OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{\Delta
+E}_{{\mathit{k1}}}=\frac{m_{{1}}v^{{2}}}{2},\;\;\;\;\mathit{\Delta
+E}_{{\mathit{k2}}}=\frac{m_{{2}}v^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Widać, że bezwzględna zmiana energii kinetycznej zależy od masy ciała.}
+{
+2) Zmiana całkowitej energii kinetycznej układu jest co do bezwzględnej
+wartości równa zmianie energii potencjalnej układu tylko wtedy gdy
+działają siły zachowawcze. Ponieważ występuje tarcie pomiędzy stołem i
+klockiem {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, które jest siłą niezachowawczą,
+więc tylko część z nagromadzonej energii potencjalnej klocka
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} jest podczas jego ruchu w dół zamieniana na
+energię kinetyczna (obu klocków). Bezwzględna zmiana energii
+kinetycznej jest więc mniejsza od bezwzględnej zmiany energii
+potencjalnej układu. }
+{
+Ćwiczenie 8.3}
+{
+Dane: {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}M_z{OPENAGHMATHJAX},
+R{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX}, G. }
+{
+Siła grawitacji jest siłą zachowawczą więc w jej polu}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}+E_{{p}}=\text{const}\text{.}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Na powierzchni Ziemi}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=\frac{\mathit{mv}^{{2}}}{R}\;\;\;\;E_{{p}}=-G\frac{M_{{Z}}m}{R_{{Z}}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+a na wysokości h nad powierzchnią Ziemi}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{E_{{k}}=0\;\;\;\;E_{{p}}=-G\frac{M_{{Z}}m}{(R_{{Z}}+h)}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Łącząc powyższe równania (korzystając z warunku 
+{OPENAGHMATHJAX()}{E_{{k}}+E_{{p}}=\text{const}\text{.}}{OPENAGHMATHJAX}) otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\mathit{mv}^{{2}}}{R}\;-G\frac{M_{{Z}}m}{R_{{Z}}}=-G\frac{M_{{Z}}m}{(R_{{Z}}+h)}}
+\end{equation}{OPENAGHMATHJAX}
+{
+a po przekształceniach}
+{ 
+{OPENAGHMATHJAX()}{v=\sqrt{2\text{GM}_{{Z}}\left(\frac{1}{R_{{Z}}}-\frac{1}{R_{{Z}}+h}\right)}}{OPENAGHMATHJAX}}
+{
+Ćwiczenie 8.4}
+{
+Dane: {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}, strata energii mechanicznej przy odbiciu od
+podłoża {OPENAGHMATHJAX()}s={OPENAGHMATHJAX}1/3  }
+{
+Piłka puszczona z wysokości {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} nad podłożem posiada energię
+potencjalną {OPENAGHMATHJAX()}E_p={OPENAGHMATHJAX}{OPENAGHMATHJAX()}mgh{OPENAGHMATHJAX}
+(względem podłoża). W trakcie spadania energia potencjalna zamienia się
+całkowicie w energię kinetyczną. W chwili odbicia {OPENAGHMATHJAX()}s{OPENAGHMATHJAX} =1/3 z
+energii kinetycznej jest zamieniana na energię wewnętrzną, więc po
+odbiciu energia kinetyczna (mechaniczna) jest równa
+q = 1 {OPENAGHMATHJAX()}-{OPENAGHMATHJAX} s = 2/3 energii przed odbiciem.}
+{
+Oznacza to, że energia potencjalna jaką uzyska ciało przy wznoszeniu
+będzie równa 2/3 energii początkowej, a tym samym ciało po odbiciu
+wzniesie się na 2/3 wysokości początkowej. Możemy więc napisać ogólne
+wyrażenie na wysokość po {OPENAGHMATHJAX()}n{OPENAGHMATHJAX}{}-tym odbiciu od podłoża}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{h_{{n}}=\text{qh}_{{n-1}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+gdzie {OPENAGHMATHJAX()}n={OPENAGHMATHJAX}1, 2, 3,.... Zgodnie z tym oznaczeniem
+{OPENAGHMATHJAX()}h_0={OPENAGHMATHJAX}h jest początkową wysokością
+z jakiej spada ciało. Widzimy, że kolejne wysokości tworzą ciąg
+geometryczny. Stąd}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{h_{{4}}=hq^{{4}}=h\left(\frac{2}{3}\right)^{{4}}=\frac{\text{16}}{\text{81}}h}
+\end{equation}{OPENAGHMATHJAX}
+{
+Analogicznie energia mechaniczna zamieniona na energię wewnętrzną
+(podczas 4-ech odbić) wynosi}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\mathit{\Delta
+E}=mgh-mgh_{{4}}=\frac{\text{65}}{\text{81}}mgh}
+\end{equation}{OPENAGHMATHJAX}
+{
+Ćwiczenie 9.1}
+{
+Dane: {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} = 1 kg,
+{OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} = 2 kg i
+{OPENAGHMATHJAX()}m_3{OPENAGHMATHJAX} = 3 kg, a = 1 m.}
+{
+Ponieważ wynik nie zależy od wyboru układu odniesienia to możemy przyjąć
+dowolny układ odniesienia w szczególności taki jak na rysunku poniżej.}
+{  {img fileId="446" } }
+{
+Współrzędne {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} położenia mas
+{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}m_3{OPENAGHMATHJAX} wynoszą odpowiednio}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{(0,0);\;(a,0);\;\left(\frac{a}{2},\frac{a\sqrt{3}}{2}\right)}
+\end{equation}{OPENAGHMATHJAX}
+{
+Współrzędne środka masy obliczamy zgodnie z równaniem (9.3)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{x_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}x_{{1}}+m_{{2}}x_{{2}}+m_{{3}}x_{{3}}}{m_{{1}}+m_{{2}}+m_{{3}}}=\frac{7}{\text{12}}m}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{y_{{\text{śr}\text{.}m\text{.}}}=\frac{m_{{1}}y_{{1}}+m_{{2}}y_{{2}}+m_{{3}}y_{{3}}}{m_{{1}}+m_{{2}}+m_{{3}}}=\frac{\sqrt{3}}{4}m}
+\end{equation}{OPENAGHMATHJAX}
+{
+Zwróćmy uwagę, że położenie środka masy nie pokrywa się ze środkiem
+geometrycznym.}
+{
+Ćwiczenie 9.2}
+{
+Dane: {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}{{OPENAGHMATHJAX()}_{{OPENAGHMATHJAX}{OPENAGHMATHJAX}\alpha
+{OPENAGHMATHJAX()}}}/{OPENAGHMATHJAX}M{OPENAGHMATHJAX()}{OPENAGHMATHJAX()}_{Th}{OPENAGHMATHJAX} = 4/234 (w jednostkach masy
+atomowej), {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} = 10{OPENAGHMATHJAX()}^{7}{OPENAGHMATHJAX} m/s. }
+{
+Ze względu na nieobecność sił zewnętrznych pęd układu, który przed
+rozpadem był równy zeru po rozpadzie pozostaje niezmieniony: pęd
+początkowy = pęd końcowy:}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{0=M_{{\text{Th}}}v_{{\text{Th}}}+M_{{\alpha
+}}v_{{\alpha }}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Skąd {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{Th}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}-{OPENAGHMATHJAX}
+2.4·10{OPENAGHMATHJAX()}^{5}{OPENAGHMATHJAX} m/s }
+{
+Ćwiczenie 10.1}
+{
+Dane: zderzenie sprężyste, {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 0,
+ołów {OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}206 {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX},
+węgiel {OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}12 {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX},
+wodór {OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}.}
+{
+Energia kinetyczna neutronu przed zderzeniem: 
+{OPENAGHMATHJAX()}{E_{{\mathit{k1}}}=\frac{m_{{1}}v_{{1}}^{{2}}}{2}}{OPENAGHMATHJAX}}
+{
+Energia kinetyczna neutronu po zderzeniu: 
+{OPENAGHMATHJAX()}{E_{{\mathit{k2}}}=\frac{m_{{1}}u_{{1}}^{{2}}}{2}}{OPENAGHMATHJAX}}
+{
+Względna zmiana energii neutronu podczas zderzenia: 
+{OPENAGHMATHJAX()}{\frac{E_{{\mathit{k1}}}-E_{{\mathit{k2}}}}{E_{{\mathit{k1}}}}=\frac{v_{{1}}^{{2}}-u_{{1}}^{{2}}}{v_{{1}}^{{2}}}=1-\frac{u_{{1}}^{{2}}}{v_{{1}}^{{2}}}}{OPENAGHMATHJAX}}
+{
+Ponieważ, zderzenie odbywa się z nieruchomym jądrem
+({OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 0) to na podstawie wzoru
+(10.3)}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{u_{{1}}=\left(\frac{m_{{1}}-m_{{2}}}{m_{{1}}+m_{{2}}}\right)\;\text{[EF02?]}v_{{1}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+więc}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{E_{{\mathit{k1}}}-E_{{\mathit{k2}}}}{E_{{\mathit{k1}}}}=1-\left(\frac{m_{{1}}-m_{{2}}}{m_{{1}}+m_{{2}}}\right)^{{2}}=\frac{4m_{{1}}m_{{2}}}{(m_{{1}}+m_{{2}})^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+dla ołowiu {OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}206 {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}
+więc
+{OPENAGHMATHJAX()}{\frac{E_{{\mathit{k1}}}-E_{{\mathit{k2}}}}{E_{{\mathit{k1}}}}=0\text{.}\text{02}\;\;(2\mathit{})}{OPENAGHMATHJAX}}
+{
+dla węgla {OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}12 {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}
+więc 
+{OPENAGHMATHJAX()}{\frac{E_{{\mathit{k1}}}-E_{{\mathit{k2}}}}{E_{{\mathit{k1}}}}=0\text{.}\text{28}\;\;(\text{28}\mathit{})}{OPENAGHMATHJAX}}
+{
+dla wodoru {OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}{OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}
+więc 
+{OPENAGHMATHJAX()}{\frac{E_{{\mathit{k1}}}-E_{{\mathit{k2}}}}{E_{{\mathit{k1}}}}=1\;\;(\text{100}\mathit{})}{OPENAGHMATHJAX}}
+{
+Wyniki te pokazują dlaczego parafina, która jest bogata w wodór jest
+dobrym spowalniaczem (a nie ołów). }
+{
+Ćwiczenie 10.2}
+{
+Dane: {OPENAGHMATHJAX()}m={OPENAGHMATHJAX}5g, {OPENAGHMATHJAX()}M={OPENAGHMATHJAX}2 kg.}
+{
+Obliczamy stosunek energii kinetycznej układu klocek – pocisk, zaraz po
+zderzeniu, do energii kinetycznej pocisku przed zderzeniem. Korzystając
+ze wzoru (10.7) otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\frac{1}{2}(m+M)u^{{2}}}{\frac{1}{2}\mathit{mv}^{{2}}}=\frac{(m+M)\text{gh}}{\frac{1}{2}m\left(\frac{m+M}{m}\right)^{{2}}2\text{gh}}=\frac{m}{m+M}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Podstawiając dane otrzymujemy stosunek {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}/(m+M)
+{OPENAGHMATHJAX()}{\cong}{OPENAGHMATHJAX} 0.0025. Oznacza to, że zachowane zostaje tylko 0.25{OPENAGHMATHJAX}\początkowej energii kinetycznej, a 99.75{OPENAGHMATHJAX()}\energii. }
+\clearpage\setcounter{page}{1}\pagestyle{Convertviii}
+!#Test II
+\liststyleWWviiiNumxiv
+#{
+Ciało porusza się ruchem prostoliniowym po gładkiej poziomej
+powierzchni. Prędkość tego ciała zmienia się w czasie ruchu tak jak
+pokazano na rysunku poniżej. Określ czy praca wykonana przez siłę
+wypadkową w kolejnych przedziałach czasu {OPENAGHMATHJAX()}t_1{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}t_2{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}t_3{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}t_4{OPENAGHMATHJAX} jest dodatnia, ujemna czy równa zeru?}
+{  {img fileId="440" } }
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{
+W wyniku działania siły tarcia ciało o masie {OPENAGHMATHJAX()}m={OPENAGHMATHJAX}5 kg zmniejsza
+swoją prędkość od wartości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 10
+m/s do wartości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = 6 m/s. Jaką
+pracę wykonała siła tarcia?}
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{
+Siła, której zależność od położenia jest pokazana na rysunku poniżej,
+przesuwa ciało o masie {OPENAGHMATHJAX()}m={OPENAGHMATHJAX}1 kg wzdłuż linii prostej po
+poziomej powierzchni. Jaką pracę wykonuje ta siła przesuwając ciało od
+położenia {OPENAGHMATHJAX()}x_0={OPENAGHMATHJAX}0 do położenia {OPENAGHMATHJAX()}x={OPENAGHMATHJAX}10
+m ? Jaką prędkość uzyskuje to ciało na drodze 10 m, przy zaniedbaniu
+tarcia i wszelkich oporów? Prędkość początkowa ciała
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} = 0.}
+{  {img fileId="451" }  }
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{
+Pod działaniem siły pęd ciała wzrósł dwukrotnie. Ile razy wzrosła
+energia kinetyczna tego ciała?}
+#{
+Sformułuj zasadę zachowania energii mechanicznej.}
+#{
+Ciało o masie {OPENAGHMATHJAX()}m={OPENAGHMATHJAX}1 kg rzucono pionowo w górę z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} = 20 m/s. Ile wynosiła energia
+potencjalna a ile energia kinetyczna tego ciała na wysokości 15 m ?
+Opory powietrza pomijamy. Należy przyjąć {OPENAGHMATHJAX()}g={OPENAGHMATHJAX}10
+m/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}.}
+#{
+Ciało, któremu nadano prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}
+pionowo w górę, wzniosło się z powierzchni planety na wysokość równą
+jej promieniowi. Jaką prędkość należy nadać ciału na powierzchni tej
+planety, aby oddaliło się od niej nieskończenie daleko?}
+#{
+Na układ działa stała siła zewnętrzna. Odpowiedz, czy układ zachowuje
+swój całkowity pęd? Odpowiedź uzasadnij.}
+#{
+Pocisk o masie m = 2 kg wystrzelono z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} =
+400 m/s z działa o masie {OPENAGHMATHJAX()}M_1{OPENAGHMATHJAX} = 2000 kg a
+następnie taki sam pocisk, z tą samą prędkością z działa o masie
+{OPENAGHMATHJAX()}M_2{OPENAGHMATHJAX} = 3000 kg. Porównaj energie odrzutu obu
+dział oraz ich pędy zaraz po wystrzeleniu pocisku.}
+#{
+Obiekt o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} poruszający się z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} uderza w inny spoczywający obiekt o masie
+dwukrotnie większej. Obliczyć prędkość obiektów tuż po zderzeniu,
+zakładając, że zderzenie jest całkowicie niesprężyste.}
+#{
+Jaki warunek musi być spełniony aby w trakcie całkowicie niesprężystego
+zderzenia dwóch ciał ich energia kinetyczna (jaką miały przed
+zderzeniem) zamieniła się całkowicie w ich energię wewnętrzną (po
+zderzeniu)?}

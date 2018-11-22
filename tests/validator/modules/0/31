@@ -1,0 +1,12 @@
+ 
+
+{OPENAGHDEFINITION( name="(funkcja identycznościowa)")}
+__Funkcją identycznościową na zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}__ (identycznością na zbirze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}) nazywamy funkcje {OPENAGHMATHJAX()}f:A\to A{OPENAGHMATHJAX} określona, wzorem {OPENAGHMATHJAX()}f(x)=x{OPENAGHMATHJAX}, dla każdego {OPENAGHMATHJAX()}x\in A{OPENAGHMATHJAX}.
+Funkcję identycznościową na zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} oznaczamy symbolem __{OPENAGHMATHJAX()}id_A{OPENAGHMATHJAX}__. Mamy, więc {OPENAGHMATHJAX()}id_A:A\to A{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}id_A(x)=x{OPENAGHMATHJAX}, dla każdego {OPENAGHMATHJAX()}x\in A{OPENAGHMATHJAX} {OPENAGHDEFINITION}
+ 
+
+{OPENAGHANNOTATION( name="")}
+Wykres funkcji identycznościowej leży zawsze na diagonali, czyli prostej o równaniu {OPENAGHMATHJAX()}y=x{OPENAGHMATHJAX} będącej dwusieczną pierwszej i trzeciej ćwiartki układu współrzędnych.{OPENAGHANNOTATION}{img type="fileId" fileId="155"}
+ 
+
+Rys F34. Wykres funkcji identycznościowej na przedziale domkniętym {OPENAGHMATHJAX()}[-1,1]{OPENAGHMATHJAX}.

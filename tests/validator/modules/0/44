@@ -1,0 +1,21 @@
+Jako przykład obliczymy moment bezwładności pręta o masie M i długości d pokazanego na rysunku poniżej. Oś obrotu przechodzi przez środek pręta i jest do niego prostopadła (linia przerywana).
+
+{img type="
+fileId
+" fileId="
+187
+"}
+
+Pręt o masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX} i długości {OPENAGHMATHJAX()}d{OPENAGHMATHJAX} obracający się względem osi przechodzącej przez środek pręta (linia przerywana)
+
+Najpierw, pręt dzielimy umownie na "nieskończenie małe" elementy o masie {OPENAGHMATHJAX()}dm{OPENAGHMATHJAX} i długości {OPENAGHMATHJAX()}dx{OPENAGHMATHJAX}, które możemy traktować jak punkty materialne (patrz rysunek). Moment bezwładności takiego elementu wynosi {OPENAGHMATHJAX()}x^{2}dm{OPENAGHMATHJAX}, a moment bezwładności całego pręta jest, zgodnie z definicją (11.14, 11.15), sumą (całką) momentów bezwładności poszczególnych elementów
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{I=\overset{d/2}{\underset{{\overset{}{{-d/2}}}}{\int}}{x^{{2}}\mathit{dm}}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie całkowanie przebiega po całej długości pręta tj. w granicach od -d/2 do d/2.
+
+Zakładając, że pręt ma stałą gęstość to masę dm możemy wyrazić z prostej proporcji jako{OPENAGHMATHJAX()}\begin{equation}{{dm}=\frac{M}{d}{dx}}\end{equation}{OPENAGHMATHJAX}
+
+Podstawiając tę zależność do wzoru (III.2.1) i wykonując całkowanie otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{I=\frac{M}{d}\overset{d/2}{\underset{{\overset{}{{-d/2}}}}{\int}}{x^{{2}}{dx}=}{\frac{M}{d}\frac{x^{3}}{{3}}}|_{-d/2}^{d/2}{=\frac{{Md}^{2}}{{{12}}}}}\end{equation}{OPENAGHMATHJAX}

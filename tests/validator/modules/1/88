@@ -1,0 +1,62 @@
+Rozważmy rozchodzenie się impulsu falowego (fali) wzdłuż długiego naprężonego sznura w kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} jak na rysunku (13.3).
+Przyjmijmy, że w chwili t = 0 kształt sznura jest opisany funkcją
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{y=f(x)}
+\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} jest poprzecznym wychyleniem sznura w jego punkcie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}.
+
+W czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} impuls falowy (fala) poruszający się z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} przesuwa się o odcinek równy {OPENAGHMATHJAX()}vt{OPENAGHMATHJAX} wzdłuż sznura to jest wzdłuż osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, bez zmiany kształtu. Zatem po czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} równanie opisujące kształt sznura ma postać
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{y=f(x-{vt})}
+\end{equation}{OPENAGHMATHJAX}
+
+Równanie powyższe opisuje falę biegnącą w kierunku dodatnim osi {OPENAGHMATHJAX()}{x}{OPENAGHMATHJAX} (w prawo) o kształcie danym właśnie przez funkcję {OPENAGHMATHJAX()}f(x,t){OPENAGHMATHJAX}. Zauważmy, że kształt jest taki sam w chwili {OPENAGHMATHJAX()}{t}{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x = vt{OPENAGHMATHJAX} jaki był w chwili {OPENAGHMATHJAX()}t = 0{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x = 0{OPENAGHMATHJAX} (argument funkcji ma tę samą wartość równą zeru). Zatem równanie opisujące falę biegnącą w kierunku ujemnym osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} (w lewo) będzie miało postać
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{y=f(x+{vt})}\end{equation}{OPENAGHMATHJAX}
+
+Zauważmy, że dla danego {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} mamy równanie {OPENAGHMATHJAX()}f(x){OPENAGHMATHJAX}opisujące kształt sznura w danej chwili, a dla danego miejsca sznura {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} mamy równanie {OPENAGHMATHJAX()}f(t){OPENAGHMATHJAX} opisujące poprzeczne drgania cząstki sznura w punkcie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}.
+
+Z równań (13.1) i (13.2) wynika, że dowolna funkcja zmiennej {OPENAGHMATHJAX()}(x - vt){OPENAGHMATHJAX} lub
+{OPENAGHMATHJAX()}(x + vt){OPENAGHMATHJAX} opisuje falę biegnącą odpowiednio w prawo lub lewo, jednak do opisania rzeczywistej sytuacji musimy dokładnie określić postać funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}. Dlatego teraz zajmiemy się falą o szczególnym kształcie. Rozważać będziemy poprzeczną falę harmoniczną postaci
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{y=A\sin\frac{2\pi }{\lambda }(x-{vt})}\end{equation}{OPENAGHMATHJAX}
+
+która przedstawia przenoszenie się drgań harmonicznych w kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, i która pokazana jest na rysunku (13.4). Stała {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} (opisująca maksymalne wychylenie) jest __amplitudą fali__, a wyrażenie {OPENAGHMATHJAX()}{\frac{2\pi }{\lambda }(x-{vt})}{OPENAGHMATHJAX} przedstawia __fazę__. (Pamiętaj: gdy mówimy o wybranej części fali to tym samym mówimy o określonej fazie).
+
+Zauważmy, że wartość wychylenia poprzecznego {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} dana wzorem (13.4) jest taka sama w punktach o współrzędnych {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, x + {OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX}, x + 2{OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX}, x + 3{OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX}, itd. Oznacza to, że te punkty mają taką samą fazę.
+
+Wielkość {OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX} nazywamy __długością fali__. Reprezentuje ona odległość między punktami o tej samej fazie na przykład między dwoma grzbietami (maksimami) tak jak na rysunku poniżej.
+
+{img type="fileId" fileId="382" height="450" noDrawIcon="n"}
+Rys. 13.7. Długość fali {OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX}
+
+Czas, w którym fala przebiega odległość równą {OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX} nazywamy __okresem__ {OPENAGHMATHJAX()}T{OPENAGHMATHJAX}.
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{T=\frac{\lambda }{v}}\end{equation}{OPENAGHMATHJAX}
+
+stąd
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{y=A\sin2\pi \left(\frac{x}{\lambda }-\frac{t}{T}\right)}\end{equation}{OPENAGHMATHJAX}
+
+Widzimy, że w danej chwili {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} taka sama faza jest w punktach {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x + \lambda {OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x + 2\lambda {OPENAGHMATHJAX}, itd., oraz, że w danym miejscu {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} faza powtarza się w chwilach {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}t + T{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}t + 2T{OPENAGHMATHJAX}, itd.
+
+Często równanie fali bieżącej (13.6) wyraża się poprzez dwie inne wielkości: __liczbę falową__ {OPENAGHMATHJAX()}k{OPENAGHMATHJAX} i __częstość kołową__ {OPENAGHMATHJAX()}\omega{OPENAGHMATHJAX}} (lub __częstotliwość__ {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}), które są zdefiniowane jako
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{k=\frac{2\pi }{\lambda }\;\;\;\text{oraz}\;\;\;\omega =\frac{2\pi}{T}=2{\pi f}}\end{equation}{OPENAGHMATHJAX}
+
+co po podstawieniu do równania (13.6) daje
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{y=A\sin({kx}-{\omega t})}\end{equation}{OPENAGHMATHJAX}
+
+Prędkość fali {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} możemy wyrazić jako
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\frac{\lambda }{T}={\lambda f}=\frac{\omega }{k}}\end{equation}{OPENAGHMATHJAX}
+
+Bardziej szczegółowo prędkość rozchodzenia się fal jest omówiona w module ((Prędkość fal i równanie falowe)).

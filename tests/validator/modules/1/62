@@ -1,0 +1,78 @@
+ 
+
+Piłka kopnięta przez piłkarza lub rzucona przez koszykarza, oszczep lub dysk rzucony przez atletę czy wreszcie pocisk wystrzelony z działa poruszają się po torze krzywoliniowym. Naszym celem jest znalezienie prędkości i położenia rzuconego ciała w dowolnej chwili, opisanie toru ruchu i wyznaczenie zasięgu rzutu.
+
+Jeżeli pominiemy opory powietrza to ruch odbywa się ze stałym przyspieszeniem grawitacyjnym {OPENAGHMATHJAX()}{\bf g}=(0, -g){OPENAGHMATHJAX} ; możemy więc zastosować równania z tabeli (3.1). Ponieważ przyspieszenie jest skierowane "w dół" wygodnie jest wybrać układ współrzędnych tak, że {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} będzie współrzędną poziomą, a {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} pionową. Ponadto, przyjmijmy, że początek układu współrzędnych pokrywa się z punktem, z którego wylatuje ciało tzn. {OPENAGHMATHJAX()}r_{0}{OPENAGHMATHJAX} = 0 oraz, że prędkość w chwili początkowej {OPENAGHMATHJAX()}t=0 {OPENAGHMATHJAX} jest równa {OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX} i tworzy kąt {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} z dodatnim kierunkiem osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} (rysunek poniżej).
+
+{img fileId="366
+"}
+Rys. 3.2. Składowe prędkości początkowej
+
+Składowe prędkości początkowej (zgodnie z rysunkiem) wynoszą odpowiednio
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{v_{{\mathit{x0}}}=v_{{0}}\cos\theta }\\v_{{\mathit{y0}}}=v_{{0}}\sin\theta \end{matrix} \end{equation}{OPENAGHMATHJAX}
+[3.3]
+
+
+Stąd dla składowej {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} (poziomej) prędkości otrzymujemy (porównaj z tabelą (3.1)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{{x}}=v_{{\mathit{x0}}}+g_{{x}}t}\end{equation}{OPENAGHMATHJAX}
+[3.4]
+
+
+Ponieważ {OPENAGHMATHJAX()}g_{x}= 0{OPENAGHMATHJAX}  (przyspieszenie jest skierowane w "dół") więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{{x}}=v_{{0}}\cos\theta }\end{equation}{OPENAGHMATHJAX}
+[3.5]
+
+
+Składowa pozioma prędkości jest stała, ruch w kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} jest jednostajny. Natomiast dla składowej pionowej {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{{y}}=v_{{\mathit{y0}}}+g_{{y}}t}\end{equation}{OPENAGHMATHJAX}
+[3.6]
+
+
+Ponieważ {OPENAGHMATHJAX()}g_{y}=-g{OPENAGHMATHJAX} (przyspieszenie jest skierowane "w dół") więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{{y}}=v_{{0}}\sin\theta -gt}\end{equation}{OPENAGHMATHJAX}
+[3.7]
+
+
+Wartość wektora prędkości w dowolnej chwili wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\sqrt{v_{{x}}^{{2}}+v_{{y}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\sqrt{v_{{0}}^{{2}}-2v_{{0}}gt\sin\theta+g^{{2}}t^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[3.8]
+
+
+Teraz obliczamy położenie ciała w dowolnej chwili {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}. Ponownie korzystamy z równań z tabeli (3.1) i otrzymujemy odpowiednio
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x=\left(v_{{0}}\cos\theta \right)\;t}\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}{y=\left(v_{{0}}\sin\theta\right)\;t-\frac{gt^{{2}}}{2}}{OPENAGHMATHJAX}
+[3.9]
+
+
+Wartość wektora położenia w dowolnej chwili obliczamy z zależności
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{r=\sqrt{x^{{2}}+y^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[3.10]
+
+
+Sprawdźmy teraz po jakim torze porusza się nasz obiekt tzn. znajdźmy równanie krzywej {OPENAGHMATHJAX()}y(x){OPENAGHMATHJAX}. Równania (3.9) przedstawiają zależność {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}y(t){OPENAGHMATHJAX}. Równanie {OPENAGHMATHJAX()}y(x){OPENAGHMATHJAX} możemy więc obliczyć eliminując czas {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} z tych równań. Z zależności {OPENAGHMATHJAX()}x(t){OPENAGHMATHJAX} obliczamy {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}, a następnie wstawiamy do równania {OPENAGHMATHJAX()}y(t){OPENAGHMATHJAX}, które przyjmuje postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{y=(tg\theta)\;x-\frac{g}{2(v_{{0}}\cos\theta)^{{2}}}\;x^{{2}}}\end{equation}{OPENAGHMATHJAX}
+[3.11]
+
+
+Otrzymaliśmy równanie paraboli (skierowanej ramionami w dół) i taki kształt ma tor ruchu {OPENAGHMATHJAX()}y(x){OPENAGHMATHJAX} pokazany na rysunku poniżej.
+
+ {img fileId="361"}
+Rys. 3.3. Parabola rzutu ukośnego
+
+{openaghexercise name="Zasięg rzutu" body="Korzystając z równania (3.11) spróbuj znaleźć zasięg rzutu z oraz określić kąt wyrzutu {OPENAGHMATHJAX()} \theta {OPENAGHMATHJAX}, przy którym zasięg jest maksymalny.Wskazówka: Rozwiąż równanie (3.11) podstawiając {OPENAGHMATHJAX()}y=0{OPENAGHMATHJAX}. Otrzymasz dwa miejsca, w których parabola lotu przecina oś {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Pierwsze, odpowiada punktowi z którego wylatuje ciało, drugie poszukiwanemu zasięgowi rzutu. Wynik zapisz poniżej.Zasięg rzutu:Zasięg maksymalny otrzymujemy dla kąta {OPENAGHMATHJAX()}\theta ={OPENAGHMATHJAX}" solution="Dane: {OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}\theta, g {OPENAGHMATHJAX}  - przyspieszenie ziemskie.W celu znalezienia zasięgu rzutu podstawiamy do równania (3.11) {OPENAGHMATHJAX()}y=0 {OPENAGHMATHJAX} i otrzymujemy dwa miejsca, w których parabola lotu przecina oś  {OPENAGHMATHJAX()}x {OPENAGHMATHJAX}. Pierwsze, {OPENAGHMATHJAX()}x=0 {OPENAGHMATHJAX}, odpowiada punktowi z którego wylatuje ciało, drugie  {OPENAGHMATHJAX()}x=Z {OPENAGHMATHJAX} poszukiwanemu zasięgowi rzutu{OPENAGHMATHJAX( type="block")}\begin{equation}{Z=\frac{2v_{{0}}^{{2}}\sin\theta \cos\theta}{g}=\frac{v_{{0}}^{{2}}}{g}\sin2\theta }\end{equation}{OPENAGHMATHJAX}Z powyższego równania wynika, że zasięg Z osiąga maksimum dla, kąta {OPENAGHMATHJAX()}\theta  = 45°{OPENAGHMATHJAX}, bo wtedy funkcja sin2{OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} ma maksymalna wartość równą 1."}
+
+Możesz prześledzić jak tor w rzucie ukośnym zależy od prędkości początkowej i kąta wyrzutu korzystając z darmowego programu komputerowego „Rzut ukośny” dostępnego na stronie WWW autora {link}.
+
+Gdy mówimy o ruchu prostoliniowym to ewentualne przyspieszenie ciała związane jest ze zmianą wartości prędkości ale nie ze zmianą jej kierunku czy zwrotu. Dlatego mówimy wtedy o przyspieszeniu stycznym
+
+W omawianym rzucie ukośnym zmienia się zarówno wartości prędkości jak i jej kierunek i zwrot. Zanim jednak omówimy ten przypadek zaczniemy od rozpatrzenia prostszej sytuacji gdy wartość prędkości się nie zmienia, a zmienia się jej kierunek i zwrot. Zajmiemy się ruchem jednostajnym po okręgu.

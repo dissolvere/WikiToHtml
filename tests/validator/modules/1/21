@@ -1,0 +1,265 @@
+ 
+
+!Paragraf nienumerowany
+!# Paragraf numerowany{ANAME()}sec:TytulModuluIN-ID1{ANAME}
+W paragrafie ((Tytuł modułu|#sec:TytulModuluIN-ID1|(link))) jest wiele ciekawych treci
+
+!# Twierdzenia
+Twierdzenie ((Tytuł modułu|#thr:TytulModuluIN-ID1|(link))) z dowodem
+
+{openaghtheorem name="O czym" assumptions=" " thesis="Jeli {OPENAGHMATHJAX()} x=2 {OPENAGHMATHJAX}, to {OPENAGHMATHJAX()} x+2=4 {OPENAGHMATHJAX}." proof="To jest dowód:{OPENAGHMATHJAX(type="block")}≤REAL_LT≥/p≤REAL_GT≥≤REAL_LT≥p≤REAL_GT≥≤REAL_NBSP≥≤REAL_NBSP≥ ≤REAL_NBSP≥f(x) = egin{cases}≤REAL_LT≥br≤REAL_GT≥≤REAL_NBSP≥ ≤REAL_NBSP≥ 2x ≤REAL_AMP≥≤REAL_NBSP≥≤REAL_NBSP≥ ≤REAL_NBSP≥ext{if ( x lt 0 )}\≤REAL_LT≥/p≤REAL_GT≥≤REAL_LT≥p≤REAL_GT≥≤REAL_NBSP≥ ≤REAL_NBSP≥ 7 ≤REAL_NBSP≥≤REAL_AMP≥≤REAL_NBSP≥≤REAL_NBSP≥ ≤REAL_NBSP≥ext{if ( x = 0 )}\≤REAL_LT≥/p≤REAL_GT≥≤REAL_LT≥p≤REAL_GT≥≤REAL_NBSP≥ ≤REAL_NBSP≥ 1-x ≤REAL_AMP≥≤REAL_NBSP≥≤REAL_NBSP≥ ≤REAL_NBSP≥ext{if ( x gt 0 )}≤REAL_LT≥br≤REAL_GT≥≤REAL_NBSP≥≤REAL_NBSP≥ ≤REAL_NBSP≥end{cases}≤REAL_LT≥br≤REAL_GT≥≤REAL_NBSP≥≤REAL_NBSP≥ ≤REAL_NBSP≥≤REAL_LT≥br≤REAL_GT≥{OPENAGHMATHJAX}{ANAME()}thr:TytulModuluIN-ID1{ANAME}"}
+ 
+
+!# Lematy
+Lemat ((Tytuł modułu|#lem:TytulModuluIN-ID1|(link)))
+
+{OPENAGHLEMMA( name="O czym")}treć lematu{ANAME()}lem:TytulModuluIN-ID1{ANAME}{OPENAGHLEMMA}
+!# Definicje
+Definicja ((Tytuł modułu|#dfn:TytulModuluIN-ID1|(link)))
+
+ 
+
+ 
+
+{OPENAGHDEFINITION( name="O wyznaczniku macierzy kwadratowej stopnia {OPENAGHMATHJAX()} n {OPENAGHMATHJAX}")}Wyznacznikiem macierzy kwadratowej stopnia {OPENAGHMATHJAX()} n {OPENAGHMATHJAX} nazywamy liczbę:{OPENAGHMATHJAX(type="block")}det A equiv |A| equiv |a_ {ij}| = egin{vmatrix} a_ {11} & a_ {12} & ldots & a_ {1n} \ a_ {21} & a_ {22} & ldots & a_ {2n} \ dots & dots & ddots & dots \a_ {m1} & a_ {m2} & ldots & a_ {mn}end{vmatrix} = {OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}= sum_ {i_ 1 , i_ 2 , cdots , i_ {n-1}}^ {n} arepsilon_ {i_ 1 , i_ 2 , cdots , i_ {n-1}} a_ {i_ {11}}a_ {i_ {22}} cdots a_ {i_ {nn}}. {OPENAGHMATHJAX}{ANAME()}dfn:TytulModuluIN-ID1{ANAME}{OPENAGHDEFINITION}
+Zadanie ((Tytuł modułu|#exc:TytulModuluIN-ID1|(link))) bez rozwišzania
+{openaghexercise name="O dwóch zmiennych" content="treć zadania{ANAME()}exc:TytulModuluIN-ID1{ANAME}"}
+
+!# Przykłady
+{OPENAGHEXAMPLE( name="O czym")}treć przykładu{OPENAGHEXAMPLE}{OPENAGHEXAMPLE()}treć przykładu bez opisu{OPENAGHEXAMPLE}
+!# Prawa
+{OPENAGHLAW( name="O czym")}treć prawa{OPENAGHLAW}
+!# Zasady
+{OPENAGHRULE( name="O czym")}treć zasady{OPENAGHRULE}
+!# Wnioski
+{OPENAGHCONCLUSION( name="O czym")}treć wniosku{OPENAGHCONCLUSION}
+!# Podsumowania
+{OPENAGHSUMMARY( name="O czym")}treć podsumowania{OPENAGHSUMMARY}
+!10. Wyprowadzenia
+Wzór:
+
+{OPENAGHMATHJAX( type="block")}egin{equation}a+b=clabel{eq:TytulModuluIN-ID1}end{equation}{OPENAGHMATHJAX}
+można wyprowadzić.
+
+{OPENAGHDERIVATION( name="Bardzo ciekawe")}wyprowadzenie wzoru eqref{eq:TytulModuluIN-ID1}{OPENAGHDERIVATION}
+!11. Informacje dodatkowe
+{OPENAGHINFORMATION( name="Niezbędna")}treć dodatkowej informacji{OPENAGHINFORMATION}
+!12. Uwagi
+{OPENAGHANNOTATION( name="Istotna")}treć uwagi{OPENAGHANNOTATION}
+!13. Wzory i równania
+
+ 
+
+ 
+
+{OPENAGHANNOTATION( name="O zapisie")}Oznaczenia: {OPENAGHMATHJAX()} x ^{circ} {OPENAGHMATHJAX} dla stopniOznaczenia: {OPENAGHMATHJAX()} x lt y {OPENAGHMATHJAX} lub {OPENAGHMATHJAX()} x gt y {OPENAGHMATHJAX} dla znaku mniejszoci i większociOznaczenia: {OPENAGHMATHJAX()} x ^ y {OPENAGHMATHJAX} lub {OPENAGHMATHJAX()} x _ y {OPENAGHMATHJAX} dla indeksów górnych i dolnych{OPENAGHANNOTATION}
+Dšżymy do rozdzielania wzorów, dlatego zamiast
+
+ 
+
+ 
+
+{OPENAGHMATHJAX( type="block")}1 +  rac{q^ 2}{(1-q)}+rac{q^ 6}{(1-q)(1-q^ 2)}+cdots =prod_ {j=0}^ {infty}rac{1}{(1-q^ {5j+2})(1-q^ {5j+3})},quadquad     ext{for ( |q| lt 1 )} ,{OPENAGHMATHJAX}
+Równanie umieszczone wewnštrz tekstu: {OPENAGHMATHJAX()} sqrt{3x-1}+(1+x)^ 2 {OPENAGHMATHJAX}. 
+
+ 
+
+ 
+
+Nierównoć Cauchyego-Schwarza:
+
+{OPENAGHMATHJAX( type="block")}left( sum_ {k=1}^ n a_ k b_ k ight)^ 2 leq left( sum_ {k=1}^ n a_ k^ 2 ight) left( sum_ {k=1}^ n b_ k^ 2 ight).{OPENAGHMATHJAX}
+reszek przy rzucie {OPENAGHMATHJAX()} n {OPENAGHMATHJAX} monetami wynosi:
+
+
+ 
+
+{OPENAGHMATHJAX( type="block")}P(E) = {n choose k} p^ k (1-p)^ { n-k}.{OPENAGHMATHJAX}
+, {OPENAGHMATHJAX()} alphaldotsomega {OPENAGHMATHJAX}, z wyjštkiem wielkich liter {OPENAGHMATHJAX()} GammaldotsOmega {OPENAGHMATHJAX} (aczkolwiek można uzyskać ich pochylone wersje {OPENAGHMATHJAX()} arGammaldotsarOmega {OPENAGHMATHJAX} ). 
+
+!Czcionki
+W równaniach można wykorzystać również inne matematyczne czcionki, np. {OPENAGHMATHJAX()}mathrm{Roman}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}mathsf{SansSerif}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}mathtt{Typewriter}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}mathbf{Bold}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}mathscr{SCRIPT}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}mathcal{CALLIGRAPHIC}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}mathbb{BLACKBOARDBOLD}{OPENAGHMATHJAX}, and {OPENAGHMATHJAX()}mathfrak{Fraktur}{OPENAGHMATHJAX}.
+
+!Symbole
+Do dyspozycji sš również symbole matematyczne, np.
+
+{OPENAGHMATHJAX()} existspartialablageqpropto    imesigodotamalg {OPENAGHMATHJAX}
+, a także inne symbole, np. {OPENAGHMATHJAX()} leftarrowightarrowsquare {OPENAGHMATHJAX}.
+
+!Wektory
+Do zapisu wektorów można wykorzystać zapis {OPENAGHMATHJAX()} ec p = [ ec p_ x , ec p_ y , ec p_ z] {OPENAGHMATHJAX}.
+
+!Granice
+Granice umieszczone w linii powinny wyglšdać następujšco {OPENAGHMATHJAX()} lim _ {xightarrowinfty}f(x) {OPENAGHMATHJAX}, za w bloku symbol jest umieszczany na dole
+
+ 
+
+ 
+
+{OPENAGHMATHJAX( type="block")}lim _ {xightarrowinfty} f(x).{OPENAGHMATHJAX}
+lub {OPENAGHMATHJAX()} leftlangle egin{array}{cc} a  b
+
+
+ 
+
+ 
+
+c & dend{array} ight angle ).
+
+!Klamry
+Możn również wykorzystać klamry górne i dolne, np. {OPENAGHMATHJAX()} overbrace{a-b}=overbrace{b+c+d+e} {OPENAGHMATHJAX}.
+
+!Biblioteka MathJax
+Wszystkie powyższe wytyczne sš dostosowane pod możliwoci biblioteki __MathJax__ , która będzie wykorzystana do wywietlania wyrażeń matematycznych. [http://www.mathjax.org/demos/tex-samples/ Przykłady] wywietlania wzorów za pomocš biblioteki. [http://docs.mathjax.org/en/latest/tex.html Dokumentacja wykorzystania] (na dole dostępne wszystkie wyrażenia dostępne po dołšczeniu dodatkowych rozszerzeń AMSmath i AMSsymbols dla znaczników z paczek __amsmath__  oraz __amssymb__ ), a także [http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm opis dostepnych wyrażeń]. O jakoci biblioteki może wiadczyć [http://www.mathjax.org/community/mathjax-in-use/mathjax-in-use-websites/ lista stron] wykorzystujšcych jš w praktyce.
+
+!14. Jednostki
+Każda z wyrażanych jednostek powinna być zapisana za pomocš poniższych zapisów (każdorazowo w otoczeniu rodowiska matematycznego).
+
+{OPENAGHEXAMPLE( name="Jednostka prosta")}{OPENAGHMATHJAX()} rac{7}{16}    ext{s} {OPENAGHMATHJAX}{OPENAGHEXAMPLE}{OPENAGHEXAMPLE( name="Jednostka złożona")}{OPENAGHMATHJAX()} 6rac{    ext{km}}{    ext{h}} {OPENAGHMATHJAX}{OPENAGHEXAMPLE}
+!15. Wyliczenia i wypunktowania
+Stosujemy najprostsze wyliczenia i wypunktowania
+
+#punkt 1 
+ 
+
+#*podpunkt ze zwykłym znaczkiem
+ 
+
+#**podpkt 1
+#**podpkt 2
+ 
+
+#punkt 2
+#punkt 3 ldots
+ 
+
+!16. Odnoniki
+{OPENAGHEXAMPLE( name="Wewnętrzne odnoniki")}Matematyczne: eqref{eq:TytulModuluIN-ID1}Pozostałe: ((Tytuł modułu|#fig:TytulModuluIN-ID1|(link))){OPENAGHEXAMPLE}{OPENAGHEXAMPLE( name="Zewnętrzne odnoniki")}Matematyczne: eqref{eq:TytulInnegoModulu-ID1}Pozostałe: ((fig:TytulInnegoModulu-ID1|extref)){OPENAGHEXAMPLE}
+!Adresy internetowe
+Porednie: [http://www.cos.pl strona]
+Bezporednie: [http://www.cos.pl]
+
+!17. Przypisy
+{OPENAGHEXAMPLE( name="Przykładowy tekst z przypisem")}To jest tekst{openaghnote note="to jest przypis do tekstu"}{OPENAGHEXAMPLE}
+!18. Tabele
+Przykładowa tabela ((Tytuł modułu|#tab:TytulModuluIN-ID1|(link))) 
+
+ 
+
+
+{ANAME()}tab:TytulModuluIN-ID1{ANAME}
+
+||Opis tabeli
+ 
+1
+ |2|3 
+ 
+4
+ |5|6 ||
+ 
+
+  
+
+!19. Ilustracje
+Dopuszczalne formaty ródłowe:
+
+*grafika wektorowa - __SVG__  oraz __EPS__ 
+*grafika rastrowa - __PNG__  lub __JPG__ , __DPI 300__ 
+ 
+
+!Rysunek wektorowy
+Format __SVG__  został wybrany jako docelowy do wywietlania na stronach serwisu. Z kolegi format __EPS__  jest często domylnym wyjciowym formatem dla grafiki wektorowej w przypadku popularnych programów matematycznych (__Maple__ , __Mathematica__ ), a także programów do generowania wykresów (__gnuplot__ ). Dlatego też zalcane jest dołšczanie obu formatów plików (dowolny jeden można wygenerować z drugiego za pomocš darmowego programu __Inkscape__ , który jest także polecany do samego tworzenia schematów).
+
+Przykładowy rysunek wektorowy ((Tytuł modułu|#fig:TytulModuluIN-ID1|(link))) np. ze schematem.
+
+{img fileId="Wybierz obrazek z galerii" width="10em" thumb="y"}
+
+
+{ANAME()}fig:TytulModuluIN-ID1{ANAME}
+
+!Obrazek rastrowy
+Przykładowy obrazek rastrowy ((Tytuł modułu|#fig:TytulModuluIN-ID2|(link))) np. ze zdjęciem.
+
+subfig[14em]{files/TytulModuluIN/raster1.jpg}{Tekst alernatywny obrazu A}{Podpis A}
+subfig[14em]{files/TytulModuluIN/raster2.png}{Tekst alernatywny obrazu B}{Podpis B}
+
+{ANAME()}fig:TytulModuluIN-ID2{ANAME}
+
+!Opływanie
+Poniżej przykład wykorzystania tekstu opływajšcego ilustrację.
+
+
+{img fileId="Wybierz obrazek z galerii" width="7em" thumb="y"}
+
+
+Morbi in sapien est, sit amet mollis mi. Vivamus vel nibh mauris, et aliquam justo. Fusce non turpis justo, sit amet interdum justo. Sed a lectus in neque ultricies aliquet. Maecenas nec risus mollis mi viverra rhoncus eu id nibh. Morbi in sapien est, sit amet mollis mi. Vivamus vel nibh mauris, et aliquam justo. Fusce non turpis justo, sit amet interdum justo. Sed a lectus in neque ultricies aliquet. Maecenas nec risus mollis mi viverra rhoncus eu id nibh.
+
+!20. Animacje
+Zalecany format ródłowy: __HTML5__ 
+Koniecznoć przygotowania dodatkowego obrazka: np. pierwszej klatki
+Przykładowa animacja ((Tytuł modułu|#ani:TytulModuluIN-ID1|(link)))
+{mediaplayer alt="tekst alternatywny" src="pelny URL filmu" width="szerokosc" height="wysokosc"}
+ani[14em]{files/TytulModuluIN/animation.html}{files/TytulModuluIN/animation.jpg}{Tekst alernatywny}
+
+{ANAME()}ani:TytulModuluIN-ID1{ANAME}
+
+!21. Filmy
+Zalecany format ródłowy: __VP9__ 
+Koniecznoć przygotowania dodatkowego obrazka: np. pierwszej klatki filmu
+Przykładowy film ((Tytuł modułu|#vid:TytulModuluIN-ID1|(link)))
+{mediaplayer alt="tekst alternatywny" src="pelny URL filmu" width="szerokosc" height="wysokosc"}
+id[14em]{files/TytulModuluIN/video.vp9}{files/TytulModuluIN/video.jpg}{Tekst alernatywny}
+
+{ANAME()}vid:TytulModuluIN-ID1{ANAME}
+
+!22. Kody ródłowe
+2 linijka w kodzie ródłowym ((Tytuł modułu|#src:TytulModuluIN-ID1|(link)))
+
+
+{ANAME()}src:TytulModuluIN-ID1{ANAME}
+
+{CODE( caption="Opis kodu ródłowego")}for(i=0, i < Array.length(), i++){tmp = tmp/Array[i];    }{CODE}
+ 
+
+!23. Algorytmy
+5 linijka w algorytmie ((Tytuł modułu|#alg:TytulModuluIN-ID1|(link)))
+
+
+{ANAME()}alg:TytulModuluIN-ID1{ANAME}
+
+{CODE( caption="Opis algorytmu")}if {OPENAGHMATHJAX()}i geq maxval{OPENAGHMATHJAX} then{OPENAGHMATHJAX()}i gets 0{OPENAGHMATHJAX}elseif {OPENAGHMATHJAX()}i+k leq maxval{OPENAGHMATHJAX} then{OPENAGHMATHJAX()}i gets i+k{OPENAGHMATHJAX}end ifend if{CODE}
+ 
+
+!24. Załšczniki
+Zalecany format ródłowy (archiwum): __ZIP__ 
+Przykładowy załšcznik ((Tytuł modułu|#att:TytulModuluIN-ID1|(link)))
+{file type="gallery" fileId=""}
+att{files/TytulModuluIN/attachment.zip}{Tekst alernatywny dla załšcznika}
+
+{ANAME()}att:TytulModuluIN-ID1{ANAME}
+
+!25. Cytowanie
+Cytowanie z opisem [str. 120]{Sardar1999}
+Cytowanie bezporednie {WikiAlgebra}
+
+ibitem{Sardar1999}
+Sardar Z., Ravetz J., Van Loon B., Introducing mathematics, Icon Books, 1999
+ibitem{WikiAlgebra} 
+Wikipedia, Algebra, [http://en.wikipedia.org/wiki/Algebra], data dostępu: 01.07.2013
+ 
+
+{openaghquotations headline="Bibliografia"}
+ 
+
+ 
+
+{openaghnotes headline="Przypisy"}
+ 
+
+ 
+
+ 
+
+ 
+
+ 

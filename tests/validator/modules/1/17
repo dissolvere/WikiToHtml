@@ -1,0 +1,2337 @@
+!#Ruch obrotowy
+{
+W naszych dotychczasowych rozważaniach nad ruchem ciał
+traktowaliśmy je jako punkty materialne tzn. jako obiekty obdarzone
+masą, których rozmiary możemy zaniedbać. Jednak rzeczywiste ciała w
+ruchu mogą się obracać czy wykonywać drgania. W kolejnych rozdziałach
+zajmiemy się właśnie ruchem obrotowym i drgającym ciał. Będziemy
+rozważać ruch obrotowy ciał sztywnych tj. obiektów, w których
+odległości wzajemne punktów są stałe. Zajmiemy się również bardziej
+ogólnym przypadkiem, w którym ciało sztywne wykonuje zarówno ruch
+postępowy jak i obrotowy. }
+!!!#Kinematyka ruchu obrotowego
+{
+Nasze rozważania zaczniemy od wyprowadzenia równań kinematyki ruchu
+obrotowego, podobnych do równań kinematyki ruchu postępowego. W ruchu
+obrotowym wielkością analogiczną do przesunięcia jest
+przesunięcie kątowe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. Kąt {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}
+określa położenie (kątowe) punktu P względem układu
+odniesienia (rysunek 11.1).}
+{
+
+{img fileId="168
+"}
+{
+Rys. 11.1. Punkt P obracającego się ciała zatacza łuk o
+długości s
+{
+Związek {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} = s/R między drogą liniową
+s, a przesunięciem kątowym
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} wynika bezpośrednio z miary łukowej kąta
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. W ruchu obrotowym wielkością analogiczną chwilowej
+prędkości liniowej v jest chwilowa {prędkość
+kątowa} {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\omega =\frac{\mathit{d\varphi
+}}{\mathit{dt}}=\frac{1}{R}\frac{\mathit{ds}}{\mathit{dt}}=\frac{v}{R}}
+\end{equation}{OPENAGHMATHJAX}
+[11.1]
+{
+W ruchu obrotowym podobnie jak w ruchu po okręgu {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} jest
+też nazywana częstością kątową i jest związana
+z częstotliwością f relacją}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\omega =2\mathit{\pi f}}
+\end{equation}{OPENAGHMATHJAX}
+[11.2]
+
+{
+Podobnie jak chwilowe przyspieszenie liniowe a zostało
+zdefiniowane chwilowe przyspieszenie kątowe {{OPENAGHMATHJAX()}\alpha
+{OPENAGHMATHJAX}}}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\alpha =\frac{\mathit{d\omega
+}}{\mathit{dt}}=\frac{1}{R}\frac{\mathit{dv}}{\mathit{dt}}=\frac{a}{R}}
+\end{equation}{OPENAGHMATHJAX}
+[11.3]
+
+{
+Możemy teraz podać opis ruchu obrotowego ze stałym przyspieszeniem
+kątowym {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} poprzez analogię do ruchu postępowego
+jednostajnie zmiennego.}
+{
+Tab. 11.1.}
+Ruch postępowy
+Ruch obrotowy
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{a=\text{const}\text{.}}
+\\ {v=v_{{0}}+\mathit{at}}
+\\ s=s_{{0}}+v_{{0}}t+\frac{\mathit{at}^{{2}}}{2}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{\alpha \;=\text{const}\text{.}} \\ {\omega
+\;\;=\omega _{{0}}+\mathit{\alpha t}} \\ \varphi =\varphi
+_{{0}}+\omega _{{0}}t+\frac{\mathit{\alpha t}^{{2}}}{2}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+{
+Pamiętajmy, że zarówno prędkość kątowa jak i przyspieszenie kątowe są
+wektorami. Na rysunku 11.2 poniżej, pokazane są wektory: prędkości
+liniowej v, prędkości kątowej
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, przyspieszenia stycznego{{
+a}}{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX}, przyspieszenia normalnego
+a{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} i przyspieszenia kątowego
+{OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} punktu P obracającego się
+ciała sztywnego. Punkt P porusza się ruchem przyspieszonym po
+okręgu.}
+{ {img fileId="169"}
+{
+Rys. 11.2. Kierunki wektorów v,
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX},
+a{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX},
+a{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} i {{{OPENAGHMATHJAX()}\alpha
+{OPENAGHMATHJAX}}} punktu P poruszającego się po okręgu wokół pionowej osi
+{
+Związki pomiędzy wielkościami liniowymi i kątowymi w postaci skalarnej
+są dane równaniami (11.1), (11.3) oraz równaniem (3.14). Natomiast te
+zależności w postaci wektorowej mają postać}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{v=\omega \times R} \\ {a_{{s}}=\alpha \times
+R} \\ a_{{n}}=\omega \times v \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[11.4]
+
+Więcej o ruchu przyspieszonym po okręgu możesz
+przeczytać w Dodatku 1, na końcu modułu III.
+
+Jednostki
+
+Z powyższych rozważań wynika, że jeżeli kąt
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} jest mierzony w radianach (rad) to jednostką
+prędkości kątowej {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} jest radian na sekundę (rad/s), a
+przyspieszenia kątowego {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} radian na sekundę do
+kwadratu (rad/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}).
+
+{
+Na zakończenie spróbuj wykonać następujące ćwiczenie.}
+Ćwiczenie 11.1
+
+{ W wielu czytnikach CD płyta ma stałą prędkość
+liniową natomiast zmienia się jej prędkość kątowa. Dzięki tej stałej
+prędkości liniowej można zachować jednakowo gęste upakowanie informacji
+na całym dysku. Ta prędkość dla dysku audio (pojedynczej prędkości)
+wynosi 1.25 m/s. Całkowita długość spiralnie naniesionej ścieżki wynosi
+5.55 km. Średnica zewnętrzna dysku jest równa 12 cm, a wewnętrzna
+2.5 cm. Oblicz maksymalną i minimalną prędkość kątową dysku. Jakie jest
+średnie przyspieszenie kątowe płyty podczas jej ciągłego, całkowitego
+odczytu? Pamiętaj o odpowiednich jednostkach.}
+{ Wynik zapisz poniżej. Wskazówka: Skorzystaj z
+równań (11.1) i (11.3)}
+{ {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{min}{OPENAGHMATHJAX} =}
+{ {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{max}{OPENAGHMATHJAX} =}
+{ {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Dynamika punktu materialnego
+{
+Jak wynika z naszego codziennego doświadczenia w ruchu
+obrotowym ważna jest nie tylko wartość siły, ale to gdzie i pod jakim
+kątem jest ona przyłożona. Na przykład, drzwi najłatwiej jest otworzyć
+przykładając siłę na ich zewnętrznej krawędzi i pod kątem prostym do
+płaszczyzny drzwi. Siła przyłożona wzdłuż płaszczyzny drzwi jak i siła
+przyłożona w miejscu zawiasów nie pozwalają na ich obrót. Dla ruchu
+obrotowego wielkością, która odgrywa rolę analogiczną do siły w ruchu
+postępowym jest moment siły (tzw. moment obrotowy)
+{OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX}. Jeżeli siła F jest
+przyłożona w pewnym punkcie to moment siły {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX}
+względem tego punktu jest definiowany jako}
+{
+Definicja}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\tau =r\times F}
+\end{equation}{OPENAGHMATHJAX}
+[11.5]
+
+{
+gdzie wektor r reprezentuje położenie punktu względem
+wybranego inercjalnego układu odniesienia.}
+{
+Moment siły jest wielkością wektorową, której wartość bezwzględna wynosi
+(iloczyn wektorowy)}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\tau =\text{rF}\text{sin}\theta }
+\end{equation}{OPENAGHMATHJAX}
+[11.6]
+
+{
+Wielkość r nazywamy ramieniem siły. Z równania (11.6) wynika,
+że tylko składowa siły prostopadła do ramienia
+{OPENAGHMATHJAX()}{F_{{?}}=F\text{sin}\theta }{OPENAGHMATHJAX} wpływa na moment siły.}
+!!!!#Moment pędu
+{
+Zdefiniujmy teraz wielkość, która w ruchu obrotowym odgrywa rolę
+analogiczną do pędu. Wielkość L nazywamy
+momentem pędu i definiujemy jako}
+{
+Definicja}
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{L=r\times p}
+\end{equation}{OPENAGHMATHJAX}
+[11.7]
+
+{
+gdzie p jest pędem punktu materialnego, a
+r reprezentuje jego położenie względem wybranego
+inercjalnego układu odniesienia. Wartość L wynosi}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{L=\mathit{rp}\text{sin}\theta }
+\end{equation}{OPENAGHMATHJAX}
+[11.8]
+
+{
+Istnieje bezpośrednia zależność pomiędzy momentem siły i momentem pędu.
+Żeby ją wyprowadzić zróżniczkujmy obie strony równania (11.7)}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{\frac{\mathit{dL}}{\mathit{dt}}=\frac{d}{\mathit{dt}}\left(r\times
+p\right)=\frac{\mathit{dr}}{\mathit{dt}}\times p+r\times
+{\frac{\mathit{dp}}{\mathit{dt}}}=}\\ {=v\times p+r\times
+F_{{\text{wyp}}}}\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[11.9]
+
+{
+Ponieważ wektory v oraz p
+są równoległe to ich iloczyn wektorowy jest równy zeru. Natomiast drugi
+składnik równania jest zgodnie z definicją (11.5) wypadkowym momentem
+siły. Otrzymujemy więc}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\tau
+_{{\text{wyp}}}=\frac{\mathit{dL}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.10]
+
+Prawo, zasada, twierdzenie
+
+Wypadkowy moment siły działający na
+punkt materialny jest równy prędkości zmian momentu pędu.
+
+{
+To jest sformułowanie drugiej zasadę dynamiki ruchu obrotowego. Równanie
+(11.10) jest analogiczne do równania (4.6) dla ruchu postępowego.}
+{
+Analogicznie możemy sformułować pierwszą zasadę dynamiki ruchu
+obrotowego}
+Prawo, zasada, twierdzenie
+
+Ciało sztywne, na które nie działa
+moment siły pozostaje w spoczynku lub porusza się ruchem obrotowym
+jednostajnym.
+
+{
+oraz trzecią zasadę dynamiki ruchu obrotowego}
+Prawo, zasada, twierdzenie
+
+Jeżeli dwa ciała oddziałują wzajemnie,
+to moment siła z jakim działa ciało drugie na ciało pierwsze jest równy
+i przeciwnie skierowany do momentu siły, z jakim ciało pierwsze działa
+na drugie.
+
+!!!!#Zachowanie momentu pędu
+{
+Dla układu n cząstek możemy zsumować momenty sił
+działające na poszczególne punkty materialne}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\underset{{i}}{\sum }{\tau
+_{{i}}=\frac{d}{\mathit{dt}}\left(\overset{{n}}{\underset{{i=1}}{\sum
+}}{L_{{i}}}\right)}=\frac{\mathit{dL}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.11]
+
+{
+gdzie L oznacza teraz całkowity moment pędu układu.}
+{
+Zauważmy, że}
+Prawo, zasada, twierdzenie
+
+{Jeżeli na układ nie działa zewnętrzny
+moment siły (lub wypadkowy moment sił zewnętrznych jest równy zeru) to
+całkowity moment pędu układu pozostaje stały}.
+
+{OPENAGHMATHJAX()}{\frac{\mathit{dL}}{\mathit{dt}}=0\text{[EF02?][EF02?][EF02?]}}{OPENAGHMATHJAX} lub
+{OPENAGHMATHJAX()}{L=\text{const}\text{.}}{OPENAGHMATHJAX}
+[11.12]
+
+{
+Zależność powyższa wyraża zasadę zachowania momentu pędu.}
+Ćwiczenie 11.2
+
+{ Rozpatrzmy teraz następujący przykład. Rower
+jedzie ze stałą prędkością gdy siła działająca pomiędzy nawierzchnią
+i kołem F{OPENAGHMATHJAX()}_{2 }{OPENAGHMATHJAX}= 5 N. Z jaką siłą
+F{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} łańcuch ciągnie zębatkę jeżeli stosunek
+R/r = 10?}
+{ Wynik zapisz poniżej. Wskazówka: Zauważ, że
+prędkość kątowa jest stała więc dL/dt = 0 i wypadkowy
+moment sił jest równy zeru.}
+{ {img fileId="170"}
+{ F{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Ciało sztywne i moment bezwładności
+{Ciało sztywne i moment
+bezwładności }
+{
+Większość ciał w przyrodzie to nie punkty materialne ale
+rozciągłe ciała sztywne. Przeanalizujmy teraz ruch takiej bryły
+sztywnej obracającej się ze stałą prędkością kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}
+wokół stałej osi obrotu w układzie środka masy. Zauważmy, że chociaż
+wszystkie punkty mają te samą prędkość kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} to
+punkty znajdujące się w różnych odległościach od osi obrotu mają różną
+prędkość liniową v (rysunek 11.3). Prędkość {i
+}{}-tego punktu o masie {OPENAGHMATHJAX()}\Delta {OPENAGHMATHJAX}m{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX}
+wynosi v{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX} =
+r{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} gdzie
+r{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX} jest odległością od osi obrotu}
+{ {img fileId="171"}
+{
+Rys. 11.3. Dwa punkty obracającej się bryły mają tę samą prędkość
+kątową, a różne prędkości liniowe ze względu na różne odległości od osi
+obrotu r{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i r{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+{
+Obliczamy teraz wartość momentu pędu L tego ciała}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{L=\underset{{i}}{\sum }{r_{{i}}\mathit{\Delta
+m}_{{i}}v_{{i}}=\underset{{i}}{\sum }{r_{{i}}\mathit{\Delta
+m}_{{i}}}}(r_{{i}}\omega )=\left(\underset{{i}}{\sum
+}{r_{{i}}^{{2}}\mathit{\Delta m}_{{i}}}\right)\omega }
+\end{equation}{OPENAGHMATHJAX}
+[11.13]
+
+{
+Wielkość w nawiasie nazywamy momentem bezwładności I, który
+definiujemy jako}
+{
+Definicja}
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{I=\underset{{i}}{\sum }{r_{{i}}^{{2}}\mathit{\Delta m}_{{i}}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.14]
+
+{
+a dla ciągłego rozkładu masy}
+{
+Definicja}
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{I=\int {r^{{2}}\mathit{dm}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.15]
+
+{
+Zwróćmy uwagę, że moment bezwładności I zależy od osi obrotu. }
+{
+Możemy teraz wyrazić moment pędu poprzez moment bezwładności}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{L=\mathit{I\omega }}
+\end{equation}{OPENAGHMATHJAX}
+[11.16]
+
+{
+a ponieważ zgodnie z równaniem (11.10)
+{OPENAGHMATHJAX()}{\tau{OPENAGHMATHJAX}} = dL/dt więc}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\tau =I\frac{\mathit{d\omega }}{\mathit{dt}}=\mathit{I\alpha }}
+\end{equation}{OPENAGHMATHJAX}
+[11.17]
+
+{
+gdzie {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} jest przyspieszeniem kątowym.}
+{
+Obliczmy teraz energię kinetyczną obracającego się ciała}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{E_{{k}}=\frac{1}{2}\underset{{i}}{\sum }{\mathit{\Delta
+m}_{{i}}v_{{i}}^{{2}}=}\frac{1}{2}\underset{{i}}{\sum }{\mathit{\Delta
+m}_{{i}}(r_{{i}}\omega )^{{2}}=\frac{1}{2}\left(\underset{{i}}{\sum
+}{\mathit{\Delta m}_{{i}}r_{{i}}^{{2}}}\right)}\;\omega ^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.18]
+
+{
+więc}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{E_{{k}}=\frac{1}{2}\mathit{I\omega }^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.19]
+
+{
+Zestawmy teraz odpowiednie wielkości obliczone dla ruchu obrotowego z
+ich odpowiednikami dla ruchu postępowego.}
+{
+Tab. 11.2}
+Ruch postępowy
+Ruch obrotowy
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{p=\mathit{mv}} \\ {F=\mathit{ma}}
+\\ {E_{{k}}=\frac{1}{2}\mathit{mv}^{{2}}} \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{L=\mathit{I\omega }} \\ {\tau =\mathit{I\alpha
+}} \\ {E_{{k}}=\frac{1}{2}\mathit{I\omega }^{{2}}}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+{
+Z tego porównania widać, że moment bezwładności I jest
+analogiczną wielkością do masy m w ruchu postępowym. Zwróćmy
+uwagę, że w przeciwieństwie do masy moment bezwładności zależy od osi,
+wokół której obraca się ciało. Momenty bezwładności niektórych ciał
+sztywnych są podane w tabeli 11.3.}
+{
+Tab. 11.3 }
+Ciało
+moment bezwładności
+I
+
+Obręcz, pierścień o promieniu R,
+względem osi obręczy
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\text{MR}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+Krążek, walec względem osi walca
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{1}{2}\text{MR}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+Pręt o długości d, względem osi
+symetrii prostopadłej do pręta
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{1}{\text{12}}\text{Md}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+Pełna kula o promieniu R, względem
+średnicy
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{2}{5}\text{MR}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+Czasza kulista o promieniu R, względem
+średnicy
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{2}{3}\text{MR}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+Przykład obliczania momentu bezwładności
+znajdziesz w Dodatku 2, na końcu modułu III.
+
+{
+Często do obliczania momentu bezwładności wygodnie jest posłużyć się
+twierdzeniem Steinera. Podaje ono zależność pomiędzy momentem
+bezwładności I ciała względem danej osi, a momentem
+bezwładności I{OPENAGHMATHJAX()}_{śr.m.}{OPENAGHMATHJAX} tego ciała
+względem osi przechodzącej przez jego środek masy i równoległej do
+danej. Związek ten wyraża się zależnością}
+{ Prawo,
+zasada, twierdzenie}
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{I=I_{{\text{śt}\text{.}m\text{.}}}+\text{Ma}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.20]
+
+{
+gdzie a jest odległością między osiami, a M jest masą
+ciała.}
+Ćwiczenie 11.3
+
+{ Teraz korzystając z powyższego twierdzenia i z
+danych w tabeli 11.3 oblicz moment bezwładności pręta o masie
+M i długości d względem osi prostopadłej do pręta
+i przechodzącej przez jeden z jego końców. Wynik zapisz poniżej. }
+{ I = }
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Ruch obrotowo-postępowy
+{
+Na co dzień często mamy do czynienia z toczeniem się ciał. W
+przeciwieństwie do ruch obrotowego względem nieruchomej osi obrotu w
+przypadku toczenia występuje zarówno ruch postępowy, jak i obrotowy.
+Dlatego spróbujemy opisać toczenie jako złożenie ruchu postępowego i
+obrotowego. W tym celu prześledźmy ruch walca o promieniu R
+pokazany na rysunku 11.4.}
+{ {img fileId="172"}
+{
+Rys. 11.5. Toczenie (c) jako złożenie ruchu postępowego (a) i obrotowego
+(b)
+{
+W ruchu postępowym, rysunek (a), wszystkie punkty poruszają się z takimi
+samymi prędkościami, natomiast w ruchu obrotowym wokół środka masy
+S, rysunek (b), przeciwległe punkty poruszają się z
+przeciwnymi prędkościami, a środek jest nieruchomy. Na rysunku (c)
+pokazano wynik złożenia (sumowania) odpowiednich wektorów z rysunków
+(a) i (b). Zwróćmy uwagę, że podstawa walca (punkt A
+styczności z podłożem) w każdej chwili spoczywa (prędkość chwilowa
+v{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX} = 0). Natomiast prędkość
+liniowa punktów S i B jest proporcjonalna do ich
+odległości od punktu A (punkt B w odległości
+2R ma prędkość dwukrotnie większą niż punkt S w
+odległości R). Jeszcze pełniej widać to na rysunku 11.5 gdzie
+narysowane są prędkości chwilowe kilku punktów na obwodzie toczącego
+się walca.}
+{ {img fileId="173"}
+{
+Rys. 11.5. Toczenie się walca jako obrót wokół punktu A
+{
+Widać, że prędkość każdego z tych punktów jest prostopadła do linii
+łączącej ten punkt z podstawą A i proporcjonalna do odległości
+tego punktu od A. Takie zachowanie jest charakterystyczne dla
+ciała wykonującego ruch obrotowy względem nieruchomej osi. Oznacza to,
+że opisywany walec obraca się wokół punktu A, a co za tym
+idzie, że możemy toczenie opisywać również wyłącznie jako ruch obrotowy
+ale względem osi przechodzącej przez punkt A styczności
+z powierzchnią, po której toczy się ciało.}
+Przykład
+{
+W celu zilustrowania równoważności obu opisów obliczymy teraz energię
+kinetyczną walca o masie m toczącego się z prędkością{
+}v. Najpierw potraktujemy toczenie jako złożenie
+ruchu postępowego i obrotowego względem środka masy. Energię kinetyczną
+obliczamy jako sumę energii ruchu postępowego i obrotowego}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{E=E_{{\text{kp}}}+E_{{\text{ko}}}=\frac{\mathit{mv}^{{2}}}{2}+\frac{I_{{\text{śr}\text{.}m\text{.}}}\omega
+^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[11.21]
+
+{
+Podstawiając wartość momentu bezwładności walca odczytaną z tabeli 11.3
+oraz uwzględniając, że dla ciała toczącego się bez poślizgu
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} = v/R (równanie 11.1)
+otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{E=\frac{3}{4}\mathit{mv}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.22]
+
+{
+Teraz powtórzymy nasze obliczenia ale potraktujemy toczenie wyłącznie
+jako obrót względem osi obrotu w punkcie A zetknięcia walca z
+powierzchnią. Energia kinetyczną obliczamy więc jako}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{E=E_{{\text{ko}}}=\frac{I_{{A}}\omega ^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[11.23]
+
+{
+Moment bezwładności walca I{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX} ,względem osi
+A, obliczamy z twierdzenia Steinera}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{I_{{A}}=I_{{\text{śr}\text{.}m\text{.}}}+\text{mR}^{{2}}=\frac{\text{mR}^{{2}}}{2}+\text{mR}^{{2}}=\frac{3}{2}\text{mR}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.24]
+
+{
+Po podstawieniu tej wartości i uwzględniając, że {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} =
+v/R (równanie 11.1) otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{E=\frac{3}{4}\mathit{mv}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[11.25]
+
+{
+W obu przypadkach otrzymaliśmy ten sam rezultat.}
+{
+Widzimy, że}
+Prawo, zasada, twierdzenie
+
+Ruch ciała będący złożeniem ruchu
+postępowego środka masy i obrotowego względem osi przechodzącej przez
+środek masy jest równoważny ruchowi obrotowemu wokół osi przechodzącej
+przez punkt styczności ciała z powierzchnią, po której się ono toczy.
+
+Ćwiczenie 11.4
+
+{ Krążek (walec) i kula o takich samych masach
+m i promieniach R staczają się bez poślizgu po równi
+pochyłej z wysokości h. Korzystając z zasady zachowania
+energii oblicz ich prędkości u dołu równi. Jaki byłby wynik obliczeń
+gdyby te ciała ześlizgiwały się z równi? Obliczenia przeprowadź
+traktując toczenie jako złożenie ruchu postępowego i obrotowego lub
+jako wyłącznie jako ruch obrotowy.}
+{ Wynik zapisz poniżej.}
+{ v{OPENAGHMATHJAX()}_{walca}{OPENAGHMATHJAX}= }
+{ v{OPENAGHMATHJAX()}_{kuli}{OPENAGHMATHJAX}=}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+Inny przykładem ruchu obrotowego, w którym oś
+obrotu nie jest nieruchomą w inercjalnym układzie odniesienia jest bąk
+wirujący dookoła pewnej osi symetrii. O ruchu precesyjnym bąka możesz
+przeczytać w Dodatku 3, na końcu modułu III.
+
+\clearpage\setcounter{page}{1}\pagestyle{Convertii}
+!#Ruch drgający
+{
+Ruch, który powtarza się w regularnych odstępach czasu,
+nazywamy ruchem okresowym. Przemieszczenie cząstki w ruchu
+periodycznym można zawsze wyrazić za pomocą funkcji sinus lub cosinus
+(tzw. funkcji harmonicznych). Ruch drgający jest powszechną formą ruchu
+obserwowaną w życiu codziennym i dlatego jest ważnym przedmiotem
+fizyki.}
+!!!#Siła harmoniczna, drgania swobodne
+Definicja
+
+Siłą harmoniczną (sprężystości) nazywamy
+siłę działającą na ciało proporcjonalną do przesunięcia tego ciała od
+początku układu i skierowaną ku początkowi układu.
+
+{
+Dla przesunięcia wzdłuż osi x, siła sprężystości jest dana
+równaniem}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{F=-\mathit{kx}}
+\end{equation}{OPENAGHMATHJAX}
+[12.1]
+
+{
+gdzie x jest wychyleniem (przesunięciem) ciała od położenia
+równowagi. Stałą k nazywamy {współczynnikiem
+sprężystości}. Z siłą harmoniczną (sprężystości) spotkaliśmy się już w
+punktach 7.2 i 8.3 gdy rozważaliśmy siłę związaną z rozciąganiem
+sprężyny i elastycznej liny.}
+{
+Na rysunku 12.1 pokazane jest ciało o masie m przymocowane do
+sprężyny, mogące poruszać się bez tarcia po poziomej powierzchni. Takie
+drgania, gdy siła sprężystości jest zarazem siłą wypadkową nazywamy
+drganiami swobodnymi.}
+{ {img fileId="174"}
+{
+Rys. 12.1. Prosty oscylator harmoniczny
+{
+Jeżeli sprężyna zostanie rozciągnięta tak, aby masa m znalazła
+się w chwili t = 0 w położeniu x = A,
+(rysunek 12.1), a następnie zostanie zwolniona, to położenie masy
+w funkcji czasu może być dane równaniem}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x(t)=A\text{cos}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[12.2]
+
+{
+Funkcja x(t) opisuje zarazem wychylenie ciała z
+położenia równowagi. }
+{
+Sprawdźmy teraz czy to równanie dobrze opisuje ruch harmoniczny. Zgodnie
+z drugą zasadą dynamiki Newtona}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{ma}=-\mathit{kx}}
+\end{equation}{OPENAGHMATHJAX}
+[12.3]
+
+{
+Żeby obliczyć przyspieszenie a obliczamy (zgodnie z
+równaniami 3.1) odpowiednie pochodne wyrażenia (12.2)}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{v(t)=\frac{\mathit{dx}}{\mathit{dt}}=-\mathit{A\omega
+}\text{sin}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[12.4]
+
+{
+oraz}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{a(t)=\frac{\mathit{dv}}{\mathit{dt}}=\frac{d^{{2}}x}{d^{{2}}t}=-\mathit{A\omega
+}^{{2}}\text{cos}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[12.5]
+
+{
+Teraz wyrażenia (12.2) i (12.5) podstawiamy do równania opisującego ruch
+oscylatora (12.3) i otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\omega ^{{2}}=\frac{k}{m}}
+\end{equation}{OPENAGHMATHJAX}
+[12.6]
+
+{
+Widzimy, że zaproponowane równanie (12.2) jest rozwiązaniem równania
+ruchu oscylatora harmonicznego (12.3) przy warunku, że {OPENAGHMATHJAX()}{\omega
+=\sqrt{k/m}}{OPENAGHMATHJAX} (równanie 12.6).}
+{
+Zwróćmy uwagę, że funkcja {OPENAGHMATHJAX()}{x(t)=A\text{sin}\mathit{\omega t}}{OPENAGHMATHJAX} jest
+również rozwiązaniem równania ale przy innych warunku początkowym bo
+gdy t = 0 to położenie masy x = 0, a nie jak
+przyjęliśmy x = A.}
+{
+Ogólne rozwiązanie równania ruchu oscylatora harmonicznego (12.3) ma
+postać}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{x(t)=A\text{sin}(\mathit{\omega t}+\varphi )}
+\end{equation}{OPENAGHMATHJAX}
+[12.7]
+
+{
+Stała A (opisująca maksymalne wychylenie) jest amplitudą ruchu,
+wyrażenie {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t + {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} nazywamy
+fazą drgań, a {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} fazą początkową
+(stałą fazową). Stałe A i {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} są wyznaczone
+przez warunki początkowe. Na przykład dla {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} =
+{OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}/2 otrzymujemy rozwiązanie (12.2). }
+{
+Równania (12.2), (12.4) i (12.5) opisują kolejno położenie, prędkość
+i przyspieszenie w funkcji czasu. Zależności te są pokazane na rysunku
+12.2.}
+{ {img fileId="175"}
+{
+Rys. 12.2. Wykres zależności x(t),
+v(t), a(t) dla prostego
+ruchu harmonicznego
+{
+Zwróćmy uwagę, że wychylenie z położenia równowagi
+x(t) oraz przyspieszenie
+a(t) (a tym samym siła) osiągają
+równocześnie maksymalne wartości, przy czym zwroty wektorów
+x(t) i a(t) są
+przeciwne (równanie (12.3)) i stąd przeciwne znaki. Natomiast prędkość
+v(t) jest przesunięta w fazie
+(względem położenia) o {OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}/2 co odzwierciedla fakt, że
+prędkość osiąga maksimum przy przechodzeniu oscylującej masy przez
+położenie równowagi, a jest zerowa przy maksymalnym wychyleniu gdy
+ciało zawraca (rysunek 12.1).}
+{
+Odpowiednie maksymalne wartości położenia, prędkości i przyspieszenia
+wynoszą}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{x_{{\text{max}}}=A}
+\\ v_{{\text{max}}}=\mathit{A\omega }
+\\ a_{{\text{max}}}=\mathit{A\omega }^{{2}}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[12.8]
+
+{
+Wartości funkcji sinus i cosinus powtarzają się gdy kąt zmienia się o
+2{OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}. Oznacza to, że funkcje x(t),
+v(t) i a(t) przyjmują
+taką samą wartość po czasie t = 2{{OPENAGHMATHJAX()}\pi
+{OPENAGHMATHJAX()}}/{OPENAGHMATHJAX}\omega {OPENAGHMATHJAX}. Ten czas jest więc okresem ruchu T.
+Uwzględniając zależność (12.6) otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{T=\frac{2\pi }{\omega }=2\pi \sqrt{\frac{m}{k}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.9]
+
+{
+Zwróćmy uwagę, że okres drgań harmonicznych T {jest
+niezależny od amplitudy drgań A}. Ta właściwość drgań harmonicznych
+została wykorzystana w konstrukcji zegara wahadłowego.}
+Możesz prześledzić drgania harmoniczne masy
+zawieszonej na nieważkiej sprężynie w zależności od jej współczynnika
+sprężystości k, masy m i od amplitudy ruch A
+korzystając z darmowego programu komputerowego „Drgania swobodne”
+dostępnego na stronie WWW autora.
+
+!!!#Wahadła
+!!!!#Wahadło proste
+{
+Wahadło proste (matematyczne) jest to wyidealizowane
+ciało o masie punktowej, zawieszone na cienkiej, nieważkiej,
+nierozciągliwej nici. Kiedy ciało wytrącimy z równowagi to zaczyna się
+ono wahać w płaszczyźnie poziomej pod wpływem siły ciężkości. Jest to
+ruch okresowy. Znajdźmy okres T tego ruchu. Rysunek 12.3
+przedstawia wahadło o długości l i masie m, odchylone
+o kąt {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} od pionu. }
+{
+Na masę m działa siła grawitacji mg i naprężenia nici
+N. Siłę mg rozkładamy na składową radialną (normalną)
+i styczną. Składowa normalna jest równoważona przez naciąg nici
+N. Natomiast składowa styczna przywraca równowagę układu i
+sprowadza masę m do położenia równowagi.}
+{
+Składowa styczna siły grawitacji ma wartość}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{F=-\text{mg}\text{sin}\theta }
+\end{equation}{OPENAGHMATHJAX}
+[12.10]
+
+{ {img fileId="176"}
+{
+Rys. 12.3. Wahadło matematyczne
+{
+Zwróćmy uwagę, że to nie jest, w myśl podanej definicji, siła
+harmoniczna bo jest proporcjonalna do sinusa wychylenia
+(sin{OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}), a nie do wychylenia {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}. Jeżeli
+jednak kąt {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} jest mały (np. 5°) to sin{{OPENAGHMATHJAX()}\theta
+{OPENAGHMATHJAX()}} jest bardzo bliski {OPENAGHMATHJAX}\theta {OPENAGHMATHJAX()} (różnica {OPENAGHMATHJAX}{\approx}{OPENAGHMATHJAX} 0.1\Przemieszczenie x wzdłuż łuku wynosi (z miary łukowej kąta)
+{OPENAGHMATHJAX()}{x=\mathit{l\theta }}{OPENAGHMATHJAX}. Przyjmując zatem, że sin{{OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}
+}{OPENAGHMATHJAX()}{\approx}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{F=-\text{mg}\theta
+=-{\frac{\text{mg}}{l}}x}
+\end{equation}{OPENAGHMATHJAX}
+[12.11]
+
+{
+Tak więc dla małych wychyleń siła jest proporcjonalna do przemieszczenia
+i mamy do czynienia z ruchem harmonicznym. Równanie (12.11) jest
+analogiczne do równania (12.1) przy czym k =
+mg/l. Możemy więc skorzystać z zależności (12.9)
+i obliczyć okres wahań}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{T=2\pi \sqrt{\frac{m}{k}}=2\pi \sqrt{\frac{l}{g}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.12]
+
+{
+Okres wahadła prostego nie zależy od amplitudy i od masy wahadła.}
+Możesz prześledzić ruch wahadła matematycznego w
+zależności od jego długości korzystając z darmowego programu
+komputerowego „Drgania tłumione” dostępnego na stronie WWW autora.
+
+{
+Zauważmy, że pomiar okresu T może być prostą metodą wyznaczenia
+przyspieszenia g.}
+Ćwiczenie 12.1
+
+{ Spróbuj wykonać takie doświadczenie. Na nitce
+(możliwie długiej np. 1.5 m) zawieś niewielki ciężarek. Następnie
+wychyl wahadło o niewielki kąt (żeby było spełnione kryterium ruchu
+harmonicznego) i zmierz okres wahań. Żeby zmniejszyć błąd pomiaru czasu
+zmierz okres kilku wahań (np. 10) i potem oblicz T. Ze wzoru
+(12.12) wylicz przyspieszenie g.}
+{ Wynik zapisz poniżej.}
+{ g =}
+!!!!#Wahadło fizyczne
+{
+Wahadłem fizycznym nazywamy ciało sztywne zawieszone
+tak, że może się wahać wokół pewnej osi przechodzącej przez to ciało.
+Ciało jest zawieszone w punkcie P, a punkt S,
+znajdujący się w odległości d od punkt P, jest
+środkiem masy ciała (rysunek 12.4).}
+{ {img fileId="177"}
+{
+Rys. 12.4. Wahadło fizyczne
+{
+Moment siły {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} działający na ciało wynosi}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\tau =-\text{mg}d\text{sin}\theta }
+\end{equation}{OPENAGHMATHJAX}
+[12.13]
+
+{
+co w połączeniu ze wzorem (11.17) daje}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{I\alpha }=-\text{mg}d\text{sin}\theta }
+\end{equation}{OPENAGHMATHJAX}
+[12.14]
+
+{
+Dla małych wychyleń, dla których sin{OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}{\approx}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} dostajemy równanie}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{I\alpha }=-\text{mg}\mathit{d\theta }}
+\end{equation}{OPENAGHMATHJAX}
+[12.15]
+
+{
+Otrzymaliśmy równanie, które ma postać równania (12.3) dla ruchu
+harmonicznego przy czym {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} odpowiada x. Możemy
+więc teraz napisać wyrażenie na częstość i okres drgań}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\omega =\sqrt{\frac{\text{mg}d}{I}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.16]
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{T=2\pi \sqrt{\frac{I}{\text{mgd}}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.17]
+
+{
+Jako przypadek szczególny rozpatrzmy masę punktową zawieszoną na nici o
+długości l (wahadło proste). Wówczas moment bezwładności
+I = ml{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}, oraz
+d = l i otrzymujemy znany wzór dla wahadła prostego}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{T=2\pi \sqrt{\frac{l}{g}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.18]
+
+Ćwiczenie 12.2
+
+{ Spróbuj teraz samodzielnie obliczyć okres wahań
+cienkiej obręczy o masie m i promieniu R zwieszonej
+na gwoździu G, jak na rysunku. Wynik zapisz poniżej.}
+{ {img fileId="178"}
+{ T =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Energia ruchu harmonicznego prostego
+{
+Energią potencjalną sprężyny obliczyliśmy w rozdziale 7.2 przy
+okazji dyskusji o pracy wykonywanej przez siły zmienne. Pokazaliśmy
+wtedy, że energia potencjalna sprężyny rozciągniętej o x
+wynosi}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{E_{{p}}=\frac{\mathit{kx}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[12.19]
+
+{
+Jeżeli sprężyna zostanie rozciągnięta tak aby masa m znalazła
+się w chwili t = 0 w położeniu x = A, to energia
+potencjalna układu}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{E_{{p}}=\frac{\mathit{kA}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[12.20]
+
+{
+jest zarazem energią całkowitą (energia kinetyczna
+E{OPENAGHMATHJAX()}_{k}{OPENAGHMATHJAX} = 0). Jeżeli puścimy sprężynę to
+jej energia potencjalna będzie zamieniać się w energię kinetyczną masy
+m. Przy założeniu, że nie ma tarcia ani innych sił oporu,
+zgodnie z zasadą zachowania energii suma energii kinetycznej i
+potencjalnej musi się równać energii całkowitej w dowolnej chwili
+ruchu}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{E_{{k}}+E_{{p}}=\frac{\mathit{mv}^{{2}}}{2}+\frac{\mathit{kx}^{{2}}}{2}=\frac{\mathit{kA}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[12.21]
+
+{
+Korzystając z wyrażeń (12.2) i (12.4) na x(t) i
+v(t) oraz pamiętając, że {m{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} = k otrzymujemy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{\mathit{kA}^{{2}}\text{sin}^{{2}}\mathit{\omega
+t}}{2}+\frac{\mathit{kA}^{{2}}\text{cos}^{{2}}\mathit{\omega
+t}}{2}=\frac{\mathit{kA}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+[12.22]
+
+Przykład
+
+{
+Spróbujmy teraz obliczyć jaki jest stosunek energii potencjalnej do
+energii kinetycznej ciała wykonującego drgania harmoniczne, gdy
+znajduje się ono w połowie drogi między położeniem początkowym, a
+położeniem równowagi.}
+{
+Dla danego wychylenia ciała x = A/2 możemy korzystając
+ze wzoru (12.19) wyliczyć energię potencjalną}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{E_{{p}}=\frac{\mathit{kx}^{{2}}}{2}=\frac{\mathit{kA}^{{2}}}{8}}
+\end{equation}{OPENAGHMATHJAX}
+[12.23]
+
+{
+Ponieważ energia całkowita E}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{E=\frac{\mathit{kA}^{{2}}}{2}=E_{{k}}+E_{{p}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.24]
+
+{
+więc podstawiając obliczoną wartość energii potencjalnej (12.23)
+otrzymujemy energię kinetyczną}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{E_{{k}}=\frac{3\mathit{kA}^{{2}}}{8}}
+\end{equation}{OPENAGHMATHJAX}
+[12.25]
+
+{
+Stąd}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{E_{{p}}}{E_{{k}}}=\frac{1}{3}}
+\end{equation}{OPENAGHMATHJAX}
+[12.26]
+
+{
+Widać, że dla x = A/2 energia kinetyczna jest
+trzykrotnie większa od potencjalnej.}
+Ćwiczenie 12.3
+
+{ Oblicz, dla jakiego wychylenia x
+energie kinetyczna i potencjalna są sobie równe?}
+{ Wynik zapisz poniżej.}
+{ Wskazówka: Dla poszukiwanego wychylenia
+x energia potencjalna jest równa energii kinetycznej jest więc
+zarazem równa połowie energii całkowitej.}
+{ x =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+Możesz prześledzić energię kinetyczną,
+potencjalną i całkowitą w ruchu drgającym.\textsf{ }korzystając z
+darmowego programu komputerowego „Drgania swobodne” dostępnego na
+stronie WWW autora.
+
+!!!#Oscylator harmoniczny tłumiony
+{
+Dotychczas pomijaliśmy fakt ewentualnego tłumienia oscylatora
+to znaczy strat energii układu oscylatora. W przypadku drgań
+mechanicznych siłą hamującą ruch cząstki są tak zwane opory ruchu.
+Przykładem może tu być opór powietrza. Siła oporu ma zwrot przeciwny do
+prędkości i w najprostszej postaci jest wprost proporcjonalna do
+prędkości
+F{OPENAGHMATHJAX()}_{op}{OPENAGHMATHJAX} {} v}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{T=-\mathit{\gamma v}=-\gamma \frac{\mathit{dx}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.27]
+
+{
+Jeżeli oprócz siły sprężystości uwzględnimy siłę hamującą to równanie
+opisujące ruch oscylatora harmonicznego przyjmie teraz postać}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\text{ma}=-\mathit{kx}-\gamma
+\frac{\mathit{dx}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.28]
+
+{
+lub (na podstawie z równań (3.1))}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{m\frac{d^{{2}}x}{\mathit{dt}^{{2}}}=-\mathit{kx}-\gamma
+\frac{\mathit{dx}}{\mathit{dt}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.29]
+
+{
+Jeżeli wprowadzimy nową stałą {OPENAGHMATHJAX()}{\tau =m/\gamma }{OPENAGHMATHJAX} (o wymiarze czasu)
+tak zwaną stałą czasową oraz oznaczymy częstość drgań
+nietłumionych czyli częstość własną {OPENAGHMATHJAX()}{\omega
+_{{0}}=\sqrt{k/m}}{OPENAGHMATHJAX} to równanie opisujące ruch przyjmie
+postać}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{d^{{2}}x}{\mathit{dt}^{{2}}}+\frac{1}{\tau
+}\frac{\mathit{dx}}{\mathit{dt}}+\omega _{{0}}^{{2}}x=0}
+\end{equation}{OPENAGHMATHJAX}
+[12.30]
+
+{
+Szukamy rozwiązania tego równania w postaci drgań okresowo zmiennych
+tłumionych na przykład}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x=\mathit{Ae}^{{-\mathit{\beta t}}}\text{cos}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[12.31]
+
+{
+Proponowane rozwiązanie zawiera czynnik oscylacyjny
+{OPENAGHMATHJAX()}{\text{cos}\mathit{\omega t}}{OPENAGHMATHJAX} opisujący drgania i czynnik tłumiący
+{OPENAGHMATHJAX()}{e^{{-\mathit{\beta t}}}}{OPENAGHMATHJAX} opisujący zmniejszanie się amplitudy drgań.
+Współczynnik {OPENAGHMATHJAX()}{\beta =1/2\tau }{OPENAGHMATHJAX} określający wielkość tłumienia
+nazywamy współczynnikiem tłumienia.}
+Więcej o wpływie tłumienia na ruch drgający
+możesz przeczytać w Dodatku 4, na końcu modułu III.
+
+{
+Żeby sprawdzić czy zaproponowana funkcja jest rozwiązaniem równania
+ruchu (12.30) obliczamy odpowiednie pochodne i podstawiamy je do
+równania ruchu. W wyniku otrzymujemy warunek na częstość drgań
+tłumionych}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\omega =\sqrt{\omega _{{0}}^{{2}}-\beta ^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.32]
+
+{
+Funkcja (12.31) jest rozwiązaniem równania opisującego ruch harmoniczny
+tłumiony przy warunku (12.32). Widzimy, że opór zmniejsza zarówno
+amplitudę jak i częstość drgań, czyli powoduje spowolnienie ruchu.
+Wielkość tłumienia określa współczynnik tłumienia {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX}
+(lub stała czasowa {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX}). Wykres ruchu harmonicznego
+tłumionego w zależności od czasu jest pokazany na rysunku 12.5.}
+{ {img fileId="179"}
+{
+Rys. 12.5. Zależność przemieszczenia od czasu w ruchu harmonicznym
+tłumionym.
+{
+Linie przerywane ilustrują wykładnicze tłumienie amplitudy tego ruchu
+{
+Równanie (12.31) opisuje sytuację, w której pomimo strat energii
+zachowany zostaje oscylacyjny charakter ruchu. Ma to miejsce tylko
+wtedy gdy spełniony jest warunek {{OPENAGHMATHJAX()}\beta
+{OPENAGHMATHJAX()}} {\textless} {OPENAGHMATHJAX}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} to znaczy dla
+słabego tłumienia. Tylko wtedy równanie (12.32) opisuje
+częstotliwość drgań. Jednak gdy tłumienie (opór) stanie się
+dostatecznie duże ruch przestaje być ruchem drgającym, a ciało
+wychylone z położenia równowagi powraca do niego asymptotycznie tzw.
+ruchem pełzającym (aperiodycznym), a równanie (12.31) nie jest już
+rozwiązaniem równania ruchu. Odpowiada to warunkowi {{OPENAGHMATHJAX()}\beta
+{OPENAGHMATHJAX()}} {\textgreater} {OPENAGHMATHJAX}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} co w praktyce
+oznacza, że siła tłumiąca jest bardzo duża. Dzieje się tak na przykład
+gdy ruch odbywa się w bardzo gęstym ośrodku. Szczególny przypadek
+odpowiada sytuacji gdy {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX} = {{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. Mówimy wtedy o tłumieniu krytycznym.
+Wykresy ruchu tłumionego krytycznie i ruchu pełzającego są pokazane na
+rysunku 12.6 poniżej.}
+{ {img fileId="180"}
+{
+Rys. 12.6. Ruch pełzający {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX} {\textgreater}
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} i tłumiony krytycznie
+{OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX} = {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}
+Możesz prześledzić drgania tłumione wahadła
+matematycznego w zależności od współczynnika tłumienia {{OPENAGHMATHJAX()}\beta
+{OPENAGHMATHJAX}} korzystając z darmowego programu komputerowego „Drgania tłumione”
+dostępnego na stronie WWW autora.
+
+!!!!#Straty mocy, współczynnik dobroci
+{
+Straty energii wynikające z tłumienia opisuje się za pomocą
+tzw. współczynnika dobroci Q, który jest definiowany jako}
+{
+Definicja}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{Q=2\pi
+\frac{E_{{\text{zmagazynowana}}}}{E_{{\text{stracona}\text{[EF02?]}w\text{[EF02?]}1\text{[EF02?]}\text{okresie}}}}=2\pi
+\frac{E}{P/f}=\frac{E}{P/\omega }}
+\end{equation}{OPENAGHMATHJAX}
+[12.33]
+
+{
+gdzie P jest średnią stratą mocy, f częstotliwością
+drgań. Kilka typowych wartości Q zestawiono w tabeli 12.1.}
+{
+Tab. 12.1. Wybrane wartości współczynnika dobroci Q
+Oscylator
+Q
+
+Ziemia dla fali sejsmicznej
+250-400
+
+Struna fortepianu lub skrzypiec
+1000
+
+Atom wzbudzony
+10{OPENAGHMATHJAX()}^{7}{OPENAGHMATHJAX}
+
+Jądro wzbudzone
+10{OPENAGHMATHJAX()}^{12}{OPENAGHMATHJAX}
+
+!!!#Drgania wymuszone oscylatora harmonicznego
+{
+W ruchu harmonicznym tłumionym amplituda, a co za tym idzie i
+energia drgań maleje z czasem do zera. Jeżeli chcemy podtrzymać drgania
+to musimy działać odpowiednią siłą zewnętrzną F(t)
+przyłożoną do oscylatora. Siłę taką nazywamy siłą wymuszającą.
+W przypadku drgań harmonicznych zewnętrzna siła wymuszająca jest siłą
+okresowo zmienną postaci}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{F(t)=F_{{0}}\text{sin}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[12.34]
+
+{
+Zwróćmy uwagę na to, że siła wymuszająca działa przez cały czas i nie
+należy jej mylić z krótkotrwałymi impulsami takimi jakie na przykład
+stosujemy gdy chcemy podtrzymać wahania huśtawki popychając raz na
+jakiś czas.}
+{
+Jeżeli uwzględnimy siłę wymuszającą to zgodnie z drugą zasadą dynamiki}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\text{ma}=-\mathit{kx}-\gamma
+\frac{\mathit{dx}}{\mathit{dt}}+F(t)}
+\end{equation}{OPENAGHMATHJAX}
+[12.35]
+
+{
+lub korzystając z równań (3.1)}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{m\frac{d^{{2}}x}{\mathit{dt}^{{2}}}=-\mathit{kx}-\gamma
+\frac{\mathit{dx}}{\mathit{dt}}+F(t)}
+\end{equation}{OPENAGHMATHJAX}
+[12.36]
+
+{
+Po podstawieniu wyrażenia na siłę wymuszającą (12.34) i wprowadzeniu
+nowych stałych}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\tau =\frac{m}{\gamma }\;,\;\;\omega
+_{{0}}^{{2}}=\frac{k}{m}\;\;\text{oraz}\;\;\alpha
+_{{0}}=\frac{F_{{0}}}{m}}
+\end{equation}{OPENAGHMATHJAX}
+[12.37]
+
+{
+otrzymujemy równanie analogiczne do równania (12.30) dla ruchu
+tłumionego}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{d^{{2}}x}{\mathit{dt}^{{2}}}+\frac{1}{\tau
+}\frac{\mathit{dx}}{\mathit{dt}}+\omega _{{0}}^{{2}}x=\alpha
+_{{0}}\text{sin}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[12.38]
+
+{
+Ponownie {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} jest częstością własną
+układu, to jest częstością drgań swobodnych gdy nie działa siła
+zewnętrzna i nie ma tarcia ani innych sił oporu, a {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} stałą
+czasową związaną ze współczynnikiem tłumienia {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX} relacją
+{OPENAGHMATHJAX()}{\beta =1/2\tau }{OPENAGHMATHJAX}.Zauważmy ponadto, że układ jest zasilany z
+częstością {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} różną od częstości własnej
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. W takiej sytuacji}
+Prawo, zasada, twierdzenie
+
+Drgania (wymuszone) odbywają się z
+częstością siły zewnętrznej, a nie z częstością własną.
+
+{
+W równaniu (12.38) mamy dwie wielkości okresowo zmienne: położenie
+x(t) oraz siłę wymuszającą F(t).
+W najogólniejszym przypadku suma (złożenie) dwóch funkcji okresowych
+daje w wyniku też funkcję okresową (rysunek 12.7).}
+{ {img fileId="181"}
+{
+Rys. 12.7. Złożenie dwóch funkcji okresowych
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{A_{{1}}\text{cos}\mathit{\omega t}+A_{{2}}\text{sin}\mathit{\omega
+t}=A\text{sin}(\mathit{\omega t}+\varphi )}
+\end{equation}{OPENAGHMATHJAX}
+[12.39]
+
+{
+Szukamy więc rozwiązania równania (12.38) w postaci}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x(t)=A\text{sin}(\mathit{\omega t}+\varphi )}
+\end{equation}{OPENAGHMATHJAX}
+[12.40]
+
+{
+Jak widać z porównania równań (12.34) i powyższego równania (12.40)
+przesunięcie fazowe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} mówi nam o jaki kąt maksimum
+przemieszczenia wyprzedza maksimum siły (czyli o ile są przesunięte
+względem siebie funkcje sinus opisujące wychylenie (12.40) i siłę
+(12.34)). }
+{
+Żeby znaleźć rozwiązanie musimy wyznaczyć amplitudę A oraz
+przesunięcie fazowe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. W tym celu obliczamy
+odpowiednie pochodne funkcji (12.40) i podstawiamy do równania (12.38).
+}
+Więcej o wyznaczeniu A oraz
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} możesz przeczytać w Dodatku 5, na końcu
+modułu III.
+
+{
+W wyniku otrzymujemy warunek na przesunięcie fazowe}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{\text{sin}\varphi }{\text{cos}\varphi
+}=\text{tg}\varphi =\frac{\omega /\tau }{\omega
+_{{0}}^{{2}}-\omega ^{{2}}}=\frac{2\normalsubformula{\text{\(\beta
+\omega \)}}}{\omega _{{0}}^{{2}}-\omega ^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.41]
+
+{
+i wyznaczamy amplitudę}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{A=\frac{\alpha _{{0}}}{[(\omega _{{0}}^{{2}}-\omega
+^{{2}})^{{2}}+(\omega /\tau )^{{2}}]^{{1/2}}}=\frac{\alpha
+_{{0}}}{[(\omega _{{0}}^{{2}}-\omega ^{{2}})^{{2}}+4\beta ^{{2}}\omega
+^{{2}}]^{{1/2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.42]
+
+{
+Łącząc powyższe wzory otrzymujemy rozwiązanie}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{x(t)=\frac{\alpha _{{0}}}{[(\omega _{{0}}^{{2}}-\omega
+^{{2}})^{{2}}+4\beta ^{{2}}\omega
+^{{2}}]^{{1/2}}}\;\text{[EF02?]}\text{sin}\left(\mathit{\omega
+t}+\text{ar}\text{ctg}\frac{2\normalsubformula{\text{\(\beta
+\omega \)}}}{\omega _{{0}}^{{2}}-\omega ^{{2}}}\right)}
+\end{equation}{OPENAGHMATHJAX}
+[12.43]
+
+{
+Równanie wygląda skomplikowanie ale pamiętajmy, że jest to rozwiązanie
+postaci {OPENAGHMATHJAX()}{x(t)=A\text{sin}(\mathit{\omega t}+\varphi )}{OPENAGHMATHJAX}.}
+!!!!#Rezonans
+{
+Zauważmy, że chociaż drgania odbywają się z częstością w siły
+wymuszającej to amplituda i faza zależą od relacji pomiędzy częstością
+wymuszającą {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, a częstością własną {{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. W szczególności gdy siła wymuszająca osiągnie
+odpowiednią częstotliwość, to amplituda drgań może wzrosnąć gwałtownie
+nawet przy niewielkiej wartości siły wymuszającej. To zjawisko nazywamy
+rezonansem.}
+{
+Wykres przedstawiający rezonansowy wzrost amplitudy drgań w funkcji
+częstości siły wymuszającej pokazany jest na rysunku 12.8 poniżej dla
+różnych wartości współczynnika tłumienia {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX}.}
+{ {img fileId="182"}
+{
+Rys. 12.8. Krzywe rezonansu dla różnych wartości współczynnika tłumienia
+{OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX} ({{OPENAGHMATHJAX()}\beta
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}{\textless}{{OPENAGHMATHJAX}\beta
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}{\textless}{{OPENAGHMATHJAX}\beta
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}{\textless}{{OPENAGHMATHJAX}\beta
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{3}{OPENAGHMATHJAX}{\textless}{OPENAGHMATHJAX}\beta {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{4}{OPENAGHMATHJAX})
+{
+Liniami przerywanymi zaznaczono częstości rezonansowe to jest
+wartości częstości siły wymuszającej, dla której amplituda drgań jest
+maksymalna. Odpowiadająca jej amplituda nazywana jest {amplitudą
+rezonansową.}}
+{
+Częstość rezonansową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} i
+amplitudę rezonansową A{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} możemy
+obliczyć z warunku na maksimum amplitudy drgań danej wzorem (12.42).
+Funkcja A({OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}) osiąga maksimum dla częstości
+rezonansowej {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\omega _{{r}}=\sqrt{\omega _{{0}}^{{2}}-2\beta ^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.44]
+
+{
+Podstawiając tę wartość do wzoru na amplitudę otrzymujemy wyrażenie na
+amplitudę rezonansową A{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{A_{{r}}=\frac{\alpha _{{0}}}{2\beta \sqrt{\omega _{{0}}^{{2}}-\beta
+^{{2}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[12.45]
+
+{
+Widzimy, że dla drgań swobodnych, nietłumionych ({{OPENAGHMATHJAX()}\beta
+{OPENAGHMATHJAX()}}\ding{213} 0) częstość rezonansowa {{OPENAGHMATHJAX}\omega
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} jest równa częstości drgań swobodnych
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}, a amplituda rezonansowa
+A{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} \ding{213} {OPENAGHMATHJAX()}{\infty}{OPENAGHMATHJAX}. W miarę
+wzrostu tłumienia wartość amplitudy rezonansowej
+A{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} maleje, a częstość rezonansowa
+przesuwa się w stronę częstości mniejszych od {{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. Dla bardzo dużego tłumienia rezonans nie
+występuje, maksymalna amplituda występuje dla częstości bliskiej zeru.}
+{
+Dla drgań swobodnych, dla których {{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} = {OPENAGHMATHJAX}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}
+przesunięcie fazowe pomiędzy siłą, a wychyleniem, dane równaniem
+(12.41) jest równe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} = {OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}/2. Oznacza to,
+że siła wymuszająca nie jest zgodna w fazie z wychyleniem. Zauważmy
+jednak, że moc pochłaniana przez oscylator zasilany siłą wymuszającą
+F zależy od prędkości}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{P=\mathit{Fv}}
+\end{equation}{OPENAGHMATHJAX}
+[12.46]
+
+{
+Warunek uzyskania rezonansu odpowiada maksimum mocy pochłanianej przez
+oscylator. Trzeba więc, zgodnie z powyższym wzorem, żeby to prędkość (a
+nie wychylenie) była zgodna w fazie z siłą, a to oznacza, że siła musi
+wyprzedzać wychylenie o {OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}/2.}
+Więcej o mocy absorbowanej przez oscylator
+możesz przeczytać w Dodatku 6, na końcu modułu III.
+
+{
+Skutki rezonansu mogą być zarówno pozytywne jak i negatywne. Z jednej
+strony staramy się wyeliminować przenoszenie drgań na przykład z
+silnika na elementy nadwozia w samochodzie, a z drugiej strony
+działanie odbiorników radiowych i telewizyjnych jest możliwe dzięki
+wykorzystaniu rezonansu elektrycznego. Dostrajając odbiornik do
+częstości nadajnika spełniamy właśnie warunek rezonansu. Zjawisko
+rezonansu jest bardzo rozpowszechnione w przyrodzie.}
+!!!#Składanie drgań harmonicznych
+{
+Często spotykamy się z nakładaniem się dwu lub więcej drgań
+harmonicznych. Poniżej rozpatrzymy kilka przypadków drgań złożonych,
+powstających w wyniku nakładania się dwu drgań harmonicznych
+zachodzących zarówno wzdłuż prostych równoległych jak i prostych
+prostopadłych.}
+!!!!#Składanie drgań równoległych
+{
+Rozpatrzymy ruch punktu materialnego wynikający ze złożenia
+dwu drgań harmonicznych równoległych (zachodzących wzdłuż jednej
+prostej) opisanych równaniami}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{x_{{1}}=A_{{1}}\text{cos}\mathit{\omega t}}
+\\ x_{{2}}=A_{{2}}\text{cos}(\mathit{\omega t}+\varphi
+_{{0}}) \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[12.47]
+
+{
+Drgania te odbywają się z jednakową częstością {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, ale
+są przesunięte w fazie (różnią się fazami) o {{OPENAGHMATHJAX()}\varphi
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. Podobnie jak dla ruchu postępowego czy obrotowego
+również dla drgań obowiązuje zasada niezależności ruchów.}
+Prawo, zasada, twierdzenie
+
+To, że drgania odbywają się niezależnie
+oznacza, że przemieszczenie punktu materialnego jest po prostu sumą
+przemieszczeń składowych. Ta zasada dodawania przemieszczeń nosi nazwę
+superpozycji drgań.
+
+{
+Wychylenie wypadkowe jest więc równe}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x=x_{{1}}+x_{{2}}=A\text{cos}(\mathit{\omega t}+\varphi )}
+\end{equation}{OPENAGHMATHJAX}
+[12.48]
+
+{
+gdzie}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{A=\sqrt{A_{{1}}^{{2}}+A_{{2}}^{{2}}+2A_{{1}}A_{{2}}\text{cos}\varphi
+_{{0}}}} \\ \text{tg}\varphi
+=\frac{A_{{2}}\text{sin}\varphi
+_{{0}}}{A_{{1}}+A_{{2}}\text{cos}\varphi _{{0}}}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[12.49]
+
+{
+Wyrażenia (12.48) i (12.49) można znaleźć składając drgania metodą
+wektorową.}
+Więcej o wektorowym składaniu drgań możesz
+dowiedzieć się z Dodatku 7, na końcu modułu III.
+
+{
+Z powyższych równań wynika, że złożenie drgań harmonicznych równoległych
+o jednakowej częstości daje w wyniku oscylacje harmoniczne o takiej
+samej częstości. Sytuacja ta jest pokazana na rysunku 12.9 poniżej. Ze
+wzoru (12.49) wynika ponadto, że amplituda wypadkowa osiąga maksimum
+dla drgań składowych o zgodnych fazach (różnica faz {{OPENAGHMATHJAX()}\varphi
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} = 0), natomiast minimum gdy różnica faz
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX} (fazy
+przeciwne).}
+{ {img fileId="183"}
+{
+Rys. 12.9. Złożenie dwu drgań harmonicznych równoległych o jednakowych
+częstościach
+!!!!#Składanie drgań prostopadłych
+{Składanie drgań
+prostopadłych }
+{
+Rozpatrzmy teraz złożenie dwu drgań harmonicznych zachodzących
+na płaszczyźnie wzdłuż kierunków prostopadłych względem siebie}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{x=A_{{1}}\text{cos}\omega _{{1}}t}
+\\ y=A_{{2}}\text{cos}(\omega _{{2}}t+\varphi )
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[12.50]
+
+{
+Punkt materialny wykonujący drgania złożone porusza się po krzywej
+leżącej na płaszczyźnie xy, a jego położenie jest dane w
+dowolnej chwili równaniem (12.50). Przykładowe krzywe odpowiadające
+drganiom o jednakowych częstościach {{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = {OPENAGHMATHJAX}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}, dla różnych
+wartości amplitud A{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+A{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} oraz różnych wartości przesunięcia fazowego
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} są pokazane na rysunku 12.10a poniżej.}
+{
+Złożenie drgań prostopadłych o różnych częstościach daje w wyniku
+bardziej skomplikowany ruch. Na rysunku 12.10b pokazane są przykładowe
+krzywe (tak zwane krzywe Lissajous) będące wynikiem złożenia takich
+drgań. Sytuacja pokazana na tym rysunku odpowiada składaniu drgań o
+jednakowych amplitudach.}
+{img fileId="184"} 
+{img fileId="185"}
+
+Rys. 12.10a. Złożenie drgań
+prostopadłych o jednakowych częstościach
+Rys. 12.10b. Złożenie
+drgań prostopadłych o różnych częstościach i jednakowych amplitudach
+
+{
+Obraz drgań złożonych można otrzymać w prosty sposób za pomocą
+oscyloskopu. Wiązki elektronów w lampie oscyloskopowej są odchylane
+przez dwa zmienne, prostopadłe pola elektryczne. Na ekranie oscyloskopu
+obserwujemy więc obraz odpowiadający złożeniu drgań wiązki elektronów
+wywołany przez te zmienne pola elektryczne, których amplitudy,
+częstości fazy możemy regulować.}
+{
+Ten rozdział kończy moduł trzeci; możesz teraz przejść do podsumowania i
+zadań testowych.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertiii}
+{\sffamily
+Podsumowanie}
+\liststyleWWviiiNumi
+*{
+Prędkość kątowa jest zdefiniowana jako {OPENAGHMATHJAX()}{\omega =\frac{\mathit{d\varphi
+}}{\mathit{dt}}}{OPENAGHMATHJAX()}, a przyspieszenie kątowe jako {OPENAGHMATHJAX}{\alpha
+=\frac{\mathit{d\omega }}{\mathit{dt}}}{OPENAGHMATHJAX}. W ruchu po okręgu
+v = {OPENAGHMATHJAX()}{\omega{OPENAGHMATHJAX}}R oraz a =
+{OPENAGHMATHJAX()}{\alpha{OPENAGHMATHJAX}}R.}
+\liststyleWWviiiNumxvii
+*{
+Moment siły jest definiowany jako {OPENAGHMATHJAX()}{\tau =r\times F}{OPENAGHMATHJAX}, a moment pędu
+{OPENAGHMATHJAX()}{L=r\times p}{OPENAGHMATHJAX}. Zgodnie z drugą zasadą dynamiki Newtona {OPENAGHMATHJAX()}{\tau
+=\frac{\mathit{dL}}{\mathit{dt}}}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumxv
+*{
+Zasada zachowania momentu pędu.}
+{
+{OPENAGHMATHJAX()}{\tau =\frac{\mathit{dL}}{\mathit{dt}}=0\text{[EF02?][EF02?][EF02?]}}{OPENAGHMATHJAX}
+lub {OPENAGHMATHJAX()}{L=\text{const}\text{.}}{OPENAGHMATHJAX} Jeżeli na układ nie działa zewnętrzny
+moment siły (lub wypadkowy moment sił zewnętrznych jest równy zeru) to
+całkowity moment pędu układu pozostaje stały.}
+\liststyleWWviiiNumii
+*{
+Momentem bezwładności I ciała sztywnego definiujemy jako
+{OPENAGHMATHJAX()}{I=\underset{{i}}{\sum }{r_{{i}}^{{2}}\mathit{\Delta m}_{{i}}}}{OPENAGHMATHJAX} lub
+{OPENAGHMATHJAX()}{I=\int {r^{{2}}\mathit{dm}}}{OPENAGHMATHJAX}.}
+*{
+Moment pędu ciała sztywnego L =
+I{OPENAGHMATHJAX()}{\omega{OPENAGHMATHJAX}} , moment siły {OPENAGHMATHJAX()}{\tau
+=I\frac{\mathit{d\omega }}{\mathit{dt}}=\mathit{I\alpha }}{OPENAGHMATHJAX}, a energia
+kinetyczna {OPENAGHMATHJAX()}{E_{{k}}=\frac{1}{2}\mathit{I\omega }^{{2}}}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumxi
+*{
+Ruch ciała będący złożeniem ruchu postępowego środka masy i obrotowego
+względem osi przechodzącej przez środek masy jest równoważny ruchowi
+obrotowemu wokół osi przechodzącej przez punkt styczności ciała z
+powierzchnią po której się ono toczy.}
+\liststyleWWviiiNumxviii
+*{
+Siła harmoniczna {OPENAGHMATHJAX()}{F=-\mathit{kx}}{OPENAGHMATHJAX} wywołuje ruch oscylacyjny
+{OPENAGHMATHJAX()}{x(t)=A\text{cos}\mathit{\omega t}}{OPENAGHMATHJAX}, gdzie {OPENAGHMATHJAX()}{\omega =\sqrt{k/m}}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumxiii
+*{
+Okres drgań wahadła matematycznego wynosi {OPENAGHMATHJAX()}{T=2\pi
+\sqrt{\frac{l}{g}}}{OPENAGHMATHJAX()}, a wahadła fizycznego {OPENAGHMATHJAX}{T=2\pi
+\sqrt{\frac{I}{\text{mgd}}}}{OPENAGHMATHJAX}}
+\liststyleWWviiiNumviii
+*{
+Energia potencjalna w ruchu harmonicznym prostym jest równa
+{OPENAGHMATHJAX()}{E_{{p}}=\frac{\mathit{kx}^{{2}}}{2}}{OPENAGHMATHJAX}, a energia całkowita
+{OPENAGHMATHJAX()}{E_{{p}}=\frac{\mathit{kA}^{{2}}}{2}}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumxii
+*{
+Tarcie zmniejsza amplitudę ruchu drgającego
+{OPENAGHMATHJAX()}{x=\mathit{Ae}^{{-\mathit{\beta t}}}\text{cos}\mathit{\omega t}}{OPENAGHMATHJAX} i
+częstość drgań {OPENAGHMATHJAX()}{\omega =\sqrt{\omega _{{0}}^{{2}}-\beta ^{{2}}}}{OPENAGHMATHJAX}.}
+\liststyleWWviiiNumxvi
+*{
+Drgania wymuszone odbywają się z częstością siły zewnętrznej, a nie z
+częstością własną. Gdy siła wymuszająca działa na ciało z pewną
+charakterystyczną częstotliwością {OPENAGHMATHJAX()}{\omega _{{r}}}{OPENAGHMATHJAX} to amplituda drgań
+osiąga wartość maksymalną. Zjawisko to nazywamy rezonansem.}
+\clearpage\setcounter{page}{1}\pagestyle{Convertiv}
+!#Materiały dodatkowe do Modułu III
+\liststyleWWviiiNumxiv
+#{\sffamily
+Ruch przyspieszony po okręgu }
+{
+Współrzędne x, y punktu poruszającego się po
+okręgu można wyrazić za pomocą promienia R (o stałej wartości)
+oraz kąta (rysunek poniżej).}
+{ {img fileId="186"}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+\begin{matrix}{x(t)=R\text{cos}\varphi (t)}
+\\ {y(t)=R\text{sin}\varphi (t)} \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[III.1.1]
+
+{
+Przy czym związek między drogą liniową s, a {drogą
+kątową} {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}, jest dany z miary łukowej kąta
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} = s/R.}
+{
+Różniczkując równania (III.1.1), możemy obliczyć zgodnie ze wzorami
+(3.1), składowe prędkości}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{v_{{x}}=-R\frac{\mathit{d\varphi
+}}{\mathit{dt}}\text{sin}\varphi =-\mathit{R\omega }\text{sin}\varphi
+} \\ v_{{y}}=R\frac{\mathit{d\varphi
+}}{\mathit{dt}}\text{cos}\varphi =\mathit{R\omega }\text{cos}\varphi
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[III.1.2]
+
+{
+gdzie wprowadzono prędkość kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} =
+d{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}/dt.}
+{
+Różniczkując z kolei równania (III.1.2) otrzymamy zgodnie ze
+wzorami (3.1) składowe przyspieszenia}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{a_{{x}}=-R\frac{\mathit{d\omega
+}}{\mathit{dt}}\text{sin}\varphi -\mathit{R\omega
+}\frac{\mathit{d\varphi }}{\mathit{dt}}\text{cos}\varphi
+=-\mathit{R\alpha }\text{sin}\varphi -\mathit{R\omega
+}^{{2}}\text{cos}\varphi } \\ a_{{y}}=R\frac{\mathit{d\omega
+}}{\mathit{dt}}\text{cos}\varphi -\mathit{R\omega
+}\frac{\mathit{d\varphi }}{\mathit{dt}}\text{sin}\varphi
+=\mathit{R\alpha }\text{cos}\varphi -\mathit{R\omega
+}^{{2}}\text{sin}\varphi \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[III.1.3]
+
+{
+lub}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{a_{{x}}=\frac{\alpha }{\omega }v_{{x}}-\mathit{x\omega
+}^{{2}}} \\ a_{{y}}=\frac{\alpha }{\omega
+}v_{{y}}-\mathit{y\omega }^{{2}} \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[III.1.4]
+
+{
+gdzie wprowadzono przyspieszenie kątowe {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} =
+d{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}/dt}
+{
+Na podstawie powyższych zależności możemy obliczyć wektor całkowitego
+przyspieszenia}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{a=\frac{\alpha }{\omega }v-\mathit{R\omega }^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.1.5]
+
+{
+Wektor przyspieszenia całkowitego a jest sumą dwóch
+wektorów: przyspieszenia stycznego
+a{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX} (równoległego do wektora
+prędkości v)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{a_{{s}}=\frac{\alpha }{\omega }v}
+\end{equation}{OPENAGHMATHJAX}
+[III.1.6]
+
+{
+i przyspieszenia normalnego
+a{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} ( przeciwnego do wektora
+R czyli skierowanego do środka okręgu)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{a_{{n}}=-\mathit{R\omega }^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.1.7]
+
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Obliczanie momentu bezwładności - przykład}
+{
+Jako przykład obliczymy moment bezwładności pręta o masie
+M i długości d pokazanego na rysunku poniżej. Oś
+obrotu przechodzi przez środek pręta i jest do niego prostopadła (linia
+przerywana).}
+{ {img fileId="187"}
+{
+Pręt o masie M i długości d obracający się względem
+osi przechodzącej przez środek pręta (linia przerywana)
+{
+Najpierw, pręt dzielimy umownie na {\textquotedbl}nieskończenie
+małe{\textquotedbl} elementy o masie dm i długości
+dx, które możemy traktować jak punkty materialne (patrz
+rysunek). Moment bezwładności takiego elementu wynosi
+x{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}dm, a moment bezwładności całego
+pręta jest, zgodnie z definicją (11.14, 11.15), sumą (całką) momentów
+bezwładności poszczególnych elementów }
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{I=\overset{d/2}{\underset{{\overset{}{{-d/2}}}}{\int
+}}{x^{{2}}\mathit{dm}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.2.1]
+
+{
+gdzie całkowanie przebiega po całej długości pręta tj. w granicach od
+{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}d/2 do d/2.}
+{
+Zakładając, że pręt ma stałą gęstość to masę dm możemy wyrazić
+z prostej proporcji jako
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{dm}=\frac{M}{d}\mathit{dx}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Podstawiając tę zależność do wzoru (III.2.1) i wykonując całkowanie
+otrzymujemy}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{I=\frac{M}{d}\overset{d/2}{\underset{{\overset{}{{-d/2}}}}{\int
+}}{x^{{2}}\mathit{dx}=}{\frac{M}{d}\frac{x^{3}}{{3}}}|_{-d/2}^{d/2}{=\frac{\text{Md}^{2}}{{\text{12}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.2.2]
+
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Ruch precesyjny (bąk)}
+{
+Przykładem ruchu obrotowego, w którym oś obrotu nie jest
+nieruchomą w inercjalnym układzie odniesienia jest bąk wirujący dookoła
+pewnej osi symetrii. Z doświadczenia wiemy, że oś wirującego bąka
+porusza się dookoła osi pionowej, zakreślając powierzchnię stożka. Taki
+ruch nazywamy precesją.}
+{
+W sytuacji przedstawionej na rysunku poniżej bąk ma prędkość
+kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} dookoła swej osi. Ma również moment pędu
+L względem tej osi, która tworzy kąt {{OPENAGHMATHJAX()}\theta
+{OPENAGHMATHJAX}} z osią pionową. Punkt podparcia bąka znajduje się w początku
+inercjalnego układu odniesienia.}
+{ {img fileId="188"}
+{
+Ruch precesyjny bąka
+{
+Siła działająca na bąk w punkcie podparcia ma zerowy moment względem
+punktu podparcia ponieważ ramię siły jest równe zeru. Natomiast ciężar
+mg wytwarza względem punktu podparcia moment siły}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\tau =r\times \mathit{mg}}
+\end{equation}{OPENAGHMATHJAX}
+[III.3.1]
+
+{
+gdzie r określa położenie środka masy. Z iloczynu
+wektorowego wynika, że {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} jest prostopadłe do
+r i do mg. Zauważmy, że
+wektory {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} , L i
+r wirują dokoła osi pionowej z częstością precesji
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX}. Z rysunku wynika, że}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\omega _{{p}}=\frac{\mathit{\Delta \varphi }}{\Delta \;t}}
+\end{equation}{OPENAGHMATHJAX}
+[III.3.2]
+
+{
+Ponieważ {OPENAGHMATHJAX()}\Delta {OPENAGHMATHJAX}L {\textless}{\textless} L, to
+możemy napisać}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{\Delta \varphi }\simeq \frac{\mathit{\Delta
+L}}{L\text{sin}\theta }}
+\end{equation}{OPENAGHMATHJAX}
+[III.3.3]
+
+{
+Z drugiej zasadę dynamiki ruchu obrotowego równanie (11.11) wynika, że
+{OPENAGHMATHJAX()}{\mathit{\Delta L}=\mathit{\tau \Delta t}}{OPENAGHMATHJAX}}
+{
+więc}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\mathit{\Delta \varphi }\simeq \frac{\mathit{\tau \Delta
+t}}{L\text{sin}\theta }}
+\end{equation}{OPENAGHMATHJAX}
+[III.3.4]
+
+{
+Ostatecznie otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\omega _{{p}}=\frac{\mathit{\Delta \varphi }}{\Delta \;t}=\frac{\tau
+}{L\text{sin}\theta }}
+\end{equation}{OPENAGHMATHJAX}
+[III.3.5]
+
+{
+Zgodnie z rysunkiem moment siły jest równy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\tau =r\text{mg}\text{sin}(\text{180}^{{\circ
+}}-\theta )=r\text{mg}\text{sin}\theta }
+\end{equation}{OPENAGHMATHJAX}
+[III.3.6]
+
+{
+więc ostatecznie}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\omega _{{p}}=\frac{r\text{mg}}{L}}
+\end{equation}{OPENAGHMATHJAX}
+[III.3.7]
+
+{
+Zwróćmy uwagę, że prędkość precesji nie zależy od kąta {{OPENAGHMATHJAX()}\theta
+{OPENAGHMATHJAX}} i jest odwrotnie proporcjonalna do wartości momentu pędu.}
+{
+Spróbujmy teraz podać ogólne wektorowe równanie opisujące precesję. W
+tym celu najpierw przekształcamy równanie (III.3.6) do postaci}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\tau =\omega _{{p}}L\text{sin}\theta }
+\end{equation}{OPENAGHMATHJAX}
+[III.3.8]
+
+{
+Widać, że prawa strona równania jest równa wartości iloczynu wektorowego
+{{{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX()}}}{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX} {OPENAGHMATHJAX}{\times}{OPENAGHMATHJAX} L. Tak więc
+ostatecznie wyrażenie wiążące prędkość kątową precesji z momentem siły
+i momentem pędu ma postać}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\tau =\omega _{{p}}\times L}
+\end{equation}{OPENAGHMATHJAX}
+[III.3.9]
+
+{
+Zjawisko precesji momentu magnetycznego jest podstawą różnych technik
+doświadczalnych jak np. magnetyczny rezonans jądrowy (MRJ), które
+znalazły szerokie zastosowanie w badaniach naukowych, technice
+i medycynie.}
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Równanie ruchu harmonicznego tłumionego}
+{
+Spróbujemy opisać ruch harmoniczny tłumiony jako złożenie
+ruchu wywołanego siłą harmoniczna i ruchu, w którym działa wyłącznie
+siła tłumiąca.}
+{
+Gdy na ciało o masie m działała tylko siła harmoniczna to ciało
+wykonuje drgania swobodne o częstotliwości {{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}, które można opisać równaniem}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x(t)=A\text{cos}\omega _{{0}}t}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.1]
+
+{
+Teraz rozpatrzymy ruch pod wpływem siły tłumiącej. Przykładem może być
+pojazd utrzymujący stałą prędkością dzięki sile napędu. Z chwilą
+wyłączenia napędu pojazd porusza się dalej hamując pod wpływem siły
+oporu.}
+{
+Gdy na ciało o masie m działała tylko siła oporu to zgodnie z
+drugą zasadą dynamiki}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\text{ma}=-\mathit{\gamma v}}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.2]
+
+{
+lub}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{m\frac{\mathit{dv}}{\mathit{dt}}=-\mathit{\gamma v}}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.3]
+
+{
+Jeżeli wprowadzimy nową stałą {OPENAGHMATHJAX()}{\tau =m/\gamma }{OPENAGHMATHJAX} (o wymiarze czasu) to
+powyższe równanie przyjmie postać}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{\mathit{dv}}{\mathit{dt}}=-{\frac{1}{\tau }}v}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.4]
+
+{
+lub}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{\mathit{dv}}{v}=-{\frac{\mathit{dt}}{\tau }}}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.5]
+
+{
+Powyższe równanie różniczkowe zawiera dwie zmienne v
+oraz t. Ponieważ zmienne te są rozdzielone (występują po
+różnych stronach równania) równanie może być łatwo rozwiązane poprzez
+obustronne scałkowanie.}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overset{v}{\underset{{v_{{0}}}}{\int
+}}{\frac{\mathit{dv}}{v}}{=-{\frac{1}{\tau
+}}\overset{t}{\underset{0}{\int }}{\mathit{dt}}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.6]
+
+{
+Granice całkowania odpowiadają zmniejszaniu prędkości od wartości
+początkowej v{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} do
+v w czasie t. Po wykonaniu
+całkowania otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\text{ln}\left(\frac{v}{v_{{0}}}\right)=-{\frac{t}{\tau }}}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.7]
+
+{
+a po przekształceniu}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{v(t)=v_{{0}}e^{{-{\frac{t}{\tau }}}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.4.7]
+
+{
+Widać, że prędkość maleje wykładniczo z czasem. Inaczej mówiąc prędkość
+jest tłumiona ze stałą czasową {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} (rysunek poniżej).}
+{ {img fileId="189"}
+{
+Zależność prędkości od czasu w ruchu tłumionym
+{
+Widzimy, że gdy uwzględnimy zarówno siłę harmoniczną jak i siłę
+tłumienia (oporu) to rozwiązanie równania ruchu będzie zawierać czynnik
+oscylacyjny (III.4.1) opisujący drgania i czynnik tłumiący (III.4.7)
+opisujący wykładnicze zmniejszanie się amplitudy drgań.}
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Amplituda i faza w ruchu harmonicznym wymuszonym }
+{
+Poszukujemy rozwiązania równania różniczkowego}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{d^{{2}}x}{\mathit{dt}^{{2}}}+\frac{1}{\tau
+}\frac{\mathit{dx}}{\mathit{dt}}+\omega _{{0}}^{{2}}x=\alpha
+_{{0}}\text{sin}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[III.5.1]
+
+{
+w postaci}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x(t)=A\text{sin}(\mathit{\omega t}+\varphi )}
+\end{equation}{OPENAGHMATHJAX}
+[III.5.2]
+
+{
+W tym celu obliczamy odpowiednie pochodne funkcji (III.5.2)}
+{OPENAGHMATHJAX()}{\frac{\mathit{dx}}{\mathit{dt}}=\mathit{A\omega
+}\text{cos}(\mathit{\omega t}+\varphi )}{OPENAGHMATHJAX}, 
+{OPENAGHMATHJAX()}{\frac{d^{{2}}x}{d^{{2}}t}=-\mathit{A\omega
+}^{{2}}\text{sin}(\mathit{\omega t}+\varphi )}{OPENAGHMATHJAX}
+[III.5.3]
+
+{
+i podstawiamy do równania (III.5.1), które przyjmuje postać}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\left(\omega _{{0}}^{{2}}-\omega
+^{{2}}\right)A\text{sin}(\mathit{\omega t}+\varphi )+\frac{\omega
+}{\tau }A\text{cos}(\mathit{\omega t}+\varphi )=\alpha
+_{{0}}\text{sin}\mathit{\omega t}}
+\end{equation}{OPENAGHMATHJAX}
+[III.5.4]
+
+{
+Równanie to przekształcamy korzystając ze związków}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{\text{sin}(\mathit{\omega t}+\varphi
+)=\text{sin}\mathit{\omega t}\text{cos}\varphi
++\text{cos}\mathit{\omega t}\text{sin}\varphi }
+\\ {\text{cos}(\mathit{\omega t}+\varphi )=\text{cos}\mathit{\omega
+t}\text{cos}\varphi -\text{sin}\mathit{\omega t}\text{sin}\varphi
+} \end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+{
+Otrzymujemy równanie}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+\begin{matrix}{\left[\left(\omega _{{0}}^{{2}}-\omega
+^{{2}}\right)\text{cos}\varphi -\frac{\omega }{\tau }\text{sin}\varphi
+\right]A\text{sin}\mathit{\omega t}+\left[\left(\omega
+_{{0}}^{{2}}-\omega ^{{2}}\right)\text{sin}\varphi -\frac{\omega }{\tau
+}\text{cos}\varphi \right]A\text{cos}\mathit{\omega t}=}
+\\ ?\alpha _{{0}}\text{sin}\mathit{\omega t}
+\end{matrix}
+\end{equation}{OPENAGHMATHJAX}
+[III.5.5]
+
+{
+Powyższa równość może być spełniona tylko, gdy czynniki stojące przy
+funkcji sin{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t i cos{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t po obu stronach
+równania będą sobie równe. Ten warunek oznacza, że czynnik przy
+cos{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t ma być równy zeru co można zapisać jako}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\frac{\text{sin}\varphi }{\text{cos}\varphi
+}=\text{tg}\varphi =\frac{\omega /\tau }{\omega
+_{{0}}^{{2}}-\omega ^{{2}}}=\frac{2\normalsubformula{\text{\(\beta
+\omega \)}}}{\omega _{{0}}^{{2}}-\omega ^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.5.6]
+
+{
+Z tego warunku znamy już {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. Teraz wyznaczamy amplitudę
+porównując czynniki przy funkcji sin{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t (w równaniu
+III.5.5) i podstawiając odpowiednie wyrażenia za
+cos{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} i sin{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}.}
+{
+Otrzymujemy wyrażenie}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{A=\frac{\alpha _{{0}}}{[(\omega _{{0}}^{{2}}-\omega
+^{{2}})^{{2}}+(\omega /\tau )^{{2}}]^{{1/2}}}=\frac{\alpha
+_{{0}}}{[(\omega _{{0}}^{{2}}-\omega ^{{2}})^{{2}}+4\beta ^{{2}}\omega
+^{{2}}]^{{1/2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[III.5.7]
+
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Moc absorbowana przez oscylator }
+{
+Obliczmy średnią moc absorbowaną przez oscylator poruszający
+się pod wpływem siły wymuszonej. Moc średnia jest dana wyrażeniem}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overset{{\text{__}}}{{P}}=\overset{{\text{__}}}{{F}}\overset{{\text{__}}}{{v}}=\overset{{\text{__}}}{{F}}\overset{{\text{____}}}{{\frac{\mathit{dx}}{\mathit{dt}}}}}
+\end{equation}{OPENAGHMATHJAX}
+[IV.6.1]
+
+{
+gdzie kreska górna oznacza średnią czasową.}
+{
+Korzystając z wyrażeń (12.34) i (12.43) znajdujemy (szczegółowe
+obliczenia pomijamy)}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{\overline{{P}}=\frac{1}{2}\mathit{m\alpha
+}_{{0}}^{{2}}\frac{2\normalsubformula{\text{\(\beta \omega
+\)}}^{{2}}}{(\omega _{{0}}^{{2}}-\omega
+^{{2}})^{{2}}+(2\text{\(\beta \omega \)})^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+[IV.6.2]
+
+{
+Zależność mocy absorbowanej od częstości drgań wymuszających, dla
+przypadku słabego tłumienia, jest przedstawiona na rysunku poniżej.
+Widać wyraźnie maksimum mocy związane ze zjawiskiem rezonansu.}
+{ {img fileId="190"}
+{
+Średnia moc absorbowana dla oscylatora harmonicznego wymuszonego
+\liststyleWWviiiNumxiv
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{\sffamily
+Składanie drgań metodą wektorową }
+{
+Drgania harmoniczne jak i harmoniczne zaburzenie falowe mogą
+być przedstawione graficznie jako obracający się wektor, którego
+długość reprezentuje amplitudę drgań. Taki wektor nazywamy
+strzałką fazową (wskazem).}
+{
+Oscylacja (zaburzenie falowe) {OPENAGHMATHJAX()}{x_{{1}}=A_{{1}}\text{cos}\mathit{\omega
+t}}{OPENAGHMATHJAX} w chwili t przedstawiona jest przez rzut tej „strzałki”
+(amplitudy) na oś poziomą (odpowiada to pomnożeniu
+A{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} przez cos{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t).}
+{
+Druga oscylacja (zaburzenie falowe)
+{OPENAGHMATHJAX()}{x_{{2}}=A_{{2}}\text{cos}(\mathit{\omega t}+\varphi _{{0}})}{OPENAGHMATHJAX}, o
+amplitudzie A{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}, różni się od drgań
+x{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} o fazę {{OPENAGHMATHJAX()}\varphi
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. Znajdujemy je podobnie jako rzut „strzałki” na oś
+poziomą. Teraz wystarczy dodać graficznie (wektorowo)
+x{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}i x{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} żeby otrzymać
+wypadkowe drgania tak jak to pokazano na rysunku poniżej.}
+{ {img fileId="191"}
+{
+Wektorowe dodawanie drgań o amplitudach A{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+A{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} przesuniętych w fazie o {{OPENAGHMATHJAX()}\varphi
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}
+
+daje w wyniku drganie o amplitudzie A i fazie przesuniętej o
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}
+{
+Wektorowe dodawanie drgań o amplitudach A{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+A{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} przesuniętych w fazie o {{OPENAGHMATHJAX()}\varphi
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} daje w wyniku drganie o amplitudzie A
+i fazie przesuniętej o {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x=x_{{1}}+x_{{2}}=A\text{cos}(\mathit{\omega t}+\varphi )}
+\end{equation}{OPENAGHMATHJAX}
+{
+Widać to jeszcze lepiej gdy narysuje się wektory dla fazy
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t = 0 (lub wielokrotności 2{OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}) i gdy
+umieści się początek jednej strzałki na końcu poprzedniej zachowując
+różnicę faz (rysunek poniżej).}
+{ {img fileId="192"}
+{
+Rys. 2. Wektorowe dodawanie drgań o amplitudach
+A{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i A{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} przesuniętych
+w fazie o {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} daje w wyniku drganie o
+amplitudzie A i fazie przesuniętej o {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}.
+Sytuacja odpowiada fazie {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}t = 0
+{
+Na podstawie tego rysunku możemy (korzystając z twierdzenia cosinusów)
+wyznaczyć amplitudę A drgań wypadkowych}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{A=\sqrt{A_{{1}}^{{2}}+A_{{2}}^{{2}}+2A_{{1}}A_{{2}}\text{cos}(\text{180}{}^{\circ}-\varphi
+_{{0}})}}
+\end{equation}{OPENAGHMATHJAX}
+{
+lub}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{A=\sqrt{A_{{1}}^{{2}}+A_{{2}}^{{2}}+2A_{{1}}A_{{2}}\text{cos}\varphi
+_{{0}}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+oraz ich przesunięcie fazowe}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\text{tg}\varphi =\frac{A_{{2}}\text{sin}\varphi
+_{{0}}}{A_{{1}}+A_{{2}}\text{cos}\varphi _{{0}}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Widzimy, że amplituda wypadkowa osiąga maksimum dla równoległych
+wektorów składowych, co odpowiada zgodnym fazom (różnica faz
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} = 0), natomiast minimum dla
+wektorów składowych antyrównoległych (różnica faz {{OPENAGHMATHJAX()}\varphi
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} = {OPENAGHMATHJAX}\pi {OPENAGHMATHJAX}).}
+\clearpage\setcounter{page}{1}\pagestyle{Convertv}
+!#Rozwiązania ćwiczeń z modułu III
+{
+Ćwiczenie 11.1}
+{
+Dane: v = 1.25 m/s. l = 5.55 km.
+d{OPENAGHMATHJAX()}_{zew}{OPENAGHMATHJAX} = 12 cm,
+d{OPENAGHMATHJAX()}_{wew}{OPENAGHMATHJAX} = 2.5 cm.}
+{
+Do obliczenia prędkości kątowej korzystamy ze wzoru (11.1) {OPENAGHMATHJAX()}{\omega
+=\frac{v}{R}}{OPENAGHMATHJAX}}
+{
+Podstawiając dane otrzymujemy: {{OPENAGHMATHJAX()}\omega
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{min}{OPENAGHMATHJAX} = 20.8 rad/s, {{OPENAGHMATHJAX}\omega
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{max}{OPENAGHMATHJAX} = 100 rad/s.}
+{
+Przyspieszenie kątowe (średnie) jest zgodnie z równaniem (11.3) dane
+zależnością}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\alpha =\frac{\mathit{\Delta \omega }}{t}=\frac{\omega
+_{{\text{max}}}-\omega _{{\text{min}}}}{t}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Czas t, w którym prędkość zmieniła się od minimalnej do
+maksymalnej obliczamy z zależności dla ruchu jednostajnego}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{t=\frac{l}{v}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Łącząc ostatnie dwa równania otrzymujemy {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} = 0.18
+rad/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. }
+{
+Ćwiczenie 11.2}
+{
+Dane: F{OPENAGHMATHJAX()}_{2 }{OPENAGHMATHJAX}= 5 N, R/r = 10}
+{
+Ponieważ prędkość kątowa jest stała więc dL/dt = 0 i
+wypadkowy moment sił jest równy zeru}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\tau _{{\text{wyp}}}=(\tau _{{1}}-\tau _{{2}})=0}
+\end{equation}{OPENAGHMATHJAX}
+{
+czyli}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\tau _{{1}}=\tau _{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+skąd}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\text{rF}_{{1}}=\text{RF}_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Ostatecznie więc}
+{
+{OPENAGHMATHJAX()}{F_{{1}}=\frac{R}{r}F_{{2}}}{OPENAGHMATHJAX} = 50N
+{
+Ćwiczenie 11.3}
+{
+Dane: M, d, oś obrotu jest prostopadła do pręta i
+przechodzi przez jeden z jego końców tak jak na rysunku poniżej.}
+{ {img fileId="193"}
+{
+Moment bezwładności pręta względem osi przechodzącej przez środek pręta
+(zarazem jego środek masy) wynosi (patrz tabela 11.3)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{I_{{\text{śr}\text{.}m\text{.}}}=\frac{1}{\text{12}}\text{Md}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Natomiast moment bezwładności względem osi obrotu przechodzącej przez
+koniec pręta obliczamy z twierdzenia Steinera}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{I=I_{{\text{śr}\text{.}m\text{.}}}+\text{Ma}^{{2}}=\frac{1}{\text{12}}\text{Md}^{{2}}+M\left(\frac{d}{2}\right)^{{2}}=\frac{1}{3}\text{Md}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Ćwiczenie 11.4}
+{
+Dane: m, R, h.}
+{
+Oba ciała (walec i kula) mają na wysokości h taką samą energię
+potencjalną równą E{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX} = mgh,
+która u podnóża równi zamienia się na energię kinetyczną ciała
+toczącego się. Jeżeli toczenie potraktujemy jako złożenie ruchu
+postępowego i obrotowego względem osi przechodzącej przez środka masy
+to zgodnie z zasadą zachowania energii}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\text{mgh}=\frac{\mathit{mv}^{{2}}}{2}+\frac{\mathit{I\omega
+}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Ponieważ ciała toczą się bez poślizgu więc {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} =
+v/R (równanie 11.1). Podstawiając
+odpowiednie wartość momentu bezwładności
+{OPENAGHMATHJAX()}{I_{{\text{walca}}}=\frac{1}{2}\text{MR}^{{2}}}{OPENAGHMATHJAX}
+oraz
+{OPENAGHMATHJAX()}{I_{{\text{kuli}}}=\frac{2}{5}\text{MR}^{{2}}}{OPENAGHMATHJAX}
+możemy rozwiązując powyższe równanie obliczyć prędkości walca i kuli u
+dołu równi}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{v_{{\text{walca}}}=\sqrt{\frac{4}{3}\text{gh}}}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{v_{{\text{kuli}}}=\sqrt{\frac{\text{10}}{7}\text{gh}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Różne wartości prędkości wynikają z różnych wartości momentu
+bezwładności, a co za tym idzie z różnych wartości energii ruchu
+obrotowego.}
+{
+Gdyby te ciała zsuwały się z równi to ich energia potencjalna
+zamieniałaby się na energię kinetyczną ruchu postępowego, a ponieważ
+ich masy są jednakowe więc i prędkości u dołu równi też byłyby
+jednakowe i równe}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{v=\sqrt{2\text{gh}}}
+\end{equation}{OPENAGHMATHJAX}
+\clearpage{
+Ćwiczenie 12.2}
+{
+Dane: m, R}
+{
+Okres drgań obręczy obliczamy ze wzoru (12.17)}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{T=2\pi \sqrt{\frac{I}{\text{mgd}}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Odległość pomiędzy punktem zawieszenia (osią obrotu), a środkiem masy
+d = R. Natomiast moment bezwładności względem osi
+obrotu (przechodzącej przez punkt G) obliczamy z twierdzenia
+Steinera}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{I_{{G}}=I_{{\text{śr}\text{.}m\text{.}}}+\text{ma}^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+gdzie moment bezwładności obręczy względem osi przechodzącej przez
+środek masy
+{OPENAGHMATHJAX()}{I_{{\text{śr}\text{.}m\text{.}}}=\text{mR}^{{2}}}{OPENAGHMATHJAX},
+a odległość między osiami obrotu a = R. Podstawiając
+te wartości otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{T=2\pi \sqrt{\frac{2R}{g}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Ćwiczenie 12.3}
+{
+Dane: E{OPENAGHMATHJAX()}_{k}{OPENAGHMATHJAX} =
+E{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX}}
+{
+Dla poszukiwanego wychylenia x energia potencjalna jest równa
+energii kinetycznej jest więc zarazem równa połowie energii całkowitej}
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}
+{E_{{p}}=\frac{1}{2}E}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{\frac{\mathit{kx}^{{2}}}{2}=\frac{1}{2}\frac{\mathit{kA}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Skąd otrzymujemy}
+{OPENAGHMATHJAX( type="block")}\begin{equation}
+{x=\frac{A\sqrt{2}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+\clearpage\setcounter{page}{1}\pagestyle{Convertvi}
+!#Test III
+\liststyleWWviiiNumvii
+#{
+Na rysunku poniżej pokazano kulkę o masie m zawieszoną na końcu
+sznurka o długości L poruszającą się w płaszczyźnie poziomej,
+po okręgu ze stałą prędkością v. Gdy kulka zatacza
+okrąg, sznurek porusza się po powierzchni stożkowej i dlatego wahadło
+to nazywamy wahadłem stożkowym. Znajdź czas, w jakim kulka wykonuje
+jeden pełny obrót.}
+{ {img fileId="194"}
+\liststyleWWviiiNumvii
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{
+Niewielkie ciało ześlizguje się bez tarcia z powierzchni półkuli o
+promieniu R. Na jakiej wysokości ciało oderwie się od niej?}
+#{
+Na końcach pręta o długości 0.4 m, zamocowane są małe kule o masie
+m = 0.2 kg każda. Oblicz moment bezwładności tego układu
+względem osi prostopadłej do pręta, przechodzącej przez: a) środek
+pręta, b) przez jego koniec. Masa pręta M = 0.4 kg.}
+#{
+Na obwodzie jednorodnego krążka o masie M = 1 kg i promieniu
+R = 10 cm nawinięta jest lekka nitka. Do końca nitki
+przymocowane jest ciało o masie m = 0.5 kg. Znajdź
+przyspieszenie kątowe krążka, i przyspieszenie styczne ciała o masie
+m. Jakie jest naprężenie nitki? Krążek obraca się bez tarcia.}
+{ {img fileId="195"}
+\liststyleWWviiiNumvii
+\setcounter{saveenum}{\value{enumi}}
+\setcounter{enumi}{\value{saveenum}}
+#{
+Mamy do dyspozycji sprężynę, którą można rozciągnąć o 2cm przykładając
+do niej siłę 8 N. Sprężynę zamocowano poziomo i do jej końca
+przyczepiono ciało o masie 1 kg. Następnie rozciągnięto ją o 4 cm od
+położenia równowagi i puszczono. Ponieważ ciało ślizga się po
+powierzchni bez tarcia zatem wykonuje ruch harmoniczny prosty. Oblicz
+(a) współczynnik sprężystości sprężyny (b) siłę z jaką działa sprężyna
+na ciało zaraz po jego puszczeniu? (c) okres drgań, (d) amplitudę
+ruchu, (e) maksymalna prędkość drgającego ciała, (f) maksymalne
+przyspieszenie ciała?}
+#{
+Ciało znajduje się na poziomej powierzchni, która porusza się poziomo
+prostym ruchem harmonicznym z częstotliwością dwóch drgań na sekundę.
+Współczynnik tarcia statycznego między ciałem a tą powierzchnią wynosi
+1. Jak duża może być amplituda tego ruchu, aby ciało nie ślizgało się
+po powierzchni?}
+#{
+W jakiej odległości od środka należy zamocować jednorodny pręt o
+długości l = 1 m, aby pręt tworzył wahadło fizyczne o
+najmniejszym okresie?}
+#{
+Oblicz jaki jest współczynnik tłumienia {OPENAGHMATHJAX()}{\beta{OPENAGHMATHJAX}} ruchu
+harmonicznego jeżeli jego amplituda maleje dwukrotnie w czasie
+t = 1 min. Ile razy zmalała w tym czasie energia drgań?}
+

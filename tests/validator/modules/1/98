@@ -1,0 +1,70 @@
+ 
+!!!# Praca wykonana przez siłę zmienną
+
+Rozważmy teraz siłę będącą funkcją położenia{OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX}, której kierunek jest zgodny z osią {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Szukamy pracy jaką wykona ta siła przy przesuwaniu ciała od położenia {OPENAGHMATHJAX()}x_1{OPENAGHMATHJAX} do położenia {OPENAGHMATHJAX()}x_2{OPENAGHMATHJAX}. Jak już mówiliśmy wzór {OPENAGHMATHJAX()}W={OPENAGHMATHJAX}{OPENAGHMATHJAX()}{\bf F}\cdot {\bf s}{OPENAGHMATHJAX}  pozwala obliczyć pracę dla stałej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} . Natomiast gdy wartość siły zmienia się, na przykład tak jak na rysunkach 7.3 (linia ciągła) trzeba stosować inny algorytm.
+
+ {img fileId="450"} 
+Rys. 7.3a.  Zmienna siła {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} przybliżona ciągiem stałych wartości {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX}
+
+Zacznijmy od zastosowania przybliżenia. Dzielimy całkowite przemieszczenie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} na {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} jednakowych odcinków {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX} tak jak na rysunku. Wewnątrz takiego przedziału {OPENAGHMATHJAX()}\Delta x {OPENAGHMATHJAX} przyjmujemy (i to jest to przybliżenie), że siła jest stała i możemy już teraz skorzystać ze wzoru (7.1) do obliczenia pracy w dowolnym przedziale {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{\Delta W}_{{i}}=F_{{i}}\mathit{\Delta x}_{{i}}}\end{equation}{OPENAGHMATHJAX}
+[7.2]
+
+gdzie {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX} jest wartością siły na {OPENAGHMATHJAX()}i{OPENAGHMATHJAX} {}-tym odcinku {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX}. Następnie sumujemy prace wykonane na poszczególnych odcinkach otrzymując całkowitą pracę 
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W=\overset{{n}}{\underset{{i=1}}{\sum }}{F_{{i}}\mathit{\Delta x}}}\end{equation}{OPENAGHMATHJAX}
+[7.3]
+
+Zwróćmy uwagę, że od strony czysto formalnej liczenie pracy jest równoważne liczeniu sumy powierzchni kolejnych prostokątów o podstawie {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX} i wysokości {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX}.
+
+Możemy "poprawić" nasze przybliżenie. W tym celu, w kolejnym kroku  dzielimy przedział ({OPENAGHMATHJAX()}x_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x_2{OPENAGHMATHJAX}) na więcej (mniejszych) odcinków {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX}, tak jak pokazano na rysunku 7.3b. Widać, że nowe przybliżenie jest lepsze. Wartości sił {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX} dla poszczególnych przedziałów są znacznie bliższe rzeczywistej funkcji {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX}, a co za tym idzie obliczona (wzór 7.3) wartość pracy całkowitej jest bliższa wartości rzeczywistej (pola powierzchni prostokątów bardziej pokrywają się z polem pod krzywą).
+ {img fileId="439"} 
+Rys. 7.3b.  Zmienna siła {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} przybliżona ciągiem stałych wartości {OPENAGHMATHJAX()}F_i{OPENAGHMATHJAX} 
+
+Widać, że rozwiązaniem problemu jest przejście (w granicy) {OPENAGHMATHJAX()}\Delta x \rightarrow 0{OPENAGHMATHJAX}.Stosujemy tę samą procedurę obliczając całkowitą pracę}{OPENAGHMATHJAX( type="block")}\begin{equation}{W=\underset{{\mathit{\Delta x}\rightarrow0}}{{{\text{lim}}}}\overset{\infty }{\underset{i=1}{\sum}}{F_{{i}}\mathit{\Delta x}_{{i}}=\overset{x_{{2}}}{\underset{{x_{{1}}}}{\int}}{F(x)\mathit{dx}}}}\end{equation}{OPENAGHMATHJAX} [7.4]
+
+Tak w matematyce definiujemy całkę. Całkowanie funkcji {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} w zadanych granicach odpowiada liczeniu pola powierzchni pod krzywą {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} w zadanym przedziale (patrz rysunek 7.3c). Ta procedura odpowiada też z definicji liczeniu wartości średniej {OPENAGHMATHJAX()}{W=\overset{{\text{__}}}{{F}}(x_{{2}}-x_{{1}})}{OPENAGHMATHJAX} co zgadza się z intuicyjnym podejściem.
+  {img fileId="434"} 
+Rys. 7.3c.  Pole powierzchni pod krzywą {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} równe liczbowo pracy wykonanej przez siłę na odcinku {OPENAGHMATHJAX()}x_1-x_2{OPENAGHMATHJAX}
+
+Możesz prześledzić jak dzielenie przedziału ({OPENAGHMATHJAX()}x_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x_2{OPENAGHMATHJAX}) na więcej (mniejszych) odcinków {OPENAGHMATHJAX()}\Delta x{OPENAGHMATHJAX} wpływa na dokładność obliczeń pracy wykonanej przez zmienną siłę {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX}. korzystając z darmowego programu komputerowego „Praca wykonana przez siłę zmienną” dostępnego na stronie WWW autora. 
+
+Żeby obliczyć pracę wykonaną przez zmienną siłę trzeba albo umieć obliczyć całkę (ewentualnie poszukać rozwiązania w tablicach) lub umieć obliczyć pole powierzchni pod krzywą co w szczególnych przypadkach nie jest trudne.
+
+Przykład
+
+Rozważmy sprężynę zamocowaną jednym końcem i rozciąganą siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} tak, że jej drugi koniec przemieszcza się o {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Siła wywierana przez sprężynę {OPENAGHMATHJAX()}{\bf F}_s{OPENAGHMATHJAX} = - {OPENAGHMATHJAX()}k{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\bf x{OPENAGHMATHJAX}  jest siłą przywracającą równowagę. Aby rozciągnąć sprężynę musimy zatem przyłożyć siłę równą co do wartości lecz przeciwnie skierowaną tzn. {OPENAGHMATHJAX()}{\bf F}=k{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\bf x{OPENAGHMATHJAX}. 
+
+{img fileId="436"}
+Rys. 7.4. Rozciąganie sprężyny siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} 
+
+Znamy już postać funkcji {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} i możemy teraz korzystając z równania (7.4) obliczyć pracę wykonaną przy rozciąganiu sprężyny
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W=\overset{{x}}{\underset{{0}}{\int}}{F(x)\mathit{dx}=\overset{{x}}{\underset{{0}}{\int}}{(kx)\mathit{dx}=\left.\frac{kx^{{2}}}{2}\right|_0^x=\frac{kx^{{2}}}{2}}}}\end{equation}{OPENAGHMATHJAX}
+[7.5]
+
+Ćwiczenie 7.2
+
+Sprawdź, czy uzyskana wartość jest poprawna. W tym celu oblicz bezpośrednio pole pod wykresem funkcji {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX}. Wynik obliczeń zapisz poniżej i porównaj z wynikiem całkowania.
+
+{OPENAGHMATHJAX()}S ={OPENAGHMATHJAX}
+
+
+Dane: {OPENAGHMATHJAX()}F(x)=kx{OPENAGHMATHJAX}
+
+Wykres funkcji {OPENAGHMATHJAX()}F(x)=kx {OPENAGHMATHJAX} jest pokazany na rysunku poniżej.
+ {img fileId="444"} 
+
+Zależność siły sprężystości od rozciągnięcia {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} sprężyny
+
+
+Pole pod wykresem jest polem trójkąta o podstawie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i wysokości {OPENAGHMATHJAX()}F(x){OPENAGHMATHJAX} i wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{S=W=\frac{1}{2}xF(x)}\\{S=\frac{1}{2}kx^{{2}}}\end{matrix} \end{equation}{OPENAGHMATHJAX}
+
+Otrzymana wartość jest identyczna z tą daną równaniem (7.5). 
+
+Na tym samym rysunku pokazany jest również wykres {OPENAGHMATHJAX()}F_s(x){OPENAGHMATHJAX}. Zwróć uwagę, że "dodatnia" praca wykonana przez siłę {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (człowieka) jest równa co do wartości "ujemnej" pracy wykonanej przez sprężynę.
+
+
+

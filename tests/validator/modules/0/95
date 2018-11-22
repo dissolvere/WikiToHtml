@@ -1,0 +1,41 @@
+W module tym wyjaśnimy pojęcie prędkości grupowej, wspomniane w module ((Prędkość fal i równanie falowe)).
+
+Rozważmy, dwie poprzeczne fale sinusoidalne o zbliżonych częstotliwościach i długościach fal (rysunek poniżej) opisane równaniami
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+\begin{matrix}{y_{{1}}=A\sin\left[(\omega +{d\omega
+})t-(k+{dk})x\right]}
+\\	y_{{2}}=A\sin\left[(\omega -{d\omega
+})t-(k-{dk})x\right] \end{matrix} 
+\end{equation}{OPENAGHMATHJAX}
+
+Sumą takich dwóch fal jest fala
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{y=y_{{1}}+y_{{2}}=2A\cos\left[({d\omega})t-({dk})x\right]\cos({\omega t}-{kx})}
+\end{equation}{OPENAGHMATHJAX}
+
+{img type="fileId" fileId="381" width="450" noDrawIcon="n"} 
+
+Dwie fale sinusoidalne {OPENAGHMATHJAX()}y_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y_{2}{OPENAGHMATHJAX} o zbliżonych częstotliwościach i długościach fal; obwiednia ich sumy (linia przerywana) rozchodzi się z prędkością grupową
+
+Na rysunku widzimy, że fala sumaryczna {OPENAGHMATHJAX()}y_{1}{OPENAGHMATHJAX} + {OPENAGHMATHJAX()}y_{2 }{OPENAGHMATHJAX}jest modulowana, a z równania (IV.1.2) wynika, że funkcja modulująca ma postać
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{A(x,t)=2A\cos\left[({d\omega })t-({dk})x\right]}
+\end{equation}{OPENAGHMATHJAX}
+
+Prędkość __paczki fal__ (prędkość ruchu obwiedni) wyznaczamy analizując jak przemieszcza się w czasie wybrany punkt obwiedni (na przykład maksimum). Odpowiada to warunkowi
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{({d\omega })t-({dk})x=\text{const.}}
+\end{equation}{OPENAGHMATHJAX}
+
+Różniczkując to równanie względem czasu 
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{{d\omega }-{dk}\frac{{dx}}{{dt}}=0}
+\end{equation}{OPENAGHMATHJAX}
+
+otrzymujemy wyrażenie na prędkość grupową
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{{gr}}}=\frac{{dx}}{{dt}}=\frac{{d\omega}}{{dk}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Prędkość grupowa jest na ogół różna od prędkości fal składowych.

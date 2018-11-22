@@ -1,0 +1,49 @@
+Często spotykamy się z nakładaniem się dwu lub więcej drgań harmonicznych. Poniżej rozpatrzymy kilka przypadków drgań złożonych, powstających w wyniku nakładania się dwu drgań harmonicznych zachodzących zarówno wzdłuż prostych równoległych jak i prostych prostopadłych.
+
+!!!!# Składanie drgań równoległych
+
+Rozpatrzymy ruch punktu materialnego wynikający ze złożenia dwu drgań harmonicznych równoległych (zachodzących wzdłuż jednej prostej) opisanych równaniami
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{x_{{1}}=A_{{1}}\cos{\omega t}}\\ x_{{2}}=A_{{2}}\cos({\omega t}+\varphi_{{0}}) \end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Drgania te odbywają się z jednakową częstością {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, ale są przesunięte w fazie (różnią się fazami) o {{OPENAGHMATHJAX()}\varphi{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. Podobnie jak dla ruchu postępowego czy obrotowego również dla drgań obowiązuje zasada niezależności ruchów.
+
+{OPENAGHRULE( name="Zasada superpozycji")}To, że drgania odbywają się niezależnie oznacza, że przemieszczenie punktu materialnego jest po prostu sumą przemieszczeń składowych. Ta zasada dodawania przemieszczeń nosi nazwę superpozycji drgań.{OPENAGHRULE} 
+
+Wychylenie wypadkowe jest więc równe
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x=x_{{1}}+x_{{2}}=A\cos({\omega t}+\varphi )}\end{equation}{OPENAGHMATHJAX}
+
+gdzie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{A=\sqrt{A_{{1}}^{{2}}+A_{{2}}^{{2}}+2A_{{1}}A_{{2}}\cos\varphi_{{0}}}} \\ {tg}\varphi=\frac{A_{{2}}\sin\varphi_{{0}}}{A_{{1}}+A_{{2}}\cos\varphi _{{0}}}\end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Wyrażenia powyższe można znaleźć składając drgania metodą wektorową.
+Więcej o wektorowym składaniu drgań możesz dowiedzieć się z modułu ((Składanie drgań metodą wektorową|Składanie drgań metodą wektorową))
+
+Z powyższych równań wynika, że złożenie drgań harmonicznych równoległych o jednakowej częstości daje w wyniku oscylacje harmoniczne o takiej samej częstości. Sytuacja ta jest pokazana na rysunku poniżej. Ze wzoru (12.49) wynika ponadto, że amplituda wypadkowa osiąga maksimum dla drgań składowych o zgodnych fazach (różnica faz {OPENAGHMATHJAX()}\varphi_{0} = 0{OPENAGHMATHJAX}), natomiast minimum gdy różnica faz
+{OPENAGHMATHJAX()}\varphi_{0}\pi {OPENAGHMATHJAX} (fazy przeciwne).
+
+{img fileId="183"}
+
+Rys. 12.9. Złożenie dwu drgań harmonicznych równoległych o jednakowych częstościach
+
+!!!!#          Składanie drgań prostopadłych
+
+Rozpatrzmy teraz złożenie dwu drgań harmonicznych zachodzących na płaszczyźnie wzdłuż kierunków prostopadłych względem siebie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{x=A_{{1}}\cos\omega _{{1}}t}\\ y=A_{{2}}\cos(\omega _{{2}}t+\varphi )\end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Punkt materialny wykonujący drgania złożone porusza się po krzywej leżącej na płaszczyźnie {OPENAGHMATHJAX()}xy{OPENAGHMATHJAX}, a jego położenie jest dane w dowolnej chwili równaniem (12.50). Przykładowe krzywe odpowiadające drganiom o jednakowych częstościach {OPENAGHMATHJAX()}\omega_{1} = \omega_{2}{OPENAGHMATHJAX}, dla różnych wartości amplitud {OPENAGHMATHJAX()}A_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}A_{2}{OPENAGHMATHJAX} oraz różnych wartości przesunięcia fazowego {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} są pokazane na rysunku 12.10a poniżej.}
+
+Złożenie drgań prostopadłych o różnych częstościach daje w wyniku bardziej skomplikowany ruch. Na rysunku 12.10b pokazane są przykładowe krzywe (tak zwane __krzywe Lissajous__) będące wynikiem złożenia takich drgań. Sytuacja pokazana na tym rysunku odpowiada składaniu drgań o jednakowych amplitudach.
+
+{img fileId="184"}{img fileId="185"}
+
+Rys. 12.10a. Złożenie drgań prostopadłych o jednakowych częstościach Rys. 12.10b. Złożenie drgań prostopadłych o różnych częstościach i jednakowych amplitudach
+
+Obraz drgań złożonych można otrzymać w prosty sposób za pomocą oscyloskopu. Wiązki elektronów w lampie oscyloskopowej są odchylane przez dwa zmienne, prostopadłe pola elektryczne. Na ekranie oscyloskopu obserwujemy więc obraz odpowiadający złożeniu drgań wiązki elektronów wywołany przez te zmienne pola elektryczne, których amplitudy, częstości fazy możemy regulować.
+
+Inny sposób bezpośredniej obserwacji składania drgań można zobaczyć na poniższym filmie
+
+{youtube movie="4HTfvB4d-Ok" alt="Film obrazujący powstawanie figur Lassajou" imageId="168"}

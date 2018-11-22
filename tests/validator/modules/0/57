@@ -1,0 +1,15 @@
+W module tym pokażemy jaka jest średnia moc absorbowana przez oscylator poruszający się pod wpływem siły wymuszonej, dyskutowany w module ((Drgania wymuszone i rezonans)). Moc średnia jest dana wyrażeniem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\overline{P}=\overline{Fv}=\overline{F}\overline{\frac{dx}{dt}}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie kreska górna oznacza średnią czasową.
+
+Korzystając z wyrażeń (12.34) i (12.43) znajdujemy (szczegółowe obliczenia pomijamy)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\overline{{P}}=\frac{1}{2}{m\alpha}_{{0}}^{{2}}\frac{2\beta \omega^2}{(\omega _{{0}}^{{2}}-\omega^{{2}})^{{2}}+(2{\beta \omega})^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+Zależność mocy absorbowanej od częstości drgań wymuszających, dla przypadku słabego tłumienia, jest przedstawiona na rysunku poniżej. Widać wyraźnie maksimum mocy związane ze zjawiskiem rezonansu.
+
+{img fileId="190"}
+
+Rys. Średnia moc absorbowana dla oscylatora harmonicznego wymuszonego.

@@ -1,0 +1,45 @@
+Gdy omawialiśmy fale stojące to mieliśmy do czynienia z sytuacją, w której dodawanie (superpozycja) zaburzeń dało w wyniku falę o amplitudzie stałej w czasie ale zależnej od położenia cząstki drgającej {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Jest to ilustracja tzw. __interferencji w przestrzeni__. Teraz rozpatrzmy przypadek interferencji w czasie. W tym
+celu rozpatrzymy, w danym punkcie przestrzeni {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, wynik nakładania się dwóch biegnących w tym samym kierunku fal o jednakowych amplitudach ale nieznacznie różnych częstotliwościach. Drgania harmoniczne danej cząstki ośrodka (w zadanym punkcie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}) wywołane przez te fale mają postać
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{y_{{1}}=A\sin\omega _{{1}}t=A\sin2{\pi f}_{{1}}t}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{y_{{2}}=A\sin\omega _{{2}}t=A\sin2{\pi f}_{{2}}t}
+\end{equation}{OPENAGHMATHJAX}
+
+a drganie wypadkowe
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{y=y_{{1}}+y_{{2}}=A(\sin2{\pi
+f}_{{1}}t+\sin2{\pi f}_{{2}}t)}
+\end{equation}{OPENAGHMATHJAX}
+
+Ze wzoru na sumę sinusów otrzymujemy
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{y=\left[2A\cos\left(2\pi
+\frac{f_{{1}}-f_{{2}}}{2}t\right)\right]\sin\left(2\pi
+\frac{f_{{1}}+f_{{2}}}{2}t\right)}
+\end{equation}{OPENAGHMATHJAX}
+
+Równanie to ma postać  {OPENAGHMATHJAX()}{y=A{{quotesingle}sin}({\omega t})=A'\sin(2{\pi ft})}{OPENAGHMATHJAX}. 
+Drgania wypadkowe można więc uważać za drgania o częstotliwości
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{f=\frac{f_{{1}}+f_{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+
+(która jest średnią częstotliwości dwóch fal) i o amplitudzie {OPENAGHMATHJAX()}A'{OPENAGHMATHJAX} (wyrażenie w nawiasie kwadratowym w równaniu 13.34). Zauważ, że amplituda zmienia się w czasie z częstotliwością
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{f_{{\text{amp}}}=\frac{f_{{1}}-f_{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+
+Jeżeli częstotliwości {OPENAGHMATHJAX()}f_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}f_2{OPENAGHMATHJAX} są bliskie siebie to amplituda zmienia się powoli ({OPENAGHMATHJAX()}f_{\text{amp}}{OPENAGHMATHJAX} jest mała). Mówimy, że mamy do czynienia z modulacją amplitudy (AM – amplitude modulation).
+Naturalną modulację amplitudy dla fal dźwiękowych możemy usłyszeć gdy dwie struny instrumentu są nastrojone na niewiele różniące się tony. Gdy obie te struny wydają równocześnie dźwięk (na przykład uderzono dwa sąsiednie klawisze fortepianu) to usłyszymy tak zwane __dudnienia__ przejawiające się jako zmiana głośności (rysunek 13.12). Zastosowanie modulacji ma na celu wprowadzenie do procesu potrzebnej informacji, która ma być przesłana za pomocą fal. Modulacja amplitudy jest najstarszym i najbardziej rozpowszechnionym (obok modulacji częstotliwości FM) sposobem przesyłania informacji za pomocą fal radiowych.
+
+{img type="fileId" fileId="377" width="800" noDrawIcon="n"} 
+Rys. 13.12. Nałożenie się drgań harmonicznych pokazanych na górnym wykresie daje w wyniku drganie o zmiennej w czasie amplitudzie (obwiednia dolnego wykresu)
+
+Możesz prześledzić powstawanie dudnień w
+zależności od stosunku częstotliwości fal składowych
+{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}/{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} korzystając 
+zdarmowego programu komputerowego „Składanie ruchów falowych” dostępnego
+na stronie WWW autora.

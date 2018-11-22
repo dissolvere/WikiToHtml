@@ -1,0 +1,772 @@
+{OPENAGHMATHJAX()}\mathbb{\tau}{OPENAGHMATHJAX} 
+
+lalalala <br\> lalala
+
+{openaghexercise name="rower" body="
+ile jest 1 + 2?
+" solution="
+no to będzie chyba 456
+"}
+ 
+
+ 
+
+hop sa sa do lasa
+
+{img type="fileId" fileId="74"}{img type="fileId" fileId="111" height="67%"}
+ 
+
+gdzie __L__ oznacza teraz całkowity moment pędu układu.
+Zauważmy, że jeśli {OPENAGHMATHJAX( type="
+inline
+")}\underset{i}{\sum }{\bf \tau}_i = 0{OPENAGHMATHJAX} to {OPENAGHMATHJAX( type="
+inline
+")}\frac{d{\bf L}}{dt} = 0{OPENAGHMATHJAX}, zatem __L= const__. Zależność ta wyraża zasadę zachowania momentu pędu:
+
+{OPENAGHRULE( name="Zasada zachowania momentu pędu")}Jeżeli na układ nie działa zewnętrzny moment siły (lub wypadkowy moment sił zewnętrznych jest równy zeru) to całkowity moment pędu układu pozostaje stały.{OPENAGHRULE} 
+
+{OPENAGHEXAMPLE( name="Rower")}Rozpatrzmy teraz następujący przykład. Rower jedzie ze stałą prędkością gdy siła działająca pomiędzy nawierzchnią i kołem \( F_2 \)    = 5 N. Z jaką siłą  \( F_1 \)   łańcuch ciągnie zębatkę jeżeli stosunek R/r = 10?{img fileId="65" thumb="y" rel="box[g]"}Zauważmy, że prędkość kątowa jest stała więc  {OPENAGHMATHJAX()}\frac{dL}{dt} = 0{OPENAGHMATHJAX} i wypadkowy moment sił jest równy zeru:  {OPENAGHMATHJAX()}\tau_{\text{wyp}} = \tau_1 - \tau_2 = 0{OPENAGHMATHJAX}   czyli  {OPENAGHMATHJAX()}\tau_1 = \tau_2{OPENAGHMATHJAX} , stąd  \( rF_1 = RF_2 \)  i ostatecznie \( F_1 = \frac{R}{r}F_2 = 50 N \){OPENAGHEXAMPLE}
+
+ 
+
+!# Ruch obrotowy
+{
+W naszych dotychczasowych rozważaniach nad ruchem ciał
+traktowaliśmy je jako punkty materialne tzn. jako obiekty obdarzone
+masą, których rozmiary możemy zaniedbać. Jednak rzeczywiste ciała w
+ruchu mogą się obracać czy wykonywać drgania. W kolejnych rozdziałach
+zajmiemy się właśnie ruchem obrotowym i drgającym ciał. Będziemy
+rozważać ruch obrotowy ciał sztywnych tj. obiektów, w których
+odległości wzajemne punktów są stałe. Zajmiemy się również bardziej
+ogólnym przypadkiem, w którym ciało sztywne wykonuje zarówno ruch
+postępowy jak i obrotowy. }
+
+!!# Kinematyka ruchu obrotowego
+{
+Nasze rozważania zaczniemy od wyprowadzenia równań kinematyki ruchu
+obrotowego, podobnych do równań kinematyki ruchu postępowego. W ruchu
+obrotowym wielkością analogiczną do przesunięcia jest
+przesunięcie kątowe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. Kąt {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}
+określa położenie (kątowe) punktu P względem układu
+odniesienia (rysunek 11.1).}
+{ {img fileId="ruchobrotowy-img1.png" thumb="y"} {
+Rys. 11.1. Punkt P obracającego się ciała zatacza łuk o
+długości s
+{
+Związek {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} = s/R między drogą liniową
+s, a przesunięciem kątowym
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} wynika bezpośrednio z miary łukowej kąta
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. W ruchu obrotowym wielkością analogiczną chwilowej
+prędkości liniowej v jest chwilowa {prędkość
+kątowa} {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\omega =\frac{\mathit{d\varphi}}{\mathit{dt}}=\frac{1}{R}\frac{\mathit{ds}}{\mathit{dt}}=\frac{v}{R}}\end{equation}{OPENAGHMATHJAX}
+
+[11.1]
+
+
+{
+W ruchu obrotowym podobnie jak w ruchu po okręgu {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} jest
+też nazywana częstością kątową i jest związana
+z częstotliwością f relacją}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\omega =2\mathit{\pi f}}\end{equation}{OPENAGHMATHJAX}
+
+[11.2]
+
+
+{
+Podobnie jak chwilowe przyspieszenie liniowe a zostało
+zdefiniowane chwilowe przyspieszenie kątowe {{OPENAGHMATHJAX()}\alpha
+{OPENAGHMATHJAX}}}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\alpha =\frac{\mathit{d\omega}}{\mathit{dt}}=\frac{1}{R}\frac{\mathit{dv}}{\mathit{dt}}=\frac{a}{R}}\end{equation}{OPENAGHMATHJAX}
+
+[11.3]
+
+
+{
+Możemy teraz podać opis ruchu obrotowego ze stałym przyspieszeniem
+kątowym {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} poprzez analogię do ruchu postępowego
+jednostajnie zmiennego.}
+{
+Tab. 11.1.}
+
+
+Ruch postępowy
+Ruch obrotowy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{a=\text{const}\text{.}}\\{v=v_{{0}}+\mathit{at}}\\s=s_{{0}}+v_{{0}}t+\frac{\mathit{at}^{{2}}}{2}\end{matrix} \end{equation}{OPENAGHMATHJAX}
+ 
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{\alpha \;=\text{const}\text{.}} \\{\omega\;\;=\omega _{{0}}+\mathit{\alpha t}} \\\varphi =\varphi_{{0}}+\omega _{{0}}t+\frac{\mathit{\alpha t}^{{2}}}{2}\end{matrix} \end{equation}{OPENAGHMATHJAX}
+
+
+
+{
+Pamiętajmy, że zarówno prędkość kątowa jak i przyspieszenie kątowe są
+wektorami. Na rysunku 11.2 poniżej, pokazane są wektory: prędkości
+liniowej v, prędkości kątowej
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, przyspieszenia stycznego{{
+a}}{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX}, przyspieszenia normalnego
+a{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} i przyspieszenia kątowego
+{OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} punktu P obracającego się
+ciała sztywnego. Punkt P porusza się ruchem przyspieszonym po
+okręgu.}
+{ {img fileId="ruchobrotowy-img2.png" thumb="y"} {
+Rys. 11.2. Kierunki wektorów v,
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX},
+a{OPENAGHMATHJAX()}_{s}{OPENAGHMATHJAX},
+
+a{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} i {{
+
+{OPENAGHMATHJAX()}\alpha{OPENAGHMATHJAX}
+}} punktu P poruszającego się po okręgu wokół pionowej osi
+
+{
+Związki pomiędzy wielkościami liniowymi i kątowymi w postaci skalarnej
+są dane równaniami (11.1), (11.3) oraz równaniem (3.14). Natomiast te
+zależności w postaci wektorowej mają postać}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{v=\omega \times R} \\{a_{{s}}=\alpha \timesR} \\a_{{n}}=\omega \times v \end{matrix} \end{equation}{OPENAGHMATHJAX}
+
+[11.4]
+
+
+
+
+
+Więcej o ruchu przyspieszonym po okręgu możesz
+przeczytać w Dodatku 1, na końcu modułu III.
+
+
+
+
+
+
+Jednostki
+
+
+Z powyższych rozważań wynika, że jeżeli kąt
+{OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} jest mierzony w radianach (rad) to jednostką
+prędkości kątowej {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} jest radian na sekundę (rad/s), a
+przyspieszenia kątowego {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} radian na sekundę do
+kwadratu (rad/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}).
+
+
+
+{
+Na zakończenie spróbuj wykonać następujące ćwiczenie.}
+{img fileId="ruchobrotowy-img3.jpg" thumb="y"}
+
+
+Ćwiczenie 11.1
+
+{ W wielu czytnikach CD płyta ma stałą prędkość
+liniową natomiast zmienia się jej prędkość kątowa. Dzięki tej stałej
+prędkości liniowej można zachować jednakowo gęste upakowanie informacji
+na całym dysku. Ta prędkość dla dysku audio (pojedynczej prędkości)
+wynosi 1.25 m/s. Całkowita długość spiralnie naniesionej ścieżki wynosi
+5.55 km. Średnica zewnętrzna dysku jest równa 12 cm, a wewnętrzna
+2.5 cm. Oblicz maksymalną i minimalną prędkość kątową dysku. Jakie jest
+średnie przyspieszenie kątowe płyty podczas jej ciągłego, całkowitego
+odczytu? Pamiętaj o odpowiednich jednostkach.}
+{ Wynik zapisz poniżej. Wskazówka: Skorzystaj z
+równań (11.1) i (11.3)}
+{ {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{min}{OPENAGHMATHJAX} =}
+{ {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{max}{OPENAGHMATHJAX} =}
+{ {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+
+
+{img fileId="ruchobrotowy-img4.jpg" thumb="y"}
+
+!!# Dynamika punktu materialnego
+{
+Jak wynika z naszego codziennego doświadczenia w ruchu
+obrotowym ważna jest nie tylko wartość siły, ale to gdzie i pod jakim
+kątem jest ona przyłożona. Na przykład, drzwi najłatwiej jest otworzyć
+przykładając siłę na ich zewnętrznej krawędzi i pod kątem prostym do
+płaszczyzny drzwi. Siła przyłożona wzdłuż płaszczyzny drzwi jak i siła
+przyłożona w miejscu zawiasów nie pozwalają na ich obrót. Dla ruchu
+obrotowego wielkością, która odgrywa rolę analogiczną do siły w ruchu
+postępowym jest moment siły (tzw. moment obrotowy)
+{OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX}. Jeżeli siła F jest
+przyłożona w pewnym punkcie to moment siły {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX}
+względem tego punktu jest definiowany jako}
+
+
+
+{
+Definicja}
+
+ 
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau =r\times F}\end{equation}{OPENAGHMATHJAX}
+
+[11.5]
+
+
+
+{
+gdzie wektor r reprezentuje położenie punktu względem
+wybranego inercjalnego układu odniesienia.}
+{
+Moment siły jest wielkością wektorową, której wartość bezwzględna wynosi
+(iloczyn wektorowy)}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau =\text{rF}\text{sin}\theta }\end{equation}{OPENAGHMATHJAX}
+
+[11.6]
+
+
+{
+Wielkość r nazywamy ramieniem siły. Z równania (11.6) wynika,
+że tylko składowa siły prostopadła do ramienia
+{OPENAGHMATHJAX()}{F_{{?}}=F\text{sin}\theta }{OPENAGHMATHJAX} wpływa na moment siły.}
+
+!!!# Moment pędu
+{
+Zdefiniujmy teraz wielkość, która w ruchu obrotowym odgrywa rolę
+analogiczną do pędu. Wielkość L nazywamy
+momentem pędu i definiujemy jako}
+
+
+
+{
+Definicja}
+
+ 
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{L=r\times p}\end{equation}{OPENAGHMATHJAX}
+
+[11.7]
+
+
+
+{
+gdzie p jest pędem punktu materialnego, a
+r reprezentuje jego położenie względem wybranego
+inercjalnego układu odniesienia. Wartość L wynosi}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{L=\mathit{rp}\text{sin}\theta }\end{equation}{OPENAGHMATHJAX}
+
+[11.8]
+
+
+{
+Istnieje bezpośrednia zależność pomiędzy momentem siły i momentem pędu.
+Żeby ją wyprowadzić zróżniczkujmy obie strony równania (11.7)}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{\frac{\mathit{dL}}{\mathit{dt}}=\frac{d}{\mathit{dt}}\left(r\timesp\right)=\frac{\mathit{dr}}{\mathit{dt}}\times p+r\times{\frac{\mathit{dp}}{\mathit{dt}}}=}\\{=v\times p+r\timesF_{{\text{wyp}}}}\end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+[11.9]
+
+
+{
+Ponieważ wektory v oraz p
+są równoległe to ich iloczyn wektorowy jest równy zeru. Natomiast drugi
+składnik równania jest zgodnie z definicją (11.5) wypadkowym momentem
+siły. Otrzymujemy więc}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau_{{\text{wyp}}}=\frac{\mathit{dL}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.10]
+
+
+
+
+
+Prawo, zasada, twierdzenie
+
+
+Wypadkowy moment siły działający na
+punkt materialny jest równy prędkości zmian momentu pędu.
+
+
+
+{
+To jest sformułowanie drugiej zasadę dynamiki ruchu obrotowego. Równanie
+(11.10) jest analogiczne do równania (4.6) dla ruchu postępowego.}
+{
+Analogicznie możemy sformułować pierwszą zasadę dynamiki ruchu
+obrotowego}
+
+
+
+Prawo, zasada, twierdzenie
+
+
+Ciało sztywne, na które nie działa
+moment siły pozostaje w spoczynku lub porusza się ruchem obrotowym
+jednostajnym.
+
+
+
+{
+oraz trzecią zasadę dynamiki ruchu obrotowego}
+
+
+
+Prawo, zasada, twierdzenie
+
+
+Jeżeli dwa ciała oddziałują wzajemnie,
+to moment siła z jakim działa ciało drugie na ciało pierwsze jest równy
+i przeciwnie skierowany do momentu siły, z jakim ciało pierwsze działa
+na drugie.
+
+ 
+
+!!!# Zachowanie momentu pędu
+{
+Dla układu n cząstek możemy zsumować momenty sił
+działające na poszczególne punkty materialne}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\underset{{i}}{\sum }{\tau_{{i}}=\frac{d}{\mathit{dt}}\left(\overset{{n}}{\underset{{i=1}}{\sum}}{L_{{i}}}\right)}=\frac{\mathit{dL}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.11]
+
+
+{
+gdzie L oznacza teraz całkowity moment pędu układu.}
+{
+Zauważmy, że}
+
+
+
+Prawo, zasada, twierdzenie
+
+
+{Jeżeli na układ nie działa zewnętrzny
+moment siły (lub wypadkowy moment sił zewnętrznych jest równy zeru) to
+całkowity moment pędu układu pozostaje stały}.
+
+
+
+
+
+{OPENAGHMATHJAX()}{\frac{\mathit{dL}}{\mathit{dt}}=0\text{[EF02?][EF02?][EF02?]}}{OPENAGHMATHJAX} lub
+{OPENAGHMATHJAX()}{L=\text{const}\text{.}}{OPENAGHMATHJAX}
+[11.12]
+
+
+{
+Zależność powyższa wyraża zasadę zachowania momentu pędu.}
+{img fileId="ruchobrotowy-img5.jpg" thumb="y"}
+
+
+Ćwiczenie 11.2
+
+{ Rozpatrzmy teraz następujący przykład. Rower
+jedzie ze stałą prędkością gdy siła działająca pomiędzy nawierzchnią
+i kołem F{OPENAGHMATHJAX()}_{2 }{OPENAGHMATHJAX}= 5 N. Z jaką siłą
+F{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} łańcuch ciągnie zębatkę jeżeli stosunek
+R/r = 10?}
+{ Wynik zapisz poniżej. Wskazówka: Zauważ, że
+prędkość kątowa jest stała więc dL/dt = 0 i wypadkowy
+moment sił jest równy zeru.}
+{ {img fileId="ruchobrotowy-img6.png" thumb="y"} { F{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+
+
+{img fileId="ruchobrotowy-img7.jpg" thumb="y"}
+
+!!# Ciało sztywne i moment bezwładności
+{Ciało sztywne i moment
+bezwładności }
+{
+Większość ciał w przyrodzie to nie punkty materialne ale
+rozciągłe ciała sztywne. Przeanalizujmy teraz ruch takiej bryły
+sztywnej obracającej się ze stałą prędkością kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}
+wokół stałej osi obrotu w układzie środka masy. Zauważmy, że chociaż
+wszystkie punkty mają te samą prędkość kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} to
+punkty znajdujące się w różnych odległościach od osi obrotu mają różną
+prędkość liniową v (rysunek 11.3). Prędkość {i
+}{}-tego punktu o masie {OPENAGHMATHJAX()}\Delta {OPENAGHMATHJAX}m{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX}
+wynosi v{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX} =
+r{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} gdzie
+r{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX} jest odległością od osi obrotu}
+{ {img fileId="ruchobrotowy-img8.png" thumb="y"} {
+Rys. 11.3. Dwa punkty obracającej się bryły mają tę samą prędkość
+kątową, a różne prędkości liniowe ze względu na różne odległości od osi
+obrotu r{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i r{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+{
+Obliczamy teraz wartość momentu pędu L tego ciała}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{L=\underset{{i}}{\sum }{r_{{i}}\mathit{\Deltam}_{{i}}v_{{i}}=\underset{{i}}{\sum }{r_{{i}}\mathit{\Deltam}_{{i}}}}(r_{{i}}\omega )=\left(\underset{{i}}{\sum}{r_{{i}}^{{2}}\mathit{\Delta m}_{{i}}}\right)\omega }\end{equation}{OPENAGHMATHJAX}
+
+[11.13]
+
+
+{
+Wielkość w nawiasie nazywamy momentem bezwładności I, który
+definiujemy jako}
+
+
+
+{
+Definicja}
+
+ 
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{I=\underset{{i}}{\sum }{r_{{i}}^{{2}}\mathit{\Delta m}_{{i}}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.14]
+
+
+
+{
+a dla ciągłego rozkładu masy}
+
+
+
+{
+Definicja}
+
+ 
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{I=\int {r^{{2}}\mathit{dm}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.15]
+
+
+
+{
+Zwróćmy uwagę, że moment bezwładności I zależy od osi obrotu. }
+{
+Możemy teraz wyrazić moment pędu poprzez moment bezwładności}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{L=\mathit{I\omega }}\end{equation}{OPENAGHMATHJAX}
+
+[11.16]
+
+
+{
+a ponieważ zgodnie z równaniem (11.10)
+{OPENAGHMATHJAX()}{\tau{OPENAGHMATHJAX}} = dL/dt więc}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\tau =I\frac{\mathit{d\omega }}{\mathit{dt}}=\mathit{I\alpha }}\end{equation}{OPENAGHMATHJAX}
+
+[11.17]
+
+
+{
+gdzie {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} jest przyspieszeniem kątowym.}
+{
+Obliczmy teraz energię kinetyczną obracającego się ciała}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E_{{k}}=\frac{1}{2}\underset{{i}}{\sum }{\mathit{\Deltam}_{{i}}v_{{i}}^{{2}}=}\frac{1}{2}\underset{{i}}{\sum }{\mathit{\Deltam}_{{i}}(r_{{i}}\omega )^{{2}}=\frac{1}{2}\left(\underset{{i}}{\sum}{\mathit{\Delta m}_{{i}}r_{{i}}^{{2}}}\right)}\;\omega ^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.18]
+
+
+{
+więc}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{1}{2}\mathit{I\omega }^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.19]
+
+
+{
+Zestawmy teraz odpowiednie wielkości obliczone dla ruchu obrotowego z
+ich odpowiednikami dla ruchu postępowego.}
+{
+Tab. 11.2}
+
+
+Ruch postępowy
+Ruch obrotowy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{p=\mathit{mv}} \\{F=\mathit{ma}}\\{E_{{k}}=\frac{1}{2}\mathit{mv}^{{2}}} \end{matrix} \end{equation}{OPENAGHMATHJAX}
+ 
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{L=\mathit{I\omega }} \\{\tau =\mathit{I\alpha}} \\{E_{{k}}=\frac{1}{2}\mathit{I\omega }^{{2}}}\end{matrix} \end{equation}{OPENAGHMATHJAX}
+
+
+
+{
+Z tego porównania widać, że moment bezwładności I jest
+analogiczną wielkością do masy m w ruchu postępowym. Zwróćmy
+uwagę, że w przeciwieństwie do masy moment bezwładności zależy od osi,
+wokół której obraca się ciało. Momenty bezwładności niektórych ciał
+sztywnych są podane w tabeli 11.3.}
+{
+Tab. 11.3 }
+
+
+Ciało
+moment bezwładności
+I
+Obręcz, pierścień o promieniu R,
+względem osi obręczy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+Krążek, walec względem osi walca
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{1}{2}\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+Pręt o długości d, względem osi
+symetrii prostopadłej do pręta
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{1}{\text{12}}\text{Md}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+Pełna kula o promieniu R, względem
+średnicy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{2}{5}\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+Czasza kulista o promieniu R, względem
+średnicy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{2}{3}\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+
+
+
+
+
+Przykład obliczania momentu bezwładności
+znajdziesz w Dodatku 2, na końcu modułu III.
+
+
+
+{
+Często do obliczania momentu bezwładności wygodnie jest posłużyć się
+twierdzeniem Steinera. Podaje ono zależność pomiędzy momentem
+bezwładności I ciała względem danej osi, a momentem
+bezwładności I{OPENAGHMATHJAX()}_{śr.m.}{OPENAGHMATHJAX} tego ciała
+względem osi przechodzącej przez jego środek masy i równoległej do
+danej. Związek ten wyraża się zależnością}
+
+
+
+{ Prawo,
+zasada, twierdzenie}
+
+ 
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{I=I_{{\text{śt}\text{.}m\text{.}}}+\text{Ma}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.20]
+
+
+
+{
+gdzie a jest odległością między osiami, a M jest masą
+ciała.}
+{img fileId="ruchobrotowy-img9.jpg" thumb="y"}
+
+
+Ćwiczenie 11.3
+
+{ Teraz korzystając z powyższego twierdzenia i z
+danych w tabeli 11.3 oblicz moment bezwładności pręta o masie
+M i długości d względem osi prostopadłej do pręta
+i przechodzącej przez jeden z jego końców. Wynik zapisz poniżej. }
+{ I = }
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+
+
+{img fileId="ruchobrotowy-img10.jpg" thumb="y"}
+
+!!# Ruch obrotowo-postępowy
+{
+Na co dzień często mamy do czynienia z toczeniem się ciał. W
+przeciwieństwie do ruch obrotowego względem nieruchomej osi obrotu w
+przypadku toczenia występuje zarówno ruch postępowy, jak i obrotowy.
+Dlatego spróbujemy opisać toczenie jako złożenie ruchu postępowego i
+obrotowego. W tym celu prześledźmy ruch walca o promieniu R
+pokazany na rysunku 11.4.}
+{ {img fileId="ruchobrotowy-img11.png" thumb="y"} {
+Rys. 11.5. Toczenie (c) jako złożenie ruchu postępowego (a) i obrotowego
+(b)
+{
+W ruchu postępowym, rysunek (a), wszystkie punkty poruszają się z takimi
+samymi prędkościami, natomiast w ruchu obrotowym wokół środka masy
+S, rysunek (b), przeciwległe punkty poruszają się z
+przeciwnymi prędkościami, a środek jest nieruchomy. Na rysunku (c)
+pokazano wynik złożenia (sumowania) odpowiednich wektorów z rysunków
+(a) i (b). Zwróćmy uwagę, że podstawa walca (punkt A
+styczności z podłożem) w każdej chwili spoczywa (prędkość chwilowa
+v{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX} = 0). Natomiast prędkość
+liniowa punktów S i B jest proporcjonalna do ich
+odległości od punktu A (punkt B w odległości
+2R ma prędkość dwukrotnie większą niż punkt S w
+odległości R). Jeszcze pełniej widać to na rysunku 11.5 gdzie
+narysowane są prędkości chwilowe kilku punktów na obwodzie toczącego
+się walca.}
+{ {img fileId="ruchobrotowy-img12.png" thumb="y"} {
+Rys. 11.5. Toczenie się walca jako obrót wokół punktu A
+{
+Widać, że prędkość każdego z tych punktów jest prostopadła do linii
+łączącej ten punkt z podstawą A i proporcjonalna do odległości
+tego punktu od A. Takie zachowanie jest charakterystyczne dla
+ciała wykonującego ruch obrotowy względem nieruchomej osi. Oznacza to,
+że opisywany walec obraca się wokół punktu A, a co za tym
+idzie, że możemy toczenie opisywać również wyłącznie jako ruch obrotowy
+ale względem osi przechodzącej przez punkt A styczności
+z powierzchnią, po której toczy się ciało.}
+
+
+Przykład
+
+
+
+{
+W celu zilustrowania równoważności obu opisów obliczymy teraz energię
+kinetyczną walca o masie m toczącego się z prędkością{
+}v. Najpierw potraktujemy toczenie jako złożenie
+ruchu postępowego i obrotowego względem środka masy. Energię kinetyczną
+obliczamy jako sumę energii ruchu postępowego i obrotowego}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E=E_{{\text{kp}}}+E_{{\text{ko}}}=\frac{\mathit{mv}^{{2}}}{2}+\frac{I_{{\text{śr}\text{.}m\text{.}}}\omega^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+[11.21]
+
+
+{
+Podstawiając wartość momentu bezwładności walca odczytaną z tabeli 11.3
+oraz uwzględniając, że dla ciała toczącego się bez poślizgu
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} = v/R (równanie 11.1)
+otrzymujemy}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E=\frac{3}{4}\mathit{mv}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.22]
+
+
+{
+Teraz powtórzymy nasze obliczenia ale potraktujemy toczenie wyłącznie
+jako obrót względem osi obrotu w punkcie A zetknięcia walca z
+powierzchnią. Energia kinetyczną obliczamy więc jako}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E=E_{{\text{ko}}}=\frac{I_{{A}}\omega ^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+[11.23]
+
+
+{
+Moment bezwładności walca I{OPENAGHMATHJAX()}_{A}{OPENAGHMATHJAX} ,względem osi
+A, obliczamy z twierdzenia Steinera}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{I_{{A}}=I_{{\text{śr}\text{.}m\text{.}}}+\text{mR}^{{2}}=\frac{\text{mR}^{{2}}}{2}+\text{mR}^{{2}}=\frac{3}{2}\text{mR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.24]
+
+
+{
+Po podstawieniu tej wartości i uwzględniając, że {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} =
+v/R (równanie 11.1) otrzymujemy}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E=\frac{3}{4}\mathit{mv}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+[11.25]
+
+
+{
+W obu przypadkach otrzymaliśmy ten sam rezultat.}
+{
+Widzimy, że}
+
+
+
+Prawo, zasada, twierdzenie
+
+
+Ruch ciała będący złożeniem ruchu
+postępowego środka masy i obrotowego względem osi przechodzącej przez
+środek masy jest równoważny ruchowi obrotowemu wokół osi przechodzącej
+przez punkt styczności ciała z powierzchnią, po której się ono toczy.
+
+
+
+{img fileId="ruchobrotowy-img13.jpg" thumb="y"}
+
+
+Ćwiczenie 11.4
+
+{ Krążek (walec) i kula o takich samych masach
+m i promieniach R staczają się bez poślizgu po równi
+pochyłej z wysokości h. Korzystając z zasady zachowania
+energii oblicz ich prędkości u dołu równi. Jaki byłby wynik obliczeń
+gdyby te ciała ześlizgiwały się z równi? Obliczenia przeprowadź
+traktując toczenie jako złożenie ruchu postępowego i obrotowego lub
+jako wyłącznie jako ruch obrotowy.}
+{ Wynik zapisz poniżej.}
+{ v{OPENAGHMATHJAX()}_{walca}{OPENAGHMATHJAX}= }
+{ v{OPENAGHMATHJAX()}_{kuli}{OPENAGHMATHJAX}=}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+
+
+{img fileId="ruchobrotowy-img14.jpg" thumb="y"}
+
+
+
+Inny przykładem ruchu obrotowego, w którym oś
+obrotu nie jest nieruchomą w inercjalnym układzie odniesienia jest bąk
+wirujący dookoła pewnej osi symetrii. O ruchu precesyjnym bąka możesz
+przeczytać w Dodatku 3, na końcu modułu III.
+
+ 
+
+{openaghnotes headline="Przypisy"}
+ 
+
+{img fileId="111" thumb="y" rel="box[g]"}
+ 
+
+ 
+
+{img type="fileId" fileId="66" noDrawIcon="n"}
+ 
+
+{OPENAGHMATHJAX( type="inline")}a^2 = b^2{OPENAGHMATHJAX} 

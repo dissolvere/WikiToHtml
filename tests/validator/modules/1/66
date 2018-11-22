@@ -1,0 +1,87 @@
+
+
+Podstawowa teoria, która pozwala przewidywać ruch ciał, składa się z trzech równań, które nazywają się zasadami dynamiki Newtona.
+
+Sformułowanie pierwszej zasady dynamiki Newtona:
+
+{OPENAGHRULE( name="Pierwsza zasada dynamiki Newtona")}Ciało, na które nie działa żadna siła (lub gdy siła wypadkowa jest równa zeru) pozostaje w spoczynku lub porusza się ze stałą prędkością po linii prostej.{OPENAGHRULE}
+
+Siła wypadkowa {OPENAGHMATHJAX()}{\bf F}_{\text{wyp}}{OPENAGHMATHJAX} jest sumą wektorową wszystkich sił działających na ciało. Jeżeli {OPENAGHMATHJAX()}{\bf F}_{\text{wyp}}=0{OPENAGHMATHJAX} to również przyspieszenie ciała {OPENAGHMATHJAX()}{\bf a}=0{OPENAGHMATHJAX}, a to oznacza, że nie zmienia się ani wartość ani kierunek prędkości tzn. ciało jest w stanie spoczynku lub porusza się ze stałą co do wartości prędkością po linii prostej.
+
+Zgodnie z pierwszą zasadą dynamiki nie ma rozróżnienia między ciałami spoczywającymi i poruszającymi się ze stałą prędkością. Nie ma też różnicy pomiędzy sytuacją gdy nie działa żadna siła i przypadkiem gdy wypadkowa wszystkich sił jest równa zeru.
+
+Sformułowanie drugiej zasady dynamiki Newtona:
+
+{OPENAGHRULE( name="Druga zasada dynamiki Newtona")}
+Tempo zmian pędu ciała jest równe sile wypadkowej działającej na to ciało. Dla ciała o stałej masie sprowadza się to do iloczynu masy i przyspieszenia ciała.
+
+{OPENAGHMATHJAX()}{{\bf F}_{{\text{wyp}}}=\frac{\mathit{d{\bf p}}}{\mathit{dt}}\text{}}{OPENAGHMATHJAX} lub {OPENAGHMATHJAX()}{{\bf F}_{{\text{wyp}}}=\mathit{ma}\;,\;\;m=\text{const}\text{.}}{OPENAGHMATHJAX}
+{OPENAGHRULE}
+
+Sformułowanie trzeciej zasady dynamiki Newtona:
+
+{OPENAGHRULE( name="Trzecia zasada dynamiki Newtona")}
+Gdy dwa ciała oddziałują wzajemnie, to siła wywierana przez ciało drugie na ciało pierwsze jest równa i przeciwnie skierowana do siły, jaką ciało pierwsze działa na drugie. 
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{{\bf F}_{{1\rightarrow 2}}=-{\bf F}_{{2\rightarrow 1}}}\end{equation}{OPENAGHMATHJAX}
+{OPENAGHRULE}
+
+Pierwsza zasada dynamiki wydaje się być szczególnym przypadkiem drugiej bo gdy {OPENAGHMATHJAX()}{\bf a}=0{OPENAGHMATHJAX} to i {OPENAGHMATHJAX()}{\bf F}_{\text{wyp}}=0{OPENAGHMATHJAX}. Przypisujemy jej jednak wielką wagę dlatego, że zawiera ważne pojęcie fizyczne: definicję inercjalnego układu odniesienia.
+
+{OPENAGHDEFINITION( name="Inercjalny układ odniesienia")}Pierwsza zasada dynamiki stwierdza, że jeżeli na ciało nie działa żadna siła (lub gdy siła wypadkowa jest równa zeru) to istnieje taki układ odniesienia, w którym to ciało spoczywa lub porusza się ruchem jednostajnym prostoliniowym. Taki układ nazywamy układem inercjalnym.{OPENAGHDEFINITION}
+
+Układy inercjalne są tak istotne bo we wszystkich takich układach ruchami ciał rządzą dokładnie te sama prawa. Większość omawianych zagadnień będziemy rozwiązywać właśnie w inercjalnych układach odniesienia. Zazwyczaj przyjmuje się, że są to układy, które spoczywają względem gwiazd stałych ale układ odniesienia związany z Ziemią w większości zagadnień jest dobrym przybliżeniem układu inercjalnego.
+
+Ponieważ przyspieszenie ciała zależy od przyspieszenia układu odniesienia (od przyspieszenia obserwatora), w którym jest mierzone więc druga zasada dynamiki jest słuszna tylko, gdy obserwator znajduje się w układzie inercjalnym. Inaczej mówiąc, prawa strona równania {OPENAGHMATHJAX()}{\bf F}=m{\bf a}{OPENAGHMATHJAX} zmieniałaby się w zależności od przyspieszenia obserwatora.
+
+Więcej o układach inercjalnych i nieinercjalnych dowiesz się w dalszej części podręcznika (punkt 5.2).
+
+Zwróćmy jeszcze raz uwagę na fakt, że w równaniu (4.6) występuje siła wypadkowa. Oznacza to, że trzeba brać sumę wektorową wszystkich sił działających na ciało. Doświadczenia potwierdzają zasadę addytywności sił. Zasada ta dotyczy również masy: masa układu jest sumą mas poszczególnych ciał tego układu.
+
+Siły oddziaływania pomiędzy punktami materialnymi należącymi do danego układu nazywamy siłami wewnętrznymi. Na przykład w ciałach stałych są to siły oddziaływania sprężystego pomiędzy atomami, cząsteczkami. Zgodnie z trzecią zasadą dynamiki Newtona, jeżeli punkt {OPENAGHMATHJAX()}i{OPENAGHMATHJAX} układu działa na punkt {OPENAGHMATHJAX()}j{OPENAGHMATHJAX} to równocześnie punkt {OPENAGHMATHJAX()}j{OPENAGHMATHJAX} działa na punkt {OPENAGHMATHJAX()}i{OPENAGHMATHJAX} siłą równą co do wartości ale przeciwnie skierowaną {OPENAGHMATHJAX()}{{\bf F}_{{i\rightarrow j}}=-{\bf F}_{{j\rightarrow i}}}{OPENAGHMATHJAX} (równanie 4.7).
+
+Na punkty materialne układ mogą ponadto działać siły zewnętrzne to jest siły pochodzące spoza układu. Druga zasada dynamiki Newtona dla układu {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} punktów materialnych przyjmuje więc postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\sum_{i=1}^n}}  m_{i}{\bf a}_{i}  = {\sum_{i=1}^n }{\bf F}_i  \end{equation}{OPENAGHMATHJAX}
+[4.8]
+
+gdzie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX} oznacza masę {OPENAGHMATHJAX()}i{OPENAGHMATHJAX}-tego punktu, {OPENAGHMATHJAX()}a{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX} - jego przyspieszenie, {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} {OPENAGHMATHJAX()}_{i}{OPENAGHMATHJAX} - wypadkową siłę działająca na ten punkt. W równaniu tym występuje suma wszystkich sił to znaczy zarówno wewnętrznych jak i zewnętrznych. Jednak na podstawie pierwszego równania widzimy, że siły wewnętrzne znoszą się parami, więc ostatecznie wypadkowa wszystkich sił jest równa wypadkowej sił zewnętrznych.
+
+Prześledźmy teraz zastosowanie zasad dynamiki na następującym przykładzie.
+
+{OPENAGHEXAMPLE(name="Zastosowanie praw Newtona")}
+Rozważmy układ trzech ciał o masach {OPENAGHMATHJAX()}3m{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}2m{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} połączonych nieważkimi nitkami tak jak na rysunku poniżej. Układ jest ciągnięty zewnętrzną siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} po gładkim podłożu. Szukamy przyspieszenia układu i naprężeń nici łączących ciała.
+
+ {img fileId="364"}
+Rys. 4.2. Układ trzech mas połączonych nitkami, ciągnięty siłą {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX}
+
+Reakcja podłoża {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} równoważy nacisk poszczególnych ciał tak, że siły działające w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} (w pionie) równoważą się. Natomiast w kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} układ jest ciągnięty zewnętrzną siłą {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} , a oddziaływania są przenoszone przez nitki. Ciało o masie {OPENAGHMATHJAX()}3m{OPENAGHMATHJAX} działa na ciało o masie {OPENAGHMATHJAX()}2m{OPENAGHMATHJAX} siłą {OPENAGHMATHJAX()}N_{1}{OPENAGHMATHJAX}, a siła {OPENAGHMATHJAX()}-N_{1}{OPENAGHMATHJAX} jest siłą reakcji na to działanie. Podobnie jest z siłami {OPENAGHMATHJAX()}N_{2}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}-N_{2}{OPENAGHMATHJAX}. Przyspieszenie układu i siły naciągu nitek {OPENAGHMATHJAX()}N_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}N_{2}{OPENAGHMATHJAX} obliczamy stosując drugą zasadę dynamiki Newtona do każdego ciała indywidualnie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{3ma=F-N_{{1}}}\\2ma=N_{{1}}-N_{{2}}\\ma=N_{{2}} \end{matrix} \end{equation}{OPENAGHMATHJAX}
+[4.9]
+
+Sumując równania stronami i przekształcając otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a=\frac{F}{m+2m+3m}=\frac{F}{6m}}\end{equation}{OPENAGHMATHJAX}
+[4.10]
+
+{OPENAGHEXAMPLE}
+
+Zwróćmy uwagę na addytywność mas. Taki sam wynik otrzymalibyśmy traktując ciała jak jedną masę. Doświadczenia potwierdzają zasadę addytywności masy: masa układu jest sumą mas poszczególnych ciał układu.
+
+Podstawiając wynik (4.10) do równań (4.9) obliczamy naciągi nitek
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{N_{{1}}=\frac{F}{2},N_{{2}}=\frac{F}{6}}\end{equation}{OPENAGHMATHJAX}
+[4.11]
+
+Spróbuj teraz samodzielnie rozwiązać podobny problem.
+
+{openaghexercise name="Dwa klocki" body="Dwa klocki o jednakowych masach {OPENAGHMATHJAX()}m_{1}=m_{2}=1{OPENAGHMATHJAX} kg są połączone nieważką nitką przerzuconą przez nieważki bloczek tak jak na rysunku poniżej. Oblicz przyspieszenie układu oraz naprężenie linki. Przyjmij, że klocek {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX} porusza się po stolebez tarcia. Wynik zapisz poniżej. {img fileId="365"}Wskazówka: Zastosuj drugą zasadę dynamiki Newtona do każdego ciała osobno i rozwiąż otrzymany układ równań {OPENAGHMATHJAX()}a{OPENAGHMATHJAX} = {OPENAGHMATHJAX()} 
+N={OPENAGHMATHJAX} " solution="Dane: {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX}, przyspieszenie grawitacyjne  {OPENAGHMATHJAX()}g {OPENAGHMATHJAX}.Na rysunku zaznaczamy siły działające w układzie {img fileId="424"}Stosujemy drugą zasadę dynamiki Newtona do każdego ciała osobno:{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{m_{{1}}a=mg-N}\\m_{{2}}a=N \end{matrix} \end{equation}{OPENAGHMATHJAX}rozwiązując ten układ równań i uwzględniając, że {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} = {m }otrzymujemy{OPENAGHMATHJAX( type="block")}\begin{equation}{a=\frac{g}{2}N=\frac{mg}{2}}\end{equation}{OPENAGHMATHJAX}"}
+
+Zwróćmy jeszcze raz uwagę na fakt, że w równaniu (4.6) występuje siła wypadkowa. Oznacza to, że trzeba brać sumę wektorową wszystkich sił działających na ciało. Możesz się o tym przekonać rozwiązując podane poniżej zadanie.
+
+{openaghexercise name="Klocek na równi pochyłej" body=" Oblicz przyspieszenie z jakim porusza się klocek o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} zsuwający się bez tarcia po równi pochyłej o kącie nachylenia {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} (tak jak na rysunku). Rozwiązanie zapisz poniżej. Wskazówka: Oblicz siłę wypadkową i jej składowe: równoległą i prostopadłą do równi. Zastosuj drugą zasadę dynamiki Newtona dla każdej składowej. {img fileId="360"} {OPENAGHMATHJAX()}a ={OPENAGHMATHJAX}" solution="Dane:{OPENAGHMATHJAX()}m{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}, przyspieszenie grawitacyjne {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}Na rysunku poniżej pokazane są siły działające na klocek: ciężar klocka {OPENAGHMATHJAX()}Q=m{OPENAGHMATHJAX} {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} i siła reakcji {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} (na nacisk klocka) wywierana na klocek przez płaszczyznę równi. {img fileId="423"} Żeby wyliczyć siłę wypadkową należy dodać wektorowo te dwie siły{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{ma}=Q+R}\end{equation}{OPENAGHMATHJAX}Zaczynamy od wyboru układu współrzędnych. Wygodnie jest tak wybrać układ, żeby jedna oś, na przykład {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, była skierowana wzdłuż równi, a druga (oś {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}) prostopadle do niej. Wtedy wystarczy rozłożyć na składowe tylko jedną siłę {OPENAGHMATHJAX()}Q{OPENAGHMATHJAX}. W tak wybranym układzie współrzędnych składowe ciężaru wynoszą{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{Q_{{x}}=mg\sin\theta} \\Q_{{y}}=mg\cos\theta \end{matrix} \end{equation}{OPENAGHMATHJAX}Składowa {OPENAGHMATHJAX()}Q_y{OPENAGHMATHJAX} (nacisk na równię) jest równoważona przez reakcję równi {OPENAGHMATHJAX()}R{OPENAGHMATHJAX}. Natomiast składowa {OPENAGHMATHJAX()}Q_x{OPENAGHMATHJAX} jest odpowiedzialna za przyspieszenie ciała. Możemy więc zastosować drugą zasadę dynamiki Newtona dla każdej składowej{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{ma_{{x}}=mg\sin\theta}\\ma_{{y}}=R-mg\cos\theta \end{matrix} \end{equation}{OPENAGHMATHJAX} Stąd wynika, że przyspieszenie ciała wynos {OPENAGHMATHJAX()}{a=g\sin\theta }{OPENAGHMATHJAX} i jest skierowane wzdłuż równi. Już Galileusz korzystał z równi pochyłej do analizy ruchu przyspieszonego. Regulując wysokość równi (kąt {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}) możemy zmniejszać prędkość ruchu i tym samym ułatwić jego pomiar. "}
+
+Bardziej zaawansowany przykład zastosowania zasad dynamiki (ruch w polu grawitacyjnym z uwzględnieniem oporu powietrza) możesz poznać w ????, na końcu modułu I.

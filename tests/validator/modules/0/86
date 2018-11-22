@@ -1,0 +1,44 @@
+ 
+
+Rozpoczniemy od wyprowadzenia trzeciego prawa Keplera dla planet poruszających się po orbitach kołowych. Korzystając z otrzymanego uprzednio wzoru (6.8) na masę Słońca otrzymujemy dla pierwszej planety krążącej wokół Słońca
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{M_{{S}}=\frac{4\pi^{{2}}R_{{1}}^{{3}}}{GT_{{1}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[I.5.1]
+
+a dla drugiej
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{M_{{S}}=\frac{4\pi^{{2}}R_{{2}}^{{3}}}{GT_{{2}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[I.5.2]
+
+Porównując te równania stronami otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{R_{{1}}^{{3}}}{T_{{1}}^{{2}}}=\frac{R_{{2}}^{{3}}}{T_{{2}}^{{2}}}\text{}\;\;\text{czyli}\;\;\text{}\frac{R_{{1}}^{{3}}}{R_{{2}}^{{3}}}=\frac{T_{{1}}^{{2}}}{T_{{2}}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[I.5.3]
+
+Teraz przejdziemy do drugiego prawa Keplera. Na rysunku I.5.1 zaznaczona jest powierzchnia zakreślana w czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} przez linię łączącą planetę ze Słońcem.
+
+{img fileId="351"}
+Rys. I.5.1. Powierzchnia zakreślana w czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} przez linię łączącą planetę ze Słońcem
+
+Jeżeli weźmiemy bardzo krótki przedział czasu {OPENAGHMATHJAX()}dt{OPENAGHMATHJAX} ({OPENAGHMATHJAX()}\Delta t \rightarrow 0{OPENAGHMATHJAX} ) to zaznaczone pole {OPENAGHMATHJAX()}ds{OPENAGHMATHJAX} jest powierzchnią trójkąta o podstawie równej długości zakreślanego łuku ({OPENAGHMATHJAX()}vdt{OPENAGHMATHJAX} ) i wysokości równej promieniowi {OPENAGHMATHJAX()}R{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{dS}=\frac{1}{2}\mathit{vd}tR}\end{equation}{OPENAGHMATHJAX}
+[I.5.4]
+
+Z równania (I.5.4) wynika, że chwilowa prędkość polowa (prędkość z jaką promień {OPENAGHMATHJAX()}R{OPENAGHMATHJAX} zakreśla powierzchnię) jest równa
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{dS}}{\mathit{dt}}=\frac{1}{2}\mathit{vR}}\end{equation}{OPENAGHMATHJAX}
+[I.5.5]
+
+Z zasad dynamiki Newtona wynika zasada zachowania momentu pędu (poznamy ją w następnych rozdziałach), zgodnie z którą moment pędu {OPENAGHMATHJAX()}L{OPENAGHMATHJAX} planety w jej obiegu wokół Słońca jest stały
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{L=\mathit{mvR}=\text{const}\text{.}}\end{equation}{OPENAGHMATHJAX}
+[I.5.6]
+
+
+Łącząc równania (I.5.5) i (I.5.6) otrzymujemy ostatecznie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{dS}}{\mathit{dt}}=\frac{L}{2m}=\text{const}\text{.}}\end{equation}{OPENAGHMATHJAX}
+[I.5.6]
+
+Otrzymane równanie (I.5.6) wyraża drugie prawo Keplera.

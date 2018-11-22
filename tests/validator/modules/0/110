@@ -1,0 +1,130 @@
+ 
+
+Rozpatrzymy, zderzenie sprężyste dwóch gładkich niewirujących kul o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}. Przed zderzeniem kule poruszają się wzdłuż linii łączącej ich środki (zderzenie centralne) z prędkościami odpowiednio {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX} na przykład tak jak na rysunku poniżej. Naszym celem jest znalezienie prędkości {OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX} tych kul po zderzeniu.
+
+{img fileId="433"}
+Rys. 10.1.  Kule o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} przed (a) i po (b) zderzeniu
+
+Z zasady zachowania pędu dla układu obu kul otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m_1v_1+m_2v_2=m_1u_1+m_2u_2}\end{equation}{OPENAGHMATHJAX}
+[10.1]
+
+Ponieważ zderzenie jest sprężyste to zgodnie z definicją energia kinetyczna jest zachowana w tym zderzeniu
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{m_1v_1^2}{2}+\frac{m_2v_2^2}{2}=\frac{m_1u_1^2}{2}+\frac{m_2u_2^2}{2}}\end{equation}{OPENAGHMATHJAX}
+[10.2]
+
+Rozwiązujemy układ dwóch równań (10.1) i (10.2) z dwoma niewiadomymi {OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX} i otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{u_1=\left( \frac{m_1-m_2}{m_1+m_2} \right)v_1+\left(\frac{2m_2}{m_1+m_2}\right)v_2}\end{equation}{OPENAGHMATHJAX}
+[10.3]
+
+oraz
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{u_2=\left(\frac{2m_1}{m_1+m_2}\right)\;v_1+\left(\frac{m_2-m_1}{m_1+m_2}\right)\;v_2}\end{equation}{OPENAGHMATHJAX}
+[10.4]
+
+Rozpatrzmy teraz kilka przypadków. W każdym z nich, posługując się zależnościami (10.3) i (10.4) obliczymy prędkości ciał po zderzeniu {OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX}.
+
+a) Zderzenie dwóch identycznych ciał {OPENAGHMATHJAX()}m_1=m_2= m{OPENAGHMATHJAX} .
+Rozwiązanie: {OPENAGHMATHJAX()}u_1{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}u_2{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}v_{1.}{OPENAGHMATHJAX}
+
+Ciała wymieniają się prędkościami i zarazem pędami.
+
+Na przykład gdy podczas gry w bilard poruszająca się z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} kula zderza się centralnie z drugą identyczną ale nieruchomą kulą to sama zatrzymuje się, a spoczywająca dotychczas kula zaczyna poruszać się z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}.
+
+b) Lekka cząstka zderza się centralnie z ciężkim nieruchomym jądrem lub piłka uderza o ścianę;
+{OPENAGHMATHJAX()}m_1 << m_2{OPENAGHMATHJAX},{OPENAGHMATHJAX()}v_{2}=0{OPENAGHMATHJAX}. Rozwiązanie:{OPENAGHMATHJAX()}u_1=-v_{2}{OPENAGHMATHJAX},{OPENAGHMATHJAX()}u_2=0{OPENAGHMATHJAX}.
+
+Piłka odbija się sprężyście od ściany więc prędkość zmienia znak (wektor zmienia zwrot), a ściana pozostaje nieruchoma.
+
+c) Sytuacja odwrotna, ciężka cząstka uderza w nieruchomą cząstkę lekką;
+{OPENAGHMATHJAX()}m_1>> m_2{OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}v_{2}=0{OPENAGHMATHJAX}. Rozwiązanie: {OPENAGHMATHJAX()}u_1=v_{1}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}u_2={OPENAGHMATHJAX}2{OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX}.
+
+Cząstka lekka uzyskuje prędkość dwukrotnie większą od cząstki ciężkiej, której prędkość (pęd) nie ulega zmianie.
+
+Powyższa analiza pokazuje na przykład jak dobierać materiał spowalniający neutrony w reaktorze. Neutrony muszą być spowalniane aby podtrzymać proces rozszczepienia. W tym celu zderza się je sprężyście z jądrami (spoczywającymi) spowalniacza. Gdyby w spowalniaczu były ciężkie jądra to neutrony zderzając się "odbijałyby" się nie tracąc nic z prędkości (przypadek b). Gdyby natomiast spowalniaczem były cząstki lekkie, np. elektrony, to neutrony poruszałyby się wśród nich praktycznie bez zmiany prędkości (przypadek c). Zatem trzeba wybrać moderator (spowalniacz) o masie jąder porównywalnej z masą neutronów (przypadeka).
+
+{openaghexercise name="Zderzenia neutronów" body="
+
+Sprawdź, jaką część swej energii kinetycznej traci neutron o masie {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} w zderzeniu centralnym z będącym w spoczynku jądrem atomowym o masie {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} ? Obliczenia wykonaj dla jądra ołowiu {OPENAGHMATHJAX()}m_2={OPENAGHMATHJAX}206 {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, jądra węgla  i jądra wodoru {OPENAGHMATHJAX()}m_2=m_1{OPENAGHMATHJAX}.
+
+Wynik zapisz poniżej. Wskazówka: Skorzystaj z równania (10.3) uwzględniając, że {OPENAGHMATHJAX()}v_{2}=0{OPENAGHMATHJAX}.
+
+dla ołowiu  {OPENAGHMATHJAX()}{\frac{\mathit{\Delta  E}_{{k}}}{E_{{k}}}}={OPENAGHMATHJAX}
+dla węgla  {OPENAGHMATHJAX()}{\frac{\mathit{\Delta E}_{{k}}}{E_{{k}}}}={OPENAGHMATHJAX}
+dla wodoru  {OPENAGHMATHJAX()}{\frac{\mathit{\Delta E}_{{k}}}{E_{{k}}}}={OPENAGHMATHJAX}
+
+" solution="
+
+Dane: zderzenie sprężyste, {OPENAGHMATHJAX()}v_{2}=0{OPENAGHMATHJAX} ,ołów {OPENAGHMATHJAX()}m_2=206{OPENAGHMATHJAX} {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX},węgiel {OPENAGHMATHJAX()}m_2=12m_1{OPENAGHMATHJAX},wodór {OPENAGHMATHJAX()}m_2=m_1{OPENAGHMATHJAX}.
+
+Energia kinetyczna neutronu przed zderzeniem: {OPENAGHMATHJAX()}{E_{{k1}}=\frac{m_{{1}}v_{{1}}^{{2}}}{2}}{OPENAGHMATHJAX}
+
+Energia kinetyczna neutronu po zderzeniu:{OPENAGHMATHJAX()}{E_{{k2}}=\frac{m_{{1}}u_{{1}}^{{2}}}{2}}{OPENAGHMATHJAX}
+
+Względna zmiana energii neutronu podczas zderzenia:{OPENAGHMATHJAX()}{\frac{E_{{k1}}-E_{{k2}}}{E_{{k1}}}=\frac{v_{{1}}^{{2}}-u_{{1}}^{{2}}}{v_{{1}}^{{2}}}=1-\frac{u_{{1}}^{{2}}}{v_{{1}}^{{2}}}}{OPENAGHMATHJAX}
+
+Ponieważ, zderzenie odbywa się z nieruchomym jądrem ({OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX} = 0) to na podstawie wzoru
+(10.3)
+ 
+{OPENAGHMATHJAX( type="block")}\begin{equation}{u_{{1}}=\left(\frac{m_{{1}}-m_{{2}}}{m_{{1}}+m_{{2}}}\right)\;v_{{1}}}\end{equation}{OPENAGHMATHJAX}
+
+więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{E_{{k1}}-E_{{k2}}}{E_{{k1}}}=1-\left(\frac{m_{{1}}-m_{{2}}}{m_{{1}}+m_{{2}}}\right)^{{2}}=\frac{4m_{{1}}m_{{2}}}{(m_{{1}}+m_{{2}})^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+dla ołowiu {OPENAGHMATHJAX()}m_2=206 m_1{OPENAGHMATHJAX} więc{OPENAGHMATHJAX()}{\frac{E_{{k1}}-E_{{k2}}}{E_{{k1}}}=0\text{.}\text{02}\;\;(2\%)}{OPENAGHMATHJAX}
+
+dla węgla {OPENAGHMATHJAX()}m_2=12m_1{OPENAGHMATHJAX} więc {OPENAGHMATHJAX()}{\frac{E_{{k1}}-E_{{k2}}}{E_{{k1}}}=0\text{.}\text{28}\;\;(\text{28}\%)}{OPENAGHMATHJAX}
+
+dla wodoru {OPENAGHMATHJAX()}m_2=m_1{OPENAGHMATHJAX} więc {OPENAGHMATHJAX()}{\frac{E_{{k1}}-E_{{k2}}}{E_{{k1}}}=1\;\;(\text{100}\%)}{OPENAGHMATHJAX}
+
+Wyniki te pokazują dlaczego parafina, która jest bogata w wodór jest dobrym spowalniaczem (a nie ołów). 
+"}
+
+Rozważmy teraz przypadek zderzenia całkowicie niesprężystego. Przy zderzeniach niesprężystych energia kinetyczna nie jest zachowana.Energia będąca różnicą pomiędzy początkową i końcową energią kinetycznąprzechodzi w inne formy energii na przykład w ciepło lub energiępotencjalną związaną z deformacją ciała podczas zderzenia. Tak jest wprzypadku wahadła balistycznego, które służy do pomiaru prędkościpocisków. Składa się ono z bloku drewnianego o masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX},wiszącego na dwóch sznurach. Pocisk o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}, mający prędkośćpoziomą {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}, wbija się w klocek i zatrzymuje w nim. Pozderzeniu wahadło tzn. klocek z tkwiącym w nim pociskiem wychyla się ipodnosi na maksymalną wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} tak jak pokazano na rysunkuponiżej.
+
+{img fileId="445"}
+Rys. 10.2.  Wahadło balistyczne
+
+Pęd przed zderzeniem jest równy pędowi pocisku, bo klocek jestnieruchomy. Natomiast po zderzeniu klocek i pocisk poruszają się razem.Stosując zasadę zachowania pędu otrzymujemy
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{mv}=(m+M)u}\end{equation}{OPENAGHMATHJAX}[10.5]
+gdzie {OPENAGHMATHJAX()}u{OPENAGHMATHJAX} jest prędkością układu klocek - pocisk zaraz po zderzeniu. W zderzeniu, część energii kinetycznej pocisku jest tracona min. na ciepło i odkształcenie klocka, w który pocisk się wbija. Pozostała część energii kinetycznej zamienia się po zderzeniu w potencjalną energię grawitacji co możemy zapisać w postaci równania
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{1}{2}(m+M)u^2=(m+M)gh}\end{equation}{OPENAGHMATHJAX}
+[10.6]
+
+
+Rozwiązując ostatnie dwa równania otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\frac{m+M}{m}\sqrt{2gh}}\end{equation}{OPENAGHMATHJAX}
+[10.7]
+
+Wystarczy więc zmierzyć wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} oraz masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}M{OPENAGHMATHJAX} aby móc wyznaczyć prędkość pocisku {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}.
+
+{openaghexercise name="Wachadło balistyczne" body="
+
+ Sprawdź jaka część początkowej energii zostaje zachowana w tym zderzeniu. Przyjmij masę pocisku {OPENAGHMATHJAX()}m = 5{OPENAGHMATHJAX} g, a masę klocka {OPENAGHMATHJAX()}M=2{OPENAGHMATHJAX}2 kg. Wynik zapisz poniżej.
+
+Wskazówka: Skorzystaj z równania (10.7) i oblicz iloraz
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{\frac{\frac{1}{2}(m+M)u^2}{\frac{1}{2}\mathit{mv}^2}=}\end{equation}{OPENAGHMATHJAX}
+
+" solution="
+
+Dane: {OPENAGHMATHJAX()}m=5{OPENAGHMATHJAX}g, {OPENAGHMATHJAX()}M=2{OPENAGHMATHJAX} kg.
+
+Obliczamy stosunek energii kinetycznej układu klocek – pocisk, zaraz po zderzeniu, do energii kinetycznej pocisku przed zderzeniem. Korzystając ze wzoru (10.7) otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\frac{1}{2}(m+M)u^{{2}}}{\frac{1}{2}\mathit{mv}^{{2}}}=\frac{(m+M)gh}{\frac{1}{2}m\left(\frac{m+M}{m}\right)^{{2}}2gh}=\frac{m}{m+M}}\end{equation}{OPENAGHMATHJAX}
+
+Podstawiając dane otrzymujemy stosunek {OPENAGHMATHJAX()}m/(m+M)\sim 0.0025{OPENAGHMATHJAX}. Oznacza to, że zachowane zostaje tylko {OPENAGHMATHJAX()}0.25\%{OPENAGHMATHJAX} początkowej energii kinetycznej, a {OPENAGHMATHJAX()}99.75\%{OPENAGHMATHJAX}ulega zmianie w inne formy energii.
+
+"}
+
+
+Korzystając z programu komputerowego „Zderzenia centralne”, dostępnego na stronie WWW autora, możesz prześledzić wynik zderzenia dwu kul poruszających się wzdłuż linii łączącej ich środki (zderzenia centralne – jednowymiarowe) w zależności od ich prędkości początkowych jak i ich masy oraz współczynnika  wyrażającego stosunek prędkości względnych ciał po zderzeniu i przed restytucji zderzeniem. Dla zderzen sprężystych współczynnik ten przyjmuje wartość 1, a dla zderzen całkowicie niesprężystych jest równy 0.
+

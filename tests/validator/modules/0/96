@@ -1,0 +1,66 @@
+Jak wspomniano w module ((Prędkość fal i równanie falowe)), obliczenie prędkości rozchodzenia się fali w naprężonym sznurze (strunie) pozwala na wyprowadzenie równania falowego.
+
+Spróbujmy wyprowadzić wzór na zależność prędkości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} fali od siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} naprężającej sznur i od {OPENAGHMATHJAX()}\mu = m/l{OPENAGHMATHJAX} tj. masy przypadającej na jednostkę długości sznura. W tym celu rozpatrzmy mały wycinek sznura o długości {OPENAGHMATHJAX()}dx{OPENAGHMATHJAX} pokazany na rysunku poniżej.
+
+{img fileId="383" } 
+Element sznura o długości {OPENAGHMATHJAX()}dx{OPENAGHMATHJAX}
+
+Końce wycinka sznura tworzą z osią {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} małe kąty {OPENAGHMATHJAX()}\theta_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}\theta _{2}{OPENAGHMATHJAX}. Dla małych kątów {OPENAGHMATHJAX()}\theta \approx \sin\theta \approx dy/dx{OPENAGHMATHJAX}. 
+Wypadkowa pionowa siła tj. siła wychylająca sznur w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} wynosi
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F_{{{wyp}}}=F\sin\theta
+_{{2}}-F\sin\theta _{{1}}={F\theta }_{{2}}-{F\theta
+}_{{1}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Zgodnie z zasadą dynamiki siła wypadkowa jest równa iloczynowi masy wycinka {OPENAGHMATHJAX()}dm = \mu dx{OPENAGHMATHJAX} i jego przyspieszenia. Stąd
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F_{{{wyp}}}={F\theta
+}_{{2}}-{F\theta }_{{1}}=({\mu dx})\frac{\partial
+v_{{y}}}{\partial t}=({\mu dx})\frac{\partial ^{{2}}y}{\partial
+t^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+
+lub
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\partial \theta }{\partial x}=\frac{\mu }{F}\frac{\partial
+^{{2}}y}{\partial t^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Uwzględniając, że  {OPENAGHMATHJAX()}{\theta =\partial y/\partial x}{OPENAGHMATHJAX} otrzymujemy
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\partial ^{{2}}y}{\partial x^{{2}}}=\frac{\mu }{F}\frac{\partial
+^{{2}}y}{\partial t^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Jest to __równanie falowe__ dla sznura (struny). Podstawmy teraz do tego równania odpowiednie pochodne równania fali harmonicznej {OPENAGHMATHJAX()}{y=f(x,t)=A\sin({kx}-{\omega t})}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\partial ^{{2}}y}{\partial t^{{2}}}=-{A\omega
+}^{{2}}\sin({kx}-{\omega t})}
+\end{equation}{OPENAGHMATHJAX}
+
+oraz
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\partial ^{{2}}y}{\partial
+x^{{2}}}=-{Ak}^{{2}}\sin({kx}-{\omega
+t})}
+\end{equation}{OPENAGHMATHJAX}
+
+W wyniku podstawienia otrzymujemy
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{k^{{2}}=\frac{\mu }{F}\omega ^{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Stąd możemy już obliczyć prędkość fali
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v=\frac{\omega }{k}=\sqrt{\frac{F}{\mu }}}
+\end{equation}{OPENAGHMATHJAX}
+
+W ten sposób pokazaliśmy również, że zaproponowana przez nas funkcja (13.8) jest rozwiązaniem równania falowego (IV.2.4) jeżeli spełniona jest zależność (IV.2.7). Zwróćmy ponadto uwagę, że fala harmoniczna jest przenoszona wzdłuż struny prędkością niezależną od amplitudy i częstotliwości. Przepiszmy teraz równanie falowe z uwzględnieniem
+zależności (IV.2.8)
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{\frac{\partial ^{{2}}y}{\partial
+x^{{2}}}=\frac{1}{v^{{2}}}\frac{\partial ^{{2}}y}{\partial t^{{2}}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Równanie falowe w tej postaci, stosuje się do wszystkich rodzajów rozchodzących się fal.

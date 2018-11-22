@@ -1,0 +1,33 @@
+Naszym zadaniem jest opisanie ruchu ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} puszczonego z pewnej wysokości nad powierzchnią Ziemi, które spadając doznaje oporu powietrza. Z codziennych doświadczeń wiemy, że opór powietrza zależy od prędkości, na przykłady podczas jazdy na rowerze, i jest tym większy im szybciej jedziemy. Przyjmiemy więc, założenie że siła oporu powietrza jest proporcjonalna do prędkości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}_{{\text{oporu}}}=-\mathit{\gamma {\bf v}}}\end{equation}{OPENAGHMATHJAX}
+[I.3.1]
+
+Znak minus wskazuje, że siła oporu działa przeciwnie do kierunku ruchu (wektora prędkości {OPENAGHMATHJAX()}{\bf v} {OPENAGHMATHJAX}).
+
+Ruch ciała odbywa się pod działaniem dwóch sił: stałej siły grawitacji i zmiennej siły oporu. Wraz ze wzrostem prędkości rośnie siła oporu, aż do momentu gdy stanie się ona równa co do wartości sile grawitacji. Wówczas siła wypadkowa działająca na ciało staje się równa zeru, prędkość dalej już nie rośnie i nie rośnie też siła oporu, zgodnie z pierwszą zasadą dynamiki ciało porusza się od tej chwili ruchem jednostajnym, prostoliniowym. Graniczną prędkość {OPENAGHMATHJAX()}v_gr{OPENAGHMATHJAX} jaką osiąga ciało obliczamy z warunku
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{mg=\gamma v_{gr} \\ v_{gr}}=\frac{mg}{\gamma} \end{matrix} \end{equation}{OPENAGHMATHJAX}
+[I.3.2]
+
+Teraz poszukujemy odpowiedzi napytanie jak zmienia się prędkość podczas ruchu. W tym celu korzystamy z drugiej zasady dynamiki Newtona, która przyjmuje postać równania
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{ma=mg-\mathit{\gamma v}}\end{equation}{OPENAGHMATHJAX}
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m\frac{\mathit{dv}}{\mathit{dt}}=mg-\mathit{\gamma v}}\end{equation}{OPENAGHMATHJAX}
+[I.3.3]
+
+
+Rozwiązaniem równania różniczkowego (I.3.3) jest funkcja {OPENAGHMATHJAX()}v(t){OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v(t)=\frac{mg}{\gamma}\left(1-e^{{-{\frac{\gamma}{m}}\;t}}\right)=v_{gr}\left(1-e^{{-{\frac{\gamma}{m}}\;t}}\right)}\end{equation}{OPENAGHMATHJAX}
+[I.3.4]
+
+Zależność ta jest wykreślona na rysunku poniżej. Widać, że po odpowiednio długim czasie prędkość osiąga wartość graniczną.
+
+{img fileId="425"}
+Rys. I.3.1. Zależność prędkości od czasu
+
+Otrzymaliśmy więc równanie {OPENAGHMATHJAX()}v(t){OPENAGHMATHJAX} opisujące ruch ciała.

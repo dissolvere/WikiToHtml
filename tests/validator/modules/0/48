@@ -1,0 +1,38 @@
+Wahadłem fizycznym nazywamy ciało sztywne zawieszone tak, że może się wahać wokół pewnej osi przechodzącej przez to ciało. Na poniższym rysunku ciało jest zawieszone w punkcie P, a punkt S, znajdujący się w odległości d od punkt P, jest środkiem masy ciała.
+
+{img fileId="177
+"}
+
+Rys. 12.4. Wahadło fizyczne
+Moment siły {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} działający na ciało wynosi
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau =-{mg}d\sin\theta }\end{equation}{OPENAGHMATHJAX}
+
+co w połączeniu ze wzorem (11.17) daje
+
+{OPENAGHMATHJAX()}\begin{equation} I\alpha = - mgd\sin\theta \end{equation}{OPENAGHMATHJAX}
+
+Dla małych wychyleń, dla których {OPENAGHMATHJAX()}\sin\theta \approx\theta {OPENAGHMATHJAX} dostajemy równanie
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{I\alpha = - {mg}d\theta }\end{equation}{OPENAGHMATHJAX}
+
+Otrzymaliśmy równanie, które ma postać równania (12.3) dla ruchu harmonicznego przy czym {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} odpowiada x. Możemy więc teraz napisać wyrażenie na częstość i okres drgań
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\omega =\sqrt{\frac{{mg}d}{I}}}\end{equation}{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{T=2\pi \sqrt{\frac{I}{{mgd}}}}\end{equation}{OPENAGHMATHJAX}
+
+Jako przypadek szczególny rozpatrzmy masę punktową zawieszoną na nici o długości {OPENAGHMATHJAX()}l{OPENAGHMATHJAX} (wahadło proste). Wówczas moment bezwładności {OPENAGHMATHJAX()}I = ml^{2}{OPENAGHMATHJAX}, oraz
+{OPENAGHMATHJAX()}d = l {OPENAGHMATHJAX} i otrzymujemy znany wzór dla wahadła prostego
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{T=2\pi \sqrt{\frac{l}{g}}}\end{equation}{OPENAGHMATHJAX}

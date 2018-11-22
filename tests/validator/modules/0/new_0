@@ -1,0 +1,54 @@
+Rozważania dotyczące ruchu obrotowego zaczniemy od wyprowadzenia równań kinematyki ruchu obrotowego, podobnych do równań kinematyki ruchu postępowego. W ruchu obrotowym wielkością analogiczną do przesunięcia jest przesunięcie kątowe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. Kąt {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} określa położenie (kątowe) punktu P względem układu odniesienia, jak pokazano na
+((Automatycznie|#fig:Kin_obr:1)).
+
+{img type="fileId" fileId="168" imalign="center" anchor="fig:Kin_obr:1"}
+
+Związek {OPENAGHMATHJAX()}\varphi = s/R {OPENAGHMATHJAX} między drogą liniową {OPENAGHMATHJAX()}s{OPENAGHMATHJAX}, a przesunięciem kątowym {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} wynika bezpośrednio z miary łukowej kąta {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. W ruchu obrotowym wielkością analogiczną chwilowej prędkości liniowej {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} jest chwilowa __prędkość kątowa__ {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:1")}\begin{equation}{\omega =\frac{{d\varphi}}{{dt}}=\frac{1}{R}\frac{{ds}}{{dt}}=\frac{v}{R}}\end{equation}{OPENAGHMATHJAX}
+
+W ruchu obrotowym podobnie jak w ruchu po okręgu {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, jest też nazywana częstością kątową i jest związana z częstotliwością {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} relacją
+
+{OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:2")}\begin{equation}{\omega =2{\pi f}}\end{equation}{OPENAGHMATHJAX}
+
+Podobnie jak chwilowe przyspieszenie liniowe {OPENAGHMATHJAX()}a{OPENAGHMATHJAX} zostało zdefiniowane chwilowe przyspieszenie kątowe {OPENAGHMATHJAX()}{\alpha}{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:3")}\begin{equation}{{\alpha} =\frac{{d{\omega}}}{{dt}}=\frac{1}{R}\frac{{dv}}{{dt}}=\frac{a}{R}}\end{equation}{OPENAGHMATHJAX}
+
+Możemy teraz podać opis ruchu obrotowego ze stałym przyspieszeniem kątowym {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} poprzez analogię do ruchu postępowego jednostajnie zmiennego.
+
+$$$openaghTableAttributeS$$$anchor="tab:Kin_obr:1"$$$openaghTableAttributeE$$$
+||Ruch postępowy|Ruch obrotowy
+{OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:4")}\begin{equation}\begin{matrix}{a={const}{.}}\\ {v=v_{{0}}+{at}}\\ s=s_{{0}}+v_{{0}}t+\frac{{at}^{{2}}}{2}\end{matrix}\end{equation}{OPENAGHMATHJAX}|{OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:5")}\begin{equation}\begin{matrix}{\alpha \;={const}{.}} \\ {\omega\;\;=\omega _{{0}}+{\alpha t}} \\ \varphi =\varphi_{{0}}+\omega _{{0}}t+\frac{{\alpha t}^{{2}}}{2}\end{matrix}\end{equation}{OPENAGHMATHJAX}||
+
+Pamiętajmy, że zarówno prędkość kątowa jak i przyspieszenie kątowe są __wektorami__. Na ((Automatycznie|#fig:Kin_obr:2)) poniżej, pokazane są wektory: prędkości liniowej  {OPENAGHMATHJAX()}\mathbf{v} {OPENAGHMATHJAX}, prędkości kątowej {OPENAGHMATHJAX()}{\bf \unicode[Times]{x3C9}}{OPENAGHMATHJAX}, przyspieszenia stycznego {OPENAGHMATHJAX()}\mathbf{a_{s}}{OPENAGHMATHJAX}, przyspieszenia normalnego {OPENAGHMATHJAX()}\mathbf{a_{n}}{OPENAGHMATHJAX} i przyspieszenia kątowego {OPENAGHMATHJAX()}{\bf \unicode[Times]{x3B1}}{OPENAGHMATHJAX} punktu P obracającego się ciała sztywnego. Punkt P porusza się ruchem przyspieszonym po okręgu.
+
+{img fileId="169" imalign="center" anchor="fig:Kin_obr:2"}
+
+Związki pomiędzy wielkościami liniowymi i kątowymi w postaci skalarnej są dane równaniami ((Automatycznie|#eq:Kin_obr:1)), ((Automatycznie|#eq:Kin_obr:3)) oraz równaniem ((Ruch jednostajny po okręgu|#ruch_jednostajny_po_okregu3)). Natomiast te zależności w postaci wektorowej mają postać
+
+{OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:6")}\begin{equation}\begin{matrix}{\mathbf{v} = {\bf \unicode[Times]{x3C9}} \times \mathbf{R}} \\ {\mathbf{a_{{s}}}={\bf \unicode[Times]{x3B1}} \times \mathbf{R}} \\ \mathbf{a_{{n}}} = {\bf \unicode[Times]{x3C9}} \times \mathbf{v} \end{matrix}\end{equation}{OPENAGHMATHJAX}
+
+Więcej o ruchu przyspieszonym po okręgu możesz przeczytać w module ((Ruch przyspieszony po okręgu))
+
+!!Jednostki
+Z powyższych rozważań wynika, że jeżeli kąt {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} jest mierzony w radianach (rad) to jednostką prędkości kątowej {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} jest radian na sekundę (rad/s), a przyspieszenia kątowego {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} radian na sekundę do kwadratu (rad/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}).
+
+Na koniec rozwiążemy przykładowe zadanie dotyczące kinematyki ruchu obrotowego.
+
+{openaghexercise name="Płyta CD"
+body="W wielu czytnikach CD płyta ma stałą prędkość liniową natomiast zmienia się jej prędkość kątowa. Dzięki tej stałej prędkości liniowej można zachować jednakowo gęste upakowanie informacji na całym dysku. Ta prędkość dla dysku audio (pojedynczej prędkości) wynosi 1.25 m/s. Całkowita długość spiralnie naniesionej ścieżki wynosi 5.55 km. Średnica zewnętrzna dysku jest równa 12 cm, a wewnętrzna 2.5 cm. Oblicz maksymalną i minimalną prędkość kątową dysku. Jakie jest średnie przyspieszenie kątowe płyty podczas jej ciągłego, całkowitego odczytu?"
+solution="Dane: {OPENAGHMATHJAX()}v = 1.25{OPENAGHMATHJAX} m/s. {OPENAGHMATHJAX()}l = 5.55{OPENAGHMATHJAX} km.
+{OPENAGHMATHJAX()}d_{\text{zew}} = 12{OPENAGHMATHJAX} cm,
+{OPENAGHMATHJAX()}d_{\text{wew}} = 2.5{OPENAGHMATHJAX} cm.
+
+Do obliczenia prędkości kątowej korzystamy ze wzoru ((Automatycznie|#eq:Kin_obr:1)) {OPENAGHMATHJAX()}\omega=\frac{v}{R}{OPENAGHMATHJAX}
+
+Podstawiając dane otrzymujemy: {OPENAGHMATHJAX()}\omega_{\text{min}} = 20.8 {OPENAGHMATHJAX}rad/s, {OPENAGHMATHJAX()}\omega_{\text{max}}=100 {OPENAGHMATHJAX} rad/s.
+
+Przyspieszenie kątowe (średnie) jest zgodnie z równaniem ((Automatycznie|#eq:Kin_obr:3)) dane zależnością
+{OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:7")}\begin{equation}{\alpha =\frac{{\Delta \omega }}{t}=\frac{\omega_{{{max}}}-\omega _{{{min}}}}{t}}\end{equation}{OPENAGHMATHJAX}
+
+Czas {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}, w którym prędkość zmieniła się od minimalnej do maksymalnej obliczamy z zależności dla ruchu jednostajnego {OPENAGHMATHJAX( type="block" anchor="eq:Kin_obr:8")}\begin{equation}{t=\frac{l}{v}}\end{equation}{OPENAGHMATHJAX}
+
+Łącząc ostatnie dwa równania otrzymujemy {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} = 0.18 rad/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}."}

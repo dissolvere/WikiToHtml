@@ -1,0 +1,144 @@
+Zauważmy, że chociaż drgania odbywają się z częstością w siły wymuszającej to amplituda i faza zależą od relacji pomiędzy częstością wymuszającą {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}, a częstością własną {{OPENAGHMATHJAX()}\omega_0{OPENAGHMATHJAX}}. W szczególności gdy siła wymuszająca osiągnie odpowiednią częstotliwość, to amplituda drgań może wzrosnąć gwałtownie nawet przy niewielkiej wartości siły wymuszającej. To zjawisko nazywamy __rezonansem__.
+
+Wykres przedstawiający rezonansowy wzrost amplitudy drgań w funkcji częstości siły wymuszającej pokazany jest na rysunku poniżej, dla różnych wartości współczynnika tłumienia {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX}.
+
+{img type="fileId
+" fileId="182
+" width="200px
+"}
+
+Rys. 12.8. Krzywe rezonansu dla różnych wartości współczynnika tłumienia
+
+{OPENAGHMATHJAX()}\beta (\beta_0 < \beta_1 < \beta_{2} < \beta_{3} < \beta_{4}{OPENAGHMATHJAX})
+
+Liniami przerywanymi zaznaczono częstości rezonansowe to jest wartości częstości siły wymuszającej, dla której amplituda drgań jest maksymalna. Odpowiadająca jej amplituda nazywana jest __amplitudą rezonansową__.
+
+Częstość rezonansową {OPENAGHMATHJAX()}\omega_{r}{OPENAGHMATHJAX} i amplitudę rezonansową {OPENAGHMATHJAX()}A_{r}{OPENAGHMATHJAX} możemy obliczyć z warunku na maksimum amplitudy drgań danej wzorem (12.42).
+
+Funkcja {OPENAGHMATHJAX()}A(\omega) {OPENAGHMATHJAX} osiąga maksimum dla częstości rezonansowej {OPENAGHMATHJAX()}\omega_{r}{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\omega _{{r}}=\sqrt{\omega _{{0}}^{{2}}-2\beta ^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+[12.44]
+
+
+
+{
+
+Podstawiając tę wartość do wzoru na amplitudę otrzymujemy wyrażenie na
+
+amplitudę rezonansową A{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX}}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{A_{{r}}=\frac{\alpha _{{0}}}{2\beta \sqrt{\omega _{{0}}^{{2}}-\beta^{{2}}}}}\end{equation}{OPENAGHMATHJAX}
+
+[12.45]
+
+
+
+{
+
+Widzimy, że dla drgań swobodnych, nietłumionych ({{OPENAGHMATHJAX()}\beta
+
+
+
+
+
+
+
+
+
+
+{OPENAGHMATHJAX()}}\ding{213} 0) częstość rezonansowa {{OPENAGHMATHJAX}\omega
+
+
+
+
+
+
+
+
+
+
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} jest równa częstości drgań swobodnych
+
+{OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}, a amplituda rezonansowa
+
+A{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} \ding{213} {OPENAGHMATHJAX()}{\infty}{OPENAGHMATHJAX}. W miarę
+
+wzrostu tłumienia wartość amplitudy rezonansowej
+
+A{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} maleje, a częstość rezonansowa
+
+
+
+przesuwa się w stronę częstości mniejszych od {{OPENAGHMATHJAX()}\omega{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. Dla bardzo dużego tłumienia rezonans nie
+
+występuje, maksymalna amplituda występuje dla częstości bliskiej zeru.}
+
+{
+
+Dla drgań swobodnych, dla których {{OPENAGHMATHJAX()}\omega
+
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{r}{OPENAGHMATHJAX} = {OPENAGHMATHJAX}\omega {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}
+
+przesunięcie fazowe pomiędzy siłą, a wychyleniem, dane równaniem
+
+(12.41) jest równe {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} = {OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}/2. Oznacza to,
+
+że siła wymuszająca nie jest zgodna w fazie z wychyleniem. Zauważmy
+
+jednak, że moc pochłaniana przez oscylator zasilany siłą wymuszającą
+
+F zależy od prędkości}
+
+
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{P=\mathit{Fv}}\end{equation}{OPENAGHMATHJAX}
+
+[12.46]
+
+
+
+{
+
+Warunek uzyskania rezonansu odpowiada maksimum mocy pochłanianej przez
+
+oscylator. Trzeba więc, zgodnie z powyższym wzorem, żeby to prędkość (a
+
+nie wychylenie) była zgodna w fazie z siłą, a to oznacza, że siła musi
+
+wyprzedzać wychylenie o {OPENAGHMATHJAX()}\pi {OPENAGHMATHJAX}/2.}
+
+Więcej o mocy absorbowanej przez oscylator
+
+możesz przeczytać w Dodatku 6, na końcu modułu III.
+
+
+
+
+{youtube movie="tCZ9_RfuGmw" alt="Film obrazujący rezonans w układzie wahadeł" imageId="168"}
+ 
+
+{
+
+Skutki rezonansu mogą być zarówno pozytywne jak i negatywne. Z jednej
+
+strony staramy się wyeliminować przenoszenie drgań na przykład z
+
+silnika na elementy nadwozia w samochodzie, a z drugiej strony
+
+działanie odbiorników radiowych i telewizyjnych jest możliwe dzięki
+
+wykorzystaniu rezonansu elektrycznego. Dostrajając odbiornik do
+
+częstości nadajnika spełniamy właśnie warunek rezonansu. Zjawisko
+
+rezonansu jest bardzo rozpowszechnione w przyrodzie.}

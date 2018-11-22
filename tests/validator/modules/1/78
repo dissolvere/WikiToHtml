@@ -1,0 +1,31 @@
+ 
+
+Zacznijmy od odpowiedzi na pytanie czym jest ciąg?
+
+{OPENAGHDEFINITION( name="Ciąg")}Funkcję \(a:\mathbb{N}\rightarrow \mathbb{C}\) nazywamy ciągiem nieskończonym i oznaczamy \(a(j)=a_{j},j\in \mathbb{N}\) lub równoważnie \(\{a_{j}\}_{j=1}^{\infty}\){OPENAGHDEFINITION}
+Mówimy, że dany ciąg ma granicę lub dąży do granicy jeżeli:
+
+{OPENAGHDEFINITION( name="Granica ciągu")}\( \lim_{n \to \infty}{a_n}=g\iff \forall_{\varepsilon >0}\exists_{\delta>0}\forall_{n>\delta}\ |a_n-g|<\varepsilon \){OPENAGHDEFINITION}
+Własności ciągu:
+
+{OPENAGHDEFINITION( name="Ograniczoność")}
+Ciąg \(\{a_{n}\}\) nazywamy ograniczonym z góry(analogicznie; ograniczonym z dołu), gdy \(\exists_{M>0}\forall_{n\in \mathbb{N}}\ a_n\leq M\).
+Ciąg nazywamy ograniczonym, jeśli jest ograniczony z góry i dołu{OPENAGHDEFINITION}
+ 
+
+{OPENAGHDEFINITION()}
+Ciąg \(\{a_n\}, a_n\in \mathbb{R}\) nazywamy
+(1) rosnącym(odpowiednio malejącym dla \(\leq\)), gdy \(a_{n+1}\geq a_n\)
+(2) silnie rosnącym(odpowiednio malejącym dla \(<\)), gdy \(a_{n+1}>a_n\){OPENAGHDEFINITION}
+ 
+
+{OPENAGHDEFINITION( name="Podciąg")}Niech będzie dany ciąg \(\{a_n\}_{n=1}^{\infty}\) i niech \(\{n_k\}_{k=1}^{\infty}\) będzie silnie rosnącym ciągiem liczb naturalnych. Wtedy ciąg \(\{a_{n_k}\}_{k=1}^{\infty}\) nazywamy podciągiem ciągu \(\{a_n\}\){OPENAGHDEFINITION}
+ 
+
+{OPENAGHDEFINITION( name="Punkt skupienia")}Punkt \(s\) nazywamy punktem skupienia zbioru \(E\subset \mathbb{R}\), jeśli \(\forall_{\delta>0}\exists_{x\in E \atop x\not =s}\ |x-s|<\delta\){OPENAGHDEFINITION}
+ 
+
+{OPENAGHDEFINITION( name="Ciągi Cauchy'ego")}Ciąg liczbowy \(\{a_n\}\) nazywamy ciągiem Cauchy`ego, jeśli \(\forall_{\varepsilon>0}\exists_{\delta>0}\forall_{n,m>\delta}\ |~a_n~-~a_m~|~<~\varepsilon\){OPENAGHDEFINITION}
+ 
+
+ 

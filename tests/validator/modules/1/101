@@ -1,0 +1,71 @@
+ 
+
+
+W poprzednim rozdziale pokazaliśmy, że praca wykonana przez siłę wypadkową działającą na punkt materialny (ciało) wzdłuż pewnej drogi, jest równa zmianie energii kinetycznej {OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX} tego punktu materialnego
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W=\mathit{\Delta E}_{{k}}}\end{equation}{OPENAGHMATHJAX}
+[8.1]
+
+Skorzystamy z tego związku, dla rozróżnienia {sił zachowawczych i niezachowawczych}. W tym celu rozpatrzmy ciało rzucone pionowo do góry, któremu nadano prędkość początkową {OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX}, a tym samym energię kinetyczną {OPENAGHMATHJAX()}{E_{{k}}=\mathit{mv}_{{0}}^{{2}}/2}{OPENAGHMATHJAX}. Podczas wznoszenia się ciała siła grawitacji działa przeciwnie do kierunku ruchu więc prędkość ciała, a także i jego energia kinetyczna maleją aż do zatrzymania ciała. Następnie ciało porusza się w przeciwnym kierunku pod wpływem siły grawitacji, która teraz jest zgodna z kierunkiem ruchu. Przy zaniedbywalnym oporze powietrza, prędkość i energia kinetyczna rosną aż do wartości jaką ciało miało początkowo. Ciało rzucone do góry, wraca z tą samą prędkością i energią kinetyczną. Widzimy, że po przebyciu zamkniętej drogi (cyklu) energia kinetyczna ciała nie zmieniła się, więc na podstawie równania (8.1) oznacza to, że praca wykonana przez siłę grawitacji podczas pełnego cyklu jest równa zeru.  Praca wykonana przez siłę grawitacji podczas wznoszenia się ciała jest ujemna bo siła jest skierowana przeciwnie do przemieszczenia (kąt pomiędzy przemieszczeniem i siłą wynosi {OPENAGHMATHJAX()}180°; \cos 180° = -1 {OPENAGHMATHJAX}). Gdy ciało spada siła i przemieszczenie są jednakowo skierowane, praca jest dodatnia, tak że całkowita praca jest równa zeru.
+
+{OPENAGHDEFINITION(name="Siła zachowawcza")}Siła jest zachowawcza, jeżeli praca wykonana przez tę siłę nad punktem materialnym, który porusza się po dowolnej drodze zamkniętej jest równa zeru.{OPENAGHDEFINITION}
+
+Siła grawitacji jest siłą zachowawczą. Wszystkie siły, które działają w ten sposób, np. siła sprężysta wywierana przez idealną sprężynę, nazywamy siłami zachowawczymi.
+
+Jeżeli jednak, opór powietrza nie jest do zaniedbania, to ciało rzucone pionowo w górę powraca do położenia początkowego i ma inną energię kinetyczną niż na początku ponieważ siła oporu przeciwstawia się ruchowi bez względu na to, w którym kierunku porusza się ciało (nie tak jak siła grawitacji). Praca wykonywana przez siłę oporu jest ujemna dla każdej części cyklu zarówno przy wznoszeniu jak i opadaniu ciała więc podczas tego cyklu została wykonana praca różna od zera.
+
+{OPENAGHDEFINITION(name="Siła nie zachowawcza")}Siła jest niezachowawcza jeżeli praca wykonana przez tę siłę nad punktem materialnym, który porusza się po dowolnej drodze zamkniętej nie jest równa zeru.{OPENAGHDEFINITION} 
+
+Siła oporu powietrza jest siłą niezachowawczą. Wszystkie siły, które działają w ten sposób, np. siła tarcia, nazywamy siłami niezachowawczymi.
+
+Różnicę między siłami niezachowawczymi i zachowawczymi możemy zobrazować jeszcze inaczej. W tym celu rozpatrzmy pracę wykonaną przez siłę grawitacji podczas ruchu ciała z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punktu {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} po dwóch różnych drogach tak jak pokazano na rysunku poniżej.
+
+ {img fileId="441"} 
+Rys. 8.2. Ciało przesuwane z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punktu {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} w polu grawitacyjnym  po dwóch różnych drogach
+
+Z naszych poprzednich rozważań wiemy, że praca wykonana przez siłę grawitacji podczas ruchu ciała w górę jest ujemna bo siła jest skierowana przeciwnie do przemieszczenia (kąt pomiędzy przemieszczeniem i siłą wynosi {OPENAGHMATHJAX()}180°; \cos 180° = -1 {OPENAGHMATHJAX}). Gdy ciało przemieszcza się w dół to siła grawitacji i przemieszczenie są jednakowo skierowane, praca jest dodatnia. Natomiast przy przemieszczaniu w bok, siła grawitacji nie wykonuje żadnej pracy bo jest prostopadła do przemieszczenia ({OPENAGHMATHJAX()}\cos90° = 0{OPENAGHMATHJAX}). Widzimy, że przesunięcia w górę znoszą się z przemieszczeniami w dół, tak że wypadkowe przemieszczenie w pionie wynosi {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} i w konsekwencji wypadkowa praca wykonana przez siłę grawitacji wynosi {OPENAGHMATHJAX()}W = mgh{OPENAGHMATHJAX} bez względu na wybór drogi. Praca w polu grawitacyjnym nie zależy od wyboru drogi łączącej dwa punkty ale od ich wzajemnego położenia.
+
+Możemy uogólnić nasze rozważania na dowolną siłę zachowawczą. Jeszcze raz rozpatrzmy ruch ciała z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punkt {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} po jednej drodze (1) oraz powrót z {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} po innej drodze (2) (rysunek 8.3a).
+{img fileId="453"} 
+Rys. 8.3.  Ciało przemieszcza się z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do punktu {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}  i z powrotem
+
+Ponieważ siła działająca na ciało jest zachowawcza to dla drogi zamkniętej z {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} i z powrotem praca jest równa zeru
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W_{{\mathit{A1B}}}+W_{{\mathit{B2A}}}=0}\end{equation}{OPENAGHMATHJAX}
+[8.2]
+
+Lub zapisując to inaczej
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W_{{\mathit{A1B}}}=-W_{{\mathit{B2A}}}}\end{equation}{OPENAGHMATHJAX}
+[8.3]
+
+Jeżeli teraz odwrócimy kierunek ruchu i przejdziemy z {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} po drodze (2) (rysunek 8.3b) to ponieważ zmieniamy tylko kierunek ruchu to otrzymujemy pracę tę samą, co do wartości ale różniącą się znakiem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W_{{\mathit{A2B}}}=-W_{{\mathit{B2A}}}}\end{equation}{OPENAGHMATHJAX}
+[8.4]
+
+
+Porównując dwa ostatnie równania otrzymujemy
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W_{{\mathit{A1B}}}=W_{{\mathit{A2B}}}}\end{equation}{OPENAGHMATHJAX}
+[8.5]
+
+Widać z tego, że praca wykonana przez siłę zachowawczą przy przemieszczaniu ciała od {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} jest taka sama dla obu dróg. Drogi (1) i (2) mogą mieć dowolny kształt o ile tylko łączą te same punkty {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}B{OPENAGHMATHJAX}.
+
+{OPENAGHDEFINITION(name="Siła zachowawcza i niezachowawcza")}Siłę nazywamy zachowawczą jeżeli praca wykonana przez nią nad punktem materialnym poruszającym się między dwoma punktami zależy tylko od tych punktów, a nie od łączącej je drogi. Siłę nazywamy niezachowawczą jeżeli praca wykonana przez nią nad punktem materialnym poruszającym się między dwoma punktami zależy od drogi łączącej te punkty. {OPENAGHDEFINITION}
+
+Przedstawione definicje siły zachowawczej są równoważne. 
+
+Teraz kiedy znasz już definicję sił zachowawczych spróbuj wykonać poniższe ćwiczenie
+
+Ćwiczenie 8.1
+
+Ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} zsuwa się z równi pochyłej w kierunku nieważkiej sprężyny (rysunek poniżej). Ruch odbywa się bez tarcia. Ciało dociera do sprężyny i w wyniku działania siły sprężystej zostaje zatrzymane. Następnie, pod wpływem rozprężającej się sprężyny, ciało porusza się w przeciwnym kierunku.
+
+Spróbuj teraz odpowiedzieć na następujące pytania (odpowiedzi zapisz poniżej):
+a) Jakie siły działają na ciało w trakcie jego ruchu?
+b) Czy są to siły zachowawcze?
+
+Jak zmieniłaby się sytuacja, gdyby występowało tarcie pomiędzy ciałem a poziomą płaszczyzną?
+
+Zauważ, że ciał odepchnięte przez sprężynę powraca do swojego stanu początkowego.
+{img fileId="447"} 

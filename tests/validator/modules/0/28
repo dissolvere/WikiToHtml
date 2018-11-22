@@ -1,0 +1,77 @@
+ 
+
+{OPENAGHDEFINITION( name="(restrykcja funkcji)")}
+Niech będzie dana funkcja {OPENAGHMATHJAX()}f:X\to Y{OPENAGHMATHJAX} oraz zbiór {OPENAGHMATHJAX()}A\subset X{OPENAGHMATHJAX}.
+
+__Funkcje__ {OPENAGHMATHJAX()}g:A\to Y{OPENAGHMATHJAX} taką, że dla każdego {OPENAGHMATHJAX()}x\in A~g(x)=f(x){OPENAGHMATHJAX} nazywamy __restrykcją__ lub __zawężeniem funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} do zbioru {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}__ i oznaczamy __{OPENAGHMATHJAX()}f_\vert A{OPENAGHMATHJAX}__ {OPENAGHDEFINITION}
+.
+
+{img type="fileId" fileId="151"}
+ 
+
+
+Rys. F21 Restrykcja funkcji, funkcja {OPENAGHMATHJAX()}f_1{OPENAGHMATHJAX} jest zawężeniem funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} do zbioru {OPENAGHMATHJAX()}\mathbb R_+{OPENAGHMATHJAX}.
+
+{OPENAGHEXAMPLE( name="")}
+
+Dane są trzy funkcje:
+
+{OPENAGHMATHJAX()}f(x)={{x^2+1}\over {x^3+x}},\quad g(x)=3^{\log_3{{x^2+1}\over {x^3+x}}},\quad h(x)=3^{\log_3{1\over {(\sqrt{x})^2}}}{OPENAGHMATHJAX}.
+
+Wśród funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} znajdź parę funkcji równych sobie oraz przedstaw funkcję {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} jako restrykcję funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} do pewnego zbioru {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}.{OPENAGHEXAMPLE}
+
+__Rozwiązanie__
+
+Funkcje {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} będziemy rozpatrywać w ich dziedzinach naturalnych. Aby zbadać równość funkcji musimy wyznaczyć (i porównać) te dziedziny oraz porównać wartości.
+
+{OPENAGHMATHJAX()}D_f{OPENAGHMATHJAX} jest zbiorem tych wszystkich {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, dla których {OPENAGHMATHJAX()}x^3+x\neq 0{OPENAGHMATHJAX}. Mamy {OPENAGHMATHJAX()}x^3+x=x(x^2+1){OPENAGHMATHJAX}, więc {OPENAGHMATHJAX()}D_f=\mathbb R\setminus \{0\}{OPENAGHMATHJAX}.
+
+Wyrażenie {OPENAGHMATHJAX()}3^{\log_3{{x^2+1}\over {x^3+x}}}{OPENAGHMATHJAX} ma sens wówczas, gdy {OPENAGHMATHJAX()}x^3+x\neq 0{OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}{{x^2+1}\over {x^3+x}}\le 0{OPENAGHMATHJAX}.
+
+__Rozwiązując__
+
+{OPENAGHMATHJAX()}{{x^2+1}\over {x^3+x}}\le 0{OPENAGHMATHJAX},
+
+{OPENAGHMATHJAX()}{{x^2+1}\over {x(x^2+x)}}\le 0{OPENAGHMATHJAX},
+
+{OPENAGHMATHJAX()}{1\over x}\le 0{OPENAGHMATHJAX},
+
+{OPENAGHMATHJAX()}x\le 0{OPENAGHMATHJAX}.
+
+Zatem {OPENAGHMATHJAX()}D_g=\mathbb R\setminus\{0\}\cap \mathbb R^+=\mathbb R^+{OPENAGHMATHJAX}.
+
+Dziedzina funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest różna od dziedziny funkcji {OPENAGHMATHJAX()}g{OPENAGHMATHJAX}, czyli funkcje {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} nie spełniają pierwszego warunku z definicji równości funkcji, a więc nie mogą być równe.
+
+Wyznaczając dziedzinę funkcji h mamy:
+
+{OPENAGHMATHJAX()}x\le 0{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX()}(\sqrt{x})^2\neq 0\Leftrightarrow x> 0{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX()}{1\over {(\sqrt{x})^2}}> 0\Leftrightarrow x> 0{OPENAGHMATHJAX}
+
+Zatem {OPENAGHMATHJAX()}D_h=\mathbb R^+{OPENAGHMATHJAX}.
+
+Dziedziny funkcji {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} są równe, a więc należy jeszcze sprawdzić drugi warunek definicji. Weźmy dowolne {OPENAGHMATHJAX()}x\in \mathbb R^+{OPENAGHMATHJAX}, korzystając z własności logarytmów mamy:
+
+{OPENAGHMATHJAX()}g(x)=3^{\log_3{{x^2+1}\over {x^3+x}}}=3^{\log_3{1\over x}}={1\over x}{OPENAGHMATHJAX},
+
+{OPENAGHMATHJAX()}h(x)=3^{\log_3{1\over {(\sqrt{x})^2}}}=3^{\log_3{1\over x}}={1\over x}{OPENAGHMATHJAX}.
+
+Widzimy więc, że dla każdego {OPENAGHMATHJAX()}x\in D_g:\quad g(x)=h(x){OPENAGHMATHJAX}, czyli uwzględniając równość dziedzin wnioskujemy, że funkcje {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} są równe.
+
+Zauważmy, że funkcje {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} można zapisać następująco:
+
+{OPENAGHMATHJAX()}g:\mathbb R^+\to \mathbb R,\quad x\to {1\over x}{OPENAGHMATHJAX},
+
+{OPENAGHMATHJAX()}h:\mathbb R^+\to \mathbb R,\quad x\to {1\over x}{OPENAGHMATHJAX}.
+
+Funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest określona dla {OPENAGHMATHJAX()}x\neq 0{OPENAGHMATHJAX}. Po przekształceniu otrzymujemy {OPENAGHMATHJAX()}f(x)={{x^2+1}\over {x^3+x}}={1\over x}{OPENAGHMATHJAX}. Co możemy zanotować:
+
+{OPENAGHMATHJAX()}f:\mathbb R\setminus\{ 0\}\to\mathbb R,\quad x\to {1\over x}{OPENAGHMATHJAX}.
+
+Funkcja {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} jest więc restrykcją (zawężeniem) funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} do zbioru {OPENAGHMATHJAX()}R^+{OPENAGHMATHJAX}, co zapisujemy symbolicznie {OPENAGHMATHJAX()}g=f_{\vert \mathbb R^+}{OPENAGHMATHJAX}.
+
+__Odpowiedź__
+
+Dwie funkcje równe to funkcje {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} oraz {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}. Funkcję {OPENAGHMATHJAX()}g{OPENAGHMATHJAX} można przedstawić jako restrykcję funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} do zbioru liczb rzeczywistych dodatnich, czyli {OPENAGHMATHJAX()}g=f_{\vert \mathbb R^+}{OPENAGHMATHJAX}.

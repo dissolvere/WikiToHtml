@@ -1,0 +1,36 @@
+Przyjrzyjmy się drganiu poprzecznemu struny. Jeżeli struna zamocowana na obu końcach zostanie najpierw wygięta, a następnie puszczona, to wzdłuż struny rozchodzą się drgania poprzeczne. Zaburzenia te odbijają się od zamocowanych końców i w wyniku interferencji powstaje fala stojąca. Zwróćmy uwagę, że drgania struny wytwarzają w otaczającym strunę powietrzu dźwiękowe fale podłużne (fale akustyczne). Ponieważ jedynym warunkiem, jaki musi być spełniony, jest
+nieruchomość obu końców struny, czyli istnienie węzłów fali stojącej na tych końcach, to mogą powstać w tej strunie fale stojące o różnej długości. Pierwsze trzy rodzaje drgań jakie powstają w strunie o długości {OPENAGHMATHJAX()}L{OPENAGHMATHJAX} zamocowanej na końcach zostały pokazane na rysunku poniżej.
+
+{img fileId="395
+" width="800
+"}
+
+Rys. 13.9. Fale stojące dla struny zamocowanej na obu końcach; węzły są zaznaczone liniami kropkowanymi, a strzałki przerywanymi.
+
+Widzimy, że dla kolejnych drgań  {OPENAGHMATHJAX()}{L=\frac{1}{2}\lambda _{{1}}}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}{L=\lambda _{{2}}}{OPENAGHMATHJAX},  {OPENAGHMATHJAX()}{L=\frac{3}{2}\lambda _{{3}}}{OPENAGHMATHJAX}. Możemy więc zapisać ogólny związek na długość fali powstającej w strunie
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{\lambda _{{n}}=\frac{2L}{n}}
+\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()} n = 1, 2, 3, ... {OPENAGHMATHJAX} Korzystając z tego, że prędkość fali {OPENAGHMATHJAX()}{v=\lambda /{T={\lambda f}}}{OPENAGHMATHJAX} oraz z równania (13.16) na prędkość fali harmonicznej rozchodzącej się wzdłuż naprężonego sznura (struny) możemy obliczyć częstotliwość fal stojących w strunie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{f_{{n}}=\frac{n}{2L}v=\frac{n}{2L}\sqrt{\frac{F}{\mu }}}\end{equation}{OPENAGHMATHJAX}
+
+Najniższą częstość nazywamy __częstością podstawową__, a pozostałe __wyższymi harmonicznymi__ czyli alikwotami.
+
+Zazwyczaj w drganiach występują, oprócz drgania podstawowego, również drgania harmoniczne, a dźwięki jakie odbieramy są wynikiem nakładania się tych drgań. O jakości instrumentu (jego barwie) decyduje właśnie to ile alikwotów jest zawarte w dźwięku i jakie są ich natężenia. Przykładowo, drganie wypadkowe struny będące złożeniem tonu podstawowego {OPENAGHMATHJAX()}(n = 1){OPENAGHMATHJAX} i wyższych harmonicznych {OPENAGHMATHJAX()} (n = 3, 5, 7){OPENAGHMATHJAX} o różnych amplitudach jest pokazane na rysunku poniżej.
+
+{img type="fileId" fileId="385" width="800" noDrawIcon="n"}
+Rys. 13.10. Fala wypadkowa będąca złożeniem czterech fal harmonicznych
+
+Zwróćmy uwagę, że wypadkowe drganie (chociaż okresowe) nie jest harmoniczne (nie daje się opisać funkcją sinus lub cosinus). Zagadnienie przedstawienia dowolnego drgania okresowego jako sumy drgań harmonicznych ujmuje twierdzenie Fouriera, które mówi, że
+
+{OPENAGHDEFINITION()}Dowolne drganie okresowe o okresie {OPENAGHMATHJAX()}T{OPENAGHMATHJAX} możemy przedstawić jako kombinację liniową (sumę) drgań harmonicznych o okresach danych wzorem {OPENAGHMATHJAX()}T_{n} = T/n{OPENAGHMATHJAX}, gdzie {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} jest liczbą naturalną.{OPENAGHDEFINITION}
+
+Dotyczy to dowolnej funkcji okresowej więc można na przykład skonstruować za pomocą fal sinusoidalnych (które są wszędzie zakrzywione) przebieg piłokształtny , który jest złożony z odcinków prostych.
+
+{img type="fileId" fileId="386" width="800" noDrawIcon="n"}
+
+Rys. 13.11. Złożenie {OPENAGHMATHJAX()} n = 10 {OPENAGHMATHJAX} drgań harmonicznych postaci {OPENAGHMATHJAX()}{\sin({n\omega t})/n}{OPENAGHMATHJAX} (wykres górny) oraz pięć pierwszych drgań składowych (wykres dolny)

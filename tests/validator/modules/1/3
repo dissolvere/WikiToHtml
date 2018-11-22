@@ -1,0 +1,220 @@
+Autor rozpoczyna pracę z edytorem w momencie wybrania interesującego modułu z modułów przydzielonych mu przez koordynatora i kliknięcia __"Edytuj tę stronę"__ u dołu strony.
+
+{maketoc title="
+
+
+
+Spis treści
+
+"}
+
+!!Elementy edytora
+Edytor składa się z kilku podstawowych elementów:
+
+{img fileId="57" styleimage="border"}
+ 
+
+*Nazwa edytowanej strony (__ramka 1 na screenie__)
+*Podgląd modułu - __(ramka 2 ____na screenie__)
+*Toolbary (czyli paski z narzędziami, dzięki którym możemy dodawać do strony komponenty typu "Obrazek", "Twierdzenie", "Link" oraz narzędziami bezpośrednio ułatwiającymi nam pracę, np. "Zobacz źródło strony", "Cofnij", "Powtórz", "Znajdź na stronie" - __ramka 3 na screenie__)
+*Obszar edycji, w którym wprowadzamy zmiany oraz widzimy aktualny podgląd strony (__ramka 4 na screenie)__
+*Opis zmian (tu opisujemy wprowadzone przez nas zmiany - __ramka 5 na screenie__)
+*Operacje na stronie (możemy zobaczyć wprowadzone przez nas zmiany klikając "Podgląd", zapisać je klikając "Zapisz", lub odrzucić i opuścić edytor klikając "Anuluj edycję" (__ramka 6 na screenie__)
+!!Nagłówki
+Moduł podzielony jest na tzw. "paragrafy" (każdorazowe kliknięcie ENTER to dodanie paragrafu). Aby strona była przejrzysta, pomiędzy paragrafami umieszczamy nagłówki. Nagłówki zachowują hierarchię (nagłówek o numerze niższym od poprzedniego do niego należy). W celu utworzenia nagłówka:
+
+*Wpisujemy nazwę nagłówka i zaznaczamy ją myszką
+*Wybieramy odpowiedni rozmiar nagłówka (będący jednocześnie jego "wagą") z rozwijanego pola pośrodku drugiego toolbara ({img src="lib/ckeditor_tiki/ckeditor-icons/format.gif"}), np. __Nagłówek 1, Nagłówek 2__ itp.
+*Klikamy ENTER i kontynuujemy pracę
+!!Pomocne narzędzia
+W pierwszych dwóch toolbarach znajdują się głównie proste narzędzia ułatwiające pracę autorom znane z większości programów edytorskich. Poniżej ich opis wraz z ikonami (ikony mogą się różnić w zależności od wersji edytora):
+
+!!!!Toolbar 1
+*({img src="img/icons/ico_bold.gif"}) Pogrubienie - po kliknięciu zaznaczony tekst staje się wyboldowany
+*({img src="img/icons/ico_undo.gif"}) Cofnij (CTRL+Z)
+*({img src="img/icons/ico_redo.gif"}) Powtórz (CTRL+Y)
+*({img src="img/icons/find.gif"}) Znajdź na stronie - po kliknięciu pojawia się nam okienko, dzięki któremu możemy wyszukać w obrębie modułu interesujący nas tekst
+*({img src="img/icons/text_replace.png"}) Zamień na stronie - po kliknięciu pojawia się nam okienko, dzięki któremu możemy zamienić podany tekst na inny
+*({img src="lib/ckeditor_tiki/ckeditor-icons/specialchar.gif"}) Znak specjalny - po kliknięciu pojawia się nam okienko, dzięki któremu możemy dodać do tekstu znak specjalny
+*({img src="img/icons/help.gif"}) Pomoc - po kliknięciu możemy dowiedzieć się więcej o edytorze i edycji (narazie w języku angielskim)
+*({img src="img/icons/ico_save.gif"}) Zapisz - wymusza zapisanie się aktualnie edytowanego przez nas modułu
+*({img src="img/icons/pencil_go.png"}) Zmień edytor - zmienia edytor z wizualnego na tekstowy (i na odwrót). W edytorze tekstowym możemy wyedytować bezpośrednio źródło strony
+!!!!Toolbar 2
+*({img src="img/icons/cut.png"}) Wytnij - po kliknięciu zaznaczony tekst zostaje wycięty z okna edycji (działa tylko z niektórymi przeglądarkami)
+*({img src="img/icons/ico_copy.gif"}) Kopiuj - po kliknięciu zaznaczony tekst zostaje skopiowany do schowka (działa tylko z niektórymi przeglądarkami)
+*({img src="img/icons/ico_paste.gif"}) Wklej - po kliknięciu zaznaczony tekst zostaje wklejony ze schowka do okna edycji (działa tylko z niektórymi przeglądarkami)
+*({img src="lib/ckeditor_tiki/ckeditor-icons/format.gif"}) Narzędzie formatowania, o którym była mowa w sekcji "Nagłówki"
+*({img src="img/icons/text_align_left.png"}) Wyrównaj do lewej - po kliknięciu zaznaczony tekst zostaje wyrównany do lewej strony
+*({img src="img/icons/text_align_center.png"}) Wyrównaj do środka - po kliknięciu zaznaczony tekst zostaje wyrównany do środka
+*(__Źródło dokumentu__) Wyświetl źródło strony - po kliknięciu możemy podglądnąć źródło strony (ponowne kliknięcie tego przycisku powraca do strony edycji)
+*({img src="img/icons/application_get.png"}) Wersja pełnoekranowa - po kliknięciu uruchomiona zostanie wersja pełnoekranowa edytora
+!!Listy numerowane i nienumerowane
+W celu wstawienia listy numerowanej lub wypunktowania:
+
+*Wypisujemy elementy listy jeden pod drugim, oddzielając ENTERAMI
+*Zaznaczamy wszystkie elementy listy
+*Klikamy przycisk ({img src="img/icons/text_list_bullets.png"}) w celu uzyskania wypunktowania lub ({img src="img/icons/text_list_numbers.png"}) w celu uzyskania listy numerowanej
+Dodatkowo w edytorze tekstowym poprzez kilkakrotne użycie przycisków ({img src="img/icons/text_list_bullets.png"}) lub ({img src="img/icons/text_list_numbers.png"}) pod rząd możemy uzyskać listy wielopoziomowe.
+
+!!Odnośniki
+!!!!Do innego modułu
+W celu wstawienia odnośnika do innego modułu:
+
+*Klikamy ikonę ({img src="img/icons/page_link.png"})
+*W pole "Show this text" wpisujemy tekst, jaki chcemy, aby wyświetlił się na stronie
+*W pole "Link to this page" wpisujemy nazwę modułu
+*W pole "Anchor" wpisujemy opcjonalnie nazwę paragrafu, do którego chcemy się bezpośrednio odwołać
+*Klikamy "Insert"
+!!!!Do strony zewnętrznej
+W celu wstawienia odnośnika do strony zewnętrznej:
+
+*Klikamy ikonę ({img src="img/icons/world_link.png"})
+*W pole "Adres URL" wpisujemy adres strony, do której chcemy się odwołać
+*Pola w pozostałych zakładkach wypełniamy opcjonalnie
+*Klikamy "OK"
+!!Tabele
+W celu wstawienia tabeli korzystamy z narzędzia "Table builder"
+
+*Klikamy ikonę ({img src="img/icons/table.png"})
+*W edytorze tekstowym:
+**Znacznikami ({img src="img/icons/add.png"}) powiększamy tabelę do żądanego rozmiaru, po czym uzupełniamy poszczególne komórki tekstem
+**Klikamy "Insert"
+**Możemy teraz łączyć komórki, dodatkowy znak "|" przed tekstem czyni komórkę, w której ten tekst się znajduje szerszą o 1 pole
+*W edytorze wizualnym:
+**W pola "Liczba wierszy" i "Liczba kolumn" wpisujemy liczbę kolumn i wierszy
+**Klikamy "OK"
+**Uzupełniamy komórki tekstem
+**Możemy teraz wykonywać operacje na komórkach, wierszach i kolumnach klikając na tabelę prawym przyciskiem myszy (min. łączyć, dzielić, dodawać, usuwać komórki)
+!!Grafika
+__UWAGA__
+Prosimy o zapisywanie grafik w czystym formacie SVG. 
+
+*Jeśli grafiki powstają w Corelu w momencie eksportowania rysunku do formatu svg > w polu "opcja stylu" trzeba wybrać "Atrybuty prezentacji" i tak zapisane rysunki wgrać na e-podręczniki. 
+*Jeśli grafiki powstają w Inkscape w momencie zapisu do formatu snv należy wybrać "czysty format SVG".
+W celu wstawienia grafiki na stronę:
+
+*Klikamy ikonę ({img src="img/icons/pictures.png"}) (__nr 1 na screenie__)
+*Jeżeli grafika znajduje się już w bazie:
+**Klikamy przycisk "Przeglądaj galerię"
+**Wybieramy żądany obrazek klikając na jego nazwę
+{img fileId="54" styleimage="border"}
+
+*Jeżeli grafika nie znajduje się w bazie:
+**Wpisujemy nazwę pliku do wyświetlenia w galerii, tekst alternatywny i opis. Opis będzie wyświetlany pod obrazkiem dodanym do modułu. (__nr 2,3,4 na screenie__) 
+**Wybieramy grafikę z dysku. Możliwe jest wybranie kilku plików do uploadu. W takim przypadku nie jest zalecane wpisywanie nazwy pliku, tekstu alternatywnego oraz opisu (__nr 5 na screenie__) 
+**Klikamy "Upload file" (__nr 6 na screenie__) 
+**Klikamy napis "Click here to use the file" (__nr 7 na screenie__) 
+{img fileId="58" styleimage="border"}
+
+Po wstawieniu obrazka na stronę edycji możemy go edytować. W tym celu klikamy prawym przyciskiem na obrazkek i wybieramy opcję "Tiki plugin" (__nr 8 na screenie__). Teraz możemy nadać między innymi te opcje:
+
+*Thumbnail - po włączeniu tej opcji nasz obrazek będzie widoczny jedynie jako miniaturka możiwa do powiększenia do pełnego rozmiaru
+*Image width/height - szerokość i wysokość obrazka na stronie
+*(W "Advanced options") Align image - po włączeniu tej opcji nasza grafika usadowi się np. po prawej lub lewej stronie tekstu, co da efekt "opływania"
+Po zakończonej edycji klikamy "Insert" (__nr 9 na screenie__)
+
+!!Animacje w HTML5
+Animację należy przed wgraniem spakować do formatu ZIP. W głównym katalogu animacji MUSI znajdować się plik index.html służący do jej uruchomienia w przeglądarce.
+
+*Do wgrania animacji do bazy korzystamy z narzędzia{img type="src" src="img/icons/openagh/wikiplugin_openaghuploadanimation.png" noDrawIcon="n"}
+*Należy wpisać nazwę, opis i tekst alternatywny dla animacji oraz obrazka zastępczego
+*Wybieramy plik animacji (zip) oraz obrazek zastępczy
+*Klikamy "Upload File"
+*W celu dodania animacji do modułu korzystamy z pluginu {img type="src" src="img/icons/openagh/wikiplugin_openaghanimation.png" noDrawIcon="n"}
+*Klikamy "Insert"
+ 
+
+!!Filmy video
+W celu dodania filmu:
+
+*Z Vimeo:
+**Klikamy ikonę ({img src="img/icons/vimeo.png"}) i wpisujemy URL z adresu vimeo.com
+**Wpisujemy tekst alternatywny
+**Wybieramy obrazek zastępczy z galerii
+*Z Youtube:
+**Klikamy ikonę ({img src="img/icons/youtube.png"}) i wpisujemy URL z adresu youtube.com
+**Wpisujemy tekst alternatywny
+**Wybieramy obrazek zastępczy z galerii.
+*Materiał video lub audio:
+**Jeżeli materiał nie znajduje się jeszcze w bazie należy go wgrać za pomocą narzędzia({img type="src" src="img/icons/openagh/wikiplugin_openaghuploadanimation.png" noDrawIcon="n"} )
+**Klikamy ikonę ({img src="img/icons/mime/avi.png"}) i wybieramy plik multimedialny z galerii.
+*Klikamy "Insert"
+Dodatkowo możemy ustawić inne opcje, np. szerokość i wysokość filmu na stronie (pola "Width" i "Height")
+
+!!Załączniki
+W celu dodania załącznika do ściągnięcia:
+
+*Klikamy ikonę ({img src="img/icons/file-manager.png"})
+*W polu "Type" wybieramy "File Gallery File/Archive"
+*Klikamy na napis "Pick a file" a potem przycisk "Upload file" i postępujemy zgodnie z instrukcjami zawartymi w sekcji "Grafika" ([#Grafika|LINK]) (w zależności od tego, czy mamy już plik w galerii czy nie)
+!!Otoczenia matematyczne
+W celu dodania formuły matematycznej do modułu:
+
+*Klikamy ikonę ({img src="img/icons/openagh/wikiplugin_openaghmathjax.png"})
+*W pustym polu wpisujemy kod MathJax
+*Klikamy "Insert"
+Dokumentacja MathJax dostępna jest na stronie [http://docs.mathjax.org/en/latest/]. Czasami zdarza się, że musimy wkleić kod MathJax bez dostępu do menu, np. wewnątrz twierdzenia. Wtedy wystarczy go po prostu otoczyć formułą __ ... __
+
+!!Proste style OpenAGH
+W celu dodania prostego stylu typu __Lemat, Definicja, Przykład, Prawo, Zasada, Wniosek, Podsumowanie, Wyprowadzenie, Informacja dodatkowa, Uwaga__:
+
+*Klikamy ikonę odpowiednią dla stylu np. ({img src="img/icons/openagh/wikiplugin_openaghdefinition.png"})
+*W polu "Nazwa" opcjonalnie wpisujemy nazwę np. Definicji
+*W polu "Treść" wpisujemy treść np. Definicji
+*Klikamy "insert"
+Możemy także wpisać definicję do pola edycji, zaznaczyć ją i dopiero kliknąć ({img src="img/icons/openagh/wikiplugin_openaghdefinition.png"}). Definicje, jak i wszystkie style OpenAGH są automatycznie numerowane, a ich numery są po kolei wyświetlane.
+
+!!Bibliografia
+W celu dodania pojedynczego opisu bibliograficznego:
+
+*Klikamy ikonę ({img src="img/icons/openagh/wikiplugin_openaghquotation.png"}) - "Pozycja bibliografii"
+*Uzupełniamy dane bibliograficzne, które zostaną wyświetlone w bibliografii (np. autor, tytuł, rok)
+*Klikamy "insert"
+Pozycje bibliografii są numerowane i wyświetlane razem z linkiem, dzięki któremu można przenieść się do bibliografii. W celu dodania bibliografii umieszczamy wskaźnik u dołu pola edycji i klikamy ikonę ({img src="img/icons/openagh/wikiplugin_openaghquotation.png"}) - "Bibliografia", po czym wpisujemy nagłówek, który ją poprzedzi i klikamy "Insert". W bibliografii wyświetlane są wszystkie wcześniejsze opisane przez nas pozycje bibliografii w kolejności pojawienia się na stronie.
+
+!!Przypisy i lista przypisów
+Przypisy działają analogicznie jak wstawianie bibliografii, jednak nie są aż tak rozbudowane. W celu wstawienia przypisów i wyświetlenia ich listy korzystamy z ikon ({img src="img/icons/openagh/wikiplugin_openaghnote.png"})
+
+!!Twierdzenia
+W celu dodania twierdzenia:
+
+*Klikamy ikonę ({img src="img/icons/openagh/wikiplugin_openaghtheorem.png"})
+*Uzupełniamy Założenie, Tezę oraz opcjonalnie Nazwę i Dowód (w "Advanced options")
+*Klikamy "Insert"
+Twierdzenia są automatycznie numerowane, a ich numery są po kolei wyświetlane.
+
+!!Zadania
+W celu dodania zadania:
+
+*Klikamy ikonę ({img src="img/icons/openagh/wikiplugin_openaghexercise.png"})
+*Uzupełniamy Treść zadania oraz opcjonalnie Nazwę i Rozwiązanie (w "Advanced options")
+*Klikamy "Insert"
+Zadania są automatycznie numerowane, a ich numery są po kolei wyświetlane.
+
+!!Import LATEXa
+Narzędzie {img src="img/icons/openagh/wikiplugin_openaghlatex2wiki.png"} umożliwia import dokumentu LATEX.
+
+*Jeżeli dokomument zawiera obrazki zaleca się najpierw je wgrać do bazy. Ważne aby nazwy plików były takie same jak w dokumencie LATEX. Narzędzie automatycznie doda obrazki z bazy do modułu.
+*Wklejamy skrypt LATEX do pola tekstowego
+*Klikamy "Wyślij zapytanie"
+*Klikamy "Wstaw do edytora"
+ 
+
+!!Odwołania do grafiki, multimediów, tabel i wzorów
+Aby odwołać się do zdjęcia, filmu, animacji, tabeli lub wzoru:
+
+*Przed elementem do którego się odwołujemy wstawiamy kontwicę za pomocą narzędzia {img src="img/icons/anchor.png"}
+*Wpisujemy nazwę kotwicy
+*W miejscu w którym chcemy się odwołać do danego elementu wstawiamy WikiLink ({img src="img/icons/page_link.png"})
+*W polu "Show this text" wpisujemy tekst widoczyny w module. Będzie on linkiem do kotwicy
+*W polu "Link to this page" wpisujemy nazwę modułu
+*W polu "Anchor" wpisujemy nazwę kotwicy do której chcemy się odwołać
+ 
+
+!!Edytor tekstowy
+W edytorze tekstowym po kliknięciu na pluginy odpowiedzialne za otoczenia OpenAGH ich składnia jest wstawiana bezpośrednio do modułu. W edytorze wizualnym pojawia się okno z formularzem do wypełnienia.
+
+!!Istotne uwagi na zakończenie
+*Przeglądając stronę jako użytkownik (nie poprzez edytor) możemy rozpocząć jej edycję przyciskiem "Edytuj tę stronę". Możemy też jednak edytować tylko daną sekcję (sekcja to element strony poprzedzony nagłówkiem) za pomocą przycisku ({img src="img/icons/page_edit_section.png"})
+*Przed podjęciem jakiegoś istotnego działania w edytorze (a w szczególności przed zmianą edytora wizualnego na tekstowy) należy zawsze wymusić zapisanie się strony przyciskiem ({img src="img/icons/ico_save.gif"})
+ 

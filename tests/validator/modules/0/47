@@ -1,0 +1,30 @@
+Wahadło proste (matematyczne) jest to wyidealizowane ciało o masie punktowej, zawieszone na cienkiej, nieważkiej, nierozciągliwej nici. Kiedy ciało wytrącimy z równowagi to zaczyna się ono wahać w płaszczyźnie poziomej pod wpływem siły ciężkości. Jest to ruch okresowy. Znajdźmy okres {OPENAGHMATHJAX()}T{OPENAGHMATHJAX}  tego ruchu. Rysunek poniższy przedstawia wahadło o długości {OPENAGHMATHJAX()}l{OPENAGHMATHJAX}  i masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} , odchylone o kąt {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} od pionu.
+
+Na masę {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} działa siła grawitacji {OPENAGHMATHJAX()}mg{OPENAGHMATHJAX} i naprężenia nici {OPENAGHMATHJAX()}N{OPENAGHMATHJAX}. Siłę {OPENAGHMATHJAX()}mg{OPENAGHMATHJAX} rozkładamy na składową radialną (normalną) i styczną. Składowa normalna jest równoważona przez naciąg nici {OPENAGHMATHJAX()}N{OPENAGHMATHJAX}. Natomiast składowa styczna przywraca równowagę układu i sprowadza masę {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} do położenia równowagi.
+
+Składowa styczna siły grawitacji ma wartość
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{F=-{mg}\sin\theta }\end{equation}{OPENAGHMATHJAX}
+
+{img fileId="176"}
+
+Rys. 12.3. Wahadło matematyczne
+
+Zwróćmy uwagę, że to nie jest, w myśl podanej definicji, siła harmoniczna bo jest proporcjonalna do sinusa wychylenia ({OPENAGHMATHJAX()}\sin\theta {OPENAGHMATHJAX}), a nie do wychylenia {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX}. Jeżeli jednak kąt {OPENAGHMATHJAX()}\theta {OPENAGHMATHJAX} jest mały (np. 5 stopni) to {OPENAGHMATHJAX()}\sin\theta {OPENAGHMATHJAX} jest bardzo bliski {OPENAGHMATHJAX()} \theta {OPENAGHMATHJAX} (różnica rzędu 0.1%). Przemieszczenie x wzdłuż łuku wynosi (z miary łukowej kąta) {OPENAGHMATHJAX()}x = l \, \theta{OPENAGHMATHJAX}. Przyjmując zatem, że {OPENAGHMATHJAX()}\sin\theta \approx\theta {OPENAGHMATHJAX} otrzymujemy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{F=-{mg}\theta=-{\frac{{mg}}{l}}x}\end{equation}{OPENAGHMATHJAX}
+
+Tak więc dla małych wychyleń siła jest proporcjonalna do przemieszczenia i mamy do czynienia z ruchem harmonicznym. Równanie (12.11) jest analogiczne do równania (12.1) przy czym {OPENAGHMATHJAX()}k = mg/l{OPENAGHMATHJAX}. Możemy więc skorzystać z zależności (12.9) i obliczyć okres wahań
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{T=2\pi \sqrt{\frac{m}{k}}=2\pi \sqrt{\frac{l}{g}}}\end{equation}{OPENAGHMATHJAX}
+
+Okres wahadła prostego nie zależy od amplitudy i od masy wahadła.
+
+Zauważmy, że pomiar okresu T może być prostą metodą wyznaczenia przyspieszenia g.
+
+Spróbuj wykonać takie doświadczenie. Na nitce (możliwie długiej np. 1.5 m) zawieś niewielki ciężarek. Następnie wychyl wahadło o niewielki kąt (żeby było spełnione kryterium ruchu harmonicznego) i zmierz okres wahań. Żeby zmniejszyć błąd pomiaru czasu zmierz okres kilku wahań (np. 10) i potem oblicz T. Ze wzoru (12.12) wylicz przyspieszenie g.

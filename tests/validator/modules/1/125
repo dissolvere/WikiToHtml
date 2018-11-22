@@ -1,0 +1,247 @@
+__Na stronie pokazowej dodawane będą przykłady zastosowania kolejnych elementów edytora wymienionych w funkcjonalności. Ta strona została wyedytowana za pomocą edytora nie-wizualnego.__
+
+{BOX( title="Wyrażenia matematyczne")}Możliwość dodawania wyrażeń matematycznych z biblioteki MathJax{BOX}
+__Przykład 2 (symbole i zmienne)__:{OPENAGHMATHJAX()}\( \approxeq \aleph \between \bigodot \bigstar \biguplus \checkmark \circlearrowleft \circledR \geqslant \heartsuit \iff \Delta \Lambda \mho \spadesuit \TeX \vartheta \){OPENAGHMATHJAX}
+
+__Przykład 3 (jednostki)__: Przyspieszenie ziemskie wynosi około {OPENAGHMATHJAX()}\(10 \frac{\text{m}}{\text{s}^2}\){OPENAGHMATHJAX}
+
+__Przykład 4 (bloki z wyrównaniem)__: przykład znajduje się poniiżej, w sekcji "Wyprowadzenie"
+
+__Przykład 5 (inne czcionki)__: w tym przypadku blackboard-bold, sans serif i calligraphic
+
+{OPENAGHMATHJAX()}\[
+\Bbb{PRZYKLAD ABCDEFG} \\
+\sf Napis \\
+\cal COSTAM
+\]{OPENAGHMATHJAX}
+. Czasami bowiem potrzebujemy połączyć ciągły tekst z niemożliwymi do osiągnięcia bez biblioteki Mathjax wstawkami. Zapobiega to samoistnemu podzieleniu się tekstu na niepożądane paragrafy.
+
+{BOX(title="Wyliczenia, wypunktowania")}
+Prosty sposób na tworzenie list numerowanych.  
+{BOX}
+Tu nic nie będzie {openaghnote note="A jednak!"}
+
+{BOX(title="Tabele")}
+Istnieje także możliwość sortowania (jak np. w Wikipedii).
+{BOX}
+ 
+
+||Nagłówek
+1|2|3
+4|5|6||
+ 
+
+{BOX( title="Ilustracje")}Możliwość wrzucenia grafiki rastrowej lub wektorowej. Mnogość różnych opcji (np. narzędzie powiększające). Poniżej:
+*grafika rastrowa PDF, rozmiar oryginalny, włączona ramka, wyłączone dodatkowe opcje
+*grafika wektorowa SVG, możliwość edycji po kliknięciu na ikonę edycji przy obrazku{BOX}
+
+{img fileId="2" styleimage="border" imalign="right"}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nunc purus, laoreet bibendum viverra non, vestibulum vitae nulla. Proin quis mi neque. Suspendisse vulputate sagittis faucibus. Proin felis purus, faucibus nec nibh et, porttitor posuere erat. Maecenas aliquam, ante et interdum aliquam, justo lacus vehicula risus, ac adipiscing urna tortor a ligula. Donec posuere urna malesuada nibh feugiat dignissim. Nam at sapien ligula. Ut vestibulum est vitae libero pretium, et ornare magna hendrerit. Suspendisse eget sem faucibus, malesuada lorem vitae, tristique tortor. Aenean sollicitudin ipsum ac volutpat luctus. Proin lectus eros, ultricies ac dui vel, semper convallis massa. Nam non gravida ligula. Nam vel convallis diam, id mattis ipsum. Nulla ultrices sollicitudin magna. Vestibulum vitae ligula id magna lobortis tempor at id metus.
+
+{img fileId="5"}
+ 
+
+{BOX( title="Filmy")}Możliwość wyświetlenia filmu poprzez player YouTube, player Vimeo lub player domyślny (należy podać adres filmu na zewnętrznym serwerze).{BOX}
+ 
+
+{youtube movie="http://www.youtube.com/watch?v=qr6Q0BpmyG0" width="320" height="180" quality="medium" allowFullScreen="y"}
+(youtube)
+
+{vimeo url="http://vimeo.com/16806398" width="320" height="180" quality="medium"}
+(vimeo)
+
+{mediaplayer src="http://thud.us/videos/misc/xvid-samples/flyby-xvid-mpeg-q2.avi" width="320" height="180" style="normal"}(player domyślny przeglądarki)
+
+{BOX(title="Kod źródłowy")}Funkcjonalność tiki pozwala także na kolorowanie składni. Algorytmy (pseudokody) będą realizowane w obrębie tego pluginu.{BOX}
+
+Przykładowy kod PHP:
+
+{CODE( colors="php" ln="1")}<?
+//Wyświetlanie daty w PHP
+
+$dzien = date('d');
+$dzien_tyg = date('l');
+$miesiac = date('n');
+$rok = date('Y');
+
+$miesiac_pl = array(1 => 'stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia');
+
+$dzien_tyg_pl = array('Monday' => 'poniedziałek', 'Tuesday' => 'wtorek', 'Wednesday' => 'środa', 'Thursday' => 'czwartek', 'Friday' => 'piątek', 'Saturday' => 'sobota', 'Sunday' => 'niedziela');
+
+echo $dzien_tyg_pl[$dzien_tyg].", ".$dzien." ".$miesiac_pl[$miesiac]." ".$rok."r.";
+?>{CODE}
+
+Przykładowy kod JavaScript:
+
+{CODE( colors="css" ln="1")}
+// <![CDATA[
+if (self == parent) document.write('
+::__UWAGA!__ To jest tylko ramka - wróć do [index.html|__STRONY GŁÓWNEJ__]::
+---
+
+');
+// ]]>
+{CODE}
+ 
+
+{BOX( title="Załączniki")}Po kliknięciu na załącznik zostaje on pobrany na dysk. Dla niektórych formatów dodatkowo specjalna infografika.{BOX}
+{file type="gallery" fileId="3" showicon="y"} {file type="gallery" fileId="4" showicon="y"}
+
+{BOX( title="Lemat")}Możliwy lemat z nazwą lub bez{BOX}
+{OPENAGHLEMMA()}Jeśli dwa trójkąty mają wspólną podstawę i równe wysokości, to ich pola są równe.{OPENAGHLEMMA}
+
+{OPENAGHLEMMA( name="O polach trójkątów")}Jeśli dwa trójkąty mają wspólną podstawę i równe wysokości, to ich pola są równe.{OPENAGHLEMMA}
+
+{BOX( title="Definicje")}Możliwa definicja z nazwą lub bez{BOX}
+{OPENAGHDEFINITION()}Kwadratem nazywamy romb o przystających kątach wewnętrznych.{OPENAGHDEFINITION}
+
+{OPENAGHDEFINITION( name="Kwadrat")}Kwadratem nazywamy romb o przystających kątach wewnętrznych.{OPENAGHDEFINITION}
+
+{BOX( title="Przykład")}Możliwy przykład z nazwą lub bez{BOX}
+Przykłady na liczenie pola kwadratu:
+
+{OPENAGHEXAMPLE()}Dla kwadratu o boku długości a równej 10:
+P=a*a=100{OPENAGHEXAMPLE}
+ 
+
+{OPENAGHEXAMPLE( name="Dla wartości z jednostkami")}Dla kwadratu o boku długości a równej 10cm:
+P=a*a=100 cm kw{OPENAGHEXAMPLE}
+ 
+
+{BOX( title="Prawo")}Możliwe prawo z nazwą lub bez{BOX}
+{OPENAGHLAW()}Dla prądu stałego proporcjonalność napięcia U i prądu I wyraża się wzorem U = R I{OPENAGHLAW}
+
+{OPENAGHLAW( name="Prawo Ohma")}Dla prądu stałego proporcjonalność napięcia U i prądu I wyraża się wzorem U = R I{OPENAGHLAW}
+
+{BOX( title="Zasada")}Możliwa zasada z nazwą lub bez{BOX}
+{OPENAGHRULE()}W układzie izolowanym suma wszystkich rodzajów energii układu jest stała.{OPENAGHRULE}
+
+{OPENAGHRULE( name="Zasada zachowania energii")}W układzie izolowanym suma wszystkich rodzajów energii układu jest stała.{OPENAGHRULE}
+
+{BOX( title="Wniosek")}Możliwy wniosek z nazwą lub bez{BOX}
+Wnioski z twierdzenia odwrotnego do twierdzenia Talesa:
+
+{OPENAGHCONCLUSION()}Linia środkowa jest równoległa do odpowiadającego jej boku. Jej długość jest dwukrotnie mniejsza od długości tego boku.{OPENAGHCONCLUSION}
+
+{OPENAGHCONCLUSION( name="Twierdzenie o linii środkowej")}Linia środkowa jest równoległa do odpowiadającego jej boku. Jej długość jest dwukrotnie mniejsza od długości tego boku.{OPENAGHCONCLUSION}
+
+{BOX( title="Podsumowanie")}Możliwe podsumowanie z nazwą lub bez{BOX}
+Z "Coding standards" warto zapamiętać:
+
+{OPENAGHSUMMARY()}Premature optimalization is a root of all evil{OPENAGHSUMMARY}
+
+{OPENAGHSUMMARY( name="Uwaga, ważne!")} Zawsze staraj się pamiętać o tym, żeby po "if" dawać klamry{OPENAGHSUMMARY}
+
+{BOX( title="Wyprowadzenie")}Możliwe wyprowadzenie z nazwą lub bez{BOX}
+Wyprowadzenia wzoru na pole trójkąta równobocznego:
+
+{OPENAGHDERIVATION()}{OPENAGHMATHJAX()}\[\begin{aligned}
+P & = \frac{1}{2} * a * h \\
+P & = \frac{1}{2} * a * \frac{a\sqrt{3}}{2} \\
+P & = \frac{a^2\sqrt{3}}{4}
+\end{aligned}\]
+\[
+\left[
+\begin{array}
+[c]{ccc}%
+1 & 2 & 21\\
+2 & 2 & 2
+\end{array}
+\right] 
+\] {OPENAGHMATHJAX}{OPENAGHDERIVATION}
+ 
+
+{OPENAGHDERIVATION( name="Jakieś inne")}{OPENAGHMATHJAX()}\[\begin{aligned}
+P & = \frac{1}{2} * b * c * \sin{\alpha} \\
+P & = \frac{1}{2} * a * a * \sin{30^\circ} \\
+P& = \frac{a^2}{2} * \frac{\sqrt{3}}{2} \\
+P & < \frac{a^2\sqrt{3}}{4}
+\end{aligned}\]{OPENAGHMATHJAX}{OPENAGHDERIVATION}
+ 
+
+{BOX( title="Informacja dodatkowa")}Możliwa informacja dodatkowa z nazwą lub bez{BOX}
+{OPENAGHINFORMATION()}Więcej ciekawych zadań znajdziesz w archiwum Olimpiady Matematycznej{OPENAGHINFORMATION}
+
+{OPENAGHINFORMATION( name="Gdzie warto zajrzeć")}Więcej ciekawych zadań znajdziesz w archiwum Olimpiady Matematycznej{OPENAGHINFORMATION}
+
+{BOX( title="Uwaga")}Możliwa uwaga z nazwą lub bez{BOX}
+{OPENAGHANNOTATION()}Podczas wykonywania doświadczeń chemicznych zawsze zachowuj zasady ostrożności!{OPENAGHANNOTATION}
+
+{OPENAGHANNOTATION( name="Numery alarmowe")}Numerem alarmowym na terenie USA i Kanady jest 911{OPENAGHANNOTATION}
+
+{BOX( title="Paragraf")}Tekst modułu dzielimy na paragrafy w celu późniejszej wygodniejszej edycji. Numeracja zachodzi automatycznie. Bezpośredni link do paragrafu to: http://open.agh.edu.pl/tiki-index.php?page=__nazwa_podstrony__#__nazwa_paragrafu__ {BOX}
+ 
+
+!# Matematyka
+Tutaj zaczyna się ciało paragrafu numerowanego "Matematyka". Można go w całości wyedytować tutaj ->
+
+!!# Geometria
+Tutaj zaczyna się i kończy ciało paragrafu nienumerowanego "Geometria". Można go w całości wyedytować tutaj ->
+
+!!# Analiza
+Tutaj zaczyna się i kończy ciało paragrafu nienumerowanego "Analiza". Można go w całości wyedytować tutaj ->
+
+!!# Algebra
+Tutaj zaczyna się i kończy ciało paragrafu nienumerowanego "Algebra". Można go w całości wyedytować tutaj ->
+
+!# Fizyka
+Tutaj zaczyna się ciało paragrafu numerowanego "Fizyka". Można go w całości wyedytować tutaj ->
+
+!!# Dynamika
+Tutaj zaczyna się i kończy ciało paragrafu nienumerowanego "Dynamika". Można go w całości wyedytować tutaj ->
+
+!!# Elektrostatyka
+Tutaj zaczyna się i kończy ciało paragrafu nienumerowanego "Elektrostatyka". Można go w całości wyedytować tutaj ->
+
+{BOX(title="Pozycja bibliografii")}Pozycję bibliografii można uzupełnić min o autora, rok, miejsce itp.  {BOX}
+Socyalizm nierówności wszelkie prędko utrze, Szlachtę powiesi jutro, nie szlachtę pojutrze.{openaghquotation author="Aleksander Fredro" location="Warszawa" year="1880"}
+
+Liczby rządzą światem.{openaghquotation author="Pitagoras" url="http://pl.wikiquote.org/wiki/Pitagoras"}
+
+Być albo nie być! Oto jest pytanie! {openaghquotation}
+
+{BOX( title="Twierdzenie")}Każde twierdzenie zawiera założenia oraz tezę. Opcjonalnie może zawierać też nazwę i dowód.{BOX}
+ 
+
+{openaghtheorem name="Twierdzenie Cosinusów" assumptions="Trójkąt:
+a,b,c - boki
+{OPENAGHMATHJAX()}\(\alpha\){OPENAGHMATHJAX} - kąt naprzeciwko boku a
+{OPENAGHMATHJAX()}\(\beta\){OPENAGHMATHJAX} - kąt naprzeciwko boku b
+{OPENAGHMATHJAX()}\(\gamma\){OPENAGHMATHJAX} - kąt naprzeciwko boku c" thesis="{OPENAGHMATHJAX()}\(c^2=a^2 + b^2 - 2ab \cos \alpha\){OPENAGHMATHJAX}" proof="Opuszczając wysokość na bok c mamy:
+{OPENAGHMATHJAX()}\(c = a \cos \beta + b \cos \alpha\){OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}\(c^2  = ac \cos \beta + bc \cos \alpha\){OPENAGHMATHJAX}
+Więc analogicznie:
+{OPENAGHMATHJAX()}\(a^2 = ac \cos \beta + ab \cos \gamma\){OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}\(b^2 = bc \cos \alpha + ab \cos \gamma\){OPENAGHMATHJAX}
+Sumując stronami:
+{OPENAGHMATHJAX()}\(a^2 + b^2 = ac\cos\beta + bc\cos\alpha + 2ab\cos\gamma\){OPENAGHMATHJAX}
+Odejmując stronami:
+{OPENAGHMATHJAX()}\(a^2 + b^2 - c^2 = - ac\cos\beta - bc\cos\alpha+ ac\cos\beta + bc\cos\alpha + 2ab\cos\gamma\){OPENAGHMATHJAX}
+Co sprowadza się do:
+{OPENAGHMATHJAX()}\(c^2 = a^2 + b^2 - 2ab\cos\gamma\){OPENAGHMATHJAX}"}
+ 
+
+{openaghtheorem assumptions="p - liczba pierwsza" thesis="dla dowolnej liczby całkowitej a, liczba {OPENAGHMATHJAX()}\(a^{p-1} - 1\){OPENAGHMATHJAX} dzieli się przez p"}
+ 
+
+{BOX( title="Zadanie")}Opcjonalnie zadanie może zawierać też nazwę i rozwiązanie.{BOX}
+ 
+
+{openaghexercise content="Rzucamy 3 razy sześcienną kostką do gry. Ile jest możliwych wyników?" solution="W pierwszym rzucie mamy 6 możliwości, w drugim rzucie mamy 6 możliwości, w trzecim rzucie mamy 6 możliwości.
+6 ∙ 6 ∙ 6 = 216
+Mamy 216 możliwości."}
+ 
+
+{openaghexercise name="kolejne" content="Ile jest wszystkich liczb trzycyfrowych?"}
+ 
+
+{BOX(title="Bibliografia")}Opcjonalnie możemy dodać nagłówek.{BOX}
+ 
+
+{openaghquotations headline="Bibliografia:"}
+ 
+
+{BOX( title="Lista przypisów")}Opcjonalnie możemy dodać nagłówek.{BOX}
+ 
+
+{openaghnotes headline="Przypisy:"}
+ 

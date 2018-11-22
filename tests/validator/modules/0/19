@@ -1,0 +1,50 @@
+W fizyce mamy do czynienia zarówno z wielkościami skalarnymi jak i wielkościami wektorowymi. Wielkości skalarne takie jak np. masa, objętość, czas, ładunek, temperatura, praca, mają jedynie wartość. Natomiast wielkości wektorowe np. prędkość, przyspieszenie, siła, pęd, natężenie pola, posiadają wartość, kierunek, zwrot i punkt przyłożenia. Poniżej przypominamy podstawowe działania na wektorach.
+
+!!!!# Rozkładanie wektorów na składowe
+
+W działaniach na wektorach operuje się składowymi tych wektorów wyznaczonymi w wybranym układzie odniesienia. 
+
+Składowe wektora wyznaczamy umieszczając początek wektora w początku układu współrzędnych i rzutując koniec wektora na poszczególne osie wybranego układu współrzędnych.
+
+{img fileId="416"}
+Rys. 1.1. Wektor {OPENAGHMATHJAX()}\bf r{OPENAGHMATHJAX} i jego składowe {OPENAGHMATHJAX()}r_{x}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}r_{y}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}r_{z}{OPENAGHMATHJAX} w pewnym układzie współrzędnych.
+
+!!!!# Suma wektorów
+
+W wybranym układzie współrzędnych wektor jest definiowany przez podanie jego współrzędnych np.
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{{\bf a} =(a_{{1}},a_{{2}},a_{{3}})\;\;\;\;\;\;\;\;\;\;{\bf b}=(b_{{1}},b_{{2}},b_{{3}})}
+\end{equation}{OPENAGHMATHJAX}
+
+Zwróćmy w tym miejscu uwagę na przyjętą konwencję. Wszystkie wektory wyróżnione są w tekście czcionką wytłuszczoną.
+
+Sumą dwóch wektorów jest nowy wektor o współrzędnych
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf a}+{\bf b}=(a_{{1}}+b_{{1}},a_{{2}}+b_{{2}},a_{{3}}+b_{{3}})}\end{equation}{OPENAGHMATHJAX}
+
+Geometrycznie jest to przekątna równoległoboku zbudowanego na tych wektorach. Różnicę dwóch wektorów przedstawia druga przekątna (rysunek poniżej).
+
+
+{img fileId="417"}
+Rys. 1.2. Suma i różnica wektorów
+
+!!!!# Iloczyn skalarny
+Iloczyn skalarny dwóch wektorów {OPENAGHMATHJAX()}a \cdot b{OPENAGHMATHJAX}jest liczbą (skalarem) równą iloczynowi wartości bezwzględnych (długości) tych wektorów pomnożony przez cosinus kąta między nimi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf a}\cdot {\bf b}=|{\bf a}|\cdot |{\bf b}|\text{cos}\alpha= ab\text{cos}\alpha }\end{equation}{OPENAGHMATHJAX}
+
+Iloczyn skalarny jest często stosowany do opisu wielkości fizycznych. Przykładem wielkości fizycznej, którą można przedstawić jako iloczyn skalarny dwóch wielkości wektorowych jest praca. Praca jest iloczynemskalarnym siły i przesunięcia.
+
+!!!!# Iloczyn wektorowy
+
+Iloczyn wektorowy dwóch wektorów {OPENAGHMATHJAX()} {\bf a} \times {\bf b} {OPENAGHMATHJAX} jest nowym wektorem {OPENAGHMATHJAX()}{\bf c}{OPENAGHMATHJAX}, którego długość (wartość bezwzględna) jest równa iloczynowi długości tych wektorów i sinusa kąta pomiędzy nimi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf c}=\text{ab}\text{sin}\alpha }\end{equation}{OPENAGHMATHJAX}
+
+Wektor {OPENAGHMATHJAX()} {\bf c} {OPENAGHMATHJAX} jest prostopadły do płaszczyzny wyznaczonej przez wektory {OPENAGHMATHJAX()}{{\bf a}}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}{\bf b}{OPENAGHMATHJAX}. Zwrot jego jest określony regułą śruby prawoskrętnej lub regułą prawej ręki. Jeżeli palce prawej ręki zginają się w kierunku obrotu wektora {OPENAGHMATHJAX()}{\bf a}{OPENAGHMATHJAX} do wektora {OPENAGHMATHJAX()}{\bf b}{OPENAGHMATHJAX} (po mniejszym łuku) to kciuk wskazuje kierunek wektora {OPENAGHMATHJAX()} {\bf c}={\bf a} \times {\bf b}{OPENAGHMATHJAX} tak jak na rysunku poniżej
+
+{img fileId="418"}
+Rys. 1.3. Iloczyn wektorowy
+ 

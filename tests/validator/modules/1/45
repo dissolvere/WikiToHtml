@@ -1,0 +1,69 @@
+Przykładem ruchu obrotowego, w którym oś obrotu nie jest nieruchomą w inercjalnym układzie odniesienia jest bąk wirujący dookoła pewnej osi symetrii. Z doświadczenia wiemy, że oś wirującego bąka porusza się dookoła osi pionowej, zakreślając powierzchnię stożka. Taki ruch nazywamy precesją.
+
+W sytuacji przedstawionej na rysunku poniżej bąk ma prędkość kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} dookoła swej osi. Ma również moment pędu __L__ względem tej osi, która tworzy kąt {OPENAGHMATHJAX()}\theta{OPENAGHMATHJAX} z osią pionową. Punkt podparcia bąka znajduje się w początku inercjalnego układu odniesienia.
+
+{img type="
+fileId
+" fileId="
+188
+"}
+
+Ruch precesyjny bąka
+
+Siła działająca na bąk w punkcie podparcia ma zerowy moment względem punktu podparcia ponieważ ramię siły jest równe zeru. Natomiast ciężar mg wytwarza względem punktu podparcia moment siły}
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{{\bf \unicode[Times]{x3C4}} = {\bf r}\times m{\bf g}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie __r__ określa położenie środka masy. Z iloczynu wektorowego wynika, że {OPENAGHMATHJAX()}{\bf \unicode[Times]{x3C4}} {OPENAGHMATHJAX} jest prostopadłe do __r__ i do m__g__. Zauważmy, że wektory {OPENAGHMATHJAX()}{\bf \unicode[Times]{x3C4}} {OPENAGHMATHJAX}, __L__ i __r__ wirują dokoła osi pionowej z częstością precesji {OPENAGHMATHJAX()}\omega_p {OPENAGHMATHJAX}. Z rysunku wynika, że
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\omega _{{p}}=\frac{\mathit{\Delta \varphi }}{\Delta \;t}}\end{equation}{OPENAGHMATHJAX}
+
+Ponieważ {OPENAGHMATHJAX()}\Delta L \ll L{OPENAGHMATHJAX}, to możemy napisać
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\mathit{\Delta \varphi }\simeq \frac{\mathit{\Delta L}}{L\text{sin}\theta }}\end{equation}{OPENAGHMATHJAX}
+
+Z drugiej zasadę dynamiki ruchu obrotowego równanie (11.11) wynika, że {OPENAGHMATHJAX()}{\Delta L = \tau \Delta t}{OPENAGHMATHJAX}
+więc
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\mathit{\Delta \varphi }\simeq \frac{\mathit{\tau \Delta t}}{L\text{sin}\theta }}\end{equation}{OPENAGHMATHJAX}
+
+Ostatecznie otrzymujemy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\omega _p = \frac{\Delta \varphi}{\Delta t} = \frac{\tau}{L\sin\theta}}\end{equation}{OPENAGHMATHJAX}
+
+Zgodnie z rysunkiem moment siły jest równy
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau =rmg\sin(180^{\circ}-\theta) = rmg\sin\theta}\end{equation}{OPENAGHMATHJAX}
+
+więc ostatecznie
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\omega _{{p}}=\frac{rmg}{L}}\end{equation}{OPENAGHMATHJAX}
+
+Zwróćmy uwagę, że prędkość precesji nie zależy od kąta {OPENAGHMATHJAX()}\theta{OPENAGHMATHJAX} i jest odwrotnie proporcjonalna do wartości momentu pędu.
+
+Spróbujmy teraz podać ogólne wektorowe równanie opisujące precesję. W tym celu najpierw przekształcamy równanie (III.3.6) do postaci
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau =\omega _{{p}}L\sin\theta} \end{equation}{OPENAGHMATHJAX}
+
+Widać, że prawa strona równania jest równa wartości iloczynu wektorowego {OPENAGHMATHJAX()}{\bf \unicode[Times]{x3C9}}_p \times {\bf L}{OPENAGHMATHJAX}. Tak więc ostatecznie wyrażenie wiążące prędkość kątową precesji z momentem siły i momentem pędu ma postać
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{{\bf \unicode[Times]{x3C4}} = {\bf \unicode[Times]{x3C9}} _{{p}}\times {\bf L}}\end{equation}{OPENAGHMATHJAX}
+
+Zjawisko precesji momentu magnetycznego jest podstawą różnych technik doświadczalnych jak np. magnetyczny rezonans jądrowy (MRJ), które znalazły szerokie zastosowanie w badaniach naukowych, technice i medycynie.

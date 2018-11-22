@@ -1,0 +1,49 @@
+__Zjawisko Dopplera__ polega na pozornej zmianie częstotliwości fali z powodu ruchu obserwatora lub źródła fali.
+
+W pracy z 1842 r., Christian Doppler zwrócił uwagę, że barwa świecącego ciała (częstotliwość wysyłanego promieniowania) musi się zmieniać z powodu ruchu względnego obserwatora lub źródła. Zjawisko Dopplera występuje dla wszystkich fal; my szczegółowo rozważymy je dla fal dźwiękowych. Ograniczymy się do przypadku ruchu źródła i obserwatora wzdłuż łączącej ich prostej.
+
+Rozpatrzmy sytuację gdy źródło dźwięku spoczywa, a obserwator porusza się w kierunku źródła z prędkością {OPENAGHMATHJAX()}v_o{OPENAGHMATHJAX} (względem ośrodka).
+Jeżeli fale o długości {OPENAGHMATHJAX()}\lambda {OPENAGHMATHJAX} rozchodzą się z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} to w czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} dociera do nieruchomego obserwatora {OPENAGHMATHJAX()}{{vt}/\lambda }{OPENAGHMATHJAX} fal. Jeżeli obserwator porusza się w kierunku źródła (wychodzi falom na przeciw) to odbiera jeszcze dodatkowo {OPENAGHMATHJAX()}{v_ot/\lambda }{OPENAGHMATHJAX} fal. W związku z tym częstotliwość {OPENAGHMATHJAX()}f \ '{OPENAGHMATHJAX} słyszana przez obserwatora
+
+{OPENAGHMATHJAX(type="block")}
+\begin{equation}
+{f \ '=\frac{\frac{{vt}}{\lambda }+\frac{v_{{o}}t}{\lambda
+}}{t}=\frac{v+v_{{o}}}{\lambda }=\frac{v+v_{{o}}}{\frac{v}{f}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Ostatecznie
+{OPENAGHMATHJAX(type="block")}\begin{equation}{f \ '=f\frac{v+v_{{o}}}{v}}\end{equation}{OPENAGHMATHJAX}
+
+Obserwator rejestruje wyższą częstotliwość niż częstotliwość źródła. Kiedy obserwator oddala się od źródła należy w powyższych wzorach zmienić znak (na minus) prędkości obserwatora {OPENAGHMATHJAX()}v_{o}{OPENAGHMATHJAX}. W tym przypadku częstotliwość zmniejsza się. 
+
+Analogicznie możemy przestudiować przypadek źródła poruszającego się zprędkością {OPENAGHMATHJAX()}v_{z}{OPENAGHMATHJAX} względem nieruchomego obserwatora (i względem ośrodka). Otrzymujemy wtedy zależność
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}{f \ '=f\frac{v}{v-v_{{z}}}}\end{equation}{OPENAGHMATHJAX}
+
+dla przypadku źródła zbliżającego się do obserwatora. Obserwator rejestruje wyższą częstotliwość niż częstotliwość źródła. Gdy źródło oddala się to w powyższym wzorze zmieniamy znak prędkości źródła {OPENAGHMATHJAX()}v_{z}{OPENAGHMATHJAX}. Ta sytuacja jest przedstawiona na rysunku 13.13, gdzie pokazane są powierzchnie falowe dla fal wysłanych ze źródła Z poruszającego się z prędkością {OPENAGHMATHJAX()}v_{z}{OPENAGHMATHJAX} w stronę obserwatora O (rysunek a) w porównaniu do powierzchni falowych dla fal wysłanych znieruchomego źródła (rysunek b). Widzimy, że w przypadku (a) obserwator rejestruje podwyższoną częstotliwość.
+
+{img fileId="384"}
+
+Rys. 13.13. Fale wysyłane przez źródło Z: (a) poruszające się zprędkością {OPENAGHMATHJAX()}v_{z}{OPENAGHMATHJAX} w stronę obserwatora O; (b) przez nieruchome źródło
+
+Zwróćmy uwagę, że zmiany częstotliwości zależą od tego czy porusza się źródło czy obserwator. Wzory (13.38) i (13.39) dają inny wynik dla jednakowych prędkości obserwatora i źródła.
+
+W sytuacji kiedy porusza się zarówno źródło jak i obserwator otrzymujemy zależność będącą połączeniem wzorów (13.39) i (13.40)
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}{f \ '=f\left(\frac{v\pm v_{{o}}}{v\mp v_{{z}}}\right)}\end{equation}{OPENAGHMATHJAX}
+
+Znaki "górne" w liczniku i mianowniku odpowiadają zbliżaniu się źródła i obserwatora, a znaki "dolne" ich oddalaniu się. Powyższe wzory są słuszne gdy prędkości źródła i obserwatora są mniejsze od prędkości dźwięku.
+
+Możesz prześledzić zjawisko Dopplera dla źródła i obserwatora poruszających się wzdłuż łączącej ich prostej korzystając z darmowego programu komputerowego „Efekt Dopplera” 
+
+Zjawisko Dopplera obserwujemy również w przypadku fal elektromagnetycznych, a więc i świetlnych. Opis tego zjawiska dla światła jest inny niż dla fal dźwiękowych. Dla fal dźwiękowych otrzymaliśmy dwa wyrażenia (13.38) i (13.39) na zmianę częstotliwości fali w zależności od tego czy to źródło czy też obserwator poruszają się względem ośrodka przenoszącego drgania (powietrza). Do rozchodzenia się światła nie jest potrzebny ośrodek (światło może rozchodzić się w próżni) ponadto, zgodnie ze szczególną teorią względności Einsteina, prędkość światła nie zależy od układu odniesienia i dlatego częstotliwość fali świetlnej odbieranej przez obserwatora zależy tylko od prędkości względnej źródła światła i obserwatora. Jeżeli źródło i obserwator poruszają się wzdłuż łączącej ich prostej to
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}{f \ '\approx f\sqrt{\frac{1-\beta }{1+\beta }}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie  {OPENAGHMATHJAX()}{\beta =u/c}{OPENAGHMATHJAX}. W tej zależności u jest prędkością względną źródła względem odbiornika, a c prędkością światła. Dla małych wartości prędkości względnej {OPENAGHMATHJAX()}{|u| \ll c}{OPENAGHMATHJAX} powyższy wzór przyjmuje postać
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}{f \ '\approx f\left(1\pm \frac{u}{c}\right)}\end{equation}{OPENAGHMATHJAX}
+
+Znak "+" odnosi się do wzajemnego zbliżania się źródła i obserwatora, a znak "-" do ich wzajemnego oddalania się. Zbliżaniu towarzyszy więc wzrost częstotliwości (dla światła oznacza to przesunięcie w stronę fioletu), a oddalaniu się obniżenie częstotliwości (dla światła oznacza to przesunięcie w stronę czerwieni).
+
+Zjawisko to ma liczne zastosowania: na przykład w astronomii służy do określenia prędkości odległych świecących ciał niebieskich. Porównujemy długości fal światła wysyłanego przez pierwiastki tych obiektów z długościami fal światła wysyłanego przez takie same pierwiastki znajdujące się na Ziemi. To właśnie szczegółowe badania przesunięć ku czerwieni w widmach odległych galaktyk wykazały, że Wszechświat rozszerza się.

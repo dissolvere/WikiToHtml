@@ -1,0 +1,94 @@
+ 
+
+
+W przykładzie powyżej obliczyliśmy energię potencjalną związaną z siłą grawitacyjną w pobliżu powierzchni Ziemi, gdzie przyjmowaliśmy, że siła grawitacji jest stała. Teraz zajmiemy się zagadnieniem bardziej ogólnym i znajdziemy energię potencjalną masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} znajdującej się w dowolnym punkcie nad powierzchnią Ziemi odległym o {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} od środka Ziemi.
+
+Gdy obliczaliśmy grawitacyjną energię potencjalną w pobliżu powierzchni Ziemi (przykład powyżej) właśnie powierzchnię Ziemi przyjmowaliśmy jako punkt odniesienia o zerowej energii potencjalnej. Natomiast dla ogólnych obliczeń punkt odniesienia wybiera się w nieskończoności. Temu położeniu ({OPENAGHMATHJAX()}r\rightarrow{\infty}{OPENAGHMATHJAX}) przypisujemy zerową energię potencjalną. Zwróćmy uwagę, że stan zerowej energii jest również stanem zerowej siły.
+
+Przypomnijmy, że dla sił zachowawczych zmianę energii potencjalnej ciała przy przejściu z położenia (lub ogólniej ze stanu) {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}B{OPENAGHMATHJAX} możemy zapisać jako
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{\Delta E}_{{p}}=E_{{\text{pB}}}-E_{{\text{pA}}}=-W_{{\text{AB}}}}\end{equation}{OPENAGHMATHJAX}
+[8.15]
+
+Siła grawitacji jest siłą zachowawczą więc dla tak wybranego punktu odniesienia
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}(r)-E_{{p}}(\infty )=-W_{{\infty r}}}\end{equation}{OPENAGHMATHJAX}
+[8.16]
+
+Praca wykonywaną przez siłę grawitacji przy przenoszeniu masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} z nieskończoności do punktu odległego o {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} od środka Ziemi wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}\begin{matrix}{E_{{p}}(r)-E_{{p}}(\infty )=-W_{{\infty r}}=-\overset{{r}}{\underset{{\infty }}{\int}}{\mathit{Fdr}}=-\overset{{r}}{\underset{{\infty }}{\int}}{\left(-G\frac{Mm}{r^{{2}}}\right)\mathit{dr}}=}\\-\left.G\frac{Mm}{r}\right|_{{\infty}}^{{r}}=-G\frac{Mm}{r}\end{matrix}\end{equation}{OPENAGHMATHJAX}
+[8.17]
+
+Znak minus wynika stąd, że kierunek działania siły grawitacji jest przeciwny do kierunku wektora {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}. Ponieważ energia potencjalna ma wartość równą zeru w nieskończoności (punkt odniesienia) więc grawitacyjna energia potencjalna w odległości {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} od środka Ziemi (od środka dowolnej masy {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}) wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}(r)=-G\frac{Mm}{r}}\end{equation}{OPENAGHMATHJAX}
+[8.18]
+
+Energia potencjalna ma wartość równą zeru w nieskończoności (punkt odniesienia) i maleje w miarę zmniejszania się {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}. Oznacza to, że siła jest przyciągająca. Wzór ten jest prawdziwy bez względu na wybór drogi po jakiej punkt porusza się z nieskończoności do {OPENAGHMATHJAX()}r{OPENAGHMATHJAX} bo siła grawitacji jest siłą zachowawczą.
+
+Widzimy, że z polem siły grawitacji wiąże się przestrzenny rozkład energii {OPENAGHMATHJAX()}E(r){OPENAGHMATHJAX} dany równaniem (8.17).
+
+Omawiając w punkcie (6.4) pole grawitacyjne przedstawialiśmy siłę działającą na umieszczony w tym polu obiekt jako iloczyn natężenia pola i masy tego obiektu. Stwierdziliśmy, że jedna masa wytwarza pole, a następnie to pole działa na drugą masę. Inaczej mówiąc rozdzieliliśmy siłę na dwie części i w ten sposób uniezależniliśmy nasz opis od masy obiektu wprowadzanego do pola. Podobnie możemy postąpić z energią potencjalną. Zauważmy, że zgodnie z wyrażeniem (8.17) możemy ją
+przedstawić jako iloczyn masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i pewnej funkcji {OPENAGHMATHJAX()}V(r){OPENAGHMATHJAX}}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}(r)=mV(r)}\end{equation}{OPENAGHMATHJAX}
+[8.19]
+
+{OPENAGHDEFINITION(name="Potencjał")}Funkcję  {OPENAGHMATHJAX()}V(r){OPENAGHMATHJAX} nazywamy potencjałem pola grawitacyjnego i definiujemy jako stosunek grawitacyjnej energii potencjalnej masy m do wartości tej masy.{OPENAGHDEFINITION}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{V(r)=\frac{E_{{p}}(r)}{m}=-G\frac{M}{r}}\end{equation}{OPENAGHMATHJAX}
+[8.20]
+
+Jak już wspominaliśmy z pojęcia pola korzysta się nie tylko w związku z grawitacją. Przy opisie zjawisk elektrycznych również będziemy się posługiwali pojęciem pola (elektrycznego), jego natężenia i potencjału.
+
+{openaghexercise name="Prędkość poczatkowa" body="
+
+Skorzystaj teraz z wyrażenia na grawitacyjną energię potencjalną, żeby znaleźć prędkość jaką należy nadać obiektowi przy powierzchni Ziemi, aby wzniósł się on na wysokość {OPENAGHMATHJAX()}h{OPENAGHMATHJAX} nad powierzchnię Ziemi. Dane są masa Ziemi {OPENAGHMATHJAX()}M_z{OPENAGHMATHJAX} i jej promień {OPENAGHMATHJAX()}R_{z}{OPENAGHMATHJAX} oraz stała grawitacyjna {OPENAGHMATHJAX()}G{OPENAGHMATHJAX}. Wynik zapisz poniżej.
+
+Wskazówka: Dla siły zachowawczej suma energii kinetycznej {OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX} i energii potencjalnej {OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX} ciała pozostaje przez cały czas stała (wzór 8.7).
+
+{OPENAGHMATHJAX()}v ={OPENAGHMATHJAX} 
+
+" solution="
+
+Dane: {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}M_z{OPENAGHMATHJAX}, R{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX},  {OPENAGHMATHJAX()}G{OPENAGHMATHJAX}. 
+
+Siła grawitacji jest siłą zachowawczą więc w jej polu
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}+E_{{p}}=\text{const}\text{.}}\end{equation}{OPENAGHMATHJAX}
+
+Na powierzchni Ziemi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=\frac{\mathit{mv}^{{2}}}{R}\;\;\;\;E_{{p}}=-G\frac{M_{{Z}}m}{R_{{Z}}}}\end{equation}{OPENAGHMATHJAX}
+
+a na wysokości h nad powierzchnią Ziemi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}=0\;\;\;\;E_{{p}}=-G\frac{M_{{Z}}m}{(R_{{Z}}+h)}}\end{equation}{OPENAGHMATHJAX}
+
+Łącząc powyższe równania (korzystając z warunku {OPENAGHMATHJAX()}{E_{{k}}+E_{{p}}=\text{const}\text{.}}{OPENAGHMATHJAX}) otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{mv}^{{2}}}{R}\;-G\frac{M_{{Z}}m}{R_{{Z}}}=-G\frac{M_{{Z}}m}{(R_{{Z}}+h)}}\end{equation}{OPENAGHMATHJAX}
+
+a po przekształceniach
+
+{OPENAGHMATHJAX( type="block")}{v=\sqrt{2GM_{{Z}}\left(\frac{1}{R_{{Z}}}-\frac{1}{R_{{Z}}+h}\right)}}{OPENAGHMATHJAX}
+"}
+
+Jeżeli obiektowi nadamy na powierzchni Ziemi odpowiednio dużą prędkość początkową to zacznie on okrążać Ziemię i nie spadnie na jej powierzchnię. Tę graniczną prędkość nazywamy pierwszą prędkością kosmiczną. Jest to najmniejsza prędkość jaką musi mieć punkt materialny swobodnie krążący po orbicie wokół Ziemi. Na tak poruszający się obiekt działają dwie siły; siła grawitacji i siła odśrodkowa. Siły te mają przeciwne zwroty i dla stabilnej orbity równoważą się
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\mathit{mv}^{{2}}}{R}=G\frac{M_{{Z}}m}{R^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[8.21]
+
+skąd obliczamy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{{I}}=\sqrt{G\frac{M_{{Z}}}{R}}}\end{equation}{OPENAGHMATHJAX}
+[8.22]
+
+Jeżeli na powierzchni Ziemi dostarczymy ciału jeszcze większej energii kinetycznej to wtedy może ono bezpowrotnie uciec z Ziemi w przestrzeń kosmiczną. Prędkość początkową (tzw. prędkość ucieczki), przy której ciało ucieknie z powierzchni Ziemi do nieskończoności znajdujemy analogicznie jak w ćwiczeniu 8.3 wstawiając {OPENAGHMATHJAX()}h\rightarrow{\infty}{OPENAGHMATHJAX}. Prędkość ta nosi nazwę drugiej prędkości kosmicznej i wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v_{\text{II}}=\sqrt{2G\frac{M_{{Z}}}{R_{{Z}}}}}\end{equation}{OPENAGHMATHJAX}
+[8.23]
+
+Zauważmy, że w trakcie oddalania się ciała do nieskończoności ( {OPENAGHMATHJAX()}R\rightarrow{\infty}{OPENAGHMATHJAX}) jego energia potencjalna rośnie dozera (jest ujemna) kosztem energii kinetycznej, która maleje do zera (jest dodatnia).
+
+W naszych obliczeniach pominęliśmy inne siły,  takie jak siły  grawitacyjne wywierane przez Księżyc czy Słońce.

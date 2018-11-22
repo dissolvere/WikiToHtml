@@ -1,0 +1,104 @@
+ Rozważmy, pokazany na rysunku 14.7, nielepki, ustalony, nieściśliwy przepływ płynu w strudze. Płyn na rysunku przemieszcza się w stronę prawą. W czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} powierzchnia {OPENAGHMATHJAX()}S_{1}{OPENAGHMATHJAX} przemieszcza się o odcinek {OPENAGHMATHJAX()}v_{1}\Delta t{OPENAGHMATHJAX}. Analogicznie powierzchnia {OPENAGHMATHJAX()}S_{2}{OPENAGHMATHJAX} przemieszcza się o odcinek
+{OPENAGHMATHJAX()}v_{2}\Delta t{OPENAGHMATHJAX}. Na powierzchnię {OPENAGHMATHJAX()}S_{1}{OPENAGHMATHJAX} działa siła {OPENAGHMATHJAX()}F_{1} = p_{1}S_{1}{OPENAGHMATHJAX}, a na powierzchnię {OPENAGHMATHJAX()}S_{2}{OPENAGHMATHJAX} siła {OPENAGHMATHJAX()}F_{2} = p_{2}S_{2}{OPENAGHMATHJAX}.
+{img fileId="392" } 
+Rys. 14.7. Wyprowadzenie równania Bernoulliego
+
+Skorzystamy teraz z twierdzenia o pracy i energii, które mówi, że praca wykonana przez wypadkową siłę jest równa zmianie energii układu.
+Siłami, które wykonują pracę są {OPENAGHMATHJAX()}F_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}F_{2}{OPENAGHMATHJAX}. Obliczamy więc całkowitą pracę
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=F_{{1}}v_{{1}}{\Delta t}-F_{{2}}v_{{2}}{\Delta
+t}=p_{{1}}S_{{1}}v_{{1}}{\Delta
+t}-p_{{2}}S_{{2}}v_{{2}}{\Delta t}}
+\end{equation}{OPENAGHMATHJAX}
+
+Ponieważ w czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} ta sama objętość płynu {OPENAGHMATHJAX()}V{OPENAGHMATHJAX} wpływa do strugi i z niej wypływa  {OPENAGHMATHJAX()}{S_{{2}}v_{{2}}{\Delta t}=S_{{1}}v_{{1}}{\Delta t}=V}{OPENAGHMATHJAX} więc
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{W=(p_{{1}}-p_{{2}})V}
+\end{equation}{OPENAGHMATHJAX}
+
+Obliczoną pracę porównujemy ze zmianą energii strugi
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{(p_{{1}}-p_{{2}})V=\left(\frac{{mv}_{{2}}^{{2}}}{2}+{mgh}_{{2}}\right)-\left(\frac{{mv}_{{1}}^{{2}}}{2}+{mgh}_{{1}}\right)}
+\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} jest masą przemieszczonej objętości {OPENAGHMATHJAX()}V{OPENAGHMATHJAX} płynu.
+Dzieląc stronami równanie (14.21) przez objętość {OPENAGHMATHJAX()}V{OPENAGHMATHJAX}, a następnie wprowadzając gęstość cieczy {{OPENAGHMATHJAX()}\rho = m/V {OPENAGHMATHJAX} można, grupując odpowiednio wyrazy, przekształcić to równanie do postaci
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{p_{{1}}+\frac{{\rho v}_{{1}}^{{2}}}{2}+\rho
+{gh}_{{1}}=p_{{2}}+\frac{{\rho
+v}_{{2}}^{{2}}}{2}+\rho {gh}_{{2}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Ponieważ nasze rozważania odnosiły się do dowolnych dwóch położeń, możemy opuścić wskaźniki i napisać
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{p+\frac{{\rho v}^{{2}}}{2}+\rho
+{gh}={const}{.}}
+\end{equation}{OPENAGHMATHJAX}
+
+Równanie to nosi nazwę __równania Bernoulliego__ dla przepływu ustalonego, nielepkiego i nieściśliwego. Jest to podstawowe równanie mechaniki płynów. Wyraża fakt, że z przepływem płynu związane jest (oprócz ciśnienia statycznego) __ciśnienie dynamiczne__ {OPENAGHMATHJAX()}{{\rho v}^{{2}}/2}{OPENAGHMATHJAX}.
+
+Wynika z niego, że przepływ cieczy w strudze może być wywołany __różnicą ciśnień__ na końcach strugi lub __różnicą poziomów__ tych końców.
+
+Przykład
+
+Zilustrujmy to prostym przykładem pompki wodnej stosowanej na przykład w akwarystyce. W tym urządzeniu woda z akwarium jest przepompowywana
+przez układ filtrów i odprowadzana z powrotem do akwarium. Po drodze woda jest przepuszczana przez przewężenie w rurce tak jak na rysunku
+poniżej. Prędkość wody w przewężeniu jest (zgodnie z równaniem ciągłości) większa niż w rurce. Natomiast zgodnie z równaniem Bernoulliego, w
+poziomej rurce ({OPENAGHMATHJAX()}h = const.{OPENAGHMATHJAX})  {OPENAGHMATHJAX()}{p+\frac{{\rho v}^{{2}}}{2}={const}{.}}{OPENAGHMATHJAX}, więc gdy rośnie prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} i płyn jest nieściśliwy (stała gęstość), to {OPENAGHMATHJAX()}p{OPENAGHMATHJAX} maleje i w przewężeniu ciśnienie jest mniejsze niż w pozostałej części rurki. Jeżeli to przewężenie jest dostatecznie małe to ciśnienie może być niższe od atmosferycznego, a to oznacza, że przez otwór w przewężeniu woda nie będzie uciekać tylko z zewnątrz będzie zasysane powietrze. W ten sposób woda będzie nie tylko filtrowana ale jeszcze dodatkowo napowietrzana.
+{img fileId="372" } 
+
+Rys. 14.8. Pompka wodna
+Ćwiczenie 14.2
+
+Spróbuj samodzielnie wykonać bardzo proste doświadczenie. Weź dwie kartki papieru i trzymaj je ustawione równolegle do siebie w niewielkiej odległości (np. 1-2 cm). Następnie dmuchnij między kartki. Okazuje się, że kartki nie rozchylają się, a zbliżają do siebie, sklejają się. Spróbuj wyjaśnić przyczynę tego zjawiska.
+
+Równanie Bernoulliego może być wykorzystane do wyznaczenia prędkości płynu na podstawie pomiaru ciśnienia. Ponownie posługujemy się rurką 
+zprzewężeniem, do której przymocowano tak jak na rysunku poniżej, dwie pionowe rurki A i B służące do pomiaru ciśnienia.
+{img fileId="396" }
+Rys. 14.9. Pomiar prędkości płynu metodą Venturiego
+
+Stosując równanie Bernoulliego dla punktów, w których prędkość płynu wynosi odpowiednio {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}v_{2}{OPENAGHMATHJAX} (przewężenie) otrzymujemy} {OPENAGHMATHJAX(type="block")}\begin{equation}
+{p_{{1}}+\frac{{\rho v}_{{1}}^{{2}}}{2}=p_{{2}}+\frac{{\rho v}_{{2}}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+
+Ponieważ {OPENAGHMATHJAX()}v_{1} < v_{2}{OPENAGHMATHJAX} więc ciśnienie w przewężeniu jest mniejsze niż w rurce {OPENAGHMATHJAX()}p_{2} <
+p_{1}{OPENAGHMATHJAX}. Różnica ciśnień zgodnie z równaniem (14.24) wynosi
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{p_{{1}}-p_{{2}}=\frac{{\rho
+v}_{{2}}^{{2}}}{2}-\frac{{\rho v}_{{1}}^{{2}}}{2}}
+\end{equation}{OPENAGHMATHJAX}
+
+Z równania ciągłości wynika, że
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{2}}=\frac{S_{{1}}}{S_{{2}}}v_{{1}}}
+\end{equation}{OPENAGHMATHJAX}
+{
+Podstawiając tę zależność do równania (14.25) otrzymujemy 
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{p_{{1}}-p_{{2}}=\frac{{\rho
+v}_{{1}}^{{2}}}{2}\left(\frac{S_{{1}}^{{2}}}{S_{{2}}^{{2}}}-1\right)}
+\end{equation}{OPENAGHMATHJAX}
+
+Równocześnie tę samą różnicę ciśnień można wyznaczyć z różnicy poziomów płynu w rurkach A i B (rysunek 14.9)
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{p_{{1}}-p_{{2}}=\rho {gh}}
+\end{equation}{OPENAGHMATHJAX}
+
+Porównując powyższe dwa wzory możemy wyznaczyć prędkość {OPENAGHMATHJAX()}v_{1}{OPENAGHMATHJAX} w rurce
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{v_{{1}}=\sqrt{\frac{2{gh}}{S_{{1}}^{{2}}/S_{{2}}^{{2}}-1}}}
+\end{equation}{OPENAGHMATHJAX}
+
+Metoda pomiaru prędkości płynu oparta na wyznaczeniu różnicy wysokości płynu w dwóch pionowych rurkach nosi nazwę metody Venturiego.
+
+Ćwiczenie 14.3
+
+{ W zbiorniku wody na głębokości h
+znajduje się otwór przez który wycieka woda. Oblicz prędkość
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} z jaką wycieka woda. }
+{ Wskazówka: Zastosuj równanie Bernoulliego dla
+punktu na powierzchni cieczy i punktu w otworze przez, który wycieka
+woda. Wyniki zapisz poniżej.}
+{ {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.

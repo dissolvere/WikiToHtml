@@ -1,0 +1,49 @@
+ 
+
+{OPENAGHANNOTATION( name="(o sposobach przedstawienia funkcji)")}
+Funkcję możemy określić na wiele sposobów: poprzez podanie przepisu słownego, wykresu, tabeli, diagramu, wzoru itp.{OPENAGHANNOTATION}
+ 
+
+{OPENAGHEXAMPLE( name="")}
+Funkcję podaną __za pomocą__ poniższego __diagramu__ przedstawimy poniżej na kilka jeszcze innych sposobów.{OPENAGHEXAMPLE}
+ 
+
+{img type="fileId" fileId="135"}
+
+Rys. F11 Funkcja przedstawiona za pomocą diagramu.
+
+__Rozwiązanie__
+
+Rysunek F11 przedstawia funkcję {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} prowadzącą ze zbioru {OPENAGHMATHJAX()}X=\{1,2,5,7\}{OPENAGHMATHJAX} w zbiór {OPENAGHMATHJAX()}Y=\{1,3,9,13\}{OPENAGHMATHJAX}.
+Odczytujemy wartości funkcji dla poszczególnych elementów zbioru {OPENAGHMATHJAX()}X{OPENAGHMATHJAX}.
+
+Mamy, więc
+
+{OPENAGHMATHJAX()}f(1)=1{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}f(2)=3{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}f(5)=9{OPENAGHMATHJAX}
+{OPENAGHMATHJAX()}f(7)=13{OPENAGHMATHJAX}
+
+Funkcję {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} możemy opisać:
+
+*__Słownie__: {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest funkcją przyporządkowującą każdej liczbie ze zbioru {OPENAGHMATHJAX()}\{1,2,5,7\}{OPENAGHMATHJAX} różnicę liczby od niej dwa razy większej i jedynki
+*__za pomocą__ jednego z następujących __wzorów__:
+{OPENAGHMATHJAX( type="
+block
+")}f:X\to Y,\quad f(x)=2x-1\quad \textrm{ gdzie}\quad X=\{1,2,5,7\}\quad Y=\{1,3,9,13\}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="
+block
+")}f:X\to Y,\quad x\to 2x-1\quad \textrm{ gdzie}\quad X=\{1,2,5,7\}\quad Y=\{1,3,9,13\}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="
+block
+")}f:X\ni x\to (2x-1)\in Y\quad \textrm{ gdzie}\quad X=\{1,2,5,7\}\quad Y=\{1,3,9,13\}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="
+block
+")}f:X\to Y,\quad y=2x-1\quad \textrm{ gdzie}\quad X=\{1,2,5,7\}\quad Y=\{1,3,9,13\}{OPENAGHMATHJAX}
+
+*lub __za pomocą wykresu__
+ 
+
+{img type="fileId" fileId="136"}
+
+Rys. F12.

@@ -1,0 +1,36 @@
+ 
+Zdefiniowaliśmy pęd punktu materialnego jako iloczyn jego masy {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i jego prędkości {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX}. Poznaliśmy też, drugą zasadę dynamiki Newtona w postaci
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}=\frac{\mathit{d{\bf p}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+[9.10]
+
+
+Jeżeli jednak zamiast pojedynczego punktu mamy do czynienia z układem, o stałej masie {OPENAGHMATHJAX()}M{OPENAGHMATHJAX}, złożonym z {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} punktów materialnych o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, ......, {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} oraz prędkościach {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, ..., {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX}  to układ jako całość będzie miał całkowity pęd {OPENAGHMATHJAX()}{\bf P}{OPENAGHMATHJAX} będący sumą wektorową pędów poszczególnych punktów
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf P}=\overset{{n}}{\underset{{i=1}}{\sum }}{{\bf p}_{{i}}}}\end{equation}{OPENAGHMATHJAX}
+[9.11]
+
+
+Porównując tę zależność z równaniem (9.6) otrzymujemy zależność
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf P}=\mathit{M{\bf v}}_{{\text{śr}\text{.}m\text{.}}}}\end{equation}{OPENAGHMATHJAX}
+[9.12]
+
+
+{OPENAGHLAW(name="Całkowity pęd układu")}Całkowity pęd układu punktów materialnych jest równy iloczynowi całkowitej masy układu i prędkości jego środka masy.{OPENAGHLAW}
+
+Zgodnie z równaniem (9.7)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}_{{\text{zew}}}=\mathit{M{\bf a}}_{{\text{śr}\text{.}m\text{.}}}=M\frac{\mathit{d{\bf v}}_{{\text{śr}\text{.}m\text{.}}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+[9.13]
+
+więc druga zasada dynamiki Newtona dla układu punktów materialnych przyjmuje postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}_{{\text{zew}}}=\frac{\mathit{d{\bf P}}}{\mathit{dt}}}\end{equation}{OPENAGHMATHJAX}
+[9.14]
+
+Ponownie widzimy, że nawet ciała materialne będące układami złożonymi z dużej liczby punktów materialnych możemy w pewnych sytuacjach traktować jako pojedynczy punkt materialny. Tym punktem jest środek masy.
+
+Z równania (9.14) wynika, że gdy wypadkowa siła zewnętrzna równa jest zeru {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{zew}=0{OPENAGHMATHJAX}, to dla układu o stałej masie, środek masy pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym, przy czym poszczególne punkty układu mogą poruszać się po różnych torach.
+
+To stwierdzenie wprowadza nas w zasadę zachowania pędu. ((Zasada zachowania pędu))

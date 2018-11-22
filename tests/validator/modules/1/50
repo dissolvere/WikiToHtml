@@ -1,0 +1,67 @@
+W przypadku drgań mechanicznych siłą hamującą ruch cząstki są tak zwane opory ruchu. Przykładem może tu być opór powietrza. Siła oporu ma zwrot przeciwny do prędkości i w najprostszej postaci jest wprost proporcjonalna do prędkości {OPENAGHMATHJAX()}F_{op}\propto v{OPENAGHMATHJAX}
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{T=-{\gamma v}=-\gamma \frac{{dx}}{{dt}}}\end{equation}{OPENAGHMATHJAX}
+
+Jeżeli oprócz siły sprężystości uwzględnimy siłę hamującą to równanie opisujące ruch oscylatora harmonicznego przyjmie teraz postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{ma=-kx-\gamma\frac{dx}{dt}}\end{equation}{OPENAGHMATHJAX}
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m\frac{d^{{2}}x}{dt^2}=-kx-\gamma\frac{dx}{dt}}\end{equation}{OPENAGHMATHJAX}
+
+Jeżeli wprowadzimy nową stałą {OPENAGHMATHJAX()}{\tau =m/\gamma }{OPENAGHMATHJAX} (o wymiarze czasu) tak zwaną stałą czasową oraz oznaczymy częstość drgań nietłumionych czyli częstość własną {OPENAGHMATHJAX()}{\omega_{{0}}=\sqrt{k/m}}{OPENAGHMATHJAX} to równanie opisujące ruch przyjmie postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{d^{{2}}x}{{dt}^{{2}}}+\frac{1}{\tau}\frac{{dx}}{{dt}}+\omega _{{0}}^{{2}}x=0}\end{equation}{OPENAGHMATHJAX}
+
+Szukamy rozwiązania tego równania w postaci drgań okresowo zmiennych tłumionych na przykład
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x={Ae}^{{-{\beta t}}}{cos}{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+Proponowane rozwiązanie zawiera czynnik oscylacyjny {OPENAGHMATHJAX()}{\cos(\omega t)}{OPENAGHMATHJAX} opisujący drgania i czynnik tłumiący
+
+{OPENAGHMATHJAX()}{e^{{-{\beta t}}}}{OPENAGHMATHJAX} opisujący zmniejszanie się amplitudy drgań.
+
+Współczynnik {OPENAGHMATHJAX()}{\beta =1/2\tau }{OPENAGHMATHJAX} określający wielkość tłumienia nazywamy współczynnikiem tłumienia.
+
+Więcej o wpływie tłumienia na ruch drgający możesz przeczytać w Dodatku 4, na końcu modułu III.
+
+
+Żeby sprawdzić czy zaproponowana funkcja jest rozwiązaniem równania ruchu (12.30) obliczamy odpowiednie pochodne i podstawiamy je do równania ruchu. W wyniku otrzymujemy warunek na częstość drgań tłumionych
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\omega =\sqrt{\omega _{{0}}^{{2}}-\beta ^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+
+Funkcja (12.31) jest rozwiązaniem równania opisującego ruch harmoniczny tłumiony przy warunku (12.32). Widzimy, że opór zmniejsza zarówno amplitudę jak i częstość drgań, czyli powoduje spowolnienie ruchu. Wielkość tłumienia określa współczynnik tłumienia {OPENAGHMATHJAX()}\beta {OPENAGHMATHJAX} (lub stała czasowa {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX}). Wykres ruchu harmonicznego tłumionego w zależności od czasu jest pokazany na poniższym rysunku.
+
+{img fileId="179"}
+
+Rys. 12.5. Zależność przemieszczenia od czasu w ruchu harmonicznym tłumionym. Linie przerywane ilustrują wykładnicze tłumienie amplitudy tego ruchu.
+
+Równanie (12.31) opisuje sytuację, w której pomimo strat energii zachowany zostaje oscylacyjny charakter ruchu. Ma to miejsce tylko wtedy gdy spełniony jest warunek {OPENAGHMATHJAX()}\beta < \omega_0{OPENAGHMATHJAX} to znaczy dla słabego tłumienia. Tylko wtedy równanie (12.32) opisuje częstotliwość drgań. Jednak gdy tłumienie (opór) stanie się dostatecznie duże ruch przestaje być ruchem drgającym, a ciało wychylone z położenia równowagi powraca do niego asymptotycznie tzw. ruchem pełzającym (aperiodycznym), a równanie (12.31) nie jest już rozwiązaniem równania ruchu. Odpowiada to warunkowi {OPENAGHMATHJAX()}\beta > \omega_0{OPENAGHMATHJAX} co w praktyce oznacza, że siła tłumiąca jest bardzo duża. Dzieje się tak na przykład gdy ruch odbywa się w bardzo gęstym ośrodku. Szczególny przypadek odpowiada sytuacji gdy {OPENAGHMATHJAX()}\beta = \omega_{0}{OPENAGHMATHJAX}. Mówimy wtedy o tłumieniu krytycznym.
+
+Wykresy ruchu tłumionego krytycznie i ruchu pełzającego są pokazane na rysunku poniżej.
+
+{img fileId="180"}
+
+Rys. 12.6. Ruch pełzający {OPENAGHMATHJAX()}\beta > \omega_{0}{OPENAGHMATHJAX} i tłumiony krytycznie {OPENAGHMATHJAX()}\beta = \omega_{0}{OPENAGHMATHJAX}
+
+!!!!#      Straty mocy, współczynnik dobroci
+
+Straty energii wynikające z tłumienia opisuje się za pomocą tzw. współczynnika dobroci {OPENAGHMATHJAX()}Q{OPENAGHMATHJAX}:
+
+{OPENAGHDEFINITION( name="Współczynnik dobroci")}
+Współczynnik dobroci {OPENAGHMATHJAX()}Q{OPENAGHMATHJAX} definiujemy jako 
+{OPENAGHMATHJAX( type="block")}\begin{equation}{Q=2\pi\frac{E_{\text{zmagazynowana}}}{E_{\text{stracona w 1 okresie}}}= 2 \pi\frac{E}{P/f}=\frac{E}{P/\omega }}\end{equation}{OPENAGHMATHJAX}
+gdzie {OPENAGHMATHJAX()}P{OPENAGHMATHJAX} jest średnią stratą mocy, {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} częstotliwością drgań. 
+{OPENAGHDEFINITION(}
+
+Kilka typowych wartości {OPENAGHMATHJAX()}Q{OPENAGHMATHJAX} zestawiono w poniższej tabeli.
+
+Tab. 12.1. Wybrane wartości współczynnika dobroci {OPENAGHMATHJAX()}Q{OPENAGHMATHJAX}
+
+||Oscylator | Q
+Ziemia dla fali sejsmicznej | 250-400
+Struna fortepianu lub skrzypiec | 1000
+Atom wzbudzony | {OPENAGHMATHJAX()}10^{7}{OPENAGHMATHJAX}
+Jądro wzbudzone | {OPENAGHMATHJAX()}10^{12}{OPENAGHMATHJAX}||

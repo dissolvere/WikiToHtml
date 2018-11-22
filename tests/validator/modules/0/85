@@ -1,0 +1,41 @@
+Tę siłę bezwładności musimy uwzględniać, gdy rozpatrujemy ruch postępowy ciała w obracającym się układzie odniesienia. Przykładem możebyć człowiek poruszający się po linii prostej (radialnie) od środka do brzegu obracającej się karuzeli. Na rysunku poniżej pokazana jest zmiana prędkości człowieka.
+
+ {img fileId="426"}
+Rys. I.4.1. Zmiana prędkości człowieka poruszającego się po linii prostej (radialnie) od środka do brzegu karuzeli obracającej się z prędkością kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX}
+
+Linia (promień) wzdłuż której porusza się człowiek zmienia swój kierunek (karuzela obraca się) o kąt {OPENAGHMATHJAX()}\Delta\theta {OPENAGHMATHJAX} w czasie {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} . W tym samym czasie człowiek zmienia swoje położenie z punktu {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}A'{OPENAGHMATHJAX}.
+
+Obliczymy teraz zmianę jego prędkości radialnej (normalnej) {OPENAGHMATHJAX()}v_r{OPENAGHMATHJAX} i stycznej {OPENAGHMATHJAX()}v_s{OPENAGHMATHJAX}. Prędkość radialna zmienia swój kierunek. Prędkość styczna natomiast zmienia zarówno kierunek (przyspieszenie dośrodkowe) ale również wartość bo człowiek oddala się od środka (rośnie {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}). Najpierw rozpatrzmy różnicę prędkości {OPENAGHMATHJAX()}v_r{OPENAGHMATHJAX} w punktach {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}A'{OPENAGHMATHJAX} pokazaną na rysunku (b) po prawej stronie. Dla małego kąta {OPENAGHMATHJAX()}\Delta\theta {OPENAGHMATHJAX} (tzn. małego {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} ) możemy napisać
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{\Delta v}_{{r}}=v_{{r}}\mathit{\Delta \theta }}\end{equation}{OPENAGHMATHJAX}
+[I.4.1]
+
+Jeżeli obustronnie podzielimy równanie (I.4.1) przez {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} to w granicy {OPENAGHMATHJAX()}\Delta t \rightarrow 0{OPENAGHMATHJAX} otrzymamy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{1}}=\frac{\mathit{dv}_{{r}}}{\mathit{dt}}=v_{{r}}\frac{\mathit{d\theta}}{\mathit{dt}}=v_{{r}}\omega }\end{equation}{OPENAGHMATHJAX}
+[I.4.2]
+
+gdzie wielkość {OPENAGHMATHJAX()}\omega=d\theta/dt{OPENAGHMATHJAX}jest definiowana jako prędkość kątowa.
+
+W tym ruchu zmienia się również prędkość styczna bo człowiek porusza się wzdłuż promienia. W punkcie {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} prędkość styczna {OPENAGHMATHJAX()}v_s=\omega r {OPENAGHMATHJAX} a w punkcie {OPENAGHMATHJAX()}A' v_s=\omega (r +\Delta r){OPENAGHMATHJAX}. Zmiana prędkości stycznej wynosi więc
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{\Delta v}_{{s}}=\omega (r+\mathit{\Delta r})-\mathit{\omega r}=\mathit{\omega \Delta r}}\end{equation}{OPENAGHMATHJAX}
+[I.4.3]
+
+Jeżeli obustronnie podzielimy równanie (I.4.3) przez {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} to w granicy {OPENAGHMATHJAX()}\Delta t{OPENAGHMATHJAX} {OPENAGHMATHJAX()}{\rightarrow}{OPENAGHMATHJAX} 0 otrzymamy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{2}}=\frac{\mathit{dv}_{{s}}}{\mathit{dt}}=\omega\frac{\mathit{dr}}{\mathit{dt}}=\mathit{\omega v}_{{r}}}\end{equation}{OPENAGHMATHJAX}
+[I.4.4]
+
+Przyspieszenia {OPENAGHMATHJAX()}a_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}a_2{OPENAGHMATHJAX} mają ten sam kierunek (równoległy do {OPENAGHMATHJAX()}v_s{OPENAGHMATHJAX}) więc przyspieszenie całkowite jest równe sumie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a=a_{{1}}+a_{{2}}=2\mathit{\omega v}_{{r}}}\end{equation}{OPENAGHMATHJAX}
+[I.4.5]
+
+
+Przyspieszenie to jest nazywane przyspieszeniem Coriolisa. Pochodzi ono stąd, że nawet przy stałej prędkości kątowej {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} rośnie prędkość liniowa człowieka bo rośnie {OPENAGHMATHJAX()}r{OPENAGHMATHJAX}. Gdyby człowiek stał na karuzeli to obserwator stojący na Ziemi mierzyłby tylko przyspieszenie dośrodkowe ({OPENAGHMATHJAX()}\omega^{2}r{OPENAGHMATHJAX}) skierowane do środka wzdłuż promienia. Natomiast gdy człowiek idzie na zewnątrz to obserwator rejestruje także przyspieszenie Coriolisa (o kierunku równoległym do {OPENAGHMATHJAX()}v_s{OPENAGHMATHJAX}). Oczywiście musi istnieć siła działająca w tym kierunku. Jest nią w tym przypadku siła tarcia między podłogą i nogami idącego człowieka. Jednak obserwator związany z karuzelą nie widzi ani przyspieszenia dośrodkowego ani przyspieszenia Coriolisa, człowiek poruszający się wzdłuż promienia jest w stanie równowagi w układzie karuzeli. A przecież istnieje realnie odczuwalna (rzeczywista) siła tarcia. Żeby wyeliminować tę rozbieżność obserwator stojący na karuzeli wprowadza dwie siły pozorne równoważące siłę tarcia. Jedna to siła odśrodkowa, a druga to siła Coriolisa. Siła odśrodkowa działa radialnie na zewnątrz a siła Coriolisa stycznie ale przeciwnie do {OPENAGHMATHJAX()}v_s{OPENAGHMATHJAX}. Ogólnie, na ciało o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} poruszające się ruchem postępowym z prędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} w obracającym się układzie odniesienia działa siła bezwładności zwana siłą Coriolisa {OPENAGHMATHJAX()}{\bf F}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{c}{OPENAGHMATHJAX} {OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}_{{c}}=2\mathit{m{\bf v}}\times {\bf \omega} }\end{equation}{OPENAGHMATHJAX}
+[I.4.6]
+
+
+Ziemia nie jest idealnym układem inercjalnym ponieważ wiruje. W wyniku tego obrotu w zjawiskach zachodzących na Ziemi obserwujemy siłę Coriolisa. Przykładowo, rzeki płynące na półkuli północnej podmywają silniej prawy brzeg. Również ciała spadające swobodnie odchylają się od pionu pod działaniem tej siły. Jednak w większości rozpatrywanych przez nas zjawisk można zaniedbać wpływ ruchu Ziemi na ich przebieg.

@@ -1,0 +1,1988 @@
+ !#Fale w ośrodkach sprężystych
+{
+Ruch falowy jest bardzo rozpowszechniony w przyrodzie. Na co
+dzień doświadczamy obecności fal dźwiękowych i fal świetlnych.
+Powszechnie też wykorzystujemy fale elektromagnetyczne do przekazywania
+informacji za pomocą radia, telewizji czy przenośnych telefonów.}
+{
+Fale dźwiękowe czy też fale jakie obserwujemy na powierzchni wody
+posiadają jednak inną naturę niż fale elektromagnetyczne. Światło
+będące przykładem fali elektromagnetycznej rozchodzi się nie tylko w
+ośrodkach materialnych ale również w próżni. Przykładem jest
+docierające do nas światło słoneczne. Natomiast do rozchodzenia się fal
+dźwiękowych niezbędny jest ośrodek materialny.}
+{
+W tym rozdziale poznamy właściwości fal powstających w ośrodkach
+sprężystych (takich jak fale dźwiękowe), które
+nazywamy\\textcolor{blue}{ }falami mechanicznymi.}
+!!!#Fale mechaniczne
+{
+Jeżeli wychylimy jakiś fragment ośrodka sprężystego z jego
+położenia równowagi to w następstwie będzie on wykonywał drgania wokół
+tego położenia. Te drgania, dzięki właściwościom sprężystym ośrodka, są
+przekazywane na kolejne części ośrodka, które zaczynają drgać. W ten
+sposób zaburzenie przechodzi przez cały ośrodek.}
+Definicja
+
+Ruchem falowym nazywamy rozchodzenie się
+zaburzenia w ośrodku.
+
+{
+Zwróćmy uwagę, że sam ośrodek nie przesuwa się, a jedynie jego elementy
+wykonują drgania. Dobrym przykładem są tu fale na powierzchni wody:
+przedmioty pływające na powierzchni wody wykonują ruch drgający w rytm
+fal natomiast same fale rozchodzą się ruchem jednostajnym.}
+{
+Fala dobiegając do danego punktu ośrodka wprawia go w ruch drgający
+przekazując mu energię, która jest dostarczana przez źródło drgań.
+Energia fal to energia kinetyczna i potencjalna cząstek ośrodka. Za
+pomocą fal można przekazywać energię na duże odległości przy czym cechą
+charakterystyczną jest to, że fale przenoszą energię poprzez ośrodek
+dzięki przesuwaniu się zaburzenia w ośrodku, a nie dzięki ruchowi
+postępowemu samego ośrodka. Jak wynika z powyższego, do rozchodzenia
+się fal mechanicznych potrzebny jest ośrodek. To właściwości sprężyste
+ośrodka decydują o prędkości rozchodzenia się fali.}
+!!!!#Rodzaje fal 
+{
+Ze względu na kierunek drgań cząstek ośrodka względem kierunku
+rozchodzenia się fale dzielimy na fale podłużne i {fale
+poprzeczne}.}
+{
+Fala jest podłużna gdy kierunek drgań cząstek ośrodka jest równoległy do
+kierunku rozchodzenia się fali i zarazem kierunku transportu energii
+(rysunek 13.1). Przykładem są tu fale dźwiękowe w powietrzu czy też
+drgania naprzemiennie ściskanej i rozciąganej sprężyny.}
+{  {img fileId="369" } 
+{
+Rys. 13.1. Fala podłużna
+{
+Fala jest poprzeczna gdy kierunek drgań cząstek ośrodka jest prostopadły
+do kierunku rozchodzenia się fali i zarazem kierunku transportu energii
+(rysunek 13.2). Przykładem mogą tu być drgania naprężonego sznura,
+którego końcem poruszamy cyklicznie w górę i w dół.}
+{  {img fileId="370" } 
+{
+Rys. 13.2. Fala poprzeczna
+{
+Możemy również dokonać podziału ze względu na rodzaj zaburzenia. Ważnymi
+przykładami są impuls falowy i fala harmoniczna.}
+{
+Impuls falowy powstaje gdy źródłem jest jednorazowe zaburzenie w
+ośrodku: na przykład gdy wrzucimy kamień do wody lub gdy jednorazowo
+odchylimy koniec napiętej liny (rysunek 13.3).}
+{  {img fileId="379" } 
+{
+Rys. 13.3. Impuls falowy
+{
+Fala harmoniczna powstaje gdy źródło wykonuje drgania harmoniczne: na
+przykład gdy cyklicznie wychylamy koniec napiętej liny (rysunek13.4)}
+{  {img fileId="373" } 
+{
+Rys. 13.4. Fala harmoniczna
+{
+Wprowadzimy teraz pojęcie czoła fali i promienia fali.
+Jeżeli w przestrzeni rozchodzi się fala to możemy w każdej chwili
+utworzyć powierzchnię łączącą punkty, do których w tej właśnie chwili
+dotarła ta fala. Przesuwanie się tej powierzchni obrazuje rozchodzenie
+się fali. Właśnie taką powierzchnię nazywamy czołem fali (lub
+powierzchnią falową), a każdą linię prostą, prostopadłą do czoła fali,
+wskazującą kierunek ruchu fali nazywamy promieniem fali.}
+{
+Ze względu na kształt powierzchni falowej możemy wyróżnić {fale
+płaskie }i fale kuliste.}
+{
+W przypadku fal płaskich zaburzenie rozchodzi się w jednym kierunku, a
+powierzchnie falowe są płaszczyznami prostopadłymi do kierunku ruchu
+fali tak jak na rysunku 13.5 poniżej.}
+{  {img fileId="375" } 
+{
+Rys. 13.5. Powierzchnie falowe (płaszczyzny) i promienie fali płaskiej
+{
+Dla fal kulistych zaburzenie rozchodzi się ze źródła we wszystkich
+kierunkach, a powierzchnie falowe są sferami jak na rysunku 13.6
+poniżej.}
+{  {img fileId="397" } 
+{
+Rys. 13.6. Fala kulista rozchodząca się ze źródła Z; wycinki
+powłok sferycznych przedstawiają powierzchnie falowe
+!!!#Rozchodzenie się fal w przestrzeni 
+{Rozchodzenie się fal w
+przestrzeni }
+{
+Rozważmy rozchodzenie się impulsu falowego (fali) wzdłuż
+długiego naprężonego sznura w kierunku x jak na rysunku
+(13.3).}
+{
+Przyjmijmy, że w chwili t = 0 kształt sznura jest opisany
+funkcją}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=f(x)}
+\\end{equation}{OPENAGHMATHJAX}
+[13.1]
+
+{
+gdzie {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} jest poprzecznym wychyleniem sznura w jego punkcie
+{OPENAGHMATHJAX()}x{OPENAGHMATHJAX}.}
+{
+W czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} impuls falowy (fala) poruszający się z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} przesuwa się o odcinek równy
+{OPENAGHMATHJAX()}vt{OPENAGHMATHJAX} wzdłuż sznura to jest wzdłuż osi
+{OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, bez zmiany kształtu. Zatem po czasie t równanie
+opisujące kształt sznura ma postać}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=f(x-{vt})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.2]
+
+{
+Równanie (13.2) opisuje falę biegnącą w kierunku dodatnim osi {OPENAGHMATHJAX()}{x}{OPENAGHMATHJAX}
+(w prawo) o kształcie danym właśnie przez funkcję
+{OPENAGHMATHJAX()}{f(x,t){OPENAGHMATHJAX}. Zauważmy, że kształt jest taki sam w
+chwili {OPENAGHMATHJAX()}{t}{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x = vt{OPENAGHMATHJAX}
+jaki był w chwili {OPENAGHMATHJAX()}t = 0{OPENAGHMATHJAX} w punkcie {OPENAGHMATHJAX()}x = 0{OPENAGHMATHJAX} (argument
+funkcji ma tę samą wartość równą zeru). Zatem równanie opisujące falę
+biegnącą w kierunku ujemnym osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} (w lewo) będzie
+miało postać}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=f(x+{vt})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.3]
+
+{
+Zauważmy, że dla danego {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} mamy równanie {OPENAGHMATHJAX()}f(x){OPENAGHMATHJAX}
+opisujące kształt sznura w danej chwili, a dla danego miejsca sznura
+{OPENAGHMATHJAX()}x{OPENAGHMATHJAX} mamy równanie {OPENAGHMATHJAX()}f(t){OPENAGHMATHJAX} opisujące poprzeczne
+drgania cząstki sznura w punkcie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}.}
+{
+Z równań (13.1) i (13.2) wynika, że dowolna funkcja zmiennej
+{OPENAGHMATHJAX()}(x - vt){OPENAGHMATHJAX} lub
+{OPENAGHMATHJAX()}(x + vt){OPENAGHMATHJAX} opisuje falę biegnącą
+odpowiednio w prawo lub lewo, jednak do opisania rzeczywistej sytuacji
+musimy dokładnie określić postać funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}. Dlatego tera
+zzajmiemy się falą o szczególnym kształcie. Rozważać będziemy poprzeczną
+falę harmoniczną postaci}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=A\\text{sin}\\frac{2\\pi }{\\lambda }(x-{vt})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.4]
+
+{
+która przedstawia przenoszenie się drgań harmonicznych w kierunku
+x, i która pokazana jest na rysunku (13.4). Stała {A
+}(opisująca maksymalne wychylenie) jest amplitudą fali,
+a wyrażenie  {OPENAGHMATHJAX()}{\\frac{2\\pi }{\\lambda }(x-{vt})}{OPENAGHMATHJAX} przedstawia
+fazę. (Pamiętaj: gdy mówimy o wybranej części fali to tym
+samym mówimy o określonej fazie). }
+{
+Zauważmy, że wartość wychylenia poprzecznego {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} dana wzorem
+(13.4) jest taka sama w punktach o współrzędnych {OPENAGHMATHJAX()}x{OPENAGHMATHJAX},
+x + {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}, x + 2{OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX},
+x + 3{OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}, itd. Oznacza to, że te punkty mają
+taką samą fazę.}
+{
+Wielkość {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX} nazywamy długością fali.
+Reprezentuje ona odległość między punktami o tej samej fazie na
+przykład między dwoma grzbietami (maksimami) tak jak na rysunku 13.7.}
+{  {img fileId="382" } 
+{
+Rys. 13.7. Długość fali {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}
+{
+Czas, w którym fala przebiega odległość równą {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX} nazywamy
+okresem T }
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{T=\\frac{\\lambda }{v}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.5]
+
+{
+stąd}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=A\\text{sin}2\\pi \\left(\\frac{x}{\\lambda }-\\frac{t}{T}\\right)}
+\\end{equation}{OPENAGHMATHJAX}
+[13.6]
+
+{
+Widzimy, że w danej chwili {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} taka sama faza jest w punktach
+{OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x + \\lambda {OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}x + 2\\lambda {OPENAGHMATHJAX}, itd., oraz, że w danym miejscu
+{OPENAGHMATHJAX()}x{OPENAGHMATHJAX} faza powtarza się w chwilach {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}t + T{OPENAGHMATHJAX},
+{OPENAGHMATHJAX()}t + 2T{OPENAGHMATHJAX}, itd.
+{
+Często równanie fali bieżącej (13.6) wyraża się poprzez dwie inne
+wielkości: liczbę falową k i {częstość kołową {OPENAGHMATHJAX()}\\omega
+{OPENAGHMATHJAX}} ( lub częstotliwość f), które są zdefiniowane jako}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{k=\\frac{2\\pi }{\\lambda }\\;\\;\\;\\text{oraz}\\;\\;\\;\\omega =\\frac{2\\pi
+}{T}=2{\\pi f}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.7]
+
+{
+co po podstawieniu do równania (13.6) daje}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=A\\text{sin}({kx}-{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.8]
+
+{
+Prędkość fali {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} możemy wyrazić jako}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v=\\frac{\\lambda }{T}={\\lambda f}=\\frac{\\omega }{k}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.9]
+
+{
+Bardziej szczegółowo prędkość rozchodzenia się fal jest omówiona w
+następnym rozdziale.}
+\\clearpage
+Ćwiczenie 13.1
+
+{ Teraz samodzielnie spróbuj przeanalizować
+następujące równanie fali poprzecznej}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=\\text{20}\\text{sin}({\\pi x}-2t)}
+\\end{equation}{OPENAGHMATHJAX}
+{ gdzie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} są wyrażone w
+centymetrach, a {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} w sekundach. Porównaj to równanie z ogólnym
+równaniem (13.8) dla harmonicznej fali poprzecznej i wyznac
+znastępujące wielkości: długość fali {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}, częstość
+{OPENAGHMATHJAX()}\\omega {OPENAGHMATHJAX}, okres {OPENAGHMATHJAX()}T{OPENAGHMATHJAX}, prędkość rozchodzenia się fali (w
+kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}), maksymalną prędkość i maksymalne przyspieszenie
+cząstek ośrodka w ich ruchu drgającym (w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}). Wyniki
+zapisz poniżej.}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Prędkość rozchodzenia się fal, równanie falowe 
+Jeżeli chcemy zmierzyć prędkość fali {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} to
+śledzimy jak przemieszcza się w czasie wybrana część fali czyli
+określona faza. Dlatego prędkość fali określa się jako {prędkość
+fazową}. Dla wybranej fazy fali  {OPENAGHMATHJAX()}{y=f(x- vt)}{OPENAGHMATHJAX} poruszającej
+się w prawo sprowadza się to do warunku
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{x-{vt}=\\text{const}\\text{.}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.10]
+
+{
+Różniczkując to równanie względem czasu otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{{dx}}{{dt}}-v=0}
+\\end{equation}{OPENAGHMATHJAX}
+[13.11]
+
+{
+czyli}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{{dx}}{{dt}}=v}
+\\end{equation}{OPENAGHMATHJAX}
+[13.12]
+
+{
+Tak wyraża się prędkość fazowa fali. }
+{
+W przypadku gdy zaburzenie falowe jest złożeniem fal sinusoidalnych o
+różnych częstotliwościach to prędkość przenoszenia energii (prędkość
+fali modulowanej) może być inna niż prędkości fal składowych. Taką
+prędkość nazywa się prędkością grupową.}
+Więcej o prędkości grupowej możesz przeczytać
+w Dodatku 1, na końcu modułu IV.
+
+{
+W poprzednim rozdziale pokazaliśmy, że dowolna funkcja
+{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}(x - {OPENAGHMATHJAX()}vt{OPENAGHMATHJAX}) lub
+{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}(x + {OPENAGHMATHJAX()}vt{OPENAGHMATHJAX}) opisuje falę
+biegnącą odpowiednio w prawo lub lewo wzdłuż osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i jako
+przykład rozważaliśmy poprzeczną falę harmoniczną. Teraz poznamy,
+równanie ruchu falowego, które stosuje się do {wszystkich
+rodzajów fal: }zarówno fal mechanicznych takich jak fale dźwiękowe,
+fale na wodzie, fale w strunach, w sprężynach, jak i do fal
+elektromagnetycznych takich jak na przykład światło.}
+{
+Równanie ruchu falowego możemy wyprowadzić wychodząc od ogólnego
+równania fali  {OPENAGHMATHJAX()}{y=f(x-{vt})}{OPENAGHMATHJAX}. W tym celu obliczamy
+przyspieszenie poprzecznych drgań punktu ośrodka o współrzędnej
+x, to znaczy obliczamy drugą pochodną y względem
+czasu}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial ^{{2}}y}{\\partial
+t^{{2}}}=f\\text{{\\textquotesingle}{\\textquotesingle}}(x-{vt})v^{{2}}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.13]
+
+{
+gdzie {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} jest pochodną funkcji
+wewnętrznej. (Uwaga: w równaniach piszemy pochodne cząstkowe, oznaczane
+symbolem {OPENAGHMATHJAX()}{\\partial}{OPENAGHMATHJAX}, bo wychylenie {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} jest funkcją dwóch
+zmiennych {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ({OPENAGHMATHJAX()}x{OPENAGHMATHJAX},{OPENAGHMATHJAX()}t{OPENAGHMATHJAX})).}
+{
+Równocześnie}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial ^{{2}}y}{\\partial
+x^{{2}}}=f\\text{{\\textquotesingle}{\\textquotesingle}}(x-{vt})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.14]
+
+{
+Łącząc oba powyższe równania otrzymujemy {równanie różniczkowe
+ruchu falowego}}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial ^{{2}}y}{\\partial
+x^{{2}}}=\\frac{1}{v^{{2}}}\\frac{\\partial ^{{2}}y}{\\partial t^{{2}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.15]
+
+{
+To równanie spełnia każda funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}({x -
+}{OPENAGHMATHJAX()}vt{OPENAGHMATHJAX}) jak również {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}({x +
+}{OPENAGHMATHJAX()}vt{OPENAGHMATHJAX}).}
+{
+Prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} rozchodzenia się fali jest niezależna od
+amplitudy i częstotliwości, natomiast w przypadku fal mechanicznych
+zależy od sprężystości ośrodka i jego bezwładności. Na przykład
+prędkość fali harmonicznej rozchodzącej się wzdłuż naprężonego sznura
+(struny) jest dana wyrażeniem}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v=\\sqrt{\\frac{F}{\\mu }}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.16]
+
+{
+gdzie sprężystość sznura jest określona poprzez napinającą go siłę
+F (im większa siła tym szybciej wychylone elementy sznura
+wracają do położenia równowagi), a jego bezwładność zależy od masy
+µ przypadającej na jednostkę długości sznura.}
+{
+Równanie ruchu falowego można wyprowadzić bezpośrednio z zasad
+dynamiki Newtona obliczając prędkość fal w naprężonym sznurze.}
+Z tym wyprowadzeniem możesz się zapoznać w
+Dodatku 2, na końcu modułu IV.
+
+!!!#Przenoszenie energii przez fale 
+{
+Jak już wspominaliśmy fale przenoszą dostarczoną ze źródła
+energię poprzez ośrodek dzięki przesuwaniu się zaburzenia w ośrodku. Na
+przykład wprawiając koniec struny w drgania poprzeczne (rysunek13.8)
+źródło wykonuje pracę, która objawia się w postaci energii kinetycznej
+i potencjalnej punktów struny (ośrodka).}
+{  {img fileId="374" } 
+{
+Rys. 13.8. Koniec struny wprawiony w drgania siłą F
+{
+Siła F jaka działa na koniec struny porusza struną w górę i w
+dół wprawiając jej koniec w drgania w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}. }
+{
+Do wyznaczenia szybkości przenoszenia energii przez falę posłużymy się
+wyrażeniem na moc}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{P=F_{{y}}v_{{y}}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.17]
+
+{
+Jak widać z rysunku 13.8 prędkość poprzeczna jest równa 
+{OPENAGHMATHJAX()}{v_{{y}}=\\partial y/\\partial t}{OPENAGHMATHJAX}, a składowa siły F w
+kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} wynosi
+F{OPENAGHMATHJAX()}_{y}{OPENAGHMATHJAX} = Fsin{OPENAGHMATHJAX()}\\theta {OPENAGHMATHJAX}.
+Podstawiając otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{P=F\\frac{\\partial y}{\\partial t}\\text{sin}\\theta }
+\\end{equation}{OPENAGHMATHJAX}
+[13.18]
+
+{
+Dla małych kątów {OPENAGHMATHJAX()}\\theta {OPENAGHMATHJAX} możemy przyjąć  {OPENAGHMATHJAX()}{\\text{sin}\\theta
+=-\\partial y/\\partial x}{OPENAGHMATHJAX} (znak minus wynika z ujemnego nachylenia
+struny). Stąd}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{P=-F\\frac{\\partial y}{\\partial t}\\frac{\\partial y}{\\partial x}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.19]
+
+{
+Obliczamy teraz pochodne równania fali harmonicznej 
+{OPENAGHMATHJAX()}{y=A\\text{sin}({kx}-{\\omega t})}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial y}{\\partial t}=-{A\\omega
+}\\text{cos}(\\text{kx}-{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.20]
+
+{
+oraz}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial y}{\\partial
+x}={Ak}\\text{cos}(\\text{kx}-{\\omega
+t})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.21]
+
+{
+i podstawiamy do wyrażenia na moc}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{P=\\text{FA}^{{2}}{k\\omega
+}\\text{cos}^{{2}}({kx}-{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.22]
+
+{
+Korzystając z zależności (13.7) oraz (13.16) otrzymujemy ostatecznie}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{P=4\\pi ^{{2}}A^{{2}}f^{{2}}{\\mu
+v}\\text{cos}^{{2}}(\\text{kx}-{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.23]
+
+{
+Zauważmy, że moc czyli szybkość przepływu energii oscyluje w czasie.
+Widzimy ponadto, że szybkość przepływu energii jest proporcjonalna do
+kwadratu amplitudy i kwadratu częstotliwości. Ta zależność jest
+prawdziwa dla wszystkich typów fal.}
+!!!#Interferencja fal, fale stojące
+{
+Interferencją fal nazywamy zjawisko nakładania się
+fal. Rozważmy dwie fale o równych częstotliwościach i amplitudach ale o
+fazach różniących się o {OPENAGHMATHJAX()}\\varphi {OPENAGHMATHJAX}. Jeżeli te fale rozchodzą
+się w kierunku x, z jednakowymi prędkościami to możemy je
+opisać równaniami}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y_{{1}}=A\\text{sin}(\\text{kx}-{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y_{{2}}=A\\text{sin}(\\text{kx}-{\\omega
+t}+\\varphi )}
+\\end{equation}{OPENAGHMATHJAX}
+[13.24]
+
+{
+Podobnie jak w przypadku drgań, również dla fal obowiązuje zasada
+superpozycji więc wypadkową falę znajdujemy jako sumę fal składowych}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=2A\\text{cos}(\\varphi
+/{2)}\\text{sin}(\\text{kx}-{\\omega t}+\\varphi
+/{2})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.25]
+
+{
+To jest ponownie równanie fali sinusoidalnej 
+{OPENAGHMATHJAX()}{y=A\\text{{\\textquotesingle}sin}(\\text{kx}-{\\omega
+t}+\\varphi /{2})}{OPENAGHMATHJAX} o amplitudzie}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{A=2A\\text{cos}(\\varphi /{2)}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.26]
+
+{
+Widzimy, że wynik nakładania się fal (interferencji) zależy wyłącznie od
+różnicy faz {OPENAGHMATHJAX()}\\varphi {OPENAGHMATHJAX}. Dla {OPENAGHMATHJAX()}\\varphi {OPENAGHMATHJAX} = 0 fale są
+zgodne w fazie i wzmacniają się maksymalnie (amplituda A’
+osiąga maksimum), a dla {OPENAGHMATHJAX()}\\varphi {OPENAGHMATHJAX} = 180° fale są przeciwne w
+fazie i wygaszają się (amplituda A’ = 0). Oczywiście dla
+pozostałych wartości {OPENAGHMATHJAX()}\\varphi {OPENAGHMATHJAX} otrzymujemy pośrednie wyniki
+nakładania się fal.}
+Możesz prześledzić interferencję fal w
+zależności od różnicy faz {OPENAGHMATHJAX()}\\varphi {OPENAGHMATHJAX} korzystając z darmowego
+programu komputerowego „Składanie ruchów falowych” dostępnego na
+stronie WWW autora.
+
+!!!!#Fale stojące 
+{
+Ponownie zajmiemy się interferencją dwu fal o równych
+częstotliwościach i amplitudach ale rozchodzących się w przeciwnych
+kierunkach na przykład +x i {OPENAGHMATHJAX()}-x{OPENAGHMATHJAX}. Z taką sytuacją
+mamy do czynienia na przykład gdy fala rozchodząca się w danym ośrodku
+(ciele) odbija się od granicy ośrodka (ciała) i nakłada się na falę
+padającą. Fale te można opisać równaniami}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y_{{1}}=A\\text{sin}(\\text{kx}-{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y_{{2}}=A\\text{sin}(\\text{kx}+{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+[13.27]
+
+{
+Falę wypadkową znajdujemy jako sumę tych fal składowych}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=y_{{1}}+y_{{2}}=2A\\text{sin}{kx}\\text{cos}{\\omega t}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.28]
+
+{
+Zauważmy, że jest to równanie ruchu harmonicznego prostego postaci 
+{OPENAGHMATHJAX()}{y=A\\text{{\\textquotesingle}cos}{\\omega t}}{OPENAGHMATHJAX} z amplituda równą}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{A=2A\\text{sin}\\text{kx}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.29]
+
+{
+Widzimy, że cząstki ośrodka drgają ruchem harmonicznym prostym ale w
+przeciwieństwie do fali bieżącej różne punkty ośrodka mają różną
+amplitudę drgań zależną od ich położenia {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Taką falę nazywamy
+falą stojącą.}
+{
+Punkty, dla których kx = {OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX}/2, 3{OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX}/2,
+5{OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX}/2, itd. czyli znajdujące się w położeniach
+{OPENAGHMATHJAX()}x{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}/4, 3{OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}/4,
+5{OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}/4 itd. mają maksymalną amplitudę. Punkty te
+nazywamy strzałkami, a punkty dla których kx =
+{OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX}, 2{OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX}, 3{OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX} itd. tj. takie, że
+x = {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}/2, {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX},
+3{OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX}/2 itd. mają zerową amplitudę i nazywane są
+węzłami. Widać, że odległości między kolejnymi węzłami i
+strzałkami wynoszą pół długości fali. Sytuacja ta jest przedstawiona na
+rysunku 13.9, gdzie zaznaczonych jest kilka możliwych drgań struny
+zamocowanej na obu końcach.}
+{  {img fileId="395" } 
+{
+Rys. 13.9. Fale stojące dla struny zamocowanej na obu końcach; węzły
+są
+
+zaznaczone liniami kropkowanymi, a strzałki przerywanymi.
+{
+Zwróćmy uwagę na jeszcze jedną istotną różnicę pomiędzy falą bieżącą, a
+falą stojącą. W fali stojącej energia nie jest przenoszona wzdłuż
+sznura bo nie może ona przepłynąć przez węzły (energia kinetyczna i
+potencjalna węzłów jest równa zeru bo węzły nie drgają). Energia w fali
+stojącej jest na stałe zmagazynowana w poszczególnych elementach
+ośrodka (np. struny).}
+Możesz prześledzić powstawanie fali stojącej w
+wyniku interferencji fal biegnących w przeciwne strony korzystając 
+zdarmowego programu komputerowego „Składanie ruchów falowych” dostępnego
+na stronie WWW autora.
+
+!!!#Analiza fal złożonych 
+{
+Ponownie rozpatrzmy drgania poprzeczne struny. Jeżeli struna
+zamocowana na obu końcach zostanie najpierw wygięta, a następnie
+puszczona, to wzdłuż struny rozchodzą się drgania poprzeczne.
+Zaburzenia te odbijają się od zamocowanych końców i w wyniku
+interferencji powstaje fala stojąca. Zwróćmy uwagę, że drgania struny
+wytwarzają w otaczającym strunę powietrzu dźwiękowe fale podłużne (fale
+akustyczne). Ponieważ jedynym warunkiem, jaki musi być spełniony, jest
+nieruchomość obu końców struny, czyli istnienie węzłów fali stojącej na
+tych końcach, to mogą powstać w tej strunie fale stojące o różnej
+długości. Pierwsze trzy rodzaje drgań jakie powstają w strunie o
+długości L zamocowanej na końcach zostały pokazane na rysunku
+13.9 (powyżej).}
+{
+Widzimy, że dla kolejnych drgań  {OPENAGHMATHJAX()}{L=\\frac{1}{2}\\lambda _{{1}}}{OPENAGHMATHJAX}, 
+{OPENAGHMATHJAX()}{L=\\lambda _{{2}}}{OPENAGHMATHJAX},  {OPENAGHMATHJAX()}{L=\\frac{3}{2}\\lambda _{{3}}}{OPENAGHMATHJAX}. Możemy więc
+zapisać ogólny związek na długość fali powstającej w strunie}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\lambda _{{n}}=\\frac{2L}{n}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.30]
+
+{
+gdzie n = 1, 2, 3, ... Korzystając z tego, że prędkość fali 
+{OPENAGHMATHJAX()}{v=\\lambda /{T={\\lambda f}}}{OPENAGHMATHJAX} oraz z równania (13.16) na
+prędkość fali harmonicznej rozchodzącej się wzdłuż naprężonego sznura
+(struny) możemy obliczyć częstotliwość fal stojących w strunie}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f_{{n}}=\\frac{n}{2L}v=\\frac{n}{2L}\\sqrt{\\frac{F}{\\mu }}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.31]
+
+{
+Najniższą częstość nazywamy częstością podstawową, a pozostałe
+wyższymi harmonicznymi czyli alikwotami.}
+{
+Zazwyczaj w drganiach występują, oprócz drgania podstawowego,
+również drgania harmoniczne, a dźwięki jakie odbieramy są wynikiem
+nakładania się tych drgań. O jakości instrumentu (jego barwie) decyduje
+właśnie to ile alikwotów jest zawarte w dźwięku i jakie są ich
+natężenia. Przykładowo, drganie wypadkowe struny będące złożeniem tonu
+podstawowego (n = 1) i wyższych harmonicznych (n = 3,
+5, 7) o różnych amplitudach jest pokazane na rysunku 13.10.}
+{  {img fileId="385" } 
+{
+Rys. 13.10. Fala wypadkowa będąca złożeniem czterech fal harmonicznych
+{
+Zwróćmy uwagę, że wypadkowe drganie (chociaż okresowe) nie jest
+harmoniczne (nie daje się opisać funkcją sinus lub cosinus).}
+{
+Zagadnienie przedstawienia dowolnego drgania okresowego jako sumy drgań
+harmonicznych ujmuje twierdzenie Fouriera, które mówi, że}
+Prawo, zasada, twierdzenie
+
+Dowolne drganie okresowe o okresie T
+możemy przedstawić jako kombinację liniową (sumę) drgań harmonicznych o
+okresach danych wzorem T{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} = T/n, gdzie n jest liczbą
+naturalną.
+
+{
+Dotyczy to dowolnej funkcji okresowej więc można na przykład
+skonstruować za pomocą fal sinusoidalnych (które są wszędzie
+zakrzywione) przebieg piłokształtny , który jest złożony z odcinków
+prostych (rysunek 13.11).}
+{  {img fileId="386" } 
+{
+Rys. 13.11. Złożenie n = 10 drgań harmonicznych postaci 
+{OPENAGHMATHJAX()}{\\text{sin}({n\\omega t})/n}{OPENAGHMATHJAX} (wykres górny)
+
+oraz pięć pierwszych drgań składowych (wykres dolny)
+Ćwiczenie 13.2
+
+{ Innym przykładem jest piszczałka organowa
+zamknięta, w której źródłem dźwięku jest drgające powietrze. Jeżeli na
+krawędź otwartego końca piszczałki skierujemy strumień powietrza to
+można w niej wytworzyć falę stojącą. Na otwartym końcu piszczałki
+powstaje strzałka, a na jej końcu zamkniętym węzeł. Spróbuj wykreślić,
+drganie podstawowe i trzy pierwsze drgania harmoniczne jakie powstają w
+piszczałce zamkniętej. Przyjmując, że długość piszczałki wynosi
+L, oblicz długości tych fal. Jaki ogólny związek opisuje
+długości fal stojących w piszczałce zamkniętej? Zapisz wzór poniżej.}
+{ {OPENAGHMATHJAX()}{\\lambda{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{n}{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Dudnienia, modulacja amplitudy 
+{
+Gdy omawialiśmy fale stojące to mieliśmy do czynienia 
+zsytuacją, w której dodawanie (superpozycja) zaburzeń dało w wyniku falę
+o amplitudzie stałej w czasie ale zależnej od położenia cząstki
+drgającej {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Jest to ilustracja tzw. {interferencji w
+przestrzeni}. Teraz rozpatrzmy przypadek interferencji w czasie. W tym
+celu rozpatrzymy, w danym punkcie przestrzeni {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, wynik
+nakładania się dwóch biegnących w tym samym kierunku fal o jednakowych
+amplitudach ale nieznacznie różnych częstotliwościach. Drgania
+harmoniczne danej cząstki ośrodka (w zadanym punkcie {OPENAGHMATHJAX()}x{OPENAGHMATHJAX})
+wywołane przez te fale mają postać}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y_{{1}}=A\\text{sin}\\omega _{{1}}t=A\\text{sin}2{\\pi f}_{{1}}t}
+\\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y_{{2}}=A\\text{sin}\\omega _{{2}}t=A\\text{sin}2{\\pi f}_{{2}}t}
+\\end{equation}{OPENAGHMATHJAX}
+[13.32]
+
+{
+a drganie wypadkowe}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=y_{{1}}+y_{{2}}=A(\\text{sin}2{\\pi
+f}_{{1}}t+\\text{sin}2{\\pi f}_{{2}}t)}
+\\end{equation}{OPENAGHMATHJAX}
+[13.33]
+
+{
+Ze wzoru na sumę sinusów otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=\\left[2A\\text{cos}\\left(2\\pi
+\\frac{f_{{1}}-f_{{2}}}{2}t\\right)\\right]\\text{sin}\\left(2\\pi
+\\frac{f_{{1}}+f_{{2}}}{2}t\\right)}
+\\end{equation}{OPENAGHMATHJAX}
+[13.34]
+
+{
+Równanie to ma postać  {OPENAGHMATHJAX()}{y=A\\text{{\\textquotesingle}sin}({\\omega
+t})=A\\text{{\\textquotesingle}sin}(2{\\pi ft})}{OPENAGHMATHJAX}. Drgania
+wypadkowe można więc uważać za drgania o częstotliwości}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f=\\frac{f_{{1}}+f_{{2}}}{2}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.35]
+
+{
+(która jest średnią częstotliwości dwóch fal) i o amplitudzie
+A{\\textquotesingle} (wyrażenie w nawiasie kwadratowym w
+równaniu 13.34). Zauważ, że amplituda zmienia się w czasie
+z częstotliwością}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f_{{\\text{amp}}}=\\frac{f_{{1}}-f_{{2}}}{2}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.36]
+
+{
+Jeżeli częstotliwości {OPENAGHMATHJAX()}f{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} są bliskie siebie to amplituda zmienia się
+powoli ({OPENAGHMATHJAX()}f{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{amp.}{OPENAGHMATHJAX} jest mała). Mówimy, że
+mamy do czynienia z modulacją amplitudy (AM – amplitude modulation).
+Naturalną modulację amplitudy dla fal dźwiękowych możemy usłyszeć gdy
+dwie struny instrumentu są nastrojone na niewiele różniące się tony.
+Gdy obie te struny wydają równocześnie dźwięk (na przykład uderzono dwa
+sąsiednie klawisze fortepianu) to usłyszymy tak zwane dudnienia
+przejawiające się jako zmiana głośności (rysunek 13.12). Zastosowanie
+modulacji ma na celu wprowadzenie do procesu potrzebnej informacji,
+która ma być przesłana za pomocą fal. Modulacja amplitudy jest
+najstarszym i najbardziej rozpowszechnionym (obok modulacji
+częstotliwości FM) sposobem przesyłania informacji za pomocą fal
+radiowych.}
+{  {img fileId="377" } 
+{
+Rys. 13.12. Nałożenie się drgań harmonicznych pokazanych na górnym
+wykresie daje w wyniku drganie o zmiennej w czasie amplitudzie
+(obwiednia dolnego wykresu)
+Możesz prześledzić powstawanie dudnień w
+zależności od stosunku częstotliwości fal składowych
+{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}/{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} korzystając 
+zdarmowego programu komputerowego „Składanie ruchów falowych” dostępnego
+na stronie WWW autora.
+
+\\clearpage!!!#Zjawisko Dopplera
+Prawo, zasada, twierdzenie
+
+Zjawisko Dopplera polega na pozornej
+zmianie częstotliwości fali z powodu ruchu obserwatora lub źródła
+fali.
+
+{
+W pracy z 1842 r., Christian Doppler zwrócił uwagę, że barwa
+świecącego ciała (częstotliwość wysyłanego promieniowania) musi się
+zmieniać z powodu ruchu względnego obserwatora lub źródła. Zjawisko
+Dopplera występuje dla wszystkich fal; my szczegółowo rozważymy je dla
+fal dźwiękowych. Ograniczymy się do przypadku ruchu źródła i
+obserwatora wzdłuż łączącej ich prostej.}
+{
+Rozpatrzmy sytuację gdy źródło dźwięku spoczywa, a obserwator
+porusza się w kierunku źródła z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{o}{OPENAGHMATHJAX} (względem ośrodka).
+Jeżeli fale o długości {OPENAGHMATHJAX()}\\lambda {OPENAGHMATHJAX} rozchodzą się z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} to w czasie t dociera do nieruchomego
+obserwator  {OPENAGHMATHJAX()}{{vt}/\\lambda }{OPENAGHMATHJAX} fal. Jeżeli obserwator porusza się
+w kierunku źródła (wychodzi falom na przeciw) to odbiera jeszcze
+dodatkowo  {OPENAGHMATHJAX()}{v_{{o}}t/\\lambda }{OPENAGHMATHJAX} fal. W związku z tym częstotliwość
+f’ słyszana przez obserwatora}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f=\\frac{\\frac{{vt}}{\\lambda }+\\frac{v_{{o}}t}{\\lambda
+}}{t}=\\frac{v+v_{{o}}}{\\lambda }=\\frac{v+v_{{o}}}{\\frac{v}{f}}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.37]
+
+{
+Ostatecznie}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f=f\\frac{v+v_{{o}}}{v}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.38]
+
+{
+Obserwator rejestruje wyższą częstotliwość niż częstotliwość źródła.
+Kiedy obserwator oddala się od źródła należy w powyższych wzorach
+zmienić znak (na minus) prędkości obserwatora
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{o}{OPENAGHMATHJAX}. W tym przypadku
+częstotliwość zmniejsza się.}
+{
+Analogicznie możemy przestudiować przypadek źródła poruszającego się 
+zprędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} względem
+nieruchomego obserwatora (i względem ośrodka).}
+{
+Otrzymujemy wtedy zależność}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f=f\\frac{v}{v-v_{{z}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.39]
+
+{
+dla przypadku źródła zbliżającego się do obserwatora. Obserwator
+rejestruje wyższą częstotliwość niż częstotliwość źródła. Gdy źródło
+oddala się to w powyższym wzorze zmieniamy znak prędkości źródła
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX}. Ta sytuacja jest
+przedstawiona na rysunku 13.13, gdzie pokazane są powierzchnie falowe
+dla fal wysłanych ze źródła Z poruszającego się z prędkością
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} w stronę obserwatora O
+(rysunek a) w porównaniu do powierzchni falowych dla fal wysłanych 
+znieruchomego źródła (rysunek b). Widzimy, że w przypadku (a) obserwator
+rejestruje podwyższoną częstotliwość.}
+{  {img fileId="384" } 
+{
+Rys. 13.13. Fale wysyłane przez źródło Z: (a) poruszające się 
+zprędkością {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} w stronę
+obserwatora O; (b) przez nieruchome źródło
+{
+Zwróćmy uwagę, że zmiany częstotliwości zależą od tego czy porusza się
+źródło czy obserwator. Wzory (13.38) i (13.39) dają inny wynik dla
+jednakowych prędkości obserwatora i źródła.}
+{
+W sytuacji kiedy porusza się zarówno źródło jak i obserwator otrzymujemy
+zależność będącą połączeniem wzorów (13.39) i (13.40)}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f=f\\left(\\frac{v\\pm v_{{o}}}{v\\mp v_{{z}}}\\right)}
+\\end{equation}{OPENAGHMATHJAX}
+[13.40]
+
+{
+Znaki {\\textquotedbl}górne{\\textquotedbl} w liczniku i mianowniku
+odpowiadają zbliżaniu się źródła i obserwatora, a znaki
+{\\textquotedbl}dolne{\\textquotedbl} ich oddalaniu się. Powyższe wzory
+są słuszne gdy prędkości źródła i obserwatora są mniejsze od prędkości
+dźwięku.}
+Możesz prześledzić zjawisko Dopplera dla źródła
+i obserwatora poruszających się wzdłuż łączącej ich prostej korzystając
+z darmowego programu komputerowego „Efekt Dopplera” dostępnego na
+stronie WWW autora.
+
+Ćwiczenie 13.3
+
+{ Typowym przykładem efektu Dopplera jest zmiana
+częstotliwości dźwięku klaksonu samochodu przejeżdżającego koło nas.
+Słyszymy, że klakson ma wyższy ton gdy samochód zbliża się do nas, a
+niższy gdy się oddala. Załóżmy, że podczas mijania nas przez samochód
+rejestrujemy obniżenie częstotliwości klaksonu o 15\\informacji sprawdź czy samochód nie przekroczył dozwolonej, poza
+obszarem zabudowanym, prędkości 90 km/h. Prędkość dźwięku przyjmij
+równą 340 m/s.}
+{ Wynik zapisz poniżej.}
+{ {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+{
+Zjawisko Dopplera obserwujemy również w przypadku fal
+elektromagnetycznych, a więc i świetlnych. Opis tego zjawiska dla
+światła jest inny niż dla fal dźwiękowych. Dla fal dźwiękowych
+otrzymaliśmy dwa wyrażenia (13.38) i (13.39) na zmianę częstotliwości
+fali w zależności od tego czy to źródło czy też obserwator poruszają
+się względem ośrodka przenoszącego drgania (powietrza). }
+{
+Do rozchodzenia się światła nie jest potrzebny ośrodek (światło może
+rozchodzić się w próżni) ponadto, zgodnie ze szczególną teorią
+względności Einsteina, prędkość światła nie zależy od układu
+odniesienia i dlatego częstotliwość fali świetlnej odbieranej prze
+zobserwatora zależy tylko od prędkości względnej źródła światła i
+obserwatora. Jeżeli źródło i obserwator poruszają się wzdłuż łączącej
+ich prostej to}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f\\approx f\\sqrt{\\frac{1-\\beta }{1+\\beta }}}
+\\end{equation}{OPENAGHMATHJAX}
+[13.42]
+
+{
+gdzie  {OPENAGHMATHJAX()}{\\beta =u/c}{OPENAGHMATHJAX}. W tej zależności u jest prędkością
+względną źródła względem odbiornika, a c prędkością światła.
+Dla małych wartości prędkości względnej 
+{OPENAGHMATHJAX()}{|u|\\text{{\\textless}{\\textless}}c}{OPENAGHMATHJAX} powyższy wzór przyjmuje postać}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{f\\approx f\\left(1\\pm \\frac{u}{c}\\right)}
+\\end{equation}{OPENAGHMATHJAX}
+[13.41]
+
+{
+Znak {\\textquotedbl}+{\\textquotedbl} odnosi się do wzajemnego zbliżania
+się źródła i obserwatora, a znak {\\textquotedbl}{OPENAGHMATHJAX()}-{OPENAGHMATHJAX}{\\textquotedbl} do
+ich wzajemnego oddalania się. Zbliżaniu towarzyszy więc wzrost
+częstotliwości (dla światła oznacza to przesunięcie w stronę fioletu),
+a oddalaniu się obniżenie częstotliwości (dla światła oznacza to
+przesunięcie w stronę czerwieni). }
+{
+Zjawisko to ma liczne zastosowania: na przykład w astronomii służy do
+określenia prędkości odległych świecących ciał niebieskich. Porównujemy
+długości fal światła wysyłanego przez pierwiastki tych obiektów 
+zdługościami fal światła wysyłanego przez takie same pierwiastki
+znajdujące się na Ziemi. To właśnie szczegółowe badania przesunięć ku
+czerwieni w widmach odległych galaktyk wykazały, że Wszechświat
+rozszerza się.}
+\\clearpage\\setcounter{page}{1}\\pagestyle{Convertii}
+!#Statyka i dynamika płynów 
+{
+Powszechnie przyjęty jest podział materii na ciała stałe i
+płyny. Pod pojęciem substancji, która może płynąć rozumiemy zarówno
+ciecze jak i gazy. Płyny, w odróżnieniu od ciał sztywnych, mających
+określony rozmiar i kształt, łatwo zmieniają swój kształt,
+a w przypadku gazów przyjmują objętość równą objętości naczynia.
+Mówimy, że płyny nie mają sprężystości kształtu, a mają
+sprężystość objętości. Dlatego rozwiązanie zagadnień 
+zmechaniki płynów wymaga posługiwania się nowymi pojęciami takimi jak
+ciśnienie i gęstość. }
+!!!#Ciśnienie i gęstość 
+{
+Różnica w działaniu siły powierzchniowej na płyn i na ciało
+stałe jest związana z tym, że w cieczy siły występują tylko przy
+zmianie objętości, a nie jak w ciałach stałych przy ich deformacji
+(zmianie kształtu). W związku z tym w cieczy siła powierzchniowa, zwana
+siłą parcia, musi być zawsze prostopadła do powierzchni płynu
+podczas gdy w ciele stałym może mieć dowolny kierunek. Spoczywający
+płyn nie może równoważyć sił stycznych (warstwy płynu ślizgałyby się po
+sobie) i dlatego może zmieniać kształt i płynąć. W związku z tym
+będziemy opisywać siłę działającą na płyn za pomocą ciśnienia
+p zdefiniowanego następująco:}
+Definicja
+
+Ciśnienie definiujemy jako stosunek siły
+parcia działającej na jednostkę powierzchni do wielkości tej
+powierzchni.
+
+{
+Ciśnienie jest wywierane zarówno na ścianki naczynia jak i na dowolne
+przekroje płynów zawsze prostopadle do tych ścianek i przekrojów.}
+Jednostki
+
+Ciśnienie jest wielkością skalarną. Jednostką
+ciśnienia w układzie SI jest pascal (Pa); 1 Pa =
+1 N/m{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}. Inne stosowane jednostki to bar
+(1 bar = 10{OPENAGHMATHJAX()}^{5}{OPENAGHMATHJAX} Pa), atmosfera (1 atm = 101325
+Pa), milimetr słupka rtęci (760 mm Hg = 1atm).
+
+{
+Rozważmy teraz zamkniętą powierzchnię zawierającą płyn
+(rysunek 14.1). Dowolny element powierzchni dS jest
+reprezentowany przez wektor powierzchni dS.}
+m4fale-img14.jpg
+{
+Rys. 14.1. Element powierzchni dS reprezentowany przez wektor
+powierzchni dS
+Definicja
+
+Długość wektora S jest równa
+polu powierzchni S, jego kierunek jest prostopadły do powierzchni, a
+zwrot na zewnątrz powierzchni.
+
+{
+Siła F wywierana przez płyn na ten element powierzchni
+wynosi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{F={pS}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.1]
+
+{
+Ponieważ F i S mają ten sam kierunek
+więc ciśnienie p można zapisać}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p=\\frac{F}{S}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.2]
+
+{
+Do opisu płynów stosujemy również pojęcie gęstości {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}
+wyrażonej jako}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\rho =\\frac{m}{V}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.3]
+
+{
+Gęstość płynów zależy od wielu czynników takich jak temperatura, czy
+ciśnienie.}
+{
+W tablicy 14.1 przedstawiony jest zakres gęstości spotykanych
+w przyrodzie.}
+{
+Tabela 14.1. Gęstości wybranych obiektów
+Materiał 
+{OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}
+[kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}]
+
+przestrzeń międzygwiezdna 
+10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{18}{OPENAGHMATHJAX} -
+10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{21}{OPENAGHMATHJAX}
+
+najlepsza próżnia laboratoryjna 
+10{OPENAGHMATHJAX()}^{{OPENAGHMATHJAX()}{OPENAGHMATHJAX}-{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}^{17}{OPENAGHMATHJAX}
+
+powietrze (1 atm 0°C) 
+1.3
+
+powietrze (50 atm 0°C) 
+6.5
+
+Ziemia: wartość średnia 
+5.52·10{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}
+
+Ziemia: rdzeń 
+9.5·10{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}
+
+Ziemia: skorupa 
+2.8·10{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}
+
+białe karły 
+10{OPENAGHMATHJAX()}^{8}{OPENAGHMATHJAX} -
+10{OPENAGHMATHJAX()}^{15}{OPENAGHMATHJAX}
+
+jądro uranu 
+10{OPENAGHMATHJAX()}^{17}{OPENAGHMATHJAX}
+
+!!!#Ciśnienie wewnątrz nieruchomego płynu 
+{
+Równanie (14.2) opisuje ciśnienie wywierane przez płyn na
+powierzchnię, która go ogranicza. Możemy także mówić o ciśnieniu
+wewnętrznym płynu. W tym celu rozpatrzmy element płynu w kształcie
+cienkiego dysku znajdującego się na głębokości h pod
+powierzchnią płynu pokazany na rysunku 14.2. Grubość dysku wynosi
+dh, a powierzchnia podstawy wynosi S. Masa takiego
+elementu wynosi {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}Sdh a jego ciężar
+{OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}gSdh. Pamiętajmy, że siły działające
+na element są w każdym punkcie prostopadłe do powierzchni. Siły poziome
+wywołane jedynie przez ciśnienie płynu równoważą się. Siły pionowe są
+wywoływane nie tylko przez ciśnienie płynu ale też przez jego ciężar.
+Ponieważ płyn jest nieruchomy więc wypadkowa siła działająca na element
+płynu jest równa zeru. }
+{  {img fileId="376" } 
+{
+Rys. 14.2. Siły działające na element cieczy znajdujący się na
+głębokości h
+{
+Zachowanie równowagi w kierunku pionowym wymaga aby}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{(p+{dp})S=\\text{pS}+\\rho
+\\text{gS}{dh}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.4]
+
+{
+a stąd}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{{dp}={\\rho
+gdh}\\;\\;\\text{czyli}\\;\\;\\frac{{dp}}{{dh}}={\\rho
+g}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.5]
+
+{
+Powyższe równanie pokazuje, że ciśnienie zmienia się z głębokością
+płynu. Powodem jest ciężar warstwy płynu leżącej pomiędzy punktami, dla
+których mierzymy różnicę ciśnień. Wielkość {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}g nazywamy
+ciężarem właściwym płynu. Dla cieczy zazwyczaj {{OPENAGHMATHJAX()}\\rho
+{OPENAGHMATHJAX}} jest stałe (ciecze są praktycznie nieściśliwe) więc możemy obliczyć
+ciśnienie cieczy na głębokości h całkując równanie (14.5)}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p=p_{{0}}+{\\rho gh}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.6]
+
+{
+gdzie p{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} jest ciśnieniem na powierzchni cieczy
+(h = 0). Zazwyczaj jest to ciśnienie atmosferyczne. Równanie
+(14.6) nie tylko pokazuje, że ciśnienie rośnie wraz z głębokością ale
+też, że jest jednakowe dla punktów o tej samej głębokości, a nie zależy
+od kształtu naczynia (paradoks hydrostatyczny).}
+{
+Założenie o stałej gęstości {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX} nie jest jednak prawdziwe
+dla gazów gdy mamy do czynienia ze znaczną zmianą wysokości (np. gdy
+wznosimy się w atmosferze). Ciśnienie zmienia się wtedy znacznie i
+zmienia się też {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}.}
+!!!!#Pomiar ciśnienia (barometr) 
+{
+E. Torricelli skonstruował w 1643 r. barometr rtęciowy.
+Barometr Torricellego składa się z rurki wypełnionej rtęcią
+({{OPENAGHMATHJAX()}\\rho
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{Hg}{OPENAGHMATHJAX} = 13.6·10{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}
+kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}), którą odwracamy nad naczyniem z rtęcią tak
+jak na rysunku 14.3.}
+{
+Zgodnie z naszymi uprzednimi rozważaniami}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{A}}={\\rho gh}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.7]
+
+{
+podczas gdy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{B}}=p_{{\\text{atm}\\text{.}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.8]
+
+{  {img fileId="391" } 
+{\\selectlanguage{english}
+Rys. 14.3. Barometr Torricellego
+{
+Ciśnienia w punktach A i B są jednakowe bo punkty te
+są na jednakowej wysokości więc}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\rho
+\\text{gh}=p_{{\\text{atm}\\text{.}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.9]
+
+{
+skąd}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{h=\\frac{p_{{\\text{atm}\\text{.}}}}{{\\rho g}}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.10]
+
+{
+Mierząc więc wysokość słupa rtęci mierzymy wielkość ciśnienia
+atmosferycznego.}
+!!!#Prawo Pascala i prawo Archimedesa
+{
+Rozpatrzmy teraz ciecz w naczyniu zamkniętym tłokiem, na który
+możemy działać zmiennym ciśnieniem zewnętrznym
+p{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. W każdym punkcie cieczy znajdującym się na
+głębokości h, ciśnienie jest dane wyrażeniem (14.6). Możemy
+teraz powiększyć ciśnienie zewnętrzne o wartość {OPENAGHMATHJAX()}\\Delta
+{OPENAGHMATHJAX}p{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX}. Ponieważ ciecze są nieściśliwe więc
+gęstość pozostaje praktycznie bez zmian i ciśnienie teraz wynosi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p=p_{{0}}+{\\Delta p}_{{0}}+{\\rho gh}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.11]
+
+{
+Zjawisko to opisuje prawo Pascala, które można następująco
+sformułować:}
+Prawo, zasada, twierdzenie
+
+Ciśnienie zewnętrzne wywierane na
+zamknięty płyn jest przekazywane niezmienione na każdą część płynu ora
+zna ścianki naczynia.
+
+{
+Prawo to jest konsekwencją praw mechaniki płynów podobnie jak prawo
+Archimedesa. Kiedy ciało jest zanurzone w całości lub częściowo w
+spoczywającym płynie to płyn ten wywiera ciśnienie na każdą, będącą 
+znim w kontakcie, część powierzchni ciała. Wypadkowa siła jest
+skierowana ku górze i nazywa się siłą wyporu. Gdy przyjmiemy
+przykładowo, że w cieczy zostało zanurzone ciało w kształcie walca o
+powierzchni podstawy równej S (tak jak na rysunku 14.4) to
+wypadkowa siła działająca na to ciało jest związana z różnicą ciśnień
+na głębokościach h{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+h{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} odpowiednio nad i pod walcem.}
+{  {img fileId="389" } 
+{
+Rys. 14.4. Walec o powierzchni podstawy S zanurzony w płynie
+{
+Siła wypadkowa wynosi więc}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{F_{{\\text{wyp}}}=(p_{{0}}+{\\rho
+gh}_{{2}})S-(p_{{0}}+{\\rho gh}_{{1}})S={\\rho gV}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.12]
+
+{
+gdzie  {OPENAGHMATHJAX()}{V=S(h_{{2}}-h_{{1}})}{OPENAGHMATHJAX} jest objętością walca. Z otrzymanej
+zależności wynika, że siła działająca na walec jest równa ciężarowi
+cieczy wypartej przez ten walec. Zauważmy, że ta siła nie zależy od
+kształtu ciała, a tylko od jego objętości. }
+{
+Możemy więc sformułować prawo Archimedesa:}
+Prawo, zasada, twierdzenie
+
+Ciało w całości lub częściowo zanurzone
+w płynie jest wypierane ku górze siłą równą ciężarowi wypartego prze
+zto ciało płynu.
+
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{F_{{\\text{wyporu}}}=m_{{p}}g=\\rho
+\\text{gV}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.13]
+
+{
+gdzie m{OPENAGHMATHJAX()}_{p}{OPENAGHMATHJAX} jest masą płynu, a
+{OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX} jego gęstością. Natomiast V jest objętością
+części zanurzonej ciała.}
+{
+Na każde zanurzone w płynie ciało działają siła wyporu i siła ciężkości.
+Dla ciała o masie m i objętości V całkowicie
+zanurzonego w płynie wypadkowa tych dwóch sił wynosi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{F=F_{{\\text{wyporu}}}-\\text{mg}=\\rho
+\\text{gV}-\\rho
+_{{1}}\\text{gV}=\\text{gV}(\\rho
+-\\rho _{{1}})}
+\\end{equation}{OPENAGHMATHJAX}
+[14.14]
+
+{
+gdzie {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX} jest gęstością płynu, a {{OPENAGHMATHJAX()}\\rho
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} średnią gęstością ciała. Widzimy, że zwrot siły
+wypadkowej zależy od różnicy gęstości płynu i ciała. Na przykład ciało
+zanurzone w cieczy o gęstości {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX} {\\textless}
+{OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} tonie, a dla gęstości {{OPENAGHMATHJAX()}\\rho
+{OPENAGHMATHJAX()}} {\\textgreater} {OPENAGHMATHJAX}\\rho {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} pływa częściowo
+zanurzone.}
+Ćwiczenie 14.1
+
+{ Korzystając z tego prawa spróbuj samodzielnie
+obliczyć jak duży ciężar można przeprawić przez rzekę za pomocą tratwy
+zbudowanej z 10 okrągłych kłód drewnianych o średnicy 20 cm i długości
+3 m każda. Gęstość drewna przyjąć równą 750 kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX} a
+gęstość wody 1000 kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}. Wyniki zapisz poniżej.}
+{\\selectlanguage{ngerman} Q =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Ogólny opis przepływu płynów
+{
+Przejdziemy teraz do opisu ruchu płynu czyli zajmiemy się
+dynamiką płynów. Znane są dwa podejścia do opisu ruchu płynu. Możemy
+albo zająć się opisem ruchu poszczególnych cząsteczek płynu albo
+opisywać gęstość płynu i jego prędkość w każdym punkcie przestrzeni w
+funkcji czasu. Oznacza to, że koncentrujemy się na wybranym punkcie
+przestrzeni, w którym definiujemy funkcje {{OPENAGHMATHJAX()}\\rho
+{OPENAGHMATHJAX()}}({OPENAGHMATHJAX}x{OPENAGHMATHJAX()},{OPENAGHMATHJAX}y{OPENAGHMATHJAX()},z,{OPENAGHMATHJAX}t{OPENAGHMATHJAX}) ora
+z{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}({OPENAGHMATHJAX()}x{OPENAGHMATHJAX},{OPENAGHMATHJAX()}y{OPENAGHMATHJAX},z,{OPENAGHMATHJAX()}t{OPENAGHMATHJAX}).}
+{
+Na wstępie poznamy ogólne pojęcia charakteryzujące przepływ:}
+\\liststyleWWviiiNumv
+*{
+Przepływ może być ustalony (laminarny) lub {nieustalony.
+}Ruch płynu jest ustalony, gdy prędkość płynu
+v w dowolnie wybranym punkcie jest stała w
+czasie tzn. każda cząsteczka przechodząca przez dany punkt zachowuje
+się tak samo. Warunki takie osiąga się przy niskich prędkościach
+przepływu;}
+*{
+Przepływ może być wirowy lub bezwirowy. Przepływ jest
+bezwirowy, gdy w żadnym punkcie cząsteczka nie ma wypadkowej prędkości
+kątowej;}
+*{
+Przepływ może być ściśliwy lub nieściśliwy. Przepływ
+jest nieściśliwy gdy gęstość płynu jest stała. Zazwyczaj przepływ
+cieczy jest nieściśliwy. Również przepływ gazu może być w pewnych
+warunkach nieściśliwy. Przykładem może tu być ruch powietrza względem
+skrzydeł samolotu podczas lotu z prędkością mniejszą od prędkości
+dźwięku.}
+*{
+Przepływ może być lepki lub nielepki. Lepkość w ruchu
+płynów jest odpowiednikiem tarcia w ruchu ciał stałych. Charakteryzuje
+opór płynów przeciw płynięciu pod działaniem sił zewnętrznych. Lepkość
+jest istotną cechą wielu produktów na przykład smarów.}
+{
+W naszych rozważaniach ograniczymy się do przepływów ustalonych,
+bezwirowych, nieściśliwych i nielepkich.}
+{
+W przepływie ustalonym {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} jest stała w czasie w danym
+punkcie. Oznacza to, że każda cząstka przechodząca przez dowolny punkt
+ma taką samą prędkość np. {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. Tak
+samo jest w kolejnym punkcie gdzie każda cząstka ma prędkość
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Dotyczy to wszystkich punktów.
+Oznacza to, że wystarczy prześledzić tor jednej cząstki, a będziemy
+znali tor każdej cząstki przechodzącej przez dany punkt. Tor tej
+cząstki nazywamy linią prądu (rysunek 14.5). Linia prądu jest
+równoległa do prędkości płynu. Żadne linie prądu nie mogą się przecinać
+bo istniałaby niejednoznaczność w wyborze drogi przez cząstkę (przepływ
+nie byłby ustalony).}
+{  {img fileId="378" } 
+{
+Rys. 14.5. Linie prądu
+{
+Jeżeli wybierzemy pewną skończoną liczbę linii prądu to taką wiązkę
+nazywamy strugą prądu. Brzegi składają się z linii prądu a
+ponieważ linie prądu są równoległe do prędkości więc płyn nie przepływa
+przez brzegi strugi. Płyn wchodzący jednym końcem strugi musi opuścić
+ją drugim tak jak w rurce. Na rysunku 14.6 prędkość cząstek w punkcie
+P{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} wynosi
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}, a pole przekroju strugi
+S{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. W punkcie P{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} mamy
+odpowiednio prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} i pole
+przekroju S{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.}
+{  {img fileId="387" } 
+{
+Rys. 14.6. Struga prądu.
+{
+W czasie {OPENAGHMATHJAX()}\\Delta t{OPENAGHMATHJAX} cząstka płynu przebywa odległość równą
+{OPENAGHMATHJAX()}v\\Delta t{OPENAGHMATHJAX}. Masa płynu przechodzącego prze
+zS{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} w czasie {OPENAGHMATHJAX()}\\Delta t{OPENAGHMATHJAX} wynosi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{{\\Delta m}_{{1}}={\\rho S}_{{1}}v_{{1}}{\\Delta t}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.15]
+
+{
+gdzie
+S{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\\Delta
+t{OPENAGHMATHJAX} stanowi objętość elementu płynu. Analogicznie masa płynu
+przepływającego przez powierzchnię S{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} w czasie
+{OPENAGHMATHJAX()}\\Delta t{OPENAGHMATHJAX} jest równa}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{{\\Delta m}_{{2}}={\\rho S}_{{2}}v_{{2}}{\\Delta t}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.16]
+
+{
+Ponieważ płyn jest nieściśliwy więc jego gęstość jest taka sama w
+punkcie P{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i P{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.
+Ponadto między tymi punktami płyn nie może opuścić strugi więc
+strumienie mas przepływające przez obie powierzchnie muszą być sobie
+równe. Zatem}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{S_{{1}}v_{{1}}=S_{{2}}v_{{2}}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.17]
+
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{{Sv}=\\text{const}\\text{.}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.18]
+
+{
+Otrzymany związek nosi nazwę równania ciągłości. Wynika 
+zniego, że}
+Prawo, zasada, twierdzenie
+
+Prędkość płynu nieściśliwego przy
+ustalonym przepływie jest odwrotnie proporcjonalna do pola przekroju
+strugi.
+
+{
+Linie prądu muszą się zagęszczać w węższej części, a rozrzedzać w
+szerszej. To znaczy, rzadko rozmieszczone linie oznaczają obszary
+niskiej prędkości, linie rozmieszczone gęsto obszary wysokiej
+prędkości.}
+!!!#Równanie Bernoulliego 
+{
+Rozważmy, pokazany na rysunku 14.7, nielepki, ustalony,
+nieściśliwy przepływ płynu w strudze. Płyn na rysunku przemieszcza się
+w stronę prawą. W czasie {OPENAGHMATHJAX()}\\Delta t{OPENAGHMATHJAX} powierzchnia
+S{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} przemieszcza się o odcinek
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\\Delta t{OPENAGHMATHJAX}. Analogicznie
+powierzchnia S{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} przemieszcza się o odcinek
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}\\Delta t{OPENAGHMATHJAX}. Na
+powierzchnię S{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} działa siła
+F{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}S{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX},
+a na powierzchnię S{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} siła
+F{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}S{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}.}
+{  {img fileId="392" } 
+{
+Rys. 14.7. Wyprowadzenie równania Bernoulliego
+{
+Skorzystamy teraz z twierdzenia o pracy i energii, które mówi, że praca
+wykonana przez wypadkową siłę jest równa zmianie energii układu.
+Siłami, które wykonują pracę są F{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}
+i F{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Obliczamy więc całkowitą pracę}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{W=F_{{1}}v_{{1}}{\\Delta t}-F_{{2}}v_{{2}}{\\Delta
+t}=p_{{1}}S_{{1}}v_{{1}}{\\Delta
+t}-p_{{2}}S_{{2}}v_{{2}}{\\Delta t}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.19]
+
+{
+Ponieważ w czasie {OPENAGHMATHJAX()}\\Delta t{OPENAGHMATHJAX} ta sama objętość płynu V
+wpływa do strugi i z niej wypływa  {OPENAGHMATHJAX()}{S_{{2}}v_{{2}}{\\Delta
+t}=S_{{1}}v_{{1}}{\\Delta t}=V}{OPENAGHMATHJAX} więc}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{W=(p_{{1}}-p_{{2}})V}
+\\end{equation}{OPENAGHMATHJAX}
+[14.20]
+
+{
+Obliczoną pracę porównujemy ze zmianą energii strugi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{(p_{{1}}-p_{{2}})V=\\left(\\frac{{mv}_{{2}}^{{2}}}{2}+\\text{mgh}_{{2}}\\right)-\\left(\\frac{{mv}_{{1}}^{{2}}}{2}+\\text{mgh}_{{1}}\\right)}
+\\end{equation}{OPENAGHMATHJAX}
+[14.21]
+
+{
+gdzie m jest masą przemieszczonej objętości V płynu.
+Dzieląc stronami równanie (14.21) przez objętość V, a
+następnie wprowadzając gęstość cieczy {{OPENAGHMATHJAX()}\\rho
+{OPENAGHMATHJAX}} = m/V można, grupując odpowiednio wyrazy,
+przekształcić to równanie do postaci}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{1}}+\\frac{{\\rho v}_{{1}}^{{2}}}{2}+\\rho
+\\text{gh}_{{1}}=p_{{2}}+\\frac{{\\rho
+v}_{{2}}^{{2}}}{2}+\\rho \\text{gh}_{{2}}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.22]
+
+{
+Ponieważ nasze rozważania odnosiły się do dowolnych dwóch położeń,
+możemy opuścić wskaźniki i napisać}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p+\\frac{{\\rho v}^{{2}}}{2}+\\rho
+\\text{gh}=\\text{const}\\text{.}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.23]
+
+{
+Równanie to nosi nazwę równania Bernoulliego dla przepływu
+ustalonego, nielepkiego i nieściśliwego. Jest to podstawowe równanie
+mechaniki płynów. Wyraża fakt, że z przepływem płynu związane jest
+(oprócz ciśnienia statycznego) ciśnienie dynamiczne 
+{OPENAGHMATHJAX()}{{\\rho v}^{{2}}/2}{OPENAGHMATHJAX}.}
+{
+Wynika z niego, że przepływ cieczy w strudze może być wywołany
+różnicą ciśnień na końcach strugi lub {różnicą
+poziomów} tych końców.}
+Przykład
+
+{
+Zilustrujmy to prostym przykładem pompki wodnej stosowanej na przykład
+w akwarystyce. W tym urządzeniu woda z akwarium jest przepompowywana
+przez układ filtrów i odprowadzana z powrotem do akwarium. Po drodze
+woda jest przepuszczana przez przewężenie w rurce tak jak na rysunku
+14.8. Prędkość wody w przewężeniu jest (zgodnie z równaniem ciągłości)
+większa niż w rurce. Natomiast zgodnie z równaniem Bernoulliego, w
+poziomej rurce (h = const.)  {OPENAGHMATHJAX()}{p+\\frac{{\\rho
+v}^{{2}}}{2}=\\text{const}\\text{.}}{OPENAGHMATHJAX}, więc gdy rośnie prędkość
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} i płyn jest nieściśliwy (stała gęstość), to
+p maleje i w przewężeniu ciśnienie jest mniejsze niż w
+pozostałej części rurki. Jeżeli to przewężenie jest dostatecznie małe
+to ciśnienie może być niższe od atmosferycznego, a to oznacza, że prze
+zotwór w przewężeniu woda nie będzie uciekać tylko z zewnątrz będzie
+zasysane powietrze. W ten sposób woda będzie nie tylko filtrowana ale
+jeszcze dodatkowo napowietrzana.}
+{  {img fileId="372" } 
+{
+Rys. 14.8. Pompka wodna
+Ćwiczenie 14.2
+
+Spróbuj samodzielnie wykonać bardzo proste
+doświadczenie. Weź dwie kartki papieru i trzymaj je ustawione
+równolegle do siebie w niewielkiej odległości (np. 1-2 cm). Następnie
+dmuchnij między kartki. Okazuje się, że kartki nie rozchylają się, a
+zbliżają do siebie, sklejają się. Spróbuj wyjaśnić przyczynę tego
+zjawiska.
+
+{
+Równanie Bernoulliego może być wykorzystane do wyznaczenia prędkości
+płynu na podstawie pomiaru ciśnienia. Ponownie posługujemy się rurką 
+zprzewężeniem, do której przymocowano tak jak na rysunku 14.9, dwie
+pionowe rurki A i B służące do pomiaru ciśnienia.}
+{  {img fileId="396" } 
+{
+Rys. 14.9. Pomiar prędkości płynu metodą Venturiego
+{
+Stosując równanie Bernoulliego dla punktów, w których prędkość płynu
+wynosi odpowiednio {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} (przewężenie) otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{1}}+\\frac{{\\rho
+v}_{{1}}^{{2}}}{2}=p_{{2}}+\\frac{{\\rho v}_{{2}}^{{2}}}{2}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.24]
+
+{
+Ponieważ {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} {\\textless}
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} więc ciśnienie w przewężeniu jest
+mniejsze niż w rurce p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} {\\textless}
+p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX}. Różnica ciśnień zgodnie z równaniem
+(14.24) wynosi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{1}}-p_{{2}}=\\frac{{\\rho
+v}_{{2}}^{{2}}}{2}-\\frac{{\\rho v}_{{1}}^{{2}}}{2}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.25]
+
+{
+Z równania ciągłości wynika, że}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v_{{2}}=\\frac{S_{{1}}}{S_{{2}}}v_{{1}}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.26]
+
+{
+Podstawiając tę zależność do równania (14.25) otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{1}}-p_{{2}}=\\frac{{\\rho
+v}_{{1}}^{{2}}}{2}\\left(\\frac{S_{{1}}^{{2}}}{S_{{2}}^{{2}}}-1\\right)}
+\\end{equation}{OPENAGHMATHJAX}
+[14.27]
+
+{
+Równocześnie tę samą różnicę ciśnień można wyznaczyć z różnicy poziomów
+płynu w rurkach A i B (rysunek 14.9)}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{1}}-p_{{2}}=\\rho \\text{gh}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.28]
+
+{
+Porównując powyższe dwa wzory możemy wyznaczyć prędkość
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} w rurce}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v_{{1}}=\\sqrt{\\frac{2\\text{gh}}{S_{{1}}^{{2}}/S_{{2}}^{{2}}-1}}}
+\\end{equation}{OPENAGHMATHJAX}
+[14.29]
+
+{
+Metoda pomiaru prędkości płynu oparta na wyznaczeniu różnicy wysokości
+płynu w dwóch pionowych rurkach nosi nazwę metody Venturiego.}
+Ćwiczenie 14.3
+
+{ W zbiorniku wody na głębokości h
+znajduje się otwór przez który wycieka woda. Oblicz prędkość
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} z jaką wycieka woda. }
+{ Wskazówka: Zastosuj równanie Bernoulliego dla
+punktu na powierzchni cieczy i punktu w otworze przez, który wycieka
+woda. Wyniki zapisz poniżej.}
+{ {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
+
+!!!#Dynamiczna siła nośna 
+{
+W odróżnieniu od statycznej siły nośnej, którą jest
+siła wyporu działającą zgodnie z prawem Archimedesa na przykład na
+balon czy statek, dynamiczna siła nośna wywołana jest ruchem
+ciał w płynie, na przykład na skrzydła samolotu czy śmigła helikoptera.
+Na rysunku 14.10 poniżej pokazane są schematycznie linie prądu i ruch
+cząstek powietrza wokół skrzydła samolotu.}
+{  {img fileId="394" } 
+{
+Rys. 14.10. Linie prądu wokół skrzydła samolotu
+{
+Samolot wybieramy jako układ odniesienia i rozpatrujemy ruch powietrza
+względem skrzydła.}
+{
+Analizując linie prądu zauważymy, że ze względu na ustawienie skrzydła
+(tak zwany kąt natarcia) linie prądu nad skrzydłem są
+rozmieszczone gęściej niż pod skrzydłem co oznacza, że prędkość
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} powietrza ponad skrzydłem jest
+większa niż prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2 }{OPENAGHMATHJAX}pod
+skrzydłem. Prowadzi to do wniosku, zgodnie z prawem Bernoulliego, że
+ciśnienie nad skrzydłem jest mniejsze od ciśnienia pod skrzydłem i że
+otrzymujemy wypadkową siłę nośną F skierowaną ku górze.
+Wniosek ten wynika wprost z trzeciej zasady dynamiki Newtona. Wektor
+prędkości {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{a}{OPENAGHMATHJAX} powietrza
+zbliżającego się do skrzydła jest poziomy podczas gdy powietrze za
+skrzydłem jest skierowane na ukos w dół (prędkość
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{b}{OPENAGHMATHJAX} ma składową pionową).
+Oznacza to, że skrzydło pchnęło powietrze w dół więc w reakcji
+powietrze pchnęło skrzydło do góry.}
+{
+W naszych rozważaniach pominęliśmy siłę oporu powietrza tak zwaną siłę
+oporu czołowego. W warunkach rzeczywistych siła nośna jest
+wypadkową przedstawionej powyżej siły parcia wynikającej 
+zasymetrycznej budowy skrzydła i siły oporu czołowego. Przy konstrukcji
+skrzydeł jak i śmigieł staramy się zminimalizować opór czołowy. Ta sama
+siła oporu czołowego wpływa znacząco na zużycie paliwa w samochodach.
+Dlatego tak wielką wagę konstruktorzy przywiązują do optymalizacji
+kształtu nadwozia samochodów.}
+{
+Ten rozdział kończy moduł czwarty; możesz teraz przejść do podsumowania
+i zadań testowych.}
+\\clearpage\\setcounter{page}{1}\\pagestyle{Convertiii}
+{\\sffamily
+Podsumowanie}
+\\liststyleWWviiiNumxvii
+*{
+Prędkość fali można wyrazić jako  {OPENAGHMATHJAX()}{v=\\frac{\\lambda }{T}={\\lambda
+f}=\\frac{\\omega }{k}}{OPENAGHMATHJAX()}, gdzie  {OPENAGHMATHJAX}{k=\\frac{2\\pi }{\\lambda
+}\\;\\;\\;\\text{oraz}\\;\\;\\;\\omega =\\frac{2\\pi }{T}}{OPENAGHMATHJAX}.}
+\\liststyleWWviiiNumx
+*{
+Funkcja  {OPENAGHMATHJAX()}{y=A\\text{sin}({kx}-{\\omega t})}{OPENAGHMATHJAX} opisująca
+sinusoidalną falę rozchodzącą się w kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} jest przykładem
+funkcji
+{OPENAGHMATHJAX()}f{OPENAGHMATHJAX}(x\
+obreakdash-{OPENAGHMATHJAX()}vt{OPENAGHMATHJAX})
+będącej rozwiązaniem równania falowego  {OPENAGHMATHJAX()}{\\frac{\\partial
+^{{2}}y}{\\partial x^{{2}}}=\\frac{1}{v^{{2}}}\\frac{\\partial
+^{{2}}y}{\\partial t^{{2}}}}{OPENAGHMATHJAX}.}
+\\liststyleWWviiiNumxvi
+*{
+Prędkość fali biegnącej w strunie wynosi  {OPENAGHMATHJAX()}{v=\\frac{\\omega
+}{k}=\\sqrt{\\frac{F}{\\mu }}}{OPENAGHMATHJAX}, gdzie F jest naprężeniem struny,
+a {OPENAGHMATHJAX()}{\\mu{OPENAGHMATHJAX}} masą na jednostkę długości.}
+\\liststyleWWviiiNumii
+*{
+Szybkość przenoszenia energii przez fale jest proporcjonalna do kwadratu
+amplitudy i kwadratu częstotliwości.}
+\\liststyleWWviiiNumxxvi
+*{
+Interferencja fali biegnącej wzdłuż struny z falą odbitą od końca struny
+daje falę, której amplituda zależy od położenia {OPENAGHMATHJAX()}x{OPENAGHMATHJAX};
+A{\\textquotesingle} = 2Asinkx. Strzałki w
+położeniach {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}{\\lambda{OPENAGHMATHJAX}}/4,
+3{OPENAGHMATHJAX()}{\\lambda{OPENAGHMATHJAX}}/4, 5{OPENAGHMATHJAX()}{\\lambda{OPENAGHMATHJAX}}/4,.... mają maksymalną
+amplitudę, a węzły w położeniach {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}{\\lambda{OPENAGHMATHJAX}}/2,
+{OPENAGHMATHJAX()}{\\lambda{OPENAGHMATHJAX}}, 3{OPENAGHMATHJAX()}{\\lambda{OPENAGHMATHJAX}}/2,.... mają zerową
+amplitudę.}
+\\liststyleWWviiiNumxxv
+*{
+Przy nałożeniu się drgań harmonicznych o niewiele różniących się
+częstotliwościach powstaje drganie o wolno zmiennej w czasie
+amplitudzie zwane dudnieniem.}
+\\liststyleWWviiiNumxx
+*{
+Pozorna zmiana częstotliwości fali wysyłanej przez źródło z powodu
+względnego ruchu obserwatora lub źródła jest dla fal dźwiękowych dana
+zależnością {OPENAGHMATHJAX()}{f=f\\left(\\frac{v\\pm v_{{o}}}{v\\mp v_{{z}}}\\right)}{OPENAGHMATHJAX},
+gdzie {OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{o}{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} są odpowiednio
+prędkościami obserwatora i źródła, a {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} jest
+prędkością dźwięku. Znaki {\\textquotedbl}górne{\\textquotedbl} w
+liczniku i mianowniku odpowiadają zbliżaniu się źródła i obserwatora, a
+znaki {\\textquotedbl}dolne{\\textquotedbl} ich oddalaniu się. Równanie
+opisuje przypadek ruchu źródła i obserwatora wzdłuż łączącej ich
+prostej i jest słuszne gdy prędkości źródła i obserwatora są znacznie
+mniejsze od prędkości dźwięku.}
+\\liststyleWWviiiNumxxix
+*{
+Ciśnienie wywierane przez siłę F na powierzchnię S
+wynosi  {OPENAGHMATHJAX()}{p=\\frac{F}{S}}{OPENAGHMATHJAX}.}
+*{
+Ciśnienie cieczy o stałej gęstości na głębokości h wynosi 
+{OPENAGHMATHJAX()}{p=p_{{0}}+{\\rho gh}}{OPENAGHMATHJAX}, gdzie p{OPENAGHMATHJAX()}_{0}{OPENAGHMATHJAX} jest
+ciśnieniem na powierzchni cieczy (h = 0).}
+\\liststyleWWviiiNumxiii
+*{
+Ciśnienie zewnętrzne wywierane na zamknięty płyn jest przekazywane
+niezmienione na każdą część płynu oraz na ścianki naczynia (prawo
+Pascala).}
+\\liststyleWWviiiNumxxvii
+*{
+Ciało w całości lub częściowo zanurzone w płynie jest wypierane ku górze
+siłą równą ciężarowi wypartego przez to ciało płynu (prawo Archimedesa)
+{OPENAGHMATHJAX()}{F_{{\\text{wyporu}}}=\\rho
+\\text{gV}}{OPENAGHMATHJAX()}, gdzie {OPENAGHMATHJAX}{\\varrho{OPENAGHMATHJAX}} jest
+gęstością płynu, a V objętością części zanurzonej ciała.}
+\\liststyleWWviiiNumxxx
+*{
+Z równania ciągłości wynika, że prędkość płynu nieściśliwego przy
+ustalonym przepływie jest odwrotnie proporcjonalna do pola przekroju
+strugi S{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} = const.}
+\\liststyleWWviiiNumxxviii
+*{
+Przepływ ustalony, nielepki i nieściśliwy jest opisany równaniem
+Bernoulliego  {OPENAGHMATHJAX()}{p+\\frac{{\\rho v}^{{2}}}{2}+\\rho
+\\text{gh}=\\text{const}\\text{.}}{OPENAGHMATHJAX} Z dynamicznym
+ciśnieniem ½{OPENAGHMATHJAX()}{\\varrho{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}
+jest związana dynamiczna siła nośna wywołana ruchem ciał w płynie.}
+\\clearpage\\setcounter{page}{1}\\pagestyle{Convertiv}
+!#Materiały dodatkowe do Modułu IV
+\\liststyleWWviiiNumxxi
+#{\\sffamily
+Prędkość grupowa }
+{
+Rozważmy, dwie poprzeczne fale sinusoidalne o zbliżonych
+częstotliwościach i długościach fal (rysunek poniżej) opisane
+równaniami}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+\\begin{matrix}{y_{{1}}=A\\text{sin}\\left[(\\omega +{d\\omega
+})t-(k+{dk})x\\right]}
+\\\\	y_{{2}}=A\\text{sin}\\left[(\\omega -{d\\omega
+})t-(k-{dk})x\\right] \\end{matrix} 
+\\end{equation}{OPENAGHMATHJAX}
+[IV.1.1]
+
+{
+Sumą takich dwóch fal (rysunek) jest fala}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{y=y_{{1}}+y_{{2}}=2A\\text{cos}\\left[({d\\omega
+})t-({dk})x\\right]\\text{cos}({\\omega
+t}-\\text{kx})}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.1.2]
+
+{  {img fileId="381" } 
+{
+Dwie fale sinusoidalne {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i
+{OPENAGHMATHJAX()}y{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} o zbliżonych częstotliwościach i
+długościach fal;
+
+obwiednia ich sumy (linia przerywana) rozchodzi się z prędkością grupową
+{
+Na rysunku widzimy, że fala sumaryczna
+{OPENAGHMATHJAX()}y{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} + {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2 }{OPENAGHMATHJAX}jest
+modulowana, a z równania (IV.1.2) wynika, że funkcja modulująca ma
+postać}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{A(x,t)=2A\\text{cos}\\left[({d\\omega })t-({dk})x\\right]}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.1.3]
+
+{
+Prędkość paczki fal (prędkość ruchu obwiedni) wyznaczamy
+analizując jak przemieszcza się w czasie wybrany punkt obwiedni (na
+przykład maksimum). Odpowiada to warunkowi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{({d\\omega })t-({dk})x=\\text{const}\\text{.}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.1.4]
+
+{
+Różniczkując to równanie względem czasu}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{{d\\omega }-{dk}\\frac{{dx}}{{dt}}=0}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.1.5]
+
+{
+otrzymujemy wyrażenie na prędkość grupową}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v_{{\\text{gr}}}=\\frac{{dx}}{{dt}}=\\frac{{d\\omega
+}}{{dk}}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.1.6]
+
+{
+Prędkość grupowa jest na ogół różna od prędkości fal składowych.}
+\\liststyleWWviiiNumxxi
+\\setcounter{saveenum}{\\value{enumi}}
+\\setcounter{enumi}{\\value{saveenum}}
+#{\\sffamily
+Prędkość fal w naprężonym sznurze (strunie) }
+{
+Spróbujmy wyprowadzić wzór na zależność prędkości
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} fali od siły F naprężającej sznur i od
+µ = m/l tj. masy przypadającej na jednostkę
+długości sznura. W tym celu rozpatrzmy mały wycinek sznura o długości
+d{OPENAGHMATHJAX()}x{OPENAGHMATHJAX} pokazany na rysunku poniżej.}
+{  {img fileId="383" } 
+{
+Element sznura o długości d{OPENAGHMATHJAX()}x{OPENAGHMATHJAX}
+{
+Końce wycinka sznura tworzą z osią {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} małe kąty {{OPENAGHMATHJAX()}\\theta
+{OPENAGHMATHJAX()}}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX}\\theta {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}. Dla małych
+kątów {OPENAGHMATHJAX()}\\theta {OPENAGHMATHJAX} {OPENAGHMATHJAX()}{\\approx}{OPENAGHMATHJAX} sin{{OPENAGHMATHJAX()}\\theta
+{OPENAGHMATHJAX()}} {OPENAGHMATHJAX}{\\approx}{OPENAGHMATHJAX()} d{OPENAGHMATHJAX}y{OPENAGHMATHJAX()}/d{OPENAGHMATHJAX}x{OPENAGHMATHJAX}. Wypadkowa pionowa siła tj. siła
+wychylająca sznur w kierunku {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} wynosi}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{F_{{\\text{wyp}}}=F\\text{sin}\\theta
+_{{2}}-F\\text{sin}\\theta _{{1}}={F\\theta }_{{2}}-{F\\theta
+}_{{1}}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.1]
+
+{
+Zgodnie z zasadą dynamiki siła wypadkowa jest równa iloczynowi masy
+wycinka dm = µd{OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i jego przyspieszenia.
+Stąd}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{F_{{\\text{wyp}}}={F\\theta
+}_{{2}}-{F\\theta }_{{1}}=({\\mu dx})\\frac{\\partial
+v_{{y}}}{\\partial t}=({\\mu dx})\\frac{\\partial ^{{2}}y}{\\partial
+t^{{2}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.2]
+
+{
+lub}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial \\theta }{\\partial x}=\\frac{\\mu }{F}\\frac{\\partial
+^{{2}}y}{\\partial t^{{2}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.3]
+
+{
+Uwzględniając, że  {OPENAGHMATHJAX()}{\\theta =\\partial y/\\partial x}{OPENAGHMATHJAX} otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial ^{{2}}y}{\\partial x^{{2}}}=\\frac{\\mu }{F}\\frac{\\partial
+^{{2}}y}{\\partial t^{{2}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.4]
+
+{
+Jest to równanie falowe dla sznura (struny). Podstawmy teraz do tego
+równania odpowiednie pochodne równania fali harmonicznej 
+{OPENAGHMATHJAX()}{y=f(x,t)=A\\text{sin}({kx}-{\\omega t})}{OPENAGHMATHJAX}}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial ^{{2}}y}{\\partial t^{{2}}}=-{A\\omega
+}^{{2}}\\text{sin}({kx}-{\\omega t})}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.5]
+
+{
+oraz}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial ^{{2}}y}{\\partial
+x^{{2}}}=-\\text{Ak}^{{2}}\\text{sin}({kx}-{\\omega
+t})}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.6]
+
+{
+W wyniku podstawienia otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{k^{{2}}=\\frac{\\mu }{F}\\omega ^{{2}}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.7]
+
+{
+Stąd możemy już obliczyć prędkość fali}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v=\\frac{\\omega }{k}=\\sqrt{\\frac{F}{\\mu }}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.8]
+
+{
+W ten sposób pokazaliśmy również, że zaproponowana przez nas funkcja
+(13.8) jest rozwiązaniem równania falowego (IV.2.4) jeżeli spełniona
+jest zależność (IV.2.7). Zwróćmy ponadto uwagę, że fala harmoniczna
+jest przenoszona wzdłuż struny prędkością niezależną od amplitudy i
+częstotliwości. Przepiszmy teraz równanie falowe z uwzględnieniem
+zależności (IV.2.8)}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{\\partial ^{{2}}y}{\\partial
+x^{{2}}}=\\frac{1}{v^{{2}}}\\frac{\\partial ^{{2}}y}{\\partial t^{{2}}}}
+\\end{equation}{OPENAGHMATHJAX}
+[IV.2.9]
+
+{
+Równanie falowe w tej postaci, stosuje się do wszystkich rodzajów
+rozchodzących się fal.}
+\\clearpage\\setcounter{page}{1}\\pagestyle{Convertv}
+!#Rozwiązania ćwiczeń z modułu IV
+{
+Ćwiczenie 13.1}
+{
+Dane: równanie harmonicznej fali poprzecznej 
+{OPENAGHMATHJAX()}{y=\\text{20}\\text{sin}({\\pi x}-2t)}{OPENAGHMATHJAX}, {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}
+są wyrażone w centymetrach, a {OPENAGHMATHJAX()}t{OPENAGHMATHJAX} w sekundach. }
+{
+Porównując to równanie z ogólnym równaniem dla harmonicznej fali
+poprzecznej  {OPENAGHMATHJAX()}{y=A\\text{sin}({kx}-{\\omega t})}{OPENAGHMATHJAX}
+bezpośrednio możemy określić, że: amplituda A = 20
+cm, częstość {OPENAGHMATHJAX()}\\omega {OPENAGHMATHJAX} = 2 rad/s, a liczba falowa
+k = {OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX} cm{OPENAGHMATHJAX()}^{{}{OPENAGHMATHJAX}-1}.}
+{
+Korzystając z tych informacji obliczamy kolejno: }
+{
+długość fali  {OPENAGHMATHJAX()}{\\lambda =\\frac{2\\pi }{k}}{OPENAGHMATHJAX}= 2 cm, okres drgań 
+{OPENAGHMATHJAX()}{T=\\frac{2\\pi }{\\omega }}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX} s, }
+{
+prędkość rozchodzenia się fali  {OPENAGHMATHJAX()}{v=\\frac{\\lambda }{T}}{OPENAGHMATHJAX} = 0.318 cm/s.}
+{
+Prędkość drgań poprzecznych obliczamy z zależności 
+{OPENAGHMATHJAX()}{v_{{y}}=\\frac{{dy}}{{dt}}=-{A\\omega
+}\\text{cos}({kx}-{\\omega t})}{OPENAGHMATHJAX}. Maksymalna wartość
+prędkości poprzecznej wynosi  {OPENAGHMATHJAX()}{v_{{y\\text{max}}}={A\\omega }}{OPENAGHMATHJAX} =
+40 cm/s.}
+{
+Przyspieszenie cząstek w ruchu drgającym obliczamy z zależności 
+{OPENAGHMATHJAX()}{a_{{y}}=\\frac{{dv}_{{y}}}{{dt}}=-{A\\omega
+}^{{2}}\\text{sin}({kx}-{\\omega t})}{OPENAGHMATHJAX}.}
+{
+Maksymalna wartość przyspieszenia wynosi 
+{OPENAGHMATHJAX()}{a_{{y\\text{max}}}={A\\omega }^{{2}}}{OPENAGHMATHJAX} = 80
+cm/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}.}
+{
+Ćwiczenie 13.2}
+{
+Dane: L długość piszczałki.}
+{
+Na rysunku poniżej pokazane są: drganie podstawowe i trzy pierwsze
+drgania harmoniczne jakie powstają w piszczałce zamkniętej. Jedynym
+warunkiem, jaki musi być spełniony, jest istnienie strzałki na otwartym
+końcu piszczałki i węzła na jej końcu zamkniętym.}
+{  {img fileId="390" } 
+{
+Na podstawie pokazanych na rysunku czterech drgań możemy napisać ogólny
+związek na długość fali powstającej w piszczałce zamkniętej}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\lambda _{{n}}=\\frac{4L}{2n-1}}
+\\end{equation}{OPENAGHMATHJAX}
+{
+gdzie n = 1, 2, 3, ..... }
+{
+Ćwiczenie 13.3}
+{
+Dane: prędkość dźwięku {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} = 340 m/s, względna zmiana
+częstotliwości przy mijaniu wynosi 15\\{
+Podczas zbliżania się samochodu rejestrujemy dźwięk o częstotliwości 
+{OPENAGHMATHJAX()}{f_{{1}}=f\\frac{v}{v-v_{{z}}}}{OPENAGHMATHJAX}, a podczas jego oddalania się
+o częstotliwości  {OPENAGHMATHJAX()}{f_{{2}}=f\\frac{v}{v+v_{{z}}}}{OPENAGHMATHJAX}, gdzie
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX} jest prędkością dźwięku, a
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} prędkością źródła czyli
+samochodu. }
+{
+Względna zmiana częstotliwości wynosi 15\\{OPENAGHMATHJAX()}{\\frac{f_{{1}}-f_{{2}}}{f_{{1}}}=0\\text{.}\\text{15}}{OPENAGHMATHJAX}.}
+{
+Podstawiając do tego równania podane zależności na
+{OPENAGHMATHJAX()}f_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}f_2{OPENAGHMATHJAX}, a następnie
+przekształcając je otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\frac{2v_{{z}}}{v+v_{{z}}}=0\\text{.}\\text{15}}
+\\end{equation}{OPENAGHMATHJAX}
+{
+Obliczona z tego równania wartość prędkości źródła dźwięku (samochodu)
+wynosi v{OPENAGHMATHJAX()}_{z}{OPENAGHMATHJAX} = 27.57 m/s = 99 km/h }
+{
+Ćwiczenie 14.1}
+{
+Dane: n =10 kłód drewnianych o średnicy d = 20 cm i
+długości l = 3 m każda. Gęstość drewna {{OPENAGHMATHJAX()}\\rho
+{OPENAGHMATHJAX}}{OPENAGHMATHJAX()}_{d}{OPENAGHMATHJAX} = 750 kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}, gęstość
+wody  {OPENAGHMATHJAX()}\\rho {OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{w}{OPENAGHMATHJAX} = 1000
+kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}, przyspieszenie grawitacyjne g = 10
+m/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX}.}
+{
+Siła wyporu działająca na tratwę ma zrównoważyć ciężar tratwy 
+zładunkiem}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{F_{{\\text{wyporu}}}=Q_{{\\text{tratwy}}}+Q_{{\\text{ładunku}}}}
+\\end{equation}{OPENAGHMATHJAX}
+{
+Stąd}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+\\begin{matrix}{Q_{{\\text{ładunku}}}=F_{{\\text{wyporu}}}-Q_{{\\text{tratwy}}}=\\rho
+_{{w}}\\text{Vg}-\\rho
+_{{d}}\\text{Vg}=}
+\\\\	?\\text{Vg}(\\rho _{{w}}-\\rho _{{d}})={n\\pi
+r}^{{2}}\\boldsubformula{\\text{lg}}(\\rho _{{w}}-\\rho _{{d}})
+\\end{matrix} 
+\\end{equation}{OPENAGHMATHJAX}
+{
+gdzie uwzględniono maksymalną siłę wyporu (gdy tratwa jest cała
+zanurzona w wodzie).}
+{
+Po podstawieniu danych otrzymujemy
+Q{OPENAGHMATHJAX()}_{ładunku}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{ }{OPENAGHMATHJAX}= 2356 N.}
+\\clearpage{
+Ćwiczenie 14.3}
+{
+Dane: h, przyspieszenie grawitacyjne g.}
+{
+Na rysunku poniżej pokazana jest linia prądu łącząca dowolny punkt na
+powierzchni cieczy z otworem, przez który wypływa woda.}
+{  {img fileId="393" } 
+{
+Stosujemy równanie Bernoulliego dla punktów (1) i (2) otrzymujemy}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{p_{{1}}+\\frac{{\\rho v}_{{1}}^{{2}}}{2}+\\rho
+\\text{gh}_{{1}}=p_{{2}}+\\frac{{\\rho
+v}_{{2}}^{{2}}}{2}+\\rho \\text{gh}_{{2}}}
+\\end{equation}{OPENAGHMATHJAX}
+{
+Ponieważ p{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = p{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} =
+p{OPENAGHMATHJAX()}_{at}{OPENAGHMATHJAX} i ponadto
+h{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}-{OPENAGHMATHJAX} h{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX} =
+h więc}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{\\rho \\text{gh}=\\frac{\\rho
+}{2}(v_{{2}}^{{2}}-v_{{1}}^{{2}})}
+\\end{equation}{OPENAGHMATHJAX}
+{
+skąd}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v_{{2}}=\\sqrt{2\\text{gh}+v_{{1}}^{{2}}}}
+\\end{equation}{OPENAGHMATHJAX}
+{
+Ponieważ poziom wody w zbiorniku opada wolno możemy przyjąć
+{OPENAGHMATHJAX()}v{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} = 0. Wówczas}
+{OPENAGHMATHJAX(type="block")}\\begin{equation}
+{v_{{2}}=\\sqrt{2\\text{gh}}}
+\\end{equation}{OPENAGHMATHJAX}
+{
+Woda wypływ przez otwór z prędkością jaką uzyskałaby spadając swobodnie
+z wysokości h.}
+\\clearpage\\setcounter{page}{1}\\pagestyle{Convertvi}
+!#Test IV
+\\liststyleWWviiiNumix
+#{
+Fala akustyczna o częstotliwości 1000 Hz rozchodzi się z prędkością 330
+m/s. O ile są oddalone od siebie punkty, które mają przeciwne fazy? O
+ile zmienia się faza w danym punkcie przestrzeni w czasie
+t = 2.5·10{OPENAGHMATHJAX()}^{\
+obreakdash-4}{OPENAGHMATHJAX} s ?}
+#{
+Napisz równanie fali rozchodzącej się w ujemnym kierunku osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX},
+której amplituda wynosi 1 mm, częstotliwości 660 Hz, a prędkość
+rozchodzenia się 330 m/s.}
+#{
+Jaka jest amplituda fali wypadkowej powstałej w wyniku nałożenia się
+dwóch fal harmonicznych o takiej samej częstotliwości i amplitudach
+równych odpowiednio 1 cm i 2 cm jeżeli oscylacje różnią się w fazie o
+{OPENAGHMATHJAX()}\\pi {OPENAGHMATHJAX}/2 . Fale rozchodzą się w jednym kierunku.}
+#{
+Jakie musi być naprężenie struny o długości 50 cm i masie 50 g, żeby
+dawała ona ton podstawowy o częstotliwości 1000 Hz?}
+#{
+Źródło dźwięku o częstotliwości 500 Hz oddala się od obserwatora w
+stronę pionowej ściany, z prędkością 5 m/s. Oblicz częstotliwość
+dźwięku odbieranego przez obserwatora bezpośrednio ze źródła i dźwięku
+odbitego od ściany. Czy obserwator słyszy dudnienia? Prędkość dźwięku w
+powietrzu wynosi 330 m/s.}
+#{
+Podnośnik hydrauliczny składa się z dwóch tłoków połączonych ze sobą tak
+jak na rysunku poniżej. Duży tłok ma średnicę 1 m, a mały 0.01 m. Jaką
+siłę trzeba przyłożyć do mniejszego tłoka, żeby podnieść samochód o
+masie m = 1000 kg?}
+{  {img fileId="380" } 
+\\liststyleWWviiiNumix
+\\setcounter{saveenum}{\\value{enumi}}
+\\setcounter{enumi}{\\value{saveenum}}
+#{
+Balon o masie 360 kg i objętości 600 m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX} jest
+przymocowany do ziemi za pomocą pionowej liny. Oblicz jaka jest siła
+napinająca linę? Gęstość powietrza {OPENAGHMATHJAX()}{\\varrho{OPENAGHMATHJAX}} = 1.3
+kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}.}
+#{
+Siła nośna wywierana na skrzydło samolotu wynosi 10 N na każdy
+cm{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} skrzydła. Jaka jest prędkość przepływu powietrza
+ponad skrzydłem jeżeli pod skrzydłem przepływa ono z prędkością 200
+m/s?}

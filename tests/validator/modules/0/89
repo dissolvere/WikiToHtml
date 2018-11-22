@@ -1,0 +1,52 @@
+Jeżeli chcemy zmierzyć prędkość fali {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} to śledzimy jak przemieszcza się w czasie wybrana część fali czyli określona faza. Dlatego prędkość fali określa się jako __prędkość fazową__. Dla wybranej fazy fali {OPENAGHMATHJAX()}{y=f(x- vt)}{OPENAGHMATHJAX} poruszającej się w prawo sprowadza się to do warunku
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{x-{vt}={const}{.}}
+\end{equation}{OPENAGHMATHJAX}
+
+Różniczkując to równanie względem czasu otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{\frac{{dx}}{{dt}}-v=0}
+\end{equation}{OPENAGHMATHJAX}
+
+czyli
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{{dx}}{{dt}}=v}\end{equation}{OPENAGHMATHJAX}
+
+Tak wyraża się prędkość fazowa fali.
+
+W przypadku gdy zaburzenie falowe jest złożeniem fal sinusoidalnych o różnych częstotliwościach to prędkość przenoszenia energii (prędkość fali modulowanej) może być inna niż prędkości fal składowych. Taką prędkość nazywa się __prędkością grupową__.
+
+{OPENAGHINFORMATION()}Więcej o prędkości grupowej możesz przeczytać w module ((Prędkość grupowa|Prędkość grupowa)).{OPENAGHINFORMATION} 
+
+W module ((Rozchodzenie się fal w przestrzeni|Rozchodzenie się fal w przestrzeni)) pokazaliśmy, że dowolna funkcja {OPENAGHMATHJAX()}f(x - vt){OPENAGHMATHJAX} lub {OPENAGHMATHJAX()}f(x + vt){OPENAGHMATHJAX} opisuje falę biegnącą odpowiednio w prawo lub lewo wzdłuż osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} i jako przykład rozważaliśmy poprzeczną falę harmoniczną. Teraz poznamy równanie ruchu falowego, które stosuje się do __wszystkich rodzajów fal__: zarówno fal mechanicznych takich jak fale dźwiękowe, fale na wodzie, fale w strunach, w sprężynach, jak i do fal elektromagnetycznych takich jak na przykład światło.
+
+Równanie ruchu falowego możemy wyprowadzić wychodząc od ogólnego równania fali {OPENAGHMATHJAX()}{y=f(x-{vt})}{OPENAGHMATHJAX}. W tym celu obliczamy przyspieszenie poprzecznych drgań punktu ośrodka o współrzędnej {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, to znaczy obliczamy drugą pochodną {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} względem czasu
+
+{OPENAGHMATHJAX( type="block
+")}\begin{equation}{\frac{\partial ^{{2}}y}{\partial t^{{2}}}=f''(x-{vt})v^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}v^{2}{OPENAGHMATHJAX} jest pochodną funkcji wewnętrznej. (Uwaga: w równaniach piszemy pochodne cząstkowe, oznaczane symbolem {OPENAGHMATHJAX()}{\partial}{OPENAGHMATHJAX}, bo wychylenie {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} jest funkcją dwóch
+zmiennych {OPENAGHMATHJAX()}y = f(x,t){OPENAGHMATHJAX}.
+
+Równocześnie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\partial ^{{2}}y}{\partial x^{{2}}}=f''(x-{vt})}\end{equation}{OPENAGHMATHJAX}
+
+Łącząc oba powyższe równania otrzymujemy __równanie różniczkowe ruchu falowego__
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{\partial ^{{2}}y}{\partial x^{{2}}}=\frac{1}{v^{{2}}}\frac{\partial ^{{2}}y}{\partial t^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+To równanie spełnia każda funkcja {OPENAGHMATHJAX()}f(x - vt){OPENAGHMATHJAX} jak również {OPENAGHMATHJAX()}f(x + vt){OPENAGHMATHJAX}.
+
+Prędkość {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} rozchodzenia się fali jest niezależna od amplitudy i częstotliwości, natomiast w przypadku fal mechanicznych zależy od sprężystości ośrodka i jego bezwładności. Na przykład prędkość fali harmonicznej rozchodzącej się wzdłuż naprężonego sznura (struny) jest dana wyrażeniem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v=\sqrt{\frac{F}{\mu }}}\end{equation}{OPENAGHMATHJAX}
+
+gdzie sprężystość sznura jest określona poprzez napinającą go siłę {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} (im większa siła tym szybciej wychylone elementy sznura wracają do położenia równowagi), a jego bezwładność zależy od masy {OPENAGHMATHJAX()}\mu{OPENAGHMATHJAX} przypadającej na jednostkę długości sznura.
+
+Równanie ruchu falowego można wyprowadzić bezpośrednio z zasad dynamiki Newtona obliczając prędkość fal w naprężonym sznurze.
+Z tym wyprowadzeniem możesz się zapoznać w module ((Prędkość fal w naprężonym sznurze)).

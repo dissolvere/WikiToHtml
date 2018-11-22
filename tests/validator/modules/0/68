@@ -1,0 +1,81 @@
+
+
+Omawiając zasady dynamiki Newtona wprowadziliśmy ważne pojęcie fizyczne: zdefiniowaliśmy inercjalny układ odniesienia. Stwierdziliśmy wtedy, że układy inercjalne są tak istotne bo we wszystkich takich układach ruchami ciał rządzą dokładnie te sama prawa, i dlatego większość zagadnień staramy się rozwiązywać właśnie w inercjalnych układach odniesienia. Nasuwa się jednak pytanie, jak stosować zasady dynamiki Newtona w układzie odniesienia, który doznaje przyspieszenia. Na przykład co możemy powiedzieć o siłach jakich działania "doznajemy" gdy znajdujemy się w samochodzie, który przyspiesza, hamuje lub zakręca?
+
+W tym celu rozpatrzymy ruch ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} poruszającego się wzdłuż osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} ruchem przyspieszonym, pod wpływem działania siły {OPENAGHMATHJAX()}F= ma{OPENAGHMATHJAX} .
+
+Ruch ten jest obserwowany z dwóch różnych układów odniesienia (dwaj obserwatorzy), z których jeden {OPENAGHMATHJAX()}xy{OPENAGHMATHJAX} jest układem inercjalnym, a drugi {OPENAGHMATHJAX()}x'y'{OPENAGHMATHJAX} porusza się względem pierwszego wzdłuż osi {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} (rysunek poniżej).
+
+ {img fileId="349"}
+
+Rys. 5.2. Położenie ciała {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} w dwóch układach odniesienia
+
+Odległość miedzy dwoma obserwatorami (układami) wynosi w danej chwili {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} {OPENAGHMATHJAX()}(t){OPENAGHMATHJAX} więc związek między położeniem ciała rejestrowanym przez obu obserwatorów ma postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x'(t)=x(t)-x_{{0}}(t)}\end{equation}{OPENAGHMATHJAX}
+[5.5]
+
+Natomiast przyspieszenie w obu układach znajdujemy korzystając z równań (3.1)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a=\frac{\mathit{dv}}{\mathit{dt}}=\frac{d^{{2}}x}{\mathit{dt}^{{2}}}}\end{equation}{OPENAGHMATHJAX}
+[5.6]
+
+to znaczy, różniczkując dwukrotnie równanie (5.5)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a'=a-a_0}\end{equation}{OPENAGHMATHJAX}
+[5.7]
+
+Widać, że przyspieszenia w obu układach są równe tylko wtedy gdy {OPENAGHMATHJAX()}a_0=0{OPENAGHMATHJAX} więc gdy układ {OPENAGHMATHJAX()}x'y'{OPENAGHMATHJAX} porusza się względem układu {OPENAGHMATHJAX()}xy{OPENAGHMATHJAX} ruchem jednostajnym lub względem niego spoczywa to znaczy gdy układ {OPENAGHMATHJAX()}x'y'{OPENAGHMATHJAX} też jest układem inercjalnym tak jak {OPENAGHMATHJAX()}xy{OPENAGHMATHJAX}. Natomiast gdy {OPENAGHMATHJAX()}a_0{\neq}0{OPENAGHMATHJAX} to układ {OPENAGHMATHJAX()}xy{OPENAGHMATHJAX} nazywamy układem nieinercjalnym, a jego przyspieszenie {OPENAGHMATHJAX()}a_0{OPENAGHMATHJAX} przyspieszeniem unoszenia.
+
+Widzimy, że przyspieszenie ciała zależy od przyspieszenia układu odniesienia (od przyspieszenia obserwatora), w którym jest mierzone więc druga zasada dynamiki jest słuszna tylko, gdy obserwator znajduje się w układzie inercjalnym. Inaczej mówiąc, prawa strona równania {OPENAGHMATHJAX()}{\bf F}=m{\bf a}{OPENAGHMATHJAX} zmienia się w zależności od przyspieszenia obserwatora. Jeżeli pomnóżmy równanie (5.7) obustronnie przez {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} to otrzymamy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{ma'=ma-ma_{{0}}}\end{equation}{OPENAGHMATHJAX}
+lub
+{OPENAGHMATHJAX( type="block")}\begin{equation}{ma'=F-ma_{{0}}}\end{equation}{OPENAGHMATHJAX}
+[5.8]
+
+Widzimy, że w układzie {OPENAGHMATHJAX()}x'y'{OPENAGHMATHJAX} (przyspieszającym) nie obowiązują zasady dynamiki Newtona bo:
+
+*Gdy na ciało nie działa siła ({OPENAGHMATHJAX()}F{OPENAGHMATHJAX} = 0) to ciało nie spoczywa ani nie porusza się ruchem jednostajnym prostoliniowym tylko ruchem przyspieszonym z przyspieszeniem -{OPENAGHMATHJAX()}a_0{OPENAGHMATHJAX}
+
+*Iloczyn masy i przyspieszenia nie równa się sile działającej {OPENAGHMATHJAX()}F{OPENAGHMATHJAX} ale jest mniejszy od niej o iloczyn {OPENAGHMATHJAX()}ma_{0}{OPENAGHMATHJAX}.
+ 
+
+{OPENAGHDEFINITION( name="Fiła bezwładności")}Iloczyn masy i przyspieszenia unoszenia (ze znakiem minus) nazywamy siłą bezwładności {OPENAGHMATHJAX()}F_{b}{OPENAGHMATHJAX}.{OPENAGHDEFINITION}
+
+Ze wzoru (5.8) wynika, że jeżeli w układach nieinercjalnych chcemy stosować drugą zasadę dynamiki Newtona to musimy uwzględniać siły bezwładności.
+
+Jak już mówiliśmy istnieją tylko cztery podstawowe oddziaływania, z których wynikają wszystkie siły zaobserwowane we Wszechświecie. Wszystkie te siły nazywamy siłami rzeczywistymi, ponieważ możemy je zawsze związać z działaniem pochodzącym od konkretnym ciał materialnych. Inaczej jest z siłami bezwładności, które nie pochodzą od innych ciał, a ich obserwowanie jest związane wyłącznie z wyborem nieinercjalnego układu odniesienia. Dlatego siły bezwładności nazywamy siłami pozornymi.
+
+
+{OPENAGHEXAMPLE( name="Kulka w samochodzie")}Dwaj obserwatorzy opisują ruch kulki w sytuacji pokazanej na rysunku 5.3.
+
+{img type="fileId" fileId="353" noDrawIcon="n"}
+Rys. 5.3. Ruch kulki obserwowany z różnych układów odniesienia 
+
+Jeden z obserwatorów znajduje się w samochodzie, a drugi stoi na Ziemi. Samochód początkowo porusza się ze stałą prędkością {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX} po linii prostej (rys. 1), następnie hamuje ze stałym opóźnieniem {OPENAGHMATHJAX()}{\bf a}{OPENAGHMATHJAX} (rys. 2). Między kulką, a podłogą samochodu nie ma tarcia. Gdy samochód jedzie ze stałą prędkością to obydwaj obserwatorzy stwierdzają zgodnie, na podstawiepierwszej zasady dynamiki, że na kulkę nie działa żadna siła: obserwator w samochodzie zauważa, że {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{kulki}=0{OPENAGHMATHJAX}  {OPENAGHMATHJAX()}{\Rightarrow}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}{\bf F}=0{OPENAGHMATHJAX}, a obserwator stojący obok stwierdza, że {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{kulki}{OPENAGHMATHJAX} = {OPENAGHMATHJAX()}{\bf v}{OPENAGHMATHJAX} = const. {OPENAGHMATHJAX()}{\Rightarrow}{OPENAGHMATHJAX} {OPENAGHMATHJAX()}{\bf F}=0{OPENAGHMATHJAX}. Zwróćmy uwagę, że obaj obserwatorzy znajdują się w inercjalnych układach odniesienia.
+
+Sytuacja zmienia się gdy samochód zaczyna hamować (rys. 2). Obserwator związany z Ziemią dalej twierdzi, że kulka porusza się ze stałą prędkością, a tylko podłoga samochodu przesuwa się pod nią, bo samochód hamuje. Natomiast obserwator w samochodzie stwierdza, że kulka zaczyna się poruszać się z przyspieszeniem {OPENAGHMATHJAX()}-{\bf a}{OPENAGHMATHJAX} w stronę przedniej ściany wózka. Dochodzi do wniosku, że na kulkę o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX}{OPENAGHMATHJAX()}_{kulki}{OPENAGHMATHJAX} zaczęła działać siła{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}=-m_{{\text{kulki}}}{\bf a}}\end{equation}{OPENAGHMATHJAX}[5.9]
+
+ale nie może wskazać żadnego ciała, będącego źródłem tej siły. Mówiliśmy już, że druga zasada dynamiki jest słuszna tylko w inercjalnym układzie odniesienia. Zauważmy, że obserwator w wózku znajduje się teraz w układzie nieinercjalnym i siła jakiej działanie zauważa jest pozorną siłą bezwładności.
+
+{OPENAGHEXAMPLE}
+
+Działanie sił bezwładności odczuwamy nie tylko podczas przyspieszania i hamowania (przyspieszenie styczne), ale również gdy zmienia się kierunek prędkości. Zgodnie z definicją siły bezwładności
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{\bf F}_{{b}}=-m{\bf a}_{{0}}}\end{equation}{OPENAGHMATHJAX}
+[5.10]
+
+a dla ruchu krzywoliniowego przyspieszenie układu jest przyspieszeniem normalnym (dośrodkowym w ruchu po okręgu)
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{a_{{0}}=a_{{n}}=\frac{v^{{2}}}{R}}\end{equation}{OPENAGHMATHJAX}
+[5.11]
+
+więc wartość siły bezwładności wynosi
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{F_{{\text{odśr}\text{.}}}=m\frac{v^{{2}}}{R}}\end{equation}{OPENAGHMATHJAX}
+[5.12]
+
+Tę siłę bezwładności nazywamy siłą odśrodkową. Z taką siłą mamy do czynienia na przykład podczas jazdy samochodem na zakręcie. Również Ziemia nie jest idealnym układem inercjalnym ponieważ wiruje. Jednak w większości rozpatrywanych przez nas zjawisk można zaniedbać wpływ ruchu Ziemi na ich przebieg.
+
+Wpływ ruchu obrotowego układu na ruch względny ciała (siła bezwładności Coriolisa) została omówiona w ?????????, na końcu ?????????.

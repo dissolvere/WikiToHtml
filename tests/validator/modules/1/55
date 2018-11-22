@@ -1,0 +1,42 @@
+Spróbujemy opisać ruch harmoniczny tłumiony jako złożenie ruchu wywołanego siłą harmoniczna i ruchu, w którym działa wyłącznie siła tłumiąca.
+
+Gdy na ciało o masie m działała tylko siła harmoniczna to ciało wykonuje drgania swobodne o częstotliwości {{OPENAGHMATHJAX()}\omega_{0}{OPENAGHMATHJAX}, które można opisać równaniem
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{x(t)=A\cos\omega _{{0}}t}\end{equation}{OPENAGHMATHJAX}
+
+Teraz rozpatrzymy ruch pod wpływem siły tłumiącej. Przykładem może być pojazd utrzymujący stałą prędkością dzięki sile napędu. Z chwilą wyłączenia napędu pojazd porusza się dalej hamując pod wpływem siły oporu.
+
+Gdy na ciało o masie m działała tylko siła oporu to zgodnie z drugą zasadą dynamiki
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{ma}=-{\gamma v}}\end{equation}{OPENAGHMATHJAX}
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m\frac{{dv}}{{dt}}=-{\gamma v}}\end{equation}{OPENAGHMATHJAX}
+
+Jeżeli wprowadzimy nową stałą {OPENAGHMATHJAX()}{\tau =m/\gamma }{OPENAGHMATHJAX} (o wymiarze czasu) to powyższe równanie przyjmie postać
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{{dv}}{{dt}}=-{\frac{1}{\tau }}v}\end{equation}{OPENAGHMATHJAX}
+
+lub
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\frac{{dv}}{v}=-{\frac{{dt}}{\tau }}}\end{equation}{OPENAGHMATHJAX}
+
+Powyższe równanie różniczkowe zawiera dwie zmienne v oraz t. Ponieważ zmienne te są rozdzielone (występują po różnych stronach równania) równanie może być łatwo rozwiązane poprzez obustronne scałkowanie.
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\overset{v}{\underset{{v_{{0}}}}{\int}}{\frac{{dv}}{v}}{=-{\frac{1}{\tau}}\overset{t}{\underset{0}{\int }}{{dt}}}}\end{equation}{OPENAGHMATHJAX}
+
+Granice całkowania odpowiadają zmniejszaniu prędkości od wartości początkowej {OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX} do {OPENAGHMATHJAX()}v{OPENAGHMATHJAX} w czasie {OPENAGHMATHJAX()}t{OPENAGHMATHJAX}. Po wykonaniu całkowania otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{{ln}\left(\frac{v}{v_{{0}}}\right)=-{\frac{t}{\tau }}}\end{equation}{OPENAGHMATHJAX}
+
+a po przekształceniu
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{v(t)=v_{{0}}e^{{-{\frac{t}{\tau }}}}}\end{equation}{OPENAGHMATHJAX}
+
+Widać, że prędkość maleje wykładniczo z czasem. Inaczej mówiąc prędkość jest tłumiona ze stałą czasową {OPENAGHMATHJAX()}\tau {OPENAGHMATHJAX} (rysunek poniżej).
+
+{img fileId="189"}
+Zależność prędkości od czasu w ruchu tłumionym
+
+Widzimy, że gdy uwzględnimy zarówno siłę harmoniczną jak i siłę tłumienia (oporu) to rozwiązanie równania ruchu będzie zawierać czynnik oscylacyjny (III.4.1) opisujący drgania i czynnik tłumiący (III.4.7) opisujący wykładnicze zmniejszanie się amplitudy drgań.

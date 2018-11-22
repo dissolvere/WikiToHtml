@@ -1,0 +1,96 @@
+ 
+
+Gdy rozpatrywaliśmy (w poprzednim rozdziale) ruch ciała pod wpływem siły grawitacji lub siły sprężystości widzieliśmy, że energia kinetyczna poruszającego się ciała zmieniała się (malała i rosła) podczas ruchu, tak że w cyklu zamkniętym powracała do początkowej wartości. W tej sytuacji, gdy działają siły zachowawcze, do opisania tych zmian celowe jest wprowadzenie pojęcia energii potencjalnej {OPENAGHMATHJAX()}E_{p}{OPENAGHMATHJAX}. Mówimy, że zmianie energii kinetycznej ciała o wartość {OPENAGHMATHJAX()}\Delta E_k{OPENAGHMATHJAX} towarzyszy zmiana energii potencjalnej {OPENAGHMATHJAX()}\Delta E_p{OPENAGHMATHJAX} tego ciała równa co do wartości ale przeciwnego znaku, tak że suma tych zmian jest równa zeru
+
+{OPENAGHMATHJAX( type="block ")}\begin{equation}{\mathit{\Delta E}_{{k}}+\mathit{\Delta E}_{{p}}=0}\end{equation}{OPENAGHMATHJAX}
+[8.6]
+
+Każda zmiana energii kinetycznej ciała {OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX} jest równoważona przez zmianę energii potencjalnej {OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}, tak że ich suma pozostaje przez cały czas stała
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{k}}+E_{{p}}=\text{const}\text{.}}\end{equation}{OPENAGHMATHJAX}
+[8.7]
+
+Energię potencjalną można traktować jako energię nagromadzoną, która może być w przyszłości całkowicie odzyskana i zamieniona na inną użyteczną formę energii. Oznacza to, że nie możemy wiązać energii potencjalnej z siłą niezachowawczą. Energię potencjalną często nazywa się energią stanu. Mówimy, że jeżeli energia układu zmieniła się to zmienił się stan układu.
+
+Z twierdzenia o pracy i energii (7.10) wynika, że
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W=\mathit{\Delta E}_{{k}}}\end{equation}{OPENAGHMATHJAX}
+[8.8]
+
+więc zgodnie z wprowadzonym pojęciem energii potencjalnej, dla zachowawczej siły {OPENAGHMATHJAX()}F{OPENAGHMATHJAX}, zachodzi związek
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{W=\mathit{\Delta E}_{{k}}=-\mathit{\Delta E}_{{p}}}\end{equation}{OPENAGHMATHJAX}
+[8.9]
+
+Korzystając z ogólnego wzoru na pracę (7.4) otrzymujemy ogólną zależność
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{\Delta E}_{{p}}=-W=-\overset{r}{\underset{{r_{{0}}}}{\int}}{F(r)\mathit{dr}}}\end{equation}{OPENAGHMATHJAX}
+[8.10]
+
+Możemy również zapisać zależność odwrotną między siłą i energią potencjalną
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{F(r)=-{\frac{\mathit{dE}_{{p}}(r)}{\mathit{dr}}}}\end{equation}{OPENAGHMATHJAX}
+[8.11]
+
+Zauważmy, że na podstawie równania (8.10) potrafimy obliczyć zmianę energii potencjalnej {OPENAGHMATHJAX()}\Delta E_p{OPENAGHMATHJAX}, a nie samą energię potencjalną {OPENAGHMATHJAX()}E_p{OPENAGHMATHJAX}. Ponieważ  {OPENAGHMATHJAX()}\Delta E_p=E_p(r)-E_p(r_0){OPENAGHMATHJAX}, to żeby znaleźć {OPENAGHMATHJAX()}E_p(r){OPENAGHMATHJAX} trzeba nie tylko znać siłę ale jeszcze wartość {OPENAGHMATHJAX()}E_p(r_0){OPENAGHMATHJAX} 
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}(r)=\mathit{\Delta E}_{{p}}+E_{{p}}(r_{{0}})=-\overset{r}{\underset{{r_{{0}}}}{\int}}{F(r)\mathit{dr}}{+E_{p}}{(r_{0}}{)\;}}\end{equation}{OPENAGHMATHJAX} 
+[8.12]
+
+Punkt {OPENAGHMATHJAX()}r_0{OPENAGHMATHJAX} nazywamy punktem odniesienia i zazwyczaj wybieramy go tak, żeby energia potencjalna w tym punkcie odniesienia {OPENAGHMATHJAX()}E_p(r_0){OPENAGHMATHJAX} była równa zeru. Jako punkt odniesienia {OPENAGHMATHJAX()}r_0{OPENAGHMATHJAX} często wybiera się położenie, w którym siła działająca na ciało jest równa zeru. Trzeba jednak podkreślić, że wybór punktu odniesienia jest sprawą czysto umowną.
+
+Przykład
+
+Spróbujmy teraz obliczyć energię potencjalną na przykład w rzucie pionowym do góry, w pobliżu powierzchni Ziemi. W tym celu przyjmujemy, że ruch odbywa się wzdłuż osi {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}, przy czym kierunek osi {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} w górę przyjmujemy jako dodatni. W konsekwencji siła grawitacji {OPENAGHMATHJAX()}F(y)=-mg{OPENAGHMATHJAX}  bo jest skierowana w ujemnym kierunku osi {OPENAGHMATHJAX()}y{OPENAGHMATHJAX}. Wybieramy teraz punkt odniesienia np. na powierzchni Ziemi {OPENAGHMATHJAX()}y_0=0{OPENAGHMATHJAX}  i przyjmujemy {OPENAGHMATHJAX()}E_p(0) = 0{OPENAGHMATHJAX}. Energię potencjalną w położeniu {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} tj. na wysokości {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} ponad poziomem odniesienia obliczamy z równania (8.12). Obliczenie jest tym prostsze, że siła grawitacji {OPENAGHMATHJAX()}F(y){OPENAGHMATHJAX} jest stała więc nie musimy obliczać całki ale do obliczenia pracy stosujemy wzór (7.1) {OPENAGHMATHJAX()}W = Fs{OPENAGHMATHJAX}.
+
+Otrzymujemy
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}(y)=-(-mgy)+E_{{p}}(y_{{0}})=mgy}\end{equation}{OPENAGHMATHJAX}
+[8.13]
+
+Energia potencjalna związana z siłą grawitacyjną wynosi {OPENAGHMATHJAX()}mgy{OPENAGHMATHJAX}, gdzie {OPENAGHMATHJAX()}y{OPENAGHMATHJAX} jest wysokością ponad punktem (poziomem) odniesienia i jest równa pracy jaką trzeba wykonać przy podnoszeniu ciała na tę wysokość (przykład z rozdziału 7.1). Energia potencjalna przedstawia tu formę nagromadzonej w wyniku wykonanej pracy energii, która może być całkowicie odzyskana i zamieniona na energię kinetyczną, podczas spadku ciała z danej wysokości. 
+
+W analogiczny sposób obliczymy teraz energię potencjalną idealnej nieważkiej sprężyny. Gdy sprężyna jest rozciągnięta na odległość {OPENAGHMATHJAX()}x{OPENAGHMATHJAX} od położenia równowagi to siła sprężystości wynosi {OPENAGHMATHJAX()}F = - kx{OPENAGHMATHJAX}. Jako punkt odniesienia przyjmujemy tym razem {OPENAGHMATHJAX()}x_0=0{OPENAGHMATHJAX}. Odpowiada to położeniu równowagi, w którym sprężyna jest nierozciągnięta i siła sprężystości jest równa zeru. Energię potencjalną ponownie obliczamy z równania (8.12) przy czym korzystamy z podanego  wyrażenia (7.5) na pracę wykonaną przy rozciąganiu sprężyny
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{p}}(x)=-\overset{x}{\underset{{x_{{0}}}}{\int}}{(-kx)\mathit{dx}}{+E_{p}}{(x_{0}}{)=\frac{1}{2}kx^{2}}{\;}}\end{equation}{OPENAGHMATHJAX} [8.14] 
+
+Spróbuj teraz, korzystając z definicji energii potencjalnej, wykonać następujące ćwiczenie
+
+{openaghexercise name="Dwa klocki" body="
+
+Dwa klocki o masach {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} są połączone cienką linką przerzuconą przez nieważki bloczek tak jak na rysunku obok. W układzie występuje tarcie pomiędzy masą {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} i stołem. Układ pozostający początkowo w spoczynku zostaje puszczony i masa {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} opada na podłogę. 
+{img fileId="442"}
+Określ, w chwili gdy klocek {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} dociera do podłogi, jaki znak (+/-) ma: 
+1) energia potencjalna klocka {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} względem podłogi, 
+2) energia potencjalna klocka {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} względem stołu,
+3) praca wykonana przez siłę grawitacji,
+4) praca wykonana przez siłę tarcia,
+5) zmiana energii potencjalnej układu,
+6) zmiana energii kinetycznej klocka {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX},
+7) zmiana energii kinetycznej klocka {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}.
+
+Spróbuj też odpowiedzieć na następujące pytania:
+ 1) Czy zmiana energii kinetycznej klocka {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} jest większa, równa, czy mniejsza od zmiany energii kinetycznej klocka {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} ? 
+2) Czy zmiana całkowitej energii kinetycznej układu jest co do bezwzględnej wartości większa, równa, czy mniejsza od zmiany energii potencjalnej układu?
+
+" solution="
+
+|| energia potencjalna klocka {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX} względem podłogi|+
+energia potencjalna klocka {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} względem stołu |-
+praca wykonana przez siłę grawitacji|+
+praca wykonana przez siłę tarcia|-
+zmiana energii potencjalnej układu|-
+zmiana energii kinetycznej klocka {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}|+
+zmiana energii kinetycznej klocka {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX}|+||
+
+1) Klocki (połączone nierozciągliwą nitką) poruszają się z takim samym przyspieszeniem, więc w każdej chwili posiadają taką samą prędkość {OPENAGHMATHJAX()}v=v_{1}=v_{2}{OPENAGHMATHJAX}, stąd ich energie kinetyczne (w dowolnej chwili) są odpowiednio równe
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{E_{{\mathit{k1}}}=\frac{m_{{1}}v^{{2}}}{2},\;\;\;\;E_{{\mathit{k2}}}=\frac{m_{{2}}v^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+Ponieważ, ich energie kinetyczne w chwili początkowej równe były zeru ({OPENAGHMATHJAX()}v_{0}{OPENAGHMATHJAX} = 0) to zmiany energii kinetycznej są równe właśnie powyższym wartościom {OPENAGHMATHJAX()}E_k{OPENAGHMATHJAX}}  {OPENAGHMATHJAX( type="block")}\begin{equation}{\mathit{\Delta E}_{{\mathit{k1}}}=\frac{m_{{1}}v^{{2}}}{2},\;\;\;\;\mathit{\Delta E}_{{\mathit{k2}}}=\frac{m_{{2}}v^{{2}}}{2}}\end{equation}{OPENAGHMATHJAX}
+
+Widać, że bezwzględna zmiana energii kinetycznej zależy od masy ciała.
+
+2) Zmiana całkowitej energii kinetycznej układu jest co do bezwzględnej wartości równa zmianie energii potencjalnej układu tylko wtedy gdy działają siły zachowawcze. Ponieważ występuje tarcie pomiędzy stołem i klockiem {OPENAGHMATHJAX()}m_1{OPENAGHMATHJAX}, które jest siłą niezachowawczą, więc tylko część z nagromadzonej energii potencjalnej klocka {OPENAGHMATHJAX()}m_2{OPENAGHMATHJAX} jest podczas jego ruchu w dół zamieniana na energię kinetyczna (obu klocków). Bezwzględna zmiana energii kinetycznej jest więc mniejsza od bezwzględnej zmiany energii potencjalnej układu. 
+
+ "}
+

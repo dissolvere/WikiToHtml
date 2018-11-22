@@ -1,0 +1,40 @@
+ 
+
+Prawa fizyki wyrażają związki między różnymi wielkościami fizycznymi. Prawa te formułowane są w postaci równań matematycznych wyrażających ścisłe ilościowe relacje między tymi wielkościami, a to wiąże się zawsze z pomiarami określającymi liczbowo stosunek danej wielkości do przyjętej jednostki.
+
+Wiele z wielkości fizycznych jest współzależnych. Na przykład prędkość jest długością podzieloną przez czas, gęstość masą podzieloną przez objętość itd. Dlatego z pośród wszystkich wielkości fizycznych wybieramy pewną ilość tak zwanych wielkości podstawowych, za pomocą których wyrażamy wszystkie pozostałe wielkości nazywane wielkościami pochodnymi. Z tym podziałem związany jest również wybór jednostek. Jednostki podstawowe wielkości podstawowych są wybierane (ustalane), a jednostki pochodne definiuje się za pomocą jednostek podstawowych.
+
+Aktualnie obowiązującym w Polsce układem jednostek jest układ SI (Systeme International Unites). Układ SI ma siedem jednostek podstawowych i dwie uzupełniające niezbędne w sformułowaniach praw fizyki. Wielkości podstawowe i ich jednostki są zestawione w tabeli 1.1 poniżej.
+
+|| |Wielkości|jednostki|Symbol jednostki
+1.|Długość|metr|m
+2.|Masa|kilogram|kg
+3.|Czas|sekunda|s
+4.|Ilość materii (substancji)|mol|mol
+5.|Natężenie prądu elektrycznego|amper|A
+6.|Temperatura termodynamiczna|kelwin|K
+7.|Światłośc|kandela|cd
+8.|Kąt płaski|radian|rad
+9.|Kat bryłowy|steradian|sr||
+
+Tab. 1.1. Wielkości podstawowe (1-7), uzupełniające (8,9) i ich jednostki w układzie SI.
+
+
+Definicje jednostek podstawowych są związane albo ze wzorcami jednostek albo z pomiarem. Przykładem jednostki związanej ze wzorcem jest masa. Obecnie światowym wzorcem kilograma (kg) jest walec platynowo-irydowy przechowywany w Międzynarodowym Biurze Miar i Wag w Sevres (Francja). Natomiast przykładem jednostki związanej z pomiarem jest długość. Metr (m) definiujemy jako długość drogi przebytej w próżni przez światło w czasie 1/299792458 s.
+
+Oprócz jednostek w fizyce posługujemy się pojęciem wymiaru jednostki danej wielkości fizycznej. Wymiarem jednostki podstawowej jest po prostu ona sama. Natomiast dla jednostek pochodnych wymiar jest kombinacją jednostek podstawowych (w odpowiednich potęgach). Na przykład jednostka siły ma wymiar kgm/s{OPENAGHMATHJAX()}^{2}{OPENAGHMATHJAX} wynikający ze wzoru F = ma. Niektóre jednostki pochodne mają swoje nazwy tak jak jednostka siły - Niuton.
+
+Wreszcie, oprócz jednostek podstawowych i pochodnych posługujemy się także jednostkami wtórnymi, które są ich wielokrotnościami. Wyraża się je bardzo prosto poprzez dodanie odpowiedniego przedrostka określającego odpowiednią potęgę dziesięciu, która jest mnożnikiem dla jednostki (patrz tabela 1.2).
+
+||Przedrostek|Skrót|Mnożnik
+tera|T|{OPENAGHMATHJAX()}10^{12}{OPENAGHMATHJAX}
+giga|G|{OPENAGHMATHJAX()}10^{9}{OPENAGHMATHJAX}
+mega|M|{OPENAGHMATHJAX()}10^{6}{OPENAGHMATHJAX}
+kilo|k|{OPENAGHMATHJAX()}10^{3}{OPENAGHMATHJAX}
+centy|c|{OPENAGHMATHJAX()}10^{-2}{OPENAGHMATHJAX}
+mili|m|{OPENAGHMATHJAX()}10^{-3}{OPENAGHMATHJAX}
+mikro|{OPENAGHMATHJAX()}\mu{OPENAGHMATHJAX}|{OPENAGHMATHJAX()}10^{-6}{OPENAGHMATHJAX}
+nano|n|{OPENAGHMATHJAX()}10^{-9}{OPENAGHMATHJAX}
+piko|p|{OPENAGHMATHJAX()}10^{-12}{OPENAGHMATHJAX}
+femto|f|{OPENAGHMATHJAX()}10^{-15}{OPENAGHMATHJAX}||
+Tab. 1.2. Wybrane przedrostki jednostek wtórnych.

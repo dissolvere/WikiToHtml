@@ -1,0 +1,88 @@
+Ekstrema lokalne, wartości najmniejsze i największe.
+
+{OPENAGHDEFINITION( name="Minimum lokalne")}
+Funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0\in\mathbb{R}{OPENAGHMATHJAX} __minimum lokalne właściwe__ , jeżeli istnieje {OPENAGHMATHJAX()}\delta >0{OPENAGHMATHJAX} taka, że dla każdego {OPENAGHMATHJAX()}x\in S(x_0, \delta){OPENAGHMATHJAX} zachodzi {OPENAGHMATHJAX()}f(x)>f(x_0){OPENAGHMATHJAX}. 
+{OPENAGHDEFINITION}
+ 
+
+{OPENAGHANNOTATION()}
+Przypomnijmy, że symbol {OPENAGHMATHJAX()}S(x_0,\delta){OPENAGHMATHJAX} oznacza sąsiedztwo punktu {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} o promieniu {OPENAGHMATHJAX()}\delta{OPENAGHMATHJAX}, czyli {OPENAGHMATHJAX()}S(x_0,\delta)=O(x_0,\delta)\setminus \{x_0\}{OPENAGHMATHJAX}.
+{OPENAGHANNOTATION}
+{OPENAGHEXAMPLE()}Funkcja {OPENAGHMATHJAX()}f(x)=x^2-1{OPENAGHMATHJAX} ma minimum w {OPENAGHMATHJAX()}x_0=0{OPENAGHMATHJAX}.{OPENAGHEXAMPLE}
+
+{img fileId="81" thumb="y" rel="box[g]"}
+ 
+
+{OPENAGHDEFINITION( name="Maksimum lokalne")}Funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0\in\mathbb{R}{OPENAGHMATHJAX} __maksimum lokalne właściwe__ , jeżeli istnieje {OPENAGHMATHJAX()}\delta >0{OPENAGHMATHJAX} taka, że dla każdego {OPENAGHMATHJAX()}x\in S(x_0, \delta){OPENAGHMATHJAX} zachodzi {OPENAGHMATHJAX()}f(x) < f(x_0){OPENAGHMATHJAX}.{OPENAGHDEFINITION}
+ 
+
+ 
+
+{openaghtheorem name="I warunek wystarczający istnienia ekstremum - maksimum" assumptions="" thesis="Jeżeli funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} spełnia warunki#{OPENAGHMATHJAX()}f(x_0)=0{OPENAGHMATHJAX},#istnieje {OPENAGHMATHJAX()}\delta≤REAL_GT≥0{OPENAGHMATHJAX} taka, że dla każdego {OPENAGHMATHJAX()}x\in S(x_0^-,\delta){OPENAGHMATHJAX} {OPENAGHMATHJAX()}f(x)≤REAL_GT≥0{OPENAGHMATHJAX} oraz dla każdego {OPENAGHMATHJAX()}x\in S(x_0^+,\delta){OPENAGHMATHJAX} {OPENAGHMATHJAX()}f(x)≤REAL_LT≥0{OPENAGHMATHJAX},to funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} maksimum lokalne."}
+ 
+
+ 
+
+{openaghtheorem name="I warunek wystarczający istnienia ekstremum - minimum" assumptions="" thesis="Jeżeli funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} spełnia warunki#{OPENAGHMATHJAX()}f(x_0)=0{OPENAGHMATHJAX},#istnieje {OPENAGHMATHJAX()}\delta≤REAL_GT≥0{OPENAGHMATHJAX} taka, że dla każdego {OPENAGHMATHJAX()}x\in S(x_0^-,\delta){OPENAGHMATHJAX} {OPENAGHMATHJAX()}f(x)≤REAL_LT≥0{OPENAGHMATHJAX} oraz dla każdego {OPENAGHMATHJAX()}x\in S(x_0^+,\delta){OPENAGHMATHJAX} {OPENAGHMATHJAX()}f(x)≤REAL_GT≥0{OPENAGHMATHJAX},to funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} minimum lokalne."}
+ 
+
+{OPENAGHANNOTATION()}Zamiast założenia {OPENAGHMATHJAX()}f(x_0)=0{OPENAGHMATHJAX} wystarczy przyjąć, że funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} jest ciągła w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX}. Dzięki temu możemy powyższe twierdzenie zastosować również w przypadku, gdy pochodna nie istnieje w danym punkcie.{OPENAGHANNOTATION}{OPENAGHEXAMPLE()}Sprawdźmy czy funkcja {OPENAGHMATHJAX()}f(x)=x^2+3x-4{OPENAGHMATHJAX} ma ekstrema. W tym celu obliczamy pochodną funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} i wyznaczamy punkty, w których pochodna zeruje się lub nie istnieje.{OPENAGHMATHJAX(type="block")}f(x)=2x+3,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f(x)=0\Leftrightarrow x=-\frac{3}{2}.{OPENAGHMATHJAX}Dla {OPENAGHMATHJAX()}x_0=-\frac{3}{2}{OPENAGHMATHJAX} spełniony jest warunek konieczny istnienia ekstremum. Sprawdzamy warunek wystarczający.{OPENAGHMATHJAX(type="block")}f(x)>0\Leftrightarrow x>-\frac{3}{2},{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f(x)<0\Leftrightarrow x<-\frac{3}{2}.{OPENAGHMATHJAX}Wynika stąd, że funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0=-\frac{3}{2}{OPENAGHMATHJAX} minimum.\fig[15em]{ekstr_ww.png}\caption{}{OPENAGHEXAMPLE}
+
+ 
+
+ 
+
+{openaghtheorem name="II warunek wystarczający istnienia ekstremum - maksimum" assumptions="" thesis="Jeżeli funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} spełnia#{OPENAGHMATHJAX()}f(x_0)=f"}
+=0{OPENAGHMATHJAX},
+
+#{OPENAGHMATHJAX()}f^{(n)}(x_0)<0{OPENAGHMATHJAX},
+#liczba {OPENAGHMATHJAX()}n\in\mathbb{N}{OPENAGHMATHJAX} jest parzysta i {OPENAGHMATHJAX()}n\geq 2{OPENAGHMATHJAX},
+to funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} ma maksimum lokalne.
+"}
+
+ 
+
+ 
+
+{openaghtheorem name="II warunek wystarczający istnienia ekstremum - minimum" assumptions="" thesis="Jeżeli funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} spełnia#{OPENAGHMATHJAX()}f(x_0)=f"}
+=0{OPENAGHMATHJAX},
+
+#{OPENAGHMATHJAX()}f^{(n)}(x_0)>0{OPENAGHMATHJAX},
+#liczba {OPENAGHMATHJAX()}n\in\mathbb{N}{OPENAGHMATHJAX} jest parzysta i {OPENAGHMATHJAX()}n\geq 2{OPENAGHMATHJAX},
+to funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ma w punkcie {OPENAGHMATHJAX()}x_0{OPENAGHMATHJAX} ma minimum lokalne.
+"}
+
+{OPENAGHANNOTATION()}Jeżeli {OPENAGHMATHJAX()}f(x_0)\neq 0{OPENAGHMATHJAX} dla {OPENAGHMATHJAX()}n{OPENAGHMATHJAX} nieparzystego, to funkcja nie ma w tym punkcie ekstremum.{OPENAGHANNOTATION}{OPENAGHEXAMPLE()}Wyznaczmy (o ile istnieją) ekstrema funkcji {OPENAGHMATHJAX()}f(x)=x^3-x{OPENAGHMATHJAX}. Sprawdzamy warunek konieczny istnienia ekstremum.{OPENAGHMATHJAX(type="block")}f(x)=3x^2-1,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f(x)=0\Leftrightarrow \left(x=-\frac{\sqrt{3}}{3}\vee x=\frac{\sqrt{3}}{3}\right).{OPENAGHMATHJAX}Sprawdzamy II warunek wystarczający istnienia ekstremum.{OPENAGHMATHJAX(type="block")}f"(x)=6x,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f"(-\frac{\sqrt{3}}{3})=-2\sqrt{3},\; f"(\frac{\sqrt{3}}{3})=2\sqrt{3}.{OPENAGHMATHJAX}Zatem w punkcie {OPENAGHMATHJAX()}x=-\frac{\sqrt{3}}{3}{OPENAGHMATHJAX} funkcja {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} osiąga maksimum, natomiast w punkcie {OPENAGHMATHJAX()}x=\frac{\sqrt{3}}{3}{OPENAGHMATHJAX} minimum.\fig[15em]{ekstr_ww2.png}\caption{}{OPENAGHEXAMPLE}{OPENAGHEXAMPLE()}Zbadajmy ekstrema funkcji {OPENAGHMATHJAX()}f(x)=x^6{OPENAGHMATHJAX}.{OPENAGHMATHJAX(type="block")}f(x)=6x^5,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f(x)=0\Leftrightarrow x=0.{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f"(x)=30x^4,\;f"(0)=0,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f"(x)=120x^3,\;f"(0)=0,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f^{(4)}(x)=360x^2,\;f^{(4)}(0)=0,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f^{(5)}(x)=720x,\;f^{(5)}(0)=0,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f^{(6)}(x)=720,\;f^{(6)}(0)=720.{OPENAGHMATHJAX}Wnioskujemy stąd, że {OPENAGHMATHJAX()}x=0{OPENAGHMATHJAX} jest minimum funkcji {OPENAGHMATHJAX()}f(x)=x^6{OPENAGHMATHJAX}.\fig[15em]{x6.png}\caption{}{OPENAGHEXAMPLE}
+
+ 
+
+ 
+
+{OPENAGHDEFINITION( name="Wartość najmniejsza w zbiorze")}Liczba {OPENAGHMATHJAX()}m\in\mathbb{R}{OPENAGHMATHJAX} jest __wartością najmniejszą funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}__ zawartym w dziedzinie funkcji, jeżeli istnieje {OPENAGHMATHJAX()}x_0\in A{OPENAGHMATHJAX} takie, że {OPENAGHMATHJAX()}f(x_0)=m{OPENAGHMATHJAX} i dla każdego {OPENAGHMATHJAX()}x\in A{OPENAGHMATHJAX} zachodzi {OPENAGHMATHJAX()}f(x)\geqslant m{OPENAGHMATHJAX}.{OPENAGHDEFINITION}
+ 
+
+ 
+
+{OPENAGHDEFINITION( name="Wartość największa w zbiorze")}Liczba {OPENAGHMATHJAX()}M\in\mathbb{R}{OPENAGHMATHJAX} jest __wartością największą funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}__ zawartym w dziedzinie funkcji, jeżeli istnieje {OPENAGHMATHJAX()}x_0\in A{OPENAGHMATHJAX} takie, że {OPENAGHMATHJAX()}f(x_0)=M{OPENAGHMATHJAX} i dla każdego {OPENAGHMATHJAX()}x\in A{OPENAGHMATHJAX} zachodzi {OPENAGHMATHJAX()}f(x)\leqslant M{OPENAGHMATHJAX}.{OPENAGHDEFINITION}
+ 
+
+{OPENAGHANNOTATION()}Wartość najmniejsza funkcji w zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX} jest też nazywana minimum globalnym funkcji w zbiorze {OPENAGHMATHJAX()}A{OPENAGHMATHJAX}, a wartość największa - maksimum globalnym. {OPENAGHANNOTATION}
+__Algorytm wyznaczania wartości najmniejszej i największej funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} ciągłej na przedziale {OPENAGHMATHJAX()}\langle a,b\rangle{OPENAGHMATHJAX}:__
+\item{ANAME()}zer_poch{ANAME} Znajdujemy punkty zerowania się pochodnej.
+\item{ANAME()}nie_ist{ANAME} Znajdujemy punkty w których pochodna nie istnieje.
+
+#Obliczamy wartości funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} w punktach {OPENAGHMATHJAX()}a,b{OPENAGHMATHJAX} oraz w punktach uzyskanych w ((Ekstrema lokalne, wartości najmniejsze i największe.|#zer_poch|(zer_poch))) i ((Ekstrema lokalne, wartości najmniejsze i największe.|#nie_ist|(nie_ist))).
+#Spośród otrzymanych wartości wybieramy wartość najmniejszą i największą.
+{OPENAGHANNOTATION()}Zauważmy, że z twierdzenia Weierstrassa mamy pewność, że funkcja ciągła w przedziale {OPENAGHMATHJAX()}\langle a,b\rangle{OPENAGHMATHJAX} przyjmuje wartość najmniejszą i największą. W przypadku przedziału otwartego nie mamy gwarancji, że takie wartości są osiągane.{OPENAGHANNOTATION}{OPENAGHEXAMPLE()}Wyznaczmy wartość najmniejszą i największą funkcji {OPENAGHMATHJAX()}f(x)=-x^3+3x+2{OPENAGHMATHJAX} na przedziale {OPENAGHMATHJAX()}\langle -2,\frac{3}{2}\rangle{OPENAGHMATHJAX}.{OPENAGHMATHJAX(type="block")}f(x)=-3x^2+3,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f(x)=0\Leftrightarrow\left(x=-1\vee x=1\right).{OPENAGHMATHJAX}Dziedziną pochodnej jest {OPENAGHMATHJAX()}\mathbb{R}{OPENAGHMATHJAX}.{OPENAGHMATHJAX(type="block")}f(-1)=0,\; f(1)=4.{OPENAGHMATHJAX}Sprawdzamy wartości na końcach przedziału {OPENAGHMATHJAX()}\langle-2,\frac{3}{2}\rangle{OPENAGHMATHJAX}.{OPENAGHMATHJAX(type="block")}f(-2)=4,\; f\left(\frac{3}{2}\right)=\frac{25}{8}.{OPENAGHMATHJAX}Wartość najmniejsza funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} na przedziale {OPENAGHMATHJAX()}\langle -2,\frac{3}{2}\rangle{OPENAGHMATHJAX} to {OPENAGHMATHJAX()}0{OPENAGHMATHJAX}, natomiast wartość największa to {OPENAGHMATHJAX()}4{OPENAGHMATHJAX}.\fig[15em]{najm_najw.png}\caption{}{OPENAGHEXAMPLE}{OPENAGHEXAMPLE()}Wyznaczmy wartość najmniejszą i największą funkcji {OPENAGHMATHJAX()}f(x)=\sqrt[3]{x^2-2x}{OPENAGHMATHJAX} w przedziale {OPENAGHMATHJAX()}\langle -1,4 \rangle{OPENAGHMATHJAX} {OPENAGHMATHJAX(type="block")}f(x)=\frac{2x-2}{3\sqrt[3]{(x^2-2x)^2}}.{OPENAGHMATHJAX}Dziedziną pochodnej jest zbiór {OPENAGHMATHJAX()}(-\infty,0)\cup(0,2)\cup(2,+\infty){OPENAGHMATHJAX}.{OPENAGHMATHJAX(type="block")}f(x)=0\Leftrightarrow x=1.{OPENAGHMATHJAX}Wyznaczamy wartości funkcji w punktach zerowania się pochodnej, w punktach, w których pochodna nie istnieje oraz na końcach przedziału.{OPENAGHMATHJAX(type="block")}f(1)=-1,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f(0)=0,\; f(2)=0,{OPENAGHMATHJAX}{OPENAGHMATHJAX(type="block")}f(-1)=\sqrt[3]{3},\;f(4)=2.{OPENAGHMATHJAX}Wartość najmniejsza funkcji {OPENAGHMATHJAX()}f{OPENAGHMATHJAX} na przedziale {OPENAGHMATHJAX()}\langle -1,4\rangle{OPENAGHMATHJAX} to {OPENAGHMATHJAX()}-1{OPENAGHMATHJAX}, natomiast wartość największa to {OPENAGHMATHJAX()}2{OPENAGHMATHJAX}.\fig[15em]{sqrt3.png}\caption{}{OPENAGHEXAMPLE}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

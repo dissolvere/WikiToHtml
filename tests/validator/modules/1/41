@@ -1,0 +1,74 @@
+Większość ciał w przyrodzie to nie punkty materialne ale rozciągłe ciała sztywne. Przeanalizujmy teraz ruch takiej bryły sztywnej obracającej się ze stałą prędkością kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} wokół stałej osi obrotu w układzie środka masy. Zauważmy, że chociaż wszystkie punkty mają te samą prędkość kątową {OPENAGHMATHJAX()}\omega {OPENAGHMATHJAX} to punkty znajdujące się w różnych odległościach od osi obrotu mają różną prędkość liniową v (rysunek 11.3). Prędkość i-tego punktu o masie {OPENAGHMATHJAX()}\Delta m_i{OPENAGHMATHJAX}wynosi {OPENAGHMATHJAX()}v_{i} = r_{i}\omega {OPENAGHMATHJAX} gdzie {OPENAGHMATHJAX()}r_{i}{OPENAGHMATHJAX} jest odległością od osi obrotu.
+
+{img type="
+fileId
+" fileId="
+171
+"}
+Dwa punkty obracającej się bryły mają tę samą prędkość kątową, a różne prędkości liniowe ze względu na różne odległości od osi obrotu r{OPENAGHMATHJAX()}_{1}{OPENAGHMATHJAX} i r{OPENAGHMATHJAX()}_{2}{OPENAGHMATHJAX}
+
+Obliczamy teraz wartość momentu pędu L tego ciała
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{L=\underset{{i}}{\sum }{r_{{i}}{\Delta m}_{{i}}v_{{i}}=\underset{{i}}{\sum }{r_{{i}}{\Delta m}_{{i}}}}(r_{{i}}\omega )=\left(\underset{{i}}{\sum}{r_{{i}}^{{2}}{\Delta m}_{{i}}}\right)\omega }\end{equation}{OPENAGHMATHJAX}
+
+Wielkość w nawiasie nazywamy momentem bezwładności {OPENAGHMATHJAX()}I{OPENAGHMATHJAX}, który definiujemy jako
+
+{OPENAGHDEFINITION( name="moment bezwładności")}
+{OPENAGHMATHJAX( type="block")}\begin{equation}{I=\underset{{i}}{\sum }{r_{{i}}^{{2}}{\Delta m}_{{i}}}}\end{equation}{OPENAGHMATHJAX}
+gdzie {OPENAGHMATHJAX()}r_i{OPENAGHMATHJAX} jest odległością masy punktowej {OPENAGHMATHJAX()}m_i{OPENAGHMATHJAX} od osi obrotu.
+{OPENAGHDEFINITION}
+ 
+Zwróćmy uwagę, że moment bezwładności {OPENAGHMATHJAX()}I{OPENAGHMATHJAX} zależy od osi obrotu. Możemy teraz wyrazić moment pędu poprzez moment bezwładności
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{L={I\omega }}\end{equation}{OPENAGHMATHJAX}
+a ponieważ zgodnie z równaniem (11.10) {OPENAGHMATHJAX()}\tau = dL/dt{OPENAGHMATHJAX}  więc
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\tau =I\frac{{d\omega }}{{dt}}={I\alpha }}\end{equation}{OPENAGHMATHJAX}
+gdzie {OPENAGHMATHJAX()}\alpha {OPENAGHMATHJAX} jest przyspieszeniem kątowym.
+
+Obliczmy teraz energię kinetyczną obracającego się ciała
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E_{{k}}=\frac{1}{2}\underset{{i}}{\sum }{{\Delta m}_{{i}}v_{{i}}^{{2}}=}\frac{1}{2}\underset{{i}}{\sum }{{\Delta m}_{{i}}(r_{{i}}\omega )^{{2}}=\frac{1}{2}\left(\underset{{i}}{\sum}{{\Delta m}_{{i}}r_{{i}}^{{2}}}\right)}\;\omega ^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+więc
+
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{E_{{k}}=\frac{1}{2}{I\omega }^{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+Zestawmy teraz odpowiednie wielkości obliczone dla ruchu obrotowego z ich odpowiednikami dla ruchu postępowego.
+
+||Ruch postępowy|Ruch obrotowy
+{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{p={mv}} \\ {F={ma}}\\ {E_{{k}}=\frac{1}{2}{mv}^{{2}}} \end{matrix}\end{equation}{OPENAGHMATHJAX}|{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}\begin{matrix}{L={I\omega }} \\ {\tau ={I\alpha}} \\ {E_{{k}}=\frac{1}{2}{I\omega }^{{2}}}\end{matrix}\end{equation}{OPENAGHMATHJAX}||
+
+Z tego porównania widać, że moment bezwładności I jest analogiczną wielkością do masy m w ruchu postępowym. Zwróćmy uwagę, że w przeciwieństwie do masy moment bezwładności zależy od osi, wokół której obraca się ciało. Momenty bezwładności niektórych ciał sztywnych są podane w tabeli 11.3.
+
+||Ciało|Moment bezwładności I
+Obręcz, pierścień o promieniu R, względem osi obręczy|{OPENAGHMATHJAX( type="
+inline
+")}\begin{equation}{\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+Krążek, walec względem osi walca|{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\frac{1}{2}\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+Pręt o długości d, względem osi symetrii prostopadłej do pręta|{OPENAGHMATHJAX( type="
+block
+")}\begin{equation}{\frac{1}{\text{12}}\text{Md}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+Pełna kula o promieniu R, względem średnicy|{OPENAGHMATHJAX( type="inline")}\begin{equation}{\frac{2}{5}\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}
+Czasza kulista o promieniu R, względem średnicy|{OPENAGHMATHJAX( type="inline")}\begin{equation}{\frac{2}{3}\text{MR}^{{2}}}\end{equation}{OPENAGHMATHJAX}||
+Przykład obliczania momentu bezwładności znajdziesz w module ((Obliczanie momentu bezwładności|Obliczanie momentu bezwładności)).
+ 
+
+Często do obliczania momentu bezwładności wygodnie jest posłużyć się twierdzeniem Steinera. Podaje ono zależność pomiędzy momentem bezwładności I ciała względem danej osi, a momentem bezwładności {OPENAGHMATHJAX()}I_{śr.m.}{OPENAGHMATHJAX} tego ciała względem osi przechodzącej przez jego środek masy i równoległej do danej. Związek ten wyraża się zależnością
+
+{OPENAGHTHEOREM( name="Twierdzenie Steinera" assumptions="{OPENAGHMATHJAX()}I_{śr.m}{OPENAGHMATHJAX} - moment bezwładności względem osi przechodzącej przez środek masy, a - odległość pomiędzy osiami, M - masa ciała" thesis="{OPENAGHMATHJAX( type=\\"block\\")}\begin{equation}{I=I_{{\text{śr}\text{.}m\text{.}}}+\text{Ma}^{{2}}}\end{equation}{OPENAGHMATHJAX}")}{ Prawo,zasada, twierdzenie}{OPENAGHTHEOREM}
+ 

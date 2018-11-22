@@ -1,0 +1,11 @@
+ 
+W celu przybliżenia pojęcia średniej ważonej rozważmy prosty układ, w którym mamy do czynienia ze skrzynką zawierającą np. jabłka o różnej masie. W skrzynce mamy {OPENAGHMATHJAX()}n_{1}{OPENAGHMATHJAX} jabłek, każde o masie {OPENAGHMATHJAX()}m_{1}{OPENAGHMATHJAX}, oraz {OPENAGHMATHJAX()}n_{2}{OPENAGHMATHJAX} jabłek, każde o masie {OPENAGHMATHJAX()}m_{2}{OPENAGHMATHJAX}. Spróbujmy policzyć jaka jest średnia masa jabłka:
+
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m_{{\text{śred}\text{.}}}=\frac{m_{{\text{cak}\text{.}}}}{n_{{\text{cak}\text{.}}}}}\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block")}\begin{equation}{m_{{\text{śred}\text{.}}}=\frac{n_{{1}}m_{{1}}+n_{{2}}m_{{2}}}{n_{{1}}+n_{{2}}}}\end{equation}{OPENAGHMATHJAX}
+
+czyli
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{m_{{\text{śred}\text{.}}}=\frac{n_{{1}}}{n_{{1}}+n_{{2}}}m_{{1}}+\frac{n_{{2}}}{n_{{1}}+n_{{2}}}m_{{2}}}\end{equation}{OPENAGHMATHJAX}
+
+To jest średnia ważona (wagami są ułamki ilości jabłek w skrzynce). Uwzględniamy w ten sposób fakt, że liczby jabłek (wchodzące do średniej) nie są równe. 

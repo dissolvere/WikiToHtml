@@ -1,0 +1,57 @@
+ Rozpatrzmy teraz ciecz w naczyniu zamkniętym tłokiem, na który możemy działać zmiennym ciśnieniem zewnętrznym {OPENAGHMATHJAX()}p_{0}{OPENAGHMATHJAX}. W każdym punkcie cieczy znajdującym się na głębokości {OPENAGHMATHJAX()}h{OPENAGHMATHJAX}, ciśnienie jest dane wyrażeniem (14.6). Możemy teraz powiększyć ciśnienie zewnętrzne o wartość {OPENAGHMATHJAX()}\Delta p_{0}{OPENAGHMATHJAX}. Ponieważ ciecze są nieściśliwe więc gęstość pozostaje praktycznie bez zmian i ciśnienie teraz wynosi
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{p=p_{{0}}+{\Delta p}_{{0}}+{\rho gh}}
+\end{equation}{OPENAGHMATHJAX}
+
+
+Zjawisko to opisuje prawo Pascala, które można następująco sformułować:
+Prawo, zasada, twierdzenie
+
+Ciśnienie zewnętrzne wywierane na zamknięty płyn jest przekazywane niezmienione na każdą część płynu oraz na ścianki naczynia.
+
+
+Prawo to jest konsekwencją praw mechaniki płynów podobnie jak prawo Archimedesa. Kiedy ciało jest zanurzone w całości lub częściowo w spoczywającym płynie to płyn ten wywiera ciśnienie na każdą, będącą z nim w kontakcie, część powierzchni ciała. Wypadkowa siła jest skierowana ku górze i nazywa się __siłą wyporu__. Gdy przyjmiemy przykładowo, że w cieczy zostało zanurzone ciało w kształcie walca o powierzchni podstawy równej {OPENAGHMATHJAX()}S{OPENAGHMATHJAX} (tak jak na rysunku poniżej) to wypadkowa siła działająca na to ciało jest związana z różnicą ciśnień na głębokościach {OPENAGHMATHJAX()}h_{1}{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}h_{2}{OPENAGHMATHJAX} odpowiednio nad i pod walcem.
+{img fileId="389" } 
+Rys. 14.4. Walec o powierzchni podstawy S zanurzony w płynie
+
+Siła wypadkowa wynosi więc 
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F_{{{wyp}}}=(p_{{0}}+{\rho
+gh}_{{2}})S-(p_{{0}}+{\rho gh}_{{1}})S={\rho gV}}
+\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}{V=S(h_{{2}}-h_{{1}})}{OPENAGHMATHJAX} jest objętością walca. Z otrzymanej zależności wynika, że siła działająca na walec jest równa ciężarowi cieczy wypartej przez ten walec. Zauważmy, że ta siła nie zależy od kształtu ciała, a tylko od jego objętości. 
+
+Możemy więc sformułować __prawo Archimedesa__:
+Prawo, zasada, twierdzenie
+
+Ciało w całości lub częściowo zanurzone
+w płynie jest wypierane ku górze siłą równą ciężarowi wypartego prze
+zto ciało płynu.
+
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F_{{{wyporu}}}=m_{{p}}g=\rho
+{gV}}
+\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}m_{p}{OPENAGHMATHJAX} jest masą płynu, a {OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX} jego gęstością. Natomiast {OPENAGHMATHJAX()}V{OPENAGHMATHJAX} jest objętością części zanurzonej ciała.
+
+Na każde zanurzone w płynie ciało działają siła wyporu i siła ciężkości. Dla ciała o masie {OPENAGHMATHJAX()}m{OPENAGHMATHJAX} i objętości {OPENAGHMATHJAX()}V{OPENAGHMATHJAX} całkowicie zanurzonego w płynie wypadkowa tych dwóch sił wynosi
+{OPENAGHMATHJAX(type="block")}\begin{equation}
+{F=F_{{{wyporu}}}-{mg}=\rho
+{gV}-\rho
+_{{1}}{gV}={gV}(\rho
+-\rho _{{1}})}
+\end{equation}{OPENAGHMATHJAX}
+
+gdzie {OPENAGHMATHJAX()}\rho {OPENAGHMATHJAX} jest gęstością płynu, a {{OPENAGHMATHJAX()}\rho_{1}{OPENAGHMATHJAX} średnią gęstością ciała. Widzimy, że zwrot siły wypadkowej zależy od różnicy gęstości płynu i ciała. Na przykład ciało zanurzone w cieczy o gęstości {OPENAGHMATHJAX()}\rho < \rho _{1}{OPENAGHMATHJAX} tonie, a dla gęstości {{OPENAGHMATHJAX()}\rho > \rho _{1}{OPENAGHMATHJAX} pływa częściowo
+zanurzone.
+
+Ćwiczenie 14.1
+Korzystając z tego prawa spróbuj samodzielnie
+obliczyć jak duży ciężar można przeprawić przez rzekę za pomocą tratwy
+zbudowanej z 10 okrągłych kłód drewnianych o średnicy 20 cm i długości
+3 m każda. Gęstość drewna przyjąć równą 750 kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX} a
+gęstość wody 1000 kg/m{OPENAGHMATHJAX()}^{3}{OPENAGHMATHJAX}. Wyniki zapisz poniżej.}
+{\selectlanguage{ngerman} Q =}
+Rozwiązanie możesz sprawdzić na końcu modułu.
