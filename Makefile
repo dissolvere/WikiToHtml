@@ -1,14 +1,6 @@
-all: build distrib
-
-test: bin/validator-new bin/parser
-	sh tests/validator/validator-new-test.sh
-
-build: bin/validator-new bin/parser
+build: bin gen bin/validator-new bin/parser
 
 validator: bin/validator-new
-
-validator-tables: gen/parser.yy.c gen/parser.tab.cc
-
 
 bin/validator-new: gen/parser.yy.c gen/parser.tab.o src/validator-new.cc
 	g++ -std=c++11 -g -o bin/validator-new gen/parser.tab.o gen/parser.yy.c src/validator-new.cc
