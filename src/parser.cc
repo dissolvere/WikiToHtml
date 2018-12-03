@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <Windows.h>
 #include "../gen/parser.tab.hh"
 
 extern unsigned int mathjax_total;
@@ -16,6 +17,10 @@ void yy::parser::error(std::string const&err)
 
 int main(int argc, char **argv)
 {
+	SetConsoleOutputCP(CP_UTF8);
+	setvbuf(stdout, nullptr, _IOFBF, 1000);
+
+
 	FILE *myfile = fopen(argv[1], "r");
 	if (!myfile) {
 		std::cout << "Can not open file. Usage: ./openagh filename" << std::endl;
