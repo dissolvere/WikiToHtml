@@ -2,23 +2,29 @@ doctype html
 html(lang="pl")
 
 <head>
-  <title> Konwerter -> HTML5 </title>
+<title> Konwerter -> HTML5 </title>
+<script type="text/javascript" src="test.js"></script>
 
 </head>
 
 <body>
 
-  <h1><center><button type="button">Upload file!</button><center> </h1>
-  <br/>
-  <h1><center> Konwertowanie pliku WikiText na HTML5 </center></h1>
+<h1><center><input type="button" onclick="location.href='http://localhost:3000/upload';" value="Upload file!" /></center> </h1>
+<br/>
+<h1><center> Konwertowanie pliku WikiText na HTML5 </center></h1>
 
-  <br/>
-  <br/>
-  <center>
-  <button type="button">Convert file</button>
-  <button type="button">Show converted file</button>
-  <button type="button">Save converted file</button>
-  </center>
+<br/>
+<br/>
+<center>
+
+
+
+<input type="button" onclick="location.href='http://localhost:3000/convert';" value="Convert" />
+<input type="button" onclick="location.href='http://localhost:3000/show';" value="Show converted file" />
+<input type="button" onclick="location.href='http://localhost:3000/save';" value="Save converted file" />
+
+
+</center>
 
 
 </body>
