@@ -19,7 +19,7 @@ app.get('/convert', function(req, res){
 app.get('/save', function(req, res){
     res.json("Szymon");
 });
-app.get('/show', function(res,req){
+app.get('/show', function(req, res){
     res.json("Szymon");
 });
 
