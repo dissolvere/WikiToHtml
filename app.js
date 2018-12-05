@@ -10,13 +10,19 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 var convertedData = '';
-
+var fun = function(){
+    console.log("fun() start");
+    exec('parser.exe', ['91'], function(err, data) {
+        console.log(err)
+        console.log(data.toString());
+    });
+}
 //zmieńcie sobie odpowiednio metody get/post/...
 app.get('/upload', function(req, res){
     res.json("Radek");
 });
 app.get('/convert', function(req, res){
-    res.json("Karol");
+    fun();
     convertedData = 'dane przekonwertowane';
 });
 app.get('/save', function(req, res){
