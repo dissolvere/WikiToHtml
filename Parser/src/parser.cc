@@ -4,30 +4,102 @@
 #include "../gen/parser.tab.hh"
 
 extern unsigned int mathjax_total;
+/*
+It is called to invoke the lexer, 
+each time yylex() is called, the scanner 
+continues processing the input from where it last left off.
+*/
 extern int yylex(void);
-extern FILE* yyin;
+extern int yy_scan_string(const char *);
+//Buffer that holds the input characters that actually match the pattern
 extern char* yytext;
 extern int yylineno;
+std::fstream input_file;
+std::fstream output_file;
 
 void yy::parser::error(std::string const&err) 
 {
 	std::cout << "error: \"" << err << "\"\nat symbol: \"" << yytext << "\"\non line: " << yylineno << std::endl; 
-	exit(1);
+	//exit(1);
 }
 
 int main(int argc, char **argv)
 {
-	FILE *myfile = fopen(argv[1], "r");
-	if (!myfile) {
-		std::cout << "Can not open file. Usage: ./openagh filename" << std::endl;
-		return 2;
-	}
-	yyin = myfile;
+    input_file.open(argv[1], std::ios::in);
+    if(output_file.good())
+    {
+		//File exists so we can read from this file
+    }
+    else
+    {
+		//There is no input file
+        std::cout<<"Input file doesn't exist!"<<std::endl;
+        return 1;
+    }
 
-	yy::parser parser;
-	do {
-		parser.parse();
-	} while (!feof(yyin));
+	output_file.open("../tests/html/file.html", std::ios::in);
+    if(output_file.good())
+    {
+		//This file exists, we don't want overwrite data
+        std::cout<<"Output file - file.html exists!"<<std::endl;
+        output_file.close();
+        return 1;
+    }
+    else
+    {
+        //File doesn't exist so we can create this file
+        output_file.close();
+    }
+	
+
+
+
+	output_file.open("../tests/html/file.html", std::ios::out);
+	if(output_file.good())
+    {
+        std::cout<<"File.html created"<<std::endl;
+        output_file<<"<html>"<<std::endl;
+        output_file<<"<head>"<<std::endl;
+        output_file<<"<meta charset=\"utf-8\">"<<std::endl;
+        output_file<<"<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>"<<std::endl;
+        output_file<<"</head>"<<std::endl;
+        output_file<<"<body>"<<std::endl;
+
+
+		yy::parser parser;
+		std::string line;
+		std::string mini_module;
+
+		do
+		{	
+			do
+			{
+				getline(input_file, line);
+				if(line == "")
+					mini_module += '\n';
+				else
+					mini_module += line;
+			}while(line != "" && !input_file.eof());
+
+			//std::cout<<mini_module<<std::endl;
+			yy_scan_string(mini_module.c_str());
+			parser.parse();
+			mini_module = "";
+
+		}while(!input_file.eof());
+
+		input_file.close();
+
+		output_file<<"</body>"<<std::endl;
+		output_file<<"</html>"<<std::endl;
+		output_file.close();
+	}
+    else
+    {
+		//File has not been loaded
+        std::cout<<"Cannot create output_file!"<<std::endl;
+		return 1;
+    }
 
 	return 0;
 }
@@ -62,51 +134,17 @@ std::string div_openaghmathjax(std::map<std::string, std::string> attrs, std::st
 
 void process_module(std::string module)
 {
-	std::fstream file;
-    file.open("../tests/html/file.html", std::ios::in);
-    if(file.good())
+    for (int i=0; i<module.length(); i++)
     {
-        std::cout<<"File file.html exists!"<<std::endl;
-        file.close();
-        return;
-    }
-    else
-    {
-        std::cout<<"This file doesn't exist"<<std::endl;
-        file.close();
-    }
-
-    file.open("../tests/html/file.html", std::ios::out);
-    if(file.good())
-    {
-        std::cout<<"File created"<<std::endl;
-        file<<"<html>"<<std::endl;
-        file<<"<head>"<<std::endl;
-        file<<"<meta charset=\"utf-8\">"<<std::endl;
-        file<<"<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>"<<std::endl;
-        file<<"</head>"<<std::endl;
-        file<<"<body>"<<std::endl;
-
-        for (int i=0; i<module.length(); i++)
+        if(module[i] == '\n')
         {
-            if(module[i] == '\n')
-            {
-                file<<"<br>"<<std::endl;
-            }
-            else
-            {
-                file<<module[i];
-            }
-        } 
-
-        file<<"</body>"<<std::endl;
-        file<<"</html>"<<std::endl;
-        file.close();
-    }
-    else
-    {
-        std::cout<<"Cannot create file!"<<std::endl;
-    }
+           output_file<<"<br>"<<std::endl;
+        }
+        else
+        {
+            output_file<<module[i];
+        }
+    } 
 }
 
 std::string div()
