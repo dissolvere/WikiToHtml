@@ -9,19 +9,39 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+var convertedData = '';
+
 //zmieńcie sobie odpowiednio metody get/post/...
 app.get('/upload', function(req, res){
     res.json("Radek");
 });
 app.get('/convert', function(req, res){
     res.json("Karol");
+    convertedData = 'dane przekonwertowane';
 });
 app.get('/save', function(req, res){
-    res.json("Szymon");
+
+    if(convertedData === ''){
+        res.render('info');
+    }else {
+        res.download(__dirname + '/upload-folder/convertedFile.txt', 'convertedFile.txt');
+        convertedData = '';
+    }
+
 });
 app.get('/show', function(req, res){
-    res.json("Szymon");
+
+    if(convertedData === ''){
+        res.render('info');
+    }else{
+        res.render('convertedView', {
+            data: convertedData
+        });
+    }
+    
 });
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
