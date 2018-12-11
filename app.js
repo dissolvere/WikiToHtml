@@ -7,6 +7,9 @@ var exec = require('child_process').execFile;
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+var formidable = require('formidable');
+var fs = require('fs');
+
 var app = express();
 
 var convertedData = '';
@@ -18,9 +21,17 @@ var fun = function(){
     });
 }
 //zmieńcie sobie odpowiednio metody get/post/...
-app.get('/upload', function(req, res){
-    res.json("Radek");
+app.post('/fileupload', function(req, res){
+    const form = new formidable.IncomingForm();
+    form.parse(req, function (err, fields, files) {
+        const path = files.filetoupload.path;
+        fs.readFile(path, 'utf8', function (err, content) {
+            console.log(content);
+        });
+    });
+    res.render('');
 });
+
 app.get('/convert', function(req, res){
     fun();
     convertedData = 'dane przekonwertowane';
