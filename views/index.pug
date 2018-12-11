@@ -9,12 +9,13 @@ html(lang="pl")
 
 <body>
 
-<h1><center><input type="button" onclick="location.href='http://localhost:3000/upload';" value="Upload file!" /></center> </h1>
-<br/>
-<h1><center> Konwertowanie pliku WikiText na HTML5 </center></h1>
-<br/>
-<br/>
+<body>
 <center>
+<form action="/fileupload" method="post" enctype="multipart/form-data">
+<input type="file" name="filetoupload"><br>
+<input type="submit">
+</form>
+</center>
 
 <input type="button" onclick="location.href='http://localhost:3000/convert';" value="Convert" />
 <input type="button" onclick="location.href='http://localhost:3000/show';" value="Show converted file" />
