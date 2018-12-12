@@ -7,7 +7,3 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
-
-
-//HEROKU
-//https://pure-depths-40700.herokuapp.com/ | https://git.heroku.com/pure-depths-40700.git

@@ -13,7 +13,6 @@ var fs = require('fs');
 var app = express();
 
 
-//////tu są zmienne które potrzebujesz filecontent, filepath i file wybieraj
 var filecontent = "";
 var filepath = "";
 var file ;
@@ -41,8 +40,8 @@ var parsoid = function() {
         convertedData = data.toString();
     });
 }
-//zmieńcie sobie odpowiednio metody get/post/...
-//Upload plików jest tutaj 
+
+//----------------------------------------------------------------------------------------------
 app.post('/fileupload', function(req, res){
     const form = new formidable.IncomingForm();
     form.parse(req, function (err, fields, files) {
@@ -122,7 +121,7 @@ app.use(function(err, req, res, next) {
 });
 
 
-const PORT=process.env.PORT||3000;
+const PORT = process.env.PORT||3000;
 app.listen(PORT);
 
 module.exports = app;
