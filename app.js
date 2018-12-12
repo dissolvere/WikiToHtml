@@ -32,11 +32,13 @@ var parsoid = function() {
     exec.exec('node parsoid/bin/parse.js data/file.txt', function(err, data) {
         console.log(err);
         console.log(data.toString());
+        
         fs.writeFile("data/file.txt.html", data.toString(), function(err) {
             if(err) {
                 return console.log(err);
             }
         });
+        convertedData = data.toString();
     });
 }
 //zmieńcie sobie odpowiednio metody get/post/...
@@ -58,20 +60,20 @@ app.post('/fileupload', function(req, res){
 });
 
 app.get('/convert', function(req, res){
-    parse(); // data/file.txt
-    parsoid(); // data/file.txt.html
-    convertedData = 'dane przekonwertowane';
+    //parse(); // data/file.txt
+    //parsoid(); // data/file.txt.html
+    
 });
 app.get('/convertTest', function(req, res){
     parsoid(); // data/file.txt.html
-    convertedData = 'dane przekonwertowane';
+    
 });
 app.get('/save', function(req, res){
 
     if(convertedData === ''){
         res.render('info');
     }else {
-        res.download(__dirname + '/upload-folder/convertedFile.txt', 'convertedFile.txt');
+        res.download(__dirname + '/data/file.txt.html', 'file.txt.html');
         convertedData = '';
     }
 
