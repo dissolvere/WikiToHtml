@@ -19,3 +19,4 @@ contrib/
 extensions/
 nocks/
 deploy/
+node_modules/
