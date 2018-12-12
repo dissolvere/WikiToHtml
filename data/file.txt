@@ -1,1 +1,55 @@
-dupa
+__Interferencją__ fal nazywamy zjawisko nakładania się fal. Rozważmy dwie fale o równych częstotliwościach i amplitudach ale o fazach różniących się o {OPENAGHMATHJAX()}\varphi{OPENAGHMATHJAX}. Jeżeli te fale rozchodzą się w kierunku {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}, z jednakowymi prędkościami to możemy je opisać równaniami
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{y_{{1}}=A\sin({kx}-{\omega t})}
+\end{equation}{OPENAGHMATHJAX}
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{y_{{2}}=A\sin({kx}-{\omega
+t}+\varphi )}
+\end{equation}{OPENAGHMATHJAX}
+
+Podobnie jak w przypadku drgań, również dla fal obowiązuje zasada superpozycji więc wypadkową falę znajdujemy jako sumę fal składowych
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{y=2A\cos(\varphi/{2)}\sin({kx}-{\omega t}+\varphi/{2})}\end{equation}{OPENAGHMATHJAX}
+
+To jest ponownie równanie fali sinusoidalnej {OPENAGHMATHJAX()}{y=A'\sin(kx-\omega t+\varphi/2)}{OPENAGHMATHJAX} o amplitudzie
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{A=2A\cos(\varphi /2)}\end{equation}{OPENAGHMATHJAX}
+
+Widzimy, że wynik nakładania się fal (interferencji) zależy wyłącznie od różnicy faz {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX}. Dla {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} = 0 fale są zgodne w fazie i wzmacniają się maksymalnie (amplituda {OPENAGHMATHJAX()}A’{OPENAGHMATHJAX} osiąga maksimum), a dla {OPENAGHMATHJAX()}\varphi = 180^o{OPENAGHMATHJAX} fale są przeciwne w fazie i wygaszają się (amplituda {OPENAGHMATHJAX()}A’ = 0{OPENAGHMATHJAX}). Oczywiście dla pozostałych wartości {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} otrzymujemy pośrednie wyniki nakładania się fal.
+
+Możesz prześledzić interferencję fal w zależności od różnicy faz {OPENAGHMATHJAX()}\varphi {OPENAGHMATHJAX} korzystając z darmowego programu komputerowego „Składanie ruchów falowych” dostępnego na stronie WWW autora.
+
+!!!!# Fale stojące
+
+Ponownie zajmiemy się interferencją dwu fal o równych częstotliwościach i amplitudach ale rozchodzących się w przeciwnych kierunkach na przykład {OPENAGHMATHJAX()}+x{OPENAGHMATHJAX} i {OPENAGHMATHJAX()}-x{OPENAGHMATHJAX}. Z taką sytuacją mamy do czynienia na przykład gdy fala rozchodząca się w danym ośrodku (ciele) odbija się od granicy ośrodka (ciała) i nakłada się na falę padającą. Fale te można opisać równaniami
+
+{OPENAGHMATHJAX( type="block")}
+\begin{equation}
+{y_{{1}}=A\sin({kx}-{\omega t})}
+\end{equation}{OPENAGHMATHJAX}{OPENAGHMATHJAX( type="block
+")}\begin{equation}{y_{{2}}=A\sin({kx}+{\omega t})}\end{equation}{OPENAGHMATHJAX}
+
+Falę wypadkową znajdujemy jako sumę tych fal składowych
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{y=y_{{1}}+y_{{2}}=2A\sin{kx}\cos{\omega t}}\end{equation}{OPENAGHMATHJAX}
+
+Zauważmy, że jest to równanie ruchu harmonicznego prostego postaci {OPENAGHMATHJAX()}{y=A'\cos\omega t}{OPENAGHMATHJAX} z amplituda równą
+
+{OPENAGHMATHJAX( type="block")}\begin{equation}{A=2A\sin{kx}}\end{equation}{OPENAGHMATHJAX}
+
+Widzimy, że cząstki ośrodka drgają ruchem harmonicznym prostym ale w przeciwieństwie do fali bieżącej różne punkty ośrodka mają różną amplitudę drgań zależną od ich położenia {OPENAGHMATHJAX()}x{OPENAGHMATHJAX}. Taką falę nazywamy __falą stojącą__.
+
+Punkty, dla których {OPENAGHMATHJAX()}kx = \pi/2 {OPENAGHMATHJAX}, {OPENAGHMATHJAX()}3\pi/2 {OPENAGHMATHJAX}, {OPENAGHMATHJAX()}5\pi/2 {OPENAGHMATHJAX}, itd. czyli znajdujące się w położeniach {OPENAGHMATHJAX()}x = \lambda/4, 3\lambda/4, 5\lambda/4 {OPENAGHMATHJAX} itd. mają maksymalną amplitudę. Punkty te nazywamy __strzałkami__, a punkty dla których {OPENAGHMATHJAX()}kx = \pi, 2\pi, 3\pi {OPENAGHMATHJAX} itd. tj. takie, że {OPENAGHMATHJAX()} x = \lambda/2, \lambda, 3\lambda/2{OPENAGHMATHJAX} itd. mają zerową amplitudę i nazywane są __węzłami__. Widać, że odległości między kolejnymi węzłami i strzałkami wynoszą pół długości fali. Sytuacja ta jest przedstawiona na rysunku poniżej, gdzie zaznaczonych jest kilka możliwych drgań struny zamocowanej na obu końcach.
+
+{img type="fileId" fileId="395" width="600" noDrawIcon="n"}
+
+Rys. 13.9. Fale stojące dla struny zamocowanej na obu końcach; węzły są zaznaczone liniami kropkowanymi, a strzałki przerywanymi.
+
+Zwróćmy uwagę na jeszcze jedną istotną różnicę pomiędzy falą bieżącą, a falą stojącą. W fali stojącej energia nie jest przenoszona wzdłuż sznura bo nie może ona przepłynąć przez węzły (energia kinetyczna i potencjalna węzłów jest równa zeru bo węzły nie drgają). Energia w fali stojącej jest na stałe zmagazynowana w poszczególnych elementach ośrodka (np. struny).
+
+Możesz prześledzić powstawanie fali stojącej w wyniku interferencji fal biegnących w przeciwne strony korzystając
+zdarmowego programu komputerowego „Składanie ruchów falowych” dostępnego
+na stronie WWW autora.
