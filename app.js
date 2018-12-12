@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var exec = require('child_process').execFile;
+var exec = require('child_process');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -22,14 +22,14 @@ var convertedData = '';
 
 var parse = function(){
     console.log("parse() start");
-    exec('parser.exe', ['91'], function(err, data) {
+    exec.execFile('parser.exe', ['91'], function(err, data) {
         console.log(err);
         console.log(data.toString());
     });
 }
 var parsoid = function() {
     console.log("parsoid() start");
-    exec('/parsoid/bin/parse.js', ['../../data/file.txt'], function(err, data) {
+    exec.exec('node parsoid/bin/parse.js data/file.txt', function(err, data) {
         console.log(err);
         console.log(data.toString());
     });
