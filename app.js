@@ -7,20 +7,44 @@ var exec = require('child_process').execFile;
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+var formidable = require('formidable');
+var fs = require('fs');
+
 var app = express();
 
+
+//////tu są zmienne które potrzebujesz filecontent, filepath i file wybieraj
+var filecontent = "";
+var filepath = "";
+var file ;
+
 var convertedData = '';
+
 var fun = function(){
     console.log("fun() start");
     exec('parser.exe', ['91'], function(err, data) {
-        console.log(err)
+        console.log(err);
         console.log(data.toString());
     });
 }
 //zmieńcie sobie odpowiednio metody get/post/...
-app.get('/upload', function(req, res){
-    res.json("Radek");
+//Upload plików jest tutaj 
+app.post('/fileupload', function(req, res){
+    const form = new formidable.IncomingForm();
+    form.parse(req, function (err, fields, files) {
+        const path = files.filetoupload.path;
+        filepath = path;
+        console.log(path);// to mozna wywalić
+        file = files.filetoupload;
+        console.log(file); // to mozna wywalic
+        fs.readFile(path, 'utf8', function (err, content) {
+            filecontent = content;
+            console.log(content);// to mozna wywalic
+        });
+    });
+    res.render('');
 });
+
 app.get('/convert', function(req, res){
     fun();
     convertedData = 'dane przekonwertowane';
