@@ -20,9 +20,16 @@ var file ;
 
 var convertedData = '';
 
-var fun = function(){
-    console.log("fun() start");
+var parse = function(){
+    console.log("parse() start");
     exec('parser.exe', ['91'], function(err, data) {
+        console.log(err);
+        console.log(data.toString());
+    });
+}
+var parsoid = function() {
+    console.log("parsoid() start");
+    exec('/parsoid/bin/parse.js', ['../../data/file.txt'], function(err, data) {
         console.log(err);
         console.log(data.toString());
     });
@@ -46,7 +53,12 @@ app.post('/fileupload', function(req, res){
 });
 
 app.get('/convert', function(req, res){
-    fun();
+    parse(); // data/file.txt
+    //parsoid(); // data/file.txt.html
+    convertedData = 'dane przekonwertowane';
+});
+app.get('/convertTest', function(req, res){
+    parsoid(); // data/file.txt.html
     convertedData = 'dane przekonwertowane';
 });
 app.get('/save', function(req, res){

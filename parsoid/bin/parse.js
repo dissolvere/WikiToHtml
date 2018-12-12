@@ -320,6 +320,7 @@ Promise.async(function *() {
 		logLevels: logLevels,
 	};
 	const args = process.argv.slice(2)
+	//const args = '../../data/file.txt'
 	var input = yield Promise.resolve()
 	.then(function() {
 		if (args[0]) {
