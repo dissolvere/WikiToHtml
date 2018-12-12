@@ -60,8 +60,8 @@ app.post('/fileupload', function(req, res){
 });
 
 app.get('/convert', function(req, res){
-    //parse(); // data/file.txt
-    //parsoid(); // data/file.txt.html
+    parse(); // data/file.txt
+    parsoid(); // data/file.txt.html
     
 });
 app.get('/convertTest', function(req, res){
