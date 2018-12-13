@@ -2,70 +2,88 @@
 #include <stdio.h>
 #include <fstream>
 #include "../gen/parser.tab.hh"
+#include <mongoc.h>
+#include <bson.h>
 
 extern unsigned int mathjax_total;
-/*
-It is called to invoke the lexer, 
-each time yylex() is called, the scanner 
-continues processing the input from where it last left off.
-*/
 extern int yylex(void);
 extern int yy_scan_string(const char *);
-//Buffer that holds the input characters that actually match the pattern
 extern char* yytext;
 extern int yylineno;
-std::fstream input_file;
-std::fstream output_file;
+std::string data_string;
 
 void yy::parser::error(std::string const&err) 
 {
 	std::cout << "error: \"" << err << "\"\nat symbol: \"" << yytext << "\"\non line: " << yylineno << std::endl; 
-	//exit(1);
 }
 
 int main(int argc, char **argv)
 {
-    input_file.open(argv[1], std::ios::in);
-    if(output_file.good())
-    {
-		//File exists so we can read from this file
-    }
-    else
-    {
-		//There is no input file
-        std::cout<<"Input file doesn't exist!"<<std::endl;
+	std::fstream input_file;
+	mongoc_uri_t *uri;
+	mongoc_client_t *client;
+	mongoc_database_t *database;
+   	mongoc_collection_t *collection;
+	bson_t *command, reply, *insert;
+	bson_error_t error;
+	const char * input_file_name;
+	const char * uri_string;
+	const char * db_name;
+	const char * collection_name;
+	std::string path;
+	char *str;
+	bool retval;
+
+	mongoc_init ();
+
+	//Get program arguments
+	if(argc != 5)
+	{
+		std::cout<<"Wrong number of program arguments!"<<std::endl;
         return 1;
-    }
+	}
+	else
+	{
+		input_file_name = argv[1];
+		uri_string = argv[2];
+		db_name = argv[3];
+		collection_name = argv[4];
 
-	output_file.open("../tests/html/file.html", std::ios::in);
-    if(output_file.good())
+		std::string program_path = argv[0]; 		//Full path with .exe file
+		std::string part_path;
+		path; 										//Path without .exe file
+		for(int i =0; i< program_path.size(); i++)
+		{
+			part_path+=program_path[i];
+
+			if(program_path[i] == '/' || program_path[i] == '\\')
+			{
+				path+=part_path;
+				part_path.clear();
+			}
+		}
+	}
+
+	//Connect to the database
+	uri = mongoc_uri_new_with_error (uri_string, &error);
+	if (!uri) 
+	{
+      fprintf (stderr,
+               "failed to parse URI: %s\n"
+               "error message:       %s\n",
+               uri_string,
+               error.message);
+      return EXIT_FAILURE;
+	}
+	else
+	{
+	   std::cout<<"Successfully connected!"<<std::endl;
+	}
+
+	//Parse input file
+	input_file.open(path+input_file_name, std::ios::in);
+    if(input_file.good())
     {
-		//This file exists, we don't want overwrite data
-        std::cout<<"Output file - file.html exists!"<<std::endl;
-        output_file.close();
-        return 1;
-    }
-    else
-    {
-        //File doesn't exist so we can create this file
-        output_file.close();
-    }
-	
-
-
-
-	output_file.open("../tests/html/file.html", std::ios::out);
-	if(output_file.good())
-    {
-        std::cout<<"File.html created"<<std::endl;
-        output_file<<"<html>"<<std::endl;
-        output_file<<"<head>"<<std::endl;
-        output_file<<"<meta charset=\"utf-8\">"<<std::endl;
-        output_file<<"<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>"<<std::endl;
-        output_file<<"</head>"<<std::endl;
-        output_file<<"<body>"<<std::endl;
-
-
 		yy::parser parser;
 		std::string line;
 		std::string mini_module;
@@ -81,7 +99,6 @@ int main(int argc, char **argv)
 					mini_module += line;
 			}while(line != "" && !input_file.eof());
 
-			//std::cout<<mini_module<<std::endl;
 			yy_scan_string(mini_module.c_str());
 			parser.parse();
 			mini_module = "";
@@ -89,17 +106,50 @@ int main(int argc, char **argv)
 		}while(!input_file.eof());
 
 		input_file.close();
-
-		output_file<<"</body>"<<std::endl;
-		output_file<<"</html>"<<std::endl;
-		output_file.close();
-	}
+    }
     else
     {
-		//File has not been loaded
-        std::cout<<"Cannot create output_file!"<<std::endl;
-		return 1;
+        std::cout<<"Cannot open input file!"<<std::endl;
+        return 1;
     }
+
+	//Add data to the database
+	client = mongoc_client_new_from_uri (uri);
+	if (!client) 
+	{
+		return EXIT_FAILURE;
+	}
+
+	database = mongoc_client_get_database (client, db_name);
+   	collection = mongoc_client_get_collection (client, db_name, collection_name);
+	command = BCON_NEW ("ping", BCON_INT32 (1));
+
+	retval = mongoc_client_command_simple (client, "admin", command, NULL, &reply, &error);
+	if (!retval) 
+	{
+      fprintf (stderr, "%s\n", error.message);
+      return EXIT_FAILURE;
+   	}
+
+	str = bson_as_json (&reply, NULL);
+   	printf ("%s\n", str);
+
+   	insert = BCON_NEW ("parser", BCON_UTF8 (data_string.c_str()));
+
+   	if (!mongoc_collection_insert_one (collection, insert, NULL, NULL, &error)) {
+      fprintf (stderr, "%s\n", error.message);
+   	}
+	   
+	bson_destroy (insert);
+   	bson_destroy (&reply);
+   	bson_destroy (command);
+   	bson_free (str);
+
+	mongoc_collection_destroy (collection);
+   	mongoc_database_destroy (database);
+   	mongoc_uri_destroy (uri);
+   	mongoc_client_destroy (client);
+   	mongoc_cleanup ();
 
 	return 0;
 }
@@ -134,17 +184,7 @@ std::string div_openaghmathjax(std::map<std::string, std::string> attrs, std::st
 
 void process_module(std::string module)
 {
-    for (int i=0; i<module.length(); i++)
-    {
-        if(module[i] == '\n')
-        {
-           output_file<<"<br>"<<std::endl;
-        }
-        else
-        {
-            output_file<<module[i];
-        }
-    } 
+    data_string+=module+'\n';
 }
 
 std::string div()

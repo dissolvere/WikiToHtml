@@ -29,3 +29,8 @@ VERSION_RELEASED
 Debug
 install_manifest.txt
 x64
+
+/bin
+/lib
+/include
+/share
