@@ -27,7 +27,7 @@ var fun = function(){
         console.log(data.toString());
     });
 }
-//zmieńcie sobie odpowiednio metody get/post/...
+
 //Upload plików jest tutaj 
 app.post('/fileupload', function(req, res){
     const form = new formidable.IncomingForm();
