@@ -19,7 +19,7 @@ var {ConvertedFile} = require('./model/convertedFile');
 
 var app = express();
 
-app.use(busboy()); 
+app.use(busboy());
 
 var filecontent = "";
 var filepath = "";
@@ -45,7 +45,7 @@ var parsoid = function() {
     exec.exec('node parsoid/bin/parse.js data/file.txt', function(err, data) {
         console.log(err);
         console.log(data.toString());
-        
+
         fs.writeFile("data/file.txt.html", data.toString(), function(err) {
             if(err) {
                 return console.log(err);
@@ -56,7 +56,7 @@ var parsoid = function() {
 }
 
 //----------------------------------------------------------------------------------------------
-//Upload plików jest tutaj 
+//Upload plików jest tutaj
 
 app.post('/fileupload', function(req, res){
     const form = new formidable.IncomingForm();
@@ -80,11 +80,11 @@ app.post('/fileuploadalt', function(req, res) {
     var fstream;
     req.pipe(req.busboy);
     req.busboy.on('file', function (fieldname, filecontent, filename) {
-        console.log("Uploading: " + filename); 
+        console.log("Uploading: " + filename);
         file = setFileName();
         fstream = fs.createWriteStream(__dirname + '/data/' + file);
         filecontent.pipe(fstream);
-        console.log("Writing: " + file); 
+        console.log("Writing: " + file);
         fstream.on('close', function () {
             res.redirect('back');
         });
@@ -95,11 +95,11 @@ app.post('/fileuploadalt', function(req, res) {
 app.get('/convert', function(req, res){
     parse(); // data/file.txt
     parsoid(); // data/file.txt.html
-    
+
 });
 app.get('/convertTest', function(req, res){
     parsoid(); // data/file.txt.html
-    
+
 });
 app.get('/save', function(req, res){
 
