@@ -8,11 +8,11 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-
+//npm pandoc do dodania i trzeba podmienic z parsoidem
 var convertedData = '';
 var fun = function(){
     console.log("fun() start");
-    exec('parser.exe', ['91'], function(err, data) {
+    exec('parser.exe', ['91'], function(err, data) { // 91 trzeba zmienc na plik po uplodzie
         console.log(err)
         console.log(data.toString());
     });
