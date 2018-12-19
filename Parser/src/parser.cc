@@ -30,6 +30,7 @@ int main(int argc, char **argv)
 	const char * uri_string;
 	const char * db_name;
 	const char * collection_name;
+	const char * id;
 	std::string path;
 	char *str;
 	bool retval;
@@ -37,10 +38,16 @@ int main(int argc, char **argv)
 	mongoc_init ();
 
 	//Get program arguments
-	if(argc != 5)
+	if(argc != 6)
 	{
 		std::cout<<"Wrong number of program arguments!"<<std::endl;
-        return 1;
+		std::cout<<"Arguments are:"<<std::endl;
+		std::cout<<"1 - input file name"<<std::endl;
+		std::cout<<"2 - database uri"<<std::endl;
+		std::cout<<"3 - database name"<<std::endl;
+		std::cout<<"4 - collection name"<<std::endl;
+		std::cout<<"5 - unique id"<<std::endl;
+		return 1;
 	}
 	else
 	{
@@ -62,6 +69,8 @@ int main(int argc, char **argv)
 				part_path.clear();
 			}
 		}
+
+		id = argv[5];
 	}
 
 	//Connect to the database
@@ -134,8 +143,7 @@ int main(int argc, char **argv)
 	str = bson_as_json (&reply, NULL);
    	printf ("%s\n", str);
 
-   	insert = BCON_NEW ("parser", BCON_UTF8 (data_string.c_str()));
-
+   	insert = BCON_NEW ("id", BCON_UTF8 (id), "parser", BCON_UTF8 (data_string.c_str()));
    	if (!mongoc_collection_insert_one (collection, insert, NULL, NULL, &error)) {
       fprintf (stderr, "%s\n", error.message);
    	}
