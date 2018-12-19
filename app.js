@@ -11,6 +11,8 @@ var formidable = require('formidable');
 var fs = require('fs');
 var bodyParser = require('body-parser');
 var busboy = require('connect-busboy');
+var nodePandoc = require('node-pandoc');
+var sourceToPandoc, argsToPandoc, callbackFromPandoc;
 const uuidv4 = require('uuid/v4')
 
 // Local imports
@@ -54,7 +56,19 @@ var parsoid = function() {
         convertedData = data.toString();
     });
 }
+//Pandoc
+argsToPandoc = '-f tikiwiki -t html5';
+callbackFromPandoc = function (err, result) {
 
+    if (err) {
+        console.error('Oh Nos: ',err);
+    }
+// tutaj zapis do zmienneji bazy
+    console.log(result);
+    return result;
+};
+// to wkleisc do wywolania
+pandoc(sourceToPandoc, argsToPandoc, callbackFromPandoc);
 //----------------------------------------------------------------------------------------------
 //Upload plików jest tutaj
 
