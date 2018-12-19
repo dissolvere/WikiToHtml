@@ -20,6 +20,7 @@
     "mongodb": "^3.1.10",
     "mongoose": "^5.4.0",
     "morgan": "~1.9.0",
+    "node-pandoc": "^0.3.0",
     "pug": "2.0.0-beta11",
     "uuid": "^3.3.2"
   },
@@ -35,8 +36,7 @@
     "url": "https://github.com/dissolvere/WikiToHtml/issues"
   },
   "homepage": "https://github.com/dissolvere/WikiToHtml#readme",
-  "devDependencies": {}
-    "node-pandoc": "^0.3.0",
-    "pug": "2.0.0-beta11"
-  }
+  "devDependencies": {},
+  "node-pandoc": "^0.3.0",
+  "pug": "2.0.0-beta11"
 }
