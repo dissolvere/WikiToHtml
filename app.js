@@ -26,6 +26,7 @@ var parse = function(){
         console.log(data.toString());
     });
 }
+
 var parsoid = function() {
     console.log("parsoid() start");
     exec.exec('node parsoid/bin/parse.js data/file.txt', function(err, data) {
@@ -42,6 +43,8 @@ var parsoid = function() {
 }
 
 //----------------------------------------------------------------------------------------------
+//Upload plików jest tutaj 
+
 app.post('/fileupload', function(req, res){
     const form = new formidable.IncomingForm();
     form.parse(req, function (err, fields, files) {
