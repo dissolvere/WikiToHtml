@@ -15,6 +15,8 @@ var nodePandoc = require('node-pandoc');
 var sourceToPandoc, argsToPandoc, callbackFromPandoc;
 const uuidv4 = require('uuid/v4')
 
+var databaseConfig = require('./Config/mongoDB-config');
+
 // Local imports
 var {mongoose} = require('./db/connect-file');
 var {ConvertedFile} = require('./model/convertedFile');
@@ -34,9 +36,9 @@ function setFileName(req, resp) {
     return uuidv4();
 }
 
-var parse = function(){
+var parse = function(id){
     console.log("parse() start");
-    exec.execFile('parser.exe', ['91'], function(err, data) {
+    exec.execFile('./parser/parser.exe', ['../data/'+id, databaseConfig.database_uri, databaseConfig.database_name, databaseConfig.collection_name, id], function(err, data) {
         console.log(err);
         console.log(data.toString());
     });
@@ -68,29 +70,9 @@ callbackFromPandoc = function (err, result) {
     return result;
 };
 // to wkleisc do wywolania
-pandoc(sourceToPandoc, argsToPandoc, callbackFromPandoc);
+//pandoc(sourceToPandoc, argsToPandoc, callbackFromPandoc);
 //----------------------------------------------------------------------------------------------
-//Upload plików jest tutaj
-
-app.post('/fileupload', function(req, res){
-    const form = new formidable.IncomingForm();
-    form.parse(req, function (err, fields, files) {
-        const path = files.filetoupload.path;
-        filepath = path;
-        console.log(path);// to mozna wywalić
-        file = files.filetoupload;
-        console.log(file); // to mozna wywalic
-        fs.readFile(path, 'utf8', function (err, content) {
-            filecontent = content;
-            console.log(content);// to mozna wywalic
-        });
-    });
-    res.render('');
-});
-
-
-//upload alternative
-app.post('/fileuploadalt', function(req, res) {
+app.post('/fileupload', function(req, res) {
     var fstream;
     req.pipe(req.busboy);
     req.busboy.on('file', function (fieldname, filecontent, filename) {
@@ -102,41 +84,10 @@ app.post('/fileuploadalt', function(req, res) {
         fstream.on('close', function () {
             res.redirect('back');
         });
+        parse(file);
     });
 });
 //----------------------------------------------------------------------------------------------
-
-app.get('/convert', function(req, res){
-    parse(); // data/file.txt
-    parsoid(); // data/file.txt.html
-
-});
-app.get('/convertTest', function(req, res){
-    parsoid(); // data/file.txt.html
-
-});
-app.get('/save', function(req, res){
-
-    if(convertedData === ''){
-        res.render('info');
-    }else {
-        res.download(__dirname + '/data/file.txt.html', 'file.txt.html');
-        convertedData = '';
-    }
-
-});
-app.get('/show', function(req, res){
-
-    if(convertedData === ''){
-        res.render('info');
-    }else{
-        res.render('convertedView', {
-            data: convertedData
-        });
-    }
-    
-});
-
 
 // example post method for db
 app.post('/data', (req,res) => {

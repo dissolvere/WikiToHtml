@@ -34,7 +34,7 @@
     "url": "https://github.com/dissolvere/WikiToHtml/issues"
   },
   "homepage": "https://github.com/dissolvere/WikiToHtml#readme",
-  "devDependencies": {}
+  "devDependencies": {
     "node-pandoc": "^0.3.0",
     "pug": "2.0.0-beta11"
   }
