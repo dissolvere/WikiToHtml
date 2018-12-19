@@ -10,6 +10,8 @@ var usersRouter = require('./routes/users');
 var formidable = require('formidable');
 var fs = require('fs');
 var bodyParser = require('body-parser');
+var busboy = require('connect-busboy');
+const uuidv4 = require('uuid/v4')
 
 // Local imports
 var {mongoose} = require('./db/connect-file');
@@ -17,11 +19,18 @@ var {ConvertedFile} = require('./model/convertedFile');
 
 var app = express();
 
+app.use(busboy()); 
+
 var filecontent = "";
 var filepath = "";
 var file ;
 
 var convertedData = '';
+
+
+function setFileName(req, resp) {
+    return uuidv4();
+}
 
 var parse = function(){
     console.log("parse() start");
@@ -64,6 +73,24 @@ app.post('/fileupload', function(req, res){
     });
     res.render('');
 });
+
+
+//upload alternative
+app.post('/fileuploadalt', function(req, res) {
+    var fstream;
+    req.pipe(req.busboy);
+    req.busboy.on('file', function (fieldname, filecontent, filename) {
+        console.log("Uploading: " + filename); 
+        file = setFileName();
+        fstream = fs.createWriteStream(__dirname + '/data/' + file);
+        filecontent.pipe(fstream);
+        console.log("Writing: " + file); 
+        fstream.on('close', function () {
+            res.redirect('back');
+        });
+    });
+});
+//----------------------------------------------------------------------------------------------
 
 app.get('/convert', function(req, res){
     parse(); // data/file.txt
