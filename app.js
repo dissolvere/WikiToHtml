@@ -17,8 +17,6 @@ var {ConvertedFile} = require('./model/convertedFile');
 
 var app = express();
 
-app.use(bodyParser.json());
-
 var filecontent = "";
 var filepath = "";
 var file ;
@@ -114,6 +112,8 @@ app.post('/data', (req,res) => {
 
 
 // view engine setup
+app.use(bodyParser.json());
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
