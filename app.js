@@ -1,3 +1,4 @@
+// Global imports
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -6,12 +7,17 @@ var logger = require('morgan');
 var exec = require('child_process');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
 var formidable = require('formidable');
 var fs = require('fs');
+var bodyParser = require('body-parser');
+
+// Local imports
+var {mongoose} = require('./db/connect-file');
+var {ConvertedFile} = require('./model/convertedFile');
 
 var app = express();
 
+app.use(bodyParser.json());
 
 var filecontent = "";
 var filepath = "";
@@ -93,6 +99,19 @@ app.get('/show', function(req, res){
 });
 
 
+// example post method for db
+app.post('/data', (req,res) => {
+    var dataTmp = new ConvertedFile({
+        text: req.body.text
+    });
+
+    dataTmp.save().then((doc) => {
+        res.send(doc);
+    }, (e) => {
+        res.status(400).send(e);
+    });
+})
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -125,6 +144,9 @@ app.use(function(err, req, res, next) {
 
 
 const PORT = process.env.PORT||5000;
-app.listen(PORT);
+app.listen(PORT, () => {
+    console.log('Started on port 5000');
+});
+
 
 module.exports = app;
