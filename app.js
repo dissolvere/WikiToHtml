@@ -31,6 +31,9 @@ var file ;
 
 var convertedData = '';
 
+// view engine setup
+app.use(bodyParser.json());
+
 
 function setFileName(req, resp) {
     return uuidv4();
@@ -91,6 +94,7 @@ app.post('/fileupload', function(req, res) {
 
 // example post method for db
 app.post('/data', (req,res) => {
+
     var dataTmp = new ConvertedFile({
         text: req.body.text
     });
@@ -103,8 +107,7 @@ app.post('/data', (req,res) => {
 })
 
 
-// view engine setup
-app.use(bodyParser.json());
+
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
