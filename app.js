@@ -11,11 +11,26 @@ var formidable = require('formidable');
 var fs = require('fs');
 var bodyParser = require('body-parser');
 
+
 // Local imports
 var {mongoose} = require('./db/connect-file');
 var {ConvertedFile} = require('./model/convertedFile');
 
-var app = express();
+const app = express();
+// app.use(express.bodyParser());
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.json());
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
+
 
 var filecontent = "";
 var filepath = "";
@@ -65,6 +80,18 @@ app.post('/fileupload', function(req, res){
     res.render('');
 });
 
+app.post('/savefile', function(req, res){
+    fs.writeFile("./test/test",req.body.name1,function(err){
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Save");
+    });
+    console.log(req.body.name1);
+});
+
+
+
 app.get('/convert', function(req, res){
     parse(); // data/file.txt
     parsoid(); // data/file.txt.html
@@ -112,19 +139,10 @@ app.post('/data', (req,res) => {
 
 
 // view engine setup
-app.use(bodyParser.json());
 
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
 
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -147,6 +165,8 @@ const PORT = process.env.PORT||5000;
 app.listen(PORT, () => {
     console.log('Started on port 5000');
 });
+
+
 
 
 module.exports = app;
