@@ -1,9 +1,7 @@
 var Mongoose = require('mongoose');
 
 var ConvertedFile = Mongoose.model('ConvertedFile', {
-   text: {
-    type: String
-   }
+   text: String
 });
 
 module.exports = {ConvertedFile};
