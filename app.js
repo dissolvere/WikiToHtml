@@ -14,12 +14,14 @@ var busboy = require('connect-busboy');
 var nodePandoc = require('node-pandoc');
 var sourceToPandoc, argsToPandoc, callbackFromPandoc;
 const uuidv4 = require('uuid/v4')
+const mongoose = require('mongoose');
+
 
 var databaseConfig = require('./Config/mongoDB-config');
 
-// Local imports
-var {mongoose} = require('./db/connect-file');
-var {ConvertedFile} = require('./model/convertedFile');
+const ConvertedFile = require('./model/convertedFile');
+const DateParser = require('./model/data');
+mongoose.connect(databaseConfig.mongoURI);
 
 var app = express();
 
@@ -41,26 +43,26 @@ function setFileName(req, resp) {
 
 var parse = function(id){
     console.log("parse() start");
-    exec.execFile('./parser/parser.exe', ['../data/'+id, databaseConfig.database_uri, databaseConfig.database_name, databaseConfig.collection_name, id], function(err, data) {
+    exec.execFile('./parser/parser.exe', ['../data/'+id, databaseConfig.mongoURI, databaseConfig.mongoName, databaseConfig.mongoCollection, id], function(err, data) {
         console.log(err);
         console.log(data.toString());
     });
 }
 
-var parsoid = function() {
-    console.log("parsoid() start");
-    exec.exec('node parsoid/bin/parse.js data/file.txt', function(err, data) {
-        console.log(err);
-        console.log(data.toString());
 
-        fs.writeFile("data/file.txt.html", data.toString(), function(err) {
-            if(err) {
-                return console.log(err);
+var pandoc = function(id){
+    let filePandoc;
+    DateParser.findOne({id:req.body.id})
+        .then(One => {
+            if(One){
+                One.parser = filePandoc;
+            }else{
+                res.json({error:'Nie ma w bazie!!!'})
             }
-        });
-        convertedData = data.toString();
-    });
+
+        })
 }
+
 //Pandoc
 argsToPandoc = '-f tikiwiki -t html5';
 callbackFromPandoc = function (err, result) {
@@ -88,6 +90,7 @@ app.post('/fileupload', function(req, res) {
             res.redirect('back');
         });
         parse(file);
+        pandoc(file);
     });
 });
 //----------------------------------------------------------------------------------------------
