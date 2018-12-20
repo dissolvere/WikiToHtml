@@ -6,4 +6,4 @@ const Data = new Schema ({
     parser: String
 });
 
-mongoose.model('data', Data);
+module.exports = mongoose.model('data', Data);

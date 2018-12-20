@@ -14,30 +14,26 @@ var busboy = require('connect-busboy');
 var nodePandoc = require('node-pandoc');
 var sourceToPandoc, argsToPandoc, callbackFromPandoc;
 const uuidv4 = require('uuid/v4')
+
+
+//Database
 const mongoose = require('mongoose');
-
-
 var databaseConfig = require('./Config/mongoDB-config');
-
 const ConvertedFile = require('./model/convertedFile');
 const DateParser = require('./model/data');
 mongoose.connect(databaseConfig.mongoURI);
+//-------------------------------------------------------------
 
 var app = express();
 
 app.use(busboy());
-
-var filecontent = "";
-var filepath = "";
 var file ;
-
-var convertedData = '';
 
 // view engine setup
 app.use(bodyParser.json());
 
 
-function setFileName(req, resp) {
+function setFileName(req, res) {
     return uuidv4();
 }
 
@@ -49,34 +45,39 @@ var parse = function(id){
     });
 }
 
-
+//PANDOC------------------------------------------------------------
 var pandoc = function(id){
-    let filePandoc;
-    DateParser.findOne({id:req.body.id})
+    let fileParser;
+    DateParser.findOne({'id':id})
         .then(One => {
             if(One){
-                One.parser = filePandoc;
+                console.log(One);
+                fileParser = One.parser;
             }else{
-                res.json({error:'Nie ma w bazie!!!'})
+                console.log('Nie ma w bazie!!!')
             }
 
         })
+    console.log('ss');
+    argsToPandoc = '-f tikiwiki -t html5';
+    //------------------------------------------------------------------
+    callbackFromPandoc = function (err, result) {
+
+        if (err) {
+            console.error('error: ',err);
+        }
+        // tutaj zapis do zmienneji bazy
+        console.log(result);
+        return result;
+    };
+    //-------------------------------------------------------------------
+    //to wkleic do wywolaania
+    nodePandoc(fileParser, argsToPandoc, callbackFromPandoc);
 }
+//-----------------------------------------------------------------------
 
-//Pandoc
-argsToPandoc = '-f tikiwiki -t html5';
-callbackFromPandoc = function (err, result) {
 
-    if (err) {
-        console.error('Oh Nos: ',err);
-    }
-// tutaj zapis do zmienneji bazy
-    console.log(result);
-    return result;
-};
-// to wkleisc do wywolania
-//pandoc(sourceToPandoc, argsToPandoc, callbackFromPandoc);
-//----------------------------------------------------------------------------------------------
+// File upload
 app.post('/fileupload', function(req, res) {
     var fstream;
     req.pipe(req.busboy);
@@ -90,26 +91,10 @@ app.post('/fileupload', function(req, res) {
             res.redirect('back');
         });
         parse(file);
-        pandoc(file);
+        //pandoc(file);
     });
 });
 //----------------------------------------------------------------------------------------------
-
-// example post method for db
-app.post('/data', (req,res) => {
-
-    var dataTmp = new ConvertedFile({
-        text: req.body.text
-    });
-
-    dataTmp.save().then((doc) => {
-        res.send(doc);
-    }, (e) => {
-        res.status(400).send(e);
-    });
-})
-
-
 
 
 app.set('views', path.join(__dirname, 'views'));
@@ -142,9 +127,7 @@ app.use(function(err, req, res, next) {
 
 
 const PORT = process.env.PORT||5000;
-app.listen(PORT, () => {
-    console.log('Started on port 5000');
-});
+app.listen(PORT);
 
 
 module.exports = app;

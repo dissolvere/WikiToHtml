@@ -5,4 +5,4 @@ const ConvertedFile = new Schema ({
    text: String
 });
 
-mongoose.model('convertedFile', ConvertedFile);
+module.exports = mongoose.model('convertedFile', ConvertedFile);
