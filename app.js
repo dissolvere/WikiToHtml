@@ -39,7 +39,7 @@ function setFileName(req, res) {
 
 var parse = function(id){
     console.log("parse() start");
-    exec.execFile('./parser/parser.exe', ['../data/'+id, databaseConfig.mongoURI, databaseConfig.mongoName, databaseConfig.mongoCollection, id], function(err, data) {
+    exec.execFile('./parser/parser.exe', ['../data/'+id, databaseConfig.mongoURI, databaseConfig.mongoName, databaseConfig.mongoCollection, id, "False"], function(err, data) {
         console.log(err);
         console.log(data.toString());
 
