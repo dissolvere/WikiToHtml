@@ -12,9 +12,14 @@ extern char* yytext;
 extern int yylineno;
 std::string data_string;
 
+bool consoleLogsFlag;
+
 void yy::parser::error(std::string const&err) 
 {
-	std::cout << "error: \"" << err << "\"\nat symbol: \"" << yytext << "\"\non line: " << yylineno << std::endl; 
+	if(consoleLogsFlag)
+	{
+		std::cout << "error: \"" << err << "\"\nat symbol: \"" << yytext << "\"\non line: " << yylineno << std::endl; 
+	}
 }
 
 int main(int argc, char **argv)
@@ -35,10 +40,12 @@ int main(int argc, char **argv)
 	char *str;
 	bool retval;
 
+	consoleLogsFlag = false;
+
 	mongoc_init ();
 
 	//Get program arguments
-	if(argc != 6)
+	if(argc != 7)
 	{
 		std::cout<<"Wrong number of program arguments!"<<std::endl;
 		std::cout<<"Arguments are:"<<std::endl;
@@ -47,6 +54,7 @@ int main(int argc, char **argv)
 		std::cout<<"3 - database name"<<std::endl;
 		std::cout<<"4 - collection name"<<std::endl;
 		std::cout<<"5 - unique id"<<std::endl;
+		std::cout<<"6 - Show Console Logs (\"True\" or empty)"<<std::endl;
 		return 1;
 	}
 	else
@@ -57,8 +65,7 @@ int main(int argc, char **argv)
 		collection_name = argv[4];
 
 		std::string program_path = argv[0]; 		//Full path with .exe file
-		std::string part_path;
-		path; 										//Path without .exe file
+		std::string part_path;								//Path without .exe file
 		for(int i =0; i< program_path.size(); i++)
 		{
 			part_path+=program_path[i];
@@ -71,6 +78,11 @@ int main(int argc, char **argv)
 		}
 
 		id = argv[5];
+
+		if(strcmp(argv[6],"True")==0)
+		{
+			consoleLogsFlag = true;
+		}
 	}
 
 	//Connect to the database
@@ -86,7 +98,10 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-	   std::cout<<"Successfully connected!"<<std::endl;
+		if(consoleLogsFlag)
+		{
+	   		std::cout<<"Successfully connected!"<<std::endl;
+		}
 	}
 
 	//Parse input file
@@ -136,16 +151,26 @@ int main(int argc, char **argv)
 	retval = mongoc_client_command_simple (client, "admin", command, NULL, &reply, &error);
 	if (!retval) 
 	{
-      fprintf (stderr, "%s\n", error.message);
+		if(consoleLogsFlag)
+		{
+      		fprintf (stderr, "%s\n", error.message);
+		}
       return EXIT_FAILURE;
    	}
 
 	str = bson_as_json (&reply, NULL);
-   	printf ("%s\n", str);
+
+	if(consoleLogsFlag)
+	{
+   		printf ("%s\n", str);
+	}
 
    	insert = BCON_NEW ("id", BCON_UTF8 (id), "parser", BCON_UTF8 (data_string.c_str()));
    	if (!mongoc_collection_insert_one (collection, insert, NULL, NULL, &error)) {
-      fprintf (stderr, "%s\n", error.message);
+		   if(consoleLogsFlag)
+		   {
+      			fprintf (stderr, "%s\n", error.message);
+		   }
    	}
 	   
 	bson_destroy (insert);
