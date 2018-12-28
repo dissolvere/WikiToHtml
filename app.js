@@ -21,7 +21,7 @@ const mongoose = require('mongoose');
 var databaseConfig = require('./Config/mongoDB-config');
 const ConvertedFile = require('./model/convertedFile');
 const DateParser = require('./model/data');
-mongoose.connect(databaseConfig.mongoURI);
+mongoose.connect(databaseConfig.mongoURI,{ useNewUrlParser: true });
 //-------------------------------------------------------------
 
 var app = express();
@@ -42,37 +42,35 @@ var parse = function(id){
     exec.execFile('./parser/parser.exe', ['../data/'+id, databaseConfig.mongoURI, databaseConfig.mongoName, databaseConfig.mongoCollection, id], function(err, data) {
         console.log(err);
         console.log(data.toString());
+
+        pandoc(id)
     });
 }
 
 //PANDOC------------------------------------------------------------
 var pandoc = function(id){
-    let fileParser;
     DateParser.findOne({'id':id})
         .then(One => {
             if(One){
-                console.log(One);
-                fileParser = One.parser;
+                let fileParser = One.parser;
+
+                argsToPandoc = '-f tikiwiki -t html5';
+                
+                callbackFromPandoc = function (err, result) {
+
+                    if (err) {
+                        console.error('error: ',err);
+                    }
+                    
+                    console.log(result);
+                    return result;
+                };
+                
+                nodePandoc(fileParser, argsToPandoc, callbackFromPandoc);
             }else{
                 console.log('Nie ma w bazie!!!')
             }
-
         })
-    console.log('ss');
-    argsToPandoc = '-f tikiwiki -t html5';
-    //------------------------------------------------------------------
-    callbackFromPandoc = function (err, result) {
-
-        if (err) {
-            console.error('error: ',err);
-        }
-        // tutaj zapis do zmienneji bazy
-        console.log(result);
-        return result;
-    };
-    //-------------------------------------------------------------------
-    //to wkleic do wywolaania
-    nodePandoc(fileParser, argsToPandoc, callbackFromPandoc);
 }
 //-----------------------------------------------------------------------
 
@@ -91,7 +89,6 @@ app.post('/fileupload', function(req, res) {
             res.redirect('back');
         });
         parse(file);
-        //pandoc(file);
     });
 });
 //----------------------------------------------------------------------------------------------
