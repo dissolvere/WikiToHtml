@@ -45,7 +45,6 @@ var parse = function(id){
         console.log(data.toString());
         console.log('po');
         
-
         pandoc(id)
     });
 }
