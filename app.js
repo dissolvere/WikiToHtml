@@ -38,10 +38,13 @@ function setFileName(req, res) {
 }
 
 var parse = function(id){
-    console.log("parse() start");
+    console.log("parse() start " + id);
     exec.execFile('./parser/parser.exe', ['../data/'+id, databaseConfig.mongoURI, databaseConfig.mongoName, databaseConfig.mongoCollection, id, "False"], function(err, data) {
+        console.log('przed');
         console.log(err);
         console.log(data.toString());
+        console.log('po');
+        
 
         pandoc(id)
     });
