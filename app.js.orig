@@ -16,6 +16,11 @@ var sourceToPandoc, argsToPandoc, callbackFromPandoc;
 const uuidv4 = require('uuid/v4')
 
 
+<<<<<<< HEAD
+// Local imports
+var {mongoose} = require('./db/connect-file');
+var {ConvertedFile} = require('./model/convertedFile');
+=======
 //Database
 const mongoose = require('mongoose');
 var databaseConfig = require('./Config/mongoDB-config');
@@ -23,6 +28,7 @@ const ConvertedFile = require('./model/convertedFile');
 const DateParser = require('./model/data');
 mongoose.connect(databaseConfig.mongoURI,{ useNewUrlParser: true });
 //-------------------------------------------------------------
+>>>>>>> origin/master
 
 const app = express();
 // app.use(express.bodyParser());
@@ -69,18 +75,6 @@ var pandoc = function(id){
         .then(One => {
             if(One){
                 let fileParser = One.parser;
-app.post('/savefile', function(req, res){
-    fs.writeFile("./test/test",req.body.name1,function(err){
-        if (err) {
-            return console.log(err);
-        }
-        console.log("Save");
-    });
-    console.log(req.body.name1);
-});
-
-
-
 
                 argsToPandoc = '-f tikiwiki -t html5';
                 
@@ -119,9 +113,75 @@ app.post('/fileupload', function(req, res) {
         parse(file);
     });
 });
+<<<<<<< HEAD
+
+app.post('/savefile', function(req, res){
+    fs.writeFile("./test/test",req.body.name1,function(err){
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Save");
+    });
+    console.log(req.body.name1);
+});
+
+
+
+app.get('/convert', function(req, res){
+    parse(); // data/file.txt
+    parsoid(); // data/file.txt.html
+    
+});
+app.get('/convertTest', function(req, res){
+    parsoid(); // data/file.txt.html
+    
+});
+app.get('/save', function(req, res){
+
+    if(convertedData === ''){
+        res.render('info');
+    }else {
+        res.download(__dirname + '/data/file.txt.html', 'file.txt.html');
+        convertedData = '';
+    }
+
+});
+app.get('/show', function(req, res){
+
+    if(convertedData === ''){
+        res.render('info');
+    }else{
+        res.render('convertedView', {
+            data: convertedData
+        });
+    }
+    
+});
+
+
+// example post method for db
+app.post('/data', (req,res) => {
+    var dataTmp = new ConvertedFile({
+        text: req.body.text
+    });
+
+    dataTmp.save().then((doc) => {
+        res.send(doc);
+    }, (e) => {
+        res.status(400).send(e);
+    });
+})
+
+
+// view engine setup
+
+=======
 //----------------------------------------------------------------------------------------------
 
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+>>>>>>> origin/master
 
 
 

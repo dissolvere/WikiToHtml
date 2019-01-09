@@ -1,9 +1,10 @@
-var Mongoose = require('mongoose');
+var mongoose = require('mongoose');
+const {Schema}= mongoose;
 
-var ConvertedFile = Mongoose.model('ConvertedFile', {
+const ConvertedFile = new Schema ({
    text: {
-    type: String
+      type: String
    }
 });
 
-module.exports = {ConvertedFile};
+module.exports = mongoose.model('convertedFile', ConvertedFile);

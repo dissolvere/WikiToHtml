@@ -24,6 +24,7 @@ html(lang="pl")
 </form>
 </center>
 
+<<<<<<< HEAD
 <form action="/savefile" method="post">
 <textarea type="text" name="name1"></textarea>
 <input type="submit">
@@ -42,5 +43,13 @@ html(lang="pl")
 
  
 
+<input type="button" onclick="location.href='http://localhost:5000/convert';" value="Convert" />
+<input type="button" onclick="location.href='http://localhost:5000/show';" value="Show converted file" />
+<input type="button" onclick="location.href='http://localhost:5000/save';" value="Save converted file" />
+
+</center>
+
+=======
+>>>>>>> origin/master
 </body>
 

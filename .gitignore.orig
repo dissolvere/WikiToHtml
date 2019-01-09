@@ -160,6 +160,10 @@ typings/
 
 # End of https://www.gitignore.io/api/node,intellij
 /libstdc  -6.dll
+<<<<<<< HEAD
 /test/test
+=======
+
 # Config
 # /Config
+>>>>>>> origin/master
