@@ -44,7 +44,7 @@ app.use(busboy());
 var file ;
 
 // view engine setup
-app.use(bodyParser.json());
+
 
 
 function setFileName(req, res) {
@@ -64,11 +64,7 @@ var parse = function(id){
 }
 
 //PANDOC------------------------------------------------------------
-var pandoc = function(id){
-    DateParser.findOne({'id':id})
-        .then(One => {
-            if(One){
-                let fileParser = One.parser;
+
 app.post('/savefile', function(req, res){
     fs.writeFile("./test/test",req.body.name1,function(err){
         if (err) {
@@ -81,7 +77,11 @@ app.post('/savefile', function(req, res){
 
 
 
-
+var pandoc = function(id){
+    DateParser.findOne({'id':id})
+        .then(One => {
+            if(One){
+                let fileParser = One.parser;
                 argsToPandoc = '-f tikiwiki -t html5';
                 
                 callbackFromPandoc = function (err, result) {

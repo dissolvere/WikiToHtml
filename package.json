@@ -40,5 +40,8 @@
   "devDependencies": {
     "node-pandoc": "^0.3.0",
     "pug": "2.0.0-beta11"
+  },
+  "directories": {
+    "test": "test"
   }
 }
